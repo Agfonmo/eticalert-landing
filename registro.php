@@ -1,0 +1,253 @@
+<?php
+// ============================================================
+// EticAlert — registro.php
+// Procesamiento del formulario de registro de leads
+// ============================================================
+
+$errors   = [];
+$success  = false;
+$submitted = $_SERVER['REQUEST_METHOD'] === 'POST';
+
+if ($submitted) {
+  // Sanitizar y validar campos
+  $nombre   = trim(htmlspecialchars($_POST['nombre']   ?? '', ENT_QUOTES, 'UTF-8'));
+  $email    = trim(filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL));
+  $empresa  = trim(htmlspecialchars($_POST['empresa']  ?? '', ENT_QUOTES, 'UTF-8'));
+  $cif      = trim(htmlspecialchars($_POST['cif']      ?? '', ENT_QUOTES, 'UTF-8'));
+  $empleados = trim(htmlspecialchars($_POST['empleados'] ?? '', ENT_QUOTES, 'UTF-8'));
+  $telefono = trim(htmlspecialchars($_POST['telefono'] ?? '', ENT_QUOTES, 'UTF-8'));
+  $privacidad = isset($_POST['privacidad']);
+
+  // Validaciones
+  if (empty($nombre)) {
+    $errors['nombre'] = 'El nombre es obligatorio.';
+  }
+
+  if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $errors['email'] = 'Introduce un email corporativo válido.';
+  }
+
+  if (empty($empresa)) {
+    $errors['empresa'] = 'El nombre de empresa es obligatorio.';
+  }
+
+  if (empty($empleados)) {
+    $errors['empleados'] = 'Selecciona el número de empleados.';
+  }
+
+  if (!$privacidad) {
+    $errors['privacidad'] = 'Debes aceptar la política de privacidad para continuar.';
+  }
+
+  if (empty($errors)) {
+    // ---- Enviar email de notificación al admin ----
+    $admin_email   = 'info@eticalert.com'; // cambiar por el email real
+    $subject       = "Nuevo registro EticAlert: {$empresa}";
+    $email_headers = "From: no-reply@eticalert.com\r\nContent-Type: text/plain; charset=UTF-8\r\n";
+    $body = "Nuevo registro en EticAlert\n\n"
+          . "Nombre: {$nombre}\n"
+          . "Email: {$email}\n"
+          . "Empresa: {$empresa}\n"
+          . "CIF: " . ($cif ?: '—') . "\n"
+          . "Empleados: {$empleados}\n"
+          . "Teléfono: " . ($telefono ?: '—') . "\n"
+          . "Fecha: " . date('Y-m-d H:i:s') . "\n"
+          . "IP: " . ($_SERVER['REMOTE_ADDR'] ?? '—') . "\n";
+
+    @mail($admin_email, $subject, $body, $email_headers);
+
+    // ---- Email de confirmación al usuario ----
+    $confirm_subject = 'Tu canal de denuncias EticAlert está en camino';
+    $confirm_body    = "Hola {$nombre},\n\n"
+                     . "Hemos recibido tu solicitud de registro para {$empresa}.\n\n"
+                     . "En menos de 24 horas recibirás las instrucciones para acceder a\n"
+                     . "app.eticalert.com y configurar tu canal de denuncias.\n\n"
+                     . "Si tienes alguna duda, escríbenos a info@eticalert.com.\n\n"
+                     . "El equipo de EticAlert\n"
+                     . "https://eticalert.com";
+
+    @mail($email, $confirm_subject, $confirm_body, "From: EticAlert <no-reply@eticalert.com>\r\nContent-Type: text/plain; charset=UTF-8\r\n");
+
+    // ---- Guardar en CSV de backup ----
+    $csv_file = __DIR__ . '/data/registros.csv';
+    if (!is_dir(__DIR__ . '/data')) {
+      @mkdir(__DIR__ . '/data', 0700, true);
+    }
+    $csv_line = implode(';', [
+      date('Y-m-d H:i:s'),
+      $nombre, $email, $empresa, $cif, $empleados, $telefono,
+      $_SERVER['REMOTE_ADDR'] ?? ''
+    ]) . "\n";
+    @file_put_contents($csv_file, $csv_line, FILE_APPEND | LOCK_EX);
+
+    // ---- Redirigir a confirmación ----
+    header('Location: /registro-confirmacion.php?empresa=' . urlencode($empresa));
+    exit;
+  }
+}
+
+// Variables para la página
+$page_title       = 'Activa tu canal de denuncias | EticAlert';
+$page_description = 'Crea tu cuenta EticAlert y activa tu canal de denuncias en minutos. Cumple la Ley 2/2023 desde 39€/mes.';
+$page_canonical   = 'https://eticalert.com/registro';
+include 'includes/header.php';
+
+// Helper para mostrar errores
+function field_error($field, $errors) {
+  if (isset($errors[$field])) {
+    echo '<p class="field-error">' . htmlspecialchars($errors[$field]) . '</p>';
+  }
+}
+
+// Helper para conservar valores en caso de error
+function field_value($field, $default = '') {
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    return htmlspecialchars($_POST[$field] ?? $default, ENT_QUOTES, 'UTF-8');
+  }
+  return $default;
+}
+?>
+
+<main id="main-content">
+  <div class="form-page">
+    <div class="container">
+      <div class="form-wrapper">
+
+        <!-- Formulario -->
+        <div class="form-card fade-up">
+          <h1>Crea tu canal de denuncias</h1>
+          <p class="form-subtitle">Completa el formulario y en menos de 24 horas recibirás acceso para configurar tu canal.</p>
+
+          <?php if ($submitted && !empty($errors)): ?>
+          <div class="callout" role="alert" style="margin-bottom:1.5rem;">
+            <p><strong>Revisa los campos marcados</strong> para continuar con el registro.</p>
+          </div>
+          <?php endif; ?>
+
+          <form id="registro-form" method="POST" action="/registro" novalidate>
+
+            <div class="form-group">
+              <label for="nombre">Nombre completo <span style="color:var(--accent);">*</span></label>
+              <input type="text" id="nombre" name="nombre" required autocomplete="name"
+                     placeholder="María García López"
+                     value="<?= field_value('nombre') ?>"
+                     class="<?= isset($errors['nombre']) ? 'error' : '' ?>">
+              <?php field_error('nombre', $errors); ?>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email corporativo <span style="color:var(--accent);">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email"
+                     placeholder="maria@tuempresa.com"
+                     value="<?= field_value('email') ?>"
+                     class="<?= isset($errors['email']) ? 'error' : '' ?>">
+              <?php field_error('email', $errors); ?>
+            </div>
+
+            <div class="form-group">
+              <label for="empresa">Nombre de empresa <span style="color:var(--accent);">*</span></label>
+              <input type="text" id="empresa" name="empresa" required autocomplete="organization"
+                     placeholder="Empresa S.L."
+                     value="<?= field_value('empresa') ?>"
+                     class="<?= isset($errors['empresa']) ? 'error' : '' ?>">
+              <?php field_error('empresa', $errors); ?>
+            </div>
+
+            <div class="form-group">
+              <label for="cif">CIF <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
+              <input type="text" id="cif" name="cif" autocomplete="off"
+                     placeholder="B12345678"
+                     value="<?= field_value('cif') ?>">
+            </div>
+
+            <div class="form-group">
+              <label for="empleados">Número de empleados <span style="color:var(--accent);">*</span></label>
+              <select id="empleados" name="empleados" required
+                      class="<?= isset($errors['empleados']) ? 'error' : '' ?>">
+                <option value="">Selecciona un rango</option>
+                <option value="1-20"    <?= field_value('empleados') === '1-20'    ? 'selected' : '' ?>>Hasta 20 empleados (Plan Free)</option>
+                <option value="21-49"   <?= field_value('empleados') === '21-49'   ? 'selected' : '' ?>>21–49 empleados (Plan Business · 19€/mes)</option>
+                <option value="50-150"  <?= field_value('empleados') === '50-150'  ? 'selected' : '' ?>>50–150 empleados (Plan Company · 39€/mes)</option>
+                <option value="150+"    <?= field_value('empleados') === '150+'    ? 'selected' : '' ?>>Más de 150 empleados (Plan Enterprise)</option>
+              </select>
+              <?php field_error('empleados', $errors); ?>
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel"
+                     placeholder="+34 600 000 000"
+                     value="<?= field_value('telefono') ?>">
+            </div>
+
+            <label class="form-checkbox <?= isset($errors['privacidad']) ? 'error-label' : '' ?>">
+              <input type="checkbox" name="privacidad" value="1"
+                     <?= (isset($_POST['privacidad']) && $_SERVER['REQUEST_METHOD'] === 'POST') ? 'checked' : '' ?>>
+              Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.
+            </label>
+            <?php field_error('privacidad', $errors); ?>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:16px 28px;">
+              Crear mi canal →
+            </button>
+
+            <p class="form-submit-note">Te enviaremos acceso a app.eticalert.com para configurar tu canal en menos de 24 horas.</p>
+
+            <div class="form-benefits">
+              <div class="form-benefit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                Sin tarjeta de crédito
+              </div>
+              <div class="form-benefit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                Sin permanencia
+              </div>
+              <div class="form-benefit">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                Soporte incluido en todos los planes
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Información lateral -->
+        <div class="form-info fade-up delay-2">
+
+          <div class="form-info-card">
+            <h3>¿Qué pasa después?</h3>
+            <ol style="list-style:none;display:flex;flex-direction:column;gap:0.75rem;margin-top:0.75rem;">
+              <li style="display:flex;gap:0.75rem;align-items:flex-start;font-size:0.9rem;color:var(--text-secondary);">
+                <span style="background:var(--accent-subtle);border:1px solid var(--accent-border);color:var(--accent);font-size:0.75rem;font-weight:700;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">1</span>
+                Recibes un email de confirmación con el acceso a la plataforma.
+              </li>
+              <li style="display:flex;gap:0.75rem;align-items:flex-start;font-size:0.9rem;color:var(--text-secondary);">
+                <span style="background:var(--accent-subtle);border:1px solid var(--accent-border);color:var(--accent);font-size:0.75rem;font-weight:700;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">2</span>
+                Configuras tu canal con el wizard guiado: logo, categorías, RSII.
+              </li>
+              <li style="display:flex;gap:0.75rem;align-items:flex-start;font-size:0.9rem;color:var(--text-secondary);">
+                <span style="background:var(--accent-subtle);border:1px solid var(--accent-border);color:var(--accent);font-size:0.75rem;font-weight:700;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">3</span>
+                Publicas la URL en tu web. Tu canal está operativo y cumples la ley.
+              </li>
+            </ol>
+          </div>
+
+          <div class="form-info-card">
+            <h3>Seguridad y privacidad</h3>
+            <p>Tus datos se tratan conforme al RGPD. Solo se utilizan para gestionar tu acceso a la plataforma. No compartimos información con terceros. <a href="/privacidad" style="color:var(--accent);">Leer política completa →</a></p>
+          </div>
+
+          <div class="form-info-card">
+            <h3>¿Tienes preguntas?</h3>
+            <p>Escríbenos a <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a> y te respondemos en menos de 24 horas.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="/js/registro.js" defer></script>
+<?php include 'includes/footer.php'; ?>

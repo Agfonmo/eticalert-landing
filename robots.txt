@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# No indexar datos privados ni backups
+Disallow: /data/
+Disallow: /includes/
+
+Sitemap: https://eticalert.com/sitemap.xml
