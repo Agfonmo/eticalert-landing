@@ -81,7 +81,7 @@ if ($submitted) {
     @file_put_contents($csv_file, $csv_line, FILE_APPEND | LOCK_EX);
 
     // ---- Redirigir a confirmación ----
-    header('Location: /registro-confirmacion.php?empresa=' . urlencode($empresa));
+    header('Location: /registro-confirmacion?empresa=' . urlencode($empresa));
     exit;
   }
 }
