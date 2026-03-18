@@ -27,7 +27,9 @@ $page_body_class  = $page_body_class ?? '';
   <meta property="og:title"       content="<?= htmlspecialchars($page_og_title) ?>">
   <meta property="og:description" content="<?= htmlspecialchars($page_description) ?>">
   <meta property="og:url"         content="<?= htmlspecialchars($page_canonical) ?>">
-  <meta property="og:image"       content="https://eticalert.com/img/og-image.jpg">
+  <meta property="og:image"       content="https://eticalert.com/img/og-image.php">
+  <meta property="og:image:width"  content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:type"        content="website">
   <meta property="og:locale"      content="es_ES">
   <meta property="og:site_name"   content="EticAlert">
@@ -36,7 +38,7 @@ $page_body_class  = $page_body_class ?? '';
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:title"       content="<?= htmlspecialchars($page_og_title) ?>">
   <meta name="twitter:description" content="<?= htmlspecialchars($page_description) ?>">
-  <meta name="twitter:image"       content="https://eticalert.com/img/og-image.jpg">
+  <meta name="twitter:image"       content="https://eticalert.com/img/og-image.php">
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
