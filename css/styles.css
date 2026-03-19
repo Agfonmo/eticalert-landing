@@ -2484,6 +2484,7 @@ table.comparison .cross { color: var(--text-muted); }
 
   .pricing-grid {
     grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
   }
 
   .blog-grid {
@@ -2565,6 +2566,7 @@ table.comparison .cross { color: var(--text-muted); }
 
   .pricing-grid {
     grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
   }
 
   .form-wrapper {
