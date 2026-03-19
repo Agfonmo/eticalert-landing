@@ -35,6 +35,7 @@
         <h4>Recursos</h4>
         <ul>
           <li><a href="/blog/">Blog</a></li>
+          <li><a href="/faq">FAQ</a></li>
           <li><a href="/canal-de-denuncias">Guía Canal de denuncias</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias">Guía Ley 2/2023</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi">Guía RSII</a></li>

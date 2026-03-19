@@ -2513,7 +2513,29 @@ table.comparison .cross { color: var(--text-muted); }
 /* Actualizamos el texto vía JS */
 
 /* ============================================================
-   29. TESTIMONIALS
+   29. FAQ MORE LINK
+   ============================================================ */
+.faq-more {
+  max-width: 800px;
+  margin: 2rem auto 0;
+  text-align: center;
+}
+
+.faq-more-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.faq-more-link:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+/* ============================================================
+   30. TESTIMONIALS
    ============================================================ */
 .testimonials-grid {
   display: grid;
