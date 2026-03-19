@@ -636,7 +636,7 @@ include 'includes/header.php';
 
       </div>
 
-      <div class="faq-more fade-up">
+      <div class="faq-more fade-up" style="text-align:center; margin-top:2.5rem;">
         <a href="/faq" class="btn btn-primary">Ver todas las preguntas frecuentes →</a>
       </div>
 
