@@ -212,11 +212,13 @@ function field_value($field, $default = '') {
                   <div class="plan-name">Business</div>
                   <div class="plan-price">19 EUR/mes</div>
                   <div class="plan-range">De 21 a 49 empleados</div>
+                  <div class="plan-badge">190 EUR/año · <strong>-20%</strong></div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '50-150' ? 'selected' : '' ?>" data-value="50-150">
                   <div class="plan-name">Company</div>
                   <div class="plan-price">39 EUR/mes</div>
                   <div class="plan-range">De 50 a 150 empleados</div>
+                  <div class="plan-badge">390 EUR/año · <strong>-20%</strong></div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+">
                   <div class="plan-name">Enterprise</div>
