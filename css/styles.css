@@ -2400,7 +2400,7 @@ table.comparison .cross { color: var(--text-muted); }
     display: flex;
     gap: 3rem;
     justify-content: center;
-    max-width: 1100px;
+    max-width: var(--container-max);
     margin: 0 auto;
   }
 

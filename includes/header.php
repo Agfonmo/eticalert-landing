@@ -52,7 +52,7 @@ $page_body_class  = $page_body_class ?? '';
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/styles.css?v=20260319d">
+  <link rel="stylesheet" href="/css/styles.css?v=20260319e">
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>
