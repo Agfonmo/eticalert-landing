@@ -634,6 +634,110 @@ include 'includes/header.php';
           <div class="faq-answer" id="faq-8"><p>Sí. Datos alojados en la UE, cifrado AES-256 en tránsito y en reposo, minimización de datos, y conservación conforme a los plazos legales. Toda la arquitectura está diseñada con privacy-by-design.</p></div>
         </div>
 
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-9">
+            ¿Y si ya tengo un ERP o software de RRHH?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-9"><p>EticAlert funciona de forma independiente mediante un simple enlace web. Es mucho más rápido, barato y seguro jurídicamente (al estar aislado) que un módulo adicional.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-10">
+            ¿Realmente no necesito a mi informático?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-10"><p>No. Si sabes subir tu foto de perfil a una red social y copiar un enlace, sabes implementar EticAlert. Todo se gestiona desde el panel.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-11">
+            ¿Este canal me sirve para el Protocolo de Acoso Laboral / Plan de Igualdad?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-11"><p>Sí, EticAlert cubre no solo la Ley 2/2023, sino también la obligatoriedad de tener un canal de incidencias para los Planes de Igualdad y prevención de acoso (LIO).</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-12">
+            ¿Quién lee y gestiona las denuncias que llegan?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-12"><p>Solo las personas de tu empresa a las que asignes el rol de &ldquo;Resolutor&rdquo; (ej: Director de RRHH o Compliance). Nosotros proveemos la tecnología segura, pero jamás tenemos acceso al contenido descifrado de tus casos.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-13">
+            ¿Qué pasa si un empleado pone una denuncia falsa?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-13"><p>El sistema registra las IPs internamente de forma cifrada en el log de auditoría. Si las autoridades o un juez determinan que hubo mala fe y solicitan los datos, el canal cumple con la trazabilidad forense exigida.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-14">
+            ¿Qué pasa si mis denunciantes no se fían del anonimato?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-14"><p>Proporcionamos una &ldquo;web puente&rdquo; informativa antes de la denuncia, donde se explica de forma tranquilizadora nuestro cifrado de grado militar y se garantiza que tu empresa NO puede identificarles de la red.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-15">
+            ¿Qué pasa si no recibo ninguna denuncia?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-15"><p>No pasa absolutamente nada, y de hecho, es una buena señal. Lo importante ante la ley no es cuántas denuncias recibes, sino tener el canal operativo y a disposición de tus empleados. Solo con tener EticAlert activo ya cumples la Ley 2/2023, evitas las sanciones de la AIPI y demuestras una cultura ética sólida, algo cada vez más exigido por grandes clientes y en licitaciones públicas.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-16">
+            ¿Puedo cancelar en cualquier momento?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-16"><p>Sí, sin letra pequeña. En EticAlert no creemos en los contratos de permanencia ni en las penalizaciones. Puedes darte de baja cuando quieras con un solo clic. Si decides irte, te facilitamos la exportación de todo tu registro de auditoría para que conserves tu historial legal, y luego eliminamos tus datos de forma segura conforme al RGPD.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-17">
+            ¿Cómo demuestro ante la AIPI que tengo el canal operativo?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-17"><p>EticAlert hace el trabajo por ti. La plataforma genera automáticamente un certificado de cumplimiento y mantiene un registro de auditoría inmutable (append-only). Si la AIPI te pide explicaciones, solo tienes que descargar este informe que demuestra con sellos de tiempo exactos que tu canal está activo, cifrado y gestionado conforme a la Ley 2/2023.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-18">
+            ¿Qué pasa si recibo una denuncia y no sé cómo gestionarla?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-18"><p>No necesitas ser un experto legal. Cuando recibes un caso, el panel de EticAlert te guía paso a paso: te avisa cuándo debes enviar el acuse de recibo (tienes 7 días) y cuándo debes resolver (3 meses). Además, incluye plantillas de respuesta predefinidas para que sepas exactamente qué contestar en cada fase del proceso sin miedo a equivocarte.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-19">
+            ¿Mis empleados pueden denunciar desde el móvil?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-19"><p>Sí, el canal público es 100% responsive y funciona perfectamente en cualquier smartphone o tablet. Tus empleados no necesitan descargar ninguna aplicación ni registrarse. Solo tienen que hacer clic en el enlace que pongas en tu web o intranet, rellenar el formulario seguro y guardar su código de seguimiento para ver tus respuestas de forma anónima.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-20">
+            ¿Cumple también con la Directiva Europea de Whistleblowing?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-20"><p>Por supuesto. Nuestra plataforma ha sido diseñada desde cero para alinearse tanto con la Ley 2/2023 de España como con la Directiva Europea (UE) 2019/1937. Tienes la garantía total de que tu canal de denuncias respeta todos los requisitos técnicos, de confidencialidad y de plazos exigidos por Bruselas y Madrid.</p></div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-controls="faq-21">
+            ¿Puedo personalizar las categorías de denuncia?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer" id="faq-21"><p>Absolutamente. Tu panel de administrador te da control total para editar, añadir o eliminar los tipos de infracciones que los usuarios pueden reportar. No necesitas conocimientos técnicos; es tan fácil como escribir el nombre de la categoría y guardar. Así adaptas el canal a la realidad de tu empresa y a tu propio código ético.</p></div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -647,7 +751,20 @@ include 'includes/header.php';
       {"@type":"Question","name":"¿Quién está obligado a tener canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Toda empresa privada con 50 o más trabajadores, entidades del sector público, partidos políticos, sindicatos, y personas jurídicas con facturación superior a 10M€. La obligación viene de la Ley 2/2023."}},
       {"@type":"Question","name":"¿Qué es la AIPI y qué puede hacer?","acceptedAnswer":{"@type":"Answer","text":"La Autoridad Independiente de Protección del Informante supervisa el cumplimiento de la Ley 2/2023. Desde febrero de 2026 está operativa y puede sancionar hasta 1.000.000€."}},
       {"@type":"Question","name":"¿Se pueden recibir denuncias anónimas?","acceptedAnswer":{"@type":"Answer","text":"Sí. La Ley 2/2023 permite denuncias anónimas. EticAlert genera un código de seguimiento seguro para que el informante consulte el estado sin revelar su identidad."}},
-      {"@type":"Question","name":"¿Cuánto se tarda en activar EticAlert?","acceptedAnswer":{"@type":"Answer","text":"Menos de 5 minutos. Te registras, configuras tu canal con el wizard guiado y publicas la URL en tu web. Sin técnicos ni consultores."}}
+      {"@type":"Question","name":"¿Cuánto se tarda en activar EticAlert?","acceptedAnswer":{"@type":"Answer","text":"Menos de 5 minutos. Te registras, configuras tu canal con el wizard guiado y publicas la URL en tu web. Sin técnicos ni consultores."}},
+      {"@type":"Question","name":"¿Y si ya tengo un ERP o software de RRHH?","acceptedAnswer":{"@type":"Answer","text":"EticAlert funciona de forma independiente mediante un simple enlace web. Es mucho más rápido, barato y seguro jurídicamente (al estar aislado) que un módulo adicional."}},
+      {"@type":"Question","name":"¿Realmente no necesito a mi informático?","acceptedAnswer":{"@type":"Answer","text":"No. Si sabes subir tu foto de perfil a una red social y copiar un enlace, sabes implementar EticAlert. Todo se gestiona desde el panel."}},
+      {"@type":"Question","name":"¿Este canal me sirve para el Protocolo de Acoso Laboral / Plan de Igualdad?","acceptedAnswer":{"@type":"Answer","text":"Sí, EticAlert cubre no solo la Ley 2/2023, sino también la obligatoriedad de tener un canal de incidencias para los Planes de Igualdad y prevención de acoso (LIO)."}},
+      {"@type":"Question","name":"¿Quién lee y gestiona las denuncias que llegan?","acceptedAnswer":{"@type":"Answer","text":"Solo las personas de tu empresa a las que asignes el rol de Resolutor (ej: Director de RRHH o Compliance). Nosotros proveemos la tecnología segura, pero jamás tenemos acceso al contenido descifrado de tus casos."}},
+      {"@type":"Question","name":"¿Qué pasa si un empleado pone una denuncia falsa?","acceptedAnswer":{"@type":"Answer","text":"El sistema registra las IPs internamente de forma cifrada en el log de auditoría. Si las autoridades o un juez determinan que hubo mala fe y solicitan los datos, el canal cumple con la trazabilidad forense exigida."}},
+      {"@type":"Question","name":"¿Qué pasa si mis denunciantes no se fían del anonimato?","acceptedAnswer":{"@type":"Answer","text":"Proporcionamos una web puente informativa antes de la denuncia, donde se explica de forma tranquilizadora nuestro cifrado de grado militar y se garantiza que tu empresa NO puede identificarles de la red."}},
+      {"@type":"Question","name":"¿Qué pasa si no recibo ninguna denuncia?","acceptedAnswer":{"@type":"Answer","text":"No pasa absolutamente nada, y de hecho, es una buena señal. Lo importante ante la ley no es cuántas denuncias recibes, sino tener el canal operativo y a disposición de tus empleados. Solo con tener EticAlert activo ya cumples la Ley 2/2023, evitas las sanciones de la AIPI y demuestras una cultura ética sólida."}},
+      {"@type":"Question","name":"¿Puedo cancelar en cualquier momento?","acceptedAnswer":{"@type":"Answer","text":"Sí, sin letra pequeña. En EticAlert no creemos en los contratos de permanencia ni en las penalizaciones. Puedes darte de baja cuando quieras con un solo clic. Te facilitamos la exportación de tu registro de auditoría y luego eliminamos tus datos conforme al RGPD."}},
+      {"@type":"Question","name":"¿Cómo demuestro ante la AIPI que tengo el canal operativo?","acceptedAnswer":{"@type":"Answer","text":"EticAlert genera automáticamente un certificado de cumplimiento y mantiene un registro de auditoría inmutable (append-only). Si la AIPI te pide explicaciones, descarga el informe con sellos de tiempo que demuestra que tu canal está activo y conforme a la Ley 2/2023."}},
+      {"@type":"Question","name":"¿Qué pasa si recibo una denuncia y no sé cómo gestionarla?","acceptedAnswer":{"@type":"Answer","text":"No necesitas ser un experto legal. El panel de EticAlert te guía paso a paso: te avisa cuándo enviar el acuse de recibo (7 días) y cuándo resolver (3 meses). Incluye plantillas de respuesta predefinidas para cada fase del proceso."}},
+      {"@type":"Question","name":"¿Mis empleados pueden denunciar desde el móvil?","acceptedAnswer":{"@type":"Answer","text":"Sí, el canal público es 100% responsive y funciona en cualquier smartphone o tablet. No necesitan descargar ninguna app ni registrarse. Solo hacen clic en el enlace, rellenan el formulario seguro y guardan su código de seguimiento anónimo."}},
+      {"@type":"Question","name":"¿Cumple también con la Directiva Europea de Whistleblowing?","acceptedAnswer":{"@type":"Answer","text":"Por supuesto. La plataforma está diseñada para alinearse tanto con la Ley 2/2023 de España como con la Directiva Europea (UE) 2019/1937, cumpliendo todos los requisitos técnicos, de confidencialidad y de plazos."}},
+      {"@type":"Question","name":"¿Puedo personalizar las categorías de denuncia?","acceptedAnswer":{"@type":"Answer","text":"Absolutamente. Tu panel de administrador te da control total para editar, añadir o eliminar los tipos de infracciones. No necesitas conocimientos técnicos; es tan fácil como escribir el nombre de la categoría y guardar."}}
     ]
   }
   </script>
