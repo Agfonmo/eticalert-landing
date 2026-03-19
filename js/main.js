@@ -275,4 +275,17 @@
     });
   });
 
+  /* ----------------------------------------------------------
+     10. ACTIVE NAV LINK
+  ---------------------------------------------------------- */
+  (function () {
+    var path = window.location.pathname.replace(/\/$/, '');
+    document.querySelectorAll('.nav-links a, .nav-mobile a').forEach(function (a) {
+      var href = a.getAttribute('href').replace(/\/$/, '');
+      if (href && (path === href || (href === '/blog' && path.startsWith('/blog')))) {
+        a.classList.add('active');
+      }
+    });
+  })();
+
 })();
