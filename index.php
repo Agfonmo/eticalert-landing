@@ -63,26 +63,19 @@ include 'includes/header.php';
         <!-- ── Columna izquierda ── -->
         <div class="hero-content fade-up">
 
-          <!-- Badge superior animado -->
-          <div class="hero-badge">
-            <span class="hero-badge-dot" aria-hidden="true"></span>
-            <span>AIPI operativa — plazo límite 10 abril 2026</span>
-          </div>
-
           <h1 id="hero-heading">
             El canal de denuncias<br>
-            <span class="hero-h1-accent">que cumple la ley</span><br>
-            desde el día&nbsp;uno.
+            <span class="hero-h1-accent">que te protege de sanciones</span><br>
+            en solo 5&nbsp;minutos.
           </h1>
 
           <p class="hero-subtitle">
-            Activa tu Sistema Interno de Información en&nbsp;5 minutos.<br>
-            Ley 2/2023 cubierta. Sin técnicos. Sin consultores.
+            Cumple la Ley 2/2023 con un clic. Activa tu Sistema Interno de Información sin integraciones técnicas y protege a tu empresa frente a multas de hasta 1.000.000€.
           </p>
 
           <div class="btn-group">
             <a href="/registro" class="btn btn-primary btn-lg">
-              Crear canal gratis
+              Prueba gratis 15 días
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
             <a href="/como-funciona" class="btn btn-secondary btn-lg">Ver cómo funciona</a>
@@ -92,17 +85,17 @@ include 'includes/header.php';
           <div class="hero-proof">
             <div class="hero-proof-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-              Sin tarjeta de crédito
+              Cifrado AES-256
             </div>
             <div class="hero-proof-sep" aria-hidden="true"></div>
             <div class="hero-proof-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-              AES-256 · Datos en la UE
+              Alojado en la UE (RGPD)
             </div>
             <div class="hero-proof-sep" aria-hidden="true"></div>
             <div class="hero-proof-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-              0 cookies en canal público
+              Sin coste por usuario
             </div>
           </div>
         </div>
