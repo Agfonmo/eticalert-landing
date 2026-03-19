@@ -233,28 +233,37 @@ include 'includes/header.php';
 
   <!-- ==========================================================
        2b. CARRUSEL DE CLIENTES
+       Para activar: eliminar class="clients-carousel--hidden"
+       Para añadir logos reales: sustituir .client-logo por <img>
        ========================================================== -->
-  <section class="clients-carousel" aria-label="Empresas clientes">
+  <section class="clients-carousel clients-carousel--hidden" aria-label="Empresas clientes">
     <div class="container">
       <p class="clients-carousel__label">Empresas que ya cumplen con EticAlert</p>
     </div>
     <div class="clients-track-wrapper">
+      <!-- Fade lateral -->
       <div class="clients-fade clients-fade--left" aria-hidden="true"></div>
       <div class="clients-fade clients-fade--right" aria-hidden="true"></div>
-      <div class="clients-track">
+      <!-- Track duplicado para loop infinito -->
+      <div class="clients-track" aria-hidden="true">
         <div class="clients-set">
-          <div class="client-logo"><img src="/img/logos/logo-siembra-energia.png" alt="Siembra Energía"></div>
-          <div class="client-logo"><img src="/img/logos/logo-bmore3d.png" alt="Bemore3D"></div>
-          <div class="client-logo"><img src="/img/logos/logo-tadatic.png" alt="Tadatic"></div>
-          <div class="client-logo"><img src="/img/logos/logo-ezentis.png" alt="Ezentis"></div>
-          <div class="client-logo"><img src="/img/logos/logo-flutic.png" alt="Flutic"></div>
+          <div class="client-logo"><span>Empresa 1</span></div>
+          <div class="client-logo"><span>Empresa 2</span></div>
+          <div class="client-logo"><span>Empresa 3</span></div>
+          <div class="client-logo"><span>Empresa 4</span></div>
+          <div class="client-logo"><span>Empresa 5</span></div>
+          <div class="client-logo"><span>Empresa 6</span></div>
+          <div class="client-logo"><span>Empresa 7</span></div>
         </div>
+        <!-- Copia para loop sin saltos -->
         <div class="clients-set" aria-hidden="true">
-          <div class="client-logo"><img src="/img/logos/logo-siembra-energia.png" alt=""></div>
-          <div class="client-logo"><img src="/img/logos/logo-bmore3d.png" alt=""></div>
-          <div class="client-logo"><img src="/img/logos/logo-tadatic.png" alt=""></div>
-          <div class="client-logo"><img src="/img/logos/logo-ezentis.png" alt=""></div>
-          <div class="client-logo"><img src="/img/logos/logo-flutic.png" alt=""></div>
+          <div class="client-logo"><span>Empresa 1</span></div>
+          <div class="client-logo"><span>Empresa 2</span></div>
+          <div class="client-logo"><span>Empresa 3</span></div>
+          <div class="client-logo"><span>Empresa 4</span></div>
+          <div class="client-logo"><span>Empresa 5</span></div>
+          <div class="client-logo"><span>Empresa 6</span></div>
+          <div class="client-logo"><span>Empresa 7</span></div>
         </div>
       </div>
     </div>
