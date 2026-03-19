@@ -335,10 +335,6 @@ code, .mono {
   background: rgba(255, 255, 255, 0.04);
 }
 
-.nav-links a.active {
-  color: var(--accent);
-}
-
 .nav-actions {
   display: none;
   align-items: center;

@@ -13,17 +13,6 @@ $page_description = $page_description ?? 'Activa tu canal de denuncias en minuto
 $page_canonical   = $page_canonical ?? 'https://eticalert.com/';
 $page_og_title    = $page_og_title ?? $page_title;
 $page_body_class  = $page_body_class ?? '';
-
-// Active nav detection
-$_current_path = strtok($_SERVER['REQUEST_URI'], '?');
-function nav_active(string $path): string {
-  global $_current_path;
-  return (rtrim($_current_path, '/') === rtrim($path, '/')) ? ' active' : '';
-}
-function nav_active_prefix(string $prefix): string {
-  global $_current_path;
-  return (str_starts_with($_current_path, $prefix)) ? ' active' : '';
-}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -63,7 +52,7 @@ function nav_active_prefix(string $prefix): string {
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/styles.css?v=20260319c">
+  <link rel="stylesheet" href="/css/styles.css?v=20260319b">
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>
@@ -119,10 +108,10 @@ function nav_active_prefix(string $prefix): string {
 
       <!-- Desktop links -->
       <ul class="nav-links" role="list">
-        <li><a href="/como-funciona" class="<?= nav_active('/como-funciona') ?>">Cómo funciona</a></li>
-        <li><a href="/precios" class="<?= nav_active('/precios') ?>">Precios</a></li>
-        <li><a href="/canal-de-denuncias" class="<?= nav_active('/canal-de-denuncias') ?>">Canal de denuncias</a></li>
-        <li><a href="/blog/" class="<?= nav_active_prefix('/blog') ?>">Blog</a></li>
+        <li><a href="/como-funciona">Cómo funciona</a></li>
+        <li><a href="/precios">Precios</a></li>
+        <li><a href="/canal-de-denuncias">Canal de denuncias</a></li>
+        <li><a href="/blog/">Blog</a></li>
       </ul>
 
       <!-- Desktop actions -->
@@ -155,10 +144,10 @@ function nav_active_prefix(string $prefix): string {
 
 <!-- Mobile nav -->
 <nav id="mobile-nav" class="nav-mobile" aria-label="Menú móvil">
-  <a href="/como-funciona" class="<?= nav_active('/como-funciona') ?>">Cómo funciona</a>
-  <a href="/precios" class="<?= nav_active('/precios') ?>">Precios</a>
-  <a href="/canal-de-denuncias" class="<?= nav_active('/canal-de-denuncias') ?>">Canal de denuncias</a>
-  <a href="/blog/" class="<?= nav_active_prefix('/blog') ?>">Blog</a>
+  <a href="/como-funciona">Cómo funciona</a>
+  <a href="/precios">Precios</a>
+  <a href="/canal-de-denuncias">Canal de denuncias</a>
+  <a href="/blog/">Blog</a>
   <div class="nav-mobile-actions">
     <button class="theme-toggle" aria-label="Cambiar tema" style="width:100%; border-radius: var(--radius-sm);">
       <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
