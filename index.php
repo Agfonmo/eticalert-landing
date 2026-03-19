@@ -385,7 +385,7 @@ include 'includes/header.php';
     <div class="container">
       <div class="section-header fade-up pricing-intro">
         <h2 id="pricing-heading">Precios claros. Sin letra pequeña.</h2>
-        <p>Precio fijo por empresa. Sin coste por usuario ni por empleado.</p>
+        <p>Pruébalo gratis durante 15 días. No necesitas tarjeta de crédito. Precio fijo por empresa. Sin coste adicional por usuario.</p>
       </div>
 
       <div class="pricing-grid">

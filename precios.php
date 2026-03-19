@@ -30,7 +30,7 @@ include 'includes/header.php';
       <div style="text-align:center; max-width:640px; margin:0 auto;" class="fade-up">
         <span class="overline">Precios</span>
         <h1 style="margin-bottom:0.75rem;">Precios claros. Sin sorpresas.</h1>
-        <p style="font-size:1.125rem; color:var(--text-secondary); margin-bottom:2.5rem;">Precio fijo por empresa. Sin coste por usuario ni por empleado. Sin letra pequeña.</p>
+        <p style="font-size:1.125rem; color:var(--text-secondary); margin-bottom:2.5rem;">Pruébalo gratis durante 15 días. No necesitas tarjeta de crédito. Precio fijo por empresa. Sin coste adicional por usuario.</p>
       </div>
 
       <!-- Toggle mensual/anual -->
