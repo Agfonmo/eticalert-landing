@@ -231,43 +231,6 @@ include 'includes/header.php';
     </div>
   </section>
 
-  <!-- ==========================================================
-       2b. CARRUSEL DE CLIENTES
-       Para activar: eliminar class="clients-carousel--hidden"
-       Para añadir logos reales: sustituir .client-logo por <img>
-       ========================================================== -->
-  <section class="clients-carousel clients-carousel--hidden" aria-label="Empresas clientes">
-    <div class="container">
-      <p class="clients-carousel__label">Empresas que ya cumplen con EticAlert</p>
-    </div>
-    <div class="clients-track-wrapper">
-      <!-- Fade lateral -->
-      <div class="clients-fade clients-fade--left" aria-hidden="true"></div>
-      <div class="clients-fade clients-fade--right" aria-hidden="true"></div>
-      <!-- Track duplicado para loop infinito -->
-      <div class="clients-track" aria-hidden="true">
-        <div class="clients-set">
-          <div class="client-logo"><span>Empresa 1</span></div>
-          <div class="client-logo"><span>Empresa 2</span></div>
-          <div class="client-logo"><span>Empresa 3</span></div>
-          <div class="client-logo"><span>Empresa 4</span></div>
-          <div class="client-logo"><span>Empresa 5</span></div>
-          <div class="client-logo"><span>Empresa 6</span></div>
-          <div class="client-logo"><span>Empresa 7</span></div>
-        </div>
-        <!-- Copia para loop sin saltos -->
-        <div class="clients-set" aria-hidden="true">
-          <div class="client-logo"><span>Empresa 1</span></div>
-          <div class="client-logo"><span>Empresa 2</span></div>
-          <div class="client-logo"><span>Empresa 3</span></div>
-          <div class="client-logo"><span>Empresa 4</span></div>
-          <div class="client-logo"><span>Empresa 5</span></div>
-          <div class="client-logo"><span>Empresa 6</span></div>
-          <div class="client-logo"><span>Empresa 7</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ==========================================================
        3. PROBLEMA → SOLUCIÓN
