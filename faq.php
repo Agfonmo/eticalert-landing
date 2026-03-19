@@ -11,12 +11,6 @@ include 'includes/header.php';
   <section style="padding: 120px 0 40px;">
     <div class="container">
       <div style="max-width:800px; margin:0 auto;" class="fade-up">
-        <!-- Breadcrumb -->
-        <nav class="breadcrumb" aria-label="Ruta de navegación" style="margin-bottom:1.5rem;">
-          <a href="/">Inicio</a>
-          <span aria-hidden="true"> › </span>
-          <span aria-current="page">Preguntas frecuentes</span>
-        </nav>
         <h1>Preguntas frecuentes</h1>
         <p style="font-size:1.125rem; margin-top:1rem;">Todo lo que necesitas saber sobre EticAlert, la Ley 2/2023 y la gestión de denuncias en tu empresa.</p>
       </div>
