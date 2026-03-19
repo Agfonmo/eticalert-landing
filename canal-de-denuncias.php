@@ -33,11 +33,7 @@ include 'includes/header.php';
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">
 
-      <nav class="breadcrumb" aria-label="Migas de pan">
-        <a href="/">Inicio</a>
-        <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <span>Canal de denuncias</span>
-      </nav>
+
 
       <div class="article-layout with-toc">
 
