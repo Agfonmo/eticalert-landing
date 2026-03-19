@@ -313,5 +313,5 @@ function field_value($field, $default = '') {
   </div>
 </main>
 
-<script src="/js/registro.js?v=20260319h" defer></script>
+<script src="/js/registro.js?v=20260319i" defer></script>
 <?php include 'includes/footer.php'; ?>

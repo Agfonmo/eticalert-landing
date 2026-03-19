@@ -43,8 +43,26 @@
     if (el) el.remove();
   }
 
+  var FREE_DOMAINS = [
+    'gmail.com','googlemail.com','hotmail.com','hotmail.es','outlook.com','outlook.es',
+    'live.com','live.es','yahoo.com','yahoo.es','icloud.com','me.com','mac.com',
+    'aol.com','protonmail.com','proton.me','tutanota.com','gmx.com','gmx.es',
+    'yandex.com','mail.com','zoho.com'
+  ];
+
   function isValidEmail(v) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+    if (!v) return false;
+    // Formato estricto: no empieza ni termina con punto, sin doble punto
+    if (!/^[a-zA-Z0-9]([a-zA-Z0-9._%+\-]*[a-zA-Z0-9])?@[a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?)+$/.test(v)) return false;
+    if (v.indexOf('..') !== -1) return false;
+    return true;
+  }
+
+  function isCorporateEmail(v) {
+    if (!v) return false;
+    var domain = v.split('@')[1];
+    if (!domain) return false;
+    return FREE_DOMAINS.indexOf(domain.toLowerCase()) === -1;
   }
 
   function isValidPhone(v) {
@@ -91,6 +109,9 @@
       ok = false;
     } else if (!isValidEmail(email.value.trim())) {
       showError(email, 'Introduce un email corporativo válido.');
+      ok = false;
+    } else if (!isCorporateEmail(email.value.trim())) {
+      showError(email, 'Usa tu email corporativo, no un email personal (Gmail, Hotmail…).');
       ok = false;
     }
     if (!empresa || !empresa.value.trim()) {
@@ -192,6 +213,8 @@
         showError(field, cfg.empty);
       } else if (cfg.id === 'email' && !isValidEmail(val)) {
         showError(field, 'Introduce un email corporativo válido.');
+      } else if (cfg.id === 'email' && !isCorporateEmail(val)) {
+        showError(field, 'Usa tu email corporativo, no un email personal (Gmail, Hotmail…).');
       } else if (cfg.id === 'cif' && !isValidCIF(val)) {
         showError(field, 'El CIF no tiene el formato correcto (ej: B12345678).');
       } else {
