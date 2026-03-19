@@ -1,109 +1,179 @@
 <?php
 // ============================================================
 // EticAlert — registro.php
-// Procesamiento del formulario de registro de leads
 // ============================================================
+session_start();
 
-$errors   = [];
-$success  = false;
+$errors  = [];
 $submitted = $_SERVER['REQUEST_METHOD'] === 'POST';
 
-if ($submitted) {
-  // Sanitizar y validar campos
-  $nombre   = trim(htmlspecialchars($_POST['nombre']   ?? '', ENT_QUOTES, 'UTF-8'));
-  $email    = trim(filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL));
-  $empresa  = trim(htmlspecialchars($_POST['empresa']  ?? '', ENT_QUOTES, 'UTF-8'));
-  $cif      = trim(htmlspecialchars($_POST['cif']      ?? '', ENT_QUOTES, 'UTF-8'));
-  $empleados = trim(htmlspecialchars($_POST['empleados'] ?? '', ENT_QUOTES, 'UTF-8'));
-  $telefono = trim(htmlspecialchars($_POST['telefono'] ?? '', ENT_QUOTES, 'UTF-8'));
-  $privacidad = isset($_POST['privacidad']);
+// CSRF token
+if (empty($_SESSION['csrf_token'])) {
+  $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+$csrf_token = $_SESSION['csrf_token'];
 
-  // Validaciones
-  if (empty($nombre)) {
-    $errors['nombre'] = 'El nombre es obligatorio.';
+// Rate limiting básico: máx 5 intentos por sesión en 10 min
+if (!isset($_SESSION['reg_attempts'])) $_SESSION['reg_attempts'] = [];
+$_SESSION['reg_attempts'] = array_filter($_SESSION['reg_attempts'], fn($t) => $t > time() - 600);
+
+$plan_map = ['1-20' => 'FREE', '21-49' => 'BUSINESS', '50-150' => 'COMPANY', '150+' => 'ENTERPRISE'];
+
+$sectors = [
+  'Agricultura y ganadería','Alimentación y bebidas','Automoción',
+  'Comercio y retail','Comunicación y medios','Construcción e inmobiliaria',
+  'Consultoría y asesoría','Deporte y ocio','Educación y formación',
+  'Energía y utilities','Industria y manufactura','Legal y jurídico',
+  'Logística y transporte','Marketing y publicidad','ONG y asociaciones',
+  'Recursos humanos','Salud y farmacia','Seguridad','Seguros',
+  'Servicios financieros y banca','Tecnología e informática',
+  'Turismo y hostelería','Administración pública','Otro',
+];
+
+if ($submitted) {
+  // Honeypot: si viene relleno es un bot
+  if (!empty($_POST['website'])) { http_response_code(400); exit; }
+
+  // CSRF
+  if (!hash_equals($csrf_token, $_POST['csrf_token'] ?? '')) {
+    $errors['csrf'] = 'Token de seguridad inválido. Recarga la página.';
   }
+
+  // Rate limiting
+  if (count($_SESSION['reg_attempts']) >= 5) {
+    $errors['rate'] = 'Demasiados intentos. Espera unos minutos e inténtalo de nuevo.';
+  }
+
+  // Sanitizar
+  $nombre    = trim(htmlspecialchars($_POST['nombre']    ?? '', ENT_QUOTES, 'UTF-8'));
+  $email     = trim(filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL));
+  $empresa   = trim(htmlspecialchars($_POST['empresa']   ?? '', ENT_QUOTES, 'UTF-8'));
+  $cif       = strtoupper(trim(preg_replace('/[\s\-]/', '', $_POST['cif'] ?? '')));
+  $sector    = trim(htmlspecialchars($_POST['sector']    ?? '', ENT_QUOTES, 'UTF-8'));
+  $empleados = trim(htmlspecialchars($_POST['empleados'] ?? '', ENT_QUOTES, 'UTF-8'));
+  $billing   = ($_POST['billing'] ?? 'monthly') === 'annual' ? 'annual' : 'monthly';
+  $accept_privacy  = isset($_POST['acceptTermsAndPrivacy']);
+  $accept_contract = isset($_POST['acceptCompanyAdminContract']);
+
+  // Validaciones servidor
+  if (empty($nombre)) $errors['nombre'] = 'El nombre es obligatorio.';
 
   if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors['email'] = 'Introduce un email corporativo válido.';
+  } else {
+    $free_domains = ['gmail.com','googlemail.com','hotmail.com','hotmail.es','outlook.com',
+      'outlook.es','live.com','live.es','yahoo.com','yahoo.es','icloud.com','me.com',
+      'mac.com','aol.com','protonmail.com','proton.me','tutanota.com','gmx.com','gmx.es'];
+    $domain = strtolower(explode('@', $email)[1] ?? '');
+    if (in_array($domain, $free_domains)) {
+      $errors['email'] = 'Usa tu email corporativo, no un email personal.';
+    }
   }
 
-  if (empty($empresa)) {
-    $errors['empresa'] = 'El nombre de empresa es obligatorio.';
+  if (strlen($empresa) < 2 || strlen($empresa) > 150) $errors['empresa'] = 'El nombre de empresa es obligatorio.';
+
+  if (!preg_match('/^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$/i', $cif)) {
+    $errors['cif'] = 'El CIF no tiene el formato correcto (ej: B12345678).';
   }
 
-  if (empty($cif)) {
-    $errors['cif'] = 'El CIF es obligatorio.';
+  if (strlen($sector) < 2 || !in_array($sector, $sectors)) {
+    $errors['sector'] = 'Selecciona un sector de la lista.';
   }
 
-  if (empty($empleados)) {
-    $errors['empleados'] = 'Selecciona el número de empleados.';
+  if (empty($empleados) || !isset($plan_map[$empleados])) {
+    $errors['empleados'] = 'Selecciona un plan para continuar.';
   }
 
-  if (!$privacidad) {
-    $errors['privacidad'] = 'Debes aceptar la política de privacidad para continuar.';
-  }
+  if (!$accept_privacy)  $errors['acceptTermsAndPrivacy']      = 'Debes aceptar la política de privacidad y los términos de uso.';
+  if (!$accept_contract) $errors['acceptCompanyAdminContract'] = 'Debes aceptar el contrato de administrador para continuar.';
 
   if (empty($errors)) {
-    // ---- Enviar email de notificación al admin ----
-    $admin_email   = 'info@eticalert.com'; // cambiar por el email real
-    $subject       = "Nuevo registro EticAlert: {$empresa}";
-    $email_headers = "From: no-reply@eticalert.com\r\nContent-Type: text/plain; charset=UTF-8\r\n";
-    $body = "Nuevo registro en EticAlert\n\n"
-          . "Nombre: {$nombre}\n"
-          . "Email: {$email}\n"
-          . "Empresa: {$empresa}\n"
-          . "CIF: " . ($cif ?: '—') . "\n"
-          . "Empleados: {$empleados}\n"
-          . "Teléfono: " . ($telefono ?: '—') . "\n"
-          . "Fecha: " . date('Y-m-d H:i:s') . "\n"
-          . "IP: " . ($_SERVER['REMOTE_ADDR'] ?? '—') . "\n";
+    $_SESSION['reg_attempts'][] = time();
 
-    @mail($admin_email, $subject, $body, $email_headers);
+    $plan = $plan_map[$empleados];
 
-    // ---- Email de confirmación al usuario ----
-    $confirm_subject = 'Tu canal de denuncias EticAlert está en camino';
-    $confirm_body    = "Hola {$nombre},\n\n"
-                     . "Hemos recibido tu solicitud de registro para {$empresa}.\n\n"
-                     . "En menos de 24 horas recibirás las instrucciones para acceder a\n"
-                     . "app.eticalert.com y configurar tu canal de denuncias.\n\n"
-                     . "Si tienes alguna duda, escríbenos a info@eticalert.com.\n\n"
-                     . "El equipo de EticAlert\n"
-                     . "https://eticalert.com";
+    // ---- Llamada a la API de app ----
+    $api_payload = json_encode([
+      'companyName'               => $empresa,
+      'cif'                       => $cif,
+      'sector'                    => $sector,
+      'adminEmail'                => $email,
+      'plan'                      => $plan,
+      'billing'                   => $billing,
+      'acceptTermsAndPrivacy'     => true,
+      'acceptCompanyAdminContract'=> true,
+    ], JSON_UNESCAPED_UNICODE);
 
-    @mail($email, $confirm_subject, $confirm_body, "From: EticAlert <no-reply@eticalert.com>\r\nContent-Type: text/plain; charset=UTF-8\r\n");
+    $api_ok = false;
+    $api_error_msg = '';
 
-    // ---- Guardar en CSV de backup ----
-    $csv_file = __DIR__ . '/data/registros.csv';
-    if (!is_dir(__DIR__ . '/data')) {
-      @mkdir(__DIR__ . '/data', 0700, true);
+    if (function_exists('curl_init')) {
+      $ch = curl_init('https://app.eticalert.com/api/auth/register');
+      curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_POST           => true,
+        CURLOPT_POSTFIELDS     => $api_payload,
+        CURLOPT_HTTPHEADER     => ['Content-Type: application/json', 'Accept: application/json'],
+        CURLOPT_TIMEOUT        => 10,
+        CURLOPT_SSL_VERIFYPEER => true,
+      ]);
+      $api_response = curl_exec($ch);
+      $api_status   = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+      $curl_error   = curl_error($ch);
+      curl_close($ch);
+
+      if ($api_status >= 200 && $api_status < 300) {
+        $api_ok = true;
+      } else {
+        $body = json_decode($api_response, true);
+        $api_error_msg = $body['message'] ?? $body['error'] ?? 'Error desconocido (HTTP ' . $api_status . ')';
+        // Si el email ya existe en la app
+        if ($api_status === 409) {
+          $errors['email'] = 'Ya existe una cuenta con este email. <a href="https://app.eticalert.com/login">Accede aquí →</a>';
+        } else {
+          $errors['api'] = 'No se pudo crear la cuenta: ' . htmlspecialchars($api_error_msg) . '. Si el problema persiste, escríbenos a info@eticalert.com.';
+        }
+      }
     }
+
+    // ---- Fallback CSV (siempre, para auditoría) ----
+    $csv_file = __DIR__ . '/data/registros.csv';
+    if (!is_dir(__DIR__ . '/data')) @mkdir(__DIR__ . '/data', 0700, true);
     $csv_line = implode(';', [
-      date('Y-m-d H:i:s'),
-      $nombre, $email, $empresa, $cif, $empleados, $telefono,
+      date('Y-m-d H:i:s'), $nombre, $email, $empresa, $cif,
+      $sector, $empleados, $billing, $api_ok ? 'api_ok' : 'api_fail',
       $_SERVER['REMOTE_ADDR'] ?? ''
     ]) . "\n";
     @file_put_contents($csv_file, $csv_line, FILE_APPEND | LOCK_EX);
 
-    // ---- Redirigir a confirmación ----
-    header('Location: /registro-confirmacion?empresa=' . urlencode($empresa));
-    exit;
+    // ---- Email admin (solo si API falla, para que no pierda el lead) ----
+    if (!$api_ok && empty($errors['api']) === false) {
+      $admin_body = "Lead no procesado por API — requiere atención manual\n\n"
+        . "Nombre: {$nombre}\nEmail: {$email}\nEmpresa: {$empresa}\nCIF: {$cif}\n"
+        . "Sector: {$sector}\nPlan: {$plan}\nBilling: {$billing}\n"
+        . "Error API: {$api_error_msg}\nFecha: " . date('Y-m-d H:i:s') . "\n";
+      @mail('info@eticalert.com', "⚠️ Lead sin procesar: {$empresa}", $admin_body,
+        "From: no-reply@eticalert.com\r\nContent-Type: text/plain; charset=UTF-8\r\n");
+    }
+
+    if ($api_ok) {
+      header('Location: /registro-confirmacion?empresa=' . urlencode($empresa));
+      exit;
+    }
   }
 }
 
 // Variables para la página
 $page_title       = 'Activa tu canal de denuncias | EticAlert';
-$page_description = 'Crea tu cuenta EticAlert y activa tu canal de denuncias en minutos. Cumple la Ley 2/2023 desde 39€/mes.';
+$page_description = 'Crea tu cuenta EticAlert y activa tu canal de denuncias en minutos. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/registro';
 include 'includes/header.php';
 
-// Helper para mostrar errores
 function field_error($field, $errors) {
   if (isset($errors[$field])) {
-    echo '<p class="field-error">' . htmlspecialchars($errors[$field]) . '</p>';
+    echo '<p class="field-error">' . $errors[$field] . '</p>';
   }
 }
-
-// Helper para conservar valores en caso de error
 function field_value($field, $default = '') {
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     return htmlspecialchars($_POST[$field] ?? $default, ENT_QUOTES, 'UTF-8');
@@ -117,7 +187,6 @@ function field_value($field, $default = '') {
     <div class="container">
       <div class="form-wrapper">
 
-        <!-- Formulario -->
         <div class="form-card fade-up">
 
           <?php if ($submitted && !empty($errors)): ?>
@@ -127,9 +196,13 @@ function field_value($field, $default = '') {
           <?php endif; ?>
 
           <form id="registro-form" method="POST" action="/registro" novalidate>
-
-            <!-- El plan elegido en el paso 2 rellena este campo oculto -->
-            <input type="hidden" name="empleados" id="empleados-hidden" value="<?= field_value('empleados') ?>">
+            <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($csrf_token) ?>">
+            <input type="hidden" name="empleados"  id="empleados-hidden" value="<?= field_value('empleados') ?>">
+            <input type="hidden" name="billing"    id="billing-hidden"   value="<?= field_value('billing', 'monthly') ?>">
+            <!-- Honeypot anti-bot (oculto con CSS) -->
+            <div style="position:absolute;left:-9999px;opacity:0;pointer-events:none;" aria-hidden="true">
+              <input type="text" name="website" tabindex="-1" autocomplete="off">
+            </div>
 
             <!-- ========== PASO 1: Tus datos ========== -->
             <div class="form-step" id="step-1">
@@ -178,14 +251,26 @@ function field_value($field, $default = '') {
                 <?php field_error('cif', $errors); ?>
               </div>
 
+              <!-- Sector buscador -->
               <div class="form-group">
-                <label for="telefono">Teléfono <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
-                <input type="tel" id="telefono" name="telefono" autocomplete="tel"
-                       placeholder="+34 600 000 000"
-                       value="<?= field_value('telefono') ?>">
+                <label for="sector-input">Sector <span style="color:var(--accent);">*</span></label>
+                <div class="sector-wrapper <?= isset($errors['sector']) ? 'error' : '' ?>">
+                  <input type="text" id="sector-input" autocomplete="off"
+                         placeholder="Buscar sector…"
+                         value="<?= field_value('sector') ?>"
+                         class="sector-search-input <?= isset($errors['sector']) ? 'error' : '' ?>">
+                  <input type="hidden" id="sector" name="sector" value="<?= field_value('sector') ?>">
+                  <ul class="sector-dropdown" id="sector-dropdown" role="listbox" hidden>
+                    <?php foreach ($sectors as $s): ?>
+                    <li role="option" data-value="<?= htmlspecialchars($s) ?>"><?= htmlspecialchars($s) ?></li>
+                    <?php endforeach; ?>
+                  </ul>
+                </div>
+                <?php field_error('sector', $errors); ?>
               </div>
 
-              <button type="button" id="btn-step1-next" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:16px 28px;">
+              <button type="button" id="btn-step1-next" class="btn btn-primary"
+                      style="width:100%;justify-content:center;font-size:1rem;padding:16px 28px;">
                 Siguiente →
               </button>
 
@@ -202,7 +287,6 @@ function field_value($field, $default = '') {
               <h2 class="form-step2-title">Elige tu plan</h2>
               <p class="form-subtitle">Mostramos precios por segmento. Validaremos el tier final tras revisar el Informe de Plantilla Media durante la prueba de 15 días.</p>
 
-              <!-- Toggle mensual / anual -->
               <div class="billing-toggle" style="justify-content:flex-start;margin-bottom:1.25rem;">
                 <label id="lbl-monthly" class="active">Mensual</label>
                 <label class="toggle-switch">
@@ -211,29 +295,28 @@ function field_value($field, $default = '') {
                 </label>
                 <label id="lbl-annual">Anual <span class="billing-badge">-20%</span></label>
               </div>
-              <input type="hidden" name="billing" id="billing-hidden" value="monthly">
 
               <div class="plan-grid">
                 <div class="plan-card <?= field_value('empleados') === '1-20'   ? 'selected' : '' ?>" data-value="1-20"
-                     data-monthly="0 EUR/mes" data-annual="0 EUR/mes">
+                     data-monthly="0 EUR/mes" data-annual="0 EUR/mes" data-plan="FREE">
                   <div class="plan-name">Free</div>
                   <div class="plan-price"><span class="plan-price-val">0 EUR/mes</span></div>
                   <div class="plan-range">Hasta 20 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '21-49'  ? 'selected' : '' ?>" data-value="21-49"
-                     data-monthly="19 EUR/mes" data-annual="190 EUR/año">
+                     data-monthly="19 EUR/mes" data-annual="190 EUR/año" data-plan="BUSINESS">
                   <div class="plan-name">Business</div>
                   <div class="plan-price"><span class="plan-price-val">19 EUR/mes</span></div>
                   <div class="plan-range">De 21 a 49 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '50-150' ? 'selected' : '' ?>" data-value="50-150"
-                     data-monthly="39 EUR/mes" data-annual="390 EUR/año">
+                     data-monthly="39 EUR/mes" data-annual="390 EUR/año" data-plan="COMPANY">
                   <div class="plan-name">Company</div>
                   <div class="plan-price"><span class="plan-price-val">39 EUR/mes</span></div>
                   <div class="plan-range">De 50 a 150 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+"
-                     data-monthly="Consultar" data-annual="Consultar">
+                     data-monthly="Consultar" data-annual="Consultar" data-plan="ENTERPRISE">
                   <div class="plan-name">Enterprise</div>
                   <div class="plan-price"><span class="plan-price-val">Consultar</span></div>
                   <div class="plan-range">Acuerdo comercial</div>
@@ -241,14 +324,21 @@ function field_value($field, $default = '') {
               </div>
               <p id="plan-error" class="field-error" style="display:none;margin-bottom:1rem;"><?php if (isset($errors['empleados'])) echo htmlspecialchars($errors['empleados']); ?></p>
 
-              <label class="form-checkbox <?= isset($errors['privacidad']) ? 'error-label' : '' ?>">
-                <input type="checkbox" name="privacidad" value="1"
-                       <?= (isset($_POST['privacidad']) && $_SERVER['REQUEST_METHOD'] === 'POST') ? 'checked' : '' ?>>
+              <label class="form-checkbox <?= isset($errors['acceptTermsAndPrivacy']) ? 'error-label' : '' ?>" style="margin-top:1.25rem;">
+                <input type="checkbox" name="acceptTermsAndPrivacy" value="1"
+                       <?= (isset($_POST['acceptTermsAndPrivacy'])) ? 'checked' : '' ?>>
                 <span>Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.</span>
               </label>
-              <?php field_error('privacidad', $errors); ?>
+              <?php field_error('acceptTermsAndPrivacy', $errors); ?>
 
-              <div class="form-step-nav">
+              <label class="form-checkbox <?= isset($errors['acceptCompanyAdminContract']) ? 'error-label' : '' ?>" style="margin-top:0.75rem;">
+                <input type="checkbox" name="acceptCompanyAdminContract" value="1"
+                       <?= (isset($_POST['acceptCompanyAdminContract'])) ? 'checked' : '' ?>>
+                <span>Acepto el <a href="/legal#contrato-administrador" target="_blank">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
+              </label>
+              <?php field_error('acceptCompanyAdminContract', $errors); ?>
+
+              <div class="form-step-nav" style="margin-top:1.5rem;">
                 <button type="button" id="btn-step2-back" class="btn btn-secondary">← Volver</button>
                 <button type="submit" class="btn btn-primary" style="font-size:1rem;padding:16px 28px;">
                   Iniciar prueba de 15 días →
@@ -313,5 +403,5 @@ function field_value($field, $default = '') {
   </div>
 </main>
 
-<script src="/js/registro.js?v=20260319i" defer></script>
+<script src="/js/registro.js?v=20260319j" defer></script>
 <?php include 'includes/footer.php'; ?>

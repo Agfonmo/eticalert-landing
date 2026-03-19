@@ -2238,6 +2238,47 @@ table.comparison .cross { color: var(--text-muted); }
 }
 
 /* ============================================================
+   Sector searchable dropdown
+   ============================================================ */
+.sector-wrapper {
+  position: relative;
+}
+
+.sector-search-input {
+  width: 100%;
+}
+
+.sector-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border: 1.5px solid var(--accent-border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 100;
+  list-style: none;
+  margin: 0;
+  padding: 0.375rem 0;
+}
+
+.sector-dropdown li {
+  padding: 0.625rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.sector-dropdown li:hover {
+  background: var(--accent-subtle);
+  color: var(--text-primary);
+}
+
+/* ============================================================
    21. BREADCRUMBS
    ============================================================ */
 .breadcrumb {
