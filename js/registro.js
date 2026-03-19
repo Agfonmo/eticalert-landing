@@ -6,23 +6,24 @@
 (function () {
   'use strict';
 
-  const form = document.getElementById('registro-form');
+  var form = document.getElementById('registro-form');
   if (!form) return;
 
-  const step1 = document.getElementById('step-1');
-  const step2 = document.getElementById('step-2');
-  const btnNext = document.getElementById('btn-step1-next');
-  const btnBack = document.getElementById('btn-step2-back');
-  const empleadosHidden = document.getElementById('empleados-hidden');
-  const planCards = document.querySelectorAll('.plan-card');
-  const planError = document.getElementById('plan-error');
+  var step1 = document.getElementById('step-1');
+  var step2 = document.getElementById('step-2');
+  var btnNext = document.getElementById('btn-step1-next');
+  var btnBack = document.getElementById('btn-step2-back');
+  var empleadosHidden = document.getElementById('empleados-hidden');
+  var planCards = document.querySelectorAll('.plan-card');
+  var planError = document.getElementById('plan-error');
 
   /* ----------------------------------------------------------
      Helpers
   ---------------------------------------------------------- */
   function showError(field, message) {
+    if (!field) return;
     field.classList.add('error');
-    let el = field.parentElement.querySelector('.field-error');
+    var el = field.parentElement.querySelector('.field-error');
     if (!el) {
       el = document.createElement('p');
       el.className = 'field-error';
@@ -32,8 +33,9 @@
   }
 
   function clearError(field) {
+    if (!field) return;
     field.classList.remove('error');
-    const el = field.parentElement.querySelector('.field-error');
+    var el = field.parentElement.querySelector('.field-error');
     if (el) el.remove();
   }
 
@@ -42,41 +44,84 @@
   }
 
   function isValidPhone(v) {
-    return !v || /^[\d\s+\-()]{7,15}$/.test(v);
+    if (!v) return true; // opcional
+    return /^[\d\s+\-()]{7,15}$/.test(v);
+  }
+
+  /**
+   * CIF/NIF/NIE español:
+   * - CIF empresa:   letra (A-H J N P-S U-W) + 7 dígitos + dígito/letra control
+   * - DNI personal:  8 dígitos + letra
+   * - NIE extranjero: X/Y/Z + 7 dígitos + letra
+   */
+  function isValidCIF(v) {
+    if (!v) return false;
+    var val = v.trim().toUpperCase().replace(/[\s\-]/g, '');
+    // DNI: 8 dígitos + letra
+    if (/^\d{8}[A-Z]$/.test(val)) return true;
+    // NIE: X/Y/Z + 7 dígitos + letra
+    if (/^[XYZ]\d{7}[A-Z]$/.test(val)) return true;
+    // CIF empresa: letra + 7 dígitos + letra/dígito
+    if (/^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$/i.test(val)) return true;
+    return false;
   }
 
   /* ----------------------------------------------------------
-     Step 1 validation
+     Step 1: validar todos los campos antes de avanzar
   ---------------------------------------------------------- */
   function validateStep1() {
-    let ok = true;
-    const nombre   = form.querySelector('#nombre');
-    const email    = form.querySelector('#email');
-    const empresa  = form.querySelector('#empresa');
-    const cif      = form.querySelector('#cif');
-    const telefono = form.querySelector('#telefono');
+    var ok = true;
+    var nombre   = document.getElementById('nombre');
+    var email    = document.getElementById('email');
+    var empresa  = document.getElementById('empresa');
+    var cif      = document.getElementById('cif');
+    var telefono = document.getElementById('telefono');
 
-    [nombre, email, empresa, cif, telefono].forEach(clearError);
+    clearError(nombre);
+    clearError(email);
+    clearError(empresa);
+    clearError(cif);
+    clearError(telefono);
 
-    if (!nombre.value.trim()) { showError(nombre, 'El nombre es obligatorio.'); ok = false; }
-    if (!email.value.trim()) { showError(email, 'El email es obligatorio.'); ok = false; }
-    else if (!isValidEmail(email.value.trim())) { showError(email, 'Introduce un email válido.'); ok = false; }
-    if (!empresa.value.trim()) { showError(empresa, 'El nombre de empresa es obligatorio.'); ok = false; }
-    if (!cif.value.trim()) { showError(cif, 'El CIF es obligatorio.'); ok = false; }
-    if (!isValidPhone(telefono.value.trim())) { showError(telefono, 'Introduce un teléfono válido.'); ok = false; }
+    if (!nombre || !nombre.value.trim()) {
+      showError(nombre, 'El nombre es obligatorio.');
+      ok = false;
+    }
+    if (!email || !email.value.trim()) {
+      showError(email, 'El email es obligatorio.');
+      ok = false;
+    } else if (!isValidEmail(email.value.trim())) {
+      showError(email, 'Introduce un email corporativo válido.');
+      ok = false;
+    }
+    if (!empresa || !empresa.value.trim()) {
+      showError(empresa, 'El nombre de empresa es obligatorio.');
+      ok = false;
+    }
+    if (!cif || !cif.value.trim()) {
+      showError(cif, 'El CIF es obligatorio.');
+      ok = false;
+    } else if (!isValidCIF(cif.value)) {
+      showError(cif, 'El CIF no tiene el formato correcto (ej: B12345678).');
+      ok = false;
+    }
+    if (telefono && telefono.value.trim() && !isValidPhone(telefono.value.trim())) {
+      showError(telefono, 'Introduce un teléfono válido.');
+      ok = false;
+    }
 
-    if (!ok) {
-      const first = step1.querySelector('.error');
+    if (!ok && step1) {
+      var first = step1.querySelector('.error');
       if (first) { first.scrollIntoView({ behavior: 'smooth', block: 'center' }); first.focus(); }
     }
     return ok;
   }
 
   /* ----------------------------------------------------------
-     Step navigation
+     Navegación entre pasos
   ---------------------------------------------------------- */
   if (btnNext) {
-    btnNext.addEventListener('click', () => {
+    btnNext.addEventListener('click', function () {
       if (!validateStep1()) return;
       step1.style.display = 'none';
       step2.style.display = 'block';
@@ -85,7 +130,7 @@
   }
 
   if (btnBack) {
-    btnBack.addEventListener('click', () => {
+    btnBack.addEventListener('click', function () {
       step2.style.display = 'none';
       step1.style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -93,79 +138,99 @@
   }
 
   /* ----------------------------------------------------------
-     Plan card selection
+     Selección de plan (cards)
   ---------------------------------------------------------- */
-  planCards.forEach((card) => {
-    card.addEventListener('click', () => {
-      planCards.forEach((c) => c.classList.remove('selected'));
+  planCards.forEach(function (card) {
+    card.addEventListener('click', function () {
+      planCards.forEach(function (c) { c.classList.remove('selected'); });
       card.classList.add('selected');
-      empleadosHidden.value = card.dataset.value;
+      if (empleadosHidden) empleadosHidden.value = card.dataset.value;
       if (planError) planError.style.display = 'none';
     });
   });
 
   /* ----------------------------------------------------------
-     Inline validation on blur
+     Validación en tiempo real (blur) en paso 1
   ---------------------------------------------------------- */
-  ['nombre', 'email', 'empresa', 'cif'].forEach((id) => {
-    const field = form.querySelector('#' + id);
+  var blurFields = [
+    { id: 'nombre',  empty: 'El nombre es obligatorio.' },
+    { id: 'email',   empty: 'El email es obligatorio.' },
+    { id: 'empresa', empty: 'El nombre de empresa es obligatorio.' },
+    { id: 'cif',     empty: 'El CIF es obligatorio.' }
+  ];
+
+  blurFields.forEach(function (cfg) {
+    var field = document.getElementById(cfg.id);
     if (!field) return;
-    field.addEventListener('blur', () => {
-      if (id === 'email' && field.value.trim() && !isValidEmail(field.value.trim())) {
-        showError(field, 'Introduce un email válido.');
-      } else if (id !== 'email' && !field.value.trim()) {
-        const msgs = { nombre: 'El nombre es obligatorio.', empresa: 'El nombre de empresa es obligatorio.', cif: 'El CIF es obligatorio.' };
-        showError(field, msgs[id] || 'Campo obligatorio.');
+    field.addEventListener('blur', function () {
+      var val = field.value.trim();
+      if (!val) {
+        showError(field, cfg.empty);
+      } else if (cfg.id === 'email' && !isValidEmail(val)) {
+        showError(field, 'Introduce un email corporativo válido.');
+      } else if (cfg.id === 'cif' && !isValidCIF(val)) {
+        showError(field, 'El CIF no tiene el formato correcto (ej: B12345678).');
       } else {
         clearError(field);
       }
     });
-    field.addEventListener('input', () => { if (field.classList.contains('error')) clearError(field); });
+    field.addEventListener('input', function () {
+      if (field.classList.contains('error')) clearError(field);
+    });
   });
 
   /* ----------------------------------------------------------
-     Form submit — validate step 2
+     Submit: validar paso 2
   ---------------------------------------------------------- */
-  form.addEventListener('submit', (e) => {
-    let ok = true;
+  form.addEventListener('submit', function (e) {
+    var ok = true;
 
-    if (!empleadosHidden.value) {
-      if (planError) { planError.textContent = 'Selecciona un plan para continuar.'; planError.style.display = 'block'; }
+    // Plan seleccionado
+    if (!empleadosHidden || !empleadosHidden.value) {
+      if (planError) {
+        planError.textContent = 'Selecciona un plan para continuar.';
+        planError.style.display = 'block';
+      }
       ok = false;
     }
 
-    const checkbox = form.querySelector('[name="privacidad"]');
-    const checkboxWrap = checkbox ? checkbox.closest('.form-checkbox') : null;
+    // Checkbox política
+    var checkbox = form.querySelector('[name="privacidad"]');
+    var checkboxWrap = checkbox ? checkbox.closest('.form-checkbox') : null;
     if (checkbox && !checkbox.checked) {
       ok = false;
       if (checkboxWrap) {
-        let el = checkboxWrap.querySelector('.field-error');
-        if (!el) { el = document.createElement('p'); el.className = 'field-error'; checkboxWrap.appendChild(el); }
+        var el = checkboxWrap.querySelector('.field-error');
+        if (!el) {
+          el = document.createElement('p');
+          el.className = 'field-error';
+          checkboxWrap.appendChild(el);
+        }
         el.textContent = 'Debes aceptar la política de privacidad para continuar.';
       }
     } else if (checkboxWrap) {
-      const el = checkboxWrap.querySelector('.field-error');
-      if (el) el.remove();
+      var existing = checkboxWrap.querySelector('.field-error');
+      if (existing) existing.remove();
     }
 
     if (!ok) { e.preventDefault(); return; }
 
-    const submitBtn = form.querySelector('[type="submit"]');
+    var submitBtn = form.querySelector('[type="submit"]');
     if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Enviando...'; }
   });
 
   /* ----------------------------------------------------------
-     Si PHP devuelve errores en paso 2, mostrar directamente el paso 2
+     Si PHP devuelve errores de paso 2, mostrar paso 2 directamente
   ---------------------------------------------------------- */
   if (planError && planError.textContent.trim()) {
-    step1.style.display = 'none';
-    step2.style.display = 'block';
+    if (step1) step1.style.display = 'none';
+    if (step2) step2.style.display = 'block';
     planError.style.display = 'block';
   }
-  const privacidadError = form.querySelector('.form-checkbox .field-error');
+  var privacidadError = form.querySelector('.form-checkbox .field-error');
   if (privacidadError) {
-    step1.style.display = 'none';
-    step2.style.display = 'block';
+    if (step1) step1.style.display = 'none';
+    if (step2) step2.style.display = 'block';
   }
 
 })();
