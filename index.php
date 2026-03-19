@@ -568,7 +568,7 @@ include 'includes/header.php';
         <h2 id="faq-heading">Preguntas frecuentes</h2>
       </div>
 
-      <div class="faq-list fade-up" role="list" style="max-width:800px; margin:0 auto;">
+      <div class="faq-list fade-up" role="list">
 
         <div class="faq-item" role="listitem">
           <button class="faq-question" aria-controls="faq-1">
