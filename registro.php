@@ -119,8 +119,6 @@ function field_value($field, $default = '') {
 
         <!-- Formulario -->
         <div class="form-card fade-up">
-          <h1>Crea tu canal de denuncias</h1>
-          <p class="form-subtitle">Completa el formulario y recibirás acceso para configurar tu canal.</p>
 
           <?php if ($submitted && !empty($errors)): ?>
           <div class="callout" role="alert" style="margin-bottom:1.5rem;">
@@ -130,89 +128,134 @@ function field_value($field, $default = '') {
 
           <form id="registro-form" method="POST" action="/registro" novalidate>
 
-            <div class="form-group">
-              <label for="nombre">Nombre completo <span style="color:var(--accent);">*</span></label>
-              <input type="text" id="nombre" name="nombre" required autocomplete="name"
-                     placeholder="María García López"
-                     value="<?= field_value('nombre') ?>"
-                     class="<?= isset($errors['nombre']) ? 'error' : '' ?>">
-              <?php field_error('nombre', $errors); ?>
-            </div>
+            <!-- El plan elegido en el paso 2 rellena este campo oculto -->
+            <input type="hidden" name="empleados" id="empleados-hidden" value="<?= field_value('empleados') ?>">
 
-            <div class="form-group">
-              <label for="email">Email corporativo <span style="color:var(--accent);">*</span></label>
-              <input type="email" id="email" name="email" required autocomplete="email"
-                     placeholder="maria@tuempresa.com"
-                     value="<?= field_value('email') ?>"
-                     class="<?= isset($errors['email']) ? 'error' : '' ?>">
-              <?php field_error('email', $errors); ?>
-            </div>
+            <!-- ========== PASO 1: Tus datos ========== -->
+            <div class="form-step" id="step-1">
 
-            <div class="form-group">
-              <label for="empresa">Nombre de empresa <span style="color:var(--accent);">*</span></label>
-              <input type="text" id="empresa" name="empresa" required autocomplete="organization"
-                     placeholder="Empresa S.L."
-                     value="<?= field_value('empresa') ?>"
-                     class="<?= isset($errors['empresa']) ? 'error' : '' ?>">
-              <?php field_error('empresa', $errors); ?>
-            </div>
-
-            <div class="form-group">
-              <label for="cif">CIF <span style="color:var(--accent);">*</span></label>
-              <input type="text" id="cif" name="cif" required autocomplete="off"
-                     placeholder="B12345678"
-                     value="<?= field_value('cif') ?>"
-                     class="<?= isset($errors['cif']) ? 'error' : '' ?>">
-              <?php field_error('cif', $errors); ?>
-            </div>
-
-            <div class="form-group">
-              <label for="empleados">Número de empleados <span style="color:var(--accent);">*</span></label>
-              <select id="empleados" name="empleados" required
-                      class="<?= isset($errors['empleados']) ? 'error' : '' ?>">
-                <option value="">Selecciona un rango</option>
-                <option value="1-20"    <?= field_value('empleados') === '1-20'    ? 'selected' : '' ?>>Hasta 20 empleados (Plan Free)</option>
-                <option value="21-49"   <?= field_value('empleados') === '21-49'   ? 'selected' : '' ?>>21–49 empleados (Plan Business · 19€/mes)</option>
-                <option value="50-150"  <?= field_value('empleados') === '50-150'  ? 'selected' : '' ?>>50–150 empleados (Plan Company · 39€/mes)</option>
-                <option value="150+"    <?= field_value('empleados') === '150+'    ? 'selected' : '' ?>>Más de 150 empleados (Plan Enterprise)</option>
-              </select>
-              <?php field_error('empleados', $errors); ?>
-            </div>
-
-            <div class="form-group">
-              <label for="telefono">Teléfono <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
-              <input type="tel" id="telefono" name="telefono" autocomplete="tel"
-                     placeholder="+34 600 000 000"
-                     value="<?= field_value('telefono') ?>">
-            </div>
-
-            <label class="form-checkbox <?= isset($errors['privacidad']) ? 'error-label' : '' ?>">
-              <input type="checkbox" name="privacidad" value="1"
-                     <?= (isset($_POST['privacidad']) && $_SERVER['REQUEST_METHOD'] === 'POST') ? 'checked' : '' ?>>
-              <span>Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.</span>
-            </label>
-            <?php field_error('privacidad', $errors); ?>
-
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:16px 28px;">
-              Crear mi canal →
-            </button>
-
-            <p class="form-submit-note">Te enviaremos acceso a app.eticalert.com para configurar tu canal.</p>
-
-            <div class="form-benefits">
-              <div class="form-benefit">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                Sin tarjeta de crédito
+              <div class="step-indicator">
+                <span class="step-label">Paso 1 de 2</span>
+                <div class="step-progress-bar"><div class="step-progress-fill" style="width:50%"></div></div>
               </div>
-              <div class="form-benefit">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                Sin permanencia
+
+              <h1>Crea tu canal de denuncias</h1>
+              <p class="form-subtitle">Completa el formulario y recibirás acceso para configurar tu canal.</p>
+
+              <div class="form-group">
+                <label for="nombre">Nombre completo <span style="color:var(--accent);">*</span></label>
+                <input type="text" id="nombre" name="nombre" required autocomplete="name"
+                       placeholder="María García López"
+                       value="<?= field_value('nombre') ?>"
+                       class="<?= isset($errors['nombre']) ? 'error' : '' ?>">
+                <?php field_error('nombre', $errors); ?>
               </div>
-              <div class="form-benefit">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                Soporte incluido en todos los planes
+
+              <div class="form-group">
+                <label for="email">Email corporativo <span style="color:var(--accent);">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email"
+                       placeholder="maria@tuempresa.com"
+                       value="<?= field_value('email') ?>"
+                       class="<?= isset($errors['email']) ? 'error' : '' ?>">
+                <?php field_error('email', $errors); ?>
               </div>
-            </div>
+
+              <div class="form-group">
+                <label for="empresa">Nombre de empresa <span style="color:var(--accent);">*</span></label>
+                <input type="text" id="empresa" name="empresa" required autocomplete="organization"
+                       placeholder="Empresa S.L."
+                       value="<?= field_value('empresa') ?>"
+                       class="<?= isset($errors['empresa']) ? 'error' : '' ?>">
+                <?php field_error('empresa', $errors); ?>
+              </div>
+
+              <div class="form-group">
+                <label for="cif">CIF <span style="color:var(--accent);">*</span></label>
+                <input type="text" id="cif" name="cif" required autocomplete="off"
+                       placeholder="B12345678"
+                       value="<?= field_value('cif') ?>"
+                       class="<?= isset($errors['cif']) ? 'error' : '' ?>">
+                <?php field_error('cif', $errors); ?>
+              </div>
+
+              <div class="form-group">
+                <label for="telefono">Teléfono <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
+                <input type="tel" id="telefono" name="telefono" autocomplete="tel"
+                       placeholder="+34 600 000 000"
+                       value="<?= field_value('telefono') ?>">
+              </div>
+
+              <button type="button" id="btn-step1-next" class="btn btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:16px 28px;">
+                Siguiente →
+              </button>
+
+            </div><!-- /step-1 -->
+
+            <!-- ========== PASO 2: Elegir plan ========== -->
+            <div class="form-step" id="step-2" style="display:none;">
+
+              <div class="step-indicator">
+                <span class="step-label">Paso 2 de 2</span>
+                <div class="step-progress-bar"><div class="step-progress-fill" style="width:100%"></div></div>
+              </div>
+
+              <h2 class="form-step2-title">Elige tu plan</h2>
+              <p class="form-subtitle">Mostramos precios por segmento. Validaremos el tier final tras revisar el Informe de Plantilla Media durante la prueba de 15 días.</p>
+
+              <div class="plan-grid">
+                <div class="plan-card <?= field_value('empleados') === '1-20'   ? 'selected' : '' ?>" data-value="1-20">
+                  <div class="plan-name">Free</div>
+                  <div class="plan-price">0 EUR/mes</div>
+                  <div class="plan-range">Hasta 20 empleados</div>
+                </div>
+                <div class="plan-card <?= field_value('empleados') === '21-49'  ? 'selected' : '' ?>" data-value="21-49">
+                  <div class="plan-name">Business</div>
+                  <div class="plan-price">19 EUR/mes</div>
+                  <div class="plan-range">De 21 a 49 empleados</div>
+                </div>
+                <div class="plan-card <?= field_value('empleados') === '50-150' ? 'selected' : '' ?>" data-value="50-150">
+                  <div class="plan-name">Company</div>
+                  <div class="plan-price">39 EUR/mes</div>
+                  <div class="plan-range">De 50 a 150 empleados</div>
+                </div>
+                <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+">
+                  <div class="plan-name">Enterprise</div>
+                  <div class="plan-price">Precio a medida</div>
+                  <div class="plan-range">Acuerdo comercial</div>
+                </div>
+              </div>
+              <p id="plan-error" class="field-error" style="display:none;margin-bottom:1rem;"><?php if (isset($errors['empleados'])) echo htmlspecialchars($errors['empleados']); ?></p>
+
+              <label class="form-checkbox <?= isset($errors['privacidad']) ? 'error-label' : '' ?>">
+                <input type="checkbox" name="privacidad" value="1"
+                       <?= (isset($_POST['privacidad']) && $_SERVER['REQUEST_METHOD'] === 'POST') ? 'checked' : '' ?>>
+                <span>Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.</span>
+              </label>
+              <?php field_error('privacidad', $errors); ?>
+
+              <div class="form-step-nav">
+                <button type="button" id="btn-step2-back" class="btn btn-secondary">← Volver</button>
+                <button type="submit" class="btn btn-primary" style="font-size:1rem;padding:16px 28px;">
+                  Iniciar prueba de 15 días →
+                </button>
+              </div>
+
+              <div class="form-benefits" style="margin-top:1.5rem;">
+                <div class="form-benefit">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                  Sin tarjeta de crédito
+                </div>
+                <div class="form-benefit">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                  Sin permanencia
+                </div>
+                <div class="form-benefit">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                  Soporte incluido en todos los planes
+                </div>
+              </div>
+
+            </div><!-- /step-2 -->
 
           </form>
         </div>
