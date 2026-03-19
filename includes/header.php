@@ -127,7 +127,7 @@ $page_body_class  = $page_body_class ?? '';
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
           </svg>
         </button>
-        <a href="https://app.eticalert.com" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
+        <a href="https://app.eticalert.com/login" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
         <a href="/registro" class="btn btn-primary">Empezar →</a>
       </div>
 
@@ -159,7 +159,7 @@ $page_body_class  = $page_body_class ?? '';
       </svg>
       <span class="theme-toggle-label">Modo claro</span>
     </button>
-    <a href="https://app.eticalert.com" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
+    <a href="https://app.eticalert.com/login" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
     <a href="/registro" class="btn btn-primary">Empezar →</a>
   </div>
 </nav>
