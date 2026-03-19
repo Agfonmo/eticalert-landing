@@ -202,27 +202,40 @@ function field_value($field, $default = '') {
               <h2 class="form-step2-title">Elige tu plan</h2>
               <p class="form-subtitle">Mostramos precios por segmento. Validaremos el tier final tras revisar el Informe de Plantilla Media durante la prueba de 15 días.</p>
 
+              <!-- Toggle mensual / anual -->
+              <div class="billing-toggle" style="justify-content:flex-start;margin-bottom:1.25rem;">
+                <label id="lbl-monthly" class="active">Mensual</label>
+                <label class="toggle-switch">
+                  <input type="checkbox" id="billing-toggle-input">
+                  <span class="toggle-slider"></span>
+                </label>
+                <label id="lbl-annual">Anual <span class="billing-badge">-20%</span></label>
+              </div>
+              <input type="hidden" name="billing" id="billing-hidden" value="monthly">
+
               <div class="plan-grid">
-                <div class="plan-card <?= field_value('empleados') === '1-20'   ? 'selected' : '' ?>" data-value="1-20">
+                <div class="plan-card <?= field_value('empleados') === '1-20'   ? 'selected' : '' ?>" data-value="1-20"
+                     data-monthly="0 EUR/mes" data-annual="0 EUR/mes">
                   <div class="plan-name">Free</div>
-                  <div class="plan-price">0 EUR/mes</div>
+                  <div class="plan-price"><span class="plan-price-val">0 EUR/mes</span></div>
                   <div class="plan-range">Hasta 20 empleados</div>
                 </div>
-                <div class="plan-card <?= field_value('empleados') === '21-49'  ? 'selected' : '' ?>" data-value="21-49">
+                <div class="plan-card <?= field_value('empleados') === '21-49'  ? 'selected' : '' ?>" data-value="21-49"
+                     data-monthly="19 EUR/mes" data-annual="190 EUR/año">
                   <div class="plan-name">Business</div>
-                  <div class="plan-price">19 EUR/mes</div>
+                  <div class="plan-price"><span class="plan-price-val">19 EUR/mes</span></div>
                   <div class="plan-range">De 21 a 49 empleados</div>
-                  <div class="plan-badge">190 EUR/año · <strong>-20%</strong></div>
                 </div>
-                <div class="plan-card <?= field_value('empleados') === '50-150' ? 'selected' : '' ?>" data-value="50-150">
+                <div class="plan-card <?= field_value('empleados') === '50-150' ? 'selected' : '' ?>" data-value="50-150"
+                     data-monthly="39 EUR/mes" data-annual="390 EUR/año">
                   <div class="plan-name">Company</div>
-                  <div class="plan-price">39 EUR/mes</div>
+                  <div class="plan-price"><span class="plan-price-val">39 EUR/mes</span></div>
                   <div class="plan-range">De 50 a 150 empleados</div>
-                  <div class="plan-badge">390 EUR/año · <strong>-20%</strong></div>
                 </div>
-                <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+">
+                <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+"
+                     data-monthly="Consultar" data-annual="Consultar">
                   <div class="plan-name">Enterprise</div>
-                  <div class="plan-price">Consultar</div>
+                  <div class="plan-price"><span class="plan-price-val">Consultar</span></div>
                   <div class="plan-range">Acuerdo comercial</div>
                 </div>
               </div>

@@ -15,6 +15,10 @@
   var btnBack = document.getElementById('btn-step2-back');
   var empleadosHidden = document.getElementById('empleados-hidden');
   var planCards = document.querySelectorAll('.plan-card');
+  var billingToggleInput = document.getElementById('billing-toggle-input');
+  var billingHidden = document.getElementById('billing-hidden');
+  var lblMonthly = document.getElementById('lbl-monthly');
+  var lblAnnual  = document.getElementById('lbl-annual');
   var planError = document.getElementById('plan-error');
 
   /* ----------------------------------------------------------
@@ -129,6 +133,31 @@
       step2.style.display = 'none';
       step1.style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ----------------------------------------------------------
+     Toggle mensual / anual
+  ---------------------------------------------------------- */
+  if (billingToggleInput) {
+    billingToggleInput.addEventListener('change', function () {
+      var isAnnual = this.checked;
+      if (lblMonthly) lblMonthly.classList.toggle('active', !isAnnual);
+      if (lblAnnual)  lblAnnual.classList.toggle('active', isAnnual);
+      if (billingHidden) billingHidden.value = isAnnual ? 'annual' : 'monthly';
+      planCards.forEach(function (card) {
+        var val = card.querySelector('.plan-price-val');
+        if (val) val.textContent = isAnnual ? card.dataset.annual : card.dataset.monthly;
+      });
+    });
+    // Click en las etiquetas también activa el toggle
+    if (lblMonthly) lblMonthly.addEventListener('click', function () {
+      billingToggleInput.checked = false;
+      billingToggleInput.dispatchEvent(new Event('change'));
+    });
+    if (lblAnnual) lblAnnual.addEventListener('click', function () {
+      billingToggleInput.checked = true;
+      billingToggleInput.dispatchEvent(new Event('change'));
     });
   }
 
