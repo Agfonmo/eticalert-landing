@@ -252,10 +252,10 @@ include 'includes/header.php';
 
         <div class="card fade-up delay-1">
           <div class="card-icon" aria-hidden="true">
-            <i data-lucide="trending-up"></i>
+            <i data-lucide="search"></i>
           </div>
-          <h3>El 73% de pymes no cumple</h3>
-          <p>La mayoría de empresas no ha actuado. Las que se adelantan evitan sanciones de hasta 1.000.000€ y demuestran cultura ética ante clientes y proveedores.</p>
+          <h3>Las inspecciones no avisan</h3>
+          <p>La Autoridad Independiente actúa de oficio. Las empresas que se adaptan rápido superan auditorías sorpresa sin estrés y evitando multas de hasta 1.000.000 euros.</p>
         </div>
 
         <div class="card fade-up delay-2">
@@ -263,7 +263,7 @@ include 'includes/header.php';
             <i data-lucide="zap"></i>
           </div>
           <h3>Se activa en minutos</h3>
-          <p>Sin consultores, sin técnicos, sin llamadas comerciales. Configuras tu canal, publicas la URL y empiezas a recibir denuncias de forma segura.</p>
+          <p>Sin consultores, sin técnicos, sin llamadas comerciales. Configuras tu canal, publicas la URL y empiezas a operar de forma 100% legal y segura.</p>
         </div>
 
       </div>
