@@ -2513,7 +2513,77 @@ table.comparison .cross { color: var(--text-muted); }
 /* Actualizamos el texto vía JS */
 
 /* ============================================================
-   29. PRINT
+   29. TESTIMONIALS
+   ============================================================ */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.testimonial-card {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  overflow: hidden;
+}
+
+.quote-mark {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--accent);
+  opacity: 0.12;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 16px;
+}
+
+.author-name {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+}
+
+.author-company {
+  font-size: 0.8125rem;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-card {
+    padding: 24px;
+  }
+}
+
+/* ============================================================
+   30. PRINT
    ============================================================ */
 @media print {
   .site-header, .cookie-banner, .cta-final { display: none; }

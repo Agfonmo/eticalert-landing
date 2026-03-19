@@ -770,7 +770,54 @@ include 'includes/header.php';
   </script>
 
   <!-- ==========================================================
-       9. CTA FINAL
+       9. TESTIMONIOS
+       ========================================================== -->
+  <section class="section testimonials-section" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2 id="testimonials-heading">Lo que dicen nuestras empresas</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card fade-up">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="testimonial-text">Como CEO, mi mayor miedo era la burocracia. Con EticAlert, mi responsable de RRHH configuró todo en un minuto. Y por ese precio duermo tranquilo.</p>
+          <div class="testimonial-author">
+            <span class="author-name">Carlos, CEO</span>
+            <span class="author-company">Siembra</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up delay-1">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="testimonial-text">Necesitábamos una herramienta que hasta el personal de fábrica pudiera usar desde el móvil en un minuto. Es tan intuitiva que no tuvimos ni que hacer formaciones.</p>
+          <div class="testimonial-author">
+            <span class="author-name">Cristina P.</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up delay-2">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="testimonial-text">Ante la proximidad del plazo regulatorio, requeríamos una solución que nos ofreciera plenas garantías jurídicas sin necesidad de paralizar nuestro departamento IT. EticAlert nos permitió solventar esta contingencia la misma mañana en que contratamos el servicio, dotando a la Dirección de la tranquilidad necesaria frente a los requerimientos de la AIPI.</p>
+          <div class="testimonial-author">
+            <span class="author-name">José Castro</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up delay-3">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <p class="testimonial-text">Antes de EticAlert, nuestro buzón de quejas interno estaba siempre vacío porque la plantilla no se fiaba. Había mucho miedo a las represalias. Desde que implementamos su canal, hemos detectado a tiempo dos irregularidades críticas gracias a que el sistema garantiza un anonimato real y permite chatear con el denunciante sin saber quién es. La tranquilidad que nos da es brutal.</p>
+          <div class="testimonial-author">
+            <span class="author-name">María G., Directora de Recursos Humanos</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       10. CTA FINAL
        ========================================================== -->
   <section class="cta-final" aria-labelledby="cta-heading">
     <div class="container">
