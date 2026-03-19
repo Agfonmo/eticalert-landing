@@ -11,7 +11,6 @@ include 'includes/header.php';
   <section style="padding: 140px 0 60px;">
     <div class="container">
       <div style="max-width:680px;" class="fade-up">
-        <span class="overline">Producto</span>
         <h1>Así de fácil es tener un canal de denuncias&nbsp;profesional</h1>
         <p style="font-size:1.125rem; margin-top:1rem;">Sin técnicos. Sin consultores. Sin llamadas comerciales. Configura, publica y cumple la Ley 2/2023 desde hoy mismo.</p>
       </div>
