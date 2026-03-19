@@ -31,6 +31,10 @@ if ($submitted) {
     $errors['empresa'] = 'El nombre de empresa es obligatorio.';
   }
 
+  if (empty($cif)) {
+    $errors['cif'] = 'El CIF es obligatorio.';
+  }
+
   if (empty($empleados)) {
     $errors['empleados'] = 'Selecciona el número de empleados.';
   }
@@ -116,7 +120,7 @@ function field_value($field, $default = '') {
         <!-- Formulario -->
         <div class="form-card fade-up">
           <h1>Crea tu canal de denuncias</h1>
-          <p class="form-subtitle">Completa el formulario y en menos de 24 horas recibirás acceso para configurar tu canal.</p>
+          <p class="form-subtitle">Completa el formulario y recibirás acceso para configurar tu canal.</p>
 
           <?php if ($submitted && !empty($errors)): ?>
           <div class="callout" role="alert" style="margin-bottom:1.5rem;">
@@ -154,10 +158,12 @@ function field_value($field, $default = '') {
             </div>
 
             <div class="form-group">
-              <label for="cif">CIF <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
-              <input type="text" id="cif" name="cif" autocomplete="off"
+              <label for="cif">CIF <span style="color:var(--accent);">*</span></label>
+              <input type="text" id="cif" name="cif" required autocomplete="off"
                      placeholder="B12345678"
-                     value="<?= field_value('cif') ?>">
+                     value="<?= field_value('cif') ?>"
+                     class="<?= isset($errors['cif']) ? 'error' : '' ?>">
+              <?php field_error('cif', $errors); ?>
             </div>
 
             <div class="form-group">
@@ -183,7 +189,7 @@ function field_value($field, $default = '') {
             <label class="form-checkbox <?= isset($errors['privacidad']) ? 'error-label' : '' ?>">
               <input type="checkbox" name="privacidad" value="1"
                      <?= (isset($_POST['privacidad']) && $_SERVER['REQUEST_METHOD'] === 'POST') ? 'checked' : '' ?>>
-              Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.
+              <span>Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.</span>
             </label>
             <?php field_error('privacidad', $errors); ?>
 
@@ -191,7 +197,7 @@ function field_value($field, $default = '') {
               Crear mi canal →
             </button>
 
-            <p class="form-submit-note">Te enviaremos acceso a app.eticalert.com para configurar tu canal en menos de 24 horas.</p>
+            <p class="form-submit-note">Te enviaremos acceso a app.eticalert.com para configurar tu canal.</p>
 
             <div class="form-benefits">
               <div class="form-benefit">
