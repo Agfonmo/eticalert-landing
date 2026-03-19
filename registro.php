@@ -122,16 +122,21 @@ if ($submitted) {
       $curl_error   = curl_error($ch);
       curl_close($ch);
 
+      // Log para diagnóstico
+      $log_line = date('Y-m-d H:i:s') . " | status={$api_status} | curl_err={$curl_error} | response=" . substr($api_response, 0, 500) . "\n";
+      @file_put_contents(__DIR__ . '/data/api_log.txt', $log_line, FILE_APPEND | LOCK_EX);
+
       if ($api_status >= 200 && $api_status < 300) {
         $api_ok = true;
       } else {
         $body = json_decode($api_response, true);
-        $api_error_msg = $body['message'] ?? $body['error'] ?? 'Error desconocido (HTTP ' . $api_status . ')';
-        // Si el email ya existe en la app
+        $api_error_msg = $body['message'] ?? $body['error'] ?? 'Error HTTP ' . $api_status;
+        if ($curl_error) $api_error_msg = 'Error de conexión: ' . $curl_error;
+
         if ($api_status === 409) {
           $errors['email'] = 'Ya existe una cuenta con este email. <a href="https://app.eticalert.com/login">Accede aquí →</a>';
         } else {
-          $errors['api'] = 'No se pudo crear la cuenta: ' . htmlspecialchars($api_error_msg) . '. Si el problema persiste, escríbenos a info@eticalert.com.';
+          $errors['api'] = $api_error_msg;
         }
       }
     }
@@ -189,7 +194,12 @@ function field_value($field, $default = '') {
 
         <div class="form-card fade-up">
 
-          <?php if ($submitted && !empty($errors)): ?>
+          <?php if ($submitted && isset($errors['api'])): ?>
+          <div class="callout callout-error" role="alert" style="margin-bottom:1.5rem;">
+            <p><strong>Error al crear la cuenta:</strong> <?= htmlspecialchars($errors['api']) ?></p>
+            <p style="margin-top:0.5rem;font-size:0.875rem;">Si el problema persiste, escríbenos a <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a></p>
+          </div>
+          <?php elseif ($submitted && !empty($errors)): ?>
           <div class="callout" role="alert" style="margin-bottom:1.5rem;">
             <p><strong>Revisa los campos marcados</strong> para continuar con el registro.</p>
           </div>
