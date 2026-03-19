@@ -2,6 +2,7 @@
 // ============================================================
 // EticAlert — registro.php
 // ============================================================
+require_once __DIR__ . '/config.php';
 session_start();
 
 $errors  = [];
@@ -108,7 +109,7 @@ if ($submitted) {
     $api_error_msg = '';
 
     if (function_exists('curl_init')) {
-      $ch = curl_init('https://app.eticalert.com/api/auth/register');
+      $ch = curl_init(API_REGISTER);
       curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_POST           => true,
@@ -134,7 +135,7 @@ if ($submitted) {
         if ($curl_error) $api_error_msg = 'Error de conexión: ' . $curl_error;
 
         if ($api_status === 409) {
-          $errors['email'] = 'Ya existe una cuenta con este email. <a href="https://app.eticalert.com/login">Accede aquí →</a>';
+          $errors['email'] = 'Ya existe una cuenta con este email. <a href="' . APP_LOGIN_URL . '">Accede aquí →</a>';
         } else {
           $errors['api'] = $api_error_msg;
         }
