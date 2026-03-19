@@ -57,13 +57,8 @@
   function isValidCIF(v) {
     if (!v) return false;
     var val = v.trim().toUpperCase().replace(/[\s\-]/g, '');
-    // DNI: 8 dígitos + letra
-    if (/^\d{8}[A-Z]$/.test(val)) return true;
-    // NIE: X/Y/Z + 7 dígitos + letra
-    if (/^[XYZ]\d{7}[A-Z]$/.test(val)) return true;
-    // CIF empresa: letra + 7 dígitos + letra/dígito
-    if (/^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$/i.test(val)) return true;
-    return false;
+    // CIF empresa español: letra (A-H J N P-S U-W) + 7 dígitos + carácter control
+    return /^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$/i.test(val);
   }
 
   /* ----------------------------------------------------------
