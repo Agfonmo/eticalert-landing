@@ -9,7 +9,6 @@ include '../includes/header.php';
   <section style="padding: 120px 0 40px;">
     <div class="container">
       <div class="fade-up" style="margin-bottom:2.5rem;">
-        <span class="overline">Blog</span>
         <h1 style="margin-bottom:0.75rem;">Guías de compliance y canal de denuncias</h1>
         <p style="font-size:1.0625rem; color:var(--text-secondary); max-width:560px;">Artículos prácticos sobre la Ley 2/2023, la AIPI y todo lo que necesitas saber para cumplir con el canal de denuncias en tu empresa.</p>
       </div>
