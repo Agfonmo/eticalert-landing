@@ -220,7 +220,7 @@ function field_value($field, $default = '') {
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+">
                   <div class="plan-name">Enterprise</div>
-                  <div class="plan-price">Precio a medida</div>
+                  <div class="plan-price">Consultar</div>
                   <div class="plan-range">Acuerdo comercial</div>
                 </div>
               </div>
