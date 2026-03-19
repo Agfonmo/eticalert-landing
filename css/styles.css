@@ -1398,8 +1398,6 @@ table.comparison .cross { color: var(--text-muted); }
    14. FAQ ACCORDION
    ============================================================ */
 .faq-list {
-  max-width: 760px;
-  margin: 0 auto;
 }
 
 .faq-item {
