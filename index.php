@@ -562,7 +562,7 @@ include 'includes/header.php';
   <!-- ==========================================================
        8. FAQ
        ========================================================== -->
-  <section class="section" aria-labelledby="faq-heading">
+  <section class="section section-alt" aria-labelledby="faq-heading">
     <div class="container">
       <div class="section-header fade-up">
         <h2 id="faq-heading">Preguntas frecuentes</h2>

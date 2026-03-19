@@ -1463,6 +1463,7 @@ table.comparison .cross { color: var(--text-muted); }
 .cta-final {
   text-align: center;
   padding: 100px 0;
+  background: var(--bg-secondary);
 }
 
 .cta-final h2 { margin-bottom: 0.75rem; }
