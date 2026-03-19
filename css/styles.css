@@ -2399,9 +2399,6 @@ table.comparison .cross { color: var(--text-muted); }
   .article-layout.with-toc {
     display: flex;
     gap: 3rem;
-    justify-content: center;
-    max-width: var(--container-max);
-    margin: 0 auto;
   }
 
   .article-layout.with-toc .toc {
