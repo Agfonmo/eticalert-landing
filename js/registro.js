@@ -102,29 +102,70 @@
     });
   });
 
-  var FREE_DOMAINS = [
+  /* ----------------------------------------------------------
+     Dominios personales y desechables (sincronizado con app)
+  ---------------------------------------------------------- */
+  var PERSONAL_DOMAINS = [
     'gmail.com','googlemail.com','hotmail.com','hotmail.es','outlook.com','outlook.es',
-    'live.com','live.es','yahoo.com','yahoo.es','icloud.com','me.com','mac.com',
-    'aol.com','protonmail.com','proton.me','tutanota.com','gmx.com','gmx.es',
-    'yandex.com','mail.com','zoho.com'
+    'live.com','live.es','msn.com','yahoo.com','yahoo.es','icloud.com','me.com','mac.com',
+    'aol.com','proton.me','protonmail.com','gmx.com','gmx.es','mail.com'
+  ];
+  var DISPOSABLE_DOMAINS = [
+    '10minutemail.com','10minutemail.net','guerrillamail.com','guerrillamailblock.com',
+    'mailinator.com','maildrop.cc','yopmail.com','yopmail.fr','tempmail.com','temp-mail.org',
+    'throwawaymail.com','dispostable.com','fakeinbox.com','getnada.com','sharklasers.com',
+    'trashmail.com','trashmail.de','mintemail.com','spambog.com','moakt.com'
   ];
 
   function isValidEmail(v) {
     if (!v) return false;
-    if (!/^[a-zA-Z0-9]([a-zA-Z0-9._%+\-]*[a-zA-Z0-9])?@[a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?(\.[a-zA-Z0-9]([a-zA-Z0-9\-]*[a-zA-Z0-9])?)+$/.test(v)) return false;
-    if (v.indexOf('..') !== -1) return false;
-    return true;
+    var normalized = v.trim().toLowerCase();
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalized) && normalized.indexOf('..') === -1;
   }
 
   function isCorporateEmail(v) {
     var domain = (v.split('@')[1] || '').toLowerCase();
-    return domain !== '' && FREE_DOMAINS.indexOf(domain) === -1;
+    return domain !== '' &&
+      PERSONAL_DOMAINS.indexOf(domain) === -1 &&
+      DISPOSABLE_DOMAINS.indexOf(domain) === -1;
+  }
+
+  /* ----------------------------------------------------------
+     Validación CIF español con dígito de control real
+     (algoritmo sincronizado con app.eticalert.com)
+  ---------------------------------------------------------- */
+  var CONTROL_LETTERS = 'JABCDEFGHI';
+  var DIGIT_REQUIRED  = ['A','B','E','H'];
+  var LETTER_REQUIRED = ['K','P','Q','S'];
+
+  function sumDigits(n) {
+    return String(n).split('').reduce(function(s,d){ return s + Number(d); }, 0);
+  }
+
+  function cifControlDigit(body) {
+    var even = 0, odd = 0;
+    for (var i = 0; i < body.length; i++) {
+      var d = Number(body[i]);
+      if (isNaN(d)) return -1;
+      if ((i + 1) % 2 === 0) even += d;
+      else odd += sumDigits(d * 2);
+    }
+    return (10 - ((even + odd) % 10)) % 10;
   }
 
   function isValidCIF(v) {
     if (!v) return false;
-    var val = v.trim().toUpperCase().replace(/[\s\-]/g, '');
-    return /^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$/i.test(val);
+    var val = v.trim().toUpperCase().replace(/[^A-Z0-9]/g, '');
+    if (!/^[ABCDEFGHJNPQRSUVW]\d{7}[0-9A-J]$/.test(val)) return false;
+    var prefix  = val[0];
+    var body    = val.slice(1, 8);
+    var control = val[8];
+    var expected = cifControlDigit(body);
+    if (expected < 0) return false;
+    var expectedLetter = CONTROL_LETTERS[expected];
+    if (DIGIT_REQUIRED.indexOf(prefix) !== -1)  return control === String(expected);
+    if (LETTER_REQUIRED.indexOf(prefix) !== -1) return control === expectedLetter;
+    return control === String(expected) || control === expectedLetter;
   }
 
   /* ----------------------------------------------------------
