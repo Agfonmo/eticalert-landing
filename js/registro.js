@@ -78,19 +78,26 @@
 
   document.querySelectorAll('.doc-link').forEach(function (link) {
     link.addEventListener('click', function () {
-      var key      = link.dataset.key;
-      var unlocks  = link.dataset.unlocks;
+      var key     = link.dataset.key;
+      var unlocks = link.dataset.unlocks;
       docsRead[key] = true;
 
-      // Comprobar si todos los docs requeridos para ese checkbox están leídos
+      // Desbloquear el checkbox correspondiente si todos sus docs están leídos
       var required = docRequirements[unlocks] || [];
       var allRead  = required.every(function (k) { return docsRead[k]; });
-
       if (allRead) {
-        var cb   = document.getElementById(unlocks);
-        var hint = document.getElementById('hint-' + unlocks.replace('cb-', ''));
-        if (cb)   { cb.disabled = false; }
-        if (hint) { hint.classList.add('hidden'); }
+        var cb = document.getElementById(unlocks);
+        if (cb) cb.disabled = false;
+      }
+
+      // Ocultar el hint único cuando TODOS los checkboxes estén desbloqueados
+      var allUnlocked = Object.keys(docRequirements).every(function (cbId) {
+        var reqs = docRequirements[cbId];
+        return reqs.every(function (k) { return docsRead[k]; });
+      });
+      if (allUnlocked) {
+        var hint = document.getElementById('hint-docs');
+        if (hint) hint.classList.add('hidden');
       }
     });
   });
