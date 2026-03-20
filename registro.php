@@ -336,18 +336,20 @@ function field_value($field, $default = '') {
               <p id="plan-error" class="field-error" style="display:none;margin-bottom:1rem;"><?php if (isset($errors['empleados'])) echo htmlspecialchars($errors['empleados']); ?></p>
 
               <label class="form-checkbox <?= isset($errors['acceptTermsAndPrivacy']) ? 'error-label' : '' ?>" style="margin-top:1.25rem;">
-                <input type="checkbox" name="acceptTermsAndPrivacy" value="1"
+                <input type="checkbox" id="cb-privacy" name="acceptTermsAndPrivacy" value="1" disabled
                        <?= (isset($_POST['acceptTermsAndPrivacy'])) ? 'checked' : '' ?>>
-                <span>Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.</span>
+                <span>Acepto la <a href="/privacidad" target="_blank" class="doc-link" data-unlocks="cb-privacy" data-key="privacidad">política de privacidad</a> y los <a href="/legal" target="_blank" class="doc-link" data-unlocks="cb-privacy" data-key="legal">términos de uso</a> de EticAlert.</span>
               </label>
               <?php field_error('acceptTermsAndPrivacy', $errors); ?>
 
               <label class="form-checkbox <?= isset($errors['acceptCompanyAdminContract']) ? 'error-label' : '' ?>" style="margin-top:0.75rem;">
-                <input type="checkbox" name="acceptCompanyAdminContract" value="1"
+                <input type="checkbox" id="cb-contract" name="acceptCompanyAdminContract" value="1" disabled
                        <?= (isset($_POST['acceptCompanyAdminContract'])) ? 'checked' : '' ?>>
-                <span>Acepto el <a href="/legal#contrato-administrador" target="_blank">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
+                <span>Acepto el <a href="/legal#contrato-administrador" target="_blank" class="doc-link" data-unlocks="cb-contract" data-key="contrato">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
               </label>
               <?php field_error('acceptCompanyAdminContract', $errors); ?>
+
+              <p class="doc-hint" id="hint-docs"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Lee los documentos para poder aceptar</p>
 
               <div class="form-step-nav" style="margin-top:1.5rem;">
                 <button type="button" id="btn-step2-back" class="btn btn-secondary">← Volver</button>
@@ -414,5 +416,5 @@ function field_value($field, $default = '') {
   </div>
 </main>
 
-<script src="/js/registro.js?v=20260319j" defer></script>
+<script src="/js/registro.js?v=20260320a" defer></script>
 <?php include 'includes/footer.php'; ?>

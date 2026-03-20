@@ -1,4 +1,5 @@
 <?php
+if (!defined('APP_LOGIN_URL')) require_once __DIR__ . '/../config.php';
 /**
  * EticAlert — includes/header.php
  * Variables esperadas (opcionales, definidas en cada página):
@@ -52,7 +53,7 @@ $page_body_class  = $page_body_class ?? '';
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/styles.css?v=20260319j">
+  <link rel="stylesheet" href="/css/styles.css?v=20260320">
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>
@@ -127,7 +128,7 @@ $page_body_class  = $page_body_class ?? '';
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
           </svg>
         </button>
-        <a href="https://app.eticalert.com/login" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
+        <a href="<?= APP_LOGIN_URL ?>" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
         <a href="/registro" class="btn btn-primary">Empezar →</a>
       </div>
 
@@ -159,7 +160,7 @@ $page_body_class  = $page_body_class ?? '';
       </svg>
       <span class="theme-toggle-label">Modo claro</span>
     </button>
-    <a href="https://app.eticalert.com/login" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
+    <a href="<?= APP_LOGIN_URL ?>" class="btn btn-secondary" target="_blank" rel="noopener">Acceder</a>
     <a href="/registro" class="btn btn-primary">Empezar →</a>
   </div>
 </nav>

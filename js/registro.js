@@ -64,6 +64,44 @@
     if (el) el.remove();
   }
 
+  /* ----------------------------------------------------------
+     Desbloqueo de checkboxes al leer documentos
+  ---------------------------------------------------------- */
+  var docsRead = {};
+
+  // Para cb-privacy necesita: privacidad + legal
+  // Para cb-contract necesita: contrato
+  var docRequirements = {
+    'cb-privacy':  ['privacidad', 'legal'],
+    'cb-contract': ['contrato']
+  };
+
+  document.querySelectorAll('.doc-link').forEach(function (link) {
+    link.addEventListener('click', function () {
+      var key     = link.dataset.key;
+      var unlocks = link.dataset.unlocks;
+      docsRead[key] = true;
+
+      // Desbloquear el checkbox correspondiente si todos sus docs están leídos
+      var required = docRequirements[unlocks] || [];
+      var allRead  = required.every(function (k) { return docsRead[k]; });
+      if (allRead) {
+        var cb = document.getElementById(unlocks);
+        if (cb) cb.disabled = false;
+      }
+
+      // Ocultar el hint único cuando TODOS los checkboxes estén desbloqueados
+      var allUnlocked = Object.keys(docRequirements).every(function (cbId) {
+        var reqs = docRequirements[cbId];
+        return reqs.every(function (k) { return docsRead[k]; });
+      });
+      if (allUnlocked) {
+        var hint = document.getElementById('hint-docs');
+        if (hint) hint.classList.add('hidden');
+      }
+    });
+  });
+
   var FREE_DOMAINS = [
     'gmail.com','googlemail.com','hotmail.com','hotmail.es','outlook.com','outlook.es',
     'live.com','live.es','yahoo.com','yahoo.es','icloud.com','me.com','mac.com',
