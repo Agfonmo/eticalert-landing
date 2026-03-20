@@ -348,7 +348,7 @@ function field_value($field, $default = '') {
                        <?= (isset($_POST['acceptCompanyAdminContract'])) ? 'checked' : '' ?>>
                 <span>Acepto el <a href="/legal#contrato-administrador" target="_blank" class="doc-link" data-unlocks="cb-contract" data-key="contrato">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
               </label>
-              <p class="doc-hint" id="hint-contract"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Abre el enlace para desbloquear</p>
+              <p class="doc-hint" id="hint-contract">Abre el enlace para desbloquear</p>
               <?php field_error('acceptCompanyAdminContract', $errors); ?>
 
               <div class="form-step-nav" style="margin-top:1.5rem;">
