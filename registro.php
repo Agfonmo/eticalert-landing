@@ -340,7 +340,7 @@ function field_value($field, $default = '') {
                        <?= (isset($_POST['acceptTermsAndPrivacy'])) ? 'checked' : '' ?>>
                 <span>Acepto la <a href="/privacidad" target="_blank" class="doc-link" data-unlocks="cb-privacy" data-key="privacidad">política de privacidad</a> y los <a href="/legal" target="_blank" class="doc-link" data-unlocks="cb-privacy" data-key="legal">términos de uso</a> de EticAlert.</span>
               </label>
-              <p class="doc-hint" id="hint-privacy">Lee los documentos enlazados para poder aceptar.</p>
+              <p class="doc-hint" id="hint-privacy"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Abre los enlaces para desbloquear</p>
               <?php field_error('acceptTermsAndPrivacy', $errors); ?>
 
               <label class="form-checkbox <?= isset($errors['acceptCompanyAdminContract']) ? 'error-label' : '' ?>" style="margin-top:0.75rem;">
@@ -348,7 +348,7 @@ function field_value($field, $default = '') {
                        <?= (isset($_POST['acceptCompanyAdminContract'])) ? 'checked' : '' ?>>
                 <span>Acepto el <a href="/legal#contrato-administrador" target="_blank" class="doc-link" data-unlocks="cb-contract" data-key="contrato">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
               </label>
-              <p class="doc-hint" id="hint-contract">Lee el contrato de administrador para poder aceptar.</p>
+              <p class="doc-hint" id="hint-contract"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Abre el enlace para desbloquear</p>
               <?php field_error('acceptCompanyAdminContract', $errors); ?>
 
               <div class="form-step-nav" style="margin-top:1.5rem;">

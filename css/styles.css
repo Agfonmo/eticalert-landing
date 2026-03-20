@@ -2038,7 +2038,7 @@ table.comparison .cross { color: var(--text-muted); }
 .form-checkbox a { color: var(--accent); text-decoration: underline; }
 .form-checkbox input[type="checkbox"]:disabled { opacity: 0.35; cursor: not-allowed; }
 .form-checkbox:has(input:disabled) { opacity: 0.6; cursor: not-allowed; }
-.doc-hint { font-size: 0.78rem; color: var(--text-muted); margin: 0.25rem 0 0 2rem; transition: opacity 0.3s; }
+.doc-hint { display:inline-flex; align-items:center; gap:0.3rem; font-size:0.72rem; color:var(--text-muted); margin: 0.2rem 0 0 2.25rem; }
 .doc-hint.hidden { display: none; }
 
 .form-submit-note {
