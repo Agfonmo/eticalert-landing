@@ -95,12 +95,13 @@ if ($submitted) {
 
     // ---- Llamada a la API de app ----
     $api_payload = json_encode([
+      'adminName'                 => $nombre,
       'companyName'               => $empresa,
       'cif'                       => $cif,
       'sector'                    => $sector,
       'adminEmail'                => $email,
       'plan'                      => $plan,
-      'billing'                   => $billing,
+      'billingPeriod'             => $billing,
       'acceptTermsAndPrivacy'     => true,
       'acceptCompanyAdminContract'=> true,
     ], JSON_UNESCAPED_UNICODE);
