@@ -64,6 +64,37 @@
     if (el) el.remove();
   }
 
+  /* ----------------------------------------------------------
+     Desbloqueo de checkboxes al leer documentos
+  ---------------------------------------------------------- */
+  var docsRead = {};
+
+  // Para cb-privacy necesita: privacidad + legal
+  // Para cb-contract necesita: contrato
+  var docRequirements = {
+    'cb-privacy':  ['privacidad', 'legal'],
+    'cb-contract': ['contrato']
+  };
+
+  document.querySelectorAll('.doc-link').forEach(function (link) {
+    link.addEventListener('click', function () {
+      var key      = link.dataset.key;
+      var unlocks  = link.dataset.unlocks;
+      docsRead[key] = true;
+
+      // Comprobar si todos los docs requeridos para ese checkbox están leídos
+      var required = docRequirements[unlocks] || [];
+      var allRead  = required.every(function (k) { return docsRead[k]; });
+
+      if (allRead) {
+        var cb   = document.getElementById(unlocks);
+        var hint = document.getElementById('hint-' + unlocks.replace('cb-', ''));
+        if (cb)   { cb.disabled = false; }
+        if (hint) { hint.classList.add('hidden'); }
+      }
+    });
+  });
+
   var FREE_DOMAINS = [
     'gmail.com','googlemail.com','hotmail.com','hotmail.es','outlook.com','outlook.es',
     'live.com','live.es','yahoo.com','yahoo.es','icloud.com','me.com','mac.com',

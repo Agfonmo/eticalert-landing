@@ -336,17 +336,19 @@ function field_value($field, $default = '') {
               <p id="plan-error" class="field-error" style="display:none;margin-bottom:1rem;"><?php if (isset($errors['empleados'])) echo htmlspecialchars($errors['empleados']); ?></p>
 
               <label class="form-checkbox <?= isset($errors['acceptTermsAndPrivacy']) ? 'error-label' : '' ?>" style="margin-top:1.25rem;">
-                <input type="checkbox" name="acceptTermsAndPrivacy" value="1"
+                <input type="checkbox" id="cb-privacy" name="acceptTermsAndPrivacy" value="1" disabled
                        <?= (isset($_POST['acceptTermsAndPrivacy'])) ? 'checked' : '' ?>>
-                <span>Acepto la <a href="/privacidad" target="_blank">política de privacidad</a> y los <a href="/legal" target="_blank">términos de uso</a> de EticAlert.</span>
+                <span>Acepto la <a href="/privacidad" target="_blank" class="doc-link" data-unlocks="cb-privacy" data-key="privacidad">política de privacidad</a> y los <a href="/legal" target="_blank" class="doc-link" data-unlocks="cb-privacy" data-key="legal">términos de uso</a> de EticAlert.</span>
               </label>
+              <p class="doc-hint" id="hint-privacy">Lee los documentos enlazados para poder aceptar.</p>
               <?php field_error('acceptTermsAndPrivacy', $errors); ?>
 
               <label class="form-checkbox <?= isset($errors['acceptCompanyAdminContract']) ? 'error-label' : '' ?>" style="margin-top:0.75rem;">
-                <input type="checkbox" name="acceptCompanyAdminContract" value="1"
+                <input type="checkbox" id="cb-contract" name="acceptCompanyAdminContract" value="1" disabled
                        <?= (isset($_POST['acceptCompanyAdminContract'])) ? 'checked' : '' ?>>
-                <span>Acepto el <a href="/legal#contrato-administrador" target="_blank">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
+                <span>Acepto el <a href="/legal#contrato-administrador" target="_blank" class="doc-link" data-unlocks="cb-contract" data-key="contrato">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
               </label>
+              <p class="doc-hint" id="hint-contract">Lee el contrato de administrador para poder aceptar.</p>
               <?php field_error('acceptCompanyAdminContract', $errors); ?>
 
               <div class="form-step-nav" style="margin-top:1.5rem;">
