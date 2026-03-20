@@ -8,7 +8,7 @@ $host = $_SERVER['HTTP_HOST'] ?? '';
 
 if (strpos($host, 'staging') !== false) {
     define('APP_ENV',     'staging');
-    define('API_BASE',    'https://staging.app.eticalert.com');
+    define('API_BASE',    'https://staging-app.eticalert.com');
     define('APP_DEBUG',   true);
 } else {
     define('APP_ENV',     'production');
