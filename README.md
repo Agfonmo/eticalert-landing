@@ -9,7 +9,7 @@ Web pública de [eticalert.com](https://eticalert.com) — SaaS de canal de denu
 | Entorno | Rama | URL | API |
 |---------|------|-----|-----|
 | Producción | `main` | https://eticalert.com | https://app.eticalert.com |
-| Staging | `staging` | https://staging.eticalert.com | https://staging.app.eticalert.com |
+| Staging | `staging` | https://staging.eticalert.com | https://staging-app.eticalert.com |
 
 El entorno se detecta automáticamente por hostname en `config.php`. Staging tiene `noindex/nofollow` activado.
 
@@ -79,7 +79,7 @@ El formulario `/registro` llama a la API de la app al enviar:
 | Constante | Producción | Staging |
 |-----------|-----------|---------|
 | `APP_ENV` | `production` | `staging` |
-| `API_BASE` | `https://app.eticalert.com` | `https://staging.app.eticalert.com` |
+| `API_BASE` | `https://app.eticalert.com` | `https://staging-app.eticalert.com` |
 | `API_REGISTER` | `/api/auth/register` | `/api/auth/register` |
 | `APP_LOGIN_URL` | `/login` | `/login` |
 
