@@ -21,10 +21,12 @@
               <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td style="padding-right:10px;vertical-align:middle;">
-                    <!-- Icono shield simplificado -->
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V7L12 2z" fill="#4ADE80" fill-opacity="0.15" stroke="#4ADE80" stroke-width="1.5"/>
-                      <path d="M9 12l2 2 4-4" stroke="#4ADE80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- Logo EticAlert -->
+                    <svg width="32" height="32" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="28" height="28" rx="7" fill="#141F19"/>
+                      <path d="M7 14C7 10.134 10.134 7 14 7C17.866 7 21 10.134 21 14C21 17.866 17.866 21 14 21" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
+                      <path d="M14 21C12.343 21 11 19.657 11 18C11 16.343 12.343 15 14 15C15.657 15 17 16.343 17 18" stroke="#4ADE80" stroke-width="2" stroke-linecap="round"/>
+                      <circle cx="14" cy="14" r="1.5" fill="#4ADE80"/>
                     </svg>
                   </td>
                   <td style="vertical-align:middle;">
@@ -67,23 +69,6 @@
                   </td>
                 </tr>
               </table>
-
-              <!-- Divider -->
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;">
-                <tr>
-                  <td style="border-top:1px solid rgba(74,222,128,0.1);font-size:0;">&nbsp;</td>
-                </tr>
-              </table>
-
-              <!-- Fallback link -->
-              <p style="margin:0 0 8px 0;font-size:12px;color:#64748B;">
-                Si el botón no funciona, copia y pega este enlace en tu navegador:
-              </p>
-              <p style="margin:0;font-size:12px;word-break:break-all;">
-                <a href="{{ .ConfirmationURL }}" style="color:#4ADE80;text-decoration:none;">
-                  {{ .ConfirmationURL }}
-                </a>
-              </p>
 
             </td>
           </tr>
