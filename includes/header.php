@@ -1,5 +1,10 @@
 <?php
 if (!defined('APP_LOGIN_URL')) require_once __DIR__ . '/../config.php';
+
+// Bloquear indexación en staging
+if (APP_ENV === 'staging') {
+  header('X-Robots-Tag: noindex, nofollow', true);
+}
 /**
  * EticAlert — includes/header.php
  * Variables esperadas (opcionales, definidas en cada página):
@@ -23,6 +28,9 @@ $page_body_class  = $page_body_class ?? '';
   <title><?= htmlspecialchars($page_title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
+  <?php if (APP_ENV === 'staging'): ?>
+  <meta name="robots" content="noindex, nofollow">
+  <?php endif; ?>
 
   <!-- Open Graph -->
   <meta property="og:title"       content="<?= htmlspecialchars($page_og_title) ?>">
