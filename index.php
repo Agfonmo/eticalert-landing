@@ -329,7 +329,7 @@ include 'includes/header.php';
         <div class="feature-card fade-up">
           <div class="feature-icon" aria-hidden="true"><i data-lucide="eye-off"></i></div>
           <div class="feature-body">
-            <h4>Canal anónimo</h4>
+            <h3>Canal anónimo</h3>
             <p>Denuncias anónimas con código de seguimiento seguro. El informante puede consultar el estado sin revelar su identidad.</p>
           </div>
         </div>
@@ -337,7 +337,7 @@ include 'includes/header.php';
         <div class="feature-card fade-up delay-1">
           <div class="feature-icon" aria-hidden="true"><i data-lucide="clock"></i></div>
           <div class="feature-body">
-            <h4>Acuse automático</h4>
+            <h3>Acuse automático</h3>
             <p>Acuse de recibo en 7 días conforme a ley. Automático, sin intervención manual.</p>
           </div>
         </div>
@@ -345,7 +345,7 @@ include 'includes/header.php';
         <div class="feature-card fade-up delay-2">
           <div class="feature-icon" aria-hidden="true"><i data-lucide="calendar-check"></i></div>
           <div class="feature-body">
-            <h4>Control de plazos</h4>
+            <h3>Control de plazos</h3>
             <p>Alertas automáticas para el plazo de 3 meses. No se te pasa ningún deadline legal.</p>
           </div>
         </div>
@@ -353,7 +353,7 @@ include 'includes/header.php';
         <div class="feature-card fade-up">
           <div class="feature-icon" aria-hidden="true"><i data-lucide="users"></i></div>
           <div class="feature-body">
-            <h4>Roles y permisos</h4>
+            <h3>Roles y permisos</h3>
             <p>Admin, coordinador y resolutor. Cada rol ve solo lo que debe. Confidencialidad real.</p>
           </div>
         </div>
@@ -361,7 +361,7 @@ include 'includes/header.php';
         <div class="feature-card fade-up delay-1">
           <div class="feature-icon" aria-hidden="true"><i data-lucide="file-lock"></i></div>
           <div class="feature-body">
-            <h4>Auditoría inmutable</h4>
+            <h3>Auditoría inmutable</h3>
             <p>Registro append-only de todas las acciones. Documentación completa para inspección.</p>
           </div>
         </div>
@@ -369,7 +369,7 @@ include 'includes/header.php';
         <div class="feature-card fade-up delay-2">
           <div class="feature-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
           <div class="feature-body">
-            <h4>Cifrado E2E</h4>
+            <h3>Cifrado E2E</h3>
             <p>AES-256 en tránsito y en reposo. Datos alojados en la UE. RGPD nativo.</p>
           </div>
         </div>
