@@ -21,7 +21,7 @@
 
       <!-- Producto -->
       <div class="footer-col">
-        <h4>Producto</h4>
+        <h3>Producto</h3>
         <ul>
           <li><a href="/como-funciona">Cómo funciona</a></li>
           <li><a href="/precios">Precios</a></li>
@@ -32,7 +32,7 @@
 
       <!-- Recursos -->
       <div class="footer-col">
-        <h4>Recursos</h4>
+        <h3>Recursos</h3>
         <ul>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/faq">FAQ</a></li>
@@ -44,7 +44,7 @@
 
       <!-- Legal & Contacto -->
       <div class="footer-col">
-        <h4>Legal y contacto</h4>
+        <h3>Legal y contacto</h3>
         <ul>
           <li><a href="/legal">Aviso legal</a></li>
           <li><a href="/privacidad">Política de privacidad</a></li>

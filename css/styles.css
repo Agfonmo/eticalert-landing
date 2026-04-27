@@ -1054,7 +1054,7 @@ code, .mono {
   stroke-width: 1.5;
 }
 
-.feature-body h4 {
+.feature-body h3 {
   margin-bottom: 0.25rem;
   font-size: 1rem;
 }
@@ -1501,7 +1501,7 @@ table.comparison .cross { color: var(--text-muted); }
   line-height: 1.6;
 }
 
-.footer-col h4 {
+.footer-col h3 {
   font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
