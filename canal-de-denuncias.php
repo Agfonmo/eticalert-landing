@@ -154,29 +154,80 @@ include 'includes/header.php';
             <li><strong>SaaS especializado</strong>: plataforma en la nube lista para usar, con precio mensual fijo. La opción más ágil y económica para pymes.</li>
           </ul>
 
-          <p>A continuación, una comparativa honesta de las soluciones SaaS disponibles en el mercado español:</p>
+          <p>A continuación, una comparativa de funcionalidades entre las principales soluciones del mercado español:</p>
 
           <div style="overflow-x:auto; margin:1.5rem 0;">
-            <table class="comparison" style="min-width:560px;">
+            <table class="comparison">
               <thead>
                 <tr>
                   <th>Solución</th>
-                  <th>Tipo</th>
-                  <th>Precio público</th>
-                  <th>Self-serve</th>
-                  <th>Foco pyme</th>
+                  <th>Cifrado en BD</th>
+                  <th>Sin marca de agua</th>
+                  <th>Conflicto de interés</th>
+                  <th>Hash verificable</th>
+                  <th>Control de plazos</th>
+                  <th>Precio/mes</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td><strong>EticAlert</strong></td><td>SaaS puro</td><td class="check">Gratis · desde 19€/mes</td><td class="check">Sí</td><td class="check">Sí</td></tr>
-                <tr><td>ithikios</td><td>SaaS</td><td class="check">Desde 29€/mes</td><td class="check">Sí</td><td>Parcial</td></tr>
-                <tr><td>mysecway</td><td>SaaS</td><td class="check">7,95€/gestor</td><td class="check">Sí</td><td class="check">Sí</td></tr>
-                <tr><td>Atico34</td><td>Consultoría + tool</td><td class="cross">No visible</td><td class="cross">No</td><td>Parcial</td></tr>
-                <tr><td>Sesame HR</td><td>Suite RRHH</td><td class="check">4,25€/user</td><td>Parcial</td><td class="cross">No (suite)</td></tr>
-                <tr><td>e-CAS</td><td>SaaS + servicios</td><td class="check">Por tramos</td><td>Parcial</td><td>Parcial</td></tr>
+                <tr style="background:var(--accent-subtle);">
+                  <td><strong>EticAlert</strong></td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td class="check"><strong>desde 19€</strong></td>
+                </tr>
+                <tr>
+                  <td>EQS IntegrityLine</td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td class="check">✓</td>
+                  <td>~129€</td>
+                </tr>
+                <tr>
+                  <td>WhistleBlower Software</td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td>Parcial</td>
+                  <td>desde 99€</td>
+                </tr>
+                <tr>
+                  <td>WhistleOn</td>
+                  <td>—</td>
+                  <td class="check">✓</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td>Parcial</td>
+                  <td>desde 69€</td>
+                </tr>
+                <tr>
+                  <td>ithikios</td>
+                  <td>—</td>
+                  <td class="check">✓</td>
+                  <td class="cross">✗</td>
+                  <td class="cross">✗</td>
+                  <td>—</td>
+                  <td>desde 29€</td>
+                </tr>
+                <tr>
+                  <td>mysecway</td>
+                  <td>—</td>
+                  <td class="cross">✗</td>
+                  <td class="cross">✗</td>
+                  <td class="cross">✗</td>
+                  <td>—</td>
+                  <td>7,95€/gestor</td>
+                </tr>
               </tbody>
             </table>
           </div>
+          <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:0.5rem;">EticAlert incluye las funcionalidades de las plataformas corporativas al precio de las soluciones básicas.</p>
           <p style="font-size:0.8125rem; color:var(--text-muted);">Datos públicos a marzo de 2026. La tabla es orientativa; verifica los precios actualizados en cada proveedor.</p>
 
           <!-- ================================================== -->
