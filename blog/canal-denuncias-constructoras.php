@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias construcción | Obligaciones específicas del sector';
 $page_description = 'Las constructoras tienen riesgos específicos: subcontratación, seguridad laboral, medioambiente. Así debe ser su canal de denuncias.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-constructoras';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-14T00:00:00+01:00';
+$page_article_modified  = '2026-02-14T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-sectores">Sectores</span>
         <h1>Canal de denuncias para empresas de construcción: obligaciones y riesgos específicos</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 14 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-14">14 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>El sector de la construcción es uno de los que más expuestos están a las infracciones que cubre la Ley 2/2023. No solo por la complejidad de las cadenas de subcontratación, sino por la frecuencia de licitaciones públicas, los riesgos laborales inherentes al sector y la interacción constante con el medioambiente. Una constructora sin canal de denuncias no solo incumple la ley: está más expuesta que la mayoría a los riesgos que el canal está diseñado para detectar.</p>
 
@@ -109,6 +112,8 @@ include '../includes/header.php';
         <h2 id="antes-licitacion">Activar el canal antes de la próxima licitación</h2>
         <p>Si tu constructora participa habitualmente en concursos públicos, el momento ideal para activar el canal es antes de la próxima licitación. Poder presentar un canal operativo y conforme a la Ley 2/2023 en el sobre de solvencia técnica puede marcar la diferencia en procesos donde el criterio de puntuación incluya medidas de compliance o transparencia.</p>
         <p>Con EticAlert, el canal puede estar operativo en menos de 24 horas, lo que te permite incorporarlo al próximo expediente de contratación sin demora.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa un canal adaptado a tu constructora</h3>

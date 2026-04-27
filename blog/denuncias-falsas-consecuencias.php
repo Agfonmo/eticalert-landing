@@ -2,6 +2,9 @@
 $page_title       = 'Denuncias falsas canal de denuncias | Consecuencias legales y gestión';
 $page_description = '¿Qué pasa si alguien presenta una denuncia falsa en el canal? La ley solo protege denuncias de buena fe. Consecuencias y cómo gestionar estos casos.';
 $page_canonical   = 'https://eticalert.com/blog/denuncias-falsas-consecuencias';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-18T00:00:00+01:00';
+$page_article_modified  = '2026-01-18T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-cultura-etica">Cultura ética</span>
         <h1>Denuncias falsas en el canal de denuncias: consecuencias y cómo gestionarlas</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 18 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-18">18 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Una de las objeciones más frecuentes que escuchamos de directivos reticentes a implantar un canal de denuncias es: <em>¿y si alguien lo usa para hacer daño a un compañero con una denuncia falsa?</em> Es una preocupación legítima que merece una respuesta honesta. La ley tiene mecanismos específicos para proteger al denunciado de las denuncias de mala fe, y el RSII tiene herramientas para gestionarlas. En este artículo lo explicamos en detalle.</p>
 
@@ -107,6 +110,8 @@ include '../includes/header.php';
         <p>Volviendo a la preocupación inicial: el miedo a que el canal sea usado para denuncias falsas no es motivo suficiente para no implantarlo. En la práctica, las denuncias de mala fe son una minoría pequeña del total de comunicaciones recibidas. La mayoría de las personas que usan el canal tienen motivos genuinos para hacerlo.</p>
         <p>Además, no tener canal implica que los problemas reales —los que sí existen— no tienen cómo salir a la superficie internamente y acaban llegando a la AIPI, a la prensa o a los tribunales sin que la empresa haya tenido oportunidad de gestionarlos.</p>
         <p>Un canal bien diseñado, con proceso claro y RSII competente, filtra naturalmente las denuncias de mala fe y permite a la empresa gestionar los problemas reales antes de que escalen.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Un canal bien gestionado filtra las denuncias de mala fe</h3>

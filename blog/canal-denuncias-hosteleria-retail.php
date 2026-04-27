@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias hostelería y retail | Adaptado a personal sin ordenador';
 $page_description = 'Hostelería y retail tienen desafíos únicos: alta rotación, personal sin ordenador, turnos. Así se adapta el canal de denuncias.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-hosteleria-retail';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-08T00:00:00+01:00';
+$page_article_modified  = '2026-02-08T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-sectores">Sectores</span>
         <h1>Canal de denuncias para hostelería, retail y empresas con alta rotación de personal</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 6 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 8 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-08">8 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Los sectores de hostelería y retail tienen características operativas que los diferencian de la mayoría: alta rotación de personal, plantillas con muchos trabajadores sin acceso habitual a un ordenador, jornadas a turnos, múltiples localizaciones y comunicación interna compleja. Todas estas características afectan directamente a cómo debe diseñarse un canal de denuncias que sea realmente accesible y efectivo. En este artículo analizamos esos retos y cómo resolverlos.</p>
 
@@ -107,6 +110,8 @@ include '../includes/header.php';
           <li><strong>Categorías adaptadas al sector:</strong> el formulario puede incluir categorías específicas como "horarios y jornadas", "condiciones higiénicas" o "acoso en el trabajo".</li>
           <li><strong>Seguimiento anónimo por código:</strong> el denunciante recibe un código de seguimiento que le permite consultar el estado de su denuncia sin revelar su identidad.</li>
         </ul>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Un canal accesible para todo tu equipo</h3>

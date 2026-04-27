@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias para asesorías | Cumple y ofrécelo a tus clientes';
 $page_description = 'Las asesorías tienen doble obligación: cumplir con su propio canal y ayudar a sus clientes. Descubre cómo hacerlo con EticAlert.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-asesorias-despachos';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-17T00:00:00+01:00';
+$page_article_modified  = '2026-02-17T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-sectores">Sectores</span>
         <h1>Canal de denuncias para asesorías y despachos profesionales</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 6 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 17 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-17">17 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Las asesorías laborales, fiscales, jurídicas y los despachos de abogados se encuentran ante una situación particular frente a la Ley 2/2023: tienen una <strong>doble dimensión</strong>. Por un lado, pueden estar obligadas a tener su propio canal (si superan los umbrales de la ley). Por otro, sus clientes —pymes, constructoras, comercios, empresas de servicios— les preguntan a ellos cómo cumplir con la obligación del canal. Esto convierte el tema en una oportunidad de negocio además de una obligación.</p>
 

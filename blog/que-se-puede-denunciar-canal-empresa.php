@@ -2,6 +2,9 @@
 $page_title       = 'Qué se puede denunciar en el canal de denuncias | Infracciones cubiertas Ley 2/2023';
 $page_description = '¿Qué infracciones se pueden comunicar a través del canal de denuncias? Lista completa de lo que cubre la Ley 2/2023 y cómo distinguirlo de quejas laborales.';
 $page_canonical   = 'https://eticalert.com/blog/que-se-puede-denunciar-canal-empresa';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-19T00:00:00+01:00';
+$page_article_modified  = '2026-02-19T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-guias">Guías</span>
         <h1>¿Qué puede denunciar un empleado a través del canal de denuncias?</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 19 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-19">19 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Una de las dudas más frecuentes entre empresas y empleados es qué puede denunciarse realmente a través del canal interno de denuncias y qué queda fuera de su ámbito. La respuesta es más amplia de lo que muchos piensan, pero también tiene límites claros. Este artículo lo explica con ejemplos concretos.</p>
 

@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias interno vs externo | Diferencias y cuál necesitas';
 $page_description = '¿Canal de denuncias interno o externo? La Ley 2/2023 permite ambos pero con reglas diferentes. Te explicamos cuándo usar cada uno.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-interno-vs-externo';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-27T00:00:00+01:00';
+$page_article_modified  = '2026-01-27T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-comparativas">Comparativas</span>
         <h1>Canal de denuncias interno vs externo: diferencias y cuál elegir</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 27 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-27">27 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Cuando hablamos del canal de denuncias según la Ley 2/2023, en realidad hablamos de dos cosas diferentes: el <strong>canal interno</strong>, que es el que cada organización obligada debe tener, y el <strong>canal externo</strong>, que es el de la AIPI. Entender la diferencia entre ambos es fundamental para cumplir correctamente la ley y para que el sistema funcione como está diseñado.</p>
 
@@ -140,6 +143,8 @@ include '../includes/header.php';
         <p>Aunque el informante puede acudir directamente a la AIPI, la práctica en países con mayor experiencia en whistleblowing (Reino Unido, países nórdicos) demuestra que la mayoría de informantes prefieren usar el canal interno cuando este les inspira confianza.</p>
         <p>Las razones son comprensibles: denunciar a la autoridad externa implica exponer el asunto fuera de la organización, con posibles consecuencias para la empresa (investigaciones formales, sanciones, publicidad negativa) que el propio informante puede no querer provocar si el problema puede resolverse internamente.</p>
         <p>Por eso, un canal interno bien diseñado —con garantías reales de anonimato, RSII accesible e independiente, y respuestas en tiempo y forma— retiene las denuncias en el ámbito interno y permite a la empresa detectar y corregir sus propios problemas antes de que lleguen a la AIPI o a los medios de comunicación.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Un canal interno profesional con EticAlert</h3>

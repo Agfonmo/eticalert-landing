@@ -2,6 +2,9 @@
 $page_title       = 'Protección del informante | Garantías Ley 2/2023 | Sin represalias';
 $page_description = 'La Ley 2/2023 prohíbe las represalias contra quien denuncia. Inversión de la carga de la prueba, medidas de apoyo y sanciones por represaliar.';
 $page_canonical   = 'https://eticalert.com/blog/proteccion-informante-ley';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-15T00:00:00+01:00';
+$page_article_modified  = '2026-01-15T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-cultura-etica">Cultura ética</span>
         <h1>Protección del informante: qué garantías tiene quien denuncia según la Ley 2/2023</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 9 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 15 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-15">15 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>El mayor freno para que alguien use un canal de denuncias no es no saber cómo funciona: es el miedo. Miedo a perder el trabajo, miedo a ser marginado por los compañeros, miedo a que el jefe se entere y tome represalias. La Ley 2/2023 fue diseñada precisamente para eliminar ese miedo, estableciendo un sistema robusto de protección para quienes se atreven a denunciar. Este artículo explica qué garantías ofrece la ley y cómo un buen canal técnico las hace efectivas.</p>
 

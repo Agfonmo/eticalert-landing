@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias y RGPD | Protección de datos en el canal interno';
 $page_description = 'Cómo cumplir con el RGPD al gestionar un canal de denuncias. Datos recogidos, base legal, plazos de conservación, derechos del denunciante y del denunciado.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-28T00:00:00+01:00';
+$page_article_modified  = '2026-02-28T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-guias">Guías</span>
         <h1>Canal de denuncias y RGPD: cómo cumplir con protección de datos</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 8 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 28 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-28">28 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Un canal de denuncias trata datos personales de forma intensiva: datos del denunciante (a menudo sensibles), datos del denunciado (que pueden afectar a su honor y carrera profesional) y datos de terceros mencionados en la denuncia. Cumplir con el Reglamento General de Protección de Datos (RGPD) no es optativo: es una obligación que debe diseñarse desde el principio, no añadirse a posteriori. Este artículo te explica todo lo que necesitas saber.</p>
 

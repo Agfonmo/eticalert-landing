@@ -2,6 +2,9 @@
 $page_title       = 'Política Sistema Interno de Información | Guía + contenido mínimo obligatorio';
 $page_description = 'La política del Sistema Interno de Información es obligatoria. Te explicamos qué debe incluir, quién la aprueba y cómo redactarla correctamente.';
 $page_canonical   = 'https://eticalert.com/blog/politica-sistema-interno-informacion';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-25T00:00:00+01:00';
+$page_article_modified  = '2026-02-25T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-guias">Guías</span>
         <h1>Política del Sistema Interno de Información: qué debe incluir y cómo redactarla</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 25 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-25">25 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Tener la herramienta técnica para el canal de denuncias es solo la mitad del trabajo. La Ley 2/2023 también exige que exista un documento formal —la <strong>política del Sistema Interno de Información</strong>— que regule cómo funciona ese canal, qué protecciones ofrece y cómo se tramitan las denuncias. Sin esta política, el canal está incompleto desde el punto de vista legal. Este artículo te explica qué debe contener y cómo redactarla.</p>
 

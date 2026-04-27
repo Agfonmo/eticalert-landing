@@ -2,6 +2,9 @@
 $page_title       = 'Directiva Whistleblowing UE 2019/1937 | Qué exige y cómo aplica en España';
 $page_description = 'La Directiva europea 2019/1937 es el origen del canal de denuncias obligatorio. Te explicamos qué exige, cómo la transpuso España con la Ley 2/2023 y qué diferencias hay.';
 $page_canonical   = 'https://eticalert.com/blog/directiva-europea-whistleblowing';
+$page_og_type           = 'article';
+$page_article_published = '2026-03-08T00:00:00+01:00';
+$page_article_modified  = '2026-03-08T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-marco-legal">Marco legal</span>
         <h1>Directiva europea 2019/1937: el origen del canal de denuncias obligatorio en España</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a marzo 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 8 de marzo de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-03-08">8 de marzo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Si tu empresa tiene un canal de denuncias, o está planteándose tenerlo, el origen de toda esa obligación está en Bruselas. La <strong>Directiva (UE) 2019/1937 del Parlamento Europeo y del Consejo</strong>, conocida como la Directiva Whistleblowing, marcó un antes y un después en la protección de los denunciantes y en la obligación de las empresas de crear canales internos de comunicación. España la transpuso tres años después con la Ley 2/2023. En este artículo explicamos de dónde viene todo, qué exige la directiva original y cómo se tradujo al derecho español.</p>
 

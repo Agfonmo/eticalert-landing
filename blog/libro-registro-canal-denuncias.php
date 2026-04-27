@@ -2,6 +2,9 @@
 $page_title       = 'Libro-registro canal de denuncias | Obligatorio Ley 2/2023 | Qué incluir';
 $page_description = 'El libro-registro es obligatorio según el art. 26 de la Ley 2/2023. Te explicamos qué debe registrarse, durante cuánto tiempo y cómo automatizarlo.';
 $page_canonical   = 'https://eticalert.com/blog/libro-registro-canal-denuncias';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-22T00:00:00+01:00';
+$page_article_modified  = '2026-02-22T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-guias">Guías</span>
         <h1>El libro-registro del canal de denuncias: qué es, qué debe contener y cómo mantenerlo</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 22 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-22">22 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Entre todos los requisitos de la Ley 2/2023, el libro-registro es quizá el más técnico y el que más empresas pasan por alto. Sin embargo, es una obligación legal explícita recogida en el artículo 26 de la ley, y su ausencia o mantenimiento deficiente puede ser constitutiva de infracción grave. En este artículo explicamos qué es, qué debe contener, quién puede acceder a él y cómo automatizar su gestión.</p>
 
@@ -147,6 +150,8 @@ include '../includes/header.php';
           <li><strong>Control de acceso por roles:</strong> solo el RSII y las personas que él autorice pueden acceder al registro.</li>
           <li><strong>Supresión programada:</strong> el sistema puede configurarse para recordar al RSII cuándo debe suprimir datos según los plazos legales.</li>
         </ul>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Automatiza tu libro-registro con EticAlert</h3>

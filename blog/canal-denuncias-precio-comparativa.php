@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias precio | ¿Cuánto cuesta? Comparativa 2026';
 $page_description = '¿Cuánto cuesta implementar un canal de denuncias? Desde 19€/mes en SaaS hasta 5.000€ en consultoría. Precios reales y comparativa.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-precio-comparativa';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-30T00:00:00+01:00';
+$page_article_modified  = '2026-01-30T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-comparativas">Comparativas</span>
         <h1>¿Cuánto cuesta un canal de denuncias? Precios reales 2026</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 8 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 30 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-30">30 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Una de las primeras preguntas que se hace cualquier responsable de una empresa al enterarse de la obligación de la Ley 2/2023 es: <em>¿cuánto me va a costar esto?</em> La respuesta varía enormemente según la opción elegida. En este artículo explicamos las cuatro grandes formas de implementar un canal de denuncias, sus rangos de precio reales y cómo comparar el coste con la alternativa (la multa).</p>
 
@@ -142,6 +145,8 @@ include '../includes/header.php';
         <p>Frente a eso, el coste del canal con EticAlert para una empresa de 100 empleados es de <strong>228€/año</strong>. Incluso la opción más cara de todas (consultoría + desarrollo + mantenimiento) está muy por debajo del rango de sanciones.</p>
         <p>Pero más allá de la multa directa: no tener canal puede suponer la exclusión de contratación pública (devastador para constructoras y empresas de servicios), la pérdida de subvenciones (hasta 4 años), el daño reputacional y las indemnizaciones a posibles represaliados.</p>
         <p>La pregunta no es si vale la pena: es cuál opción del mercado se ajusta mejor a las necesidades y el presupuesto de tu empresa.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Desde 19€/mes. Sin sorpresas. Activa tu canal</h3>

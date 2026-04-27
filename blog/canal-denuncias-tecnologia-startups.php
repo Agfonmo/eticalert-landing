@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias para startups y tech | Compliance para empresas en crecimiento';
 $page_description = '¿Tu startup ha superado los 50 empleados? Necesitas un canal de denuncias. También es señal de madurez para inversores.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-tecnologia-startups';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-11T00:00:00+01:00';
+$page_article_modified  = '2026-02-11T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-sectores">Sectores</span>
         <h1>Canal de denuncias para empresas de tecnología y startups en crecimiento</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 6 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 11 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-11">11 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Para muchas startups y empresas de tecnología, el compliance legal es el último tema en la lista de prioridades. Hay producto que construir, inversores que convencer, talento que contratar. Pero cuando una startup supera los 50 empleados —un hito que muchas alcanzan sin apenas darse cuenta— entra dentro del ámbito de la Ley 2/2023 y tiene la obligación de disponer de un canal de denuncias. Este artículo explica qué implica eso y por qué hacerlo bien tiene sentido más allá del cumplimiento legal.</p>
 
@@ -95,6 +98,8 @@ include '../includes/header.php';
           <li>API disponible para integraciones con herramientas internas.</li>
           <li>Panel de gestión intuitivo que no requiere formación específica para el RSII.</li>
         </ul>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Tu startup necesita compliance. Empieza en 5 minutos</h3>

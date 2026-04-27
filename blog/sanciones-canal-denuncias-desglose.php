@@ -2,6 +2,9 @@
 $page_title       = 'Sanciones canal de denuncias | Multas hasta 1.000.000€ | Desglose 2026';
 $page_description = 'Multas de hasta 1.000.000€ para empresas sin canal de denuncias. Desglose completo de infracciones leves, graves y muy graves según la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/blog/sanciones-canal-denuncias-desglose';
+$page_og_type           = 'article';
+$page_article_published = '2026-03-05T00:00:00+01:00';
+$page_article_modified  = '2026-03-05T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-marco-legal">Marco legal</span>
         <h1>Sanciones por no tener canal de denuncias: desglose completo por tipo de infracción</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a marzo 2026 · 8 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 5 de marzo de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-03-05">5 de marzo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Uno de los aspectos más importantes —y peor conocidos— de la Ley 2/2023 es su régimen sancionador. No basta con saber que hay multas: es fundamental entender cuáles son las infracciones concretas que pueden motivar una sanción, cuánto puede costar cada una y qué consecuencias adicionales hay más allá de la multa económica. Este artículo hace ese desglose con detalle.</p>
 
@@ -132,6 +135,8 @@ include '../includes/header.php';
 
         <p><strong>Indemnización al informante represaliado:</strong></p>
         <p>Si la empresa ha tomado represalias contra un informante, además de la sanción administrativa puede ser condenada a pagar una indemnización por daños y perjuicios en vía judicial. La ley presume que cualquier perjuicio laboral sufrido por un informante es consecuencia de la represalia, invirtiendo la carga de la prueba.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Evita sanciones. Activa tu canal ahora</h3>

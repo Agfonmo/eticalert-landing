@@ -2,6 +2,9 @@
 $page_title       = 'Externalizar canal de denuncias | Qué se puede y qué no según la ley';
 $page_description = '¿Puedes externalizar tu canal de denuncias? La Ley 2/2023 permite externalizar la herramienta y la instrucción, pero no la responsabilidad.';
 $page_canonical   = 'https://eticalert.com/blog/externalizar-canal-denuncias';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-24T00:00:00+01:00';
+$page_article_modified  = '2026-01-24T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-comparativas">Comparativas</span>
         <h1>Externalizar el canal de denuncias: qué permite la ley y qué no</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 24 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-24">24 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Muchas pymes que reciben la noticia de la obligación de tener un canal de denuncias reaccionan con una pregunta razonable: <em>¿puede hacerlo alguien por nosotros?</em> La respuesta es: sí, en parte. La Ley 2/2023 permite externalizar elementos importantes del sistema, pero establece límites claros. Entender qué se puede y qué no se puede delegar es fundamental para no caer en el error de creer que has cumplido cuando en realidad sigues expuesto.</p>
 
@@ -110,6 +113,8 @@ include '../includes/header.php';
 
         <h2 id="eticalert-infraestructura">EticAlert como infraestructura externalizada</h2>
         <p>EticAlert cubre exactamente la parte que sí se puede —y debe— externalizar: la tecnología. La empresa mantiene el control operativo a través del RSII interno, pero no tiene que preocuparse por la seguridad técnica, el cumplimiento del RGPD, las actualizaciones ante cambios normativos ni la disponibilidad del sistema.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">La herramienta la ponemos nosotros. La responsabilidad es tuya</h3>

@@ -135,6 +135,34 @@ include '../includes/header.php';
         </a>
 
         <!-- SILO 4: COMPARATIVAS -->
+        <a href="/blog/canal-denuncias-factorial" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Canal de denuncias en Factorial: ¿suficiente para cumplir la Ley 2/2023?</h3>
+          <p>Factorial incluye el canal en su suite de RRHH, pero a 5,5€/persona/mes. Qué cubre, qué no, y cuándo necesitas algo especializado.</p>
+          <span class="blog-card-meta">27 abr 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-sesame-hr" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Canal de denuncias en Sesame HR: ¿es suficiente para la ley?</h3>
+          <p>Sesame incluye el módulo en sus planes de RRHH. Analizamos limitaciones de precio, aislamiento y cumplimiento avanzado.</p>
+          <span class="blog-card-meta">27 abr 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-ithikios" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>EticAlert vs Ithikios: comparativa directa para empresas españolas</h3>
+          <p>Dos plataformas españolas de canal de denuncias, dos enfoques distintos. Precio, funcionalidades y cuál encaja mejor según tu perfil.</p>
+          <span class="blog-card-meta">27 abr 2026 · 9 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-whistleblower-software" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a Whistleblower Software en España: EticAlert vs WBS</h3>
+          <p>Comparativa directa de funcionalidades, precio y para quién es mejor cada opción en el mercado español.</p>
+          <span class="blog-card-meta">27 abr 2026 · 9 min lectura</span>
+        </a>
+
         <a href="/blog/mejor-software-canal-denuncias" class="blog-card fade-up" data-category="comparativas">
           <span class="blog-badge badge-comparativas">Comparativas</span>
           <h3>Mejor software de canal de denuncias 2026: comparativa actualizada</h3>
@@ -161,6 +189,118 @@ include '../includes/header.php';
           <h3>Externalizar el canal de denuncias: qué permite la ley y qué no</h3>
           <p>Qué sí se puede externalizar (herramienta, instrucción) y qué no (RSII, decisión final). El modelo habitual para pymes.</p>
           <span class="blog-card-meta">24 ene 2026 · 5 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-whistlelink" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a Whistlelink en España: EticAlert vs Whistlelink</h3>
+          <p>Whistlelink parte desde 49€/mes. EticAlert desde 19€/mes con cumplimiento nativo de la Ley 2/2023 y soporte en español.</p>
+          <span class="blog-card-meta">27 abr 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-whistleon" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a WhistleOn en España: EticAlert vs WhistleOn</h3>
+          <p>WhistleOn desde 69€/mes con WhatsApp e IA. EticAlert ofrece grabación de voz desde el navegador sin dependencia de Meta.</p>
+          <span class="blog-card-meta">27 abr 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-mysecway" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a mysecway: precio fijo vs 7,95€/gestor/mes</h3>
+          <p>mysecway cobra por cada gestor. EticAlert tiene precio fijo por empresa. Comparativa de coste con 1, 3, 5 y 8 gestores.</p>
+          <span class="blog-card-meta">27 abr 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-tucanaldedenuncias" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a TuCanalDeDenuncias: por 18€ más al año, cumplimiento real</h3>
+          <p>Para 50+ empleados la diferencia es solo 18€/año. Analizamos qué garantías técnicas aporta cada opción.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-personio" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Canal de denuncias en Personio: ¿suficiente para la Ley 2/2023?</h3>
+          <p>El riesgo de tener el canal dentro del HRIS: el administrador que gestiona nóminas puede ver las denuncias.</p>
+          <span class="blog-card-meta">27 abr 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-atico34" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a Atico34: self-serve vs consultoría externalizada</h3>
+          <p>Atico34 gestiona el canal como asesoría jurídica externa. EticAlert lo pone en manos de tu RSII interno en 5 minutos.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-eqs-integrityline" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a EQS IntegrityLine para pymes españolas</h3>
+          <p>EQS es el estándar enterprise con ISO 27001 y 80 idiomas. Para pymes de 50-500 empleados, EticAlert cubre la Ley 2/2023 a 3x menos coste.</p>
+          <span class="blog-card-meta">27 abr 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-clockio" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Canal de denuncias en Clockio: 30€ + 3€/empleado vs precio fijo</h3>
+          <p>Clockio cobra por empleado en el plan Premium. EticAlert tiene precio fijo independientemente del tamaño de la plantilla.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-attendo" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a Attendo: ticketing generalista vs canal especializado</h3>
+          <p>Attendo es un sistema de ticketing de RRHH. Sin alertas automáticas de plazos ni módulo RSII específico para la Ley 2/2023.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-lapsowork" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Canal de denuncias en LapsoWork: 299,99€/año vs EticAlert</h3>
+          <p>LapsoWork incluye canal en su suite de RRHH española. Comparativa de precio y garantías técnicas de cumplimiento.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-eurocanaldenuncias" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a EuroCanalDenuncias: mismo precio, más garantías</h3>
+          <p>Mismo rango de precios pero sin coste de setup. EticAlert incluye cifrado AES-256-GCM y hash SHA-256 verificable.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-navex-whistleb" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a Navex WhistleB para pymes españolas</h3>
+          <p>Navex es el GRC global enterprise. Para pymes que solo necesitan cumplir la Ley 2/2023, EticAlert activa el canal en 5 minutos a 3x menos coste.</p>
+          <span class="blog-card-meta">27 abr 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-track-people" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Canal de denuncias en Track People: 4,50€/usuario vs precio fijo</h3>
+          <p>Track People incluye asesoría de Ejaso pero cobra por empleado. Para 100 empleados: 450€/mes vs 39€/mes de EticAlert.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-canal-denuncias-igualdad" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a CanalDenunciasIgualdad: canal técnico vs despacho igualdad</h3>
+          <p>CanalDenunciasIgualdad combina canal y formación (280-620€/año). Si solo necesitas el canal, EticAlert es más económico y especializado.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-coloriuris" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a Coloriuris: ¿necesita tu empresa certificación eIDAS?</h3>
+          <p>Coloriuris tiene custodia eIDAS para administraciones públicas. Para pymes privadas, el hash SHA-256 de EticAlert es suficiente.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/alternativa-globalsuite" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>Alternativa a GlobalSuite para canal de denuncias en pymes</h3>
+          <p>GlobalSuite es una suite GRC española con ISO 27001. Para pymes que solo necesitan el canal, EticAlert es más ágil y con precio público.</p>
+          <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
         </a>
 
         <!-- SILO 5: CULTURA ÉTICA -->

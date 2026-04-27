@@ -2,6 +2,9 @@
 $page_title       = 'Acoso laboral y canal de denuncias | Obligaciones de la empresa';
 $page_description = 'El acoso laboral es una de las denuncias más frecuentes. Qué debe hacer la empresa al recibirla y cómo el canal protege al informante.';
 $page_canonical   = 'https://eticalert.com/blog/acoso-laboral-canal-denuncias';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-21T00:00:00+01:00';
+$page_article_modified  = '2026-01-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-cultura-etica">Cultura ética</span>
         <h1>Acoso laboral y canal de denuncias: cómo actuar como empresa</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 9 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 21 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-21">21 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>El acoso laboral —en cualquiera de sus formas— es probablemente la categoría de denuncia más frecuente en los canales internos de las empresas españolas. No es casual: las situaciones de acoso son precisamente aquellas en las que la víctima siente que no puede hablar directamente con su superior (que muchas veces es el agresor) y necesita un canal alternativo y confidencial para comunicar lo que está viviendo. Por eso, el diseño y gestión del canal ante denuncias de acoso es especialmente crítico.</p>
 
@@ -102,6 +105,8 @@ include '../includes/header.php';
         <h2 id="denuncia-directivo">¿Y si la denuncia es contra un directivo?</h2>
         <p>Este es el caso más delicado y el que más a menudo lleva a las empresas a gestionar mal el canal. Si la denuncia es contra un directivo o el propio RSII, el sistema de gestión interna puede tener un conflicto de interés.</p>
         <p>La solución es establecer un protocolo de escalado: si la denuncia afecta al RSII, la gestión debe asumiría el órgano de administración directamente o un RSII suplente. Si afecta a un miembro del órgano de administración, puede ser necesario acudir directamente a la AIPI o a asesores externos independientes.</p>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Ofrece a tus empleados un canal seguro para denunciar acoso</h3>

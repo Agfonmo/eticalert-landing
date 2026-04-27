@@ -2,6 +2,9 @@
 $page_title       = 'Mejor software canal de denuncias 2026 | Comparativa con precios reales';
 $page_description = 'Comparativa actualizada de los mejores software de canal de denuncias para empresas en 2026. Precios, funcionalidades y para quién es cada uno.';
 $page_canonical   = 'https://eticalert.com/blog/mejor-software-canal-denuncias';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-02T00:00:00+01:00';
+$page_article_modified  = '2026-02-02T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-comparativas">Comparativas</span>
         <h1>Mejor software de canal de denuncias 2026: comparativa actualizada</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 12 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 2 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-02">2 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Hay muchas opciones en el mercado para implementar un canal de denuncias. Ninguna es perfecta para todos los casos, y cada empresa tiene necesidades y presupuestos distintos. Esta comparativa intenta ser honesta: no pretende glorificar ninguna opción ni enterrar a la competencia, sino ayudarte a entender qué hay disponible y cuál se adapta mejor a tu situación.</p>
 
@@ -69,7 +72,7 @@ include '../includes/header.php';
         <h2 id="opciones-mercado">Las opciones del mercado en 2026</h2>
 
         <p><strong>EticAlert</strong></p>
-        <p>Plataforma SaaS española diseñada específicamente para pymes obligadas por la Ley 2/2023. Activación 100% self-serve en minutos, precio público desde 19€/mes, datos en la UE, anonimato real sin cookies ni registro de IP. Interfaz en castellano, documentación adaptada a la normativa española, incluye libro-registro automático y configuración guiada. Opción gratuita hasta 20 empleados. Principalmente orientado a empresas de 50-250 empleados. La empresa más pequeña del listado, lo que implica que el roadmap de producto puede ser más ágil pero también que los recursos de soporte son más limitados que en las grandes plataformas.</p>
+        <p>Plataforma SaaS española diseñada específicamente para pymes obligadas por la Ley 2/2023. Activación 100% self-serve en minutos, precio público desde 19€/mes, datos en la UE. Lo que diferencia técnicamente a EticAlert del resto del mercado: cifrado AES-256-GCM aplicado en base de datos (no solo en tránsito), anonimato real con identidad del informante fuera de logs, y el informante puede excluir gestores concretos por conflicto de interés desde el propio formulario público. Los expedientes cerrados generan un hash SHA-256 verificable públicamente en <code>/verificar</code>, lo que permite acreditar integridad documental ante la AIPI o un juzgado. El canal no se puede publicar si faltan requisitos legales — bloqueo real, no solo advertencia. Historial auditado de nombramientos RSII, alertas proactivas de plazos (7 días / 3 meses) y ticketing de soporte integrado en la plataforma. Opción gratuita hasta 20 empleados.</p>
 
         <p><strong>Ithikios</strong></p>
         <p>Plataforma de origen español con varios años en el mercado. Orientada tanto a pymes como a medianas empresas. Precio no siempre disponible públicamente (modelo de contacto comercial). Buena cobertura normativa y documentación en español. Requiere proceso de onboarding con equipo comercial para la mayoría de planes.</p>
@@ -172,6 +175,8 @@ include '../includes/header.php';
         <p><strong>Si quieres acompañamiento profesional de un abogado de compliance durante la implantación:</strong> Atico34 u otras consultoras especializadas ofrecen ese valor añadido a un precio superior.</p>
         <p><strong>Si eres una empresa multinacional que necesita cobertura en múltiples países europeos:</strong> Whistleblower Software o e-CAS tienen mayor cobertura internacional.</p>
 
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
+
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">¿Quieres ver EticAlert en acción? Actívalo en 5 minutos</h3>
           <p style="font-size:0.9375rem;margin-bottom:1.25rem;">La opción más sencilla y económica para pymes españolas obligadas por la Ley 2/2023. Gratis hasta 20 empleados · desde 19€/mes.</p>
@@ -180,10 +185,11 @@ include '../includes/header.php';
 
         <p>Recursos relacionados:</p>
         <ul>
+          <li><a href="/blog/alternativa-ithikios" style="color:var(--accent);">EticAlert vs Ithikios: comparativa directa →</a></li>
+          <li><a href="/blog/alternativa-whistleblower-software" style="color:var(--accent);">EticAlert vs Whistleblower Software: comparativa directa →</a></li>
+          <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">¿Cuánto cuesta un canal de denuncias? →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/como-funciona" style="color:var(--accent);">Cómo funciona EticAlert →</a></li>
-          <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">¿Cuánto cuesta un canal de denuncias? →</a></li>
-          <li><a href="/registro" style="color:var(--accent);">Crear mi canal de denuncias →</a></li>
         </ul>
 
         <div class="related-articles">

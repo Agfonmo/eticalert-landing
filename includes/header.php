@@ -8,17 +8,27 @@ if (APP_ENV === 'staging') {
 /**
  * EticAlert — includes/header.php
  * Variables esperadas (opcionales, definidas en cada página):
- *   $page_title       — <title> completo
- *   $page_description — meta description
- *   $page_canonical   — URL canónica
- *   $page_og_title    — OG title (fallback: $page_title)
- *   $page_body_class  — clase extra en <body>
+ *   $page_title              — <title> completo
+ *   $page_description        — meta description
+ *   $page_canonical          — URL canónica
+ *   $page_og_title           — OG title (fallback: $page_title)
+ *   $page_og_type            — OG type: 'website' (default) | 'article'
+ *   $page_og_image_alt       — Alt text de la OG image
+ *   $page_article_published  — ISO 8601 (solo si og_type='article')
+ *   $page_article_modified   — ISO 8601 (solo si og_type='article')
+ *   $page_body_class         — clase extra en <body>
  */
-$page_title       = $page_title ?? 'Canal de denuncias para empresas | EticAlert — Cumple la Ley 2/2023';
-$page_description = $page_description ?? 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a ley, desde 39€/mes. Sin llamadas, sin complicaciones.';
-$page_canonical   = $page_canonical ?? 'https://eticalert.com/';
-$page_og_title    = $page_og_title ?? $page_title;
-$page_body_class  = $page_body_class ?? '';
+$page_title              = $page_title ?? 'Canal de denuncias para empresas | EticAlert — Cumple la Ley 2/2023';
+$page_description        = $page_description ?? 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a ley, desde 39€/mes. Sin llamadas, sin complicaciones.';
+$page_canonical          = $page_canonical ?? 'https://eticalert.com/';
+$page_og_title           = $page_og_title ?? $page_title;
+$page_og_type            = $page_og_type ?? 'website';
+$page_og_image_alt       = $page_og_image_alt ?? 'EticAlert — Canal de denuncias para pymes';
+$page_article_published  = $page_article_published ?? null;
+$page_article_modified   = $page_article_modified ?? null;
+$page_body_class         = $page_body_class ?? '';
+$_og_t                   = rawurlencode($page_og_title ?? $page_title);
+$page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image.php?t=' . $_og_t;
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -28,6 +38,8 @@ $page_body_class  = $page_body_class ?? '';
   <title><?= htmlspecialchars($page_title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
+  <link rel="alternate" hreflang="es-ES"  href="<?= htmlspecialchars($page_canonical) ?>">
+  <link rel="alternate" hreflang="x-default" href="<?= htmlspecialchars($page_canonical) ?>">
   <?php if (APP_ENV === 'staging'): ?>
   <meta name="robots" content="noindex, nofollow">
   <?php endif; ?>
@@ -36,26 +48,36 @@ $page_body_class  = $page_body_class ?? '';
   <meta property="og:title"       content="<?= htmlspecialchars($page_og_title) ?>">
   <meta property="og:description" content="<?= htmlspecialchars($page_description) ?>">
   <meta property="og:url"         content="<?= htmlspecialchars($page_canonical) ?>">
-  <meta property="og:image"       content="https://eticalert.com/img/og-image.php">
+  <meta property="og:image"        content="<?= htmlspecialchars($page_og_image) ?>">
   <meta property="og:image:width"  content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:type"        content="website">
+  <meta property="og:image:alt"   content="<?= htmlspecialchars($page_og_image_alt) ?>">
+  <meta property="og:type"        content="<?= htmlspecialchars($page_og_type) ?>">
   <meta property="og:locale"      content="es_ES">
   <meta property="og:site_name"   content="EticAlert">
+  <?php if ($page_og_type === 'article'): ?>
+  <?php if ($page_article_published): ?><meta property="article:published_time" content="<?= htmlspecialchars($page_article_published) ?>"><?php endif; ?>
+  <?php if ($page_article_modified): ?><meta property="article:modified_time"  content="<?= htmlspecialchars($page_article_modified) ?>"><?php endif; ?>
+  <meta property="article:author"         content="https://eticalert.com">
+  <meta property="article:publisher"      content="https://eticalert.com">
+  <?php endif; ?>
 
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image">
   <meta name="twitter:title"       content="<?= htmlspecialchars($page_og_title) ?>">
   <meta name="twitter:description" content="<?= htmlspecialchars($page_description) ?>">
-  <meta name="twitter:image"       content="https://eticalert.com/img/og-image.php">
+  <meta name="twitter:image"       content="<?= htmlspecialchars($page_og_image) ?>">
+  <meta name="twitter:image:alt"   content="<?= htmlspecialchars($page_og_image_alt) ?>">
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-  <!-- Preconnect Google Fonts -->
+  <!-- Preconnect: Google Fonts + Lucide CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="dns-prefetch" href="https://unpkg.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>

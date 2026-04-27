@@ -2,6 +2,9 @@
 $page_title       = 'Canal de denuncias para ayuntamientos | Obligación sector público';
 $page_description = 'Los ayuntamientos de más de 10.000 habitantes están obligados a tener canal de denuncias. Requisitos específicos del sector público.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-ayuntamientos';
+$page_og_type           = 'article';
+$page_article_published = '2026-02-05T00:00:00+01:00';
+$page_article_modified  = '2026-02-05T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-sectores">Sectores</span>
         <h1>Canal de denuncias para ayuntamientos y entidades del sector público</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a febrero 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 5 de febrero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-02-05">5 de febrero de 2026</time> por el equipo de EticAlert</p>
 
         <p>La Ley 2/2023 no se aplica solo al sector privado. El sector público tiene sus propias obligaciones y, en algunos aspectos, requisitos más estrictos. Los ayuntamientos, en particular, tienen un umbral diferente al de las empresas privadas: la obligación no depende del número de empleados sino del <strong>número de habitantes del municipio</strong>. Este artículo explica qué municipios están obligados, qué requisitos deben cumplir y cuáles son las infracciones más frecuentes en el sector.</p>
 
@@ -108,6 +111,8 @@ include '../includes/header.php';
           <li>El RSII del ayuntamiento puede derivar un caso a la autoridad externa si la gravedad del asunto o la posible implicación del propio RSII lo hacen necesario.</li>
           <li>La AIPI puede inspeccionar el canal del ayuntamiento y sancionar si no cumple los requisitos legales, igual que haría con una empresa privada.</li>
         </ul>
+
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Cumple la obligación de tu ayuntamiento con EticAlert</h3>

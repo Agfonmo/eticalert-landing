@@ -2,6 +2,9 @@
 $page_title       = 'Compliance penal y canal ético | Art. 31 bis CP + Ley 2/2023';
 $page_description = 'El canal de denuncias es pieza clave del modelo de prevención de delitos del art. 31 bis del Código Penal. La conexión entre compliance penal y canal ético.';
 $page_canonical   = 'https://eticalert.com/blog/compliance-penal-canal-etico';
+$page_og_type           = 'article';
+$page_article_published = '2026-01-12T00:00:00+01:00';
+$page_article_modified  = '2026-01-12T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -51,7 +54,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-cultura-etica">Cultura ética</span>
         <h1>Compliance penal y canal ético: por qué tu empresa necesita ambos</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 9 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 12 de enero de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-12">12 de enero de 2026</time> por el equipo de EticAlert</p>
 
         <p>Cuando las empresas hablan del canal de denuncias, generalmente lo hacen en el contexto de la Ley 2/2023. Pero hay otra norma igualmente relevante que muchas pymes desconocen: el artículo 31 bis del Código Penal, que regula la responsabilidad penal de las personas jurídicas y establece el modelo de prevención de delitos como vía para eximir —o atenuar— esa responsabilidad. El canal de denuncias es una de las piezas de ese modelo. Este artículo explica la conexión.</p>
 

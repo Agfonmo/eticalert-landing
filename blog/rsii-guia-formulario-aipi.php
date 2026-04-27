@@ -2,6 +2,9 @@
 $page_title       = 'RSII: guía práctica para designar y notificar tu responsable del canal de denuncias | EticAlert';
 $page_description = 'Guía completa sobre el RSII: qué es, cómo designarlo, cómo notificarlo a la AIPI y errores comunes. Plazo: 10 de abril de 2026.';
 $page_canonical   = 'https://eticalert.com/blog/rsii-guia-formulario-aipi';
+$page_og_type           = 'article';
+$page_article_published = '2026-03-10T00:00:00+01:00';
+$page_article_modified  = '2026-03-10T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -48,7 +51,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-marco-legal">Marco legal</span>
         <h1>RSII: guía práctica para designar y notificar tu responsable del canal de denuncias</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a marzo 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 10 de marzo de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-03-10">10 de marzo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Toda empresa obligada a tener un Sistema Interno de Información necesita un Responsable: el RSII. Desde febrero de 2026, esta designación debe comunicarse oficialmente a la AIPI, y el plazo para hacerlo expira el <strong>10 de abril de 2026</strong>. Esta guía explica paso a paso cómo hacerlo correctamente.</p>
 

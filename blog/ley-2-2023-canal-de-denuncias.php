@@ -1,7 +1,11 @@
 <?php
-$page_title       = 'Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias';
-$page_description = 'Guía completa sobre la Ley 2/2023: quién está obligado, requisitos del canal, plazos de implementación y sanciones. Actualizada en 2026.';
-$page_canonical   = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
+$page_title             = 'Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias';
+$page_description       = 'Guía completa sobre la Ley 2/2023: quién está obligado, requisitos del canal, plazos de implementación y sanciones. Actualizada en 2026.';
+$page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
+$page_og_type           = 'article';
+$page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';
+$page_article_published = '2026-03-17T00:00:00+01:00';
+$page_article_modified  = '2026-03-17T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -49,7 +53,7 @@ include '../includes/header.php';
         <span class="blog-badge badge-marco-legal">Marco legal</span>
         <h1>Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Guía actualizada a 2026 · 8 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el 17 de marzo de 2026 por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-03-17">17 de marzo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Si tu empresa tiene 50 o más empleados en España, tienes una obligación legal que no puedes ignorar: disponer de un canal de denuncias operativo conforme a la Ley 2/2023. En esta guía explicamos qué es esta ley, a quién obliga, qué exige exactamente y qué consecuencias tiene no cumplir.</p>
 
