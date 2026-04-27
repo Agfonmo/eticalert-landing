@@ -215,6 +215,9 @@ include 'includes/header.php';
           </tbody>
         </table>
       </div>
+      <div style="text-align:center;margin-top:1.25rem;">
+        <a href="/funcionalidades" style="font-size:0.9375rem;color:var(--accent);font-weight:600;text-decoration:none;">Ver las 42 funcionalidades completas →</a>
+      </div>
     </div>
   </section>
 
