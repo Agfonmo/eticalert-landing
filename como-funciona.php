@@ -33,8 +33,11 @@ include 'includes/header.php';
             <p class="hero-mono-url">https://eticalert.com/d/tu-empresa</p>
           </div>
         </div>
-        <div class="screenshot-placeholder" aria-label="Captura del wizard de configuración">
-          <span>Wizard de configuración</span>
+        <div class="screenshot-placeholder">
+          <picture>
+            <source srcset="/img/mockup-paso-1.webp" type="image/webp">
+            <img src="/img/mockup-paso-1.png" alt="Wizard de configuración del canal de denuncias EticAlert — formulario paso a paso" width="1280" height="720" loading="eager" decoding="async">
+          </picture>
         </div>
       </div>
 
@@ -51,8 +54,11 @@ include 'includes/header.php';
             <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Accesible para empleados, proveedores y terceros</li>
           </ul>
         </div>
-        <div class="screenshot-placeholder" aria-label="Captura del canal público de denuncias">
-          <span>Canal público de denuncias</span>
+        <div class="screenshot-placeholder">
+          <picture>
+            <source srcset="/img/mockup-paso-2.webp" type="image/webp">
+            <img src="/img/mockup-paso-2.png" alt="Canal público de denuncias anónimas — interfaz para el informante" width="1280" height="720" loading="lazy" decoding="async">
+          </picture>
         </div>
       </div>
 
@@ -64,8 +70,11 @@ include 'includes/header.php';
           <p>El administrador recibe notificación al llegar una nueva denuncia. Puede asignarla a un coordinador o resolutor según la estructura interna de tu empresa. Cada rol accede únicamente a la información que corresponde a su función.</p>
           <p>El sistema registra automáticamente cada acción con un timestamp inmutable: quién leyó la denuncia, quién la asignó, qué decisión se tomó y cuándo. Trazabilidad completa para cuando la AIPI pregunte.</p>
         </div>
-        <div class="screenshot-placeholder" aria-label="Captura del panel de gestión de denuncias">
-          <span>Panel de gestión y roles</span>
+        <div class="screenshot-placeholder">
+          <picture>
+            <source srcset="/img/mockup-paso-3.webp" type="image/webp">
+            <img src="/img/mockup-paso-3.png" alt="Panel de gestión de denuncias con roles y permisos — EticAlert" width="1280" height="720" loading="lazy" decoding="async">
+          </picture>
         </div>
       </div>
 
@@ -82,8 +91,11 @@ include 'includes/header.php';
             <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Historial de plazos exportable para auditoría</li>
           </ul>
         </div>
-        <div class="screenshot-placeholder" aria-label="Captura del panel de control de plazos">
-          <span>Control de plazos legales</span>
+        <div class="screenshot-placeholder">
+          <picture>
+            <source srcset="/img/mockup-paso-4.webp" type="image/webp">
+            <img src="/img/mockup-paso-4.png" alt="Control de plazos legales Ley 2/2023 — alertas automáticas de 7 días y 3 meses" width="1280" height="720" loading="lazy" decoding="async">
+          </picture>
         </div>
       </div>
 
@@ -98,8 +110,11 @@ include 'includes/header.php';
             <a href="/registro" class="btn btn-primary">Activa tu canal ahora →</a>
           </div>
         </div>
-        <div class="screenshot-placeholder" aria-label="Captura del registro de auditoría">
-          <span>Registro de auditoría immutable</span>
+        <div class="screenshot-placeholder">
+          <picture>
+            <source srcset="/img/mockup-paso-5.webp" type="image/webp">
+            <img src="/img/mockup-paso-5.png" alt="Registro de auditoría inmutable del canal de denuncias — historial exportable en PDF" width="1280" height="720" loading="lazy" decoding="async">
+          </picture>
         </div>
       </div>
 
