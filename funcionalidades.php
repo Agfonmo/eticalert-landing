@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Funcionalidades del canal de denuncias | EticAlert — 42 funciones incluidas';
-$page_description = 'Las 42 funcionalidades de EticAlert: cifrado en base de datos, hash verificable, conflicto de interés, plazos automatizados y plan gratuito permanente. Cumple la Ley 2/2023.';
+$page_title       = 'Funcionalidades del canal de denuncias | EticAlert — 55 funciones incluidas';
+$page_description = 'Las 55 funcionalidades de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, documentos legales automáticos, RLS y plan gratuito permanente. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/funcionalidades';
 include 'includes/header.php';
 ?>
@@ -14,8 +14,8 @@ include 'includes/header.php';
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Conflicto de interés, Plazos automatizados Ley 2/2023, Registro append-only, Exportación PDF, API REST, Plan Free permanente, Multiempresa",
-  "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023. 42 funcionalidades incluidas desde el primer día."
+  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Conflicto de interés, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Exportación PDF y CSV, API REST, Plan Free permanente, Multiempresa",
+  "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023. 55 funcionalidades incluidas desde el primer día."
 }
 </script>
 <script type="application/ld+json">
@@ -41,7 +41,7 @@ include 'includes/header.php';
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;">
           <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--accent-subtle);color:var(--accent);border:1px solid var(--accent-border);border-radius:99px;padding:0.375rem 0.875rem;font-size:0.875rem;font-weight:700;">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-            42 funcionalidades incluidas
+            55 funcionalidades incluidas
           </span>
           <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--bg-tertiary);color:var(--text-secondary);border:1px solid var(--border-medium);border-radius:99px;padding:0.375rem 0.875rem;font-size:0.875rem;font-weight:700;">
             3 únicos en el mercado español
@@ -155,6 +155,24 @@ include 'includes/header.php';
               <p class="func-value">Permite pedir aclaraciones o comunicar la resolución sin romper la confidencialidad.</p>
             </div>
 
+            <div class="func-card" style="grid-column:1/-1;">
+              <div class="func-card-header">
+                <span class="func-name">Exclusión preventiva de gestoras por el informante</span>
+                <span class="badge-unico">Único en España</span>
+              </div>
+              <p class="func-desc">Al crear la denuncia, el informante puede seleccionar qué personas concretas del equipo gestor quedan bloqueadas de su caso: coordinador, resolutores y COMPANY_ADMIN con rol RSII. Las personas excluidas no ven el caso en listados, no acceden al detalle, no reciben notificaciones y no pueden ser asignadas.</p>
+              <p class="func-value">Mecanismo complementario al conflicto de interés del gestor (C5): el informante actúa de forma preventiva, sin depender de que el propio gestor se declare incompatible. Cubre situaciones donde el informante conoce el conflicto pero el gestor no lo declararía.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Validación antiabuso (Turnstile)</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">El formulario de denuncia y el panel de seguimiento integran Cloudflare Turnstile. Sin token válido, la API rechaza el envío.</p>
+              <p class="func-value">Protege el canal ante campañas automatizadas de denuncia falsa sin añadir fricción al informante legítimo.</p>
+            </div>
+
           </div>
 
           <!-- ================================================== -->
@@ -211,6 +229,24 @@ include 'includes/header.php';
               </div>
               <p class="func-desc">Ciclo de vida completo: recibida → en instrucción → pendiente → resuelta / archivada.</p>
               <p class="func-value">Visibilidad clara para todo el equipo gestor con traza auditable de cada transición.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Autoasignación inteligente</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">Al recibirse una denuncia, el sistema intenta asignarla automáticamente si existe exactamente un resolutor compatible con la categoría y no excluido por el informante.</p>
+              <p class="func-value">Elimina la cola de casos sin asignar en empresas con un solo resolutor por área. El coordinador solo interviene cuando hay ambigüedad real.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Topics por resolutor</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">Cada gestor tiene asignadas las categorías de denuncia que puede instruir. La compatibilidad temática controla quién puede ser asignado a cada caso; si no hay match, el coordinador activa un override explícito.</p>
+              <p class="func-value">Garantiza que casos de acoso laboral no llegan a alguien de cumplimiento financiero, y viceversa. Compartimentación funcional por especialidad.</p>
             </div>
 
             <div class="func-card" style="grid-column:1/-1;">
@@ -342,6 +378,31 @@ include 'includes/header.php';
               <p class="func-value">Impide que un enlace filtrado por error dé acceso indefinido a evidencias confidenciales.</p>
             </div>
 
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">RLS en base de datos</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">Row Level Security de PostgreSQL: políticas de acceso a nivel de fila en la base de datos, independientes de la lógica de la aplicación.</p>
+              <p class="func-value">Segunda capa de seguridad autónoma. Aunque un bug ejecutara una query incorrecta, la BD devuelve solo los datos accesibles al usuario. Aislamiento total entre empresas garantizado a nivel de motor de datos.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Validación de email corporativo en registro</span>
+              </div>
+              <p class="func-desc">El sistema rechaza dominios personales (gmail, hotmail), temporales y dominios sin registros MX activos durante el alta de empresa.</p>
+              <p class="func-value">Solo se registran empresas reales con infraestructura de correo corporativo. Reduce ruido y abuso del canal de registro.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Validación de CIF con dígito de control</span>
+              </div>
+              <p class="func-desc">El CIF español se valida en formato y dígito de control en el alta. No se admiten CIFs malformados ni duplicados por empresa.</p>
+              <p class="func-value">Cada empresa ocupa un único espacio en la plataforma. Garantiza que la evidencia laboral se asocia siempre a la entidad correcta.</p>
+            </div>
+
           </div>
 
           <!-- ================================================== -->
@@ -377,6 +438,15 @@ include 'includes/header.php';
               <p class="func-value">Detecta accesos no autorizados a información confidencial. Permite demostrar compartimentación ante la AIPI.</p>
             </div>
 
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Historial de nombramientos RSII</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">Cada cambio en la designación del RSII queda registrado automáticamente: quién fue nombrado, quién lo nombró, cuándo y cuándo fue revocado.</p>
+              <p class="func-value">Trazabilidad legal del Art. 8 Ley 2/2023. Si la AIPI pregunta quién era el RSII en una fecha concreta, el historial lo acredita con timestamps inmutables.</p>
+            </div>
+
           </div>
 
           <!-- ================================================== -->
@@ -401,6 +471,32 @@ include 'includes/header.php';
               </div>
               <p class="func-desc">El PDF incluye la cronología de plazos legales: recepción, acuse, resolución con sus fechas exactas.</p>
               <p class="func-value">Prueba documental de cumplimiento de la Ley 2/2023, lista para auditoría. Pocos competidores lo incluyen.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Export CSV de metadatos</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">El administrador exporta el listado completo de casos en CSV con sus metadatos (código, categoría, estado, fechas, resolutor) sin incluir contenido sensible.</p>
+              <p class="func-value">Permite análisis interno de patrones, reporting al consejo de administración y auditorías sin exponer el contenido cifrado de las denuncias.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Informe de compliance mensual</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">El sistema genera automáticamente un informe periódico de actividad del canal: volumen de casos, estados, tiempos de respuesta y cumplimiento de plazos.</p>
+              <p class="func-value">Sin intervención manual. El RSII dispone de métricas de cumplimiento listas para presentar al órgano de gobierno.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Purga RGPD de casos archivados</span>
+              </div>
+              <p class="func-desc">El administrador puede eliminar de forma permanente e irreversible los expedientes archivados que han superado el período de retención legal.</p>
+              <p class="func-value">Cumplimiento del principio de minimización de datos del RGPD. Confirma al informante que sus datos no se conservan indefinidamente.</p>
             </div>
 
           </div>
@@ -443,6 +539,33 @@ include 'includes/header.php';
               </div>
               <p class="func-desc">Acceso completo a la plataforma durante 15 días sin tarjeta de crédito.</p>
               <p class="func-value">Verifica el cumplimiento antes de comprometerte económicamente.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Preview 1:1 del canal en tiempo real</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">Desde los ajustes de branding, el administrador ve en tiempo real cómo queda el canal público antes de guardar, reproduciendo logo, colores, textos y modos claro/oscuro.</p>
+              <p class="func-value">Elimina el riesgo de publicar un canal con errores visuales. Lo que ves en preview es exactamente lo que verá el informante.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Dominio propio personalizado</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">El canal público puede publicarse bajo un dominio corporativo propio en lugar de eticalert.com/d/slug.</p>
+              <p class="func-value">Refuerza la confianza del informante al ver la URL de su propia empresa. Requerido por algunas políticas de compliance corporativo.</p>
+            </div>
+
+            <div class="func-card" style="grid-column:1/-1;">
+              <div class="func-card-header">
+                <span class="func-name">Generación de documentos legales PDF</span>
+                <span class="badge-diff">Diferenciador</span>
+              </div>
+              <p class="func-desc">El sistema genera automáticamente tres documentos legales con los datos reales de la empresa: (1) Reglamento del canal de denuncias, (2) Nombramiento formal del RSII conforme al Art. 8 Ley 2/2023, (3) Cláusula informativa para empleados.</p>
+              <p class="func-value">Documentación legal lista para firmar y archivar, sin necesidad de abogado para la redacción base. Reduce semanas de trabajo a un clic.</p>
             </div>
 
             <div class="func-card" style="grid-column:1/-1;">
