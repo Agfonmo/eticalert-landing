@@ -274,24 +274,18 @@ code, .mono {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 200;
-  background-color: #1A2B23;
-  border-bottom: 2px solid rgba(74, 222, 128, 0.30);
+  z-index: 101;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-subtle);
   padding: 0.5rem 3rem 0.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   font-size: 0.8125rem;
-  color: #94A3A0;
+  color: var(--text-secondary);
   line-height: 1.4;
   min-height: 40px;
-  isolation: isolate;
-}
-[data-theme="light"] .verify-banner {
-  background-color: #FFFFFF;
-  color: #3D5249;
-  border-bottom-color: rgba(22, 101, 52, 0.25);
 }
 .verify-banner a {
   color: var(--accent);
