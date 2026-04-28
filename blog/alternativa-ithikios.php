@@ -193,7 +193,7 @@ include '../includes/header.php';
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
             </tr>
             <tr>
-              <td style="padding:0.75rem;border:1px solid var(--border);">URLs de adjuntos firmadas con TTL (30 min)</td>
+
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
             </tr>
