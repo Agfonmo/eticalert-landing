@@ -64,6 +64,7 @@ include 'includes/header.php';
             <li><a href="#auditoria">Auditoría e integridad</a></li>
             <li><a href="#reporting">Reporting y exportación</a></li>
             <li><a href="#configuracion">Configuración</a></li>
+            <li><a href="#enterprise">Enterprise</a></li>
             <li><a href="#partners">Partners y servicios</a></li>
             <li><a href="#comparativa">Comparativa ampliada</a></li>
           </ol>
@@ -574,6 +575,50 @@ include 'includes/header.php';
               </div>
               <p class="func-desc">Redacción del informe formal de resolución por despacho partner. Desde 350€/caso.</p>
               <p class="func-value">Documento jurídicamente sólido para archivar en el expediente y para posible defensa ante la AIPI o un juzgado.</p>
+            </div>
+
+          </div>
+
+          <!-- ================================================== -->
+          <h2 id="enterprise">Capacidades Enterprise</h2>
+          <p class="func-category-intro">Disponibles a demanda para grupos empresariales y organizaciones con requisitos IT avanzados. Contáctanos para activarlas.</p>
+
+          <div class="func-grid">
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">Multiempresa para grupos</span>
+                <span class="badge-diff">A demanda</span>
+              </div>
+              <p class="func-desc">Una sola cuenta gestiona canales de varias empresas del mismo grupo desde un único panel.</p>
+              <p class="func-value">Grupos con varias subsidiarias obligadas centralizan la gestión de compliance. Reduce coste y fragmentación.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">SSO / SAML</span>
+                <span class="badge-diff">A demanda</span>
+              </div>
+              <p class="func-desc">Inicio de sesión único integrado con Azure AD, Okta u otros proveedores de identidad corporativos.</p>
+              <p class="func-value">Elimina la gestión de credenciales separadas. Facilita la adopción en empresas con políticas IT estrictas.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">API REST de integración</span>
+                <span class="badge-diff">A demanda</span>
+              </div>
+              <p class="func-desc">API para conectar EticAlert con sistemas internos: ERP, SIEM, herramientas de compliance o GRC.</p>
+              <p class="func-value">Automatiza flujos: crear caso en Jira al recibir denuncia, sincronizar estado con sistema GRC.</p>
+            </div>
+
+            <div class="func-card">
+              <div class="func-card-header">
+                <span class="func-name">SLA por contrato</span>
+                <span class="badge-diff">A demanda</span>
+              </div>
+              <p class="func-desc">Garantía de disponibilidad y tiempos de respuesta formalizados contractualmente.</p>
+              <p class="func-value">Requerido por grandes empresas con dependencia regulatoria del canal. Cubre el riesgo de downtime durante una denuncia activa.</p>
             </div>
 
           </div>
