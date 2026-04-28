@@ -19,7 +19,7 @@ if (APP_ENV === 'staging') {
  *   $page_body_class         — clase extra en <body>
  */
 $page_title              = $page_title ?? 'Canal de denuncias para empresas | EticAlert — Cumple la Ley 2/2023';
-$page_description        = $page_description ?? 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a ley, desde 39€/mes. Sin llamadas, sin complicaciones.';
+$page_description        = $page_description ?? 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a ley, desde 19€/mes. Sin llamadas, sin complicaciones.';
 $page_canonical          = $page_canonical ?? 'https://eticalert.com/';
 $page_og_title           = $page_og_title ?? $page_title;
 $page_og_type            = $page_og_type ?? 'website';
@@ -48,8 +48,8 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="es-ES"  href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="x-default" href="<?= htmlspecialchars($page_canonical) ?>">
-  <?php if (APP_ENV === 'staging'): ?>
-  <meta name="robots" content="noindex, nofollow">
+  <?php if (APP_ENV === 'staging' || !empty($page_robots)): ?>
+  <meta name="robots" content="<?= APP_ENV === 'staging' ? 'noindex, nofollow' : htmlspecialchars($page_robots) ?>">
   <?php endif; ?>
 
   <!-- Open Graph -->
@@ -115,6 +115,7 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
     "name": "EticAlert",
     "url": "https://eticalert.com",
     "logo": "https://eticalert.com/favicon.svg",
+    "areaServed": {"@type": "Country", "name": "ES"},
     "contactPoint": {
       "@type": "ContactPoint",
       "email": "info@eticalert.com",
@@ -148,6 +149,7 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
       <!-- Desktop links -->
       <ul class="nav-links" role="list">
         <li><a href="/como-funciona">Cómo funciona</a></li>
+        <li><a href="/funcionalidades">Funcionalidades</a></li>
         <li><a href="/precios">Precios</a></li>
         <li><a href="/canal-de-denuncias">Canal de denuncias</a></li>
         <li><a href="/blog/">Blog</a></li>
@@ -184,6 +186,7 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
 <!-- Mobile nav -->
 <nav id="mobile-nav" class="nav-mobile" aria-label="Menú móvil">
   <a href="/como-funciona">Cómo funciona</a>
+  <a href="/funcionalidades">Funcionalidades</a>
   <a href="/precios">Precios</a>
   <a href="/canal-de-denuncias">Canal de denuncias</a>
   <a href="/blog/">Blog</a>

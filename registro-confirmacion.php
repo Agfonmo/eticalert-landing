@@ -4,6 +4,7 @@ $empresa = trim(htmlspecialchars($_GET['empresa'] ?? 'tu empresa', ENT_QUOTES, '
 $page_title       = '¡Registro completado! | EticAlert';
 $page_description = 'Tu canal de denuncias EticAlert está en camino. Pronto recibirás las instrucciones de acceso.';
 $page_canonical   = 'https://eticalert.com/registro-confirmacion';
+$page_robots      = 'noindex, nofollow';
 include 'includes/header.php';
 ?>
 
