@@ -91,7 +91,7 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/styles.css?v=20260428">
+  <link rel="stylesheet" href="/css/styles.css?v=20260428b">
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>
@@ -127,6 +127,32 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   </script>
 </head>
 <body class="<?= htmlspecialchars($page_body_class) ?>">
+
+<!-- ============================================================
+     VERIFY BANNER
+     ============================================================ -->
+<div class="verify-banner" id="verify-banner" role="complementary" aria-label="Verificador de documentos">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  <span>Verifica la integridad de cualquier denuncia con su hash SHA-256 →</span>
+  <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener">Ir al verificador</a>
+  <button class="verify-banner-close" onclick="dismissVerifyBanner()" aria-label="Cerrar aviso">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+</div>
+<script>
+(function(){
+  if(localStorage.getItem('vbDismissed')){
+    document.getElementById('verify-banner').style.display='none';
+  } else {
+    document.body.classList.add('has-verify-banner');
+  }
+})();
+function dismissVerifyBanner(){
+  localStorage.setItem('vbDismissed','1');
+  document.getElementById('verify-banner').style.display='none';
+  document.body.classList.remove('has-verify-banner');
+}
+</script>
 
 <!-- ============================================================
      HEADER / NAV
