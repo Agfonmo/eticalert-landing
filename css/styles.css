@@ -1551,36 +1551,40 @@ table.comparison .cross { color: var(--text-muted); }
   margin-top: 0.2rem;
 }
 
-/* Acordeón de secciones funcionalidades */
+/* Acordeón JS — secciones funcionalidades */
 .func-section {
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   margin-bottom: 0.5rem;
   overflow: hidden;
 }
-.func-section > summary {
-  list-style: none;
+.func-section-header {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 0.75rem;
   padding: 0.9rem 1.25rem;
-  cursor: pointer;
-  user-select: none;
   background: var(--bg-card);
-  transition: background 0.15s;
+  border: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
 }
-.func-section > summary::-webkit-details-marker { display: none; }
-.func-section > summary::marker { display: none; }
-.func-section > summary:hover { background: var(--bg-tertiary); }
-.func-section[open] > summary {
-  border-bottom: 1px solid var(--border-subtle);
+.func-section-header:hover { background: var(--bg-tertiary); }
+.func-section-header:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+.func-section.open .func-section-header {
+  border-bottom-color: var(--border-subtle);
 }
 .func-section-title {
   flex: 1;
   font-size: 0.9375rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin: 0;
 }
 .func-section-count {
   font-size: 0.75rem;
@@ -1594,16 +1598,22 @@ table.comparison .cross { color: var(--text-muted); }
 .func-section-chevron {
   flex-shrink: 0;
   color: var(--text-muted);
-  transition: transform 0.2s;
+  transition: transform 0.25s ease;
 }
-.func-section[open] .func-section-chevron { transform: rotate(180deg); }
+.func-section.open .func-section-chevron { transform: rotate(180deg); }
+/* Cuerpo: oculto por defecto, animado con max-height vía JS */
 .func-section-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.func-section-body-inner {
   padding: 1.25rem;
   background: var(--bg-primary);
 }
-.func-section-body .func-list { margin-bottom: 0.75rem; }
-.func-section-body .func-list:last-child { margin-bottom: 0; }
-.func-section-body .func-card-unico { margin-bottom: 0.75rem; }
+.func-section-body-inner .func-list { margin-bottom: 0.75rem; }
+.func-section-body-inner .func-list:last-child { margin-bottom: 0; }
+.func-section-body-inner .func-card-unico { margin-bottom: 0.75rem; }
 .func-section-intro {
   font-size: 0.875rem;
   color: var(--text-secondary);
