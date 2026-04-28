@@ -275,8 +275,8 @@ code, .mono {
   left: 0;
   right: 0;
   z-index: 101;
-  background: var(--bg-secondary);
-  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  border-bottom: 2px solid var(--accent-border);
   padding: 0.5rem 3rem 0.5rem 1rem;
   display: flex;
   align-items: center;
@@ -286,6 +286,7 @@ code, .mono {
   color: var(--text-secondary);
   line-height: 1.4;
   min-height: 40px;
+  opacity: 1;
 }
 .verify-banner a {
   color: var(--accent);
