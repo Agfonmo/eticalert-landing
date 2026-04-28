@@ -37,6 +37,14 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= htmlspecialchars($page_title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2J4XCG9WY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X2J4XCG9WY');
+  </script>
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="es-ES"  href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="x-default" href="<?= htmlspecialchars($page_canonical) ?>">
