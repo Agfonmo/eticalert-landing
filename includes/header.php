@@ -131,7 +131,7 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
 <!-- ============================================================
      VERIFY BANNER
      ============================================================ -->
-<div class="verify-banner" id="verify-banner" role="complementary" aria-label="Verificador de documentos">
+<div class="verify-banner" id="verify-banner" role="complementary" aria-label="Verificador de documentos" style="background-color:#1A2B23!important;">
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
   <span>Verifica la integridad de cualquier denuncia con su hash SHA-256 →</span>
   <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener">Ir al verificador</a>
