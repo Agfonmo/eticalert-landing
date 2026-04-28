@@ -348,7 +348,7 @@ include 'includes/header.php';
                 <span class="func-name">Hash SHA-256 verificable públicamente</span>
                 <span class="badge-unico">Único en España</span>
               </div>
-              <p class="func-desc">El contenido de cada denuncia tiene un hash criptográfico verificable en /verificar que demuestra que no ha sido alterado desde su recepción.</p>
+              <p class="func-desc">El contenido de cada denuncia tiene un hash criptográfico verificable en <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener" style="color:var(--accent);">app.eticalert.com/verificar</a> que demuestra que no ha sido alterado desde su recepción.</p>
               <p class="func-value">Garantía de integridad ante disputa legal o inspección de la AIPI. Demuestra que la empresa no ha manipulado el contenido. Ningún competidor lo ofrece.</p>
             </div>
 
