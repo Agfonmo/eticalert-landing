@@ -14,7 +14,7 @@ include 'includes/header.php';
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Conflicto de interés, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Exportación PDF y CSV, API REST, Plan Free permanente, Multiempresa",
+  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Exportación PDF y CSV, Plan Free permanente, Multiempresa",
   "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023. 48 funcionalidades incluidas desde el primer día."
 }
 </script>
@@ -87,541 +87,582 @@ include 'includes/header.php';
           <h2 id="canal-publico">Canal público</h2>
           <p class="func-category-intro">La interfaz que ven los informantes: empleados, proveedores, clientes y terceros que acceden a denunciar.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Canal anónimo con código</span>
-              </div>
-              <p class="func-desc">Denuncia sin revelar la identidad; el sistema emite un código alfanumérico único como credencial de seguimiento.</p>
-              <p class="func-value">Elimina el principal freno para denunciar: el miedo a represalias.</p>
+          <!-- Único -->
+          <div class="func-card func-card-unico">
+            <div class="func-card-header">
+              <span class="func-name">Exclusión preventiva de gestoras por el informante</span>
+              <span class="badge-unico">Único en España</span>
             </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Canal identificado</span>
-              </div>
-              <p class="func-desc">El informante puede optar por identificarse voluntariamente si lo desea.</p>
-              <p class="func-value">Facilita la instrucción del caso sin forzarlo como única vía.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">URL personalizada por empresa</span>
-              </div>
-              <p class="func-desc">Cada empresa recibe su propia URL pública (eticalert.com/d/tu-empresa) lista para publicar en web o QR.</p>
-              <p class="func-value">Cumple la obligación de "publicar el canal" sin desarrollo propio.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Branding corporativo</span>
-              </div>
-              <p class="func-desc">El informante ve el logo y colores de su empresa, no una pantalla genérica de terceros.</p>
-              <p class="func-value">Aumenta la confianza y adopción del canal internamente.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Sin cookies ni tracking</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">El canal público no instala ninguna cookie ni ejecuta scripts de analítica que pudieran revelar que el usuario visitó el canal.</p>
-              <p class="func-value">Protege activamente al informante de ser rastreado. Requisito RGPD implícito.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Adjuntar evidencias</span>
-              </div>
-              <p class="func-desc">El informante puede subir archivos (imágenes, PDFs, documentos) directamente en el formulario de denuncia.</p>
-              <p class="func-value">Incrementa la calidad y accionabilidad de las denuncias desde el primer momento.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Seguimiento de estado</span>
-              </div>
-              <p class="func-desc">Con el código recibido, el informante consulta el estado de su denuncia en cualquier momento, sin registro.</p>
-              <p class="func-value">Cierra el ciclo de comunicación exigido por el art. 20 de la Ley 2/2023.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Mensajería anónima cifrada</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Canal de mensajes bidireccional entre el informante (anónimo) y el gestor interno, preservando el anonimato.</p>
-              <p class="func-value">Permite pedir aclaraciones o comunicar la resolución sin romper la confidencialidad.</p>
-            </div>
-
-            <div class="func-card" style="grid-column:1/-1;">
-              <div class="func-card-header">
-                <span class="func-name">Exclusión preventiva de gestoras por el informante</span>
-                <span class="badge-unico">Único en España</span>
-              </div>
-              <p class="func-desc">Al crear la denuncia, el informante puede seleccionar qué personas concretas del equipo gestor quedan bloqueadas de su caso: coordinador, resolutores y COMPANY_ADMIN con rol RSII. Las personas excluidas no ven el caso en listados, no acceden al detalle, no reciben notificaciones y no pueden ser asignadas.</p>
-              <p class="func-value">Mecanismo complementario al conflicto de interés del gestor (C5): el informante actúa de forma preventiva, sin depender de que el propio gestor se declare incompatible. Cubre situaciones donde el informante conoce el conflicto pero el gestor no lo declararía.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Validación antiabuso (Turnstile)</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">El formulario de denuncia y el panel de seguimiento integran Cloudflare Turnstile. Sin token válido, la API rechaza el envío.</p>
-              <p class="func-value">Protege el canal ante campañas automatizadas de denuncia falsa sin añadir fricción al informante legítimo.</p>
-            </div>
-
+            <p class="func-desc">Al crear la denuncia, el informante puede seleccionar qué personas concretas del equipo gestor quedan bloqueadas de su caso: coordinador, resolutores y COMPANY_ADMIN con rol RSII. Las personas excluidas no ven el caso en listados, no acceden al detalle, no reciben notificaciones y no pueden ser asignadas.</p>
+            <p class="func-value">Mecanismo complementario al conflicto de interés del gestor: el informante actúa de forma preventiva, sin depender de que el propio gestor se declare incompatible. Cubre situaciones donde el informante conoce el conflicto pero el gestor no lo declararía.</p>
           </div>
+
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Sin cookies ni tracking</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">El canal público no instala cookies ni ejecuta scripts de analítica. El informante no puede ser rastreado. Requisito RGPD implícito.</p>
+              </div>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Mensajería anónima cifrada</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Canal bidireccional entre el informante anónimo y el gestor interno. Permite aclaraciones y comunicar la resolución sin romper la confidencialidad.</p>
+              </div>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Validación antiabuso (Turnstile)</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Cloudflare Turnstile integrado en el formulario y el panel de seguimiento. Sin token válido, la API rechaza el envío. Sin fricción para el informante legítimo.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Canal anónimo con código</span>
+                </div>
+                <p class="func-item-desc">Denuncia sin revelar identidad; el sistema emite un código alfanumérico único como credencial de seguimiento.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Canal identificado</span>
+                </div>
+                <p class="func-item-desc">El informante puede optar por identificarse voluntariamente si lo desea.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">URL personalizada por empresa</span>
+                </div>
+                <p class="func-item-desc">Cada empresa recibe su URL pública (eticalert.com/d/tu-empresa) lista para publicar en web o QR. Cumple la obligación de "publicar el canal" sin desarrollo propio.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Branding corporativo</span>
+                </div>
+                <p class="func-item-desc">El informante ve el logo y colores de su empresa, no una pantalla genérica de terceros. Aumenta la confianza y adopción del canal.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Adjuntar evidencias</span>
+                </div>
+                <p class="func-item-desc">El informante puede subir archivos (imágenes, PDFs, documentos) directamente en el formulario de denuncia.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Seguimiento de estado</span>
+                </div>
+                <p class="func-item-desc">Con el código recibido, el informante consulta el estado de su denuncia en cualquier momento, sin registro. Cierra el ciclo del art. 20 Ley 2/2023.</p>
+              </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="multicanal">Recepción multicanal</h2>
           <p class="func-category-intro">La Ley 2/2023 exige admitir denuncias también por vía oral o presencial. EticAlert lo integra en el mismo sistema auditado.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Entrada manual por RSII</span>
-                <span class="badge-diff">Diferenciador</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Entrada manual por RSII</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">El responsable registra denuncias recibidas por email, teléfono o presencialmente, indicando el origen con texto libre. Unifica todos los canales en un único registro auditado.</p>
               </div>
-              <p class="func-desc">El responsable registra denuncias recibidas por email, teléfono o presencialmente, indicando el origen con texto libre.</p>
-              <p class="func-value">Unifica todos los canales en un único registro auditado. El origen queda documentado aunque no sea digital.</p>
-            </div>
-
-          </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="gestion">Gestión de casos</h2>
           <p class="func-category-intro">El flujo interno completo para instruir, asignar y resolver cada denuncia con trazabilidad total.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Panel de administración</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Etiquetado de casos</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Etiquetas personalizadas por denuncia ("acoso", "fraude financiero", "proveedor"…). Facilita filtros, reporting y análisis de patrones a lo largo del tiempo.</p>
               </div>
-              <p class="func-desc">Interfaz centralizada donde el RSII ve todas las denuncias, su estado, plazos y actividad reciente.</p>
-              <p class="func-value">Sustituye hojas de cálculo y bandejas de email; todo el equipo gestor ve el mismo estado en tiempo real.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Asignación de casos</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Autoasignación inteligente</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Si existe exactamente un resolutor compatible con la categoría y no excluido por el informante, el sistema lo asigna automáticamente. El coordinador solo interviene cuando hay ambigüedad real.</p>
               </div>
-              <p class="func-desc">El administrador asigna una denuncia a un coordinador o resolutor específico, quedando registrado en auditoría.</p>
-              <p class="func-value">Permite estructurar el flujo interno según la organización de la empresa.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Etiquetado de casos</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Topics por resolutor</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Cada gestor tiene asignadas las categorías de denuncia que puede instruir. Si no hay match, el coordinador activa un override explícito. Garantiza compartimentación funcional por especialidad.</p>
               </div>
-              <p class="func-desc">Añade etiquetas personalizadas a cada denuncia: "acoso", "fraude financiero", "proveedor", etc.</p>
-              <p class="func-value">Facilita filtros, reporting interno y análisis de patrones a lo largo del tiempo.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Gestión de estados</span>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Panel de administración</span>
+                </div>
+                <p class="func-item-desc">Interfaz centralizada donde el RSII ve todas las denuncias, su estado, plazos y actividad reciente en tiempo real.</p>
               </div>
-              <p class="func-desc">Ciclo de vida completo: recibida → en instrucción → pendiente → resuelta / archivada.</p>
-              <p class="func-value">Visibilidad clara para todo el equipo gestor con traza auditable de cada transición.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Autoasignación inteligente</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Asignación de casos</span>
+                </div>
+                <p class="func-item-desc">El administrador asigna una denuncia a un coordinador o resolutor específico, quedando registrado en auditoría.</p>
               </div>
-              <p class="func-desc">Al recibirse una denuncia, el sistema intenta asignarla automáticamente si existe exactamente un resolutor compatible con la categoría y no excluido por el informante.</p>
-              <p class="func-value">Elimina la cola de casos sin asignar en empresas con un solo resolutor por área. El coordinador solo interviene cuando hay ambigüedad real.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Topics por resolutor</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Gestión de estados</span>
+                </div>
+                <p class="func-item-desc">Ciclo de vida completo: recibida → en instrucción → pendiente → resuelta / archivada, con traza auditable de cada transición.</p>
               </div>
-              <p class="func-desc">Cada gestor tiene asignadas las categorías de denuncia que puede instruir. La compatibilidad temática controla quién puede ser asignado a cada caso; si no hay match, el coordinador activa un override explícito.</p>
-              <p class="func-value">Garantiza que casos de acoso laboral no llegan a alguien de cumplimiento financiero, y viceversa. Compartimentación funcional por especialidad.</p>
-            </div>
-
-          </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="roles">Roles y permisos</h2>
           <p class="func-category-intro">Tres niveles de acceso con compartimentación real. Cada rol ve y puede hacer exactamente lo que le corresponde, ni más ni menos.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Rol Administrador</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Rol Coordinador (RSII)</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Lee todos los casos salvo los bloqueados por el informante. Gestiona asignaciones y prioridades en cualquier expediente, pero solo actúa (responder, cambiar estado) en los que tiene asignados.</p>
               </div>
-              <p class="func-desc">Gestiona la configuración del canal, el equipo, la facturación y el soporte. Por defecto <strong>no accede al contenido de las denuncias</strong>. Solo cuando actúa como RSII (responsable del sistema) hereda la capacidad de leer casos, gestionar asignaciones y prioridades — con las mismas reglas que el coordinador.</p>
-              <p class="func-value">El administrador que no es RSII nunca ve información sensible de un caso. Separación de poderes entre gestión empresarial e instrucción del expediente.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Rol Coordinador (RSII)</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Rol Resolutor</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Ve únicamente los casos asignados a él. Lee el contenido completo, responde al informante y mueve el estado. No puede ver ni tocar casos de otros resolutores. Principio "need to know" aplicado con rigor.</p>
               </div>
-              <p class="func-desc">Lee el contenido completo de <strong>todos los casos</strong> (salvo los que el informante le ha bloqueado explícitamente). Gestiona asignaciones y prioridades en cualquier expediente. Solo puede responder al informante o cambiar el estado de un caso cuando ese caso está asignado a él.</p>
-              <p class="func-value">Visibilidad total para coordinar, acción restringida para instruir. El coordinador organiza sin poder actuar donde no le corresponde.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Rol Resolutor</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Rol Administrador</span>
+                </div>
+                <p class="func-item-desc">Gestiona configuración, equipo y facturación. Por defecto no accede al contenido de las denuncias; solo cuando actúa como RSII hereda la capacidad de leer casos.</p>
               </div>
-              <p class="func-desc">Ve únicamente los casos asignados a él. Lee el contenido completo, responde al informante y mueve el estado del expediente. No puede ver ni tocar casos de otros resolutores ni reasignarse casos.</p>
-              <p class="func-value">Compartimentación máxima: cada resolutor trabaja en su propio espacio sin acceso lateral al resto del sistema. Principio "need to know" aplicado con rigor.</p>
-            </div>
-
-          </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="plazos">Plazos legales automatizados</h2>
           <p class="func-category-intro">La Ley 2/2023 establece plazos concretos con sanciones graves por incumplimiento. EticAlert los gestiona sin intervención manual.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Acuse automático en 7 días</span>
-                <span class="badge-diff">Diferenciador</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Acuse automático en 7 días</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">El acuse de recibo se envía dentro del plazo legal (art. 18 Ley 2/2023) sin intervención manual. El incumplimiento es infracción grave; automatizarlo elimina el riesgo de olvido humano.</p>
               </div>
-              <p class="func-desc">El sistema envía el acuse de recibo al informante dentro del plazo legal (art. 18 Ley 2/2023), sin intervención manual.</p>
-              <p class="func-value">El incumplimiento es infracción grave. Automatizarlo elimina el riesgo de olvido humano.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Alerta de vencimiento de 3 meses</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Alerta de vencimiento de 3 meses</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Notificación proactiva al gestor cuando se acerca el plazo para comunicar medidas adoptadas al informante. Sin esta alerta el gestor depende de su propio calendario.</p>
               </div>
-              <p class="func-desc">Notificación proactiva al gestor cuando se acerca el plazo para comunicar las medidas adoptadas al informante.</p>
-              <p class="func-value">Sin esta alerta el gestor depende de su propio calendario. El incumplimiento es infracción grave.</p>
-            </div>
-
-            <div class="func-card" style="grid-column:1/-1;">
-              <div class="func-card-header">
-                <span class="func-name">Historial de plazos auditado</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Historial de plazos auditado</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Cada plazo (7 días, 3 meses) queda registrado con timestamp en el audit log: cuándo se cumplió y cómo. Evidencia documental directamente exportable para inspección de la AIPI.</p>
               </div>
-              <p class="func-desc">Cada plazo (7 días, 3 meses) queda registrado con timestamp en el audit log: cuándo se cumplió y cómo.</p>
-              <p class="func-value">Evidencia documental directamente exportable cuando la AIPI inspeccione. La combinación de automatización + registro auditado no la tienen los competidores básicos.</p>
-            </div>
-
-          </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="seguridad">Seguridad y cifrado</h2>
           <p class="func-category-intro">Protección técnica en todas las capas. No solo en el transporte: también en la base de datos y en los metadatos.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Cifrado AES-256 en tránsito y reposo</span>
-              </div>
-              <p class="func-desc">Toda la comunicación usa TLS; los datos almacenados están cifrados con AES-256.</p>
-              <p class="func-value">Cumple los requisitos técnicos de confidencialidad de la Ley 2/2023 y el RGPD.</p>
+          <!-- Único -->
+          <div class="func-card func-card-unico">
+            <div class="func-card-header">
+              <span class="func-name">Hash SHA-256 verificable públicamente</span>
+              <span class="badge-unico">Único en España</span>
             </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Cifrado en base de datos</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Los campos sensibles (identidad, contenido de denuncia) están cifrados dentro de la propia BD, no solo a nivel de disco.</p>
-              <p class="func-value">Protege ante brechas de BD directas: SQL injection, acceso físico al servidor, acceso interno no autorizado.</p>
-            </div>
-
-            <div class="func-card" style="grid-column:1/-1;">
-              <div class="func-card-header">
-                <span class="func-name">Hash SHA-256 verificable públicamente</span>
-                <span class="badge-unico">Único en España</span>
-              </div>
-              <p class="func-desc">El contenido de cada denuncia tiene un hash criptográfico verificable en <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener" style="color:var(--accent);">app.eticalert.com/verificar</a> que demuestra que no ha sido alterado desde su recepción.</p>
-              <p class="func-value">Garantía de integridad ante disputa legal o inspección de la AIPI. Demuestra que la empresa no ha manipulado el contenido. Ningún competidor lo ofrece.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Datos alojados en la UE</span>
-              </div>
-              <p class="func-desc">Todos los datos se almacenan en servidores dentro de la Unión Europea.</p>
-              <p class="func-value">Cumplimiento inmediato de las restricciones de transferencia internacional del RGPD.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">URLs de adjuntos firmadas (TTL 30 min)</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Los enlaces a archivos adjuntos expiran automáticamente a los 30 minutos. No son URLs permanentes y compartibles.</p>
-              <p class="func-value">Impide que un enlace filtrado por error dé acceso indefinido a evidencias confidenciales.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">RLS en base de datos</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Row Level Security de PostgreSQL: políticas de acceso a nivel de fila en la base de datos, independientes de la lógica de la aplicación.</p>
-              <p class="func-value">Segunda capa de seguridad autónoma. Aunque un bug ejecutara una query incorrecta, la BD devuelve solo los datos accesibles al usuario. Aislamiento total entre empresas garantizado a nivel de motor de datos.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Validación de email corporativo en registro</span>
-              </div>
-              <p class="func-desc">El sistema rechaza dominios personales (gmail, hotmail), temporales y dominios sin registros MX activos durante el alta de empresa.</p>
-              <p class="func-value">Solo se registran empresas reales con infraestructura de correo corporativo. Reduce ruido y abuso del canal de registro.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Validación de CIF con dígito de control</span>
-              </div>
-              <p class="func-desc">El CIF español se valida en formato y dígito de control en el alta. No se admiten CIFs malformados ni duplicados por empresa.</p>
-              <p class="func-value">Cada empresa ocupa un único espacio en la plataforma. Garantiza que la evidencia laboral se asocia siempre a la entidad correcta.</p>
-            </div>
-
+            <p class="func-desc">El contenido de cada denuncia tiene un hash criptográfico verificable en <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener" style="color:var(--accent);">app.eticalert.com/verificar</a> que demuestra que no ha sido alterado desde su recepción.</p>
+            <p class="func-value">Garantía de integridad ante disputa legal o inspección de la AIPI. Demuestra que la empresa no ha manipulado el contenido. Ningún competidor lo ofrece.</p>
           </div>
+
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Cifrado en base de datos</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Los campos sensibles (identidad, contenido) están cifrados dentro de la BD, no solo a nivel de disco. Protege ante SQL injection, acceso físico o acceso interno no autorizado.</p>
+              </div>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">URLs de adjuntos firmadas (TTL 30 min)</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Los enlaces a archivos adjuntos expiran a los 30 minutos. Impide que un enlace filtrado por error dé acceso indefinido a evidencias confidenciales.</p>
+              </div>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">RLS en base de datos</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Row Level Security de PostgreSQL: políticas de acceso a nivel de fila en la BD, independientes de la lógica de la aplicación. Aislamiento total entre empresas garantizado a nivel de motor de datos.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Cifrado AES-256 en tránsito y reposo</span>
+                </div>
+                <p class="func-item-desc">Toda la comunicación usa TLS; los datos almacenados están cifrados con AES-256. Cumple los requisitos técnicos de confidencialidad de la Ley 2/2023 y el RGPD.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Datos alojados en la UE</span>
+                </div>
+                <p class="func-item-desc">Todos los datos se almacenan en servidores dentro de la Unión Europea. Cumplimiento inmediato de las restricciones de transferencia internacional del RGPD.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Validación de email corporativo en registro</span>
+                </div>
+                <p class="func-item-desc">Rechaza dominios personales, temporales y sin registros MX activos. Solo se registran empresas reales con infraestructura de correo corporativo.</p>
+              </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Validación de CIF con dígito de control</span>
+                </div>
+                <p class="func-item-desc">El CIF español se valida en formato y dígito de control en el alta. No se admiten CIFs malformados ni duplicados por empresa.</p>
+              </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="auditoria">Auditoría e integridad</h2>
           <p class="func-category-intro">Trazabilidad completa de todo lo que ocurre en el sistema. Sin posibilidad de manipulación retroactiva.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Registro append-only</span>
-                <span class="badge-diff">Diferenciador</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Registro append-only</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Ninguna acción puede borrarse ni modificarse retroactivamente. El log solo crece. La AIPI puede verificar que no se han eliminado evidencias.</p>
               </div>
-              <p class="func-desc">Ninguna acción del sistema puede borrarse ni modificarse retroactivamente. El log solo crece.</p>
-              <p class="func-value">La AIPI puede verificar que no se han eliminado evidencias. Protege a la empresa ante acusaciones de manipulación.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Timestamps inmutables</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Timestamps inmutables</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Cada acción (lectura, asignación, cambio de estado, mensaje) lleva timestamp firmado y no editable. Cadena de custodia verificable exigida implícitamente por la Ley 2/2023.</p>
               </div>
-              <p class="func-desc">Cada acción (lectura, asignación, cambio de estado, mensaje) lleva timestamp firmado y no editable.</p>
-              <p class="func-value">Cadena de custodia verificable. Requisito implícito de la Ley 2/2023 para el registro de actuaciones.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Trazabilidad de lecturas</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Trazabilidad de lecturas</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">El sistema registra quién leyó cada denuncia y cuándo, a nivel individual. Detecta accesos no autorizados y permite demostrar compartimentación ante la AIPI.</p>
               </div>
-              <p class="func-desc">El sistema registra quién leyó cada denuncia y cuándo, a nivel individual.</p>
-              <p class="func-value">Detecta accesos no autorizados a información confidencial. Permite demostrar compartimentación ante la AIPI.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Historial de nombramientos RSII</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Historial de nombramientos RSII</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Cada cambio en la designación del RSII queda registrado automáticamente: quién fue nombrado, quién lo nombró, cuándo y cuándo fue revocado. Trazabilidad legal del Art. 8 Ley 2/2023.</p>
               </div>
-              <p class="func-desc">Cada cambio en la designación del RSII queda registrado automáticamente: quién fue nombrado, quién lo nombró, cuándo y cuándo fue revocado.</p>
-              <p class="func-value">Trazabilidad legal del Art. 8 Ley 2/2023. Si la AIPI pregunta quién era el RSII en una fecha concreta, el historial lo acredita con timestamps inmutables.</p>
-            </div>
-
-          </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="reporting">Reporting y exportación</h2>
           <p class="func-category-intro">Documentación lista para auditoría, abogados o la AIPI. Sin trabajo manual de recopilación.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Exportación PDF de caso</span>
-                <span class="badge-diff">Diferenciador</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Exportación PDF de caso</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">PDF del historial completo: cronología, mensajes, cambios de estado, decisiones tomadas. Listo para entregar a la AIPI o a un abogado.</p>
               </div>
-              <p class="func-desc">Genera un PDF del historial completo: cronología, mensajes, cambios de estado, decisiones tomadas.</p>
-              <p class="func-value">Documento listo para entregar a la AIPI, a un abogado o como evidencia en un procedimiento.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Historial de plazos en el PDF</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Historial de plazos en el PDF</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">El PDF incluye la cronología de plazos legales con sus fechas exactas. Prueba documental de cumplimiento de la Ley 2/2023, lista para auditoría.</p>
               </div>
-              <p class="func-desc">El PDF incluye la cronología de plazos legales: recepción, acuse, resolución con sus fechas exactas.</p>
-              <p class="func-value">Prueba documental de cumplimiento de la Ley 2/2023, lista para auditoría. Pocos competidores lo incluyen.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Export CSV de metadatos</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Export CSV de metadatos</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Listado completo de casos con metadatos (código, categoría, estado, fechas, resolutor) sin incluir contenido sensible. Para análisis interno y reporting al órgano de gobierno.</p>
               </div>
-              <p class="func-desc">El administrador exporta el listado completo de casos en CSV con sus metadatos (código, categoría, estado, fechas, resolutor) sin incluir contenido sensible.</p>
-              <p class="func-value">Permite análisis interno de patrones, reporting al consejo de administración y auditorías sin exponer el contenido cifrado de las denuncias.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Informe de compliance mensual</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Informe de compliance mensual</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">El sistema genera automáticamente métricas de actividad: volumen de casos, estados, tiempos de respuesta y cumplimiento de plazos. Sin intervención manual.</p>
               </div>
-              <p class="func-desc">El sistema genera automáticamente un informe periódico de actividad del canal: volumen de casos, estados, tiempos de respuesta y cumplimiento de plazos.</p>
-              <p class="func-value">Sin intervención manual. El RSII dispone de métricas de cumplimiento listas para presentar al órgano de gobierno.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Purga RGPD de casos archivados</span>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Purga RGPD de casos archivados</span>
+                </div>
+                <p class="func-item-desc">Eliminación permanente e irreversible de expedientes que han superado el período de retención legal. Cumplimiento del principio de minimización de datos del RGPD.</p>
               </div>
-              <p class="func-desc">El administrador puede eliminar de forma permanente e irreversible los expedientes archivados que han superado el período de retención legal.</p>
-              <p class="func-value">Cumplimiento del principio de minimización de datos del RGPD. Confirma al informante que sus datos no se conservan indefinidamente.</p>
-            </div>
-
-          </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="configuracion">Configuración y puesta en marcha</h2>
           <p class="func-category-intro">De cero a canal operativo en menos de 5 minutos. Sin consultores, sin llamadas, sin técnicos.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Precio fijo por empresa</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Un precio mensual independiente del número de usuarios, gestores o denuncias recibidas.</p>
-              <p class="func-value">Coste predecible. Elimina el desincentivo de añadir más gestores por miedo al coste adicional.</p>
+          <!-- Único -->
+          <div class="func-card func-card-unico">
+            <div class="func-card-header">
+              <span class="func-name">Plan Free completo permanente</span>
+              <span class="badge-unico">Único en España</span>
             </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Prueba gratuita 15 días</span>
-              </div>
-              <p class="func-desc">Acceso completo a la plataforma durante 15 días sin tarjeta de crédito.</p>
-              <p class="func-value">Verifica el cumplimiento antes de comprometerte económicamente.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Preview 1:1 del canal en tiempo real</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Desde los ajustes de branding, el administrador ve en tiempo real cómo queda el canal público antes de guardar, reproduciendo logo, colores, textos y modos claro/oscuro.</p>
-              <p class="func-value">Elimina el riesgo de publicar un canal con errores visuales. Lo que ves en preview es exactamente lo que verá el informante.</p>
-            </div>
-
-            <div class="func-card" style="grid-column:1/-1;">
-              <div class="func-card-header">
-                <span class="func-name">Generación de documentos legales PDF</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">El sistema genera automáticamente tres documentos legales con los datos reales de la empresa: (1) Reglamento del canal de denuncias, (2) Nombramiento formal del RSII conforme al Art. 8 Ley 2/2023, (3) Cláusula informativa para empleados.</p>
-              <p class="func-value">Documentación legal lista para firmar y archivar, sin necesidad de abogado para la redacción base. Reduce semanas de trabajo a un clic.</p>
-            </div>
-
-            <div class="func-card" style="grid-column:1/-1;">
-              <div class="func-card-header">
-                <span class="func-name">Plan Free completo permanente</span>
-                <span class="badge-unico">Único en España</span>
-              </div>
-              <p class="func-desc">Hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades activas.</p>
-              <p class="func-value">Las empresas por debajo del umbral legal pueden adoptar el canal sin coste. Ningún competidor listado ofrece un plan permanentemente gratuito con funcionalidad completa.</p>
-            </div>
-
+            <p class="func-desc">Hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades activas.</p>
+            <p class="func-value">Las empresas por debajo del umbral legal pueden adoptar el canal sin coste. Ningún competidor listado ofrece un plan permanentemente gratuito con funcionalidad completa.</p>
           </div>
 
-          <!-- ================================================== -->
-          <h2 id="partners">Partners y servicios legales</h2>
-          <p class="func-category-intro">Cuando la denuncia requiere abogados: escalado directo desde la plataforma, sin buscar asesoramiento externo.</p>
-
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Programa de partners</span>
-                <span class="badge-diff">Diferenciador</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Precio fijo por empresa</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Un precio mensual independiente del número de usuarios, gestores o denuncias. Coste predecible sin desincentivo de añadir más gestores.</p>
               </div>
-              <p class="func-desc">Descuentos y condiciones para asesorías laborales, despachos y consultoras que gestionan el canal de varios clientes.</p>
-              <p class="func-value">El asesor añade el canal como servicio gestionado para sus clientes sin infraestructura propia.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Instrucción jurídica de denuncias</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Preview 1:1 del canal en tiempo real</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Desde los ajustes de branding, el administrador ve exactamente cómo queda el canal público antes de guardar: logo, colores, textos y modos claro/oscuro.</p>
               </div>
-              <p class="func-desc">Servicio opcional con despacho partner para instruir formalmente una denuncia concreta. Desde 150€/caso.</p>
-              <p class="func-value">La empresa escala a abogados especializados sin buscarlos por su cuenta. El expediente ya está en la plataforma.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Informe de resolución</span>
-                <span class="badge-diff">Diferenciador</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Generación de documentos legales PDF</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Genera automáticamente: (1) Reglamento del canal, (2) Nombramiento formal del RSII (Art. 8 Ley 2/2023), (3) Cláusula informativa para empleados. Listos para firmar y archivar, sin abogado.</p>
               </div>
-              <p class="func-desc">Redacción del informe formal de resolución por despacho partner. Desde 350€/caso.</p>
-              <p class="func-value">Documento jurídicamente sólido para archivar en el expediente y para posible defensa ante la AIPI o un juzgado.</p>
-            </div>
-
-          </div>
+            </li>
+            <li class="func-item">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Prueba gratuita 15 días</span>
+                </div>
+                <p class="func-item-desc">Acceso completo a la plataforma durante 15 días sin tarjeta de crédito. Verifica el cumplimiento antes de comprometerte económicamente.</p>
+              </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="enterprise">Capacidades Enterprise</h2>
           <p class="func-category-intro">Disponibles a demanda para grupos empresariales y organizaciones con requisitos IT avanzados. Contáctanos para activarlas.</p>
 
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Multiempresa para grupos</span>
-                <span class="badge-diff">A demanda</span>
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Multiempresa para grupos</span>
+                  <span class="badge-diff">A demanda</span>
+                </div>
+                <p class="func-item-desc">Una sola cuenta gestiona canales de varias empresas del mismo grupo desde un único panel. Centraliza compliance sin fragmentación.</p>
               </div>
-              <p class="func-desc">Una sola cuenta gestiona canales de varias empresas del mismo grupo desde un único panel.</p>
-              <p class="func-value">Grupos con varias subsidiarias obligadas centralizan la gestión de compliance. Reduce coste y fragmentación.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">SSO / SAML</span>
-                <span class="badge-diff">A demanda</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">SSO / SAML</span>
+                  <span class="badge-diff">A demanda</span>
+                </div>
+                <p class="func-item-desc">Inicio de sesión único integrado con Azure AD, Okta u otros proveedores de identidad. Elimina gestión de credenciales separadas.</p>
               </div>
-              <p class="func-desc">Inicio de sesión único integrado con Azure AD, Okta u otros proveedores de identidad corporativos.</p>
-              <p class="func-value">Elimina la gestión de credenciales separadas. Facilita la adopción en empresas con políticas IT estrictas.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">API REST de integración</span>
-                <span class="badge-diff">A demanda</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">API REST de integración</span>
+                  <span class="badge-diff">A demanda</span>
+                </div>
+                <p class="func-item-desc">API para conectar EticAlert con sistemas internos: ERP, SIEM, GRC. Automatiza flujos: crear caso en Jira al recibir denuncia, sincronizar estado.</p>
               </div>
-              <p class="func-desc">API para conectar EticAlert con sistemas internos: ERP, SIEM, herramientas de compliance o GRC.</p>
-              <p class="func-value">Automatiza flujos: crear caso en Jira al recibir denuncia, sincronizar estado con sistema GRC.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">SLA por contrato</span>
-                <span class="badge-diff">A demanda</span>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">SLA por contrato</span>
+                  <span class="badge-diff">A demanda</span>
+                </div>
+                <p class="func-item-desc">Garantía de disponibilidad y tiempos de respuesta formalizados contractualmente. Requerido por grandes empresas con dependencia regulatoria del canal.</p>
               </div>
-              <p class="func-desc">Garantía de disponibilidad y tiempos de respuesta formalizados contractualmente.</p>
-              <p class="func-value">Requerido por grandes empresas con dependencia regulatoria del canal. Cubre el riesgo de downtime durante una denuncia activa.</p>
-            </div>
+            </li>
+          </ul>
 
-          </div>
+          <!-- ================================================== -->
+          <h2 id="partners">Partners y servicios legales</h2>
+          <p class="func-category-intro">Cuando la denuncia requiere abogados: escalado directo desde la plataforma, sin buscar asesoramiento externo.</p>
+
+          <ul class="func-list">
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Programa de partners</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Descuentos y condiciones para asesorías laborales, despachos y consultoras que gestionan el canal de varios clientes. El asesor añade el canal como servicio gestionado sin infraestructura propia.</p>
+              </div>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Instrucción jurídica de denuncias</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Servicio opcional con despacho partner para instruir formalmente una denuncia concreta. Desde 150€/caso. El expediente ya está en la plataforma.</p>
+              </div>
+            </li>
+            <li class="func-item func-item-diff">
+              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <div class="func-item-body">
+                <div class="func-item-title">
+                  <span class="func-item-name">Informe de resolución</span>
+                  <span class="badge-diff">Diferenciador</span>
+                </div>
+                <p class="func-item-desc">Redacción del informe formal de resolución por despacho partner. Desde 350€/caso. Documento jurídicamente sólido para archivar o para defensa ante la AIPI.</p>
+              </div>
+            </li>
+          </ul>
 
           <!-- ================================================== -->
           <h2 id="comparativa">Comparativa ampliada</h2>
