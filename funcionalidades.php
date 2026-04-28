@@ -37,7 +37,7 @@ include 'includes/header.php';
       <div style="max-width:660px;margin-bottom:3rem;" class="fade-up">
         <span class="overline">Funcionalidades</span>
         <h1 style="font-size:clamp(1.875rem,4vw,2.5rem);">Qué hace EticAlert y en qué se diferencia</h1>
-        <p style="font-size:1.0625rem;color:var(--text-secondary);margin:0.875rem 0 0;">Canal de denuncias conforme a la Ley 2/2023. Funcionalidades de seguridad que la mayoría de competidores no tienen.</p>
+  <p style="font-size:1.0625rem;color:var(--text-secondary);margin:0.875rem 0 0;">Canal de denuncias conforme a la Ley 2/2023.</p>
       </div>
 
       <!-- ============================================================ -->
@@ -85,8 +85,8 @@ include 'includes/header.php';
         $diffs = [
           ['Canal',       'Sin cookies ni tracking'],
           ['Canal',       'Mensajería anónima cifrada'],
-          ['Seguridad',   'Cifrado en base de datos'],
-          ['Seguridad',   'URLs de adjuntos firmadas (TTL 30 min)'],
+
+
           ['Plazos',      'Acuse automático en 7 días (art. 18)'],
           ['Plazos',      'Alerta de vencimiento a 3 meses'],
           ['Auditoría',   'Registro append-only'],
