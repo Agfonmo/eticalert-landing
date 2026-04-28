@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Protección del informante: qué garantías tiene quien denuncia según la Ley 2/2023",
   "description": "La Ley 2/2023 prohíbe las represalias contra quien denuncia. Inversión de la carga de la prueba, medidas de apoyo y sanciones por represaliar.",
   "url": "https://eticalert.com/blog/proteccion-informante-ley",

@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Acoso laboral y canal de denuncias: cómo actuar como empresa",
   "description": "El acoso laboral es una de las denuncias más frecuentes. Qué debe hacer la empresa al recibirla y cómo el canal protege al informante.",
   "url": "https://eticalert.com/blog/acoso-laboral-canal-denuncias",

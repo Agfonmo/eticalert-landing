@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias para empresas de tecnología y startups en crecimiento",
   "description": "¿Tu startup ha superado los 50 empleados? Necesitas un canal de denuncias. También es señal de madurez para inversores.",
   "url": "https://eticalert.com/blog/canal-denuncias-tecnologia-startups",

@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Cómo implantar un canal de denuncias en tu empresa: guía paso a paso",
   "description": "Guía práctica para implantar un canal de denuncias conforme a la Ley 2/2023. Desde la decisión hasta la publicación, 10 pasos detallados.",
   "url": "https://eticalert.com/blog/como-implantar-canal-denuncias",

@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Denuncias falsas en el canal de denuncias: consecuencias y cómo gestionarlas",
   "description": "¿Qué pasa si alguien presenta una denuncia falsa en el canal? La ley solo protege denuncias de buena fe. Consecuencias y cómo gestionar estos casos.",
   "url": "https://eticalert.com/blog/denuncias-falsas-consecuencias",

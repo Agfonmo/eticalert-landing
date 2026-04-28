@@ -12,7 +12,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Alternativa a Whistleblower Software en España: EticAlert vs WBS (2026)",
   "description": "Comparativa directa entre EticAlert y Whistleblower Software para empresas españolas obligadas por la Ley 2/2023. Precio, funcionalidades y cuál conviene a cada empresa.",
   "url": "https://eticalert.com/blog/alternativa-whistleblower-software",

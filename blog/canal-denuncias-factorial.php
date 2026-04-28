@@ -12,7 +12,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias en Factorial: ¿suficiente para la Ley 2/2023? Comparativa con EticAlert",
   "description": "Factorial incluye un módulo de canal de denuncias en sus planes. Analizamos qué cubre, qué limitaciones tiene y cuándo necesitas una solución especializada como EticAlert.",
   "url": "https://eticalert.com/blog/canal-denuncias-factorial",

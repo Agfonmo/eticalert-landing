@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "El libro-registro del canal de denuncias: qué es, qué debe contener y cómo mantenerlo",
   "description": "El libro-registro es obligatorio según el art. 26 de la Ley 2/2023. Qué debe registrarse, plazos de conservación y cómo automatizarlo.",
   "url": "https://eticalert.com/blog/libro-registro-canal-denuncias",

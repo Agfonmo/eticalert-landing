@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias para hostelería, retail y empresas con alta rotación de personal",
   "description": "Hostelería y retail tienen desafíos únicos: alta rotación, personal sin ordenador, turnos. Así se adapta el canal de denuncias.",
   "url": "https://eticalert.com/blog/canal-denuncias-hosteleria-retail",

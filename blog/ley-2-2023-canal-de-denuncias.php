@@ -13,7 +13,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias",
   "description": "Guía completa sobre la Ley 2/2023: quién está obligado, requisitos del canal, plazos y sanciones.",
   "url": "https://eticalert.com/blog/ley-2-2023-canal-de-denuncias",

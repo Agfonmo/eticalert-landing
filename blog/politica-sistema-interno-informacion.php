@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Política del Sistema Interno de Información: qué debe incluir y cómo redactarla",
   "description": "La política del Sistema Interno de Información es obligatoria. Qué debe incluir, quién la aprueba y cómo redactarla correctamente.",
   "url": "https://eticalert.com/blog/politica-sistema-interno-informacion",

@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias para ayuntamientos y entidades del sector público",
   "description": "Los ayuntamientos de más de 10.000 habitantes están obligados a tener canal de denuncias. Requisitos específicos del sector público.",
   "url": "https://eticalert.com/blog/canal-denuncias-ayuntamientos",

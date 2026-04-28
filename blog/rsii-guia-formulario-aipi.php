@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "RSII: guía práctica para designar y notificar tu responsable del canal de denuncias",
   "description": "Cómo designar al RSII, cómo notificarlo a la AIPI, errores comunes y todo lo que necesitas saber antes del 10 de abril de 2026.",
   "url": "https://eticalert.com/blog/rsii-guia-formulario-aipi",

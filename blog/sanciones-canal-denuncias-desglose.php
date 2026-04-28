@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Sanciones por no tener canal de denuncias: desglose completo por tipo de infracción",
   "description": "Multas de hasta 1.000.000€ para empresas sin canal de denuncias. Desglose completo de infracciones leves, graves y muy graves según la Ley 2/2023.",
   "url": "https://eticalert.com/blog/sanciones-canal-denuncias-desglose",

@@ -12,7 +12,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Alternativa a Whistlelink en España: EticAlert vs Whistlelink (2026)",
   "description": "Comparativa directa entre EticAlert y Whistlelink para cumplir la Ley 2/2023. Precio, funcionalidades y por qué EticAlert es la opción más económica para pymes españolas.",
   "url": "https://eticalert.com/blog/alternativa-whistlelink",

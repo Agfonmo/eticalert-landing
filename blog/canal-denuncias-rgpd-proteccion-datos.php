@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias y RGPD: cómo cumplir con protección de datos",
   "description": "Cómo cumplir con el RGPD al gestionar un canal de denuncias. Datos recogidos, base legal, plazos de conservación y derechos de los interesados.",
   "url": "https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos",

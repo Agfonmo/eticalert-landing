@@ -12,7 +12,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias en Sesame HR: ¿suficiente para la Ley 2/2023? EticAlert vs Sesame",
   "description": "El módulo de canal de denuncias de Sesame HR cumple los requisitos básicos, pero tiene limitaciones de precio, control de acceso y cifrado que conviene conocer antes de decidir.",
   "url": "https://eticalert.com/blog/canal-denuncias-sesame-hr",

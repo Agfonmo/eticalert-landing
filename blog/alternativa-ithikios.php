@@ -12,7 +12,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Alternativa a Ithikios: EticAlert vs Ithikios para canal de denuncias en España (2026)",
   "description": "Comparativa directa entre EticAlert e Ithikios para empresas españolas. Precio, funcionalidades, garantías técnicas y cuál conviene a cada perfil de empresa.",
   "url": "https://eticalert.com/blog/alternativa-ithikios",

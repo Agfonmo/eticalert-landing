@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Mejor software de canal de denuncias 2026: comparativa actualizada",
   "description": "Comparativa actualizada de los mejores software de canal de denuncias para empresas en 2026. Precios, funcionalidades y para quién es cada uno.",
   "url": "https://eticalert.com/blog/mejor-software-canal-denuncias",

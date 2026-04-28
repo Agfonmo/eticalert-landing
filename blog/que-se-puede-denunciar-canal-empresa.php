@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "¿Qué puede denunciar un empleado a través del canal de denuncias?",
   "description": "Lista completa de infracciones denunciables a través del canal de denuncias según la Ley 2/2023 y cómo distinguirlas de quejas laborales ordinarias.",
   "url": "https://eticalert.com/blog/que-se-puede-denunciar-canal-empresa",

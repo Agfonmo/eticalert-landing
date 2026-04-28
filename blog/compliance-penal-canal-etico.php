@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Compliance penal y canal ético: por qué tu empresa necesita ambos",
   "description": "El canal de denuncias es pieza clave del modelo de prevención de delitos del art. 31 bis del Código Penal. La conexión entre compliance penal y canal ético.",
   "url": "https://eticalert.com/blog/compliance-penal-canal-etico",

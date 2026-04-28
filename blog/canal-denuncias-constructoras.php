@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias para empresas de construcción: obligaciones y riesgos específicos",
   "description": "Las constructoras tienen riesgos específicos: subcontratación, seguridad laboral, medioambiente. Así debe ser su canal de denuncias.",
   "url": "https://eticalert.com/blog/canal-denuncias-constructoras",

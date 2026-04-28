@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "La AIPI ya sanciona: qué significa para tu empresa y cómo actuar",
   "description": "Desde febrero de 2026, la AIPI está plenamente operativa y puede sancionar. Guía sobre qué puede hacer y cómo prepararse.",
   "url": "https://eticalert.com/blog/aipi-sanciones-canal-denuncias",

@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias para asesorías y despachos profesionales",
   "description": "Las asesorías tienen doble obligación: cumplir con su propio canal y ayudar a sus clientes a cumplir. Cómo hacerlo con EticAlert.",
   "url": "https://eticalert.com/blog/canal-denuncias-asesorias-despachos",

@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Externalizar el canal de denuncias: qué permite la ley y qué no",
   "description": "¿Puedes externalizar tu canal de denuncias? La Ley 2/2023 permite externalizar la herramienta y la instrucción, pero no la responsabilidad.",
   "url": "https://eticalert.com/blog/externalizar-canal-denuncias",

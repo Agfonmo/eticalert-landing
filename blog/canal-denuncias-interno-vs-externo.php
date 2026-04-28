@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "headline": "Canal de denuncias interno vs externo: diferencias y cuál elegir",
   "description": "¿Canal de denuncias interno o externo? La Ley 2/2023 permite ambos pero con reglas diferentes. Cuándo usar cada uno.",
   "url": "https://eticalert.com/blog/canal-denuncias-interno-vs-externo",
