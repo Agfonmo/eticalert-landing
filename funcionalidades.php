@@ -262,7 +262,7 @@ include 'includes/header.php';
 
           <!-- ================================================== -->
           <h2 id="roles">Roles y permisos</h2>
-          <p class="func-category-intro">Compartimentación real de la información según la función de cada persona en el proceso.</p>
+          <p class="func-category-intro">Tres niveles de acceso con compartimentación real. Cada rol ve y puede hacer exactamente lo que le corresponde, ni más ni menos.</p>
 
           <div class="func-grid">
 
@@ -270,17 +270,17 @@ include 'includes/header.php';
               <div class="func-card-header">
                 <span class="func-name">Rol Administrador</span>
               </div>
-              <p class="func-desc">Acceso completo: configura el canal, gestiona usuarios, ve todas las denuncias, exporta informes.</p>
-              <p class="func-value">Control centralizado con máxima visibilidad. Normalmente el RSII o responsable de compliance.</p>
+              <p class="func-desc">Gestiona la configuración del canal, el equipo, la facturación y el soporte. Por defecto <strong>no accede al contenido de las denuncias</strong>. Solo cuando actúa como RSII (responsable del sistema) hereda la capacidad de leer casos, gestionar asignaciones y prioridades — con las mismas reglas que el coordinador.</p>
+              <p class="func-value">El administrador que no es RSII nunca ve información sensible de un caso. Separación de poderes entre gestión empresarial e instrucción del expediente.</p>
             </div>
 
             <div class="func-card">
               <div class="func-card-header">
-                <span class="func-name">Rol Coordinador</span>
+                <span class="func-name">Rol Coordinador (RSII)</span>
                 <span class="badge-diff">Diferenciador</span>
               </div>
-              <p class="func-desc">Acceso a denuncias asignadas; puede reasignar a resolutores y ver el historial del caso.</p>
-              <p class="func-value">Permite delegar gestión operativa sin dar acceso total al sistema. Clave en compliance estructurado.</p>
+              <p class="func-desc">Lee el contenido completo de <strong>todos los casos</strong> (salvo los que el informante le ha bloqueado explícitamente). Gestiona asignaciones y prioridades en cualquier expediente. Solo puede responder al informante o cambiar el estado de un caso cuando ese caso está asignado a él.</p>
+              <p class="func-value">Visibilidad total para coordinar, acción restringida para instruir. El coordinador organiza sin poder actuar donde no le corresponde.</p>
             </div>
 
             <div class="func-card">
@@ -288,8 +288,8 @@ include 'includes/header.php';
                 <span class="func-name">Rol Resolutor</span>
                 <span class="badge-diff">Diferenciador</span>
               </div>
-              <p class="func-desc">Acceso únicamente a las denuncias asignadas a él; puede actuar y comentar pero no ver el resto del sistema.</p>
-              <p class="func-value">Garantiza compartimentación necesaria por RGPD y principio "need to know". Reduce superficie de riesgo interno.</p>
+              <p class="func-desc">Ve únicamente los casos asignados a él. Lee el contenido completo, responde al informante y mueve el estado del expediente. No puede ver ni tocar casos de otros resolutores ni reasignarse casos.</p>
+              <p class="func-value">Compartimentación máxima: cada resolutor trabaja en su propio espacio sin acceso lateral al resto del sistema. Principio "need to know" aplicado con rigor.</p>
             </div>
 
           </div>
