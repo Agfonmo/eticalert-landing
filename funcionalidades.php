@@ -14,7 +14,7 @@ include 'includes/header.php';
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Plan Free permanente",
+  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, Plan Free permanente",
   "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023."
 }
 </script>
@@ -86,7 +86,6 @@ include 'includes/header.php';
           ['Canal',       'Sin cookies ni tracking'],
           ['Canal',       'Mensajería anónima cifrada'],
           ['Seguridad',   'Cifrado en base de datos'],
-          ['Seguridad',   'RLS en base de datos'],
           ['Seguridad',   'URLs de adjuntos firmadas (TTL 30 min)'],
           ['Plazos',      'Acuse automático en 7 días (art. 18)'],
           ['Plazos',      'Alerta de vencimiento a 3 meses'],
