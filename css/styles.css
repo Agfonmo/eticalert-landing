@@ -275,8 +275,8 @@ code, .mono {
   left: 0;
   right: 0;
   z-index: 101;
-  background: var(--accent-subtle);
-  border-bottom: 1px solid var(--accent-border);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-subtle);
   padding: 0.5rem 3rem 0.5rem 1rem;
   display: flex;
   align-items: center;

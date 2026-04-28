@@ -99,7 +99,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Sin cookies ni tracking</span>
@@ -109,7 +109,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Mensajería anónima cifrada</span>
@@ -119,7 +119,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Validación antiabuso (Turnstile)</span>
@@ -129,7 +129,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Canal anónimo con código</span>
@@ -138,7 +138,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Canal identificado</span>
@@ -147,7 +147,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">URL personalizada por empresa</span>
@@ -156,7 +156,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Branding corporativo</span>
@@ -165,7 +165,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Adjuntar evidencias</span>
@@ -174,7 +174,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Seguimiento de estado</span>
@@ -190,7 +190,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Entrada manual por RSII</span>
@@ -207,7 +207,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Etiquetado de casos</span>
@@ -217,7 +217,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Autoasignación inteligente</span>
@@ -227,7 +227,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Topics por resolutor</span>
@@ -237,7 +237,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Panel de administración</span>
@@ -246,7 +246,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Asignación de casos</span>
@@ -255,7 +255,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Gestión de estados</span>
@@ -271,7 +271,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Rol Coordinador (RSII)</span>
@@ -281,7 +281,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Rol Resolutor</span>
@@ -291,7 +291,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Rol Administrador</span>
@@ -307,7 +307,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Acuse automático en 7 días</span>
@@ -317,7 +317,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Alerta de vencimiento de 3 meses</span>
@@ -327,7 +327,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Historial de plazos auditado</span>
@@ -354,7 +354,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Cifrado en base de datos</span>
@@ -364,7 +364,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">URLs de adjuntos firmadas (TTL 30 min)</span>
@@ -374,7 +374,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">RLS en base de datos</span>
@@ -384,7 +384,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Cifrado AES-256 en tránsito y reposo</span>
@@ -393,7 +393,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Datos alojados en la UE</span>
@@ -402,7 +402,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Validación de email corporativo en registro</span>
@@ -411,7 +411,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Validación de CIF con dígito de control</span>
@@ -427,7 +427,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Registro append-only</span>
@@ -437,7 +437,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Timestamps inmutables</span>
@@ -447,7 +447,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Trazabilidad de lecturas</span>
@@ -457,7 +457,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Historial de nombramientos RSII</span>
@@ -474,7 +474,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Exportación PDF de caso</span>
@@ -484,7 +484,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Historial de plazos en el PDF</span>
@@ -494,7 +494,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Export CSV de metadatos</span>
@@ -504,7 +504,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Informe de compliance mensual</span>
@@ -514,7 +514,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Purga RGPD de casos archivados</span>
@@ -540,7 +540,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Precio fijo por empresa</span>
@@ -550,7 +550,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Preview 1:1 del canal en tiempo real</span>
@@ -560,7 +560,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Generación de documentos legales PDF</span>
@@ -570,7 +570,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Prueba gratuita 15 días</span>
@@ -586,7 +586,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Multiempresa para grupos</span>
@@ -596,7 +596,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">SSO / SAML</span>
@@ -606,7 +606,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">API REST de integración</span>
@@ -616,7 +616,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">SLA por contrato</span>
@@ -633,7 +633,7 @@ include 'includes/header.php';
 
           <ul class="func-list">
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Programa de partners</span>
@@ -643,7 +643,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Instrucción jurídica de denuncias</span>
@@ -653,7 +653,7 @@ include 'includes/header.php';
               </div>
             </li>
             <li class="func-item func-item-diff">
-              <svg class="func-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               <div class="func-item-body">
                 <div class="func-item-title">
                   <span class="func-item-name">Informe de resolución</span>
