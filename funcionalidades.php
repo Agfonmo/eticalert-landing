@@ -14,7 +14,7 @@ include 'includes/header.php';
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Exportación PDF y CSV, Plan Free permanente, Multiempresa",
+  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Exportación PDF y CSV, Plan Free permanente",
   "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023. 48 funcionalidades incluidas desde el primer día."
 }
 </script>
@@ -31,629 +31,345 @@ include 'includes/header.php';
 
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
-    <div class="container">
+    <div class="container" style="max-width:960px;">
 
       <!-- HERO -->
-      <div style="max-width:740px;margin-bottom:3rem;" class="fade-up">
-        <span class="overline">Producto completo</span>
-        <h1>Todo lo que incluye EticAlert</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 1.5rem;">Las funcionalidades de las plataformas corporativas al coste de las soluciones básicas. Sin letra pequeña, sin módulos de pago adicionales.</p>
-        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;">
-          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--accent-subtle);color:var(--accent);border:1px solid var(--accent-border);border-radius:99px;padding:0.375rem 0.875rem;font-size:0.875rem;font-weight:700;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-            48 funcionalidades incluidas
+      <div style="max-width:680px;margin-bottom:3.5rem;" class="fade-up">
+        <span class="overline">Funcionalidades</span>
+        <h1 style="font-size:clamp(2rem,4vw,2.75rem);">Qué hace EticAlert y en qué se diferencia</h1>
+        <p style="font-size:1.0625rem;color:var(--text-secondary);margin:1rem 0 1.5rem;">48 funcionalidades incluidas desde el primer día. Sin módulos de pago adicionales, sin letra pequeña.</p>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--accent-subtle);color:var(--accent);border:1px solid var(--accent-border);border-radius:99px;padding:0.35rem 0.875rem;font-size:0.8125rem;font-weight:700;">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+            48 funciones incluidas
           </span>
-          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--bg-tertiary);color:var(--text-secondary);border:1px solid var(--border-medium);border-radius:99px;padding:0.375rem 0.875rem;font-size:0.875rem;font-weight:700;">
+          <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--bg-tertiary);color:var(--text-muted);border:1px solid var(--border-subtle);border-radius:99px;padding:0.35rem 0.875rem;font-size:0.8125rem;font-weight:600;">
             3 únicos en el mercado español
           </span>
         </div>
       </div>
 
-      <div class="article-layout with-toc">
+      <!-- ============================================================ -->
+      <!-- 1. ÚNICOS EN EL MERCADO -->
+      <!-- ============================================================ -->
+      <h2 style="font-size:1.25rem;margin-bottom:1rem;">Únicos en el mercado español</h2>
 
-        <!-- TOC SIDEBAR -->
-        <nav class="toc" aria-label="Tabla de contenidos">
-          <h4>Categorías</h4>
-          <ol>
-            <li><a href="#canal-publico">Canal público</a></li>
-            <li><a href="#multicanal">Recepción multicanal</a></li>
-            <li><a href="#gestion">Gestión de casos</a></li>
-            <li><a href="#roles">Roles y permisos</a></li>
-            <li><a href="#plazos">Plazos legales</a></li>
-            <li><a href="#seguridad">Seguridad y cifrado</a></li>
-            <li><a href="#auditoria">Auditoría e integridad</a></li>
-            <li><a href="#reporting">Reporting y exportación</a></li>
-            <li><a href="#configuracion">Configuración</a></li>
-            <li><a href="#enterprise">Enterprise</a></li>
-            <li><a href="#partners">Partners y servicios</a></li>
-            <li><a href="#comparativa">Comparativa ampliada</a></li>
-          </ol>
-        </nav>
+      <div class="func-unicos">
 
-        <!-- ARTICLE -->
-        <article class="article-content" id="article">
-
-          <!-- DESTACADOS -->
-          <div class="callout" style="margin-bottom:2rem;">
-            <p style="font-weight:700;margin-bottom:0.75rem;color:var(--text-primary);">Los 3 diferenciadores únicos en el mercado español</p>
-            <ul style="display:flex;flex-direction:column;gap:0.5rem;margin:0;">
-              <li><strong>Hash SHA-256 verificable públicamente</strong> — el contenido de cada denuncia tiene un hash criptográfico que demuestra que no ha sido alterado. Ningún competidor lo ofrece.</li>
-              <li><strong>Exclusión preventiva de gestoras por el informante</strong> — al enviar la denuncia, el informante puede bloquear a personas concretas del equipo gestor. Ningún competidor lo ofrece.</li>
-              <li><strong>Plan Free completo permanente</strong> — hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades. Ningún competidor listado lo ofrece.</li>
-            </ul>
+        <div class="func-card func-card-unico">
+          <div class="func-card-header">
+            <span class="func-name">Exclusión preventiva de gestoras</span>
+            <span class="badge-unico">Único</span>
           </div>
+          <p class="func-desc">Al enviar la denuncia, el informante puede bloquear a personas concretas del equipo gestor. Las personas excluidas no ven el caso, no reciben notificaciones y no pueden ser asignadas.</p>
+          <p class="func-value">El informante actúa de forma preventiva sin depender de que el gestor se declare incompatible.</p>
+        </div>
 
-          <?php
-          $chevron = '<svg class="func-section-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>';
-          $check   = '<svg class="func-item-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>';
-          ?>
-
-          <!-- ================================================== -->
-          <div class="func-section open" id="canal-publico">
-            <button class="func-section-header" aria-expanded="true" aria-controls="body-canal-publico">
-              <span class="func-section-title">Canal público</span>
-              <span class="func-section-count">10 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-canal-publico">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">La interfaz que ven los informantes: empleados, proveedores, clientes y terceros que acceden a denunciar.</p>
-                <div class="func-card func-card-unico">
-                  <div class="func-card-header">
-                    <span class="func-name">Exclusión preventiva de gestoras por el informante</span>
-                    <span class="badge-unico">Único en España</span>
-                  </div>
-                  <p class="func-desc">Al crear la denuncia, el informante puede bloquear a personas concretas del equipo gestor. Las personas excluidas no ven el caso, no reciben notificaciones y no pueden ser asignadas.</p>
-                  <p class="func-value">El informante actúa de forma preventiva sin depender de que el gestor se declare incompatible. Ningún competidor lo ofrece.</p>
-                </div>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Sin cookies ni tracking</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">El canal público no instala cookies ni ejecuta scripts de analítica. El informante no puede ser rastreado. Requisito RGPD implícito.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Mensajería anónima cifrada</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Canal bidireccional entre el informante anónimo y el gestor. Permite aclaraciones y comunicar la resolución sin romper la confidencialidad.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Validación antiabuso (Turnstile)</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Cloudflare Turnstile integrado en el formulario y panel de seguimiento. Sin fricción para el informante legítimo.</p>
-                    </div>
-                  </li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Canal anónimo con código</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Canal identificado</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">URL personalizada por empresa</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Branding corporativo</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Adjuntar evidencias</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Seguimiento de estado con código</span></div></div></li>
-                </ul>
-              </div>
-            </div>
+        <div class="func-card func-card-unico">
+          <div class="func-card-header">
+            <span class="func-name">Hash SHA-256 verificable</span>
+            <span class="badge-unico">Único</span>
           </div>
+          <p class="func-desc">El contenido de cada denuncia tiene un hash criptográfico verificable en <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener" style="color:var(--accent);">app.eticalert.com/verificar</a> que demuestra que no ha sido alterado desde su recepción.</p>
+          <p class="func-value">Garantía de integridad ante disputa legal o inspección de la AIPI.</p>
+        </div>
 
-          <!-- ================================================== -->
-          <div class="func-section" id="multicanal">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-multicanal">
-              <span class="func-section-title">Recepción multicanal</span>
-              <span class="func-section-count">1 función</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-multicanal">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">La Ley 2/2023 exige admitir denuncias también por vía oral o presencial. EticAlert lo integra en el mismo sistema auditado.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Entrada manual por RSII</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">El responsable registra denuncias recibidas por email, teléfono o presencialmente. Unifica todos los canales en un único registro auditado.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <div class="func-card func-card-unico">
+          <div class="func-card-header">
+            <span class="func-name">Plan Free permanente</span>
+            <span class="badge-unico">Único</span>
           </div>
+          <p class="func-desc">Hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades activas.</p>
+          <p class="func-value">Las empresas por debajo del umbral legal adoptan el canal sin coste y sin caducidad.</p>
+        </div>
 
-          <!-- ================================================== -->
-          <div class="func-section" id="gestion">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-gestion">
-              <span class="func-section-title">Gestión de casos</span>
-              <span class="func-section-count">6 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-gestion">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">El flujo interno completo para instruir, asignar y resolver cada denuncia con trazabilidad total.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Etiquetado de casos</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Etiquetas personalizadas por denuncia ("acoso", "fraude financiero"…). Facilita filtros, reporting y análisis de patrones.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Autoasignación inteligente</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Si existe exactamente un resolutor compatible y no excluido por el informante, el sistema lo asigna automáticamente.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Topics por resolutor</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Cada gestor tiene asignadas las categorías que puede instruir. Garantiza compartimentación funcional por especialidad.</p>
-                    </div>
-                  </li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Panel de administración centralizado</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Asignación manual de casos</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Gestión de estados (recibida → resuelta)</span></div></div></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="roles">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-roles">
-              <span class="func-section-title">Roles y permisos</span>
-              <span class="func-section-count">3 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-roles">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">Tres niveles de acceso con compartimentación real. Cada rol ve y puede hacer exactamente lo que le corresponde.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Rol Coordinador (RSII)</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Lee todos los casos salvo los bloqueados por el informante. Gestiona asignaciones en cualquier expediente, pero solo actúa en los que tiene asignados.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Rol Resolutor</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Ve únicamente los casos asignados a él. Principio "need to know" — no puede ver ni tocar casos de otros.</p>
-                    </div>
-                  </li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Rol Administrador (ciego por defecto)</span></div></div></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="plazos">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-plazos">
-              <span class="func-section-title">Plazos legales automatizados</span>
-              <span class="func-section-count">3 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-plazos">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">La Ley 2/2023 establece plazos concretos con sanciones graves por incumplimiento. EticAlert los gestiona sin intervención manual.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Acuse automático en 7 días</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">El acuse de recibo se envía dentro del plazo legal (art. 18 Ley 2/2023) sin intervención manual. El incumplimiento es infracción grave.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Alerta de vencimiento de 3 meses</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Notificación proactiva al gestor cuando se acerca el plazo para comunicar las medidas adoptadas al informante.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Historial de plazos auditado</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Cada plazo queda registrado con timestamp en el audit log. Evidencia exportable directamente para inspección de la AIPI.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="seguridad">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-seguridad">
-              <span class="func-section-title">Seguridad y cifrado</span>
-              <span class="func-section-count">8 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-seguridad">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">Protección técnica en todas las capas. No solo en el transporte: también en la base de datos y en los metadatos.</p>
-                <div class="func-card func-card-unico">
-                  <div class="func-card-header">
-                    <span class="func-name">Hash SHA-256 verificable públicamente</span>
-                    <span class="badge-unico">Único en España</span>
-                  </div>
-                  <p class="func-desc">El contenido de cada denuncia tiene un hash criptográfico verificable en <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener" style="color:var(--accent);">app.eticalert.com/verificar</a> que demuestra que no ha sido alterado desde su recepción.</p>
-                  <p class="func-value">Garantía de integridad ante disputa legal o inspección de la AIPI. Ningún competidor lo ofrece.</p>
-                </div>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Cifrado en base de datos</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Los campos sensibles están cifrados dentro de la BD, no solo a nivel de disco. Protege ante SQL injection y acceso físico al servidor.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">URLs de adjuntos firmadas (TTL 30 min)</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Los enlaces a archivos adjuntos expiran a los 30 minutos. Un enlace filtrado no da acceso indefinido a evidencias.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">RLS en base de datos (PostgreSQL)</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Row Level Security: políticas de acceso a nivel de fila independientes de la lógica de aplicación. Aislamiento total entre empresas a nivel de motor de datos.</p>
-                    </div>
-                  </li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Cifrado AES-256 en tránsito y reposo</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Datos alojados en la UE</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Validación de email corporativo en registro</span></div></div></li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Validación de CIF con dígito de control</span></div></div></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="auditoria">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-auditoria">
-              <span class="func-section-title">Auditoría e integridad</span>
-              <span class="func-section-count">4 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-auditoria">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">Trazabilidad completa de todo lo que ocurre en el sistema. Sin posibilidad de manipulación retroactiva.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Registro append-only</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Ninguna acción puede borrarse ni modificarse retroactivamente. La AIPI puede verificar que no se han eliminado evidencias.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Timestamps inmutables</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Cada acción lleva timestamp firmado y no editable. Cadena de custodia verificable exigida implícitamente por la Ley 2/2023.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Trazabilidad de lecturas</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">El sistema registra quién leyó cada denuncia y cuándo. Detecta accesos no autorizados y demuestra compartimentación ante la AIPI.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Historial de nombramientos RSII</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Cada cambio en la designación del RSII queda registrado con timestamps inmutables. Trazabilidad legal del Art. 8 Ley 2/2023.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="reporting">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-reporting">
-              <span class="func-section-title">Reporting y exportación</span>
-              <span class="func-section-count">5 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-reporting">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">Documentación lista para auditoría, abogados o la AIPI. Sin trabajo manual de recopilación.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Exportación PDF de caso</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">PDF del historial completo: cronología, mensajes, cambios de estado, decisiones. Listo para entregar a la AIPI o a un abogado.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Historial de plazos en el PDF</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">El PDF incluye la cronología de plazos legales con fechas exactas. Prueba documental de cumplimiento lista para auditoría.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Export CSV de metadatos</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Listado de casos con metadatos sin incluir contenido sensible. Para análisis interno y reporting al órgano de gobierno.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Informe de compliance mensual automático</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Métricas generadas automáticamente: volumen, estados, tiempos de respuesta y cumplimiento de plazos.</p>
-                    </div>
-                  </li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Purga RGPD de casos archivados</span></div></div></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="configuracion">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-configuracion">
-              <span class="func-section-title">Configuración y puesta en marcha</span>
-              <span class="func-section-count">5 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-configuracion">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">De cero a canal operativo en menos de 5 minutos. Sin consultores, sin llamadas, sin técnicos.</p>
-                <div class="func-card func-card-unico">
-                  <div class="func-card-header">
-                    <span class="func-name">Plan Free completo permanente</span>
-                    <span class="badge-unico">Único en España</span>
-                  </div>
-                  <p class="func-desc">Hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades activas.</p>
-                  <p class="func-value">Las empresas por debajo del umbral legal adoptan el canal sin coste. Ningún competidor ofrece un plan permanentemente gratuito con funcionalidad completa.</p>
-                </div>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Precio fijo por empresa</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Un precio mensual independiente del número de usuarios, gestores o denuncias. Coste predecible sin desincentivo de añadir gestores.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Generación de documentos legales PDF</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Genera: Reglamento del canal, Nombramiento formal del RSII (Art. 8 Ley 2/2023) y Cláusula informativa para empleados. Listos para firmar, sin abogado.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Preview 1:1 del canal en tiempo real</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">El administrador ve exactamente cómo queda el canal público antes de guardar: logo, colores y modos claro/oscuro.</p>
-                    </div>
-                  </li>
-                  <li class="func-item"><?= $check ?><div class="func-item-body"><div class="func-item-title"><span class="func-item-name">Prueba gratuita 15 días (sin tarjeta)</span></div></div></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="enterprise">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-enterprise">
-              <span class="func-section-title">Capacidades Enterprise</span>
-              <span class="func-section-count">4 funciones · a demanda</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-enterprise">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">Disponibles a demanda para grupos empresariales y organizaciones con requisitos IT avanzados.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Multiempresa para grupos</span><span class="badge-diff">A demanda</span></div>
-                      <p class="func-item-desc">Una sola cuenta gestiona canales de varias empresas del mismo grupo desde un único panel.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">SSO / SAML</span><span class="badge-diff">A demanda</span></div>
-                      <p class="func-item-desc">Inicio de sesión único con Azure AD, Okta u otros proveedores de identidad corporativos.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">API REST de integración</span><span class="badge-diff">A demanda</span></div>
-                      <p class="func-item-desc">Conecta EticAlert con ERP, SIEM o herramientas GRC. Automatiza flujos como crear caso en Jira al recibir una denuncia.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">SLA por contrato</span><span class="badge-diff">A demanda</span></div>
-                      <p class="func-item-desc">Garantía de disponibilidad y tiempos de respuesta formalizados contractualmente.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <div class="func-section" id="partners">
-            <button class="func-section-header" aria-expanded="false" aria-controls="body-partners">
-              <span class="func-section-title">Partners y servicios legales</span>
-              <span class="func-section-count">3 funciones</span>
-              <?= $chevron ?>
-            </button>
-            <div class="func-section-body" id="body-partners">
-              <div class="func-section-body-inner">
-                <p class="func-section-intro">Cuando la denuncia requiere abogados: escalado directo desde la plataforma, sin buscar asesoramiento externo.</p>
-                <ul class="func-list">
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Programa de partners</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Condiciones para asesorías, despachos y consultoras que gestionan el canal de varios clientes como servicio gestionado.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Instrucción jurídica de denuncias</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Servicio opcional con despacho partner para instruir formalmente una denuncia. Desde 150€/caso.</p>
-                    </div>
-                  </li>
-                  <li class="func-item func-item-diff">
-                    <?= $check ?>
-                    <div class="func-item-body">
-                      <div class="func-item-title"><span class="func-item-name">Informe de resolución</span><span class="badge-diff">Diferenciador</span></div>
-                      <p class="func-item-desc">Redacción del informe formal de resolución por despacho partner. Desde 350€/caso.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- ================================================== -->
-          <h2 id="comparativa" style="margin-top:2.5rem;">Comparativa ampliada</h2>
-          <p class="func-category-intro">EticAlert frente a los principales competidores en las funcionalidades que más importan para el cumplimiento real de la Ley 2/2023.</p>
-
-          <div style="overflow-x:auto; margin:1.5rem 0;">
-            <table class="comparison">
-              <thead>
-                <tr>
-                  <th>Solución</th>
-                  <th>Cifrado en BD</th>
-                  <th>Sin marca de agua</th>
-                  <th>Exclusión de gestoras</th>
-                  <th>Hash verificable</th>
-                  <th>Entrada multicanal</th>
-                  <th>Control plazos auto</th>
-                  <th>Precio plano</th>
-                  <th>Plan Free</th>
-                  <th>Precio/mes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style="background:var(--accent-subtle);">
-                  <td><strong>EticAlert</strong></td>
-                  <td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td>
-                  <td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td>
-                  <td class="check"><strong>desde 19€</strong></td>
-                </tr>
-                <tr>
-                  <td>EQS IntegrityLine</td>
-                  <td class="check">✓</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td>
-                  <td class="check">✓</td><td class="check">✓</td><td>—</td><td class="cross">✗</td><td>~129€</td>
-                </tr>
-                <tr>
-                  <td>WhistleBlower Software</td>
-                  <td class="check">✓</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td>
-                  <td class="check">✓</td><td>Parcial</td><td class="cross">✗</td><td class="cross">✗</td><td>desde 99€</td>
-                </tr>
-                <tr>
-                  <td>WhistleOn</td>
-                  <td class="cross">✗</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td>
-                  <td>—</td><td>Parcial</td><td class="cross">✗</td><td class="cross">✗</td><td>desde 69€</td>
-                </tr>
-                <tr>
-                  <td>ithikios</td>
-                  <td class="cross">✗</td><td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td>
-                  <td class="cross">✗</td><td class="cross">✗</td><td>—</td><td class="cross">✗</td><td>desde 29€</td>
-                </tr>
-                <tr>
-                  <td>mysecway</td>
-                  <td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td>
-                  <td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td>7,95€/gestor</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:0.5rem;">EticAlert ofrece las funcionalidades de las plataformas corporativas al precio de las soluciones básicas.</p>
-          <p style="font-size:0.8125rem;color:var(--text-muted);">Datos públicos a abril de 2026. Verifica los precios actualizados en cada proveedor.</p>
-
-          <!-- CTA -->
-          <div style="margin-top:3rem;padding:2rem;background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);">
-            <h3 style="margin-bottom:0.75rem;">Canal operativo en 5 minutos</h3>
-            <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Sin tarjeta de crédito. Sin permanencia. Sin llamadas comerciales.</p>
-            <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-              <a href="/registro" class="btn btn-primary">Empezar gratis →</a>
-              <a href="/precios" class="btn btn-secondary">Ver precios</a>
-              <a href="/como-funciona" class="btn btn-secondary">Cómo funciona</a>
-            </div>
-          </div>
-
-        </article>
       </div>
+
+      <!-- ============================================================ -->
+      <!-- 2. DIFERENCIADORES -->
+      <!-- ============================================================ -->
+      <h2 style="font-size:1.25rem;margin-bottom:0.375rem;">Lo que nos diferencia</h2>
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:0;">Funcionalidades que tenemos y la mayoría de competidores no.</p>
+
+      <div class="diff-grid">
+
+        <div class="diff-item">
+          <span class="diff-category">Canal público</span>
+          <span class="diff-name">Sin cookies ni tracking</span>
+          <p class="diff-desc">El canal no instala cookies ni ejecuta scripts de analítica. El informante no puede ser rastreado.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Canal público</span>
+          <span class="diff-name">Mensajería anónima cifrada</span>
+          <p class="diff-desc">Canal bidireccional entre el informante anónimo y el gestor. Aclaraciones sin romper la confidencialidad.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Canal público</span>
+          <span class="diff-name">Validación antiabuso (Turnstile)</span>
+          <p class="diff-desc">Cloudflare Turnstile en el formulario y panel de seguimiento. Sin fricción para el informante legítimo.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Recepción</span>
+          <span class="diff-name">Entrada manual por RSII</span>
+          <p class="diff-desc">El responsable registra denuncias recibidas por teléfono o presencialmente en el mismo sistema auditado.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Gestión</span>
+          <span class="diff-name">Etiquetado de casos</span>
+          <p class="diff-desc">Etiquetas personalizadas por denuncia para filtros, reporting y análisis de patrones.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Gestión</span>
+          <span class="diff-name">Autoasignación inteligente</span>
+          <p class="diff-desc">Si existe un único resolutor compatible y no excluido, el sistema lo asigna automáticamente.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Gestión</span>
+          <span class="diff-name">Topics por resolutor</span>
+          <p class="diff-desc">Cada gestor tiene asignadas las categorías que puede instruir. Compartimentación funcional por especialidad.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Roles</span>
+          <span class="diff-name">Rol Coordinador (RSII)</span>
+          <p class="diff-desc">Visibilidad total para coordinar, acción restringida a los casos asignados. No actúa donde no le corresponde.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Roles</span>
+          <span class="diff-name">Rol Resolutor</span>
+          <p class="diff-desc">Ve únicamente los casos asignados a él. Principio "need to know" — no ve ni toca casos de otros.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Plazos legales</span>
+          <span class="diff-name">Acuse automático en 7 días</span>
+          <p class="diff-desc">El acuse de recibo se envía dentro del plazo del art. 18 Ley 2/2023 sin intervención manual.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Plazos legales</span>
+          <span class="diff-name">Alerta de vencimiento de 3 meses</span>
+          <p class="diff-desc">Notificación proactiva cuando se acerca el plazo para comunicar medidas adoptadas al informante.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Plazos legales</span>
+          <span class="diff-name">Historial de plazos auditado</span>
+          <p class="diff-desc">Cada plazo queda registrado con timestamp inmutable. Evidencia exportable para inspección de la AIPI.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Seguridad</span>
+          <span class="diff-name">Cifrado en base de datos</span>
+          <p class="diff-desc">Campos sensibles cifrados dentro de la BD, no solo en disco. Protege ante SQL injection y acceso físico.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Seguridad</span>
+          <span class="diff-name">URLs de adjuntos firmadas (TTL 30 min)</span>
+          <p class="diff-desc">Los enlaces a archivos adjuntos expiran a los 30 minutos. Un enlace filtrado no da acceso indefinido.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Seguridad</span>
+          <span class="diff-name">RLS en base de datos</span>
+          <p class="diff-desc">Row Level Security de PostgreSQL: aislamiento total entre empresas a nivel de motor de datos.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Auditoría</span>
+          <span class="diff-name">Registro append-only</span>
+          <p class="diff-desc">Ninguna acción puede borrarse ni modificarse retroactivamente. El log solo crece.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Auditoría</span>
+          <span class="diff-name">Timestamps inmutables</span>
+          <p class="diff-desc">Cada acción lleva timestamp firmado y no editable. Cadena de custodia verificable.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Auditoría</span>
+          <span class="diff-name">Trazabilidad de lecturas</span>
+          <p class="diff-desc">El sistema registra quién leyó cada denuncia y cuándo. Detecta accesos no autorizados.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Auditoría</span>
+          <span class="diff-name">Historial de nombramientos RSII</span>
+          <p class="diff-desc">Cada cambio en la designación del RSII queda registrado con timestamps inmutables. Art. 8 Ley 2/2023.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Reporting</span>
+          <span class="diff-name">Exportación PDF de caso</span>
+          <p class="diff-desc">PDF del historial completo: cronología, mensajes, cambios de estado. Listo para la AIPI o un abogado.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Reporting</span>
+          <span class="diff-name">Export CSV de metadatos</span>
+          <p class="diff-desc">Listado de casos con metadatos sin contenido sensible. Para análisis interno y reporting al consejo.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Reporting</span>
+          <span class="diff-name">Informe de compliance mensual</span>
+          <p class="diff-desc">Métricas generadas automáticamente: volumen, estados, tiempos de respuesta y cumplimiento de plazos.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Configuración</span>
+          <span class="diff-name">Precio fijo por empresa</span>
+          <p class="diff-desc">Un precio mensual independiente del número de usuarios, gestores o denuncias.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Configuración</span>
+          <span class="diff-name">Generación de documentos legales PDF</span>
+          <p class="diff-desc">Reglamento del canal, nombramiento del RSII y cláusula para empleados generados automáticamente.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Configuración</span>
+          <span class="diff-name">Preview 1:1 del canal en tiempo real</span>
+          <p class="diff-desc">El administrador ve exactamente cómo queda el canal antes de publicarlo.</p>
+        </div>
+
+        <div class="diff-item">
+          <span class="diff-category">Partners</span>
+          <span class="diff-name">Instrucción jurídica de denuncias</span>
+          <p class="diff-desc">Servicio opcional con despacho partner para instruir formalmente una denuncia. Desde 150€/caso.</p>
+        </div>
+
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 3. TODO LO QUE INCLUYE -->
+      <!-- ============================================================ -->
+      <h2 style="font-size:1.25rem;margin-bottom:0.375rem;">Todo lo que incluye</h2>
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:0;">Funcionalidades estándar incluidas en todos los planes.</p>
+
+      <div class="features-all">
+        <?php
+        $std = [
+          'Canal anónimo con código de seguimiento',
+          'Canal identificado (voluntario)',
+          'URL pública personalizada por empresa',
+          'Branding corporativo (logo y colores)',
+          'Adjuntar evidencias en el formulario',
+          'Seguimiento de estado con código',
+          'Panel de administración centralizado',
+          'Asignación manual de casos',
+          'Gestión de estados (recibida → resuelta)',
+          'Rol Administrador (ciego por defecto)',
+          'Cifrado AES-256 en tránsito y reposo',
+          'Datos alojados en la Unión Europea',
+          'Validación de email corporativo en registro',
+          'Validación de CIF con dígito de control',
+          'Historial de plazos incluido en PDF',
+          'Purga RGPD de casos archivados',
+          'Prueba gratuita 15 días (sin tarjeta)',
+          'Programa de partners para asesorías',
+          'Informe de resolución con despacho partner',
+        ];
+        $chk = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>';
+        foreach ($std as $f):
+        ?>
+        <div class="features-all-item"><?= $chk ?><span><?= htmlspecialchars($f) ?></span></div>
+        <?php endforeach; ?>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 4. ENTERPRISE -->
+      <!-- ============================================================ -->
+      <h2 style="font-size:1.25rem;margin-bottom:0.375rem;">Enterprise · a demanda</h2>
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1rem;">Para grupos empresariales con requisitos IT avanzados.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:3rem;">
+        <?php foreach (['Multiempresa para grupos', 'SSO / SAML', 'API REST de integración', 'SLA por contrato'] as $e): ?>
+        <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:99px;padding:0.3rem 0.875rem;font-size:0.8125rem;color:var(--text-secondary);">
+          <?= $chk ?><?= htmlspecialchars($e) ?>
+        </span>
+        <?php endforeach; ?>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- 5. COMPARATIVA -->
+      <!-- ============================================================ -->
+      <h2 style="font-size:1.25rem;margin-bottom:0.375rem;">Comparativa con competidores</h2>
+      <p style="font-size:0.9rem;color:var(--text-secondary);margin-bottom:1.5rem;">En las funcionalidades que más importan para el cumplimiento real de la Ley 2/2023.</p>
+
+      <div style="overflow-x:auto;margin-bottom:0.75rem;">
+        <table class="comparison">
+          <thead>
+            <tr>
+              <th>Solución</th>
+              <th>Cifrado en BD</th>
+              <th>Exclusión de gestoras</th>
+              <th>Hash verificable</th>
+              <th>Control plazos auto</th>
+              <th>Precio plano</th>
+              <th>Plan Free</th>
+              <th>Precio/mes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background:var(--accent-subtle);">
+              <td><strong>EticAlert</strong></td>
+              <td class="check">✓</td><td class="check">✓</td><td class="check">✓</td>
+              <td class="check">✓</td><td class="check">✓</td><td class="check">✓</td>
+              <td class="check"><strong>desde 19€</strong></td>
+            </tr>
+            <tr>
+              <td>EQS IntegrityLine</td>
+              <td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td>
+              <td class="check">✓</td><td>—</td><td class="cross">✗</td><td>~129€</td>
+            </tr>
+            <tr>
+              <td>WhistleBlower Software</td>
+              <td class="check">✓</td><td class="cross">✗</td><td class="cross">✗</td>
+              <td>Parcial</td><td class="cross">✗</td><td class="cross">✗</td><td>desde 99€</td>
+            </tr>
+            <tr>
+              <td>WhistleOn</td>
+              <td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td>
+              <td>Parcial</td><td class="cross">✗</td><td class="cross">✗</td><td>desde 69€</td>
+            </tr>
+            <tr>
+              <td>ithikios</td>
+              <td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td>
+              <td class="cross">✗</td><td>—</td><td class="cross">✗</td><td>desde 29€</td>
+            </tr>
+            <tr>
+              <td>mysecway</td>
+              <td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td>
+              <td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td>7,95€/gestor</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.8125rem;color:var(--text-muted);margin-bottom:3rem;">Datos públicos a abril de 2026. Verifica los precios actualizados en cada proveedor.</p>
+
+      <!-- CTA -->
+      <div style="padding:2rem;background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);margin-bottom:4rem;">
+        <h3 style="margin-bottom:0.75rem;">Canal operativo en 5 minutos</h3>
+        <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Sin tarjeta de crédito. Sin permanencia. Sin llamadas comerciales.</p>
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+          <a href="/registro" class="btn btn-primary">Empezar gratis →</a>
+          <a href="/precios" class="btn btn-secondary">Ver precios</a>
+          <a href="/como-funciona" class="btn btn-secondary">Cómo funciona</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </main>
-
-<script>
-(function () {
-  var sections = document.querySelectorAll('.func-section');
-
-  /* Inicializa max-height de las secciones abiertas */
-  sections.forEach(function (section) {
-    var body = section.querySelector('.func-section-body');
-    if (section.classList.contains('open')) {
-      body.style.maxHeight = body.scrollHeight + 'px';
-    }
-  });
-
-  /* Toggle al hacer clic en el header */
-  sections.forEach(function (section) {
-    var btn  = section.querySelector('.func-section-header');
-    var body = section.querySelector('.func-section-body');
-    btn.addEventListener('click', function () {
-      var isOpen = section.classList.contains('open');
-      if (isOpen) {
-        section.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-        body.style.maxHeight = '0';
-      } else {
-        section.classList.add('open');
-        btn.setAttribute('aria-expanded', 'true');
-        body.style.maxHeight = body.scrollHeight + 'px';
-      }
-    });
-  });
-
-  /* TOC: abre la sección correspondiente */
-  document.querySelectorAll('.toc a').forEach(function (link) {
-    link.addEventListener('click', function () {
-      var target = document.getElementById(this.getAttribute('href').slice(1));
-      if (target && target.classList.contains('func-section') && !target.classList.contains('open')) {
-        var btn  = target.querySelector('.func-section-header');
-        var body = target.querySelector('.func-section-body');
-        target.classList.add('open');
-        btn.setAttribute('aria-expanded', 'true');
-        body.style.maxHeight = body.scrollHeight + 'px';
-      }
-    });
-  });
-})();
-</script>
 
 <?php include 'includes/footer.php'; ?>
