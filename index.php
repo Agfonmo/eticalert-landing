@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Canal de denuncias para empresas | EticAlert — Cumple la Ley 2/2023';
-$page_description = 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a ley, desde 39€/mes. Sin llamadas, sin complicaciones.';
+$page_description = 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a la Ley 2/2023, gratis hasta 20 empleados. Sin llamadas, sin complicaciones.';
 $page_canonical   = 'https://eticalert.com/';
 include 'includes/header.php';
 ?>
@@ -28,18 +28,12 @@ include 'includes/header.php';
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
-  "offers": {
-    "@type": "Offer",
-    "price": "39",
-    "priceCurrency": "EUR",
-    "priceSpecification": {
-      "@type": "UnitPriceSpecification",
-      "price": "39",
-      "priceCurrency": "EUR",
-      "unitCode": "MON"
-    }
-  },
-  "description": "Plataforma SaaS de canal de denuncias para pymes españolas. Cumple la Ley 2/2023 en menos de 5 minutos desde 39€/mes."
+  "offers": [
+    {"@type":"Offer","name":"Free","price":"0","priceCurrency":"EUR","description":"Hasta 20 empleados. Gratis permanente."},
+    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. 19€/mes."},
+    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. 39€/mes."}
+  ],
+  "description": "Plataforma SaaS de canal de denuncias para pymes españolas. Cumple la Ley 2/2023. Plan gratuito hasta 20 empleados, desde 19€/mes."
 }
 </script>
 
@@ -323,6 +317,7 @@ include 'includes/header.php';
     <div class="container">
       <div class="section-header fade-up">
         <h2 id="features-heading">Todo lo que necesitas para cumplir</h2>
+        <p style="margin-top:0.5rem;"><a href="/funcionalidades" style="color:var(--accent);font-weight:600;text-decoration:none;">Ver las 48 funcionalidades completas →</a></p>
       </div>
       <div class="features-grid">
 
@@ -538,8 +533,8 @@ include 'includes/header.php';
       </div>
       <div class="urgency-grid">
         <div class="urgency-stat fade-up">
-          <div class="urgency-stat-value">10 abr. 2026</div>
-          <div class="urgency-stat-label">Fecha límite para notificar tu RSII a la AIPI</div>
+          <div class="urgency-stat-value">Vencido</div>
+          <div class="urgency-stat-label">El plazo de notificación del RSII a la AIPI (10 abr. 2026) ya ha pasado</div>
         </div>
         <div class="urgency-stat fade-up delay-1">
           <div class="urgency-stat-value">1.000.000€</div>
@@ -551,10 +546,10 @@ include 'includes/header.php';
         </div>
       </div>
       <div class="urgency-body fade-up">
-        <p>El periodo de gracia ha terminado. Desde febrero de 2026, la Autoridad Independiente de Protección del Informante supervisa activamente el cumplimiento.</p>
+        <p>El periodo de gracia ha terminado. La AIPI supervisa activamente y puede requerir documentación en cualquier momento. Cada día sin canal operativo es un día de exposición a sanciones.</p>
       </div>
       <div style="text-align:center;" class="fade-up">
-        <a href="/registro" class="btn btn-primary btn-lg">Activa tu canal antes del plazo →</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Activa tu canal hoy →</a>
       </div>
     </div>
   </section>
@@ -599,7 +594,7 @@ include 'includes/header.php';
             ¿Qué pasa si recibo una denuncia y no sé cómo gestionarla?
             <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </button>
-          <div class="faq-answer" id="faq-4"><p>El panel te guía paso a paso: te avisa cuándo enviar el acuse de recibo (7 días) y cuándo resolver (3 meses). El plan Professional incluye plantillas de respuesta predefinidas para que sepas exactamente qué contestar en cada fase del proceso.</p></div>
+          <div class="faq-answer" id="faq-4"><p>El panel te guía paso a paso: te avisa cuándo enviar el acuse de recibo (7 días) y cuándo resolver (3 meses). El sistema registra automáticamente cada acción con trazabilidad completa para cuando la AIPI pregunte.</p></div>
         </div>
 
         <div class="faq-item" role="listitem">
@@ -652,7 +647,7 @@ include 'includes/header.php';
       {"@type":"Question","name":"¿Realmente no necesito a mi informático?","acceptedAnswer":{"@type":"Answer","text":"No. Si sabes subir una foto de perfil a una red social y copiar un enlace, sabes implementar EticAlert. Todo se gestiona desde el panel web. No hay integraciones, no hay código, no hay configuración técnica."}},
       {"@type":"Question","name":"¿Y si ya tengo un ERP o software de RRHH?","acceptedAnswer":{"@type":"Answer","text":"EticAlert funciona de forma independiente mediante un simple enlace web. Es más rápido, económico y seguro jurídicamente (al estar aislado) que un módulo adicional de otra plataforma. No interfiere con nada que ya tengas."}},
       {"@type":"Question","name":"¿Quién lee y gestiona las denuncias que llegan?","acceptedAnswer":{"@type":"Answer","text":"Solo las personas de tu empresa a las que asignes el rol de resolutor (por ejemplo, Director de RRHH o responsable de Compliance). EticAlert provee la tecnología segura, pero nunca tiene acceso al contenido descifrado de tus casos."}},
-      {"@type":"Question","name":"¿Qué pasa si recibo una denuncia y no sé cómo gestionarla?","acceptedAnswer":{"@type":"Answer","text":"El panel te guía paso a paso: te avisa cuándo enviar el acuse de recibo (7 días) y cuándo resolver (3 meses). El plan Professional incluye plantillas de respuesta predefinidas para que sepas exactamente qué contestar en cada fase del proceso."}},
+      {"@type":"Question","name":"¿Qué pasa si recibo una denuncia y no sé cómo gestionarla?","acceptedAnswer":{"@type":"Answer","text":"El panel te guía paso a paso: te avisa cuándo enviar el acuse de recibo (7 días) y cuándo resolver (3 meses). El sistema registra automáticamente cada acción con trazabilidad completa para cuando la AIPI pregunte."}},
       {"@type":"Question","name":"¿Me sirve para el Protocolo de Acoso Laboral y Plan de Igualdad?","acceptedAnswer":{"@type":"Answer","text":"Sí. EticAlert cubre no solo la Ley 2/2023, sino también la obligatoriedad de tener un canal de incidencias para los Planes de Igualdad y prevención de acoso (Ley Orgánica 3/2007). Una herramienta, dos obligaciones resueltas."}},
       {"@type":"Question","name":"¿Puedo cancelar en cualquier momento?","acceptedAnswer":{"@type":"Answer","text":"Sí, sin letra pequeña. No hay contratos de permanencia ni penalizaciones. Puedes darte de baja cuando quieras. Si decides irte, te facilitamos la exportación de todo tu registro de auditoría para que conserves tu historial legal."}},
       {"@type":"Question","name":"¿Qué pasa si no recibo ninguna denuncia?","acceptedAnswer":{"@type":"Answer","text":"No pasa nada, y de hecho es buena señal. Lo importante ante la ley no es cuántas denuncias recibes, sino tener el canal operativo. Solo con tener EticAlert activo ya cumples la Ley 2/2023 y demuestras cultura ética sólida."}},
