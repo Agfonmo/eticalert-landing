@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Funcionalidades del canal de denuncias | EticAlert — 55 funciones incluidas';
-$page_description = 'Las 55 funcionalidades de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, documentos legales automáticos, RLS y plan gratuito permanente. Cumple la Ley 2/2023.';
+$page_title       = 'Funcionalidades del canal de denuncias | EticAlert — 48 funciones incluidas';
+$page_description = 'Las 48 funcionalidades de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, documentos legales automáticos, RLS y plan gratuito permanente. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/funcionalidades';
 include 'includes/header.php';
 ?>
@@ -15,7 +15,7 @@ include 'includes/header.php';
   "url": "https://eticalert.com",
   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
   "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Conflicto de interés, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, RLS PostgreSQL, Exportación PDF y CSV, API REST, Plan Free permanente, Multiempresa",
-  "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023. 55 funcionalidades incluidas desde el primer día."
+  "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023. 48 funcionalidades incluidas desde el primer día."
 }
 </script>
 <script type="application/ld+json">
@@ -41,7 +41,7 @@ include 'includes/header.php';
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;">
           <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--accent-subtle);color:var(--accent);border:1px solid var(--accent-border);border-radius:99px;padding:0.375rem 0.875rem;font-size:0.875rem;font-weight:700;">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
-            55 funcionalidades incluidas
+            48 funcionalidades incluidas
           </span>
           <span style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--bg-tertiary);color:var(--text-secondary);border:1px solid var(--border-medium);border-radius:99px;padding:0.375rem 0.875rem;font-size:0.875rem;font-weight:700;">
             3 únicos en el mercado español
@@ -64,7 +64,6 @@ include 'includes/header.php';
             <li><a href="#auditoria">Auditoría e integridad</a></li>
             <li><a href="#reporting">Reporting y exportación</a></li>
             <li><a href="#configuracion">Configuración</a></li>
-            <li><a href="#enterprise">Enterprise</a></li>
             <li><a href="#partners">Partners y servicios</a></li>
             <li><a href="#comparativa">Comparativa ampliada</a></li>
           </ol>
@@ -78,7 +77,7 @@ include 'includes/header.php';
             <p style="font-weight:700;margin-bottom:0.75rem;color:var(--text-primary);">Los 3 diferenciadores únicos en el mercado español</p>
             <ul style="display:flex;flex-direction:column;gap:0.5rem;margin:0;">
               <li><strong>Hash SHA-256 verificable públicamente</strong> — el contenido de cada denuncia tiene un hash criptográfico que demuestra que no ha sido alterado. Ningún competidor lo ofrece.</li>
-              <li><strong>Conflicto de interés integrado</strong> — el gestor puede declarar su relación con el caso e inhibirse automáticamente. Cubre el art. 9 de la Ley 2/2023. Exclusivo.</li>
+              <li><strong>Exclusión preventiva de gestoras por el informante</strong> — al enviar la denuncia, el informante puede bloquear a personas concretas del equipo gestor. Las personas excluidas no ven el caso, no reciben notificaciones y no pueden ser asignadas. Ningún competidor lo ofrece.</li>
               <li><strong>Plan Free completo permanente</strong> — hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades. Ningún competidor listado lo ofrece.</li>
             </ul>
           </div>
@@ -247,15 +246,6 @@ include 'includes/header.php';
               </div>
               <p class="func-desc">Cada gestor tiene asignadas las categorías de denuncia que puede instruir. La compatibilidad temática controla quién puede ser asignado a cada caso; si no hay match, el coordinador activa un override explícito.</p>
               <p class="func-value">Garantiza que casos de acoso laboral no llegan a alguien de cumplimiento financiero, y viceversa. Compartimentación funcional por especialidad.</p>
-            </div>
-
-            <div class="func-card" style="grid-column:1/-1;">
-              <div class="func-card-header">
-                <span class="func-name">Conflicto de interés</span>
-                <span class="badge-unico">Único en España</span>
-              </div>
-              <p class="func-desc">El gestor asignado puede declarar que tiene relación directa con el caso o el denunciado, inhibiéndose automáticamente y derivando a otro responsable.</p>
-              <p class="func-value">Cubre el requisito de independencia del art. 9 de la Ley 2/2023. Sin este mecanismo la empresa queda expuesta ante la AIPI. Ningún competidor lo incluye.</p>
             </div>
 
           </div>
@@ -509,23 +499,6 @@ include 'includes/header.php';
 
             <div class="func-card">
               <div class="func-card-header">
-                <span class="func-name">Wizard de configuración guiado</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Proceso paso a paso: datos de empresa, logo, categorías de denuncia, RSII designado. Menos de 5 minutos.</p>
-              <p class="func-value">EQS y WhistleBlower requieren implantación asistida con precios opacos. EticAlert es self-service.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Categorías de denuncia configurables</span>
-              </div>
-              <p class="func-desc">Selecciona qué tipologías activas según tu sector: corrupción, acoso, fraude, GDPR, etc.</p>
-              <p class="func-value">Adapta el canal al perfil de riesgo concreto de tu empresa. El informante ve opciones claras, no un campo en blanco.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
                 <span class="func-name">Precio fijo por empresa</span>
                 <span class="badge-diff">Diferenciador</span>
               </div>
@@ -550,15 +523,6 @@ include 'includes/header.php';
               <p class="func-value">Elimina el riesgo de publicar un canal con errores visuales. Lo que ves en preview es exactamente lo que verá el informante.</p>
             </div>
 
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Dominio propio personalizado</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">El canal público puede publicarse bajo un dominio corporativo propio en lugar de eticalert.com/d/slug.</p>
-              <p class="func-value">Refuerza la confianza del informante al ver la URL de su propia empresa. Requerido por algunas políticas de compliance corporativo.</p>
-            </div>
-
             <div class="func-card" style="grid-column:1/-1;">
               <div class="func-card-header">
                 <span class="func-name">Generación de documentos legales PDF</span>
@@ -575,48 +539,6 @@ include 'includes/header.php';
               </div>
               <p class="func-desc">Hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades activas.</p>
               <p class="func-value">Las empresas por debajo del umbral legal pueden adoptar el canal sin coste. Ningún competidor listado ofrece un plan permanentemente gratuito con funcionalidad completa.</p>
-            </div>
-
-          </div>
-
-          <!-- ================================================== -->
-          <h2 id="enterprise">Capacidades Enterprise</h2>
-          <p class="func-category-intro">Para grupos empresariales y organizaciones con requisitos IT avanzados.</p>
-
-          <div class="func-grid">
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">Multiempresa para grupos</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">Una sola cuenta gestiona canales de varias empresas del mismo grupo desde un único panel.</p>
-              <p class="func-value">Grupos con varias subsidiarias obligadas centralizan la gestión de compliance. Reduce coste y fragmentación.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">SSO / SAML</span>
-              </div>
-              <p class="func-desc">Inicio de sesión único integrado con Azure AD, Okta u otros proveedores de identidad corporativos.</p>
-              <p class="func-value">Elimina la gestión de credenciales separadas. Facilita la adopción en empresas con políticas IT estrictas.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">API REST de integración</span>
-                <span class="badge-diff">Diferenciador</span>
-              </div>
-              <p class="func-desc">API para conectar EticAlert con sistemas internos: ERP, SIEM, herramientas de compliance o GRC.</p>
-              <p class="func-value">Automatiza flujos: crear caso en Jira al recibir denuncia, sincronizar estado con sistema GRC. Ningún competidor básico tiene API pública documentada.</p>
-            </div>
-
-            <div class="func-card">
-              <div class="func-card-header">
-                <span class="func-name">SLA por contrato</span>
-              </div>
-              <p class="func-desc">Garantía de disponibilidad y tiempos de respuesta formalizados contractualmente.</p>
-              <p class="func-value">Requerido por grandes empresas con dependencia regulatoria del canal. Cubre el riesgo de downtime durante una denuncia activa.</p>
             </div>
 
           </div>
@@ -667,7 +589,7 @@ include 'includes/header.php';
                   <th>Solución</th>
                   <th>Cifrado en BD</th>
                   <th>Sin marca de agua</th>
-                  <th>Conflicto de interés</th>
+                  <th>Exclusión de gestoras</th>
                   <th>Hash verificable</th>
                   <th>Entrada multicanal</th>
                   <th>Control plazos auto</th>
