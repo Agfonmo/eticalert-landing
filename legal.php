@@ -16,9 +16,8 @@ include 'includes/header.php';
         <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa que el titular del sitio web <strong>eticalert.com</strong> es:</p>
         <ul>
           <li><strong>Denominación social:</strong> FONCAD GROUP, S.L. (en adelante, "FONCAD GROUP")</li>
-          <li><strong>CIF:</strong> [PENDIENTE DE INSERTAR]</li>
-          <li><strong>Domicilio social:</strong> [PENDIENTE DE INSERTAR]</li>
-          <li><strong>Inscripción registral:</strong> Registro Mercantil de [PENDIENTE], Tomo [X], Folio [X], Hoja [X]</li>
+          <li><strong>CIF:</strong> B70713532</li>
+          <li><strong>Domicilio social:</strong> C/ Iglesia 12, 28019 Madrid</li>
           <li><strong>Email de contacto:</strong> <a href="mailto:info@eticalert.com">info@eticalert.com</a></li>
           <li><strong>Sitio web:</strong> https://eticalert.com</li>
         </ul>
