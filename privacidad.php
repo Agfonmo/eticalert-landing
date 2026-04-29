@@ -15,8 +15,8 @@ include 'includes/header.php';
         <h2>1. Responsable del tratamiento</h2>
         <p>
           <strong>Identidad:</strong> FONCAD GROUP, S.L.<br>
-          <strong>CIF:</strong> [PENDIENTE DE INSERTAR]<br>
-          <strong>Domicilio:</strong> [PENDIENTE DE INSERTAR]<br>
+          <strong>CIF:</strong> B70713532<br>
+          <strong>Domicilio:</strong> C/ Iglesia 12, 28019 Madrid<br>
           <strong>Email DPO / contacto privacidad:</strong> <a href="mailto:privacidad@eticalert.com">privacidad@eticalert.com</a>
         </p>
 
