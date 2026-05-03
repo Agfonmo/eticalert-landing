@@ -4,6 +4,7 @@
 # ============================================================
 
 Options -MultiViews
+DirectoryIndex index.php index.html
 RewriteEngine On
 
 # 0. Forzar HTTPS (301 permanente)
