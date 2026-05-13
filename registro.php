@@ -135,15 +135,55 @@ if ($submitted) {
         $api_error_msg = $body['message'] ?? $body['error'] ?? 'Error HTTP ' . $api_status;
         if ($curl_error) $api_error_msg = 'Error de conexión: ' . $curl_error;
 
+        $body      = $body ?? [];
+        $api_code  = $body['code'] ?? $body['error'] ?? '';
+        $login_url = APP_LOGIN_URL;
+        $mail_link = '<a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a>';
+
         if ($api_status === 409) {
-          $conflict = strtolower($api_error_msg);
-          if (str_contains($conflict, 'cif') || str_contains($conflict, 'company')) {
-            $errors['cif'] = 'Ya existe una empresa registrada con este CIF. Escríbenos a <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a> si crees que es un error.';
-          } else {
-            $errors['email'] = 'Ya existe una cuenta con este email. <a href="' . APP_LOGIN_URL . '">Accede aquí →</a>';
+          switch ($api_code) {
+            case 'CIF already registered':
+              $errors['cif'] = 'Este CIF ya está registrado. Escríbenos a ' . $mail_link . ' si crees que es un error.';
+              break;
+            case 'Company account active':
+              $errors['empresa'] = 'Esta empresa ya tiene un canal activo. <a href="' . $login_url . '" style="color:var(--accent);">Inicia sesión →</a>';
+              break;
+            case 'Company account canceled':
+              $errors['empresa'] = 'Esta empresa ya existe y está cancelada. Escríbenos a ' . $mail_link . ' para reactivarla.';
+              break;
+            case 'Company account suspended':
+              $errors['empresa'] = 'Esta empresa ya existe y tiene pagos pendientes. Escríbenos a ' . $mail_link . ' para resolverlo.';
+              break;
+            case 'Company account inactive':
+              $errors['empresa'] = 'Esta empresa ya existe pero está inactiva. Escríbenos a ' . $mail_link . ' para reactivarla.';
+              break;
+            case 'Company account compliance blocked':
+              $errors['empresa'] = 'Esta empresa está bloqueada por incumplimiento. Escríbenos a ' . $mail_link . ' para más información.';
+              break;
+            case 'Admin already exists for domain':
+              $errors['email'] = 'Ya existe un administrador para este dominio de email. <a href="' . $login_url . '" style="color:var(--accent);">Accede aquí →</a>';
+              break;
+            case 'Auth user already exists':
+            default:
+              $errors['email'] = 'Ya existe una cuenta con este email. <a href="' . $login_url . '" style="color:var(--accent);">Accede aquí →</a>';
+              break;
           }
+        } elseif ($api_status === 400) {
+          switch ($api_code) {
+            case 'Invalid admin email domain':
+              $errors['email'] = 'Este dominio de email no es válido o no acepta correos. Usa tu email corporativo.';
+              break;
+            case 'Enterprise requires assisted onboarding':
+              $errors['api'] = 'El plan Enterprise requiere configuración asistida. Escríbenos a ' . $mail_link . ' y te ayudamos.';
+              break;
+            default:
+              $errors['api'] = 'Hay un problema con los datos enviados. Revisa el formulario o escríbenos a ' . $mail_link . '.';
+              break;
+          }
+        } elseif ($api_status === 503) {
+          $errors['api'] = 'El servicio no está disponible temporalmente. Inténtalo de nuevo en unos minutos o escríbenos a ' . $mail_link . '.';
         } else {
-          $errors['api'] = $api_error_msg;
+          $errors['api'] = 'No se pudo completar el alta. Escríbenos a ' . $mail_link . ' y lo resolvemos en menos de 24 horas.';
         }
       }
     }
