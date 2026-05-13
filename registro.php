@@ -136,7 +136,12 @@ if ($submitted) {
         if ($curl_error) $api_error_msg = 'Error de conexión: ' . $curl_error;
 
         if ($api_status === 409) {
-          $errors['email'] = 'Ya existe una cuenta con este email. <a href="' . APP_LOGIN_URL . '">Accede aquí →</a>';
+          $conflict = strtolower($api_error_msg);
+          if (str_contains($conflict, 'cif') || str_contains($conflict, 'company')) {
+            $errors['cif'] = 'Ya existe una empresa registrada con este CIF. Escríbenos a <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a> si crees que es un error.';
+          } else {
+            $errors['email'] = 'Ya existe una cuenta con este email. <a href="' . APP_LOGIN_URL . '">Accede aquí →</a>';
+          }
         } else {
           $errors['api'] = $api_error_msg;
         }
