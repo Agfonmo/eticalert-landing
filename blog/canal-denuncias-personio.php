@@ -38,7 +38,7 @@ include '../includes/header.php';
         <p>Personio es uno de los HRIS (Human Resources Information System) más utilizados por empresas medianas en España y Alemania. Incluye un módulo de whistleblowing dentro de su suite de RRHH. Si ya usas Personio, puede parecer cómodo activar ese módulo. Pero hay una pregunta que vale la pena hacerse antes: ¿el canal de denuncias debe vivir dentro del mismo sistema que gestiona las nóminas, las vacaciones y las evaluaciones de rendimiento de las personas que podrían ser denunciadas?</p>
 
         <h2 id="el-problema-del-aislamiento">El problema del aislamiento</h2>
-        <p>La <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a> exige que solo el Responsable del Sistema de Información Interna (RSII) tenga acceso a los expedientes de denuncia. En una suite de RRHH como Personio, el administrador de la plataforma suele ser el mismo que gestiona contratos, evaluaciones y organigramas. Si ese administrador puede acceder a las denuncias, el aislamiento legal puede comprometerse — no por mala fe, sino por la arquitectura del sistema.</p>
+        <p>La <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a> exige que solo el Responsable del Sistema de Información Interna (<a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>) tenga acceso a los expedientes de denuncia. En una suite de RRHH como Personio, el administrador de la plataforma suele ser el mismo que gestiona contratos, evaluaciones y organigramas. Si ese administrador puede acceder a las denuncias, el aislamiento legal puede comprometerse — no por mala fe, sino por la arquitectura del sistema.</p>
 
         <div class="callout"><p><strong>Riesgo específico:</strong> si la persona denunciada tiene acceso de administrador a Personio (o si alguien con esos permisos le informa), el canal deja de ser confidencial en la práctica. La AIPI puede considerar esto un incumplimiento del artículo 9 de la Ley 2/2023.</p></div>
 
@@ -85,7 +85,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿El canal de denuncias de Personio cumple la Ley 2/2023?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Personio cumple la Directiva europea de whistleblowing. Sin embargo, la Ley 2/2023 española exige que solo el Responsable del Sistema de Información Interna (RSII) tenga acceso a los expedientes. Con Personio, ese aislamiento granular depende de cómo se configure el control de roles, que puede no ser suficiente si el mismo administrador de RRHH gestiona toda la plataforma.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Personio cumple la <a href="/blog/directiva-europea-whistleblowing" style="color:var(--accent);">Directiva europea de whistleblowing</a>. Sin embargo, la Ley 2/2023 española exige que solo el Responsable del Sistema de Información Interna (RSII) tenga acceso a los expedientes. Con Personio, ese aislamiento granular depende de cómo se configure el control de roles, que puede no ser suficiente si el mismo administrador de RRHH gestiona toda la plataforma.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta añadir el canal de denuncias a Personio?</h3>

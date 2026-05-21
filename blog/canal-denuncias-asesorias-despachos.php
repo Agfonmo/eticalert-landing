@@ -90,7 +90,7 @@ include '../includes/header.php';
           <li>Diagnóstico de obligación (verificar si el cliente está obligado y desde cuándo).</li>
           <li>Implantación del canal (apoyándose en una herramienta SaaS como EticAlert).</li>
           <li>Redacción de la política del SII y nombramiento del RSII.</li>
-          <li>Notificación a la AIPI en nombre del cliente.</li>
+          <li>Notificación a la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> en nombre del cliente.</li>
           <li>Servicio de RSII externo o de apoyo al RSII interno del cliente.</li>
           <li>Instrucción de denuncias complejas como servicio de asesoramiento.</li>
         </ul>

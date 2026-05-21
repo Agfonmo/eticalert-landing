@@ -165,7 +165,7 @@ include '../includes/header.php';
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
             </tr>
             <tr>
-              <td style="padding:0.75rem;border:1px solid var(--border);">Historial auditado de nombramientos RSII</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Historial auditado de nombramientos <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a></td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓ Bloqueo si no existe RSII</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">No documentado</td>
             </tr>

@@ -93,11 +93,11 @@ include '../includes/header.php';
         <p>En España hay aproximadamente 1.200 municipios que superan el umbral de 10.000 habitantes. La mayoría de ellos tienen la obligación desde mediados de 2023, aunque el nivel de cumplimiento en el sector público local es, en general, inferior al del sector privado.</p>
 
         <h2 id="requisitos-adicionales">Requisitos adicionales del sector público</h2>
-        <p>Además de los requisitos que se aplican a cualquier entidad obligada (canal técnico, RSII, libro-registro, política del SII), el sector público tiene algunos elementos adicionales:</p>
+        <p>Además de los requisitos que se aplican a cualquier entidad obligada (canal técnico, <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a>, política del SII), el sector público tiene algunos elementos adicionales:</p>
         <ul>
           <li><strong>Mayor visibilidad pública:</strong> el canal de denuncias de un ayuntamiento debe ser especialmente accesible y visible, dado que no solo los empleados municipales pueden denunciar, sino también los ciudadanos que tengan conocimiento de irregularidades en el ejercicio de la función pública.</li>
           <li><strong>Articulación con el control interno:</strong> los ayuntamientos tienen órganos de control interno (Intervención, Secretaría) que deben coordinarse con el RSII del canal de denuncias para evitar duplicidades y garantizar la coherencia del sistema.</li>
-          <li><strong>Coordinación con la autoridad autonómica competente:</strong> algunas comunidades autónomas (Cataluña con la ACDI, Castilla y León, Navarra, etc.) tienen su propia autoridad de protección del informante, complementaria a la AIPI estatal. Los ayuntamientos de esas regiones deben atender también a la normativa autonómica.</li>
+          <li><strong>Coordinación con la autoridad autonómica competente:</strong> algunas comunidades autónomas (Cataluña con la ACDI, Castilla y León, Navarra, etc.) tienen su propia autoridad de <a href="/blog/proteccion-informante-ley" style="color:var(--accent);">protección del informante</a>, complementaria a la AIPI estatal. Los ayuntamientos de esas regiones deben atender también a la normativa autonómica.</li>
           <li><strong>Transparencia activa:</strong> la publicación del canal en la sede electrónica del ayuntamiento y en el portal de transparencia es obligatoria.</li>
         </ul>
 

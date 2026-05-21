@@ -86,7 +86,7 @@ include '../includes/header.php';
         <h2 id="que-es">¿Qué es el libro-registro? (art. 26 Ley 2/2023)</h2>
         <p>El libro-registro del Sistema Interno de Información es el registro formal de todas las comunicaciones recibidas a través del canal de denuncias y de todas las actuaciones realizadas en relación con cada una de ellas.</p>
         <p>El artículo 26 de la Ley 2/2023 establece que el responsable del sistema está obligado a llevar un <strong>registro de las informaciones recibidas y de las investigaciones internas</strong> que se realicen. Este registro debe mantenerse con las garantías de confidencialidad adecuadas y por el plazo que la ley establece.</p>
-        <p>Su función es doble: por un lado, garantiza la trazabilidad del sistema y permite demostrar que cada denuncia ha sido tramitada correctamente; por otro, sirve como evidencia ante una posible inspección de la AIPI o ante un procedimiento judicial.</p>
+        <p>Su función es doble: por un lado, garantiza la trazabilidad del sistema y permite demostrar que cada denuncia ha sido tramitada correctamente; por otro, sirve como evidencia ante una posible inspección de la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> o ante un procedimiento judicial.</p>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
           <strong style="color:var(--accent);">Importante:</strong> El libro-registro no es solo una buena práctica de gestión. Es una obligación legal del artículo 26 de la Ley 2/2023. Su ausencia puede considerarse infracción grave, con multas de hasta 600.000€.
@@ -100,7 +100,7 @@ include '../includes/header.php';
           <li>Fecha y hora exacta de recepción de la comunicación.</li>
           <li>Número de expediente único asignado a la denuncia.</li>
           <li>Canal utilizado para la comunicación (formulario web, email, teléfono, presencial).</li>
-          <li>Tipo de denuncia según las categorías predefinidas (contratación pública, fraude interno, acoso, RGPD, etc.).</li>
+          <li>Tipo de denuncia según las categorías predefinidas (contratación pública, fraude interno, acoso, <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a>, etc.).</li>
         </ul>
 
         <p><strong>Acuse de recibo:</strong></p>

@@ -99,7 +99,7 @@ include '../includes/header.php';
         <p>La víctima puede usar el canal de denuncias como alternativa al protocolo de acoso del Plan de Igualdad (si existe), o de forma complementaria. No hay incompatibilidad entre los dos mecanismos.</p>
 
         <h2 id="que-hacer">Qué debe hacer la empresa paso a paso</h2>
-        <p>Cuando llega una denuncia de acoso a través del canal, el RSII debe seguir un procedimiento cuidadoso que garantice tanto los derechos del denunciante como los del denunciado:</p>
+        <p>Cuando llega una denuncia de acoso a través del canal, el <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> debe seguir un procedimiento cuidadoso que garantice tanto los derechos del denunciante como los del denunciado:</p>
 
         <p><strong>1. Acuse de recibo (máximo 7 días)</strong></p>
         <p>El primer paso es acusar recibo al denunciante en el plazo máximo de 7 días. En el caso del acoso, el acuse debe incluir una indicación de que la empresa toma el asunto con la máxima seriedad y que se adoptarán medidas cautelares si fuera necesario para proteger a la víctima mientras se investiga.</p>

@@ -120,7 +120,7 @@ include '../includes/header.php';
         <p>La respuesta habitual es <strong>un canal centralizado con filtros por establecimiento</strong>. Esto permite:</p>
         <ul>
           <li>Que el denunciante indique en qué establecimiento ocurrió el hecho.</li>
-          <li>Que el RSII central gestione todos los casos con una visión unificada.</li>
+          <li>Que el <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> central gestione todos los casos con una visión unificada.</li>
           <li>Que se detecten patrones: si tres locales de la misma ciudad tienen denuncias similares, puede haber un problema sistémico.</li>
           <li>Menor coste y mayor coherencia en el sistema.</li>
         </ul>

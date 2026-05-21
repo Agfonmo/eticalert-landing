@@ -91,7 +91,7 @@ include '../includes/header.php';
         <h2 id="senal-madurez">Compliance como señal de madurez para inversores</h2>
         <p>Las empresas de tecnología con aspiraciones de crecimiento se someten a due diligence antes de cada ronda de financiación. Los inversores institucionales, especialmente los fondos europeos y los de mayor tamaño, revisan el estado de compliance de las startups en las que invierten. Un canal de denuncias ausente en una empresa obligada es un red flag claro.</p>
         <p>Más allá del riesgo legal directo, la ausencia de infraestructura básica de compliance envía una señal negativa sobre la madurez operativa de la empresa. Los inversores no solo ponen dinero en el producto: invierten en el equipo y en la organización. Una empresa que no cumple con obligaciones legales básicas puede tener problemas más profundos de gobernanza.</p>
-        <p>Por el contrario, una startup con canal de denuncias operativo, política de SII aprobada y RSII designado demuestra que el equipo fundador tiene visión operativa más allá del producto. Es un diferenciador en rondas competitivas.</p>
+        <p>Por el contrario, una startup con canal de denuncias operativo, política de SII aprobada y <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> designado demuestra que el equipo fundador tiene visión operativa más allá del producto. Es un diferenciador en rondas competitivas.</p>
 
         <h2 id="infracciones-tech">Infracciones típicas del sector tech</h2>
         <p>El sector tecnológico tiene sus propios riesgos específicos que hacen especialmente relevante disponer de un canal bien diseñado:</p>

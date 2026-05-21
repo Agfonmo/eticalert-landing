@@ -119,7 +119,7 @@ include '../includes/header.php';
         <h2 id="contratacion-publica">Riesgo de exclusión de contratación pública</h2>
         <p>Para una constructora que trabaja con administraciones públicas, la exclusión de la contratación pública es probablemente la consecuencia más temida de una sanción por la Ley 2/2023. Y no es un riesgo teórico.</p>
         <p>Según la Ley 2/2023, la comisión de infracciones graves o muy graves puede acarrear una prohibición de contratar con el sector público de <strong>hasta 3 años</strong>. Para una constructora con obra pública como parte relevante de su cartera, esto es potencialmente devastador.</p>
-        <p>Adicionalmente, el incumplimiento de la ley puede aparecer en inspecciones de la AIPI que resulten en resoluciones públicas, lo que afecta a la imagen de la empresa en futuros procesos de licitación.</p>
+        <p>Adicionalmente, el incumplimiento de la ley puede aparecer en inspecciones de la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> que resulten en resoluciones públicas, lo que afecta a la imagen de la empresa en futuros procesos de licitación.</p>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
           <strong style="color:var(--accent);">Importante:</strong> Muchos pliegos de contratación pública ya incorporan la exigencia de disponer de canal de denuncias como requisito de solvencia técnica o como criterio de valoración. No tenerlo puede excluirte de licitaciones incluso si la AIPI no ha sancionado todavía.

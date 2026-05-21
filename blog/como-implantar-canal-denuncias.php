@@ -107,10 +107,10 @@ include '../includes/header.php';
         <p>El Responsable del Sistema Interno de Información es la figura clave del sistema. La Ley 2/2023 exige que sea una persona que reúna estas condiciones:</p>
         <ul>
           <li><strong>Posición independiente e imparcial:</strong> no debe tener conflicto de interés con los asuntos que gestione. Típicamente es el Compliance Officer, el Director de RRHH, el Director Jurídico o el Director Financiero.</li>
-          <li><strong>Empleado de la propia empresa</strong> (no puede externalizarse completamente, aunque sí puede apoyarse en asesores externos para la instrucción de casos).</li>
+          <li><strong>Empleado de la propia empresa</strong> (no puede <a href="/blog/externalizar-canal-denuncias" style="color:var(--accent);">externalizar</a>se completamente, aunque sí puede apoyarse en asesores externos para la instrucción de casos).</li>
           <li><strong>Con autonomía funcional</strong>: no puede recibir instrucciones del área investigada en un caso concreto.</li>
         </ul>
-        <p>Una vez designado, debes notificarlo formalmente a la AIPI a través del formulario oficial disponible en su sede electrónica. El plazo para realizarlo, desde la apertura del formulario en febrero de 2026, es de 2 meses (hasta el 10 de abril de 2026). Consulta nuestra <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">guía completa sobre el RSII y el formulario AIPI →</a></p>
+        <p>Una vez designado, debes notificarlo formalmente a la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> a través del formulario oficial disponible en su sede electrónica. El plazo para realizarlo, desde la apertura del formulario en febrero de 2026, es de 2 meses (hasta el 10 de abril de 2026). Consulta nuestra <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">guía completa sobre el RSII y el formulario AIPI →</a></p>
 
         <h2 id="paso-4">Paso 4: Elegir la herramienta para el canal</h2>
         <p>Esta es la decisión con mayor impacto en el coste y el tiempo de implantación. Hay tres grandes opciones:</p>
@@ -138,7 +138,7 @@ include '../includes/header.php';
 
         <h2 id="paso-6">Paso 6: Redactar la política del Sistema Interno de Información</h2>
         <p>La política del SII es el documento que describe cómo funciona el canal, qué se puede denunciar, quién lo gestiona y qué protecciones tiene el informante. Es obligatoria y debe ser aprobada por el órgano de administración antes de publicar el canal.</p>
-        <p>El contenido mínimo de esta política incluye: objeto y alcance, canales disponibles, procedimiento de tramitación, plazos, datos del RSII, protección del informante, régimen de confidencialidad, tratamiento de datos conforme al RGPD, tipos de infracciones denunciables y consecuencias de las denuncias de mala fe.</p>
+        <p>El contenido mínimo de esta política incluye: objeto y alcance, canales disponibles, procedimiento de tramitación, plazos, datos del RSII, protección del informante, régimen de confidencialidad, tratamiento de datos conforme al <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a>, tipos de infracciones denunciables y consecuencias de las denuncias de mala fe.</p>
         <p>Consulta nuestra <a href="/blog/politica-sistema-interno-informacion" style="color:var(--accent);">guía específica sobre la política del SII →</a></p>
 
         <h2 id="paso-7">Paso 7: Notificar la designación del RSII a la AIPI</h2>

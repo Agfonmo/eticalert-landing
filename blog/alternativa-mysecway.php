@@ -38,7 +38,7 @@ include '../includes/header.php';
         <p>mysecway es una plataforma española de canal de denuncias desarrollada por IT Zone. Destaca por su flexibilidad: ofrece tanto SaaS multi-cliente como instalación on-premise, y tiene funcionalidades avanzadas como marca de agua en documentos y SSO en el plan Premium. Su modelo de precio es el que más difiere de EticAlert: <strong>cobra por gestor</strong>, no por empresa.</p>
 
         <h2 id="el-modelo-de-precio">El modelo de precio: por gestor vs por empresa</h2>
-        <p>Esta diferencia es la más relevante para la mayoría de empresas. mysecway cobra <strong>7,95€ por gestor/mes</strong> en el plan Básico. Un "gestor" es cada usuario con acceso al panel de administración (RSII, coordinadores, resolutores).</p>
+        <p>Esta diferencia es la más relevante para la mayoría de empresas. mysecway cobra <strong>7,95€ por gestor/mes</strong> en el plan Básico. Un "gestor" es cada usuario con acceso al panel de administración (<a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>, coordinadores, resolutores).</p>
 
         <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.9rem;">
           <thead><tr style="background:var(--bg-tertiary);">

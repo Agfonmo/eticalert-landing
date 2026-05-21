@@ -92,7 +92,7 @@ include '../includes/header.php';
         <p>Es una solución sólida y reconocida en el mercado europeo. Sus principales puntos fuertes son la cobertura internacional y la reputación en privacidad y anonimato. Sus principales debilidades para el mercado español son el precio elevado para pymes y la documentación orientada al entorno nórdico.</p>
 
         <h2 id="que-es-eticalert">¿Qué es EticAlert?</h2>
-        <p>EticAlert es una plataforma SaaS española creada específicamente para ayudar a las pymes españolas a cumplir la <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a>. Activación en minutos sin consultoría, precio público desde 19€/mes, soporte en castellano y toda la documentación (política del SII, guía del RSII, libro-registro) adaptada a la normativa y a los organismos españoles (AIPI, sede electrónica).</p>
+        <p>EticAlert es una plataforma SaaS española creada específicamente para ayudar a las pymes españolas a cumplir la <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a>. Activación en minutos sin consultoría, precio público desde 19€/mes, soporte en castellano y toda la documentación (política del SII, guía del <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a>) adaptada a la normativa y a los organismos españoles (AIPI, sede electrónica).</p>
 
         <h2 id="comparativa-precio">Comparativa de precio</h2>
         <p>El precio es el factor diferencial más claro entre ambas soluciones:</p>

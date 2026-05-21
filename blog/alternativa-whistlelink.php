@@ -97,7 +97,7 @@ include '../includes/header.php';
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">Alertas automáticas de plazos (7d / 3m)</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">Exclusión de gestores por conflicto de interés</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">No documentado</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hash SHA-256 verificable de expedientes</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">No</td></tr>
-            <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">Historial RSII auditado</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">No documentado</td></tr>
+            <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">Historial <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> auditado</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">No documentado</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hosting en España / UE</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓ UE</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓ Suecia (UE)</td></tr>
           </tbody>
         </table>
@@ -114,7 +114,7 @@ include '../includes/header.php';
             <p style="font-weight:700;margin-bottom:0.75rem;color:var(--text-primary);">✓ Puntos a favor</p>
             <ul style="margin:0;padding-left:1.25rem;line-height:1.9;font-size:0.9375rem;color:var(--text-secondary);">
               <li>Plataforma escandinava con sólida reputación en seguridad</li>
-              <li>Hosting en Suecia (UE) — cumple RGPD</li>
+              <li>Hosting en Suecia (UE) — cumple <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a></li>
               <li>Más de 35 idiomas disponibles</li>
               <li>Prueba gratuita disponible</li>
               <li>Buena cobertura para empresas con presencia en múltiples países europeos</li>

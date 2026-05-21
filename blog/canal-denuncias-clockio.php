@@ -55,7 +55,7 @@ include '../includes/header.php';
         <p>Nota: si ya usas Clockio para fichajes, estos costes los pagas por la suite completa. El canal de denuncias es uno de los módulos incluidos, no el driver del precio. Si tu decisión es solo sobre el canal, EticAlert es significativamente más económico.</p>
 
         <h2 id="el-problema-del-aislamiento">El problema del aislamiento legal</h2>
-        <p>La <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a> exige que el canal de denuncias esté gestionado exclusivamente por el RSII, con acceso completamente separado del resto de funciones de RRHH. En una plataforma de fichajes como Clockio, el administrador que gestiona los horarios de los empleados puede coincidir con quien accede al canal — lo que compromete el aislamiento.</p>
+        <p>La <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a> exige que el canal de denuncias esté gestionado exclusivamente por el <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>, con acceso completamente separado del resto de funciones de RRHH. En una plataforma de fichajes como Clockio, el administrador que gestiona los horarios de los empleados puede coincidir con quien accede al canal — lo que compromete el aislamiento.</p>
 
         <h2 id="comparativa-funcionalidades">Comparativa de funcionalidades</h2>
         <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.875rem;">

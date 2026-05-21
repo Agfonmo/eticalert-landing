@@ -128,7 +128,7 @@ include '../includes/header.php';
           <li><strong>Asistencia financiera:</strong> en situaciones de represalia grave (ej. despido), el informante puede solicitar asistencia financiera para cubrir los costes del proceso judicial mientras dure la disputa.</li>
           <li><strong>Apoyo psicológico:</strong> acceso a servicios de apoyo psicológico para afrontar el estrés y el impacto emocional derivado de la denuncia y sus consecuencias.</li>
         </ul>
-        <p>Estas medidas las gestiona la AIPI y, en su caso, las autoridades autonómicas competentes.</p>
+        <p>Estas medidas las gestiona la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> y, en su caso, las autoridades autonómicas competentes.</p>
 
         <h2 id="consecuencias-represaliar">Consecuencias de represaliar: infracción muy grave</h2>
         <p>Para la empresa, tomar represalias contra un informante no solo tiene consecuencias laborales (nulidad del despido). Es también una <strong>infracción muy grave</strong> de la Ley 2/2023, con una sanción de hasta <strong>1.000.000€</strong> para personas jurídicas y hasta 300.000€ para personas físicas.</p>

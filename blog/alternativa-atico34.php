@@ -35,12 +35,12 @@ include '../includes/header.php';
 
         <div class="callout"><p><strong>Nota de transparencia:</strong> esta comparativa la publica EticAlert. Contrasta la información con la web oficial de Atico34 antes de decidir.</p></div>
 
-        <p>Atico34 es una consultoría española especializada en protección de datos y privacidad. A través de su plataforma LegalSending, ofrece canal de denuncias con asesoría jurídica incluida a un precio de entrada muy competitivo (~120-180€/año según comparadores). El modelo es diferente al de EticAlert: Atico34 actúa como intermediario jurídico, mientras que EticAlert es un software que el propio equipo de la empresa gestiona de forma autónoma.</p>
+        <p>Atico34 es una consultoría española especializada en <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">protección de datos</a> y privacidad. A través de su plataforma LegalSending, ofrece canal de denuncias con asesoría jurídica incluida a un precio de entrada muy competitivo (~120-180€/año según comparadores). El modelo es diferente al de EticAlert: Atico34 actúa como intermediario jurídico, mientras que EticAlert es un software que el propio equipo de la empresa gestiona de forma autónoma.</p>
 
         <h2 id="dos-modelos-distintos">Dos modelos distintos para un mismo requisito</h2>
         <p>La diferencia fundamental no es de precio sino de enfoque:</p>
         <ul style="margin:1rem 0;padding-left:1.5rem;line-height:1.8;">
-          <li><strong>Atico34 / LegalSending</strong>: el canal está gestionado o supervisado por asesores de Atico34. Las denuncias pueden llegar a su equipo jurídico para su tramitación. Ideal si tu empresa no tiene un RSII designado o quiere externalizar la gestión completa.</li>
+          <li><strong>Atico34 / LegalSending</strong>: el canal está gestionado o supervisado por asesores de Atico34. Las denuncias pueden llegar a su equipo jurídico para su tramitación. Ideal si tu empresa no tiene un <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> designado o quiere <a href="/blog/externalizar-canal-denuncias" style="color:var(--accent);">externalizar</a> la gestión completa.</li>
           <li><strong>EticAlert</strong>: software self-serve. Tu RSII gestiona los expedientes directamente en el panel. Las alertas automáticas de plazos, los roles y el cifrado son del producto, no de un equipo externo. Ideal si quieres control total y trazabilidad interna.</li>
         </ul>
 

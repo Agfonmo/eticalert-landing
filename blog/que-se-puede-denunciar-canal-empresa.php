@@ -84,7 +84,7 @@ include '../includes/header.php';
         <p>Una de las dudas más frecuentes entre empresas y empleados es qué puede denunciarse realmente a través del canal interno de denuncias y qué queda fuera de su ámbito. La respuesta es más amplia de lo que muchos piensan, pero también tiene límites claros. Este artículo lo explica con ejemplos concretos.</p>
 
         <h2 id="infracciones-cubiertas">¿Qué infracciones cubre la Ley 2/2023?</h2>
-        <p>La Ley 2/2023 transpone la Directiva europea de whistleblowing pero va más allá: mientras la directiva cubría solo infracciones del Derecho de la UE, la ley española amplió el ámbito a <strong>infracciones del Derecho español en general</strong>. Esto significa que el canal puede recibir comunicaciones sobre una gama muy amplia de conductas.</p>
+        <p>La Ley 2/2023 transpone la <a href="/blog/directiva-europea-whistleblowing" style="color:var(--accent);">Directiva europea de whistleblowing</a> pero va más allá: mientras la directiva cubría solo infracciones del Derecho de la UE, la ley española amplió el ámbito a <strong>infracciones del Derecho español en general</strong>. Esto significa que el canal puede recibir comunicaciones sobre una gama muy amplia de conductas.</p>
         <p>Las principales categorías de infracciones cubiertas son:</p>
 
         <p><strong>Contratación pública y subvenciones:</strong> irregularidades en procesos de licitación, adjudicaciones indebidas, uso fraudulento de subvenciones públicas, favoritismos en concursos.</p>
@@ -95,7 +95,7 @@ include '../includes/header.php';
 
         <p><strong>Protección del medioambiente:</strong> vertidos ilegales, gestión irregular de residuos, emisiones contaminantes no declaradas, destrucción de espacios protegidos.</p>
 
-        <p><strong>Protección de datos y privacidad:</strong> brechas de seguridad no notificadas, tratamiento ilegal de datos personales, venta de datos a terceros sin consentimiento.</p>
+        <p><strong><a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">Protección de datos</a> y privacidad:</strong> brechas de seguridad no notificadas, tratamiento ilegal de datos personales, venta de datos a terceros sin consentimiento.</p>
 
         <p><strong>Hacienda y tributación:</strong> evasión fiscal, facturas falsas, sociedades pantalla, operaciones en negro para evitar impuestos.</p>
 

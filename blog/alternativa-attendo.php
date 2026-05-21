@@ -39,7 +39,7 @@ include '../includes/header.php';
         <p>La pregunta relevante es: ¿es suficiente un sistema de ticketing generalista para cumplir los requisitos específicos de la <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a>?</p>
 
         <h2 id="generalista-vs-especializado">Generalista vs especializado: la diferencia que importa</h2>
-        <p>La Ley 2/2023 impone plazos concretos (7 días para acusar recibo, 3 meses para resolver), roles específicos (RSII con acceso aislado), y garantías de anonimato que van más allá de un formulario web. Un sistema de ticketing generalista puede cubrir el formulario y la comunicación interna, pero raramente tiene integrados los mecanismos legales específicos de la normativa española.</p>
+        <p>La Ley 2/2023 impone plazos concretos (7 días para acusar recibo, 3 meses para resolver), roles específicos (<a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> con acceso aislado), y garantías de anonimato que van más allá de un formulario web. Un sistema de ticketing generalista puede cubrir el formulario y la comunicación interna, pero raramente tiene integrados los mecanismos legales específicos de la normativa española.</p>
 
         <h2 id="comparativa-precio">Comparativa de precio</h2>
         <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.9rem;">

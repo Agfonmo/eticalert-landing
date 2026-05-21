@@ -38,7 +38,7 @@ include '../includes/header.php';
         <p>Coloriuris es una plataforma española especializada en custodia legal electrónica y certificación con eIDAS. Su solución de canal de denuncias incluye acreditación de fecha y contenido con valor probatorio certificado — una funcionalidad orientada principalmente a administraciones públicas y entidades que necesitan que sus expedientes tengan validez ante tribunales desde el primer momento.</p>
 
         <h2 id="eideas-necesario">¿Necesita tu empresa certificación eIDAS?</h2>
-        <p>La <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a> exige para las empresas privadas: canal anónimo, confidencialidad, plazos (7 días, 3 meses) y un RSII. No exige certificación eIDAS. La certificación tiene sentido cuando:</p>
+        <p>La <a href="/blog/ley-2-2023-canal-de-denuncias">Ley 2/2023</a> exige para las empresas privadas: canal anónimo, confidencialidad, plazos (7 días, 3 meses) y un <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>. No exige certificación eIDAS. La certificación tiene sentido cuando:</p>
         <ul style="margin:1rem 0;padding-left:1.5rem;line-height:1.8;">
           <li>Tu entidad es una administración pública con requisitos de e-administración</li>
           <li>Anticipas que los expedientes puedan usarse como prueba en procedimientos judiciales complejos</li>
