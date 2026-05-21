@@ -117,8 +117,8 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- Stylesheet — carga no bloqueante para mejorar FCP/LCP -->
-  <link rel="preload" href="/css/styles.css?v=20260428c" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/styles.css?v=20260428c"></noscript>
+  <link rel="preload" href="/css/styles.css?v=20260521" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/styles.css?v=20260521"></noscript>
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>

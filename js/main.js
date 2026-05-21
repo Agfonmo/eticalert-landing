@@ -54,7 +54,7 @@
       }
     };
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll(); // run once on load
+    requestAnimationFrame(onScroll); // defer until after first paint to avoid forced reflow
   }
 
   /* ----------------------------------------------------------
