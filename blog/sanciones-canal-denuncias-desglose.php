@@ -192,6 +192,14 @@ include '../includes/header.php';
               <span class="blog-badge badge-marco-legal">Marco legal</span>
               <h4>Directiva europea 2019/1937: el origen del canal obligatorio</h4>
             </a>
+            <a href="/blog/canal-denuncias-industria-manufactura" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para industria y manufactura</h4>
+            </a>
+            <a href="/blog/canal-denuncias-transporte-logistica" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para transporte y logística</h4>
+            </a>
           </div>
         </div>
 

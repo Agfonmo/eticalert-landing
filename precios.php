@@ -23,6 +23,8 @@ include 'includes/header.php';
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
+  "areaServed": {"@type": "Country", "name": "ES"},
+  "availableLanguage": "Spanish",
   "offers": [
     {"@type":"Offer","name":"Free","price":"0","priceCurrency":"EUR","description":"Hasta 20 empleados. Sin tarjeta de crédito."},
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. Facturación anual: 190€/año."},

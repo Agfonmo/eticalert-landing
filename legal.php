@@ -5,6 +5,13 @@ $page_canonical   = 'https://eticalert.com/legal';
 include 'includes/header.php';
 ?>
 
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Aviso legal","item":"https://eticalert.com/legal"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Aviso legal | EticAlert","description":"Aviso legal de EticAlert — FONCAD GROUP. Información sobre el titular del sitio web, propiedad intelectual y condiciones de uso.","url":"https://eticalert.com/legal","publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"}}
+</script>
+
 <main id="main-content">
   <div class="legal-page">
     <div class="container">

@@ -107,6 +107,11 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <meta name="twitter:image"       content="<?= htmlspecialchars($page_og_image) ?>">
   <meta name="twitter:image:alt"   content="<?= htmlspecialchars($page_og_image_alt) ?>">
 
+  <!-- Geotargeting España -->
+  <meta name="geo.region" content="ES">
+  <meta name="geo.placename" content="España">
+  <meta name="ICBM" content="40.416775, -3.703790">
+
   <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 

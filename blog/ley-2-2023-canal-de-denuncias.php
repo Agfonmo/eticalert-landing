@@ -144,7 +144,26 @@ include '../includes/header.php';
           <li><a href="/canal-de-denuncias" style="color:var(--accent);">Guía completa sobre canal de denuncias →</a></li>
           <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI ya sanciona: cómo actuar →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
+          <li><a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">Desglose completo de sanciones por tipo de infracción →</a></li>
         </ul>
+
+        <div class="related-articles">
+          <h3>Guías por sector</h3>
+          <div class="related-grid">
+            <a href="/blog/canal-denuncias-constructoras" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para constructoras</h4>
+            </a>
+            <a href="/blog/canal-denuncias-transporte-logistica" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para transporte y logística</h4>
+            </a>
+            <a href="/blog/canal-denuncias-inmobiliarias" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para inmobiliarias y promotoras</h4>
+            </a>
+          </div>
+        </div>
 
       </div>
     </div>

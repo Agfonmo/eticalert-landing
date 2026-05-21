@@ -216,10 +216,17 @@ if ($submitted) {
 }
 
 // Variables para la página
-$page_title       = 'Activa tu canal de denuncias | EticAlert';
-$page_description = 'Crea tu cuenta EticAlert y activa tu canal de denuncias en minutos. Cumple la Ley 2/2023.';
+$page_title       = 'Crear canal de denuncias gratis | EticAlert — Ley 2/2023';
+$page_description = 'Activa tu canal de denuncias en 5 minutos. Gratis hasta 20 empleados, sin tarjeta de crédito. Cumple la Ley 2/2023 desde 19 €/mes. Alta online, sin llamadas.';
 $page_canonical   = 'https://eticalert.com/registro';
 include 'includes/header.php';
+?><script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Registro","item":"https://eticalert.com/registro"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Crear canal de denuncias gratis","description":"Alta online en EticAlert: canal de denuncias conforme a la Ley 2/2023 para empresas españolas. Gratis hasta 20 empleados, planes desde 19 €/mes.","url":"https://eticalert.com/registro","publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"}}
+</script>
+<?php
 
 function field_error($field, $errors) {
   if (isset($errors[$field])) {

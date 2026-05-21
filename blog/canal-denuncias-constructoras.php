@@ -165,9 +165,13 @@ include '../includes/header.php';
               <span class="blog-badge badge-guias">Guías</span>
               <h4>¿Qué puede denunciar un empleado en el canal?</h4>
             </a>
-            <a href="/blog/canal-denuncias-ayuntamientos" class="related-card">
-              <span class="blog-badge badge-sectores">Sectores</span>
-              <h4>Canal de denuncias para ayuntamientos y sector público</h4>
+            <a href="/blog/canal-denuncias-transporte-logistica" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para transporte y logística</h4>
+            </a>
+            <a href="/blog/canal-denuncias-industria-manufactura" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para industria y manufactura</h4>
             </a>
           </div>
         </div>

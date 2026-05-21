@@ -248,7 +248,26 @@ include 'includes/header.php';
           </ol>
 
           <!-- ================================================== -->
-          <h2 id="eticalert">10. EticAlert: la solución para pymes</h2>
+          <h2 id="por-sector">10. Canal de denuncias por sector</h2>
+          <p>Los riesgos éticos y los requisitos de implementación varían según el sector. Consulta la guía específica para tu tipo de empresa:</p>
+          <ul>
+            <li><a href="/blog/canal-denuncias-constructoras" style="color:var(--accent);">Canal de denuncias para constructoras</a> — subcontratación, seguridad laboral, contratos públicos.</li>
+            <li><a href="/blog/canal-denuncias-transporte-logistica" style="color:var(--accent);">Canal de denuncias para transporte y logística</a> — tacógrafos, ADR, plantillas dispersas.</li>
+            <li><a href="/blog/canal-denuncias-industria-manufactura" style="color:var(--accent);">Canal de denuncias para industria y manufactura</a> — seguridad laboral, medioambiente, calidad.</li>
+            <li><a href="/blog/canal-denuncias-inmobiliarias" style="color:var(--accent);">Canal de denuncias para inmobiliarias y promotoras</a> — blanqueo de capitales, PBC, corrupción urbanística.</li>
+            <li><a href="/blog/canal-denuncias-hosteleria-retail" style="color:var(--accent);">Canal de denuncias para hostelería y retail</a> — alta rotación, accesibilidad, personal sin correo corporativo.</li>
+            <li><a href="/blog/canal-denuncias-tecnologia-startups" style="color:var(--accent);">Canal de denuncias para tecnología y startups</a> — crecimiento rápido, due diligence, ESG.</li>
+            <li><a href="/blog/canal-denuncias-asesorias-despachos" style="color:var(--accent);">Canal de denuncias para asesorías y despachos</a> — doble uso: cumplimiento propio y servicio a clientes.</li>
+            <li><a href="/blog/canal-denuncias-ayuntamientos" style="color:var(--accent);">Canal de denuncias para ayuntamientos</a> — obligación para municipios &gt;10.000 hab.</li>
+            <li><a href="/blog/canal-denuncias-colegios" style="color:var(--accent);">Canal de denuncias para colegios y centros educativos privados</a> — protección de menores, docentes, irregularidades económicas.</li>
+            <li><a href="/blog/canal-denuncias-farmacias" style="color:var(--accent);">Canal de denuncias para farmacias y sector sanitario</a> — seguridad del paciente, blanqueo, compras.</li>
+            <li><a href="/blog/canal-denuncias-ongs" style="color:var(--accent);">Canal de denuncias para ONGs y asociaciones</a> — malversación, fraude en proyectos, tercer sector.</li>
+            <li><a href="/blog/canal-denuncias-clinicas-privadas" style="color:var(--accent);">Canal de denuncias para clínicas y hospitales privados</a> — seguridad del paciente, facturación, comisiones.</li>
+            <li><a href="/blog/canal-denuncias-sector-financiero" style="color:var(--accent);">Canal de denuncias para entidades financieras y aseguradoras</a> — MiFID II, MAR, abuso de mercado, mis-selling.</li>
+          </ul>
+
+          <!-- ================================================== -->
+          <h2 id="eticalert">11. EticAlert: la solución para pymes</h2>
           <p>EticAlert es una plataforma SaaS diseñada específicamente para que las pymes españolas puedan cumplir la Ley 2/2023 sin necesidad de consultores, técnicos ni llamadas comerciales.</p>
           <p>Con EticAlert obtienes un canal de denuncias completamente operativo en menos de 5 minutos: configuras con un wizard guiado, recibes una URL pública lista para publicar en tu web, y el sistema gestiona automáticamente los plazos legales, los acuses de recibo y el registro de auditoría.</p>
           <ul>

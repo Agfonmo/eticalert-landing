@@ -40,7 +40,13 @@ include '../includes/header.php';
       {"@type":"ListItem","position":12,"url":"https://eticalert.com/blog/whistleblowing-espana","name":"Whistleblowing en España: guía completa 2026"},
       {"@type":"ListItem","position":13,"url":"https://eticalert.com/blog/canal-denuncias-farmacias","name":"Canal de denuncias para farmacias y empresas del sector sanitario"},
       {"@type":"ListItem","position":14,"url":"https://eticalert.com/blog/canal-denuncias-ongs","name":"Canal de denuncias para ONGs y asociaciones: obligaciones y buenas prácticas"},
-      {"@type":"ListItem","position":15,"url":"https://eticalert.com/blog/canal-etico-empresas","name":"Canal ético de empresa: qué es, para qué sirve y cómo implantarlo"}
+      {"@type":"ListItem","position":15,"url":"https://eticalert.com/blog/canal-etico-empresas","name":"Canal ético de empresa: qué es, para qué sirve y cómo implantarlo"},
+      {"@type":"ListItem","position":16,"url":"https://eticalert.com/blog/canal-denuncias-colegios","name":"Canal de denuncias para colegios, universidades y centros educativos privados"},
+      {"@type":"ListItem","position":17,"url":"https://eticalert.com/blog/canal-denuncias-transporte-logistica","name":"Canal de denuncias para empresas de transporte y logística"},
+      {"@type":"ListItem","position":18,"url":"https://eticalert.com/blog/canal-denuncias-industria-manufactura","name":"Canal de denuncias para empresas industriales y de manufactura"},
+      {"@type":"ListItem","position":19,"url":"https://eticalert.com/blog/canal-denuncias-inmobiliarias","name":"Canal de denuncias para inmobiliarias y agencias de la propiedad"},
+      {"@type":"ListItem","position":20,"url":"https://eticalert.com/blog/canal-denuncias-clinicas-privadas","name":"Canal de denuncias para clínicas, hospitales privados y centros sanitarios"},
+      {"@type":"ListItem","position":21,"url":"https://eticalert.com/blog/canal-denuncias-sector-financiero","name":"Canal de denuncias para entidades financieras, aseguradoras y gestoras de fondos"}
     ]
   }
 }
@@ -378,6 +384,48 @@ include '../includes/header.php';
           <h3>Canal ético de empresa: qué es, para qué sirve y cómo implantarlo</h3>
           <p>Canal ético y canal de denuncias no son lo mismo. Te explicamos las diferencias, cuándo es obligatorio y cómo EticAlert sirve como ambos con una sola herramienta.</p>
           <span class="blog-card-meta">21 may 2026 · 10 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-colegios" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para colegios, universidades y centros educativos privados</h3>
+          <p>Centros concertados, privados y universidades privadas con 50+ empleados están obligados. Acoso entre docentes, irregularidades económicas y protección de menores.</p>
+          <span class="blog-card-meta">21 may 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-transporte-logistica" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para empresas de transporte y logística</h3>
+          <p>Tacógrafos, mercancías peligrosas, subcontratación irregular y plantillas dispersas. Cómo implantar el canal en un sector con alta movilidad y riesgos específicos.</p>
+          <span class="blog-card-meta">21 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-industria-manufactura" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para empresas industriales y de manufactura</h3>
+          <p>Seguridad laboral, medioambiente, fraude en compras y calidad de producción. Integración del canal con ISO 45001 e ISO 14001.</p>
+          <span class="blog-card-meta">21 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-inmobiliarias" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para inmobiliarias y agencias de la propiedad</h3>
+          <p>Blanqueo de capitales, PBC (Ley 10/2010), corrupción urbanística y comisiones no declaradas. El sector inmobiliario tiene doble obligación legal.</p>
+          <span class="blog-card-meta">21 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-clinicas-privadas" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para clínicas, hospitales privados y centros sanitarios</h3>
+          <p>Seguridad del paciente, facturación fraudulenta a aseguradoras, comisiones en derivaciones y acoso en quirófano. Los riesgos específicos del sector sanitario privado.</p>
+          <span class="blog-card-meta">21 may 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-sector-financiero" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para entidades financieras, aseguradoras y gestoras de fondos</h3>
+          <p>Doble obligación: Ley 2/2023 y normativa sectorial (MiFID II, MAR, Solvencia II, DORA). Abuso de mercado, mis-selling y blanqueo de capitales.</p>
+          <span class="blog-card-meta">21 may 2026 · 9 min lectura</span>
         </a>
 
         <!-- SILO 5: CULTURA ÉTICA -->

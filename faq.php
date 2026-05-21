@@ -161,7 +161,7 @@ include 'includes/header.php';
                 ¿Se pueden recibir denuncias anónimas?
                 <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
               </button>
-              <div class="faq-answer" id="faqp-14"><p>Sí. La Ley 2/2023 permite expresamente denuncias anónimas. EticAlert genera un código de seguimiento seguro para que el informante pueda consultar el estado de su denuncia y recibir respuestas sin revelar su identidad en ningún momento.</p></div>
+              <div class="faq-answer" id="faqp-14"><p>Sí. La Ley 2/2023 permite expresamente denuncias anónimas. EticAlert genera un código de seguimiento seguro para que el informante pueda consultar el estado de su denuncia y recibir respuestas sin revelar su identidad en ningún momento. <a href="/blog/proteccion-informante-ley" class="text-accent">Conoce los derechos del informante según la Ley 2/2023 →</a></p></div>
             </div>
 
             <div class="faq-item" role="listitem">
@@ -185,7 +185,7 @@ include 'includes/header.php';
                 ¿Qué pasa si un empleado pone una denuncia falsa?
                 <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
               </button>
-              <div class="faq-answer" id="faqp-17"><p>El sistema mantiene un registro de auditoría cifrado conforme a la Ley 2/2023. La protección legal solo cubre denuncias de buena fe. Si las autoridades judiciales determinan que hubo mala fe, el canal cumple con la trazabilidad exigida. Las denuncias falsas conscientes pueden acarrear responsabilidades disciplinarias y legales para el denunciante.</p></div>
+              <div class="faq-answer" id="faqp-17"><p>El sistema mantiene un registro de auditoría cifrado conforme a la Ley 2/2023. La protección legal solo cubre denuncias de buena fe. Si las autoridades judiciales determinan que hubo mala fe, el canal cumple con la trazabilidad exigida. Las denuncias falsas conscientes pueden acarrear responsabilidades disciplinarias y legales para el denunciante. <a href="/blog/denuncias-falsas-consecuencias" class="text-accent">¿Qué consecuencias tiene una denuncia falsa? →</a></p></div>
             </div>
 
             <div class="faq-item" role="listitem">
@@ -228,7 +228,7 @@ include 'includes/header.php';
                 ¿Necesito contratar un abogado o consultor?
                 <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
               </button>
-              <div class="faq-answer" id="faqp-21"><p>No para activar ni operar el canal. EticAlert cubre todos los requisitos técnicos de la ley. Si necesitas instruir denuncias complejas, ofrecemos un servicio opcional con un despacho partner desde 150€/caso.</p></div>
+              <div class="faq-answer" id="faqp-21"><p>No para activar ni operar el canal. EticAlert cubre todos los requisitos técnicos de la ley. Si necesitas instruir denuncias complejas, ofrecemos un servicio opcional con un despacho partner desde 150€/caso. <a href="/blog/compliance-penal-canal-etico" class="text-accent">Cómo el canal de denuncias protege ante la responsabilidad penal →</a></p></div>
             </div>
 
           </div>

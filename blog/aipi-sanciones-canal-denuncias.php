@@ -150,7 +150,26 @@ include '../includes/header.php';
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa Ley 2/2023 →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
           <li><a href="/canal-de-denuncias" style="color:var(--accent);">Canal de denuncias para empresas: guía 2026 →</a></li>
+          <li><a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">Desglose completo de sanciones por tipo de infracción →</a></li>
         </ul>
+
+        <div class="related-articles">
+          <h3>Guías por sector</h3>
+          <div class="related-grid">
+            <a href="/blog/canal-denuncias-colegios" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para colegios y centros educativos privados</h4>
+            </a>
+            <a href="/blog/canal-denuncias-industria-manufactura" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para industria y manufactura</h4>
+            </a>
+            <a href="/blog/canal-denuncias-inmobiliarias" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para inmobiliarias y promotoras</h4>
+            </a>
+          </div>
+        </div>
 
       </div>
     </div>

@@ -160,12 +160,16 @@ include '../includes/header.php';
               <h4>Acoso laboral y canal de denuncias: cómo actuar como empresa</h4>
             </a>
             <a href="/blog/canal-denuncias-constructoras" class="related-card">
-              <span class="blog-badge badge-sectores">Sectores</span>
+              <span class="blog-badge badge-sectores">Por sector</span>
               <h4>Canal de denuncias para constructoras</h4>
             </a>
-            <a href="/blog/que-se-puede-denunciar-canal-empresa" class="related-card">
-              <span class="blog-badge badge-guias">Guías</span>
-              <h4>¿Qué puede denunciar un empleado en el canal?</h4>
+            <a href="/blog/canal-denuncias-colegios" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para colegios y centros educativos privados</h4>
+            </a>
+            <a href="/blog/canal-denuncias-inmobiliarias" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para inmobiliarias y promotoras</h4>
             </a>
           </div>
         </div>

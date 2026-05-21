@@ -304,4 +304,61 @@
     });
   })();
 
+  /* ----------------------------------------------------------
+     11. GA4 EVENT TRACKING
+  ---------------------------------------------------------- */
+  (function () {
+    if (typeof gtag === 'undefined') return;
+
+    // Helper: fire GA4 event safely
+    function fireEvent(name, params) {
+      try { gtag('event', name, params); } catch (e) {}
+    }
+
+    // CTA clicks → /registro (generate_lead)
+    document.querySelectorAll('a[href="/registro"], a[href="/registro/"]').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var label = (el.textContent || '').trim().substring(0, 50);
+        fireEvent('generate_lead', {
+          event_category: 'CTA',
+          event_label: label,
+          page_location: window.location.href
+        });
+      });
+    });
+
+    // Pricing page CTA clicks → /precios
+    document.querySelectorAll('a[href="/precios"], a[href="/precios/"]').forEach(function (el) {
+      el.addEventListener('click', function () {
+        fireEvent('select_content', {
+          content_type: 'pricing',
+          event_label: (el.textContent || '').trim().substring(0, 50)
+        });
+      });
+    });
+
+    // Outbound clicks (to app.eticalert.com)
+    document.querySelectorAll('a[href*="app.eticalert.com"]').forEach(function (el) {
+      el.addEventListener('click', function () {
+        fireEvent('generate_lead', {
+          event_category: 'CTA_app',
+          event_label: (el.textContent || '').trim().substring(0, 50),
+          page_location: window.location.href
+        });
+      });
+    });
+
+    // Scroll depth milestones: 25 / 50 / 75 / 90 %
+    var milestones = { 25: false, 50: false, 75: false, 90: false };
+    window.addEventListener('scroll', function () {
+      var scrolled = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100;
+      Object.keys(milestones).forEach(function (pct) {
+        if (!milestones[pct] && scrolled >= pct) {
+          milestones[pct] = true;
+          fireEvent('scroll_depth', { percent_scrolled: parseInt(pct) });
+        }
+      });
+    }, { passive: true });
+  })();
+
 })();

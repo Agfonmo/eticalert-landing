@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Funcionalidades del canal de denuncias | EticAlert';
+$page_title       = 'Funcionalidades del canal de denuncias: qué incluye EticAlert 2026';
 $page_description = 'Las funcionalidades clave de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, plazos automáticos y plan gratuito permanente. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/funcionalidades';
 include 'includes/header.php';

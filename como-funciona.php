@@ -27,7 +27,7 @@ include 'includes/header.php';
           <span class="overline">Paso 1</span>
           <h3>Configuras tu canal en un wizard guiado</h3>
           <p>Introduces los datos de tu empresa, subes tu logo, seleccionas las categorías de denuncia relevantes para tu sector y designas al responsable del sistema (<a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>). Todo en un formulario paso a paso. Sin necesidad de conocimientos técnicos ni jurídicos.</p>
-          <p>El proceso completo lleva menos de 5 minutos. Al finalizar, tu canal ya está listo para publicar.</p>
+          <p>El proceso completo lleva menos de 5 minutos. Al finalizar, tu canal ya está listo para publicar. ¿Quieres saber cómo hacerlo bien desde el principio? Lee nuestra <a href="/blog/como-implantar-canal-denuncias" style="color:var(--accent);">guía de implantación paso a paso →</a></p>
           <div class="hero-mono" style="max-width:360px;">
             <p class="hero-mono-label">URL generada automáticamente</p>
             <p class="hero-mono-url">https://eticalert.com/d/tu-empresa</p>
@@ -50,7 +50,7 @@ include 'includes/header.php';
           <p>Con ese código puede consultar el estado de su denuncia en cualquier momento, sin necesidad de registrarse ni revelar su identidad. Sin cookies. Sin tracking. Sin fricción.</p>
           <ul style="display:flex;flex-direction:column;gap:0.625rem;margin-top:0.5rem;">
             <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Disponible 24/7 desde cualquier dispositivo</li>
-            <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Comunicación cifrada de extremo a extremo</li>
+            <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Comunicación cifrada de extremo a extremo — <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">cumplimiento RGPD</a></li>
             <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Accesible para empleados, proveedores y terceros</li>
           </ul>
         </div>

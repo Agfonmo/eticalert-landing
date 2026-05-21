@@ -5,6 +5,13 @@ $page_canonical   = 'https://eticalert.com/cookies';
 include 'includes/header.php';
 ?>
 
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Política de cookies","item":"https://eticalert.com/cookies"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Política de cookies | EticAlert","description":"Política de cookies de EticAlert. Usamos solo cookies técnicas imprescindibles para el funcionamiento del sitio web.","url":"https://eticalert.com/cookies","publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"}}
+</script>
+
 <main id="main-content">
   <div class="legal-page">
     <div class="container">

@@ -5,6 +5,13 @@ $page_canonical   = 'https://eticalert.com/privacidad';
 include 'includes/header.php';
 ?>
 
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Política de privacidad","item":"https://eticalert.com/privacidad"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Política de privacidad | EticAlert","description":"Política de privacidad de EticAlert — cómo tratamos tus datos personales conforme al RGPD y la LOPD-GDD.","url":"https://eticalert.com/privacidad","publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"}}
+</script>
+
 <main id="main-content">
   <div class="legal-page">
     <div class="container">
