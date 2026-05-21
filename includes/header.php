@@ -37,6 +37,31 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= htmlspecialchars($page_title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
+  <!-- Consent Mode v2 — debe ir ANTES del script de GA4 -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Defaults denegados para EEA (España incluida)
+    gtag('consent', 'default', {
+      'analytics_storage':  'denied',
+      'ad_storage':         'denied',
+      'ad_user_data':       'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update':    500
+    });
+    // Restaurar elección previa del usuario si ya la tomó
+    (function(){
+      var choice = localStorage.getItem('eticalert_cookies_accepted');
+      if (choice === 'all') {
+        gtag('consent', 'update', {
+          'analytics_storage':  'granted',
+          'ad_storage':         'granted',
+          'ad_user_data':       'granted',
+          'ad_personalization': 'granted'
+        });
+      }
+    })();
+  </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2J4XCG9WY"></script>
   <script>
