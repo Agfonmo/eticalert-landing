@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Se puede denunciar el acoso laboral a través del canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. El acoso laboral es una infracción normativa que entra dentro del ámbito del canal de denuncias de la Ley 2/2023. La víctima puede usarlo como alternativa o complemento al protocolo de acoso del Plan de Igualdad. Algunas empresas limitan su canal a irregularidades financieras, lo que es un error legal: la ley incluye expresamente las infracciones laborales graves."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué medidas debe adoptar la empresa ante una denuncia de acoso?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El RSII debe acusar recibo en 7 días, abrir expediente de investigación, adoptar medidas cautelares inmediatas (separar al agresor de la víctima), investigar de forma discreta y confidencial, y emitir una resolución en un plazo máximo de 3 meses. Si hay relevancia penal —como en el acoso sexual— puede recomendar derivar a autoridades externas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué ocurre si la denuncia de acoso es contra un directivo?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Es el caso más delicado. Si la denuncia afecta al propio RSII, debe gestionarla un RSII suplente o el órgano de administración directamente. Si implica a un miembro del órgano de administración, puede ser necesario acudir a la AIPI o a asesores externos independientes para evitar el conflicto de interés."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

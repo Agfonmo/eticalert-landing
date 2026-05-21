@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la base legal para tratar datos personales en un canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "La base legal es el artículo 6.1.c del RGPD: cumplimiento de una obligación legal impuesta por la Ley 2/2023. Esto significa que la empresa no necesita el consentimiento del informante ni del denunciado para tratar sus datos. Como consecuencia, no puede invocarse el derecho de supresión mientras la denuncia está activa, ni puede retirarse el consentimiento porque el tratamiento no se basa en él."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo deben conservarse los datos del canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Si la denuncia fue archivada sin investigación, los datos personales deben suprimirse a los 3 meses desde el acuse de recibo. Si se abrió investigación y se adoptaron medidas, los datos se conservan durante el tiempo necesario para posibles acciones legales, con un máximo de 10 años vinculado a la prescripción de delitos graves. Puede conservarse un registro anonimizado de forma indefinida para estadísticas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se necesita una Evaluación de Impacto (EIPD) para el canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "En la mayoría de casos, sí. Un canal de denuncias requiere EIPD porque puede tratar datos de categorías especiales (salud, orientación sexual), afecta a personas en situación de dependencia laboral y las consecuencias del tratamiento pueden ser graves para el denunciado. La EIPD debe realizarse antes de activar el canal, no después. El proveedor SaaS puede facilitar documentación técnica que simplifica este proceso."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

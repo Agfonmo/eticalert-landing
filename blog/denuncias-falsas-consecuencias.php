@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué consecuencias tiene presentar una denuncia falsa en el canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Quien denuncia sabiendo que los hechos son falsos puede enfrentarse a medidas disciplinarias laborales (incluido el despido), responsabilidad civil por daños al denunciado y responsabilidad penal. El Código Penal tipifica la acusación y denuncia falsa (art. 456, hasta 2 años de prisión en casos graves) y la calumnia (art. 205, multa de 12 a 24 meses). Además, pierde toda protección de la Ley 2/2023."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre una denuncia falsa y una denuncia no probada?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Una denuncia es falsa cuando el denunciante sabe que los hechos son mentira en el momento de comunicarlos. Una denuncia no probada es aquella en que el informante creía honestamente en lo que comunicaba pero la investigación no ha podido confirmarlo. Solo la primera tiene consecuencias para el denunciante. Archivar una denuncia por falta de pruebas no equivale a concluir que fue de mala fe."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo debe gestionar el RSII una sospecha de denuncia de mala fe?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Primero debe concluir la investigación ordinaria sin presuponer la mala fe. Si aparecen evidencias concretas (mensajes en que el denunciante admite la falsedad, testigos que contradicen directamente su versión), debe documentarlas y elevarlas a la dirección. La empresa nunca debe imponer sanciones de forma automática sin documentación sólida, ya que una sanción precipitada puede interpretarse como represalia."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo saber si mi empresa está obligada a tener canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Tu empresa está obligada si tiene 50 o más trabajadores de media en los últimos 12 meses, si tiene facturación superior a 10 millones de euros aunque no llegue a 50 empleados, si pertenece al sector público (independientemente del tamaño) o si opera en sectores financieros regulados con umbrales especiales. Si estás obligado y aún no tienes canal, llevas en incumplimiento desde diciembre de 2023."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los pasos para implantar un canal de denuncias conforme a la Ley 2/2023?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Los 10 pasos son: verificar la obligación, obtener el compromiso de la dirección, designar al RSII formalmente, elegir la herramienta técnica (SaaS es lo más recomendable para pymes), configurar el canal, redactar y aprobar la política del SII, notificar el RSII a la AIPI, comunicar el canal a todos los empleados y grupos de interés, publicar la URL en la web corporativa, y realizar una prueba funcional completa."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo lleva implantar un canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Con una plataforma SaaS como EticAlert, el canal técnico puede estar operativo en minutos. Los pasos que llevan más tiempo son redactar y aprobar la política del SII (requiere la aprobación formal del órgano de administración), designar formalmente al RSII mediante acta, y notificarlo a la AIPI. En total, una pyme organizada puede tener todo el proceso completado en una o dos semanas."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

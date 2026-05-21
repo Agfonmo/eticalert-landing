@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué se considera represalia según la Ley 2/2023?",
+      "acceptedAnswer": {"@type": "Answer", "text": "La ley prohíbe cualquier trato perjudicial causalmente vinculado a la denuncia: despido, suspensión, degradación, cambio de funciones o turno con perjuicio, reducción de salario, evaluaciones negativas no fundadas en el rendimiento real, intimidación u ostracismo, listas negras, daño reputacional, revelación de identidad sin consentimiento y terminación de contratos con proveedores o clientes que hayan denunciado."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo funciona la inversión de la carga de la prueba en represalias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Si el informante sufre un perjuicio laboral después de denunciar y existe conexión temporal entre ambos hechos, se presume que el perjuicio es una represalia. La empresa debe demostrar activamente que el perjuicio se debe a causas ajenas e independientes de la denuncia. Si no puede hacerlo, el despido puede ser declarado nulo, lo que obliga a readmitir al trabajador con todos sus derechos."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué consecuencias tiene para una empresa tomar represalias contra un informante?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Además de la nulidad del despido y la readmisión obligatoria, tomar represalias es una infracción muy grave de la Ley 2/2023 con multas de hasta 1.000.000 euros para la empresa y 300.000 euros para directivos. La empresa también puede ser condenada a pagar indemnización al informante por daño moral, lucro cesante y daño reputacional. La combinación puede ser económicamente devastadora para una empresa mediana."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

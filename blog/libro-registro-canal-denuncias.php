@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es el libro-registro del canal de denuncias y por qué es obligatorio?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Es el registro formal de todas las comunicaciones recibidas y de todas las actuaciones realizadas en relación con cada denuncia. El artículo 26 de la Ley 2/2023 lo exige expresamente. Su función es garantizar la trazabilidad del sistema y demostrar ante la AIPI o un tribunal que cada denuncia fue tramitada correctamente. Su ausencia o mantenimiento deficiente puede constituir infracción grave, con multas de hasta 600.000 euros."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué debe registrarse en el libro-registro del canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Para cada denuncia: fecha y hora de recepción, número de expediente, canal utilizado y tipo de denuncia; datos del acuse de recibo con confirmación de que se realizó en 7 días; resumen de las actuaciones de investigación; tipo de resolución y medidas adoptadas; y fecha en que se informó al denunciante, confirmando que fue dentro del plazo de 3 meses."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo hay que conservar los datos del libro-registro?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El plazo varía según el caso. Si la denuncia fue archivada sin investigación, los datos personales deben suprimirse a los 3 meses, aunque puede conservarse un registro anonimizado. Si se abrió investigación, los datos completos se conservan hasta el máximo de 10 años, vinculado a la posible prescripción de delitos graves. El libro-registro en sí, sin datos identificativos, puede conservarse más allá de ese plazo."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta implementar un canal de denuncias en España?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El coste varía enormemente según la opción elegida. Una plataforma SaaS como EticAlert puede ser gratuita hasta 20 empleados o costar desde 19 euros al mes para pymes. Una consultoría especializada supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes. El desarrollo a medida puede partir de 10.000 euros. El módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Vale la pena el coste del canal comparado con las multas por no tenerlo?",
+      "acceptedAnswer": {"@type": "Answer", "text": "La comparación es aplastante. No tener canal es una infracción muy grave con multas de hasta 1.000.000 euros. El coste del canal con EticAlert para una empresa de 100 empleados es de 228 euros al año. Además del coste directo de la multa, la ausencia de canal puede suponer exclusión de la contratación pública hasta 3 años, pérdida de subvenciones hasta 4 años e indemnizaciones a informantes represaliados."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué incluye la plataforma SaaS en su precio para el canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert incluye en todos sus planes: canal funcional con formulario configurable, anonimato real, libro-registro automático, acuses de recibo automáticos, datos almacenados en la UE con cifrado AES-256 y actualizaciones automáticas ante cambios normativos. Los planes de pago añaden múltiples usuarios RSII, exportación en PDF, URL personalizada y soporte. No hay coste de implantación ni configuración inicial."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

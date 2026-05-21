@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuándo está obligada una startup a tener canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Cuando alcanza una media de 50 o más trabajadores en los últimos 12 meses. Las startups en crecimiento rápido cruzan este umbral sin haberlo planificado como hito de compliance. Si lo superaste en 2023 o 2024, tu obligación existe desde diciembre de 2023. No haber actuado a tiempo no elimina la obligación: solo acumula tiempo de incumplimiento."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Por qué el canal de denuncias es una señal de madurez para inversores?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Los fondos europeos y los inversores institucionales revisan el estado de compliance en sus due diligences. La ausencia de canal en una empresa obligada es un red flag claro que señala problemas más profundos de gobernanza. Por el contrario, una startup con canal operativo, política del SII aprobada y RSII designado demuestra visión operativa más allá del producto, lo que es un diferenciador en rondas competitivas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué infracciones son más habituales en empresas de tecnología?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Las más frecuentes en el sector tech son: tratamientos ilegales de datos personales y brechas de seguridad no notificadas (RGPD), discriminación por género u origen en contratación y promoción, uso no autorizado de código de terceros o activos de empresas anteriores, métricas infladas en materiales de inversión y dinámicas tóxicas de acoso en culturas de alta presión."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

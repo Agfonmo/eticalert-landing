@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es la Directiva europea 2019/1937 y por qué se creó?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Es la Directiva europea de whistleblowing, aprobada en octubre de 2019, que establece un marco mínimo de protección para las personas que comunican infracciones del Derecho de la UE en un contexto laboral. Se creó porque en muchos Estados miembros el miedo a represalias —despido, acoso, litigios— disuadía a los potenciales denunciantes, permitiendo que ilegalidades graves continuaran sin detectarse."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿En qué se diferencia la Directiva 2019/1937 de la Ley 2/2023 española?",
+      "acceptedAnswer": {"@type": "Answer", "text": "La ley española amplió el ámbito de la directiva: mientras esta solo cubre infracciones del Derecho de la UE, la Ley 2/2023 protege también las infracciones del derecho nacional en general. Además, España creó la AIPI como organismo específico de supervisión, estableció la obligación de tratar denuncias anónimas, introdujo la figura del RSII con notificación obligatoria y fijó sanciones máximas concretas de hasta 1.000.000 euros."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Una empresa multinacional con canal corporativo en otro país cumple la ley española?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No automáticamente. El canal debe poder recibir denuncias en español con garantías RGPD españolas, debe existir un RSII designado para la filial española con notificación formal a la AIPI, y el libro-registro debe cumplir los requisitos del artículo 26 de la Ley 2/2023. Las sanciones por incumplimiento son competencia exclusiva de la AIPI española, no de las autoridades del país de la matriz."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

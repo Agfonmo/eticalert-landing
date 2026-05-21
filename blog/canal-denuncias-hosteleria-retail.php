@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo debe ser un canal de denuncias accesible para trabajadores sin ordenador?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El formulario debe funcionar perfectamente en cualquier smartphone sin descargar aplicaciones ni usar credenciales corporativas. La URL debe ser simple o accesible mediante código QR colocado en vestuarios y tablones. El formulario debe ser sencillo y completable en cinco minutos. Sin accesibilidad móvil real, el canal no llegará a la mayoría de empleados de hostelería y retail."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son las infracciones más frecuentes en hostelería y retail?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Las más habituales son: registro manipulado de horas trabajadas, horas extraordinarias no retribuidas, acoso sexual en entornos de trabajo nocturno o alta presión, condiciones higiénicas irregulares, trabajadores sin contrato ni alta en Seguridad Social en campañas de alta demanda, cobros en negro y discriminación en la asignación de turnos por razón de género u origen."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Debe una cadena de hostelería tener un canal por local o uno centralizado?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Lo habitual es un canal centralizado con filtros por establecimiento. Esto permite que el denunciante indique en qué local ocurrió el hecho, que el RSII central gestione todos los casos y que se detecten patrones sistémicos si varios locales reciben denuncias similares. Solo en franquicias donde cada establecimiento es una persona jurídica independiente tiene sentido un canal propio por local."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

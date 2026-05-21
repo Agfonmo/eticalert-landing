@@ -35,6 +35,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es la AIPI y qué puede hacer?",
+      "acceptedAnswer": {"@type": "Answer", "text": "La Autoridad Independiente de Protección del Informante (AIPI) es un organismo administrativo independiente creado por la Ley 2/2023. Puede requerir documentación a empresas obligadas, inspeccionar si el canal cumple los requisitos técnicos y legales, verificar que el RSII está correctamente designado, instruir expedientes sancionadores e imponer multas de hasta 1.000.000 euros."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué ha cambiado en 2026 con la AIPI?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Desde febrero de 2026 la AIPI está plenamente operativa: ha activado su sede electrónica y el formulario para notificar al RSII. El periodo de gracia informal ha terminado. Las empresas obligadas debían comunicar su RSII antes del 10 de abril de 2026. A partir de entonces, el incumplimiento es sancionable de forma efectiva y el enforcement es real."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son las sanciones por incumplir la Ley 2/2023?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Las infracciones muy graves (como no tener canal) pueden suponer multas de hasta 1.000.000 euros para empresas y 300.000 euros para personas físicas. Las infracciones graves llegan a 600.000 euros, y las leves a 100.000 euros. La responsabilidad puede recaer directamente sobre administradores y directivos si el incumplimiento deriva de su falta de diligencia."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

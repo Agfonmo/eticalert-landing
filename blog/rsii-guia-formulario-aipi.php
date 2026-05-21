@@ -35,6 +35,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Quién puede ser el RSII del canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Puede ser cualquier directivo de la organización con independencia funcional suficiente: el Compliance Officer, el Director de RRHH, el Director Jurídico o el Director Financiero. Puede ser una persona física o un órgano colegiado. En grupos de empresas, se puede designar un RSII único para todo el grupo. La designación debe ser formal, constar en acta del órgano competente y el RSII no puede tener conflicto de interés en los asuntos que gestione."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se notifica el RSII a la AIPI?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A través del formulario oficial en la sede electrónica de la AIPI (sede.proteccioninformante.gob.es). Se necesita certificado digital de empresa o personal, o la aplicación Autofirma. Hay que rellenar los datos de la empresa y del RSII, adjuntar el acta de nombramiento y la URL del canal operativo, y guardar el justificante. El plazo inicial era el 10 de abril de 2026; los cambios posteriores deben comunicarse en 10 días hábiles."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los errores más frecuentes al designar al RSII?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Los más habituales son: notificar el RSII sin tener el canal técnico operativo, no documentar formalmente el nombramiento en acta (un email o decisión verbal no son suficientes), designar como RSII a alguien con conflicto de interés evidente, no comunicar cambios a la AIPI en los 10 días hábiles cuando el RSII cesa o cambia, y confundir el DPO (Delegado de Protección de Datos) con el RSII, que son figuras distintas."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

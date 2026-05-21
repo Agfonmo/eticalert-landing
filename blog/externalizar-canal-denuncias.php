@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué partes del canal de denuncias pueden externalizarse según la Ley 2/2023?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Pueden externalizarse: la herramienta técnica (plataforma SaaS como encargado del tratamiento según el art. 28 RGPD), la instrucción de denuncias complejas con asesores externos que apoyan al RSII, la formación del RSII, la redacción de la política del SII y la comunicación interna sobre el canal. Todo ello sin perder el control operativo de la organización sobre el sistema."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puede ser el RSII una consultora o despacho externo?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No completamente. La Ley 2/2023 exige que el RSII sea una persona perteneciente a la propia organización con independencia funcional. Un abogado externo no puede asumir completamente el rol del RSII. Lo que sí puede hacerse es que el RSII interno se apoye en asesores externos para casos complejos, manteniendo la responsabilidad formal dentro de la empresa."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Pueden los grupos de empresas compartir un único canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. Los grupos de empresas cuyas entidades tengan entre 50 y 249 empleados pueden compartir un único canal para todo el grupo. Es especialmente útil para grupos familiares con varias sociedades o holdings con filiales. Incluso compartiendo el canal, cada empresa del grupo sigue siendo responsable de designar su propio RSII y de cumplir con la Ley 2/2023 de forma individual."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">
