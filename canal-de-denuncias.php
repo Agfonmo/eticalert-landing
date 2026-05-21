@@ -144,6 +144,7 @@ include 'includes/header.php';
           </ul>
           <p>Se considera infracción muy grave no disponer de un canal de denuncias cuando existe obligación legal, impedir o dificultar las comunicaciones, o adoptar represalias contra el informante.</p>
           <p>Además de la sanción económica, los administradores y directivos pueden incurrir en responsabilidad personal por incumplimiento de sus deberes de diligencia y supervisión.</p>
+          <p>Consulta el <a href="/blog/sanciones-canal-denuncias-desglose">desglose completo de sanciones y tipos de infracción →</a></p>
 
           <!-- ================================================== -->
           <h2 id="coste">8. ¿Cuánto cuesta un canal de denuncias?</h2>
@@ -227,8 +228,9 @@ include 'includes/header.php';
               </tbody>
             </table>
           </div>
-          <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:0.5rem;">EticAlert incluye las funcionalidades de las plataformas corporativas al precio de las soluciones básicas.</p>
-          <p style="font-size:0.8125rem; color:var(--text-muted);">Datos públicos a marzo de 2026. La tabla es orientativa; verifica los precios actualizados en cada proveedor.</p>
+          <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:0.5rem;">EticAlert incluye las funcionalidades de las plataformas corporativas al precio de las soluciones básicas. <a href="/funcionalidades">Compara todas las funcionalidades →</a></p>
+          <p style="font-size:0.8125rem; color:var(--text-muted);">Datos públicos a marzo de 2026. La tabla es orientativa; verifica los precios actualizados en cada proveedor. Ver <a href="/precios">precios actualizados de EticAlert →</a></p>
+          <p><a href="/blog/canal-denuncias-precio-comparativa">Guía completa de precios y comparativa del mercado →</a></p>
 
           <!-- ================================================== -->
           <h2 id="como-implementar">9. Cómo implementar un canal de denuncias paso a paso</h2>
@@ -263,6 +265,7 @@ include 'includes/header.php';
             <a href="/registro" class="btn btn-primary">Activa tu canal →</a>
             <a href="/precios" class="btn btn-secondary">Ver precios</a>
             <a href="/como-funciona" class="btn btn-secondary">Cómo funciona</a>
+            <a href="/funcionalidades" class="btn btn-secondary">Ver funcionalidades</a>
           </div>
 
         </article>

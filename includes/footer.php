@@ -65,14 +65,6 @@
 
 <!-- JS -->
 <script src="/js/main.js?v=20260521" defer></script>
-<script>
-  // Init Lucide icons after DOM ready
-  document.addEventListener('DOMContentLoaded', function () {
-    if (typeof lucide !== 'undefined') {
-      lucide.createIcons();
-    }
-  });
-</script>
 
 </body>
 </html>
