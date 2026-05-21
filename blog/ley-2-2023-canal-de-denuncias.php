@@ -16,6 +16,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias",
   "description": "Guía completa sobre la Ley 2/2023: quién está obligado, requisitos del canal, plazos y sanciones.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/ley-2-2023-canal-de-denuncias",
   "datePublished": "2026-03-17",
   "dateModified": "2026-03-17",

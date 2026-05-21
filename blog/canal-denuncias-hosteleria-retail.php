@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias para hostelería, retail y empresas con alta rotación de personal",
   "description": "Hostelería y retail tienen desafíos únicos: alta rotación, personal sin ordenador, turnos. Así se adapta el canal de denuncias.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-hosteleria-retail",
   "datePublished": "2026-02-08",
   "dateModified": "2026-02-08",

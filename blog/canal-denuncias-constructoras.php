@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias para empresas de construcción: obligaciones y riesgos específicos",
   "description": "Las constructoras tienen riesgos específicos: subcontratación, seguridad laboral, medioambiente. Así debe ser su canal de denuncias.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-constructoras",
   "datePublished": "2026-02-14",
   "dateModified": "2026-02-14",

@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias interno vs externo: diferencias y cuál elegir",
   "description": "¿Canal de denuncias interno o externo? La Ley 2/2023 permite ambos pero con reglas diferentes. Cuándo usar cada uno.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-interno-vs-externo",
   "datePublished": "2026-01-27",
   "dateModified": "2026-01-27",

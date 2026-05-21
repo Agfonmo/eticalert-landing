@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Política del Sistema Interno de Información: qué debe incluir y cómo redactarla",
   "description": "La política del Sistema Interno de Información es obligatoria. Qué debe incluir, quién la aprueba y cómo redactarla correctamente.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/politica-sistema-interno-informacion",
   "datePublished": "2026-02-25",
   "dateModified": "2026-02-25",

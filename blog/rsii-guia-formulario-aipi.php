@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "RSII: guía práctica para designar y notificar tu responsable del canal de denuncias",
   "description": "Cómo designar al RSII, cómo notificarlo a la AIPI, errores comunes y todo lo que necesitas saber antes del 10 de abril de 2026.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/rsii-guia-formulario-aipi",
   "datePublished": "2026-03-10",
   "dateModified": "2026-03-17",

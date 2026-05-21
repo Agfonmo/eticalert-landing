@@ -15,6 +15,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Alternativa a Whistlelink en España: EticAlert vs Whistlelink (2026)",
   "description": "Comparativa directa entre EticAlert y Whistlelink para cumplir la Ley 2/2023. Precio, funcionalidades y por qué EticAlert es la opción más económica para pymes españolas.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/alternativa-whistlelink",
   "datePublished":"2026-03-03",
   "dateModified":"2026-03-03",

@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Mejor software de canal de denuncias 2026: comparativa actualizada",
   "description": "Comparativa actualizada de los mejores software de canal de denuncias para empresas en 2026. Precios, funcionalidades y para quién es cada uno.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/mejor-software-canal-denuncias",
   "datePublished": "2026-02-02",
   "dateModified": "2026-02-02",
