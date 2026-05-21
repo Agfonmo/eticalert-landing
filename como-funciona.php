@@ -175,6 +175,16 @@ include 'includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
+    {"@type":"ListItem","position":2,"name":"Cómo funciona","item":"https://eticalert.com/como-funciona"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "Cómo activar un canal de denuncias conforme a la Ley 2/2023",
   "description": "Guía paso a paso para configurar y publicar un canal de denuncias profesional con EticAlert en menos de 5 minutos, sin técnicos ni consultores.",

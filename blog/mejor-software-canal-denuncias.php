@@ -4,7 +4,7 @@ $page_description = 'Comparativa actualizada de los mejores software de canal de
 $page_canonical   = 'https://eticalert.com/blog/mejor-software-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-02T00:00:00+01:00';
-$page_article_modified  = '2026-02-02T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/mejor-software-canal-denuncias",
   "datePublished": "2026-02-02",
-  "dateModified": "2026-02-02",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "mejor software canal denuncias, comparativa canal denuncias, herramientas whistleblowing España, software compliance 2026"
