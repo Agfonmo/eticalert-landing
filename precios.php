@@ -8,6 +8,16 @@ include 'includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
+    {"@type":"ListItem","position":2,"name":"Precios","item":"https://eticalert.com/precios"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "EticAlert",
   "applicationCategory": "BusinessApplication",

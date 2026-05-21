@@ -35,7 +35,12 @@ include '../includes/header.php';
       {"@type":"ListItem","position":7,"url":"https://eticalert.com/blog/mejor-software-canal-denuncias","name":"Mejor software de canal de denuncias 2026: comparativa actualizada"},
       {"@type":"ListItem","position":8,"url":"https://eticalert.com/blog/canal-denuncias-precio-comparativa","name":"¿Cuánto cuesta un canal de denuncias? Precios reales 2026"},
       {"@type":"ListItem","position":9,"url":"https://eticalert.com/blog/proteccion-informante-ley","name":"Protección del informante: qué garantías tiene quien denuncia según la Ley 2/2023"},
-      {"@type":"ListItem","position":10,"url":"https://eticalert.com/blog/compliance-penal-canal-etico","name":"Compliance penal y canal ético: por qué tu empresa necesita ambos"}
+      {"@type":"ListItem","position":10,"url":"https://eticalert.com/blog/compliance-penal-canal-etico","name":"Compliance penal y canal ético: por qué tu empresa necesita ambos"},
+      {"@type":"ListItem","position":11,"url":"https://eticalert.com/blog/canal-denuncias-gratis","name":"Canal de denuncias gratis: cuándo es suficiente y cuándo necesitas más"},
+      {"@type":"ListItem","position":12,"url":"https://eticalert.com/blog/whistleblowing-espana","name":"Whistleblowing en España: guía completa 2026"},
+      {"@type":"ListItem","position":13,"url":"https://eticalert.com/blog/canal-denuncias-farmacias","name":"Canal de denuncias para farmacias y empresas del sector sanitario"},
+      {"@type":"ListItem","position":14,"url":"https://eticalert.com/blog/canal-denuncias-ongs","name":"Canal de denuncias para ONGs y asociaciones: obligaciones y buenas prácticas"},
+      {"@type":"ListItem","position":15,"url":"https://eticalert.com/blog/canal-etico-empresas","name":"Canal ético de empresa: qué es, para qué sirve y cómo implantarlo"}
     ]
   }
 }
@@ -337,6 +342,42 @@ include '../includes/header.php';
           <h3>Alternativa a GlobalSuite para canal de denuncias en pymes</h3>
           <p>GlobalSuite es una suite GRC española con ISO 27001. Para pymes que solo necesitan el canal, EticAlert es más ágil y con precio público.</p>
           <span class="blog-card-meta">27 abr 2026 · 6 min lectura</span>
+        </a>
+
+        <!-- NUEVOS POSTS MAYO 2026 -->
+        <a href="/blog/canal-denuncias-gratis" class="blog-card fade-up" data-category="guias">
+          <span class="blog-badge badge-guias">Guías prácticas</span>
+          <h3>Canal de denuncias gratis: cuándo es suficiente y cuándo necesitas más</h3>
+          <p>¿Existe un canal de denuncias gratis de verdad? Sí. Te explicamos qué incluye, para quién es suficiente y las trampas del "gratis" en el mercado.</p>
+          <span class="blog-card-meta">21 may 2026 · 9 min lectura</span>
+        </a>
+
+        <a href="/blog/whistleblowing-espana" class="blog-card fade-up" data-category="marco-legal">
+          <span class="blog-badge badge-marco-legal">Marco legal</span>
+          <h3>Whistleblowing en España: guía completa 2026</h3>
+          <p>Qué es el whistleblowing, quién puede ser whistleblower en España y qué protecciones garantiza la Ley 2/2023 y la Directiva Europea 2019/1937.</p>
+          <span class="blog-card-meta">21 may 2026 · 10 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-farmacias" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para farmacias y empresas del sector sanitario</h3>
+          <p>Seguridad del paciente, corrupción en compras, blanqueo en farmacias: los riesgos específicos del sector y cómo implantar el canal correctamente.</p>
+          <span class="blog-card-meta">21 may 2026 · 9 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-ongs" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para ONGs y asociaciones: obligaciones y buenas prácticas</h3>
+          <p>Las ONGs con 50+ empleados están obligadas. Malversación, fraude en proyectos y conflictos de interés: los riesgos específicos del tercer sector.</p>
+          <span class="blog-card-meta">21 may 2026 · 9 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-etico-empresas" class="blog-card fade-up" data-category="cultura-etica">
+          <span class="blog-badge badge-cultura-etica">Cultura ética</span>
+          <h3>Canal ético de empresa: qué es, para qué sirve y cómo implantarlo</h3>
+          <p>Canal ético y canal de denuncias no son lo mismo. Te explicamos las diferencias, cuándo es obligatorio y cómo EticAlert sirve como ambos con una sola herramienta.</p>
+          <span class="blog-card-meta">21 may 2026 · 10 min lectura</span>
         </a>
 
         <!-- SILO 5: CULTURA ÉTICA -->

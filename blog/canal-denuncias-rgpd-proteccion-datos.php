@@ -4,7 +4,7 @@ $page_description = 'Cómo cumplir con el RGPD al gestionar un canal de denuncia
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-28T00:00:00+01:00';
-$page_article_modified  = '2026-02-28T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos",
   "datePublished": "2026-02-28",
-  "dateModified": "2026-02-28",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "canal denuncias RGPD, protección de datos canal denuncias, base legal denuncia, EIPD canal denuncias"

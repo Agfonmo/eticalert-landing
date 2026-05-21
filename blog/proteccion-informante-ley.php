@@ -4,7 +4,7 @@ $page_description = 'La Ley 2/2023 prohíbe las represalias contra quien denunci
 $page_canonical   = 'https://eticalert.com/blog/proteccion-informante-ley';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-15T00:00:00+01:00';
-$page_article_modified  = '2026-01-15T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/proteccion-informante-ley",
   "datePublished": "2026-01-15",
-  "dateModified": "2026-01-15",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "protección informante, represalias whistleblower, ley 2/2023 informante, derechos denunciante España"

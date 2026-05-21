@@ -4,7 +4,7 @@ $page_description = 'La Directiva europea 2019/1937 es el origen del canal de de
 $page_canonical   = 'https://eticalert.com/blog/directiva-europea-whistleblowing';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-08T00:00:00+01:00';
-$page_article_modified  = '2026-03-08T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/directiva-europea-whistleblowing",
   "datePublished": "2026-03-08",
-  "dateModified": "2026-03-08",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "directiva 2019/1937, whistleblowing, canal de denuncias, España, Ley 2/2023, directiva europea"

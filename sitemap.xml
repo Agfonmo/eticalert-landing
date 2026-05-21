@@ -325,6 +325,38 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- SILO 6: Posts nuevos mayo 2026 -->
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-gratis</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/whistleblowing-espana</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-farmacias</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-ongs</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-etico-empresas</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Prioridad baja: páginas legales -->
   <url>
     <loc>https://eticalert.com/legal</loc>

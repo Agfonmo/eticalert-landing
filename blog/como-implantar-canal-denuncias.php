@@ -4,7 +4,7 @@ $page_description = 'Guía práctica para implantar un canal de denuncias confor
 $page_canonical   = 'https://eticalert.com/blog/como-implantar-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-03T00:00:00+01:00';
-$page_article_modified  = '2026-03-03T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/como-implantar-canal-denuncias",
   "datePublished": "2026-03-03",
-  "dateModified": "2026-03-03",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "implantar canal de denuncias, cómo crear canal denuncias, guía canal denuncias, ley 2/2023"

@@ -4,7 +4,7 @@ $page_description = 'El canal de denuncias es pieza clave del modelo de prevenci
 $page_canonical   = 'https://eticalert.com/blog/compliance-penal-canal-etico';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-12T00:00:00+01:00';
-$page_article_modified  = '2026-01-12T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/compliance-penal-canal-etico",
   "datePublished": "2026-01-12",
-  "dateModified": "2026-01-12",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "compliance penal, art 31 bis código penal, canal ético, modelo prevención delitos empresa"

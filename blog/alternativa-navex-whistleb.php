@@ -5,7 +5,7 @@ $page_canonical         = 'https://eticalert.com/blog/alternativa-navex-whistleb
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a Navex WhistleB — EticAlert 2026';
 $page_article_published = '2026-04-23T00:00:00+01:00';
-$page_article_modified  = '2026-04-23T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">

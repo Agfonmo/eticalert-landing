@@ -5,7 +5,7 @@ $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-sesame-hr'
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias Sesame HR vs EticAlert — comparativa 2026';
 $page_article_published = '2026-02-17T00:00:00+01:00';
-$page_article_modified  = '2026-02-17T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 

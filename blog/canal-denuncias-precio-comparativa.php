@@ -4,7 +4,7 @@ $page_description = '¿Cuánto cuesta implementar un canal de denuncias? Desde 1
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-precio-comparativa';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-30T00:00:00+01:00';
-$page_article_modified  = '2026-01-30T00:00:00+01:00';
+$page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -17,7 +17,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-precio-comparativa",
   "datePublished": "2026-01-30",
-  "dateModified": "2026-01-30",
+  "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "precio canal denuncias, cuánto cuesta canal denuncias, coste canal denuncias España 2026"
