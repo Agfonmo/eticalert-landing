@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias para asesorías y despachos profesionales",
   "description": "Las asesorías tienen doble obligación: cumplir con su propio canal y ayudar a sus clientes a cumplir. Cómo hacerlo con EticAlert.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-asesorias-despachos",
   "datePublished": "2026-02-17",
   "dateModified": "2026-02-17",

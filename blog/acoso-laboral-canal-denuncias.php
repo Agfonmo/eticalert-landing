@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Acoso laboral y canal de denuncias: cómo actuar como empresa",
   "description": "El acoso laboral es una de las denuncias más frecuentes. Qué debe hacer la empresa al recibirla y cómo el canal protege al informante.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/acoso-laboral-canal-denuncias",
   "datePublished": "2026-01-21",
   "dateModified": "2026-01-21",

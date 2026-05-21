@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias para empresas de tecnología y startups en crecimiento",
   "description": "¿Tu startup ha superado los 50 empleados? Necesitas un canal de denuncias. También es señal de madurez para inversores.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-tecnologia-startups",
   "datePublished": "2026-02-11",
   "dateModified": "2026-02-11",

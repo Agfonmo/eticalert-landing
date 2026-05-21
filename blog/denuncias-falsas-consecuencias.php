@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Denuncias falsas en el canal de denuncias: consecuencias y cómo gestionarlas",
   "description": "¿Qué pasa si alguien presenta una denuncia falsa en el canal? La ley solo protege denuncias de buena fe. Consecuencias y cómo gestionar estos casos.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/denuncias-falsas-consecuencias",
   "datePublished": "2026-01-18",
   "dateModified": "2026-01-18",

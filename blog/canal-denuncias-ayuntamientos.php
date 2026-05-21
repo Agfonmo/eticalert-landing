@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias para ayuntamientos y entidades del sector público",
   "description": "Los ayuntamientos de más de 10.000 habitantes están obligados a tener canal de denuncias. Requisitos específicos del sector público.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-ayuntamientos",
   "datePublished": "2026-02-05",
   "dateModified": "2026-02-05",

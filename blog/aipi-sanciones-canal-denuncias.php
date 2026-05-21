@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "La AIPI ya sanciona: qué significa para tu empresa y cómo actuar",
   "description": "Desde febrero de 2026, la AIPI está plenamente operativa y puede sancionar. Guía sobre qué puede hacer y cómo prepararse.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/aipi-sanciones-canal-denuncias",
   "datePublished": "2026-03-15",
   "dateModified": "2026-03-17",

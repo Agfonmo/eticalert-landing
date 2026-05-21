@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Directiva europea 2019/1937: el origen del canal de denuncias obligatorio en España",
   "description": "La Directiva europea 2019/1937 es el origen del canal de denuncias obligatorio. Qué exige, cómo la transpuso España y diferencias clave.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/directiva-europea-whistleblowing",
   "datePublished": "2026-03-08",
   "dateModified": "2026-03-08",

@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Cómo implantar un canal de denuncias en tu empresa: guía paso a paso",
   "description": "Guía práctica para implantar un canal de denuncias conforme a la Ley 2/2023. Desde la decisión hasta la publicación, 10 pasos detallados.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/como-implantar-canal-denuncias",
   "datePublished": "2026-03-03",
   "dateModified": "2026-03-03",

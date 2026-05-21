@@ -14,6 +14,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Canal de denuncias y RGPD: cómo cumplir con protección de datos",
   "description": "Cómo cumplir con el RGPD al gestionar un canal de denuncias. Datos recogidos, base legal, plazos de conservación y derechos de los interesados.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos",
   "datePublished": "2026-02-28",
   "dateModified": "2026-02-28",

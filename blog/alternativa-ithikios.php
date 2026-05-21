@@ -15,6 +15,7 @@ include '../includes/header.php';
   "@type": "BlogPosting",
   "headline": "Alternativa a Ithikios: EticAlert vs Ithikios para canal de denuncias en España (2026)",
   "description": "Comparativa directa entre EticAlert e Ithikios para empresas españolas. Precio, funcionalidades, garantías técnicas y cuál conviene a cada perfil de empresa.",
+  "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/alternativa-ithikios",
   "datePublished":"2026-02-10",
   "dateModified":"2026-02-10",

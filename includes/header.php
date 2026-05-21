@@ -62,13 +62,18 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
       }
     })();
   </script>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2J4XCG9WY"></script>
+  <!-- Google Analytics — carga diferida post-LCP para no bloquear el render -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X2J4XCG9WY');
+    window.addEventListener('load', function() {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-X2J4XCG9WY';
+      document.head.appendChild(s);
+      s.onload = function() {
+        gtag('js', new Date());
+        gtag('config', 'G-X2J4XCG9WY');
+      };
+    });
   </script>
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="es-ES"  href="<?= htmlspecialchars($page_canonical) ?>">
@@ -105,14 +110,15 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
   <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
-  <!-- Preconnect: Google Fonts + Lucide CDN -->
+  <!-- Preconnect: Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/styles.css?v=20260428c">
+  <!-- Stylesheet — carga no bloqueante para mejorar FCP/LCP -->
+  <link rel="preload" href="/css/styles.css?v=20260428c" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/styles.css?v=20260428c"></noscript>
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>
