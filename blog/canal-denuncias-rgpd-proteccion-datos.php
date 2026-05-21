@@ -106,7 +106,7 @@ include '../includes/header.php';
         <h2 id="acceso-datos">¿Quién puede acceder a los datos?</h2>
         <p>La Ley 2/2023 es muy estricta en este punto: el acceso a los datos de una denuncia debe estar restringido al mínimo número de personas imprescindible para tramitarla.</p>
         <ul>
-          <li><strong>El RSII</strong> tiene acceso pleno como responsable del sistema.</li>
+          <li><strong>El <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a></strong> tiene acceso pleno como responsable del sistema.</li>
           <li><strong>Las personas expresamente autorizadas</strong> por el RSII para colaborar en una investigación concreta, y solo durante esa investigación.</li>
           <li><strong>Los asesores externos</strong> (abogados, auditores) que el RSII contrate para una investigación específica, que deben firmar acuerdos de confidencialidad y actuar como encargados del tratamiento conforme al artículo 28 RGPD.</li>
           <li><strong>La AIPI</strong> puede solicitar acceso durante una inspección. Es la única excepción obligatoria.</li>

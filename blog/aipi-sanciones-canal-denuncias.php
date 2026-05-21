@@ -68,7 +68,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <span>AIPI y sanciones</span>
+        <span>AIPI y <a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">sanciones</a></span>
       </nav>
 
       <div class="article-content" style="margin:0 auto;">
@@ -78,7 +78,7 @@ include '../includes/header.php';
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a marzo 2026 · 6 minutos de lectura</p>
         <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-03-15">15 de marzo de 2026</time> por el equipo de EticAlert</p>
 
-        <p>Desde febrero de 2026, la Autoridad Independiente de Protección del Informante (AIPI) está plenamente operativa. El periodo de gracia informal que muchas pymes habían interpretado que existía ha terminado. Si tu empresa tiene obligación de disponer de un canal de denuncias y aún no lo ha implementado, el riesgo de sanción es real y creciente.</p>
+        <p>Desde febrero de 2026, la Autoridad Independiente de <a href="/blog/proteccion-informante-ley" style="color:var(--accent);">Protección del Informante</a> (AIPI) está plenamente operativa. El periodo de gracia informal que muchas pymes habían interpretado que existía ha terminado. Si tu empresa tiene obligación de disponer de un canal de denuncias y aún no lo ha implementado, el riesgo de sanción es real y creciente.</p>
         <p>En este artículo explicamos qué es la AIPI, qué puede hacer concretamente, qué ha cambiado en 2026 y qué pasos debe dar tu empresa de inmediato.</p>
 
         <h2 id="que-es-aipi">¿Qué es la AIPI?</h2>

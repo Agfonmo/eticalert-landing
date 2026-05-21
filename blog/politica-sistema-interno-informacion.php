@@ -86,7 +86,7 @@ include '../includes/header.php';
         <h2 id="que-es">¿Qué es la política del SII?</h2>
         <p>La política del Sistema Interno de Información (SII) es el documento corporativo que describe el funcionamiento del canal de denuncias de la empresa. Es equivalente a lo que en otras organizaciones se conoce como "política de compliance" o "protocolo de whistleblowing".</p>
         <p>No es un documento de marketing ni una declaración de intenciones genérica: es un documento operativo y jurídico que debe describir con precisión cómo se reciben las denuncias, quién las gestiona, en qué plazos, con qué garantías para el informante y con qué consecuencias para quien actúe de mala fe.</p>
-        <p>La AIPI puede solicitar este documento durante una inspección. Su ausencia o su contenido deficiente puede considerarse infracción de la Ley 2/2023.</p>
+        <p>La <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> puede solicitar este documento durante una inspección. Su ausencia o su contenido deficiente puede considerarse infracción de la Ley 2/2023.</p>
 
         <h2 id="quien-aprueba">¿Quién aprueba la política del SII?</h2>
         <p>La política del Sistema Interno de Información debe ser aprobada formalmente por el <strong>órgano de administración de la empresa</strong>: el consejo de administración, el administrador único, el administrador solidario o mancomunado, o el equivalente en la estructura jurídica concreta.</p>
@@ -120,13 +120,13 @@ include '../includes/header.php';
         <p><strong>6. El RSII: identidad del cargo y funciones</strong></p>
         <p>Cargo de la persona designada como RSII (no necesariamente el nombre, que puede cambiar), sus funciones, su independencia funcional y cómo contactarle de forma confidencial si es necesario.</p>
 
-        <p><strong>7. Protección del informante: prohibición de represalias</strong></p>
+        <p><strong>7. <a href="/blog/proteccion-informante-ley" style="color:var(--accent);">Protección del informante</a>: prohibición de represalias</strong></p>
         <p>Declaración expresa de que está prohibido cualquier tipo de represalia contra quien denuncia de buena fe. Descripción de las medidas de protección y del mecanismo de denuncia en caso de sufrir represalias.</p>
 
         <p><strong>8. Confidencialidad</strong></p>
         <p>Garantía de que la identidad del informante no será revelada sin su consentimiento, salvo en los casos previstos expresamente por la ley. Quién tiene acceso a los datos y bajo qué condiciones.</p>
 
-        <p><strong>9. Tratamiento de datos conforme al RGPD</strong></p>
+        <p><strong>9. Tratamiento de datos conforme al <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a></strong></p>
         <p>Base legal del tratamiento (obligación legal, art. 6.1.c RGPD), responsable del tratamiento, datos que se recogen, plazos de conservación y cómo ejercer los derechos de acceso, rectificación y supresión.</p>
 
         <p><strong>10. Infracciones denunciables</strong></p>

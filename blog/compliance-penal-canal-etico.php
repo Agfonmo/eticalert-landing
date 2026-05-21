@@ -106,7 +106,7 @@ include '../includes/header.php';
 
         <p><strong>4. Canal de denuncias (canal ético):</strong> sistema que permita a empleados y terceros reportar posibles incumplimientos del modelo o de la ley penal. Este es exactamente el canal que exige la Ley 2/2023, aunque el Código Penal no define sus requisitos técnicos con la misma precisión.</p>
 
-        <p><strong>5. Sistema disciplinario:</strong> régimen de consecuencias para quienes incumplan el modelo de prevención. Sin sanciones efectivas, el modelo no tiene credibilidad ni eficacia disuasoria.</p>
+        <p><strong>5. Sistema disciplinario:</strong> régimen de consecuencias para quienes incumplan el modelo de prevención. Sin <a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">sanciones</a> efectivas, el modelo no tiene credibilidad ni eficacia disuasoria.</p>
 
         <p><strong>6. Verificación periódica:</strong> el modelo debe revisarse y actualizarse regularmente para adaptarse a los cambios en la empresa, en la ley y en el entorno de riesgos. Un modelo de 2018 no actualizado no es eficaz en 2026.</p>
 
@@ -127,7 +127,7 @@ include '../includes/header.php';
         <p>EticAlert cubre el pilar del canal de denuncias del modelo de compliance penal, el más urgente por la obligación de la Ley 2/2023. Un canal operativo y conforme a la ley demuestra ante cualquier tribunal que la empresa tomaba en serio la detección de irregularidades internas.</p>
         <p>Pero EticAlert es consciente de que el canal solo es una pieza. Por eso:</p>
         <ul>
-          <li>Facilitamos documentación y recursos para que el RSII pueda explicar al órgano de administración el contexto completo del compliance penal.</li>
+          <li>Facilitamos documentación y recursos para que el <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> pueda explicar al órgano de administración el contexto completo del compliance penal.</li>
           <li>Podemos conectar a la empresa con despachos especializados en compliance penal para los que quieran construir el modelo completo.</li>
           <li>El canal de EticAlert puede recibir comunicaciones sobre cualquier posible infracción penal, siendo así directamente útil para el compliance penal.</li>
         </ul>

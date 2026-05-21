@@ -91,7 +91,7 @@ include '../includes/header.php';
 
         <h2 id="casos-uso">Casos de uso reales</h2>
         <p><strong>GlobalSuite encaja</strong> en organizaciones de más de 500 empleados que ya tienen un responsable de GRC interno o CISO, necesitan gestionar riesgos corporativos, planes de continuidad de negocio y cumplimiento ISO de forma integrada. En ese contexto, el canal de denuncias como módulo adicional de la suite tiene sentido.</p>
-        <p><strong>GlobalSuite no encaja</strong> en una empresa de 50-200 empleados que busca activar su canal de denuncias para cumplir la Ley 2/2023 antes de una inspección de la AIPI. Un proyecto de implantación de GRC corporativo puede durar meses — la obligación legal ya existe. Tampoco encaja cuando el presupuesto de compliance es limitado y el único requisito regulatorio es la Ley 2/2023.</p>
+        <p><strong>GlobalSuite no encaja</strong> en una empresa de 50-200 empleados que busca activar su canal de denuncias para cumplir la Ley 2/2023 antes de una inspección de la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a>. Un proyecto de implantación de GRC corporativo puede durar meses — la obligación legal ya existe. Tampoco encaja cuando el presupuesto de compliance es limitado y el único requisito regulatorio es la Ley 2/2023.</p>
         <p>Caso concreto: una empresa tecnológica de 150 empleados busca canal de denuncias para cumplir la norma. Con GlobalSuite necesitaría negociar precio, firmar contrato, hacer onboarding y configurar módulos GRC que no necesita. Con EticAlert el canal está activo en 5 minutos y el cumplimiento queda registrado desde el primer día.</p>
 
         <h2 id="veredicto">Veredicto</h2>

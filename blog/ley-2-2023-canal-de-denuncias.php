@@ -65,7 +65,7 @@ include '../includes/header.php';
           <li>Proteger a las personas que comunican infracciones normativas o hechos corruptos de posibles represalias por parte de la organización afectada.</li>
           <li>Establecer sistemas internos seguros, confidenciales y accesibles para canalizar esas informaciones.</li>
         </ul>
-        <p>La ley es de cumplimiento obligatorio. No es una recomendación ni un estándar voluntario. Las empresas que no la cumplen están expuestas a sanciones económicas directas.</p>
+        <p>La ley es de cumplimiento obligatorio. No es una recomendación ni un estándar voluntario. Las empresas que no la cumplen están expuestas a <a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">sanciones</a> económicas directas.</p>
 
         <div class="callout">
           <p><strong>Contexto europeo:</strong> España fue uno de los últimos países de la UE en transponer la Directiva Whistleblowing. La Directiva fijaba el plazo en diciembre de 2021; España aprobó la ley en febrero de 2023, con más de un año de retraso.</p>
@@ -92,7 +92,7 @@ include '../includes/header.php';
           <li><strong>Denuncias escritas y orales</strong>: el canal debe admitir tanto formularios escritos como comunicaciones verbales (teléfono o presencial) y, en caso de denuncia oral, debe quedar constancia documental de la misma.</li>
           <li><strong>Acuse de recibo automático</strong> en un máximo de 7 días naturales desde la recepción de la comunicación.</li>
           <li><strong>Gestión independiente e imparcial</strong> por un Responsable del Sistema Interno de Información (RSII) con autonomía funcional y libre de conflicto de interés en los asuntos que gestione.</li>
-          <li><strong>Cumplimiento del RGPD</strong>: minimización de datos, plazos de conservación, derechos de los interesados y protección frente a accesos no autorizados.</li>
+          <li><strong>Cumplimiento del <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a></strong>: minimización de datos, plazos de conservación, derechos de los interesados y protección frente a accesos no autorizados.</li>
           <li><strong>Registro y trazabilidad</strong> de todas las comunicaciones y actuaciones, con constancia del estado de cada denuncia y las decisiones adoptadas.</li>
           <li><strong>Información al denunciante</strong> en un plazo máximo de 3 meses sobre las medidas adoptadas o en curso.</li>
           <li><strong>Acceso para todos los colectivos</strong> vinculados a la organización: empleados actuales, exempleados, candidatos, proveedores, contratistas, clientes, socios y cualquier tercero relacionado.</li>

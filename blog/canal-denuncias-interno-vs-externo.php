@@ -81,12 +81,12 @@ include '../includes/header.php';
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 7 minutos de lectura</p>
         <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-27">27 de enero de 2026</time> por el equipo de EticAlert</p>
 
-        <p>Cuando hablamos del canal de denuncias según la Ley 2/2023, en realidad hablamos de dos cosas diferentes: el <strong>canal interno</strong>, que es el que cada organización obligada debe tener, y el <strong>canal externo</strong>, que es el de la AIPI. Entender la diferencia entre ambos es fundamental para cumplir correctamente la ley y para que el sistema funcione como está diseñado.</p>
+        <p>Cuando hablamos del canal de denuncias según la Ley 2/2023, en realidad hablamos de dos cosas diferentes: el <strong>canal interno</strong>, que es el que cada organización obligada debe tener, y el <strong>canal externo</strong>, que es el de la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a>. Entender la diferencia entre ambos es fundamental para cumplir correctamente la ley y para que el sistema funcione como está diseñado.</p>
 
         <h2 id="dos-niveles">Dos niveles según la Ley 2/2023</h2>
         <p>La arquitectura de la Ley 2/2023 (siguiendo el modelo de la Directiva 2019/1937) establece dos niveles de comunicación:</p>
         <ul>
-          <li><strong>Nivel 1 - Canal interno:</strong> cada organización obligada debe disponer de su propio sistema para recibir y gestionar las comunicaciones. Es el canal que la empresa controla y gestiona internamente a través del RSII.</li>
+          <li><strong>Nivel 1 - Canal interno:</strong> cada organización obligada debe disponer de su propio sistema para recibir y gestionar las comunicaciones. Es el canal que la empresa controla y gestiona internamente a través del <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>.</li>
           <li><strong>Nivel 2 - Canal externo:</strong> la Autoridad Independiente de Protección del Informante (AIPI) tiene su propio canal al que cualquier persona puede acudir directamente, sin necesidad de pasar antes por el canal interno de la empresa.</li>
         </ul>
         <p>La ley no establece ninguna jerarquía obligatoria entre los dos niveles: el informante puede elegir usar el canal interno, el externo, o ambos. No está obligado a agotar el canal interno antes de acudir a la AIPI.</p>
@@ -98,7 +98,7 @@ include '../includes/header.php';
           <li><strong>Alcance:</strong> puede recibir denuncias sobre cualquier infracción que afecte a la organización, incluyendo infracciones del Derecho nacional más allá de las contempladas en la directiva europea.</li>
           <li><strong>Confidencialidad gestionada internamente:</strong> la empresa es responsable de garantizar la confidencialidad del informante dentro de su propio sistema.</li>
           <li><strong>Respuesta en 3 meses:</strong> el RSII tiene la obligación de informar al denunciante sobre las medidas adoptadas en un plazo máximo de 3 meses.</li>
-          <li><strong>Libro-registro:</strong> la empresa debe mantener un registro de todas las comunicaciones y actuaciones.</li>
+          <li><strong><a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">Libro-registro</a>:</strong> la empresa debe mantener un registro de todas las comunicaciones y actuaciones.</li>
         </ul>
 
         <h2 id="canal-externo">Canal externo: la AIPI</h2>

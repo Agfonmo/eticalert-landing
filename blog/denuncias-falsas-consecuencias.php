@@ -81,7 +81,7 @@ include '../includes/header.php';
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a enero 2026 · 7 minutos de lectura</p>
         <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-01-18">18 de enero de 2026</time> por el equipo de EticAlert</p>
 
-        <p>Una de las objeciones más frecuentes que escuchamos de directivos reticentes a implantar un canal de denuncias es: <em>¿y si alguien lo usa para hacer daño a un compañero con una denuncia falsa?</em> Es una preocupación legítima que merece una respuesta honesta. La ley tiene mecanismos específicos para proteger al denunciado de las denuncias de mala fe, y el RSII tiene herramientas para gestionarlas. En este artículo lo explicamos en detalle.</p>
+        <p>Una de las objeciones más frecuentes que escuchamos de directivos reticentes a implantar un canal de denuncias es: <em>¿y si alguien lo usa para hacer daño a un compañero con una denuncia falsa?</em> Es una preocupación legítima que merece una respuesta honesta. La ley tiene mecanismos específicos para proteger al denunciado de las denuncias de mala fe, y el <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> tiene herramientas para gestionarlas. En este artículo lo explicamos en detalle.</p>
 
         <h2 id="ley-no-protege">La ley NO protege denuncias falsas</h2>
         <p>Este punto es el más importante y, paradójicamente, el menos conocido. La Ley 2/2023 protege al informante, sí. Pero solo protege al informante que actúa de <strong>buena fe</strong>: quien tiene motivos razonables para creer que lo que comunica es cierto en el momento de la comunicación.</p>
@@ -96,7 +96,7 @@ include '../includes/header.php';
         <p>El ordenamiento jurídico español prevé varias consecuencias para quien presenta denuncias falsas:</p>
 
         <p><strong>Medidas disciplinarias laborales:</strong></p>
-        <p>La empresa puede imponer sanciones disciplinarias al empleado que haya presentado una denuncia con conocimiento de su falsedad, incluyendo el despido disciplinario en los casos más graves. Esta sanción disciplinaria no vulnera la Ley 2/2023 porque la protección solo alcanza a las denuncias de buena fe.</p>
+        <p>La empresa puede imponer <a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">sanciones</a> disciplinarias al empleado que haya presentado una denuncia con conocimiento de su falsedad, incluyendo el despido disciplinario en los casos más graves. Esta sanción disciplinaria no vulnera la Ley 2/2023 porque la protección solo alcanza a las denuncias de buena fe.</p>
 
         <p><strong>Responsabilidad civil:</strong></p>
         <p>El denunciante de mala fe puede ser demandado civilmente por el denunciado para reclamar los daños y perjuicios causados por la denuncia falsa: daño moral, daño reputacional, perjuicios profesionales (ej. si el denunciado fue suspendido cautelarmente durante la investigación).</p>

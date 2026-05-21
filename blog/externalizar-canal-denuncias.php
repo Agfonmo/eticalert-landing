@@ -87,7 +87,7 @@ include '../includes/header.php';
 
         <p><strong>1. La herramienta técnica (plataforma SaaS)</strong></p>
         <p>La infraestructura técnica del canal puede y debe externalizarse. No tiene ningún sentido que una pyme de 50-100 empleados construya su propio software de canal de denuncias. Usar una plataforma SaaS como EticAlert es exactamente eso: externalizar la tecnología manteniendo el control operativo.</p>
-        <p>La plataforma SaaS actúa como encargado del tratamiento (art. 28 RGPD) y firma el correspondiente Acuerdo de Encargado de Tratamiento con la empresa responsable.</p>
+        <p>La plataforma SaaS actúa como encargado del tratamiento (art. 28 <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a>) y firma el correspondiente Acuerdo de Encargado de Tratamiento con la empresa responsable.</p>
 
         <p><strong>2. La instrucción de denuncias complejas</strong></p>
         <p>El RSII interno puede —y a menudo debe— apoyarse en asesores externos para la instrucción de casos complejos. Un caso de acoso sexual, un fraude contable con ramificaciones penales o una irregularidad en una licitación pública son situaciones que justifican contratar a un abogado especialista en compliance o laboral para llevar la investigación.</p>
@@ -109,7 +109,7 @@ include '../includes/header.php';
         <p>Lo que sí puede hacerse es que el RSII sea alguien con perfil que minimice el conflicto de interés (el director financiero, el director jurídico interno, el compliance officer), y que esa persona se apoye en asesores externos para los casos que requieran más conocimiento especializado.</p>
 
         <p><strong>2. La responsabilidad de cumplimiento no se delega</strong></p>
-        <p>Aunque contrates a la mejor consultora del mercado para implantar y gestionar tu canal, la responsabilidad ante la AIPI en caso de incumplimiento recae sobre la organización y sus administradores, no sobre la consultora.</p>
+        <p>Aunque contrates a la mejor consultora del mercado para implantar y gestionar tu canal, la responsabilidad ante la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> en caso de incumplimiento recae sobre la organización y sus administradores, no sobre la consultora.</p>
         <p>Si la consultora hace mal su trabajo y el canal no cumple los requisitos, la sanción la recibe la empresa. Por eso, aunque externalices la ejecución, debes mantener la supervisión.</p>
 
         <p><strong>3. La notificación del RSII a la AIPI</strong></p>

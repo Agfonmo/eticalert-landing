@@ -87,7 +87,7 @@ include '../includes/header.php';
         <p>La Ley 2/2023 clasifica las infracciones en tres categorías, siguiendo la estructura clásica del derecho administrativo sancionador español:</p>
         <ul>
           <li><strong>Infracciones muy graves:</strong> las que afectan directamente a la esencia del sistema —represalias, ausencia total de canal, vulneración de la confidencialidad del informante.</li>
-          <li><strong>Infracciones graves:</strong> las que implican un incumplimiento sustancial de la normativa —canal que no funciona correctamente, falta de respuesta, no designar RSII.</li>
+          <li><strong>Infracciones graves:</strong> las que implican un incumplimiento sustancial de la normativa —canal que no funciona correctamente, falta de respuesta, no designar <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>.</li>
           <li><strong>Infracciones leves:</strong> deficiencias formales o procedimentales que no anulan el sistema pero sí incumplen requisitos concretos.</li>
         </ul>
         <p>Es importante destacar que la misma empresa puede ser sancionada por varias infracciones simultáneamente si comete conductas que entran en diferentes categorías. Las sanciones son acumulables.</p>
@@ -116,7 +116,7 @@ include '../includes/header.php';
           <li><strong>No designar un Responsable del Sistema Interno de Información (RSII)</strong> o designar a alguien que no tiene las condiciones de independencia e imparcialidad exigidas.</li>
           <li><strong>No notificar la designación del RSII a la AIPI</strong> en el plazo establecido (desde febrero de 2026 hay un plazo de 2 meses para comunicarlo).</li>
           <li><strong>Canal que no garantiza el anonimato</strong> cuando el informante lo solicita.</li>
-          <li><strong>No conservar el libro-registro</strong> o mantenerlo de forma incompleta o fraudulenta.</li>
+          <li><strong>No conservar el <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a></strong> o mantenerlo de forma incompleta o fraudulenta.</li>
           <li><strong>No acusar recibo de la comunicación</strong> dentro de los 7 días naturales establecidos por la ley.</li>
           <li><strong>Canal accesible solo para empleados</strong> y no para todos los colectivos obligatorios (proveedores, contratistas, candidatos, clientes, etc.).</li>
         </ul>
@@ -130,7 +130,7 @@ include '../includes/header.php';
           <li>No publicar la URL del canal en la web corporativa de forma visible.</li>
           <li>No comunicar el canal a los empleados de forma periódica.</li>
           <li>Canal que solo acepta denuncias escritas y no permite comunicaciones verbales.</li>
-          <li>Formulario de denuncia que solicita datos innecesarios o no está adaptado al RGPD.</li>
+          <li>Formulario de denuncia que solicita datos innecesarios o no está adaptado al <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a>.</li>
           <li>No incluir información sobre el proceso de investigación en la política del SII.</li>
         </ul>
         <p>Para personas físicas, la sanción leve máxima es de <strong>25.000€</strong>.</p>

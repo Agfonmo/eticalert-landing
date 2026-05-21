@@ -149,7 +149,7 @@ include '../includes/header.php';
               <td style="padding:0.75rem;border:1px solid var(--border);">Obligatoriamente tratadas</td>
             </tr>
             <tr style="background:var(--bg-tertiary);">
-              <td style="padding:0.75rem;border:1px solid var(--border);">RSII</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);"><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a></td>
               <td style="padding:0.75rem;border:1px solid var(--border);">No figura con este nombre</td>
               <td style="padding:0.75rem;border:1px solid var(--border);">Figura obligatoria con notificación a AIPI</td>
             </tr>
@@ -159,7 +159,7 @@ include '../includes/header.php';
               <td style="padding:0.75rem;border:1px solid var(--border);">Hasta 1.000.000€ personas jurídicas</td>
             </tr>
             <tr style="background:var(--bg-tertiary);">
-              <td style="padding:0.75rem;border:1px solid var(--border);">Libro-registro</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);"><a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">Libro-registro</a></td>
               <td style="padding:0.75rem;border:1px solid var(--border);">No especificado</td>
               <td style="padding:0.75rem;border:1px solid var(--border);">Obligatorio con conservación 10 años</td>
             </tr>
@@ -170,7 +170,7 @@ include '../includes/header.php';
         <p>Para los grupos multinacionales con filial española, la Directiva 2019/1937 es especialmente relevante porque garantiza que el estándar sea homogéneo en toda la UE. Sin embargo, cada país ha añadido matices en su transposición, por lo que el cumplimiento no es automático por disponer de un canal corporativo que cumpla la ley de otro país.</p>
         <p>Una empresa con matriz en Alemania, Francia o cualquier otro Estado miembro que ya tenga un canal de denuncias conforme a la directiva tiene un buen punto de partida, pero deberá verificar que ese canal cumple también los requisitos específicos de la Ley 2/2023 para su filial española. En particular:</p>
         <ul>
-          <li>El canal debe poder recibir denuncias en español y garantizar la confidencialidad bajo las normas del RGPD aplicado en España.</li>
+          <li>El canal debe poder recibir denuncias en español y garantizar la confidencialidad bajo las normas del <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a> aplicado en España.</li>
           <li>Debe existir un RSII designado para la filial española, con notificación formal a la AIPI.</li>
           <li>El libro-registro debe mantenerse conforme a los requisitos del artículo 26 de la Ley 2/2023, independientemente de los registros corporativos globales.</li>
           <li>Las sanciones en caso de incumplimiento son competencia exclusiva de la AIPI española, no de las autoridades del país de la matriz.</li>

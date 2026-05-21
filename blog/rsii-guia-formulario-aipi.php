@@ -135,7 +135,7 @@ include '../includes/header.php';
           <li><strong>Designar un RSII sin independencia real:</strong> nombrar como RSII al director financiero que depende directamente del CEO que podría ser investigado es un conflicto de interés evidente que la AIPI puede cuestionar.</li>
           <li><strong>No comunicar en plazo:</strong> el plazo del 10 de abril de 2026 no es orientativo. No comunicar implica incumplimiento adicional a la falta de canal.</li>
           <li><strong>No actualizar la notificación:</strong> si el RSII cesa o cambia, hay que comunicarlo a la AIPI en 10 días hábiles. Muchas empresas olvidan este trámite.</li>
-          <li><strong>Confundir el DPO con el RSII:</strong> el Delegado de Protección de Datos y el RSII son figuras diferentes con funciones distintas. Pueden ser la misma persona, pero deben ejercer ambos roles de forma diferenciada.</li>
+          <li><strong>Confundir el DPO con el RSII:</strong> el Delegado de <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">Protección de Datos</a> y el RSII son figuras diferentes con funciones distintas. Pueden ser la misma persona, pero deben ejercer ambos roles de forma diferenciada.</li>
         </ul>
 
         <h2 id="como-ayuda-eticalert">¿Cómo te ayuda EticAlert?</h2>

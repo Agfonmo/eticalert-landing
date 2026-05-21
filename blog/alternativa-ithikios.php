@@ -179,7 +179,7 @@ include '../includes/header.php';
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
             </tr>
             <tr style="background:var(--bg-tertiary);">
-              <td style="padding:0.75rem;border:1px solid var(--border);">Historial auditado de nombramientos RSII</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Historial auditado de nombramientos <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a></td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓ Con lógica de bloqueo (Art. 8)</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
             </tr>
@@ -258,7 +258,7 @@ include '../includes/header.php';
         <p>El canal de denuncias es una URL independiente de tus sistemas internos, lo que hace que cambiar de proveedor sea más sencillo de lo que parece:</p>
         <ol>
           <li>Activa EticAlert y configura tu canal (menos de 5 minutos).</li>
-          <li>Solicita a Ithikios la exportación del libro-registro de casos cerrados para conservar tu historial legal.</li>
+          <li>Solicita a Ithikios la exportación del <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> de casos cerrados para conservar tu historial legal.</li>
           <li>Actualiza la URL del canal en tu web o intranet y en la documentación interna.</li>
           <li>Notifica al RSII el cambio de herramienta y actualiza el documento de política del SII si fuera necesario.</li>
         </ol>

@@ -86,7 +86,7 @@ include '../includes/header.php';
         <h2 id="cuatro-formas">Las 4 formas de implementar un canal de denuncias</h2>
 
         <p><strong>Opción 1: Consultoría especializada en compliance</strong></p>
-        <p>Un despacho de abogados o consultora de compliance que implanta el canal como servicio integral. Incluye diagnóstico legal, redacción de la política del SII, configuración de la herramienta (que suele ser una plataforma de terceros), formación del RSII y notificación a la AIPI.</p>
+        <p>Un despacho de abogados o consultora de compliance que implanta el canal como servicio integral. Incluye diagnóstico legal, redacción de la política del SII, configuración de la herramienta (que suele ser una plataforma de terceros), formación del <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a> y notificación a la AIPI.</p>
         <p>Precio habitual: entre <strong>1.500€ y 5.000€</strong> de implantación, más una tarifa mensual de mantenimiento de 100-300€/mes si se contrata el servicio continuado.</p>
         <p>Total primer año: entre 2.700€ y 8.600€ aproximadamente.</p>
         <p>Adecuado para: empresas que quieren acompañamiento experto y no tienen perfil técnico ni legal interno para gestionar la implantación.</p>
@@ -105,7 +105,7 @@ include '../includes/header.php';
 
         <p><strong>Opción 4: Desarrollo propio a medida</strong></p>
         <p>Construir el sistema desde cero con recursos técnicos propios o mediante una empresa de desarrollo de software.</p>
-        <p>Precio habitual: entre <strong>10.000€ y 50.000€ o más</strong> de desarrollo inicial, más costes de mantenimiento, actualización de seguridad, hosting y adaptaciones normativas. Una vuelta de tuerca legal (nueva instrucción de la AIPI, cambio en el RGPD) puede requerir nueva inversión en desarrollo.</p>
+        <p>Precio habitual: entre <strong>10.000€ y 50.000€ o más</strong> de desarrollo inicial, más costes de mantenimiento, actualización de seguridad, hosting y adaptaciones normativas. Una vuelta de tuerca legal (nueva instrucción de la AIPI, cambio en el <a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">RGPD</a>) puede requerir nueva inversión en desarrollo.</p>
         <p>Total primer año: mínimo 10.000-15.000€ incluyendo desarrollo y primer año de mantenimiento.</p>
         <p>Adecuado para: grandes corporaciones con equipo técnico interno y necesidades de integración con sistemas propios.</p>
 
@@ -150,7 +150,7 @@ include '../includes/header.php';
         <h2 id="eticalert-precio">¿Qué incluye EticAlert en su precio?</h2>
         <p>EticAlert tiene tres planes principales:</p>
         <ul>
-          <li><strong>Plan Gratuito (hasta 20 empleados):</strong> canal de denuncias completamente funcional, formulario configurable, anonimato real, libro-registro automático, acuses de recibo automáticos.</li>
+          <li><strong>Plan Gratuito (hasta 20 empleados):</strong> canal de denuncias completamente funcional, formulario configurable, anonimato real, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> automático, acuses de recibo automáticos.</li>
           <li><strong>Plan Pyme (50-150 empleados): desde 19€/mes.</strong> Todo lo del plan gratuito más: múltiples usuarios RSII, exportación del libro-registro en PDF, soporte por email, URL personalizada.</li>
           <li><strong>Plan Empresa (150-500 empleados):</strong> todo lo del plan Pyme más: multi-empresa, acceso API, soporte prioritario, onboarding asistido.</li>
         </ul>
