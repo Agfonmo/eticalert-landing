@@ -29,6 +29,26 @@ $page_article_modified   = $page_article_modified ?? null;
 $page_body_class         = $page_body_class ?? '';
 $_og_t                   = rawurlencode($page_og_title ?? $page_title);
 $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image.php?t=' . $_og_t;
+
+// Auto-detección de content_group para GA4 (sobreescribible por cada página)
+if (!isset($page_content_group)) {
+  $uri = $_SERVER['REQUEST_URI'] ?? '';
+  if (strpos($uri, '/blog/') !== false) {
+    if (preg_match('#/blog/(alternativa-|precio-)#', $uri)) {
+      $page_content_group = 'comparativa';
+    } elseif (preg_match('#/blog/(ley-2-2023|proteccion-informante)#', $uri)) {
+      $page_content_group = 'marco-legal';
+    } elseif (preg_match('#/blog/(rsii-|canal-denuncias-externo|aipi-)#', $uri)) {
+      $page_content_group = 'guia';
+    } elseif (strpos($uri, '/blog/canal-denuncias-') !== false) {
+      $page_content_group = 'sectores';
+    } else {
+      $page_content_group = 'guia'; // blog index u otros artículos
+    }
+  } else {
+    $page_content_group = '';
+  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -71,7 +91,9 @@ $page_og_image           = $page_og_image ?? 'https://eticalert.com/img/og-image
       document.head.appendChild(s);
       s.onload = function() {
         gtag('js', new Date());
-        gtag('config', 'G-X2J4XCG9WY');
+        gtag('config', 'G-X2J4XCG9WY'<?php if (!empty($page_content_group)): ?>, {
+          'content_group': '<?= htmlspecialchars($page_content_group) ?>'
+        }<?php endif; ?>);
       };
     });
   </script>
