@@ -123,7 +123,7 @@ include 'includes/header.php';
             <li class="pricing-feature separator"><span>Mayor capacidad:</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Misma funcionalidad completa</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Hasta 150 empleados</span></li>
-            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Cumplimiento Ley 2/2023 ✓</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Cumplimiento <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> ✓</span></li>
           </ul>
           <div class="pricing-footer">
             <a href="/registro" class="btn btn-primary">Empezar con Company →</a>
@@ -240,7 +240,7 @@ include 'includes/header.php';
         <span class="overline">Servicios opcionales</span>
         <h2 id="servicios-heading">Instrucción de denuncias con despacho partner</h2>
         <p style="margin-top:1rem;">EticAlert es infraestructura técnica, no consultoría jurídica. Nos ocupamos de que tu canal esté activo, documentado y conforme a la ley.</p>
-        <p>Si necesitas instruir una denuncia concreta —investigar los hechos, tomar declaraciones, emitir un informe de resolución— ofrecemos un servicio opcional con un <strong>despacho partner especializado en compliance laboral</strong>:</p>
+        <p>Si necesitas instruir una denuncia concreta —investigar los hechos, tomar declaraciones, emitir un informe de resolución— ofrecemos un servicio opcional con un <strong>despacho partner especializado en <a href="/blog/compliance-penal-canal-etico" style="color:var(--accent);">compliance laboral</a></strong>:</p>
         <ul style="margin-top:1rem;display:flex;flex-direction:column;gap:0.625rem;">
           <li style="display:flex;gap:0.75rem;align-items:flex-start;font-size:1rem;color:var(--text-secondary);"><span style="color:var(--accent);flex-shrink:0;">→</span>Instrucción básica de denuncia: desde <strong style="color:var(--text-primary);">150€/caso</strong></li>
           <li style="display:flex;gap:0.75rem;align-items:flex-start;font-size:1rem;color:var(--text-secondary);"><span style="color:var(--accent);flex-shrink:0;">→</span>Informe de resolución completo: desde <strong style="color:var(--text-primary);">350€/caso</strong></li>
@@ -289,7 +289,7 @@ include 'includes/header.php';
             ¿Hay descuento para asesorías que gestionen varios clientes?
             <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </button>
-          <div class="faq-answer"><p>Sí. Tenemos un programa de partners para asesorías laborales, despachos y consultoras que gestionan el canal de denuncias de varios clientes. Contacta con nosotros en <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a> para conocer las condiciones.</p></div>
+          <div class="faq-answer"><p>Sí. Tenemos un programa de partners para <a href="/blog/canal-denuncias-asesorias-despachos" style="color:var(--accent);">asesorías laborales, despachos y consultoras</a> que gestionan el canal de denuncias de varios clientes. Contacta con nosotros en <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a> para conocer las condiciones.</p></div>
         </div>
 
         <div class="faq-item">
@@ -316,5 +316,39 @@ include 'includes/header.php';
   </section>
 
 </main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Hay permanencia en los planes de EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. Puedes cancelar cuando quieras, sin penalizaciones. El acceso se mantiene hasta el final del período facturado."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo cambiar de plan en EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. Puedes hacer upgrade o downgrade en cualquier momento desde tu panel de administración. Los cambios se aplican al siguiente ciclo de facturación."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué métodos de pago acepta EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Tarjeta de crédito/débito y domiciliación bancaria SEPA, gestionados de forma segura a través de Stripe. EticAlert no almacena datos de tarjeta en sus servidores."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hay descuento para asesorías que gestionen varios clientes con EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. EticAlert tiene un programa de partners para asesorías laborales, despachos y consultoras que gestionan el canal de denuncias de varios clientes. Contacta en info@eticalert.com para conocer las condiciones."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Los precios de EticAlert incluyen IVA?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. Los precios mostrados no incluyen IVA (21%). El IVA se añadirá en la factura conforme a la normativa fiscal aplicable."}
+    }
+  ]
+}
+</script>
 
 <?php include 'includes/footer.php'; ?>
