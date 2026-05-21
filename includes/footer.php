@@ -64,7 +64,7 @@
 </footer>
 
 <!-- JS -->
-<script src="/js/main.js" defer></script>
+<script src="/js/main.js?v=20260521" defer></script>
 <script>
   // Init Lucide icons after DOM ready
   document.addEventListener('DOMContentLoaded', function () {

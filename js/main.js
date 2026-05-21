@@ -176,6 +176,14 @@
     if (btnAccept) {
       btnAccept.addEventListener('click', () => {
         localStorage.setItem(COOKIE_KEY, 'all');
+        if (typeof gtag !== 'undefined') {
+          gtag('consent', 'update', {
+            'analytics_storage':  'granted',
+            'ad_storage':         'granted',
+            'ad_user_data':       'granted',
+            'ad_personalization': 'granted'
+          });
+        }
         hideBanner();
       });
     }
@@ -183,6 +191,14 @@
     if (btnNecessary) {
       btnNecessary.addEventListener('click', () => {
         localStorage.setItem(COOKIE_KEY, 'necessary');
+        if (typeof gtag !== 'undefined') {
+          gtag('consent', 'update', {
+            'analytics_storage':  'denied',
+            'ad_storage':         'denied',
+            'ad_user_data':       'denied',
+            'ad_personalization': 'denied'
+          });
+        }
         hideBanner();
       });
     }
