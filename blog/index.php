@@ -5,6 +5,42 @@ $page_canonical   = 'https://eticalert.com/blog/';
 include '../includes/header.php';
 ?>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Blog EticAlert — Canal de denuncias, Ley 2/2023 y compliance para pymes",
+  "description": "Guías prácticas sobre canal de denuncias, Ley 2/2023, AIPI, RSII y compliance para empresas españolas. Actualizado en 2026.",
+  "url": "https://eticalert.com/blog/",
+  "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"url":"https://eticalert.com/blog/ley-2-2023-canal-de-denuncias","name":"Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias"},
+      {"@type":"ListItem","position":2,"url":"https://eticalert.com/blog/aipi-sanciones-canal-denuncias","name":"La AIPI ya sanciona: qué significa para tu empresa y cómo actuar"},
+      {"@type":"ListItem","position":3,"url":"https://eticalert.com/blog/rsii-guia-formulario-aipi","name":"RSII: guía práctica para designar y notificar tu responsable del canal de denuncias"},
+      {"@type":"ListItem","position":4,"url":"https://eticalert.com/blog/sanciones-canal-denuncias-desglose","name":"Sanciones por no tener canal de denuncias: desglose completo por tipo de infracción"},
+      {"@type":"ListItem","position":5,"url":"https://eticalert.com/blog/como-implantar-canal-denuncias","name":"Cómo implantar un canal de denuncias en tu empresa: guía paso a paso"},
+      {"@type":"ListItem","position":6,"url":"https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos","name":"Canal de denuncias y RGPD: cómo cumplir con protección de datos"},
+      {"@type":"ListItem","position":7,"url":"https://eticalert.com/blog/mejor-software-canal-denuncias","name":"Mejor software de canal de denuncias 2026: comparativa actualizada"},
+      {"@type":"ListItem","position":8,"url":"https://eticalert.com/blog/canal-denuncias-precio-comparativa","name":"¿Cuánto cuesta un canal de denuncias? Precios reales 2026"},
+      {"@type":"ListItem","position":9,"url":"https://eticalert.com/blog/proteccion-informante-ley","name":"Protección del informante: qué garantías tiene quien denuncia según la Ley 2/2023"},
+      {"@type":"ListItem","position":10,"url":"https://eticalert.com/blog/compliance-penal-canal-etico","name":"Compliance penal y canal ético: por qué tu empresa necesita ambos"}
+    ]
+  }
+}
+</script>
+
 <main id="main-content">
   <section style="padding: 120px 0 40px;">
     <div class="container">

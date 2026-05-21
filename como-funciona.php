@@ -26,7 +26,7 @@ include 'includes/header.php';
         <div class="how-feature-content">
           <span class="overline">Paso 1</span>
           <h3>Configuras tu canal en un wizard guiado</h3>
-          <p>Introduces los datos de tu empresa, subes tu logo, seleccionas las categorías de denuncia relevantes para tu sector y designas al responsable del sistema (RSII). Todo en un formulario paso a paso. Sin necesidad de conocimientos técnicos ni jurídicos.</p>
+          <p>Introduces los datos de tu empresa, subes tu logo, seleccionas las categorías de denuncia relevantes para tu sector y designas al responsable del sistema (<a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>). Todo en un formulario paso a paso. Sin necesidad de conocimientos técnicos ni jurídicos.</p>
           <p>El proceso completo lleva menos de 5 minutos. Al finalizar, tu canal ya está listo para publicar.</p>
           <div class="hero-mono" style="max-width:360px;">
             <p class="hero-mono-label">URL generada automáticamente</p>
@@ -68,7 +68,7 @@ include 'includes/header.php';
           <span class="overline">Paso 3</span>
           <h3>Gestiona cada caso con roles y permisos</h3>
           <p>El administrador recibe notificación al llegar una nueva denuncia. Puede asignarla a un coordinador o resolutor según la estructura interna de tu empresa. Cada rol accede únicamente a la información que corresponde a su función.</p>
-          <p>El sistema registra automáticamente cada acción con un timestamp inmutable: quién leyó la denuncia, quién la asignó, qué decisión se tomó y cuándo. Trazabilidad completa para cuando la AIPI pregunte.</p>
+          <p>El sistema registra automáticamente cada acción con un timestamp inmutable: quién leyó la denuncia, quién la asignó, qué decisión se tomó y cuándo. Trazabilidad completa para cuando la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> pregunte.</p>
         </div>
         <div class="screenshot-placeholder">
           <picture>
@@ -83,7 +83,7 @@ include 'includes/header.php';
         <div class="how-feature-content">
           <span class="overline">Paso 4</span>
           <h3>Plazos legales controlados sin pensar</h3>
-          <p>La Ley 2/2023 establece plazos concretos: acuse de recibo en 7 días, resolución en 3 meses. EticAlert los gestiona automáticamente sin que tengas que recordar nada.</p>
+          <p>La <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> establece plazos concretos: acuse de recibo en 7 días, resolución en 3 meses. EticAlert los gestiona automáticamente sin que tengas que recordar nada.</p>
           <p>El sistema envía acuse de recibo automático al informante en el plazo legal, genera alertas cuando se acerca el vencimiento de los 3 meses, y notifica si un caso lleva demasiado tiempo sin actividad. Cumples la ley sin calendarios ni recordatorios manuales.</p>
           <ul style="display:flex;flex-direction:column;gap:0.625rem;margin-top:0.5rem;">
             <li class="checklist-item"><svg class="checklist-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>Acuse automático en 7 días (art. 18 Ley 2/2023)</li>
@@ -215,6 +215,30 @@ include 'includes/header.php';
       "name": "Exporta la documentación para la AIPI",
       "text": "El registro append-only garantiza que ninguna acción puede borrarse retroactivamente. Exporta en PDF el historial completo de cualquier denuncia para entregarla a la autoridad competente.",
       "url": "https://eticalert.com/como-funciona#paso-5"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo lleva configurar un canal de denuncias con EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El proceso completo lleva menos de 5 minutos. El wizard guiado solicita los datos de la empresa, el logo, las categorías de denuncia y la designación del RSII. Al finalizar, el canal está listo para publicar sin necesidad de conocimientos técnicos ni jurídicos."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué plazos legales de la Ley 2/2023 gestiona EticAlert automáticamente?",
+      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert gestiona los dos plazos clave de la Ley 2/2023: el acuse de recibo automático al informante en un máximo de 7 días (artículo 18) y las alertas proactivas antes de que venza el plazo de resolución de 3 meses. El historial de plazos es exportable en PDF para auditoría."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puede el informante denunciar de forma anónima?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. El informante puede enviar una denuncia anónima sin necesidad de registrarse. Recibe automáticamente un código de seguimiento seguro con el que puede consultar el estado de su caso en cualquier momento sin revelar su identidad. El canal no usa cookies ni tracking."}
     }
   ]
 }
