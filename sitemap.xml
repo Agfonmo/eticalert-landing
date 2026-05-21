@@ -394,6 +394,25 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-ongs</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-despachos-abogados</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-ayuntamientos</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Prioridad baja: páginas legales -->
   <url>
     <loc>https://eticalert.com/legal</loc>

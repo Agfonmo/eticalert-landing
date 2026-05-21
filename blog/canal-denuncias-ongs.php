@@ -1,10 +1,10 @@
 <?php
-$page_title       = 'Canal de denuncias para ONGs y asociaciones | Guía 2026';
-$page_description = 'Descubre si tu ONG, fundación o asociación está obligada a tener canal de denuncias según la Ley 2/2023 y cómo implantarlo adaptado al tercer sector.';
+$page_title       = 'Canal de denuncias para ONGs, fundaciones y asociaciones en España | EticAlert';
+$page_description = 'Las ONGs y fundaciones con 50+ empleados deben implantar un canal de denuncias en España según la Ley 2/2023. Guía completa para el tercer sector.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-ongs';
 $page_og_type           = 'article';
-$page_article_published = '2026-05-21T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_published = '2026-05-22T00:00:00+01:00';
+$page_article_modified  = '2026-05-22T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -12,15 +12,15 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Canal de denuncias para ONGs y asociaciones: obligaciones y buenas prácticas",
-  "description": "Descubre si tu ONG, fundación o asociación está obligada a tener canal de denuncias según la Ley 2/2023 y cómo implantarlo adaptado al tercer sector.",
+  "headline": "Canal de denuncias para ONGs, fundaciones y asociaciones",
+  "description": "Las ONGs y fundaciones con 50+ empleados deben implantar un canal de denuncias en España según la Ley 2/2023. Guía completa para el tercer sector.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-ongs",
-  "datePublished": "2026-05-21",
-  "dateModified": "2026-05-21",
+  "datePublished": "2026-05-22",
+  "dateModified": "2026-05-22",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
-  "keywords": "canal de denuncias ONG, canal de denuncias asociaciones, canal de denuncias fundaciones, ley 2/2023 tercer sector, whistleblowing ONG"
+  "keywords": "canal de denuncias ONG, whistleblowing fundaciones, canal denuncias asociaciones, Ley 2/2023 tercer sector, canal denuncias España"
 }
 </script>
 <script type="application/ld+json">
@@ -31,10 +31,11 @@ include '../includes/header.php';
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
     {"@type":"ListItem","position":3,"name":"Por sector","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":4,"name":"Canal de denuncias para ONGs y asociaciones","item":"https://eticalert.com/blog/canal-denuncias-ongs"}
+    {"@type":"ListItem","position":4,"name":"Canal de denuncias para ONGs, fundaciones y asociaciones","item":"https://eticalert.com/blog/canal-denuncias-ongs"}
   ]
 }
 </script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -42,27 +43,18 @@ include '../includes/header.php';
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Los voluntarios de una ONG pueden usar el canal de denuncias?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sí. Aunque los voluntarios no computan como empleados a efectos de la obligación de tener canal, sí tienen derecho a utilizarlo si la organización lo ha habilitado. La Ley 2/2023 reconoce una protección amplia al informante, que puede incluir a colaboradores externos con relación estable con la entidad. Es buena práctica extender el acceso al canal a voluntarios, practicantes y proveedores, independientemente de si la ONG supera o no el umbral de 50 empleados."
-      }
+      "name": "¿Las asociaciones sin empleados necesitan canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No, si tienen menos de 50 trabajadores en plantilla no están obligadas por la Ley 2/2023, salvo que sean sujetos obligados en materia de prevención del blanqueo de capitales (PBC). Los voluntarios no computan como empleados a efectos del umbral. Una asociación con 10 empleados y 300 voluntarios queda por debajo del umbral legal, aunque puede implantar el canal de forma voluntaria para reforzar su gobernanza."}
     },
     {
       "@type": "Question",
-      "name": "¿Una fundación con 30 empleados está obligada a tener canal de denuncias?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, no está obligada. El umbral de la Ley 2/2023 para entidades privadas —incluidas fundaciones y asociaciones— es de 50 trabajadores en plantilla. Con 30 empleados, la fundación queda por debajo del umbral mínimo. No obstante, puede implantar el canal de forma voluntaria, lo que refuerza su credibilidad ante financiadores públicos y donantes privados. Conviene revisar si la fundación recibe financiación pública significativa, ya que algunas convocatorias y contratos públicos exigen o valoran disponer de un sistema de denuncias."
-      }
+      "name": "¿Pueden los voluntarios usar el canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí, la Ley 2/2023 protege a cualquier persona que informe de buena fe sobre irregularidades, incluidos voluntarios y colaboradores con relación estable con la entidad. Aunque los voluntarios no cuentan para el umbral de 50 empleados, si la organización tiene canal habilitado, los voluntarios pueden utilizarlo y gozan de la misma protección frente a represalias que cualquier trabajador."}
     },
     {
       "@type": "Question",
-      "name": "¿Puede un donante o beneficiario denunciar a través del canal?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "La ley no lo impide y la práctica lo recomienda. El canal de denuncias es, legalmente, un instrumento pensado para personas con relación laboral o profesional con la entidad. Sin embargo, nada impide que la ONG amplíe el acceso a donantes, beneficiarios o ciudadanos que hayan tenido conocimiento de irregularidades. Esta apertura es especialmente valorada por los financiadores públicos y por los organismos de auditoría social. EticAlert permite configurar el acceso al canal para admitir comunicaciones externas de cualquier persona."
-      }
+      "name": "¿Qué pasa si una ONG recibe financiación pública y no tiene canal?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Una ONG o fundación obligada (50+ empleados) que no disponga de canal de denuncias puede ser sancionada por la AIPI con multas de hasta 300.000 € para personas jurídicas, y hasta 1.000.000 € en infracciones muy graves. Además, la ausencia de canal puede suponer la pérdida de elegibilidad para futuras convocatorias de subvenciones públicas, ya que muchos organismos financiadores —AECID, Ministerio de Derechos Sociales, convocatorias UE— valoran o exigen la existencia de sistemas de cumplimiento y denuncia."}
     }
   ]
 }
@@ -79,101 +71,106 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Por sector</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <span>Canal de denuncias para ONGs y asociaciones</span>
+        <span>Canal de denuncias para ONGs, fundaciones y asociaciones</span>
       </nav>
 
       <div class="article-content" style="margin:0 auto;">
 
         <span class="blog-badge badge-sectores">Por sector</span>
-        <h1>Canal de denuncias para ONGs y asociaciones: obligaciones y buenas prácticas</h1>
+        <h1>Canal de denuncias para ONGs, fundaciones y asociaciones</h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 7 minutos de lectura</p>
-        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-21">21 de mayo de 2026</time> por el equipo de EticAlert</p>
+        <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-22">22 de mayo de 2026</time> por el equipo de EticAlert</p>
 
-        <p>Las ONGs, fundaciones y asociaciones operan con una misión social que exige una transparencia ejemplar. Sin embargo, el tercer sector no está exento de las obligaciones que la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> impone a cualquier organización privada con suficientes empleados. Si tu entidad supera los 50 trabajadores en plantilla, tienes la misma obligación que una empresa. Y si no la superas, implantar un canal de denuncias voluntario es hoy una señal inequívoca de madurez institucional ante donantes, financiadores y beneficiarios.</p>
+        <p>El tercer sector en España —ONGs, fundaciones, asociaciones, entidades sin ánimo de lucro— opera bajo la presunción de transparencia que su misión social exige. Sin embargo, esa presunción no basta: la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023 del Informante</a> impone a cualquier organización privada con 50 o más empleados la obligación de disponer de un canal de denuncias interno operativo. Una gran fundación de cooperación internacional, un patronato con decenas de empleados o una asociación empresarial consolidada están tan obligados como cualquier empresa del sector privado. Y si no alcanzan ese umbral, implantar el canal de forma voluntaria se ha convertido en un requisito de facto para acceder a financiación pública y para acreditar gobernanza sólida ante donantes en España y en el exterior.</p>
 
         <h2 id="obligacion-ongs">¿Están obligadas las ONGs a tener canal de denuncias?</h2>
-        <p>La respuesta depende de un solo criterio: el número de <strong>empleados en plantilla</strong>. La Ley 2/2023 aplica a cualquier persona jurídica del sector privado, incluidas fundaciones, asociaciones y entidades sin ánimo de lucro. El umbral es el mismo que para una empresa:</p>
+        <p>La respuesta depende de dos criterios que pueden activarse de forma independiente: el <strong>número de empleados</strong> y la condición de <strong>sujeto obligado en materia de prevención del blanqueo de capitales (PBC)</strong>.</p>
+        <p>En cuanto al primer criterio, el art. 10 de la Ley 2/2023 fija el umbral de forma clara: toda entidad del sector privado —incluidas fundaciones, asociaciones y entidades sin ánimo de lucro— con <strong>50 o más trabajadores en plantilla</strong> debe disponer de un canal de denuncias propio. Los voluntarios no computan como trabajadores a estos efectos. Una organización con 12 empleados y 400 voluntarios tiene menos de 50 trabajadores y, en principio, no está obligada por este criterio.</p>
+        <p>El segundo criterio atañe a las <strong>fundaciones que son sujetos obligados PBC</strong> en virtud del art. 2.1.k de la Ley 10/2010 de prevención del blanqueo de capitales. Las fundaciones que gestionen fondos de forma significativa, que operen con bienes inmuebles o que canalicen recursos de origen privado hacia terceros en determinadas condiciones pueden estar sujetas a la normativa PBC con independencia de su número de empleados. En estos casos, la implantación de canales de denuncia internos forma parte del programa de cumplimiento PBC exigido por el SEPBLAC.</p>
         <ul>
-          <li><strong>50 o más empleados:</strong> obligación de disponer de canal de denuncias propio y operativo.</li>
-          <li><strong>Menos de 50 empleados:</strong> no hay obligación legal, pero sí conveniencia de implantarlo.</li>
+          <li><strong>ONGs y asociaciones con 50+ empleados:</strong> obligación directa por la Ley 2/2023, sin excepción.</li>
+          <li><strong>Fundaciones con patronato activo:</strong> obligadas si superan el umbral de empleados; además, deben verificar si son sujetas obligadas PBC.</li>
+          <li><strong>Asociaciones con personal asalariado inferior a 50:</strong> no obligadas por Ley 2/2023, pero conviene implantar el canal voluntariamente.</li>
+          <li><strong>Entidades que gestionan proyectos con fondos europeos (FEDER, FSE):</strong> los reglamentos de la UE y las convocatorias de la Comisión exigen cada vez más sistemas de denuncia propios como condición de elegibilidad.</li>
         </ul>
-        <p>Un aspecto que genera dudas frecuentes: <strong>los voluntarios no cuentan como empleados</strong> a efectos del umbral. Una organización con 15 empleados y 200 voluntarios tiene menos de 50 trabajadores en nómina y, por tanto, no está obligada por la ley. Sí lo estarían sus trabajadores asalariados, y la organización puede optar por extender el canal también a los voluntarios, lo que es recomendable.</p>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Nota importante:</strong> Las fundaciones y asociaciones con personalidad jurídica propia siguen exactamente las mismas reglas que cualquier entidad privada. No hay un régimen especial para el tercer sector. Si una fundación tiene 60 empleados, está obligada igual que una empresa de 60 trabajadores.
+          <strong style="color:var(--accent);">Nota clave:</strong> Las fundaciones y asociaciones con personalidad jurídica propia no tienen un régimen especial en la Ley 2/2023. El umbral de 50 empleados aplica exactamente igual que a cualquier empresa. La misión social no exime de la obligación legal.
         </div>
 
-        <h2 id="riesgos-tercer-sector">Riesgos éticos y reputacionales específicos del tercer sector</h2>
-        <p>El sector no lucrativo tiene un perfil de riesgos propio que justifica la implantación del canal independientemente del tamaño de la organización:</p>
+        <h2 id="riesgos-tercer-sector">Riesgos específicos del tercer sector</h2>
+        <p>El perfil de riesgos del sector no lucrativo tiene características propias que justifican la implantación del canal con independencia del tamaño de la organización. Los más frecuentes en España son:</p>
         <ul>
-          <li><strong>Malversación de fondos de donantes o subvenciones públicas:</strong> el uso indebido de fondos captados con fines sociales es el riesgo más grave, tanto en términos legales como reputacionales. Un solo escándalo puede destruir décadas de confianza acumulada.</li>
-          <li><strong>Fraude o irregularidades en proyectos de cooperación:</strong> las organizaciones que gestionan proyectos en el exterior, a menudo con financiación institucional (AECID, UE, OOII), están sujetas a auditorías externas rigurosas. El canal de denuncias permite detectar irregularidades internamente antes de que lo haga el financiador.</li>
-          <li><strong>Acoso y abuso de poder:</strong> los entornos de alta dependencia emocional —trabajo con colectivos vulnerables, voluntariado vocacional, relaciones de mentoría— pueden generar dinámicas de poder que faciliten el abuso. La ausencia de canales seguros para denunciar perpetúa estas situaciones.</li>
-          <li><strong>Conflictos de interés en la junta directiva:</strong> los órganos de gobierno del tercer sector suelen integrarse por personas con vínculos personales o profesionales previos. Sin mecanismos formales de denuncia, los conflictos de interés en contrataciones o subcontrataciones pueden pasar inadvertidos durante años.</li>
+          <li><strong>Malversación de fondos de donantes o subvenciones públicas:</strong> el uso indebido de recursos captados con fines sociales es el riesgo más grave, tanto legal como reputacionalmente. Un solo escándalo puede destruir décadas de confianza acumulada ante donantes e instituciones.</li>
+          <li><strong>Desvío de subvenciones públicas:</strong> imputar gastos no elegibles, justificar actividades que no se realizaron o desviar fondos entre proyectos sin autorización son conductas que pueden constituir delitos contra la Hacienda Pública.</li>
+          <li><strong>Fraude en justificación de proyectos europeos (FEDER/FSE):</strong> las entidades que gestionan fondos estructurales están sujetas a auditorías del Tribunal de Cuentas Europeo y de la OLAF. La detección interna mediante un canal de denuncias permite corregir antes de que lo haga el auditor externo, con consecuencias radicalmente diferentes.</li>
+          <li><strong>Conflictos de interés en el patronato:</strong> los patronos de fundaciones o los miembros de juntas directivas de asociaciones pueden tomar decisiones que beneficien a empresas o personas con las que tienen vínculos personales o económicos. Sin mecanismos formales de denuncia, estos conflictos pueden pasar inadvertidos durante años.</li>
+          <li><strong>Acoso en trabajo de campo internacional:</strong> las organizaciones que operan en contextos humanitarios o de cooperación al desarrollo enfrentan riesgos de abuso de poder en entornos con escasa supervisión externa, especialmente en misiones en el terreno. El canal debe ser accesible desde cualquier dispositivo y en los idiomas de los países de intervención.</li>
+          <li><strong>Cobros irregulares a beneficiarios:</strong> en algunos servicios sociales o programas de atención, pueden producirse cobros no autorizados o exigencias de contraprestaciones a personas en situación de vulnerabilidad. El canal permite que otros empleados o voluntarios lo comuniquen de forma segura.</li>
         </ul>
 
-        <h2 id="credibilidad-donantes">El canal de denuncias como señal de credibilidad ante donantes y financiadores</h2>
-        <p>Más allá de la obligación legal, disponer de un canal de denuncias activo y bien gestionado se ha convertido en un <strong>criterio de valoración en convocatorias de financiación pública</strong> y en un argumento de confianza ante donantes privados y empresas que realizan donaciones filantrópicas con criterios ESG.</p>
-        <p>Los grandes financiadores institucionales —Comisión Europea, convocatorias del Ministerio de Derechos Sociales, fundaciones bancarias— incluyen cada vez más en sus requisitos o en sus criterios de evaluación la existencia de sistemas internos de control y denuncia. Una entidad que puede acreditar un canal operativo, con política aprobada por la junta y responsable designado, parte con ventaja en cualquier proceso competitivo de selección.</p>
-        <p>En el caso de donantes individuales de alto valor o empresas patrocinadoras, el canal de denuncias forma parte del ecosistema de gobernanza que estas analizan antes de comprometer recursos. No tenerlo, cuando la organización supera cierto tamaño, puede generar dudas sobre la madurez institucional de la entidad.</p>
-
-        <h2 id="adaptar-canal">Cómo adaptar el canal a la realidad de una ONG</h2>
-        <p>Las ONGs presentan características organizativas que conviene tener en cuenta al diseñar el canal:</p>
+        <h2 id="marco-normativo">Marco normativo aplicable</h2>
+        <p>Las ONGs, fundaciones y asociaciones en España están sujetas a un marco normativo compuesto por varias capas que se superponen:</p>
         <ul>
-          <li><strong>Acceso para voluntarios:</strong> aunque no están obligados legalmente, incluir a los voluntarios como usuarios del canal es una buena práctica que refuerza la cultura de integridad. El canal debe ser accesible desde fuera de la intranet corporativa.</li>
-          <li><strong>Múltiples sedes o proyectos en el exterior:</strong> si la organización opera en varios países, el canal debe estar disponible en los idiomas correspondientes y permitir que las personas denunciantes identifiquen el proyecto o sede afectada sin comprometer su anonimato.</li>
-          <li><strong>Financiación pública mixta:</strong> cuando una parte significativa de los ingresos proviene de subvenciones o contratos públicos, el canal debe incluir expresamente las infracciones relacionadas con el uso de fondos públicos entre los supuestos denunciables.</li>
-          <li><strong>Recursos humanos limitados:</strong> muchas organizaciones del tercer sector no tienen departamento de cumplimiento propio. La figura del Responsable del Sistema Interno de Información (RSII) puede recaer en el director general, el responsable jurídico o un miembro de la junta. Lo importante es que esté claramente designado y sea independiente.</li>
+          <li><strong>Ley 2/2023</strong> de regulación de la protección de las personas que informen sobre infracciones normativas: obliga a implantar canal de denuncias a cualquier entidad privada con 50+ empleados, incluidas las del tercer sector.</li>
+          <li><strong>Ley 50/2002 de Fundaciones:</strong> regula el patronato, las obligaciones de gestión y la rendición de cuentas de las fundaciones. El protectorado puede exigir información sobre el funcionamiento del canal.</li>
+          <li><strong>Ley Orgánica 1/2002 de Asociaciones:</strong> marco básico para las asociaciones. La democracia interna y la transparencia en la gestión son principios que se articulan bien con la implantación de un canal de denuncias.</li>
+          <li><strong>Ley 10/2010 de prevención del blanqueo de capitales (art. 2.1.k):</strong> incluye a determinadas fundaciones como sujetos obligados PBC, con la consiguiente obligación de disponer de canales de comunicación interna sobre operaciones sospechosas supervisados por el SEPBLAC.</li>
+          <li><strong>Supervisión de la AECID y financiadores internacionales:</strong> la Agencia Española de Cooperación Internacional para el Desarrollo exige a las entidades subvencionadas sistemas de control interno. Los grandes financiadores internacionales como la DG ECHO de la Comisión Europea o la USAID han incorporado en sus convocatorias la obligación de disponer de canales de denuncia propios como condición sine qua non para ser elegibles.</li>
         </ul>
 
-        <h2 id="codigo-etico">Relación con el código ético y el plan de cumplimiento de la ONG</h2>
-        <p>El canal de denuncias no debe diseñarse como un instrumento aislado sino como parte de un sistema más amplio de integridad institucional. Las organizaciones del tercer sector que ya disponen de código ético —un documento habitual en entidades de cierto tamaño— deben <strong>integrar el canal en su arquitectura de cumplimiento</strong>:</p>
-        <ul>
-          <li>El código ético establece los valores y conductas esperadas; el canal de denuncias provee el mecanismo para reportar desviaciones.</li>
-          <li>La política del Sistema Interno de Información (SII), obligatoria conforme a la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a>, debe aprobarse por el órgano de gobierno (junta directiva o patronato) y estar alineada con el código ético.</li>
-          <li>El plan de formación anual debe incluir información sobre el canal y su funcionamiento, adaptada tanto al personal remunerado como a los voluntarios más activos.</li>
-        </ul>
-        <p>La <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> puede auditar el canal de cualquier entidad obligada, incluyendo las del tercer sector, y sancionar con multas de hasta 1 millón de euros por incumplimientos graves. El riesgo reputacional de una sanción pública es, en el caso de una ONG, potencialmente más devastador que la sanción económica en sí.</p>
+        <h2 id="transparencia-donante">Transparencia y confianza del donante</h2>
+        <p>Más allá de la obligación legal, el canal de denuncias se ha convertido en una <strong>señal de gobernanza robusta</strong> ante los actores que financian el tercer sector en España y en el exterior. Tres tendencias consolidan esta realidad:</p>
+        <p>En primer lugar, la <strong>Fundación Lealtad</strong> y las principales certificaciones de transparencia del sector nonprofit evalúan, entre otros criterios, la existencia de mecanismos de control interno y de denuncia de irregularidades. Una entidad que puede acreditar un canal operativo, con política aprobada por el patronato o junta directiva y responsable designado, obtiene una valoración diferencial en estas certificaciones.</p>
+        <p>En segundo lugar, los <strong>donantes institucionales</strong> —Comisión Europea a través de sus diferentes instrumentos, AECID, Ministerio de Derechos Sociales, fundaciones bancarias— incluyen cada vez más explícitamente en sus bases la existencia de sistemas de compliance y denuncia como requisito de elegibilidad o como criterio de valoración. Una entidad sin canal en 2026 puede quedar directamente descartada en convocatorias competitivas.</p>
+        <p>En tercer lugar, los <strong>donantes privados de alto valor</strong> y las empresas que realizan donaciones con criterios ESG o de responsabilidad corporativa analizan la gobernanza de las entidades receptoras antes de comprometer recursos. El canal de denuncias forma parte del ecosistema de gobernanza que estos donantes evalúan, al mismo nivel que la auditoría de cuentas o la composición del patronato.</p>
 
-        <h2 id="pasos-implantar">Pasos para implantar el canal en tu organización</h2>
-        <p>Si tu entidad está obligada —o decide implantar el canal de forma voluntaria—, estos son los pasos principales:</p>
+        <h2 id="como-implantar">Cómo implantar el canal en tu organización</h2>
+        <p>La implantación del canal en una ONG, fundación o asociación tiene algunas particularidades respecto al sector empresarial. Estos son los pasos recomendados:</p>
         <ol>
-          <li><strong>Designar al RSII:</strong> identifica a la persona que gestionará las denuncias. Debe tener independencia funcional y acceso al órgano de gobierno.</li>
-          <li><strong>Elegir la plataforma tecnológica:</strong> el canal debe garantizar confidencialidad y, si el denunciante lo desea, anonimato. Una herramienta SaaS como EticAlert permite estar operativo en menos de una hora sin conocimientos técnicos.</li>
-          <li><strong>Redactar y aprobar la política del SII:</strong> el órgano de gobierno debe aprobar formalmente la política. EticAlert incluye plantillas adaptables al tercer sector.</li>
-          <li><strong>Comunicar internamente:</strong> informa a empleados y, si procede, a voluntarios sobre la existencia del canal, su funcionamiento y las garantías de <a href="/blog/proteccion-informante-ley" style="color:var(--accent);">protección del informante</a>.</li>
-          <li><strong>Publicar el canal externamente:</strong> si recibes financiación pública o quieres transmitir confianza a donantes, publica el enlace al canal en tu web y en tu memoria anual.</li>
-          <li><strong>Mantener el libro-registro:</strong> cada comunicación recibida debe quedar registrada en el libro-registro, con independencia de si se instruye o no un procedimiento de investigación.</li>
+          <li><strong>Designar al responsable (RSII):</strong> en entidades sin departamento de cumplimiento propio, el responsable puede ser el director general, el responsable jurídico o un miembro independiente del patronato o junta directiva. Lo esencial es que tenga independencia funcional respecto a la persona que eventualmente podría ser denunciada. Para entidades medianas o grandes, la externalización a un despacho o plataforma especializada como EticAlert es la opción más habitual y aporta mayor credibilidad ante financiadores.</li>
+          <li><strong>Habilitar un canal anónimo para voluntarios y empleados:</strong> el canal debe ser técnicamente accesible desde cualquier dispositivo, sin necesidad de identificarse, y disponible en los idiomas en que opera la entidad. Si la organización trabaja en el exterior, la accesibilidad internacional es un requisito ineludible.</li>
+          <li><strong>Aprobar la política del Sistema Interno de Información (SII):</strong> el patronato o la junta directiva debe aprobar formalmente la política del canal. EticAlert incluye plantillas adaptadas al tercer sector que pueden personalizarse.</li>
+          <li><strong>Establecer una política expresa de no represalias:</strong> la Ley 2/2023 prohíbe cualquier represalia contra el informante, pero es recomendable que la política del SII lo recoja explícitamente y prevea un protocolo de actuación ante cualquier intento de represalia.</li>
+          <li><strong>Comunicar a empleados, voluntarios y beneficiarios si aplica:</strong> la comunicación interna debe llegar a toda la plantilla y, en su caso, a los voluntarios más activos. Si la naturaleza de la entidad lo justifica, puede extenderse el acceso a beneficiarios o ciudadanos. Toda comunicación debe quedar documentada.</li>
+          <li><strong>Mantener el libro-registro:</strong> cada comunicación recibida debe registrarse, con independencia de si se instruye investigación. El libro-registro es objeto de inspección por parte de la AIPI.</li>
         </ol>
 
+        <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
+          <strong style="color:var(--accent);">Dato clave:</strong> Una ONG o fundación puede tener el canal operativo y conforme a la Ley 2/2023 en menos de 24 horas con EticAlert. El plan Company (39 €/mes) cubre hasta 150 empleados e incluye gestión de comunicaciones, plazos automáticos y responsable externo del canal. Gratis hasta 20 empleados.
+        </div>
+
+        <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para el tercer sector</a></p>
+
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
-          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Implanta el canal de denuncias de tu ONG hoy</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert ofrece un canal conforme a la Ley 2/2023 adaptado a las necesidades del tercer sector. Gratis hasta 20 empleados · Plan Company desde 39&nbsp;€/mes para organizaciones de 50 a 150 personas.</p>
-          <a href="/registro" class="btn btn-primary">Crear mi canal de denuncias gratis →</a>
+          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa el canal adaptado a tu ONG o fundación</h3>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal conforme a la Ley 2/2023 con acceso para voluntarios, política del SII incluida y responsable externo opcional. Gratis hasta 20 empleados · desde 19 €/mes.</p>
+          <a href="/registro" class="btn btn-primary">Activar el canal de denuncias →</a>
         </div>
 
         <p>Recursos relacionados:</p>
         <ul>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
-          <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023: guía completa →</a></li>
+          <li><a href="/registro" style="color:var(--accent);">Crear mi canal de denuncias →</a></li>
+          <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa de la Ley 2/2023 →</a></li>
+          <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI y su potestad sancionadora →</a></li>
           <li><a href="/blog/proteccion-informante-ley" style="color:var(--accent);">Protección del informante: qué garantiza la ley →</a></li>
-          <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI: sanciones por incumplimiento →</a></li>
         </ul>
 
         <div class="related-articles">
           <h3>Artículos relacionados</h3>
           <div class="related-grid">
-            <a href="/blog/canal-denuncias-ayuntamientos" class="related-card">
+            <a href="/blog/canal-denuncias-colegios" class="related-card">
               <span class="blog-badge badge-sectores">Por sector</span>
-              <h4>Canal de denuncias para ayuntamientos y entidades del sector público</h4>
+              <h4>Canal de denuncias para colegios y centros educativos privados</h4>
             </a>
-            <a href="/blog/ley-2-2023-canal-de-denuncias" class="related-card">
+            <a href="/blog/canal-denuncias-sector-financiero" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para el sector financiero y bancario</h4>
+            </a>
+            <a href="/blog/proteccion-informante-ley" class="related-card">
               <span class="blog-badge badge-marco-legal">Marco legal</span>
-              <h4>Ley 2/2023: todo lo que tu empresa necesita saber</h4>
-            </a>
-            <a href="/blog/como-implantar-canal-denuncias" class="related-card">
-              <span class="blog-badge badge-guias">Guías</span>
-              <h4>Cómo implantar un canal de denuncias paso a paso</h4>
+              <h4>Protección del informante: qué garantiza la Ley 2/2023</h4>
             </a>
           </div>
         </div>

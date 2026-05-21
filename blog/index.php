@@ -46,7 +46,10 @@ include '../includes/header.php';
       {"@type":"ListItem","position":18,"url":"https://eticalert.com/blog/canal-denuncias-industria-manufactura","name":"Canal de denuncias para empresas industriales y de manufactura"},
       {"@type":"ListItem","position":19,"url":"https://eticalert.com/blog/canal-denuncias-inmobiliarias","name":"Canal de denuncias para inmobiliarias y agencias de la propiedad"},
       {"@type":"ListItem","position":20,"url":"https://eticalert.com/blog/canal-denuncias-clinicas-privadas","name":"Canal de denuncias para clínicas, hospitales privados y centros sanitarios"},
-      {"@type":"ListItem","position":21,"url":"https://eticalert.com/blog/canal-denuncias-sector-financiero","name":"Canal de denuncias para entidades financieras, aseguradoras y gestoras de fondos"}
+      {"@type":"ListItem","position":21,"url":"https://eticalert.com/blog/canal-denuncias-sector-financiero","name":"Canal de denuncias para entidades financieras, aseguradoras y gestoras de fondos"},
+      {"@type":"ListItem","position":22,"url":"https://eticalert.com/blog/canal-denuncias-ongs","name":"Canal de denuncias para ONGs, fundaciones y asociaciones en España"},
+      {"@type":"ListItem","position":23,"url":"https://eticalert.com/blog/canal-denuncias-despachos-abogados","name":"Canal de denuncias para despachos de abogados y asesorías jurídicas en España"},
+      {"@type":"ListItem","position":24,"url":"https://eticalert.com/blog/canal-denuncias-ayuntamientos","name":"Canal de denuncias para ayuntamientos y administraciones públicas en España"}
     ]
   }
 }
@@ -151,6 +154,13 @@ include '../includes/header.php';
           <h3>Canal de denuncias para asesorías y despachos profesionales</h3>
           <p>Las asesorías tienen doble oportunidad: cumplir con su propio canal y ofrecerlo como servicio a sus clientes empresariales.</p>
           <span class="blog-card-meta">17 feb 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-despachos-abogados" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para despachos de abogados y asesorías jurídicas</h3>
+          <p>Doble obligación: Ley 2/2023 y sujetos obligados PBC. Cómo gestionar el canal sin vulnerar el secreto profesional.</p>
+          <span class="blog-card-meta">22 may 2026 · 8 min lectura</span>
         </a>
 
         <a href="/blog/canal-denuncias-constructoras" class="blog-card fade-up" data-category="sectores">

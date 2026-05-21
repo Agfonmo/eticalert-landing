@@ -264,6 +264,9 @@ include 'includes/header.php';
             <li><a href="/blog/canal-denuncias-ongs" style="color:var(--accent);">Canal de denuncias para ONGs y asociaciones</a> — malversación, fraude en proyectos, tercer sector.</li>
             <li><a href="/blog/canal-denuncias-clinicas-privadas" style="color:var(--accent);">Canal de denuncias para clínicas y hospitales privados</a> — seguridad del paciente, facturación, comisiones.</li>
             <li><a href="/blog/canal-denuncias-sector-financiero" style="color:var(--accent);">Canal de denuncias para entidades financieras y aseguradoras</a> — MiFID II, MAR, abuso de mercado, mis-selling.</li>
+            <li><a href="/blog/canal-denuncias-ongs" style="color:var(--accent);">Canal de denuncias para ONGs y fundaciones</a> — malversación, fraude en proyectos europeos, supervisión de financiadores.</li>
+            <li><a href="/blog/canal-denuncias-despachos-abogados" style="color:var(--accent);">Canal de denuncias para despachos de abogados</a> — doble obligación PBC y Ley 2/2023, secreto profesional.</li>
+            <li><a href="/blog/canal-denuncias-ayuntamientos" style="color:var(--accent);">Canal de denuncias para ayuntamientos y sector público</a> — municipios +10.000 hab., contratación pública, AIPI.</li>
           </ul>
 
           <!-- ================================================== -->
