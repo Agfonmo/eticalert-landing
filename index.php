@@ -241,7 +241,7 @@ include 'includes/header.php';
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
           </div>
           <h3>Es obligatorio por ley</h3>
-          <p>La Ley 2/2023 obliga a toda empresa con 50+ empleados a tener un canal de denuncias operativo. La AIPI ya supervisa y sanciona activamente.</p>
+          <p>La <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> obliga a toda empresa con 50+ empleados a tener un canal de denuncias operativo. La <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> ya supervisa y sanciona activamente.</p>
         </div>
 
         <div class="card fade-up delay-1">
@@ -249,7 +249,7 @@ include 'includes/header.php';
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           </div>
           <h3>Las inspecciones no avisan</h3>
-          <p>La Autoridad Independiente actúa de oficio. Las empresas que se adaptan rápido superan auditorías sorpresa sin estrés y evitando multas de hasta 1.000.000 euros.</p>
+          <p>La Autoridad Independiente actúa de oficio. Las empresas que se adaptan rápido superan auditorías sorpresa sin estrés y evitando <a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">multas de hasta 1.000.000 euros</a>.</p>
         </div>
 
         <div class="card fade-up delay-2">
