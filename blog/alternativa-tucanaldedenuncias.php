@@ -118,6 +118,7 @@ include '../includes/header.php';
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Por 18€ más al año — cumplimiento legal real</h3>
           <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, roles granulares, alertas de plazos y hash verificable. Gratis hasta 20 empleados · desde 19€/mes.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
+          <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
 
         <div class="faq-section" style="margin:3rem 0;border-top:1px solid var(--border);padding-top:2rem;">

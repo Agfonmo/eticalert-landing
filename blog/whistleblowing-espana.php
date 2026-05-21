@@ -163,6 +163,7 @@ include '../includes/header.php';
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa tu sistema de whistleblowing con EticAlert</h3>
           <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal de denuncias operativo en 5 minutos, conforme a la Ley 2/2023. Anonimato real, cifrado E2E, sin registro de IP. Gratis hasta 20 empleados · desde 19€/mes. Sin técnicos ni consultores.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
+          <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
 
         <p>Recursos relacionados:</p>

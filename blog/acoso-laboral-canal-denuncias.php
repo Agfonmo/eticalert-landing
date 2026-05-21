@@ -143,6 +143,7 @@ include '../includes/header.php';
         <ul>
           <li><a href="/blog/proteccion-informante-ley" style="color:var(--accent);">Protección del informante según la Ley 2/2023 →</a></li>
           <li><a href="/blog/que-se-puede-denunciar-canal-empresa" style="color:var(--accent);">Qué se puede denunciar en el canal →</a></li>
+          <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/registro" style="color:var(--accent);">Crear mi canal de denuncias →</a></li>
           <li><a href="/blog/denuncias-falsas-consecuencias" style="color:var(--accent);">Denuncias falsas: consecuencias y gestión →</a></li>
         </ul>

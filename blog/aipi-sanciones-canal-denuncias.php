@@ -145,6 +145,7 @@ include '../includes/header.php';
 
         <p>Recursos relacionados:</p>
         <ul>
+          <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/registro" style="color:var(--accent);">Activar canal de denuncias con EticAlert →</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa Ley 2/2023 →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
