@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué ayuntamientos están obligados a tener canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Los municipios de más de 10.000 habitantes están obligados a tener canal propio desde junio de 2023. Los municipios más pequeños pueden adherirse al canal de su diputación provincial o mancomunidad. Además, todas las entidades del sector público (organismos, agencias, universidades públicas, empresas públicas) tienen obligación independientemente de su tamaño."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Quién puede denunciar en el canal de denuncias de un ayuntamiento?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El ámbito es muy amplio: funcionarios de carrera, personal laboral y eventual, exempleados, contratistas y proveedores, y también ciudadanos que en su relación con los servicios municipales hayan conocido irregularidades. Este último punto diferencia al canal de un ayuntamiento del de una empresa privada, que está pensado principalmente para personas con relación laboral o comercial."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué tipos de infracciones se pueden denunciar en un ayuntamiento?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Las más comunes son: malversación de fondos públicos, nepotismo y clientelismo en contrataciones, conflictos de interés de cargos públicos, irregularidades en licencias urbanísticas, licitaciones irregulares, corrupción en la gestión de subvenciones y acoso laboral o sexual entre funcionarios o cargos. El canal no sustituye al buzón de quejas ciudadanas sobre calidad del servicio."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

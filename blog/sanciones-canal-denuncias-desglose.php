@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué multa puede recibir una empresa por no tener canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No disponer de canal cuando se está obligado es una infracción muy grave que puede suponer multas de entre 600.001 y 1.000.000 euros para personas jurídicas y hasta 300.000 euros para personas físicas. Las infracciones graves (canal que no funciona correctamente, falta de RSII, no responder al informante en 3 meses) pueden llegar a 600.000 euros. Las infracciones leves llegan a 100.000 euros."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Pueden sancionarse personalmente los administradores por no tener canal?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. La Ley 2/2023 establece la responsabilidad personal de administradores y directivos cuando el incumplimiento derive de su negligencia o falta de supervisión. Un administrador puede enfrentarse a sanciones de hasta 300.000 euros por infracciones muy graves, adicionales a la sanción corporativa, si tomó la decisión de no implantar el canal, ignoró advertencias del RSII o aprobó decisiones que supusieran represalias."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué otras consecuencias hay más allá de las multas por incumplir la Ley 2/2023?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Las infracciones graves o muy graves pueden suponer: exclusión de la contratación pública durante hasta 3 años (devastador para constructoras y empresas de servicios), pérdida de la posibilidad de obtener subvenciones y ayudas públicas hasta 4 años, publicación de la resolución sancionadora con daño reputacional, e indemnización al informante represaliado por daños y perjuicios en vía judicial."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Están obligadas las asesorías y despachos a tener canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Si la asesoría o despacho supera los 50 empleados, está obligado a tener canal propio desde diciembre de 2023. La norma computa la media de trabajadores de los últimos 12 meses, incluyendo filiales y despachos asociados. Si tiene menos de 50 empleados no está obligado por ley, aunque implantarlo refuerza la credibilidad ante los clientes a quienes se lo recomienda."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué servicios puede ofrecer una asesoría a sus clientes en materia de canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Una asesoría preparada puede ofrecer: diagnóstico de la obligación, implantación del canal apoyándose en una plataforma SaaS, redacción de la política del SII, nombramiento y notificación del RSII a la AIPI, y gestión como RSII externo. También puede instruir denuncias complejas como servicio puntual. Es un servicio añadido para clientes existentes o captación de nuevos."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo puede una asesoría gestionar el canal de varios clientes a la vez?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Con herramientas como EticAlert es posible administrar múltiples organizaciones desde una única cuenta de partner: panel unificado, configuración independiente por cliente con su propia marca y URL, separación total de datos entre clientes y facturación consolidada. Si se gestionan cinco o más clientes, se puede acceder a condiciones especiales del programa de partners."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

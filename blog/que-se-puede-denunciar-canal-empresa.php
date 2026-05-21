@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué infracciones se pueden denunciar en el canal de denuncias de una empresa?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El canal puede recibir comunicaciones sobre: irregularidades en contratación pública y subvenciones, fraudes contables y blanqueo de capitales, seguridad de productos y alimentaria, delitos medioambientales, tratamiento ilegal de datos personales, evasión fiscal, infracciones penales como estafa o cohecho, incumplimientos de prevención de riesgos laborales, prácticas anticompetitivas y cualquier otra infracción del Derecho español o de la UE."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Se pueden denunciar quejas laborales ordinarias en el canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No en principio. El canal es para infracciones normativas que afectan al interés general, no para conflictos laborales individuales. Sin embargo, hay zonas grises importantes: el acoso laboral o sexual sí es denunciable porque implica infracción normativa y posible conducta penal. También la discriminación por razón de sexo, origen o discapacidad, y los incumplimientos graves del convenio o de las condiciones laborales."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Quién puede denunciar en el canal de denuncias de una empresa?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El ámbito es muy amplio: empleados actuales de cualquier categoría, exempleados, candidatos en proceso de selección, autónomos y trabajadores de empresas contratistas, proveedores, distribuidores, clientes, accionistas, socios, miembros del consejo de administración y voluntarios o trabajadores en prácticas. No se requieren pruebas: basta con tener indicios razonables de que los hechos son ciertos."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

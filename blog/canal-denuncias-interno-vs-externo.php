@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre el canal de denuncias interno y el externo de la AIPI?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El canal interno es el que cada organización obligada gestiona a través de su RSII; recibe denuncias de personas con relación laboral o comercial con la empresa y tiene plazo de 7 días para acusar recibo y 3 meses para informar sobre las medidas adoptadas. El canal externo es el de la AIPI, accesible a cualquier persona, con potestad sancionadora y capacidad de investigación propia."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Está el informante obligado a usar el canal interno antes de acudir a la AIPI?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. La Ley 2/2023 no establece ninguna jerarquía obligatoria entre los dos niveles. El informante puede elegir usar el canal interno, el externo de la AIPI, o ambos simultáneamente. No está obligado a agotar el canal interno antes de denunciar directamente ante la autoridad externa."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué parte del canal de denuncias puede externalizarse y qué no?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Puede externalizarse la herramienta técnica (plataforma SaaS), la instrucción de casos complejos con apoyo de asesores externos y la formación del RSII. No puede externalizarse completamente: el RSII debe ser una persona interna con independencia funcional, la decisión final sobre las medidas corresponde siempre a la organización, y la notificación a la AIPI debe identificar a una persona interna."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué criterios hay que evaluar al elegir un software de canal de denuncias?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Los criterios más relevantes para una pyme española son: conformidad con la Ley 2/2023, facilidad de activación sin consultor (self-serve), precio público y predecible, orientación a empresas de 50-250 empleados en España, seguridad y privacidad con datos en la UE y cifrado real, y soporte y documentación en castellano adaptada a la normativa española."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué software de canal de denuncias es mejor para una pyme española?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Para pymes de 50-150 empleados que necesiten cumplir rápido y sin complicaciones, EticAlert es la opción más económica del mercado: activación self-serve, precio desde 19 euros al mes, datos en la UE, cifrado AES-256 y anonimato real. Para quien ya use Sesame HR, su módulo de canal puede ser suficiente. Para empresas con necesidades de compliance más amplias, MySECway o e-CAS son alternativas a evaluar."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta Whistleblower Software comparado con EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Whistleblower Software es una plataforma danesa con buena reputación en seguridad, pero con precio orientativo desde unos 199 euros al mes y soporte principalmente en inglés o danés. EticAlert está diseñado específicamente para pymes españolas, con precio desde 19 euros al mes, plan gratuito hasta 20 empleados, documentación en español y plena adaptación a la Ley 2/2023 y la AIPI."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

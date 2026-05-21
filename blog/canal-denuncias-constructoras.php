@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Por qué el sector de la construcción es especialmente sensible a la Ley 2/2023?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Por su alta dependencia de la contratación pública, las complejas cadenas de subcontratación, los elevados riesgos laborales y el impacto medioambiental de las obras. Una constructora sin canal no solo incumple la ley: está más expuesta que otros sectores a los riesgos que el canal está diseñado para detectar, como irregularidades en licitaciones o accidentes laborales ocultos."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Quién puede denunciar en el canal de una constructora?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Además de los empleados propios, la Ley 2/2023 exige que el canal sea accesible para trabajadores de subcontratas, proveedores de materiales, autónomos con encargos en obra, y técnicos externos como arquitectos o coordinadores de seguridad. La URL del canal debe comunicarse activamente a toda la cadena de proveedores y subcontratistas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puede una constructora ser excluida de licitaciones públicas por no tener canal?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. Las infracciones graves o muy graves de la Ley 2/2023 pueden acarrear una prohibición de contratar con el sector público de hasta 3 años. Además, muchos pliegos de contratación ya exigen canal de denuncias como requisito de solvencia técnica o criterio de valoración, por lo que no tenerlo puede excluir de licitaciones incluso antes de que la AIPI sancione."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

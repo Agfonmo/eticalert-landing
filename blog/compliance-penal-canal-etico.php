@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es el compliance penal y por qué afecta a las pymes?",
+      "acceptedAnswer": {"@type": "Answer", "text": "El compliance penal es el conjunto de medidas para prevenir que empleados o directivos cometan delitos en nombre de la empresa. Su base es el artículo 31 bis del Código Penal, que establece que las personas jurídicas pueden ser responsables penalmente de delitos como cohecho, blanqueo, fraude o delitos contra los trabajadores, con consecuencias que pueden incluir multas, clausura o inhabilitación para contratar con el sector público."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es el canal de denuncias un requisito del modelo de compliance penal del art. 31 bis?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. El artículo 31 bis del Código Penal exige explícitamente que el modelo de prevención incluya un canal que permita a los empleados reportar posibles vulneraciones. Es uno de los seis pilares del modelo de prevención eficaz, junto al mapa de riesgos, los protocolos preventivos, los controles financieros, el sistema disciplinario y la verificación periódica."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cumplir la Ley 2/2023 es suficiente para el compliance penal?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No exactamente. El canal de denuncias conforme a la Ley 2/2023 cubre el cuarto pilar del modelo de compliance penal, pero el modelo completo exige también los otros cinco. Sin mapa de riesgos, protocolos preventivos, sistema disciplinario y verificación periódica, el canal solo es un buen punto de partida. Para la mayoría de pymes, empezar por el canal es la decisión correcta y más urgente."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">

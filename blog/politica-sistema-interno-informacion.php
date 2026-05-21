@@ -36,6 +36,30 @@ include '../includes/header.php';
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es la política del Sistema Interno de Información y por qué es obligatoria?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Es el documento corporativo que describe el funcionamiento del canal de denuncias: cómo se reciben y tramitan las denuncias, quién las gestiona, con qué plazos y qué protecciones tiene el informante. No es una declaración de intenciones genérica: es un documento operativo y jurídico. La AIPI puede solicitarlo en una inspección y su ausencia o contenido deficiente puede constituir infracción de la Ley 2/2023."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Quién debe aprobar la política del SII?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Debe ser aprobada formalmente por el órgano de administración de la empresa: el consejo de administración, el administrador único o equivalente. Esta aprobación convierte la política en norma corporativa de obligado cumplimiento, demuestra el compromiso de la dirección, atribuye la responsabilidad al nivel más alto y es el punto de partida para la notificación del RSII a la AIPI."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Con qué frecuencia debe revisarse la política del SII?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Al menos anualmente. También debe revisarse cuando cambie el RSII, cuando haya cambios normativos (nuevas instrucciones de la AIPI, cambios en el RGPD) o cuando la empresa cambie significativamente por fusiones, adquisiciones o apertura de nuevos países. Cada revisión debe quedar documentada con la fecha de aprobación por el órgano de administración."}
+    }
+  ]
+}
+</script>
+
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
     <div class="container">
