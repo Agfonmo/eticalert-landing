@@ -129,27 +129,27 @@ include 'includes/header.php';
       </div>
       <div class="features-grid">
         <div class="feature-card fade-up">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="eye-off"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg></div>
           <div class="feature-body"><h4>Canal anónimo</h4><p>Código de seguimiento seguro para informantes anónimos. Sin registro, sin cookies.</p></div>
         </div>
         <div class="feature-card fade-up delay-1">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="clock"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
           <div class="feature-body"><h4>Acuse automático</h4><p>Notificación al informante en 7 días. Conforme al art. 18 de la Ley 2/2023.</p></div>
         </div>
         <div class="feature-card fade-up delay-2">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="calendar-check"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg></div>
           <div class="feature-body"><h4>Control de plazos</h4><p>Alertas automáticas para el plazo de respuesta de 3 meses.</p></div>
         </div>
         <div class="feature-card fade-up">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="users"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
           <div class="feature-body"><h4>Roles y permisos</h4><p>Admin, coordinador y resolutor con acceso compartimentado.</p></div>
         </div>
         <div class="feature-card fade-up delay-1">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="file-lock"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><rect x="8" y="12" width="8" height="6" rx="1"/><path d="M10 12v-2a2 2 0 1 1 4 0v2"/></svg></div>
           <div class="feature-body"><h4>Auditoría inmutable</h4><p>Registro append-only de todas las acciones. Exportable en PDF.</p></div>
         </div>
         <div class="feature-card fade-up delay-2">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
           <div class="feature-body"><h4>Cifrado E2E</h4><p>AES-256 en tránsito y en reposo. Datos en la UE. RGPD nativo.</p></div>
         </div>
       </div>
@@ -171,5 +171,53 @@ include 'includes/header.php';
   </section>
 
 </main>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Cómo activar un canal de denuncias conforme a la Ley 2/2023",
+  "description": "Guía paso a paso para configurar y publicar un canal de denuncias profesional con EticAlert en menos de 5 minutos, sin técnicos ni consultores.",
+  "totalTime": "PT5M",
+  "tool": [{"@type": "HowToTool", "name": "EticAlert"}],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Configura tu canal en el wizard guiado",
+      "text": "Introduce los datos de tu empresa, sube tu logo, selecciona las categorías de denuncia relevantes para tu sector y designa al responsable del sistema (RSII). El proceso completo lleva menos de 5 minutos.",
+      "url": "https://eticalert.com/como-funciona#paso-1"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Publica tu canal con tu marca",
+      "text": "El denunciante accede a una página con tu logo y tus colores. Puede enviar denuncias anónimas o identificadas, adjuntar documentos y recibe un código de seguimiento seguro para consultar el estado sin revelar su identidad.",
+      "url": "https://eticalert.com/como-funciona#paso-2"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Gestiona cada caso con roles y permisos",
+      "text": "Asigna cada denuncia a coordinador o resolutor según tu estructura interna. El sistema registra automáticamente cada acción con timestamp inmutable: quién leyó, quién asignó y qué decisión se tomó.",
+      "url": "https://eticalert.com/como-funciona#paso-3"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Controla los plazos legales automáticamente",
+      "text": "EticAlert gestiona los plazos de la Ley 2/2023: acuse de recibo automático en 7 días (art. 18) y alerta proactiva antes del vencimiento de los 3 meses de resolución.",
+      "url": "https://eticalert.com/como-funciona#paso-4"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Exporta la documentación para la AIPI",
+      "text": "El registro append-only garantiza que ninguna acción puede borrarse retroactivamente. Exporta en PDF el historial completo de cualquier denuncia para entregarla a la autoridad competente.",
+      "url": "https://eticalert.com/como-funciona#paso-5"
+    }
+  ]
+}
+</script>
 
 <?php include 'includes/footer.php'; ?>

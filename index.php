@@ -238,7 +238,7 @@ include 'includes/header.php';
 
         <div class="card fade-up">
           <div class="card-icon" aria-hidden="true">
-            <i data-lucide="alert-triangle"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
           </div>
           <h3>Es obligatorio por ley</h3>
           <p>La Ley 2/2023 obliga a toda empresa con 50+ empleados a tener un canal de denuncias operativo. La AIPI ya supervisa y sanciona activamente.</p>
@@ -246,7 +246,7 @@ include 'includes/header.php';
 
         <div class="card fade-up delay-1">
           <div class="card-icon" aria-hidden="true">
-            <i data-lucide="search"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           </div>
           <h3>Las inspecciones no avisan</h3>
           <p>La Autoridad Independiente actúa de oficio. Las empresas que se adaptan rápido superan auditorías sorpresa sin estrés y evitando multas de hasta 1.000.000 euros.</p>
@@ -254,7 +254,7 @@ include 'includes/header.php';
 
         <div class="card fade-up delay-2">
           <div class="card-icon" aria-hidden="true">
-            <i data-lucide="zap"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
           </div>
           <h3>Se activa en minutos</h3>
           <p>Sin consultores, sin técnicos, sin llamadas comerciales. Configuras tu canal, publicas la URL y empiezas a operar de forma 100% legal y segura.</p>
@@ -322,7 +322,7 @@ include 'includes/header.php';
       <div class="features-grid">
 
         <div class="feature-card fade-up">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="eye-off"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg></div>
           <div class="feature-body">
             <h3>Canal anónimo</h3>
             <p>Denuncias anónimas con código de seguimiento seguro. El informante puede consultar el estado sin revelar su identidad.</p>
@@ -330,7 +330,7 @@ include 'includes/header.php';
         </div>
 
         <div class="feature-card fade-up delay-1">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="clock"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
           <div class="feature-body">
             <h3>Acuse automático</h3>
             <p>Acuse de recibo en 7 días conforme a ley. Automático, sin intervención manual.</p>
@@ -338,7 +338,7 @@ include 'includes/header.php';
         </div>
 
         <div class="feature-card fade-up delay-2">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="calendar-check"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg></div>
           <div class="feature-body">
             <h3>Control de plazos</h3>
             <p>Alertas automáticas para el plazo de 3 meses. No se te pasa ningún deadline legal.</p>
@@ -346,7 +346,7 @@ include 'includes/header.php';
         </div>
 
         <div class="feature-card fade-up">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="users"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
           <div class="feature-body">
             <h3>Roles y permisos</h3>
             <p>Admin, coordinador y resolutor. Cada rol ve solo lo que debe. Confidencialidad real.</p>
@@ -354,7 +354,7 @@ include 'includes/header.php';
         </div>
 
         <div class="feature-card fade-up delay-1">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="file-lock"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><rect x="8" y="12" width="8" height="6" rx="1"/><path d="M10 12v-2a2 2 0 1 1 4 0v2"/></svg></div>
           <div class="feature-body">
             <h3>Auditoría inmutable</h3>
             <p>Registro append-only de todas las acciones. Documentación completa para inspección.</p>
@@ -362,7 +362,7 @@ include 'includes/header.php';
         </div>
 
         <div class="feature-card fade-up delay-2">
-          <div class="feature-icon" aria-hidden="true"><i data-lucide="shield-check"></i></div>
+          <div class="feature-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
           <div class="feature-body">
             <h3>Cifrado E2E</h3>
             <p>AES-256 en tránsito y en reposo. Datos alojados en la UE. RGPD nativo.</p>
