@@ -172,6 +172,69 @@ include 'includes/header.php';
     </div>
   </section>
 
+  <!-- PRUEBA SOCIAL — CREDENCIALES Y COMPARATIVA -->
+  <section style="padding:56px 0; background:var(--bg-secondary); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+
+      <!-- Credenciales técnicas -->
+      <div class="fade-up" style="text-align:center; margin-bottom:3rem;">
+        <p style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--text-muted); margin-bottom:1.75rem;">Tecnología y cumplimiento en los que confiar</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; align-items:stretch;">
+
+          <div style="display:flex; align-items:center; gap:0.6rem; background:var(--bg-primary); border:1px solid var(--border); border-radius:10px; padding:0.75rem 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span style="font-size:0.875rem; font-weight:600; color:var(--text-primary);">Cifrado AES-256</span>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:0.6rem; background:var(--bg-primary); border:1px solid var(--border); border-radius:10px; padding:0.75rem 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <span style="font-size:0.875rem; font-weight:600; color:var(--text-primary);">RGPD cumplido</span>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:0.6rem; background:var(--bg-primary); border:1px solid var(--border); border-radius:10px; padding:0.75rem 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span style="font-size:0.875rem; font-weight:600; color:var(--text-primary);">Datos en la UE</span>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:0.6rem; background:var(--bg-primary); border:1px solid var(--border); border-radius:10px; padding:0.75rem 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span style="font-size:0.875rem; font-weight:600; color:var(--text-primary);">Adaptado Ley 2/2023 + AIPI</span>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:0.6rem; background:var(--bg-primary); border:1px solid var(--border); border-radius:10px; padding:0.75rem 1.25rem;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            <span style="font-size:0.875rem; font-weight:600; color:var(--text-primary);">Pagos seguros vía Stripe</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Comparativa de precio vs competencia -->
+      <div class="fade-up" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem; max-width:900px; margin:0 auto;">
+
+        <div style="background:var(--bg-primary); border:1px solid var(--border); border-radius:12px; padding:1.5rem;">
+          <p style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:0.5rem;">vs Sesame HR · Factorial · Personio</p>
+          <p style="font-size:1.5rem; font-weight:800; color:var(--accent); margin-bottom:0.25rem;">14x más económico</p>
+          <p style="font-size:0.875rem; color:var(--text-secondary);">Para 100 empleados: suites RRHH cobran ~550€/mes por usuario. EticAlert Company: 39€/mes precio fijo.</p>
+        </div>
+
+        <div style="background:var(--bg-primary); border:1px solid var(--border); border-radius:12px; padding:1.5rem;">
+          <p style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:0.5rem;">vs soluciones internacionales</p>
+          <p style="font-size:1.5rem; font-weight:800; color:var(--accent); margin-bottom:0.25rem;">3–5x más económico</p>
+          <p style="font-size:0.875rem; color:var(--text-secondary);">WhistleB, WBS o Whistlelink cuestan desde 99–149€/mes y no están adaptados a la normativa española.</p>
+        </div>
+
+        <div style="background:var(--bg-primary); border:1px solid var(--border); border-radius:12px; padding:1.5rem;">
+          <p style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:0.5rem;">sin fricciones de configuración</p>
+          <p style="font-size:1.5rem; font-weight:800; color:var(--accent); margin-bottom:0.25rem;">Canal en 24 horas</p>
+          <p style="font-size:0.875rem; color:var(--text-secondary);">Sin integración técnica, sin instalación, sin consultor externo. Wizard guiado: logo, categorías, RSII. Listo.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
   <!-- TABLA COMPARATIVA COMPLETA -->
   <section class="section section-alt" aria-labelledby="tabla-heading">
     <div class="container">
