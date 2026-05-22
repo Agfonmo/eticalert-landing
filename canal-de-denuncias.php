@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas | Guía completa 2026 | EticAlert';
-$page_description = 'Todo sobre el canal de denuncias obligatorio: qué es, quién debe tenerlo, requisitos legales, precios y cómo implementarlo. Guía actualizada 2026.';
+$page_title       = 'Canal de Denuncias para Empresas | Ley 2/2023 | EticAlert';
+$page_description = 'Canal de denuncias homologado, confidencial y fácil de implantar. Cumple la Ley 2/2023 desde 19€/mes o gratis hasta 20 empleados. Actívalo hoy →';
 $page_canonical   = 'https://eticalert.com/canal-de-denuncias';
 include 'includes/header.php';
 ?>

@@ -1,11 +1,11 @@
 <?php
-$page_title             = 'Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias';
-$page_description       = 'Guía completa sobre la Ley 2/2023: quién está obligado, requisitos del canal, plazos de implementación y sanciones. Actualizada en 2026.';
+$page_title             = 'Canal de Denuncias Ley 2/2023 — ¿Está Obligada Tu Empresa?';
+$page_description       = 'La Ley 2/2023 obliga a empresas con +50 trabajadores. Comprueba si debes tener canal de denuncias, qué requisitos cumplir y las multas de hasta 1M€.';
 $page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';
 $page_article_published = '2026-03-17T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-05-22T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -14,12 +14,12 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Ley 2/2023: todo lo que tu empresa necesita saber sobre el canal de denuncias",
-  "description": "Guía completa sobre la Ley 2/2023: quién está obligado, requisitos del canal, plazos y sanciones.",
+  "headline": "Canal de Denuncias Ley 2/2023 — ¿Está Obligada Tu Empresa?",
+  "description": "La Ley 2/2023 obliga a empresas con +50 trabajadores. Comprueba si debes tener canal de denuncias, qué requisitos cumplir y las multas de hasta 1M€.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/ley-2-2023-canal-de-denuncias",
   "datePublished": "2026-03-17",
-  "dateModified": "2026-05-21",
+  "dateModified": "2026-05-22",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "ley 2/2023, canal de denuncias, whistleblowing, AIPI, RSII, pymes"

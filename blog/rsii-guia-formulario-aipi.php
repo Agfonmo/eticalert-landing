@@ -1,10 +1,10 @@
 <?php
-$page_title       = 'RSII: guía práctica para designar y notificar tu responsable del canal de denuncias | EticAlert';
-$page_description = 'Guía completa sobre el RSII: qué es, cómo designarlo, cómo notificarlo a la AIPI y errores comunes. Plazo: 10 de abril de 2026.';
+$page_title       = 'RSII: Cómo Designar al Responsable del Canal de Denuncias | EticAlert';
+$page_description = 'Todo sobre el RSII: qué es, cómo designarlo y notificarlo a la AIPI. Guía actualizada mayo 2026 — qué hacer si todavía no has cumplido el plazo.';
 $page_canonical   = 'https://eticalert.com/blog/rsii-guia-formulario-aipi';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-10T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-05-22T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
