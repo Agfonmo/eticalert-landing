@@ -181,7 +181,7 @@ include 'includes/header.php';
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
       <h2 style="font-size:1.75rem;margin-bottom:1rem;">La multa mínima es 100.000 €.<br>EticAlert cuesta desde <span style="color:var(--accent);">0 €</span>.</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal de denuncias gratuito hasta 20 empleados. Desde 19 €/mes para empresas más grandes. Operativo en menos de 24 horas. Cumple la Ley 2/2023 desde hoy.</p>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal de denuncias gratuito hasta 20 empleados. Desde 19 €/mes para empresas más grandes. Operativo en 5 minutos. Cumple la Ley 2/2023 desde hoy.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal ahora →</a>
         <a href="/precios" class="btn btn-secondary btn-lg">Ver precios</a>

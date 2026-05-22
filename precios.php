@@ -226,7 +226,7 @@ include 'includes/header.php';
 
         <div style="background:var(--bg-primary); border:1px solid var(--border); border-radius:12px; padding:1.5rem;">
           <p style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); margin-bottom:0.5rem;">sin fricciones de configuración</p>
-          <p style="font-size:1.5rem; font-weight:800; color:var(--accent); margin-bottom:0.25rem;">Canal en 24 horas</p>
+          <p style="font-size:1.5rem; font-weight:800; color:var(--accent); margin-bottom:0.25rem;">Canal en 5 minutos</p>
           <p style="font-size:0.875rem; color:var(--text-secondary);">Sin integración técnica, sin instalación, sin consultor externo. Wizard guiado: logo, categorías, RSII. Listo.</p>
         </div>
 
@@ -247,7 +247,7 @@ include 'includes/header.php';
         <!-- Testimonio 1 — Siempre Energía -->
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.75rem; display:flex; flex-direction:column; gap:1.25rem;">
           <svg width="28" height="20" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en menos de 24 horas teníamos el canal activo y el RSII notificado ante la AIPI. Muy recomendable para cualquier pyme."</p>
+          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en 5 minutos teníamos el canal activo y el RSII notificado ante la AIPI. Muy recomendable para cualquier pyme."</p>
           <div style="display:flex; align-items:center; gap:1rem;">
             <div style="width:44px; height:44px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:var(--accent); flex-shrink:0;">CR</div>
             <div>

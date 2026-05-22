@@ -110,7 +110,7 @@ include '../includes/header.php';
         <p>Las sanciones por infracciones graves pueden alcanzar los 300.000 euros para los directivos responsables (art. 64 Ley 2/2023), independientemente de las sanciones que la LOTT pueda imponer por las infracciones de transporte en sí.</p>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Dato clave:</strong> EticAlert funciona desde cualquier smartphone sin necesidad de app ni correo corporativo. Una empresa de transporte con 80 conductores puede tener el canal activo y distribuir el QR para la cabina en menos de 24 horas. Plan Business (19 €/mes) para hasta 49 empleados, Plan Company (39 €/mes) hasta 150.
+          <strong style="color:var(--accent);">Dato clave:</strong> EticAlert funciona desde cualquier smartphone sin necesidad de app ni correo corporativo. Una empresa de transporte con 80 conductores puede tener el canal activo y distribuir el QR para la cabina en 5 minutos. Plan Business (19 €/mes) para hasta 49 empleados, Plan Company (39 €/mes) hasta 150.
         </div>
 
         <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para empresas del sector transporte</a></p>

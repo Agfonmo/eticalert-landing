@@ -154,7 +154,7 @@ include '../includes/header.php';
         </ol>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Dato clave:</strong> Con EticAlert, una clínica o grupo de farmacias puede tener el canal operativo y conforme a la Ley 2/2023 en menos de 24 horas, sin instalación de software ni integración técnica. El plan Company (39 €/mes) cubre hasta 150 empleados e incluye gestión de comunicaciones, plazos automáticos y soporte.
+          <strong style="color:var(--accent);">Dato clave:</strong> Con EticAlert, una clínica o grupo de farmacias puede tener el canal operativo y conforme a la Ley 2/2023 en 5 minutos, sin instalación de software ni integración técnica. El plan Company (39 €/mes) cubre hasta 150 empleados e incluye gestión de comunicaciones, plazos automáticos y soporte.
         </div>
 
         <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes y empresas sanitarias</a></p>

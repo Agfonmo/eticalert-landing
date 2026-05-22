@@ -136,7 +136,7 @@ include '../includes/header.php';
 
         <h2 id="antes-licitacion">Activar el canal antes de la próxima licitación</h2>
         <p>Si tu constructora participa habitualmente en concursos públicos, el momento ideal para activar el canal es antes de la próxima licitación. Poder presentar un canal operativo y conforme a la Ley 2/2023 en el sobre de solvencia técnica puede marcar la diferencia en procesos donde el criterio de puntuación incluya medidas de compliance o transparencia.</p>
-        <p>Con EticAlert, el canal puede estar operativo en menos de 24 horas, lo que te permite incorporarlo al próximo expediente de contratación sin demora.</p>
+        <p>Con EticAlert, el canal puede estar operativo en 5 minutos, lo que te permite incorporarlo al próximo expediente de contratación sin demora.</p>
 
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 

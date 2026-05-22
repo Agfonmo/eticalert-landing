@@ -110,7 +110,7 @@ include '../includes/header.php';
         <p>El canal de denuncias es uno de los elementos exigidos en ese modelo de prevención. Un canal activo, accesible y que se demuestra haber funcionado (registros de comunicaciones recibidas, investigadas y resueltas) es evidencia directa de que la empresa tomó medidas razonables para detectar y prevenir estos delitos. La inexistencia del canal —o la existencia de uno que nadie usa por falta de confianza— es un factor agravante en la valoración judicial del cumplimiento normativo.</p>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Dato clave:</strong> EticAlert es compatible con plantillas mixtas (con y sin correo corporativo) y funciona mediante QR desde cualquier móvil. Una fábrica con 100 empleados puede tener el canal operativo en menos de 24 horas, por 39 €/mes (Plan Company).
+          <strong style="color:var(--accent);">Dato clave:</strong> EticAlert es compatible con plantillas mixtas (con y sin correo corporativo) y funciona mediante QR desde cualquier móvil. Una fábrica con 100 empleados puede tener el canal operativo en 5 minutos, por 39 €/mes (Plan Company).
         </div>
 
         <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para empresas industriales</a></p>

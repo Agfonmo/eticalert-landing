@@ -305,7 +305,7 @@ include 'includes/header.php';
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
       <h2 style="font-size:1.75rem;margin-bottom:1rem;">Empieza gratis hoy.<br>Sin tarjeta. Sin compromiso.</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal operativo en menos de 24 horas. Si tu empresa crece, cambias de plan cuando quieras. Si tienes menos de 20 empleados, siempre gratis.</p>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal operativo en 5 minutos. Si tu empresa crece, cambias de plan cuando quieras. Si tienes menos de 20 empleados, siempre gratis.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar canal gratis →</a>
         <a href="/precios" class="btn btn-secondary btn-lg">Ver todos los planes</a>

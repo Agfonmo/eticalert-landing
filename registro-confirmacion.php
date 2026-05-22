@@ -17,7 +17,7 @@ include 'includes/header.php';
         </div>
         <h1>¡Tu canal está en camino!</h1>
         <p>Hemos recibido tu solicitud de registro para <strong style="color:var(--text-primary);"><?= $empresa ?></strong>.</p>
-        <p>En menos de 24 horas recibirás un email con tus credenciales de acceso a <strong style="color:var(--accent);">app.eticalert.com</strong> para configurar tu canal de denuncias.</p>
+        <p>En 5 minutos recibirás un email con tus credenciales de acceso a <strong style="color:var(--accent);">app.eticalert.com</strong> para configurar tu canal de denuncias.</p>
 
         <div class="confirm-steps">
           <div class="checklist-item">

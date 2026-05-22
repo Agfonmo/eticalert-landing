@@ -7,7 +7,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canal de Denuncias para Empresas — Actívalo en 24h | EticAlert</title>
+  <title>Canal de Denuncias para Empresas — Actívalo en 5 min | EticAlert</title>
   <meta name="description" content="Canal de denuncias homologado, seguro y fácil de implantar. Cumple la Ley 2/2023 desde 19€/mes o gratis hasta 20 empleados. Sin contratos ni integraciones.">
   <meta name="robots" content="noindex, nofollow">
   <link rel="canonical" href="https://eticalert.com/empezar">
@@ -69,7 +69,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
       <div class="fade-up">
         <span style="display:inline-block; background:rgba(74,222,128,0.12); color:var(--accent); font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:0.35rem 0.9rem; border-radius:99px; margin-bottom:1.25rem;">Ley 2/2023 — Canal de Denuncias obligatorio</span>
         <h1 style="font-size:clamp(2rem,5vw,3rem); line-height:1.15; margin-bottom:1.25rem;">
-          Canal de denuncias para tu empresa.<br>Actívalo en 24 horas.
+          Canal de denuncias para tu empresa.<br>Actívalo en 5 minutos.
         </h1>
         <p style="font-size:1.125rem; color:var(--text-secondary); margin-bottom:2rem; max-width:560px; margin-left:auto; margin-right:auto;">
           Cumple la Ley 2/2023 desde <strong style="color:var(--text-primary);">19€/mes</strong> o <strong style="color:var(--text-primary);">gratis hasta 20 empleados</strong>. Sin integraciones técnicas, sin contratos anuales, sin llamadas de ventas.
@@ -112,7 +112,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           </div>
           <div>
-            <p style="font-weight:700; color:var(--text-primary); margin-bottom:0.25rem;">Canal operativo en 24 horas</p>
+            <p style="font-weight:700; color:var(--text-primary); margin-bottom:0.25rem;">Canal operativo en 5 minutos</p>
             <p style="font-size:0.875rem; color:var(--text-secondary);">Wizard guiado: logo, categorías y RSII. Sin integración técnica ni consultor externo.</p>
           </div>
         </div>
@@ -142,7 +142,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
 
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
           <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en menos de 24 horas teníamos el canal activo y el RSII notificado. Muy recomendable para cualquier pyme."</p>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en 5 minutos teníamos el canal activo y el RSII notificado. Muy recomendable para cualquier pyme."</p>
           <div style="display:flex; align-items:center; gap:0.75rem;">
             <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">CR</div>
             <div style="flex:1;">
@@ -259,7 +259,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
           <button class="faq-question">¿Cuánto tiempo tarda en estar operativo?
             <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </button>
-          <div class="faq-answer"><p>Menos de 24 horas. Tras registrarte recibes acceso inmediato. El wizard de configuración te guía paso a paso: logo, categorías, RSII. Canal publicado y ley cumplida.</p></div>
+          <div class="faq-answer"><p>5 minutos. Tras registrarte recibes acceso inmediato. El wizard de configuración te guía paso a paso: logo, categorías, RSII. Canal publicado y ley cumplida.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-question">¿Hay permanencia o contrato mínimo?
@@ -289,7 +289,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
   <section class="cta-final">
     <div class="container">
       <div class="fade-up">
-        <h2>Sin excusas. Canal operativo en 24 horas.</h2>
+        <h2>Sin excusas. Canal operativo en 5 minutos.</h2>
         <p>Empieza gratis hoy. Sin tarjeta de crédito. Sin permanencia. Sin llamadas.</p>
         <a href="/registro" class="btn btn-primary btn-lg">Crear mi canal →</a>
       </div>

@@ -210,7 +210,7 @@ include 'includes/header.php';
   <!-- CTA PRINCIPAL -->
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
-      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Canal operativo en menos de 24 horas.<br>Desde <span style="color:var(--accent);">0 €</span>.</h2>
+      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Canal operativo en 5 minutos.<br>Desde <span style="color:var(--accent);">0 €</span>.</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">EticAlert te da un canal de denuncias homologado, con RSII, libro-registro y Política del SII incluidos. Cumple la Ley 2/2023 hoy.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar canal gratis →</a>
@@ -249,7 +249,7 @@ include 'includes/header.php';
 
         <details style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
           <summary style="font-weight:600;cursor:pointer;font-size:1rem;">¿Cuánto tiempo lleva implantar un canal que cumpla la ley?</summary>
-          <p style="margin-top:0.75rem;color:var(--text-secondary);margin-bottom:0;">Con EticAlert, el canal técnico está operativo en menos de 24 horas. La parte documental (Política del SII, designación formal del RSII y comunicación a la AIPI) puede completarse en una semana. No necesitas consultoría externa si usas las plantillas incluidas en el plan.</p>
+          <p style="margin-top:0.75rem;color:var(--text-secondary);margin-bottom:0;">Con EticAlert, el canal técnico está operativo en 5 minutos. La parte documental (Política del SII, designación formal del RSII y comunicación a la AIPI) puede completarse en una semana. No necesitas consultoría externa si usas las plantillas incluidas en el plan.</p>
         </details>
 
       </div>
