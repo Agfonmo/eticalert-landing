@@ -161,7 +161,8 @@ include '../includes/header.php';
         <p><strong>Indemnización al informante represaliado:</strong></p>
         <p>Si la empresa ha tomado represalias contra un informante, además de la sanción administrativa puede ser condenada a pagar una indemnización por daños y perjuicios en vía judicial. La ley presume que cualquier perjuicio laboral sufrido por un informante es consecuencia de la represalia, invirtiendo la carga de la prueba.</p>
 
-                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
+                <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/sanciones-canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Resumen ejecutivo: ¿está tu empresa en riesgo? Checklist rápido</a></p>
+        <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Evita sanciones. Activa tu canal ahora</h3>

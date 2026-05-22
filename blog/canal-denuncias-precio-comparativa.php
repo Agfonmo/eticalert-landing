@@ -181,6 +181,7 @@ include '../includes/header.php';
 
         <p>Recursos relacionados:</p>
         <ul>
+          <li><a href="/precio-canal-de-denuncias" style="color:var(--accent);">Resumen de precios: cuánto cuesta y qué incluye →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/blog/mejor-software-canal-denuncias" style="color:var(--accent);">Comparativa completa de software de canal de denuncias →</a></li>
           <li><a href="/registro" style="color:var(--accent);">Crear mi canal de denuncias →</a></li>
