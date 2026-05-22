@@ -144,7 +144,7 @@ include 'includes/header.php';
           </ul>
           <p>Se considera infracción muy grave no disponer de un canal de denuncias cuando existe obligación legal, impedir o dificultar las comunicaciones, o adoptar represalias contra el informante.</p>
           <p>Además de la sanción económica, los administradores y directivos pueden incurrir en responsabilidad personal por incumplimiento de sus deberes de diligencia y supervisión.</p>
-          <p>Consulta el <a href="/blog/sanciones-canal-denuncias-desglose">desglose completo de sanciones y tipos de infracción →</a></p>
+          <p>¿Estás en riesgo? Consulta el <a href="/sanciones-canal-de-denuncias" style="color:var(--accent);">checklist de sanciones →</a> o el <a href="/blog/sanciones-canal-denuncias-desglose">desglose completo por tipo de infracción →</a></p>
 
           <!-- ================================================== -->
           <h2 id="coste">8. ¿Cuánto cuesta un canal de denuncias?</h2>

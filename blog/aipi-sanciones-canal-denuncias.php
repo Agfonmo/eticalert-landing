@@ -149,6 +149,8 @@ include '../includes/header.php';
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa Ley 2/2023 →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
           <li><a href="/canal-de-denuncias" style="color:var(--accent);">Canal de denuncias para empresas: guía 2026 →</a></li>
+          <li><a href="/sanciones-canal-de-denuncias" style="color:var(--accent);">¿Está tu empresa en riesgo? Checklist de sanciones →</a></li>
+          <li><a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">Desglose completo de sanciones por tipo de infracción →</a></li>
         </ul>
 
       </div>

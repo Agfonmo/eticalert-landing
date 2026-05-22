@@ -141,6 +141,8 @@ include '../includes/header.php';
         <p>Recursos relacionados:</p>
         <ul>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
+          <li><a href="/canal-de-denuncias-obligatorio" style="color:var(--accent);">¿Está tu empresa obligada? Comprobador rápido →</a></li>
+          <li><a href="/sanciones-canal-de-denuncias" style="color:var(--accent);">Sanciones: ¿está tu empresa en riesgo? →</a></li>
           <li><a href="/canal-de-denuncias" style="color:var(--accent);">Guía completa sobre canal de denuncias →</a></li>
           <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI ya sanciona: cómo actuar →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
