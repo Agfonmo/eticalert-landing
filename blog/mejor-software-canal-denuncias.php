@@ -212,6 +212,7 @@ include '../includes/header.php';
         <ul>
           <li><a href="/blog/alternativa-ithikios" style="color:var(--accent);">EticAlert vs Ithikios: comparativa directa →</a></li>
           <li><a href="/blog/alternativa-whistleblower-software" style="color:var(--accent);">EticAlert vs Whistleblower Software: comparativa directa →</a></li>
+          <li><a href="/software-canal-de-denuncias" style="color:var(--accent);">Guía rápida: qué software elegir según tu empresa →</a></li>
           <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">¿Cuánto cuesta un canal de denuncias? →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/como-funciona" style="color:var(--accent);">Cómo funciona EticAlert →</a></li>
