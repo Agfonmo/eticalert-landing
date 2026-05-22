@@ -47,4 +47,13 @@ include 'includes/header.php';
   </section>
 </main>
 
+<script>
+if (typeof gtag === 'function') {
+  gtag('event', 'registro_completado', {
+    event_category: 'registro',
+    event_label:    '<?= addslashes($empresa) ?>'
+  });
+}
+</script>
+
 <?php include 'includes/footer.php'; ?>
