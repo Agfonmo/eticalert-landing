@@ -132,6 +132,58 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
   </section>
 
   <!-- ============================================================
+       TESTIMONIOS
+       ============================================================ -->
+  <section style="padding:64px 0;">
+    <div class="container">
+      <h2 style="text-align:center; margin-bottom:0.5rem;">Lo que dicen nuestros clientes</h2>
+      <p style="text-align:center; color:var(--text-secondary); margin-bottom:2.5rem;">Empresas que ya cumplen la Ley 2/2023 con EticAlert.</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.25rem;">
+
+        <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
+          <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en menos de 24 horas teníamos el canal activo y el RSII notificado. Muy recomendable para cualquier pyme."</p>
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">CR</div>
+            <div style="flex:1;">
+              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Carlos Rubio</p>
+              <p style="font-size:0.75rem; color:var(--text-muted);">CEO · Siempre Energía</p>
+            </div>
+            <img src="https://siempreenergia.com/wp-content/uploads/thegem-logos/logo_74adbe5fccad397a94f1797e320d67bc_1x.png" alt="Siempre Energía" loading="lazy" style="height:24px; width:auto; object-fit:contain; opacity:0.7; filter:grayscale(1);">
+          </div>
+        </div>
+
+        <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
+          <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Llevábamos meses buscando una solución que cumpliera la ley sin convertirse en un proyecto de implementación. EticAlert lo teníamos operativo en una tarde. Limpio, bien construido y sin sorpresas en el precio."</p>
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">AF</div>
+            <div style="flex:1;">
+              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Agustín Fontecha</p>
+              <p style="font-size:0.75rem; color:var(--text-muted);">Co-founder · Flutic</p>
+            </div>
+            <img src="https://cdn.prod.website-files.com/61f3a6add7423fda50f35248/68f4271583f453d8faf645aa_PNG%20image.png" alt="Flutic" loading="lazy" style="height:20px; width:auto; object-fit:contain; opacity:0.7; filter:grayscale(1);">
+          </div>
+        </div>
+
+        <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
+          <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"En una empresa de selección de talento la confidencialidad es crítica. EticAlert nos da canal anónimo real con cifrado AES-256 y cumplimiento total, por una fracción de lo que cobran las soluciones enterprise."</p>
+          <div style="display:flex; align-items:center; gap:0.75rem;">
+            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">JC</div>
+            <div style="flex:1;">
+              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Javier Cadierno</p>
+              <p style="font-size:0.75rem; color:var(--text-muted);">Co-founder · Tadatic</p>
+            </div>
+            <img src="https://tadatic.com/favicon.ico" alt="Tadatic" loading="lazy" style="height:28px; width:28px; object-fit:contain; opacity:0.7; filter:grayscale(1); border-radius:5px;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
        PRECIOS SIMPLIFICADOS
        ============================================================ -->
   <section style="padding:72px 0;">
