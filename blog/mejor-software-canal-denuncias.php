@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Mejor software canal de denuncias 2026 | Comparativa con precios reales';
-$page_description = 'Comparativa actualizada de los mejores software de canal de denuncias para empresas en 2026. Precios, funcionalidades y para quién es cada uno.';
+$page_description = 'Los mejores software de canal de denuncias en 2026 comparados: precios reales, funcionalidades y cuál cumple la Ley 2/2023 sin letra pequeña. Con guía para elegir →';
 $page_canonical   = 'https://eticalert.com/blog/mejor-software-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-02T00:00:00+01:00';
@@ -117,6 +117,9 @@ include '../includes/header.php';
         <p><strong>Whistleblower Software</strong></p>
         <p>Plataforma danesa con fuerte presencia en los países nórdicos y expansión en el sur de Europa. Buena reputación en seguridad y anonimato. Interfaz disponible en español. Precio público desde 199€/mes aproximadamente para organizaciones más grandes. Puede resultar caro para pymes españolas de 50-100 empleados. Documentación y soporte en inglés o danés como primera opción, con versiones en español de calidad variable.</p>
 
+        <p><strong>Navex WhistleB</strong></p>
+        <p>Suite GRC (Governance, Risk &amp; Compliance) americana orientada a grandes corporaciones con presencia multinacional. Navex integró WhistleB en su plataforma y ofrece hotline de denuncias en 60+ idiomas, gestión de políticas corporativas y formación en compliance. Precio estimado desde ~133€/mes para organizaciones pequeñas, con contratos anuales y proceso comercial largo. Sobredimensionado en precio y complejidad para una pyme española que solo necesita cumplir la Ley 2/2023. <a href="/blog/alternativa-navex-whistleb" style="color:var(--accent);">Ver comparativa detallada EticAlert vs Navex WhistleB →</a></p>
+
         <h2 id="tabla-comparativa">Tabla comparativa</h2>
         <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.875rem;">
           <thead>
@@ -186,6 +189,14 @@ include '../includes/header.php';
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Parcial</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
             </tr>
+            <tr style="background:var(--bg-tertiary);">
+              <td style="padding:0.65rem;border:1px solid var(--border);">Navex WhistleB</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);">Suite GRC enterprise</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);">Desde ~133€/mes estimado</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">No</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">No</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
+            </tr>
           </tbody>
         </table>
 
@@ -212,6 +223,7 @@ include '../includes/header.php';
         <ul>
           <li><a href="/blog/alternativa-ithikios" style="color:var(--accent);">EticAlert vs Ithikios: comparativa directa →</a></li>
           <li><a href="/blog/alternativa-whistleblower-software" style="color:var(--accent);">EticAlert vs Whistleblower Software: comparativa directa →</a></li>
+          <li><a href="/blog/alternativa-navex-whistleb" style="color:var(--accent);">EticAlert vs Navex WhistleB: comparativa directa →</a></li>
           <li><a href="/software-canal-de-denuncias" style="color:var(--accent);">Guía rápida: qué software elegir según tu empresa →</a></li>
           <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">¿Cuánto cuesta un canal de denuncias? →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>

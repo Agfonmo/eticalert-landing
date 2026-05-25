@@ -289,6 +289,7 @@ include '../includes/header.php';
         <p>Recursos relacionados:</p>
         <ul>
           <li><a href="/blog/mejor-software-canal-denuncias" style="color:var(--accent);">Comparativa completa de software de canal de denuncias en España →</a></li>
+          <li><a href="/blog/alternativa-navex-whistleb" style="color:var(--accent);">EticAlert vs Navex WhistleB: otra alternativa enterprise a evaluar →</a></li>
           <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">¿Cuánto cuesta un canal de denuncias? Precios reales 2026 →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa de la Ley 2/2023 →</a></li>
