@@ -67,12 +67,15 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
   <section style="padding:80px 0 64px; text-align:center;">
     <div class="container" style="max-width:720px;">
       <div class="fade-up">
-        <span style="display:inline-block; background:rgba(74,222,128,0.12); color:var(--accent); font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:0.35rem 0.9rem; border-radius:99px; margin-bottom:1.25rem;">Ley 2/2023 — Canal de Denuncias obligatorio</span>
+        <span style="display:inline-block; background:rgba(74,222,128,0.12); color:var(--accent); font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:0.35rem 0.9rem; border-radius:99px; margin-bottom:1.25rem;">Para RRHH, Legal y Compliance · Ley 2/2023</span>
         <h1 style="font-size:clamp(2rem,5vw,3rem); line-height:1.15; margin-bottom:1.25rem;">
-          Canal de denuncias para tu empresa.<br>Actívalo en 5 minutos.
+          El canal de denuncias que tu equipo<br>implanta solo, en 5 minutos.
         </h1>
-        <p style="font-size:1.125rem; color:var(--text-secondary); margin-bottom:2rem; max-width:560px; margin-left:auto; margin-right:auto;">
-          Cumple la Ley 2/2023 desde <strong style="color:var(--text-primary);">19€/mes</strong> o <strong style="color:var(--text-primary);">gratis hasta 20 empleados</strong>. Sin integraciones técnicas, sin contratos anuales, sin llamadas de ventas.
+        <p style="font-size:1.125rem; color:var(--text-secondary); margin-bottom:0.75rem; max-width:560px; margin-left:auto; margin-right:auto;">
+          Sin proyecto de IT. Sin consultores. Sin contratos anuales. Desde <strong style="color:var(--text-primary);">19€/mes</strong> o <strong style="color:var(--text-primary);">gratis hasta 20 empleados</strong>.
+        </p>
+        <p style="font-size:0.95rem; color:var(--text-muted); margin-bottom:2rem; max-width:480px; margin-left:auto; margin-right:auto;">
+          Listo para presentar a dirección el mismo día que lo activas.
         </p>
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal gratis →</a>
         <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.75rem;">Sin tarjeta de crédito · Cancela cuando quieras</p>
@@ -132,17 +135,51 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
   </section>
 
   <!-- ============================================================
+       RIESGO / MULTAS — ¿Qué pasa si no cumplo?
+       ============================================================ -->
+  <section style="padding:56px 0; background:rgba(239,68,68,0.04); border-top:1px solid rgba(239,68,68,0.15); border-bottom:1px solid rgba(239,68,68,0.15);">
+    <div class="container" style="max-width:820px;">
+      <div style="text-align:center; margin-bottom:2rem;">
+        <span style="display:inline-block; background:rgba(239,68,68,0.1); color:#f87171; font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:0.35rem 0.9rem; border-radius:99px; margin-bottom:1rem;">⚠ El plazo ya venció — la AIPI está operativa</span>
+        <h2 style="font-size:clamp(1.5rem,3vw,2rem); margin-bottom:0.5rem;">¿Qué pasa si tu empresa no tiene el canal?</h2>
+        <p style="color:var(--text-secondary); max-width:560px; margin:0 auto;">La Autoridad Independiente de Protección del Informante (AIPI) ya puede inspeccionar y sancionar. El plazo para empresas con más de 50 empleados venció en junio de 2023.</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.25rem;">
+
+        <div style="background:var(--bg-secondary); border:1px solid rgba(239,68,68,0.2); border-radius:14px; padding:1.5rem; text-align:center;">
+          <p style="font-size:2rem; font-weight:800; color:#f87171; margin-bottom:0.25rem;">1.000.000€</p>
+          <p style="font-weight:700; color:var(--text-primary); margin-bottom:0.35rem;">Multa máxima a la empresa</p>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Por infracción muy grave según la Ley 2/2023, art. 64.</p>
+        </div>
+
+        <div style="background:var(--bg-secondary); border:1px solid rgba(239,68,68,0.2); border-radius:14px; padding:1.5rem; text-align:center;">
+          <p style="font-size:2rem; font-weight:800; color:#f87171; margin-bottom:0.25rem;">300.000€</p>
+          <p style="font-weight:700; color:var(--text-primary); margin-bottom:0.35rem;">Multa al responsable</p>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">La sanción puede recaer directamente sobre el directivo o responsable de RRHH.</p>
+        </div>
+
+        <div style="background:var(--bg-secondary); border:1px solid rgba(239,68,68,0.2); border-radius:14px; padding:1.5rem; text-align:center;">
+          <p style="font-size:2rem; font-weight:800; color:#f87171; margin-bottom:0.25rem;">5 min</p>
+          <p style="font-weight:700; color:var(--text-primary); margin-bottom:0.35rem;">Para estar cubierto hoy</p>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Con EticAlert tienes el canal activo y el RSII notificado antes de terminar el café.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
        TESTIMONIOS
        ============================================================ -->
   <section style="padding:64px 0;">
     <div class="container">
-      <h2 style="text-align:center; margin-bottom:0.5rem;">Lo que dicen nuestros clientes</h2>
-      <p style="text-align:center; color:var(--text-secondary); margin-bottom:2.5rem;">Empresas que ya cumplen la Ley 2/2023 con EticAlert.</p>
+      <h2 style="text-align:center; margin-bottom:0.5rem;">Lo que dicen RRHH, Legal y Dirección</h2>
+      <p style="text-align:center; color:var(--text-secondary); margin-bottom:2.5rem;">Responsables que ya tienen el canal activo y la ley cubierta.</p>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.25rem;">
 
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
           <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en 5 minutos teníamos el canal activo y el RSII notificado. Muy recomendable para cualquier pyme."</p>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Sin involucrar a IT, en 5 minutos teníamos el canal activo y el RSII notificado. Lo activé yo mismo desde RRHH. Muy recomendable."</p>
           <div style="display:flex; align-items:center; gap:0.75rem;">
             <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">CR</div>
             <div style="flex:1;">
@@ -255,6 +292,12 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
       <h2 style="text-align:center; margin-bottom:2rem;">Preguntas frecuentes</h2>
 
       <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">¿Necesito involucrar a IT o a un consultor externo?
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer"><p>No. EticAlert se configura desde el navegador sin ningún conocimiento técnico. El responsable de RRHH o Legal lo activa solo: logo, categorías y RSII en un wizard guiado de 5 minutos. Cero dependencia de IT, cero consultores, cero proyecto interno.</p></div>
+        </div>
         <div class="faq-item">
           <button class="faq-question">¿Cuánto tiempo tarda en estar operativo?
             <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
