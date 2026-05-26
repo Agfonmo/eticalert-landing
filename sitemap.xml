@@ -544,7 +544,7 @@
   <!-- Prioridad baja: páginas legales -->
   <url>
     <loc>https://eticalert.com/legal</loc>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
