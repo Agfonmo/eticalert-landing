@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Guías prácticas","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Guías prácticas","item":"https://eticalert.com/blog/?cat=guias"},
     {"@type":"ListItem","position":4,"name":"Canal de denuncias gratis","item":"https://eticalert.com/blog/canal-denuncias-gratis"}
   ]
 }
@@ -74,7 +74,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Guías prácticas</a>
+        <a href="/blog/?cat=guias">Guías prácticas</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Canal de denuncias gratis</span>
       </nav>

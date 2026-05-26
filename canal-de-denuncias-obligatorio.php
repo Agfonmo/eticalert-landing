@@ -26,7 +26,7 @@ include 'includes/header.php';
       "name": "¿Qué empresas están obligadas a tener canal de denuncias?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Están obligadas por la Ley 2/2023: empresas privadas con 50 o más trabajadores (media de los últimos 12 meses), todas las entidades del sector público sin importar su tamaño, partidos políticos y sindicatos que reciban fondos públicos, fundaciones vinculadas a partidos o con financiación pública, municipios con más de 10.000 habitantes, y personas jurídicas con facturación superior a 10 millones de euros aunque tengan menos de 50 empleados."
+        "text": "Están obligadas por la Ley 2/2023: empresas privadas con 50 o más trabajadores (media de los últimos 12 meses), todas las entidades del sector público sin importar su tamaño, partidos políticos y sindicatos que reciban fondos públicos, fundaciones vinculadas a partidos o con financiación pública, y municipios con más de 10.000 habitantes. Además, independientemente del número de empleados, están obligadas las entidades reguladas por normativa sectorial: sujetos obligados PBC (asesorías fiscales, notarías, inmobiliarias, casinos…), entidades bajo normativa financiera UE (gestoras, fintech, corredurías…), operadores de transporte regulado (AOC, SOLAS) e instalaciones ambientales (SEVESO, AAI, EU ETS)."
       }
     },
     {
@@ -99,15 +99,6 @@ include 'includes/header.php';
           <div>
             <p style="margin:0;font-weight:600;font-size:1rem;">Eres entidad del sector público</p>
             <p style="margin:0.375rem 0 0;font-size:0.875rem;color:var(--text-secondary);">Administraciones, organismos autónomos, universidades públicas, municipios de más de 10.000 habitantes. Sin umbral de empleados. <strong>Obligación total.</strong></p>
-          </div>
-          <span style="flex-shrink:0;background:#dc2626;color:#fff;font-size:0.75rem;font-weight:700;padding:0.25rem 0.625rem;border-radius:100px;white-space:nowrap;">OBLIGADO</span>
-        </div>
-
-        <div style="display:flex;align-items:flex-start;gap:1rem;background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.25);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
-          <span style="font-size:1.25rem;flex-shrink:0;margin-top:1px;">💰</span>
-          <div>
-            <p style="margin:0;font-weight:600;font-size:1rem;">Facturación superior a 10 millones de euros</p>
-            <p style="margin:0.375rem 0 0;font-size:0.875rem;color:var(--text-secondary);">Aunque tengas menos de 50 empleados, si tu facturación supera 10M€ en el ejercicio anterior, la obligación aplica. <strong>Revisa tus cuentas.</strong></p>
           </div>
           <span style="flex-shrink:0;background:#dc2626;color:#fff;font-size:0.75rem;font-weight:700;padding:0.25rem 0.625rem;border-radius:100px;white-space:nowrap;">OBLIGADO</span>
         </div>

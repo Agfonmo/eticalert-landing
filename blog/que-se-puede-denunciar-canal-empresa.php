@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Guías","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Guías","item":"https://eticalert.com/blog/?cat=guias"},
     {"@type":"ListItem","position":4,"name":"Qué se puede denunciar en el canal","item":"https://eticalert.com/blog/que-se-puede-denunciar-canal-empresa"}
   ]
 }
@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Guías</a>
+        <a href="/blog/?cat=guias">Guías</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Qué se puede denunciar en el canal</span>
       </nav>
