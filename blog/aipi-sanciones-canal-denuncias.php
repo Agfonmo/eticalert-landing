@@ -30,7 +30,8 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"AIPI y sanciones","item":"https://eticalert.com/blog/aipi-sanciones-canal-denuncias"}
+    {"@type":"ListItem","position":3,"name":"Marco legal","item":"https://eticalert.com/blog/?cat=marco-legal"},
+    {"@type":"ListItem","position":4,"name":"La AIPI ya sanciona","item":"https://eticalert.com/blog/aipi-sanciones-canal-denuncias"}
   ]
 }
 </script>
@@ -68,7 +69,9 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <span>AIPI y <a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">sanciones</a></span>
+        <a href="/blog/?cat=marco-legal">Marco legal</a>
+        <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <span>La AIPI ya sanciona</span>
       </nav>
 
       <div class="article-content" style="margin:0 auto;">

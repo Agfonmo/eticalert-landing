@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"RSII y formulario AIPI","item":"https://eticalert.com/blog/rsii-guia-formulario-aipi"}
+    {"@type":"ListItem","position":3,"name":"Marco legal","item":"https://eticalert.com/blog/?cat=marco-legal"},{"@type":"ListItem","position":4,"name":"RSII y formulario AIPI","item":"https://eticalert.com/blog/rsii-guia-formulario-aipi"}
   ]
 }
 </script>
@@ -68,6 +68,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/blog/?cat=marco-legal">Marco legal</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Guía RSII</span>
       </nav>
 
