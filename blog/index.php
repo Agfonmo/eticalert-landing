@@ -52,7 +52,21 @@ include '../includes/header.php';
       {"@type":"ListItem","position":24,"url":"https://eticalert.com/blog/canal-denuncias-ayuntamientos","name":"Canal de denuncias para ayuntamientos y administraciones públicas en España"},
       {"@type":"ListItem","position":25,"url":"https://eticalert.com/blog/obligados-menos-50-empleados","name":"¿Obligado a canal de denuncias aunque tengas menos de 50 empleados?"},
       {"@type":"ListItem","position":26,"url":"https://eticalert.com/blog/canal-denuncias-sujetos-obligados-pbc","name":"Canal de denuncias para sujetos obligados PBC: asesorías, notarías, inmobiliarias"},
-      {"@type":"ListItem","position":27,"url":"https://eticalert.com/blog/canal-denuncias-medio-ambiente","name":"Canal de denuncias para empresas de medioambiente y gestión de residuos"}
+      {"@type":"ListItem","position":27,"url":"https://eticalert.com/blog/canal-denuncias-medio-ambiente","name":"Canal de denuncias para empresas de medioambiente y gestión de residuos"},
+      {"@type":"ListItem","position":28,"url":"https://eticalert.com/blog/como-saber-si-estoy-obligado-canal-denuncias","name":"¿Está mi empresa obligada a tener canal de denuncias? Guía definitiva"},
+      {"@type":"ListItem","position":29,"url":"https://eticalert.com/blog/canal-denuncias-auditores","name":"Canal de denuncias para auditores y firmas de auditoría"},
+      {"@type":"ListItem","position":30,"url":"https://eticalert.com/blog/canal-denuncias-notarias-registros","name":"Canal de denuncias para notarías y registros de la propiedad"},
+      {"@type":"ListItem","position":31,"url":"https://eticalert.com/blog/canal-denuncias-fintech","name":"Canal de denuncias para fintech reguladas: PSD2, MiCA y plataformas de financiación"},
+      {"@type":"ListItem","position":32,"url":"https://eticalert.com/blog/canal-denuncias-correduria-seguros","name":"Canal de denuncias para corredurías de seguros"},
+      {"@type":"ListItem","position":33,"url":"https://eticalert.com/blog/canal-denuncias-criptoactivos","name":"Canal de denuncias para empresas de criptoactivos: PSAV, CASP y MiCA"},
+      {"@type":"ListItem","position":34,"url":"https://eticalert.com/blog/canal-denuncias-casinos-juego","name":"Canal de denuncias para casinos y operadores de juego"},
+      {"@type":"ListItem","position":35,"url":"https://eticalert.com/blog/canal-denuncias-entidades-pago","name":"Canal de denuncias para entidades de pago y dinero electrónico"},
+      {"@type":"ListItem","position":36,"url":"https://eticalert.com/blog/canal-denuncias-subvenciones","name":"Canal de denuncias para partidos políticos, sindicatos y entidades con fondos públicos"},
+      {"@type":"ListItem","position":37,"url":"https://eticalert.com/blog/canal-denuncias-joyas-arte-antiguedades","name":"Canal de denuncias para joyerías, galerías de arte y comercio de bienes de alto valor"},
+      {"@type":"ListItem","position":38,"url":"https://eticalert.com/blog/canal-denuncias-gestoras-fondos","name":"Canal de denuncias para gestoras de fondos de inversión y capital riesgo"},
+      {"@type":"ListItem","position":39,"url":"https://eticalert.com/blog/canal-denuncias-promotores-inmobiliarios","name":"Canal de denuncias para promotores inmobiliarios"},
+      {"@type":"ListItem","position":40,"url":"https://eticalert.com/blog/canal-denuncias-quimica-petroquimica","name":"Canal de denuncias para industria química, petroquímica e instalaciones SEVESO"},
+      {"@type":"ListItem","position":41,"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","name":"Canal de denuncias para transporte aéreo y marítimo"}
     ]
   }
 }
@@ -120,6 +134,13 @@ include '../includes/header.php';
           <h3>¿Obligado a canal de denuncias aunque tengas menos de 50 empleados?</h3>
           <p>Asesorías, inmobiliarias, fintech, gestores de residuos y transporte regulado pueden estar obligados independientemente de su plantilla. Guía por sectores.</p>
           <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/como-saber-si-estoy-obligado-canal-denuncias" class="blog-card fade-up" data-category="marco-legal">
+          <span class="blog-badge badge-marco-legal">Marco legal</span>
+          <h3>¿Está mi empresa obligada a tener canal de denuncias? Guía definitiva</h3>
+          <p>Checklist interactivo con los 7 criterios de la Ley 2/2023. Tabla comparativa de todas las entidades obligadas, base legal y umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 12 min lectura</span>
         </a>
 
         <!-- SILO 2: GUÍAS PRÁCTICAS -->
@@ -460,6 +481,97 @@ include '../includes/header.php';
           <h3>Canal de denuncias para empresas de medioambiente y gestión de residuos</h3>
           <p>Gestores de residuos, instalaciones con AAI, empresas SEVESO y tratamiento de aguas: la Directiva Whistleblowing les obliga sin umbral de empleados.</p>
           <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-auditores" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para auditores y firmas de auditoría</h3>
+          <p>Los auditores inscritos en el ROAC son sujetos obligados PBC (art. 2.1.f Ley 10/2010) y deben tener canal de denuncias sin importar su tamaño.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-notarias-registros" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para notarías y registros de la propiedad</h3>
+          <p>Notarios (art. 2.1.ñ) y registradores (art. 2.1.o) de la Ley 10/2010 son sujetos obligados PBC. Canal obligatorio para toda notaría, sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-fintech" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para fintech reguladas: PSD2, MiCA y plataformas de financiación</h3>
+          <p>Fintech con licencia PSD2, startups bajo MiCA y plataformas de financiación participativa tienen obligación de canal sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-correduria-seguros" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para corredurías de seguros</h3>
+          <p>Las corredurías de seguros están reguladas por la Directiva IDD y Solvencia II. Obligación de canal sin umbral de empleados independientemente de su tamaño.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-criptoactivos" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para empresas de criptoactivos: PSAV, CASP y MiCA</h3>
+          <p>Triple obligación para las cripto: Ley 10/2010 PBC + MiCA art. 62 + Directiva Whistleblowing. Aplica desde el primer día con licencia CNMV.</p>
+          <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-casinos-juego" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para casinos y operadores de juego</h3>
+          <p>Casinos presenciales, salones de juego y operadores online con licencia DGOJ son sujetos obligados PBC (art. 2.1.g Ley 10/2010). Obligados sin umbral.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-entidades-pago" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para entidades de pago y dinero electrónico</h3>
+          <p>IPs, EMEs, remesas, cambio de moneda y wallets digitales: doble obligación vía Ley 10/2010 PBC y normativa PSD2/EMD2. Sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-subvenciones" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para partidos políticos, sindicatos y entidades con subvenciones</h3>
+          <p>Partidos (art. 10.2.d Ley 2/2023), sindicatos, organizaciones empresariales y fundaciones que reciben financiación pública están obligados sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-joyas-arte-antiguedades" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para joyerías, galerías de arte y bienes de alto valor</h3>
+          <p>Joyerías, anticuarios, galerías y subastas que realicen transacciones de 10.000€ o más son sujetos obligados PBC. Canal obligatorio sin umbral de plantilla.</p>
+          <span class="blog-card-meta">26 may 2026 · 5 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-gestoras-fondos" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para gestoras de fondos de inversión y capital riesgo</h3>
+          <p>SGIIC, SGEIC, gestoras de fondos de pensiones y ELTIF: la licencia CNMV bajo UCITS o AIFMD activa la obligación de canal sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-promotores-inmobiliarios" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para promotores inmobiliarios</h3>
+          <p>Los promotores inmobiliarios son sujetos obligados PBC (art. 2.1.ñ Ley 10/2010). Blanqueo en compraventas, compradores opacos y pagos en efectivo.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-quimica-petroquimica" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para industria química, petroquímica e instalaciones SEVESO</h3>
+          <p>Instalaciones SEVESO III, plantas con AAI y empresas bajo el régimen EU ETS están obligadas sin umbral de empleados por normativa ambiental UE.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-transporte-aereo-maritimo" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para transporte aéreo y marítimo</h3>
+          <p>Aerolíneas con certificado AOC, navieras bajo SOLAS y ferroviarias con licencia AESF están obligadas por normativa UE de seguridad del transporte, sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 6 min lectura</span>
         </a>
 
         <!-- SILO 5: CULTURA ÉTICA -->
