@@ -56,7 +56,7 @@ include 'includes/header.php';
 
         <hr style="margin:3rem 0;border:none;border-top:2px solid var(--border);">
 
-        <h1 style="margin-top:0;">Condiciones del Servicio — Contrato Mercantil de Suscripción</h1>
+        <h2 style="margin-top:0;font-size:1.5rem;">Condiciones del Servicio</h2>
         <p class="legal-date">Última actualización: 26 de mayo de 2026</p>
         <p>Las presentes Condiciones del Servicio regulan la relación contractual de naturaleza mercantil entre FONCAD GROUP, S.L. (en adelante, "EticAlert" o el "Prestador") y el Cliente que contrata el acceso a la plataforma EticAlert. La aceptación de estas condiciones se produce en el momento del registro y activación del servicio, o de la renovación del mismo.</p>
 
@@ -71,7 +71,7 @@ include 'includes/header.php';
         <h2>10. Objeto del contrato</h2>
         <p>EticAlert se obliga a poner a disposición del Cliente, mediante acceso remoto a través de internet en modalidad SaaS (<em>Software as a Service</em>), la plataforma de canal de denuncias (Sistema Interno de Información) EticAlert, conforme a las funcionalidades descritas en el plan contratado en el momento de la suscripción.</p>
         <p>El servicio incluye, según el plan contratado: la habilitación del canal de comunicación anónimo cifrado, el módulo de gestión de comunicaciones con plazos automáticos, el libro-registro electrónico, la funcionalidad de exclusión preventiva de gestores implicados y el soporte técnico mediante los canales disponibles en cada plan.</p>
-        <p>El servicio no incluye asesoramiento jurídico ni la designación del Responsable del Sistema Interno de Información (RSII), que es obligación propia del Cliente.</p>
+        <p>La designación del Responsable del Sistema Interno de Información (RSII) es una obligación propia del Cliente y no delegable en EticAlert como plataforma. El asesoramiento jurídico para la implantación del canal no está incluido en los planes de suscripción estándar, aunque puede contratarse como servicio adicional; para más información, contacta con <a href="mailto:info@eticalert.com">info@eticalert.com</a>.</p>
 
         <h2>11. Formación y perfección del contrato</h2>
         <p>El contrato se perfecciona en el momento en que el Cliente:</p>
