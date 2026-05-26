@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/?cat=comparativas"></a>
+        <a href="/blog/?cat=comparativas">Comparativas</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Mejor software canal de denuncias 2026</span>
       </nav>

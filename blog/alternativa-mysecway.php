@@ -24,7 +24,7 @@ include '../includes/header.php';
       <nav class="breadcrumb" aria-label="Migas de pan">
         <a href="/">Inicio</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/?cat=comparativas"></a><span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/blog/?cat=comparativas">Comparativas</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Alternativa a mysecway</span>
       </nav>
       <div class="article-content" style="margin:0 auto;">

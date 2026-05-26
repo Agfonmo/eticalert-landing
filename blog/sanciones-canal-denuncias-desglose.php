@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/?cat=marco-legal"></a>
+        <a href="/blog/?cat=marco-legal">Marco legal</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Sanciones canal de denuncias</span>
       </nav>

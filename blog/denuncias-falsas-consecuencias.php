@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/?cat=cultura-etica"></a>
+        <a href="/blog/?cat=cultura-etica">Cultura ética</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Denuncias falsas: consecuencias y gestión</span>
       </nav>
