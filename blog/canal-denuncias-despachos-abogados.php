@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Por sector","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Por sector","item":"https://eticalert.com/blog/?cat=sectores"},
     {"@type":"ListItem","position":4,"name":"Canal de denuncias para despachos de abogados y asesorías jurídicas","item":"https://eticalert.com/blog/canal-denuncias-despachos-abogados"}
   ]
 }
@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Por sector</a>
+        <a href="/blog/?cat=sectores">Por sector</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Canal de denuncias para despachos de abogados y asesorías jurídicas</span>
       </nav>

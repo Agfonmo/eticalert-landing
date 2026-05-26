@@ -89,9 +89,12 @@ include 'includes/header.php';
             <li><strong>Todas las entidades del sector público</strong>, con independencia de su tamaño.</li>
             <li><strong>Partidos políticos, sindicatos y organizaciones empresariales</strong> que reciban o gestionen fondos públicos.</li>
             <li><strong>Fundaciones</strong> vinculadas a partidos políticos o que reciban financiación pública.</li>
-            <li><strong>Municipios con más de 10.000 habitantes</strong>.</li>
-            <li><strong>Personas jurídicas con facturación superior a 10 millones de euros</strong> en el ejercicio anterior, aunque no alcancen el umbral de 50 empleados.</li>
+            <li><strong>Municipios con más de 10.000 habitantes</strong>, que deben disponer de su propio canal (los de menor tamaño pueden adscribirse al de la diputación o cabildo).</li>
           </ul>
+
+          <div class="callout">
+            <p><strong>¿Y si tienes menos de 50 empleados?</strong> Muchas empresas están igualmente obligadas por su sector de actividad, con independencia del número de trabajadores. Sujetos obligados por la Ley 10/2010 de prevención del blanqueo (asesorías fiscales, notarías, inmobiliarias, casinos, criptoactivos…), entidades reguladas por normativa financiera de la UE (gestoras, fintech, corredurías, entidades de pago…), operadores bajo normativa de seguridad del transporte (aerolíneas con AOC, navieras SOLAS…) e instalaciones ambientales (SEVESO, AAI, EU ETS) tienen obligación sin umbral de plantilla. <a href="/blog/obligados-menos-50-empleados" style="color:var(--accent);">Ver guía completa de empresas obligadas sin umbral de empleados →</a></p>
+          </div>
 
           <div class="callout">
             <p><strong>Grupos empresariales:</strong> Las empresas de entre 50 y 249 empleados que pertenezcan a un grupo pueden compartir un canal común. Sin embargo, cada empresa sigue siendo individualmente responsable del cumplimiento.</p>
@@ -236,7 +239,7 @@ include 'includes/header.php';
           <h2 id="como-implementar">9. Cómo implementar un canal de denuncias paso a paso</h2>
           <p>Para implementar un canal de denuncias conforme a la Ley 2/2023, los pasos fundamentales son:</p>
           <ol>
-            <li><strong>Evalúa tu obligación</strong>: confirma que tu empresa está sujeta a la Ley 2/2023 (50+ empleados, sector público, facturación &gt;10M€, etc.).</li>
+            <li><strong>Evalúa tu obligación</strong>: confirma que tu empresa está sujeta a la Ley 2/2023 (50+ empleados, sector público, o sujeto obligado por normativa sectorial). <a href="/blog/como-saber-si-estoy-obligado-canal-denuncias" style="color:var(--accent);">Usa el checklist →</a></li>
             <li><strong>Elige el tipo de canal</strong>: SaaS especializado (recomendado para pymes), desarrollo interno o solución de consultoría.</li>
             <li><strong>Designa al RSII</strong>: identifica a la persona o el órgano que será responsable del sistema, garantizando su independencia funcional.</li>
             <li><strong>Configura el canal</strong>: personaliza con logo, categorías de denuncia y datos de contacto del RSII.</li>
@@ -301,7 +304,7 @@ include 'includes/header.php';
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"¿Quién está obligado a tener canal de denuncias en España?","acceptedAnswer":{"@type":"Answer","text":"Toda empresa privada con 50 o más trabajadores, entidades del sector público, partidos políticos, sindicatos y personas jurídicas con facturación superior a 10M€, según la Ley 2/2023."}},
+    {"@type":"Question","name":"¿Quién está obligado a tener canal de denuncias en España?","acceptedAnswer":{"@type":"Answer","text":"Toda empresa privada con 50 o más trabajadores, todas las entidades del sector público, partidos políticos y sindicatos que gestionen fondos públicos, y fundaciones vinculadas a ellos, según la Ley 2/2023. Además, muchas empresas con menos de 50 empleados están obligadas por su sector: sujetos obligados PBC (asesorías fiscales, notarías, inmobiliarias, casinos…), entidades reguladas por normativa financiera UE (fintech, gestoras, corredurías) y operadores bajo normativa de seguridad del transporte o medioambiental."}},
     {"@type":"Question","name":"¿Cuánto cuesta implementar un canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Con una solución SaaS como EticAlert, desde 9€/mes para empresas de hasta 20 empleados (plan Starter), 19€/mes para empresas de 21 a 49 empleados y 39€/mes para las obligadas por ley (50-150 empleados). El desarrollo interno o la consultoría puede costar desde 15.000€."}},
     {"@type":"Question","name":"¿Qué es el RSII?","acceptedAnswer":{"@type":"Answer","text":"El Responsable del Sistema Interno de Información es la persona designada para gestionar el canal de denuncias con independencia funcional. Debe ser notificado a la AIPI."}},
     {"@type":"Question","name":"¿Cuáles son las sanciones por no tener canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Hasta 1.000.000€ para personas jurídicas y 300.000€ para personas físicas por infracciones muy graves según la Ley 2/2023."}}

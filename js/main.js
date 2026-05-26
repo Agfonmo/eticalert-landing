@@ -255,23 +255,27 @@
   ---------------------------------------------------------- */
   const filterBtns = document.querySelectorAll('.filter-btn');
   if (filterBtns.length) {
-    filterBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const filter = btn.dataset.filter;
-        // Update active state
-        filterBtns.forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
-        // Show/hide cards
-        document.querySelectorAll('.blog-card').forEach((card) => {
-          if (filter === 'all' || card.dataset.category === filter) {
-            card.style.display = '';
-            card.style.opacity = '1';
-          } else {
-            card.style.display = 'none';
-          }
-        });
+    const applyFilter = (filter) => {
+      filterBtns.forEach((b) => b.classList.remove('active'));
+      const activeBtn = document.querySelector(`.filter-btn[data-filter="${filter}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
+      document.querySelectorAll('.blog-card').forEach((card) => {
+        if (filter === 'all' || card.dataset.category === filter) {
+          card.style.display = '';
+          card.style.opacity = '1';
+        } else {
+          card.style.display = 'none';
+        }
       });
+    };
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener('click', () => applyFilter(btn.dataset.filter));
     });
+
+    // Auto-activate filter from URL param ?cat=sectores etc.
+    const urlCat = new URLSearchParams(window.location.search).get('cat');
+    if (urlCat) applyFilter(urlCat);
   }
 
   /* ----------------------------------------------------------
