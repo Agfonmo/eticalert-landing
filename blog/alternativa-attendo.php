@@ -49,7 +49,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">Attendo</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan gratuito</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Pyme hasta 49 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">49€/mes + IVA</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Pyme 50-500 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">49€/mes + IVA</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Facturación</td><td style="padding:0.75rem;border:1px solid var(--border);">Mensual o anual</td><td style="padding:0.75rem;border:1px solid var(--border);">Anual</td></tr>
@@ -116,7 +116,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Especializado en canal de denuncias — no un ticketing genérico</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Alertas automáticas de plazos, módulo RSII, cifrado AES-256-GCM. Desde 19€/mes. Gratis hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Alertas automáticas de plazos, módulo RSII, cifrado AES-256-GCM. Desde 19€/mes. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

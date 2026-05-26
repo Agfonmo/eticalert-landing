@@ -49,7 +49,10 @@ include '../includes/header.php';
       {"@type":"ListItem","position":21,"url":"https://eticalert.com/blog/canal-denuncias-sector-financiero","name":"Canal de denuncias para entidades financieras, aseguradoras y gestoras de fondos"},
       {"@type":"ListItem","position":22,"url":"https://eticalert.com/blog/canal-denuncias-ongs","name":"Canal de denuncias para ONGs, fundaciones y asociaciones en España"},
       {"@type":"ListItem","position":23,"url":"https://eticalert.com/blog/canal-denuncias-despachos-abogados","name":"Canal de denuncias para despachos de abogados y asesorías jurídicas en España"},
-      {"@type":"ListItem","position":24,"url":"https://eticalert.com/blog/canal-denuncias-ayuntamientos","name":"Canal de denuncias para ayuntamientos y administraciones públicas en España"}
+      {"@type":"ListItem","position":24,"url":"https://eticalert.com/blog/canal-denuncias-ayuntamientos","name":"Canal de denuncias para ayuntamientos y administraciones públicas en España"},
+      {"@type":"ListItem","position":25,"url":"https://eticalert.com/blog/obligados-menos-50-empleados","name":"¿Obligado a canal de denuncias aunque tengas menos de 50 empleados?"},
+      {"@type":"ListItem","position":26,"url":"https://eticalert.com/blog/canal-denuncias-sujetos-obligados-pbc","name":"Canal de denuncias para sujetos obligados PBC: asesorías, notarías, inmobiliarias"},
+      {"@type":"ListItem","position":27,"url":"https://eticalert.com/blog/canal-denuncias-medio-ambiente","name":"Canal de denuncias para empresas de medioambiente y gestión de residuos"}
     ]
   }
 }
@@ -110,6 +113,13 @@ include '../includes/header.php';
           <h3>Sanciones por no tener canal de denuncias: desglose completo por tipo de infracción</h3>
           <p>Multas de hasta 1.000.000€. Desglose completo de infracciones leves, graves y muy graves según la Ley 2/2023 y responsabilidad de los directivos.</p>
           <span class="blog-card-meta">5 mar 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/obligados-menos-50-empleados" class="blog-card fade-up" data-category="marco-legal">
+          <span class="blog-badge badge-marco-legal">Marco legal</span>
+          <h3>¿Obligado a canal de denuncias aunque tengas menos de 50 empleados?</h3>
+          <p>Asesorías, inmobiliarias, fintech, gestores de residuos y transporte regulado pueden estar obligados independientemente de su plantilla. Guía por sectores.</p>
+          <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
         </a>
 
         <!-- SILO 2: GUÍAS PRÁCTICAS -->
@@ -436,6 +446,20 @@ include '../includes/header.php';
           <h3>Canal de denuncias para entidades financieras, aseguradoras y gestoras de fondos</h3>
           <p>Doble obligación: Ley 2/2023 y normativa sectorial (MiFID II, MAR, Solvencia II, DORA). Abuso de mercado, mis-selling y blanqueo de capitales.</p>
           <span class="blog-card-meta">21 may 2026 · 9 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-sujetos-obligados-pbc" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para sujetos obligados PBC: asesorías, notarías, inmobiliarias y más</h3>
+          <p>La Ley 10/2010 de prevención del blanqueo crea una obligación de canal independiente del número de empleados. Guía para asesorías, auditores, notarías, inmobiliarias y cambio de moneda.</p>
+          <span class="blog-card-meta">26 may 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-medio-ambiente" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para empresas de medioambiente y gestión de residuos</h3>
+          <p>Gestores de residuos, instalaciones con AAI, empresas SEVESO y tratamiento de aguas: la Directiva Whistleblowing les obliga sin umbral de empleados.</p>
+          <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
         </a>
 
         <!-- SILO 5: CULTURA ÉTICA -->

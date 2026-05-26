@@ -1,6 +1,6 @@
 <?php
-$page_title             = 'Canal denuncias Sesame HR | EticAlert vs Sesame 2026';
-$page_description       = '¿El módulo de canal de denuncias de Sesame HR cumple la Ley 2/2023? Analizamos sus limitaciones y cuándo necesitas una solución especializada como EticAlert.';
+$page_title             = 'Canal de Denuncias Sesame HR: ¿Cumple la Ley 2/2023? [Análisis 2026]';
+$page_description       = 'Analizamos si el canal de denuncias de Sesame HR cumple realmente la Ley 2/2023. Limitaciones, coste real y cuándo una solución especializada hace la diferencia →';
 $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-sesame-hr';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias Sesame HR vs EticAlert — comparativa 2026';
@@ -217,7 +217,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal de denuncias especializado desde 19€/mes</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu HRIS, con cifrado real y cumplimiento legal integrado. Gratis hasta 20 empleados. Sin tarjeta de crédito para empezar.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu HRIS, con cifrado real y cumplimiento legal integrado. Starter desde 9€/mes, hasta 20 empleados. Sin tarjeta de crédito para empezar.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

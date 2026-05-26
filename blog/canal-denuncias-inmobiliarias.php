@@ -113,7 +113,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa el canal para tu empresa inmobiliaria</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal unificado Ley 2/2023 + PBC. Con categorías específicas del sector. Gratis hasta 20 empleados · desde 19 €/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal unificado Ley 2/2023 + PBC. Con categorías específicas del sector. Starter 9€/mes hasta 20 empleados · desde 19 €/mes.</p>
           <a href="/registro" class="btn btn-primary">Activar el canal de denuncias →</a>
         </div>
 

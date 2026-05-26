@@ -123,7 +123,7 @@ include '../includes/header.php';
 
         <p><strong>Opción C: Plataforma SaaS especializada</strong></p>
         <p>Usar un software en la nube diseñado específicamente para el canal de denuncias. Ventajas: activación inmediata (minutos), precio predecible y bajo (desde 19€/mes con EticAlert), requisitos técnicos cubiertos por la plataforma, actualizaciones automáticas ante cambios normativos. Inconvenientes: menor personalización que el desarrollo a medida.</p>
-        <p>Para la inmensa mayoría de las pymes obligadas, la opción SaaS es la más sensata por coste, velocidad y nivel de cumplimiento. <strong>EticAlert</strong> está diseñado específicamente para este perfil: activación en 5 minutos, gratis hasta 20 empleados y desde 19€/mes para empresas obligadas.</p>
+        <p>Para la inmensa mayoría de las pymes obligadas, la opción SaaS es la más sensata por coste, velocidad y nivel de cumplimiento. <strong>EticAlert</strong> está diseñado específicamente para este perfil: activación en 5 minutos, desde 9€/mes (Starter) para empresas pequeñas y desde 19€/mes para empresas obligadas.</p>
 
         <h2 id="paso-5">Paso 5: Configurar el canal</h2>
         <p>Una vez elegida la herramienta, hay que configurarla con los datos de tu empresa. La configuración mínima incluye:</p>
@@ -180,7 +180,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Empieza por el paso 4. Activa EticAlert en 5 minutos</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">La herramienta más sencilla para implantar tu canal conforme a la Ley 2/2023. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">La herramienta más sencilla para implantar tu canal conforme a la Ley 2/2023. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Empieza por el paso 4. Activa EticAlert en 5 minutos →</a>
         </div>
 

@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Canal de denuncias para empresas | EticAlert — Cumple la Ley 2/2023';
-$page_description = 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a la Ley 2/2023, gratis hasta 20 empleados. Sin llamadas, sin complicaciones.';
+$page_description = 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a la Ley 2/2023, desde 9€/mes. Sin llamadas, sin complicaciones.';
 $page_canonical   = 'https://eticalert.com/';
 include 'includes/header.php';
 ?>
@@ -29,11 +29,11 @@ include 'includes/header.php';
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
   "offers": [
-    {"@type":"Offer","name":"Free","price":"0","priceCurrency":"EUR","description":"Hasta 20 empleados. Gratis permanente."},
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. 19€/mes."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. 39€/mes."}
   ],
-  "description": "Plataforma SaaS de canal de denuncias para pymes españolas. Cumple la Ley 2/2023. Plan gratuito hasta 20 empleados, desde 19€/mes."
+  "description": "Plataforma SaaS de canal de denuncias para pymes españolas. Cumple la Ley 2/2023. Plan Starter desde 9€/mes, planes hasta 39€/mes."
 }
 </script>
 
@@ -385,14 +385,14 @@ include 'includes/header.php';
 
       <div class="pricing-grid">
 
-        <!-- Free -->
+        <!-- Starter -->
         <div class="pricing-card fade-up">
           <div class="pricing-header">
-            <div class="plan-name">Free</div>
+            <div class="plan-name">Starter</div>
             <div class="plan-subtitle">Hasta 20 empleados</div>
           </div>
           <div class="pricing-price">
-            <span class="price-amount">0€</span>
+            <span class="price-amount">9€</span>
             <span class="price-period">/mes</span>
           </div>
           <ul class="pricing-features">
@@ -406,8 +406,8 @@ include 'includes/header.php';
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Soporte por email</span></li>
           </ul>
           <div class="pricing-footer">
-            <a href="/registro" class="btn btn-secondary">Empezar gratis →</a>
-            <p class="pricing-note">Sin tarjeta de crédito</p>
+            <a href="/registro" class="btn btn-secondary">Activar Starter →</a>
+            <p class="pricing-note">81€/año (ahorra 27€)</p>
           </div>
         </div>
 
@@ -422,7 +422,7 @@ include 'includes/header.php';
             <span class="price-period">/mes</span>
           </div>
           <ul class="pricing-features">
-            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Todo lo incluido en Free</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Todo lo incluido en Starter</span></li>
             <li class="pricing-feature separator"><span>Mayor capacidad:</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Misma funcionalidad</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Hasta 49 empleados</span></li>
@@ -494,7 +494,7 @@ include 'includes/header.php';
             <thead>
               <tr>
                 <th>Característica</th>
-                <th>Free</th>
+                <th>Starter</th>
                 <th>Business</th>
                 <th>Company</th>
                 <th>Enterprise</th>

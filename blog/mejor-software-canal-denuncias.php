@@ -136,7 +136,7 @@ include '../includes/header.php';
             <tr>
               <td style="padding:0.65rem;border:1px solid var(--border);"><strong>EticAlert</strong></td>
               <td style="padding:0.65rem;border:1px solid var(--border);">SaaS especializado</td>
-              <td style="padding:0.65rem;border:1px solid var(--border);">Gratis hasta 20 emp. / desde 19€/mes</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);">Starter 9€/mes hasta 20 emp. / desde 19€/mes</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
@@ -215,7 +215,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">¿Quieres ver EticAlert en acción? Actívalo en 5 minutos</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">La opción más sencilla y económica para pymes españolas obligadas por la Ley 2/2023. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">La opción más sencilla y económica para pymes españolas obligadas por la Ley 2/2023. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">¿Quieres ver EticAlert en acción? Actívalo en 5 minutos →</a>
         </div>
 

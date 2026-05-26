@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":4,"name":"Alternativa a EuroCanalDenuncias","item":"https://eticalert.com/blog/alternativa-eurocanaldenuncias"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta EuroCanalDenuncias?","acceptedAnswer":{"@type":"Answer","text":"EuroCanalDenuncias tiene dos planes: LAB desde 19€/mes y PRO desde 39€/mes, más 99€ de setup inicial. EticAlert parte desde el mismo precio de 19€/mes pero sin coste de alta, con plan gratuito hasta 20 empleados y sin límite de canales."}},{"@type":"Question","name":"¿EuroCanalDenuncias tiene cifrado avanzado?","acceptedAnswer":{"@type":"Answer","text":"EuroCanalDenuncias no documenta públicamente cifrado AES-256-GCM en base de datos ni hash verificable de expedientes. EticAlert implementa cifrado AES-256-GCM en BD, URLs firmadas con TTL de 30 minutos y hash SHA-256 verificable públicamente en /verificar."}},{"@type":"Question","name":"¿Hay alternativas a EuroCanalDenuncias al mismo precio?","acceptedAnswer":{"@type":"Answer","text":"Sí. EticAlert ofrece canal de denuncias desde 19€/mes sin coste de setup (EuroCanalDenuncias cobra 99€ de alta), con plan gratuito hasta 20 empleados, cifrado avanzado en BD y hash verificable. Para el mismo precio, EticAlert incluye más garantías técnicas de cumplimiento."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta EuroCanalDenuncias?","acceptedAnswer":{"@type":"Answer","text":"EuroCanalDenuncias tiene dos planes: LAB desde 19€/mes y PRO desde 39€/mes, más 99€ de setup inicial. EticAlert parte desde el mismo precio de 19€/mes pero sin coste de alta, con plan Starter desde 9€/mes y sin límite de canales."}},{"@type":"Question","name":"¿EuroCanalDenuncias tiene cifrado avanzado?","acceptedAnswer":{"@type":"Answer","text":"EuroCanalDenuncias no documenta públicamente cifrado AES-256-GCM en base de datos ni hash verificable de expedientes. EticAlert implementa cifrado AES-256-GCM en BD, URLs firmadas con TTL de 30 minutos y hash SHA-256 verificable públicamente en /verificar."}},{"@type":"Question","name":"¿Hay alternativas a EuroCanalDenuncias al mismo precio?","acceptedAnswer":{"@type":"Answer","text":"Sí. EticAlert ofrece canal de denuncias desde 9€/mes (Starter, sin coste de setup — EuroCanalDenuncias cobra 99€ de alta), cifrado avanzado en BD y hash verificable. Para el mismo precio, EticAlert incluye más garantías técnicas de cumplimiento."}}]}
 </script>
 
 <main id="main-content">
@@ -45,7 +45,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">EuroCanalDenuncias</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan gratuito</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan entrada</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>19€/mes</strong> (sin setup)</td><td style="padding:0.75rem;border:1px solid var(--border);">19€/mes + 99€ setup</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan avanzado</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">39€/mes + 99€ setup</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Primer año (plan 39€)</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">567€ (468€ + 99€ alta)</td></tr>
@@ -113,7 +113,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Mismo precio, más garantías técnicas — sin coste de alta</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Desde 19€/mes sin setup. Cifrado en BD, hash verificable, alertas automáticas. Gratis hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Desde 19€/mes sin setup. Cifrado en BD, hash verificable, alertas automáticas. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -122,7 +122,7 @@ include '../includes/header.php';
           <h2 style="margin-bottom:1.5rem;">Preguntas frecuentes</h2>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta EuroCanalDenuncias?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">EuroCanalDenuncias tiene dos planes: LAB desde 19€/mes y PRO desde 39€/mes, más 99€ de setup inicial. EticAlert parte desde el mismo precio de 19€/mes pero sin coste de alta, con plan gratuito hasta 20 empleados y sin límite de canales.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">EuroCanalDenuncias tiene dos planes: LAB desde 19€/mes y PRO desde 39€/mes, más 99€ de setup inicial. EticAlert parte desde el mismo precio de 19€/mes pero sin coste de alta, con plan Starter desde 9€/mes y sin límite de canales.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿EuroCanalDenuncias tiene cifrado avanzado?</h3>
@@ -130,7 +130,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Hay alternativas a EuroCanalDenuncias al mismo precio?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Sí. EticAlert ofrece canal de denuncias desde 19€/mes sin coste de setup (EuroCanalDenuncias cobra 99€ de alta), con plan gratuito hasta 20 empleados, cifrado avanzado en BD y hash verificable. Para el mismo precio, EticAlert incluye más garantías técnicas de cumplimiento.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Sí. EticAlert ofrece canal de denuncias desde 9€/mes (Starter, sin coste de setup — EuroCanalDenuncias cobra 99€ de alta), cifrado avanzado en BD y hash verificable. Para el mismo precio, EticAlert incluye más garantías técnicas de cumplimiento.</p>
           </div>
         </div>
 

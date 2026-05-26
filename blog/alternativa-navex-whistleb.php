@@ -46,7 +46,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">Navex WhistleB</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan gratuito</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Pyme hasta 500 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">~133€/mes estimado</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Modelo de precios</td><td style="padding:0.75rem;border:1px solid var(--border);">Público, sin compromiso</td><td style="padding:0.75rem;border:1px solid var(--border);">A consultar, contrato anual</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Prueba gratuita</td><td style="padding:0.75rem;border:1px solid var(--border);">15 días sin tarjeta</td><td style="padding:0.75rem;border:1px solid var(--border);">Demo bajo solicitud</td></tr>

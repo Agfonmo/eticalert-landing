@@ -419,6 +419,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://eticalert.com/blog/obligados-menos-50-empleados</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-sujetos-obligados-pbc</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://eticalert.com/blog/canal-denuncias-medio-ambiente</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <url>
     <loc>https://eticalert.com/blog/canal-denuncias-ongs</loc>

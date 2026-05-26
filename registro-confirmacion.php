@@ -48,12 +48,28 @@ include 'includes/header.php';
 </main>
 
 <script>
-if (typeof gtag === 'function') {
-  gtag('event', 'registro_completado', {
-    event_category: 'registro',
-    event_label:    '<?= addslashes($empresa) ?>'
-  });
-}
+// Disparar registro_completado cuando GA4 esté inicializado
+// (el script de GA4 se carga diferido en window.load, por eso usamos el mismo evento)
+(function() {
+  function fireConversion() {
+    if (typeof gtag === 'function') {
+      gtag('event', 'registro_completado', {
+        event_category: 'registro',
+        event_label:    '<?= addslashes($empresa) ?>'
+      });
+    }
+  }
+  // Si GA4 ya está cargado (caché), disparar inmediatamente
+  // Si no, esperar al evento load para que gtag('config',...) se haya ejecutado
+  if (document.readyState === 'complete') {
+    // Pequeño delay para asegurar que gtag('config') ya procesó el dataLayer
+    setTimeout(fireConversion, 200);
+  } else {
+    window.addEventListener('load', function() {
+      setTimeout(fireConversion, 200);
+    });
+  }
+})();
 </script>
 
 <?php include 'includes/footer.php'; ?>

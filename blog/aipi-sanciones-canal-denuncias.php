@@ -139,7 +139,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">No esperes a la sanción. Activa tu canal hoy.</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert te da un canal de denuncias operativo en 5 minutos. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert te da un canal de denuncias operativo en 5 minutos. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

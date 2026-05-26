@@ -8,7 +8,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Canal de Denuncias para Empresas — Actívalo en 5 min | EticAlert</title>
-  <meta name="description" content="Canal de denuncias homologado, seguro y fácil de implantar. Cumple la Ley 2/2023 desde 19€/mes o gratis hasta 20 empleados. Sin contratos ni integraciones.">
+  <meta name="description" content="Canal de denuncias homologado, seguro y fácil de implantar. Cumple la Ley 2/2023 desde 9€/mes. Sin contratos ni integraciones. Actívalo en 5 minutos.">
   <meta name="robots" content="noindex, nofollow">
   <link rel="canonical" href="https://eticalert.com/empezar">
   <link rel="stylesheet" href="/css/styles.css">
@@ -72,13 +72,13 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
           El canal de denuncias que tu equipo<br>implanta solo, en 5 minutos.
         </h1>
         <p style="font-size:1.125rem; color:var(--text-secondary); margin-bottom:0.75rem; max-width:560px; margin-left:auto; margin-right:auto;">
-          Sin proyecto de IT. Sin consultores. Sin contratos anuales. Desde <strong style="color:var(--text-primary);">19€/mes</strong> o <strong style="color:var(--text-primary);">gratis hasta 20 empleados</strong>.
+          Sin proyecto de IT. Sin consultores. Sin contratos anuales. Desde <strong style="color:var(--text-primary);">9€/mes</strong>.
         </p>
         <p style="font-size:0.95rem; color:var(--text-muted); margin-bottom:2rem; max-width:480px; margin-left:auto; margin-right:auto;">
           Listo para presentar a dirección el mismo día que lo activas.
         </p>
-        <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal gratis →</a>
-        <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.75rem;">Sin tarjeta de crédito · Cancela cuando quieras</p>
+        <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
+        <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.75rem;">15 días de prueba gratuita · Cancela cuando quieras</p>
       </div>
     </div>
   </section>
@@ -232,13 +232,13 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
 
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.25rem; max-width:860px; margin:0 auto;" class="fade-up">
 
-        <!-- Free -->
+        <!-- Starter -->
         <div style="border:1px solid var(--border); border-radius:16px; padding:1.75rem; background:var(--bg-secondary);">
-          <p style="font-weight:700; font-size:1.125rem; margin-bottom:0.25rem;">Free</p>
+          <p style="font-weight:700; font-size:1.125rem; margin-bottom:0.25rem;">Starter</p>
           <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">Hasta 20 empleados</p>
-          <p style="font-size:2.5rem; font-weight:800; color:var(--text-primary); margin-bottom:1.5rem;">0€<span style="font-size:1rem; font-weight:400; color:var(--text-muted);">/mes</span></p>
-          <a href="/registro" class="btn btn-secondary" style="width:100%; text-align:center; display:block;">Empezar gratis →</a>
-          <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-top:0.5rem;">Sin tarjeta de crédito</p>
+          <p style="font-size:2.5rem; font-weight:800; color:var(--text-primary); margin-bottom:1.5rem;">9€<span style="font-size:1rem; font-weight:400; color:var(--text-muted);">/mes</span></p>
+          <a href="/registro" class="btn btn-secondary" style="width:100%; text-align:center; display:block;">Activar Starter →</a>
+          <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-top:0.5rem;">81€/año · Sin permanencia</p>
         </div>
 
         <!-- Business -->
@@ -317,10 +317,10 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
           <div class="faq-answer"><p>Puedes hacer upgrade al plan superior en cualquier momento desde tu panel de administración. El cambio se aplica al siguiente ciclo de facturación.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-question">¿Es realmente gratis el plan Free?
+          <button class="faq-question">¿Puedo probar EticAlert antes de pagar?
             <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
           </button>
-          <div class="faq-answer"><p>Sí. 0€/mes para empresas de hasta 20 empleados, sin tarjeta de crédito y con funcionalidad completa. No hay truco: queremos que pruebes el producto antes de pagar.</p></div>
+          <div class="faq-answer"><p>Sí. Todos los planes incluyen 15 días de prueba gratuita con funcionalidad completa. No necesitas tarjeta de crédito para empezar.</p></div>
         </div>
       </div>
     </div>
@@ -333,7 +333,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
     <div class="container">
       <div class="fade-up">
         <h2>Sin excusas. Canal operativo en 5 minutos.</h2>
-        <p>Empieza gratis hoy. Sin tarjeta de crédito. Sin permanencia. Sin llamadas.</p>
+        <p>15 días de prueba gratuita. Sin permanencia. Sin llamadas.</p>
         <a href="/registro" class="btn btn-primary btn-lg">Crear mi canal →</a>
       </div>
     </div>

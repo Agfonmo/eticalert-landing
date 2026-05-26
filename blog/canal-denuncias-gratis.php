@@ -1,10 +1,10 @@
 <?php
-$page_title       = 'Canal de denuncias gratis | Plan gratuito para empresas con hasta 20 empleados';
-$page_description = '¿Existe un canal de denuncias realmente gratis? Sí: EticAlert ofrece plan gratuito permanente hasta 20 empleados. Te explicamos qué incluye y cuándo necesitas uno de pago.';
+$page_title       = 'Canal de denuncias gratis: prueba 15 días | EticAlert desde 9€/mes';
+$page_description = '¿Buscas un canal de denuncias gratis? EticAlert ofrece 15 días de prueba gratuita y el plan más económico del mercado: Starter desde 9€/mes. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-gratis';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-05-26T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
@@ -12,15 +12,15 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Canal de denuncias gratis: plan gratuito permanente para empresas de hasta 20 empleados",
-  "description": "¿Existe un canal de denuncias realmente gratis? Sí: EticAlert ofrece plan gratuito permanente hasta 20 empleados. Te explicamos qué incluye y cuándo necesitas uno de pago.",
+  "headline": "Canal de denuncias gratis: lo que nadie te cuenta (y la alternativa real desde 9€/mes)",
+  "description": "¿Buscas un canal de denuncias gratis? Te explicamos qué incluyen realmente los planes gratuitos del mercado, sus riesgos legales y por qué EticAlert Starter a 9€/mes es la opción más económica con cumplimiento real.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-gratis",
   "datePublished": "2026-05-21",
-  "dateModified": "2026-05-21",
+  "dateModified": "2026-05-26",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
-  "keywords": "canal de denuncias gratis, canal denuncias gratuito, canal denuncias sin coste, canal denuncias pequeña empresa"
+  "keywords": "canal de denuncias gratis, canal denuncias precio, canal denuncias barato, canal denuncias pequeña empresa, canal denuncias 9 euros"
 }
 </script>
 <script type="application/ld+json">
@@ -43,18 +43,23 @@ include '../includes/header.php';
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿EticAlert tiene un canal de denuncias gratis de verdad?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sí. EticAlert ofrece un plan gratuito permanente para empresas con hasta 20 empleados. No hay periodo de prueba, no caduca y no requiere tarjeta de crédito. Incluye el canal funcional completo: formulario configurable, anonimato real, libro-registro automático, acuses de recibo y cifrado AES-256. Es gratuito para siempre mientras la plantilla no supere los 20 trabajadores."}
+      "name": "¿Existe un canal de denuncias gratis de verdad?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No existe ningún canal de denuncias permanentemente gratuito que cumpla todos los requisitos técnicos y legales de la Ley 2/2023. Lo que sí existe es la prueba gratuita de 15 días de EticAlert (sin tarjeta de crédito) y el plan Starter a 9€/mes, el más económico del mercado con cumplimiento legal completo."}
     },
     {
       "@type": "Question",
-      "name": "¿Qué pasa cuando supero los 20 empleados?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Cuando tu plantilla supera los 20 empleados puedes actualizar al plan Business por 19 euros al mes (válido para empresas de 21 a 49 empleados). El canal sigue activo durante la transición y conservas todos los datos e historial de denuncias. No hay pérdida de información ni interrupción del servicio."}
+      "name": "¿Cuánto cuesta el canal de denuncias más barato que cumple la ley?",
+      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert Starter cuesta 9€/mes (o 81€/año) para empresas de hasta 20 empleados. Incluye canal anónimo, cifrado AES-256, control de plazos legales, libro-registro y cumplimiento completo de la Ley 2/2023. Es el precio más bajo del mercado con todas las garantías técnicas."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo probar el canal de denuncias antes de pagar?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí. EticAlert ofrece 15 días de prueba gratuita con acceso a todas las funcionalidades. No se requiere tarjeta de crédito para empezar. Tras el periodo de prueba, puedes elegir el plan que mejor se adapta a tu empresa: Starter (9€/mes), Business (19€/mes) o Company (39€/mes)."}
     },
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta el canal de denuncias para empresas de 50 empleados?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Para empresas de entre 50 y 150 empleados, EticAlert ofrece el plan Company por 39 euros al mes. Incluye todas las funcionalidades del plan gratuito más múltiples usuarios RSII, exportación del libro-registro en PDF, URL personalizada y soporte por email prioritario. No hay coste por usuario ni tarifa de implantación."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Para empresas de entre 50 y 150 empleados, EticAlert ofrece el plan Company por 39 euros al mes (390€/año). Incluye todas las funcionalidades del plan Starter más múltiples usuarios RSII, exportación del libro-registro en PDF, URL personalizada y soporte por email prioritario. No hay coste por usuario ni tarifa de implantación."}
     }
   ]
 }
@@ -77,94 +82,149 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
 
         <span class="blog-badge badge-guias">Guías prácticas</span>
-        <h1>Canal de denuncias gratis: todo lo que necesitas saber antes de activar el tuyo</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 9 minutos de lectura</p>
+        <h1>Canal de denuncias "gratis": lo que nadie te cuenta (y la alternativa real desde 9€/mes)</h1>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 8 minutos de lectura</p>
         <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-21">21 de mayo de 2026</time> por el equipo de EticAlert</p>
 
-        <p>Cuando una empresa descubre que la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> le obliga a disponer de un canal de denuncias, la primera reacción suele ser preguntarse cuánto va a costar. La respuesta sorprende a muchos: si tienes hasta 20 empleados, puede costarte exactamente cero euros. No es un periodo de prueba, no hay letra pequeña. Es un plan gratuito permanente. En este artículo explicamos en qué consiste, para quién es suficiente y qué deberías mirar antes de elegir cualquier solución que se anuncie como gratuita.</p>
+        <p>Buscar un canal de denuncias gratis es comprensible. La <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> impone una obligación y la primera reacción es minimizar el coste. El problema es que los canales "gratuitos" del mercado suelen esconder limitaciones técnicas o legales que pueden convertirse en un incumplimiento mucho más caro que los 9€/mes del plan más económico. En este artículo explicamos qué hay detrás de esas promesas y cuál es la alternativa real más barata.</p>
 
         <h2 id="existe-canal-gratis">¿Existe realmente un canal de denuncias gratis?</h2>
 
-        <p>La respuesta corta es sí, pero con matices que merece la pena entender. Algunos proveedores usan la palabra "gratis" para referirse a un periodo de prueba de 14 o 30 días; pasado ese tiempo, el canal se desactiva o pasa a ser de pago. Otros ofrecen un plan gratuito tan limitado que apenas cubre los requisitos mínimos legales.</p>
-
-        <p>EticAlert ofrece un plan gratuito genuino: sin fecha de caducidad, sin tarjeta de crédito requerida y con todas las funcionalidades activas. El único límite es el número de empleados de la empresa: hasta 20 trabajadores, el plan es gratuito para siempre.</p>
-
-        <p>¿Por qué este modelo? Porque la ley establece la obligación de canal a partir de determinados umbrales de plantilla, y las microempresas con menos de 20 trabajadores merecen poder cumplir sin que el coste sea una barrera. La obligación legal existe, la herramienta no tiene por qué costar dinero.</p>
-
-        <h2 id="que-incluye">Qué incluye el plan gratuito de EticAlert</h2>
-
-        <p>Una preocupación frecuente con los planes gratuitos es que se recortan funcionalidades clave. En el plan Free de EticAlert están activas todas las siguientes:</p>
-
-        <ul>
-          <li><strong>Canal de denuncias completamente funcional</strong> con formulario configurable: puedes adaptar los campos, el texto de bienvenida y las categorías de denuncia a las necesidades de tu empresa.</li>
-          <li><strong>Anonimato real para el informante.</strong> El sistema no registra ni almacena datos que puedan identificar al denunciante si este elige la vía anónima. El cifrado garantiza que ni siquiera los administradores de la plataforma pueden vincular una denuncia a una persona concreta.</li>
-          <li><strong>Libro-registro automático del <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>.</strong> Cada denuncia recibida queda anotada automáticamente con la fecha, la categoría y el estado, cumpliendo con el requisito de registro que exige la ley sin trabajo manual adicional.</li>
-          <li><strong>Acuses de recibo automáticos.</strong> Cuando se recibe una denuncia, el sistema envía el acuse de recibo en el plazo de 7 días que exige la normativa, sin intervención manual.</li>
-          <li><strong>Gestión del estado de la denuncia.</strong> El responsable del canal puede actualizar el estado de cada expediente (recibida, en investigación, archivada, resuelta) y comunicarse con el denunciante a través del canal seguro.</li>
-          <li><strong>Cifrado AES-256 y datos almacenados en la UE.</strong> El almacenamiento cumple con el Reglamento General de Protección de Datos y la normativa europea de ciberseguridad.</li>
-          <li><strong>Actualizaciones normativas automáticas.</strong> Cuando la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> publica nuevas instrucciones o criterios de interpretación, la plataforma se actualiza sin coste adicional ni intervención del cliente.</li>
-        </ul>
-
-        <p>En resumen: el plan gratuito no es una versión reducida. Es el canal completo para empresas pequeñas.</p>
-
-        <h2 id="para-quien">Para quién es suficiente el plan gratuito</h2>
-
-        <p>El plan gratuito está pensado para empresas con <strong>hasta 20 empleados</strong>. En este segmento se encuentran la mayoría de las microempresas y pequeñas empresas españolas: clínicas, despachos profesionales, pequeñas constructoras, comercios con varios trabajadores, asesorías y consultoras de tamaño reducido.</p>
-
-        <p>La ley no discrimina por tamaño: si tienes la obligación, tienes la obligación. Y aunque la Ley 2/2023 establece distintos umbrales de aplicación según el número de empleados, muchas empresas con menos de 50 trabajadores están igualmente obligadas por pertenecer a determinados sectores regulados (servicios financieros, entidades del sector público, empresas con contratos públicos relevantes) o por haber adoptado voluntariamente un programa de compliance.</p>
-
-        <p>Para estas empresas, el plan gratuito proporciona todo lo necesario: un canal operativo desde el primer día, conforme a la ley y sin coste recurrente.</p>
-
-        <h2 id="cuando-necesitas-pago">Cuándo necesitas un plan de pago</h2>
-
-        <p>El plan gratuito tiene un único límite real: la plantilla. Cuando la empresa supera los 20 empleados, es necesario actualizar a un plan de pago. Los motivos son dos:</p>
+        <p>La respuesta honesta es no — no con todas las garantías que exige la ley. Los proveedores que anuncian un canal "gratis" suelen referirse a una de estas tres cosas:</p>
 
         <ol>
-          <li><strong>Obligación legal expresa.</strong> Las empresas de 50 o más trabajadores tienen obligación directa de canal de denuncias según la Ley 2/2023. Las de entre 21 y 49 empleados también pueden estar obligadas según su sector. En cualquier caso, la plantilla creciente suele coincidir con una mayor exposición legal.</li>
-          <li><strong>Necesidades operativas más complejas.</strong> Una empresa con 30, 50 o 100 empleados necesita habitualmente múltiples usuarios con acceso al canal (varios miembros del RSII), exportación documental en PDF para auditorías, URL del canal personalizada con el dominio de la empresa y soporte técnico con respuesta garantizada.</li>
+          <li><strong>Un periodo de prueba con fecha de caducidad.</strong> 14 o 30 días de acceso completo y después pago o desactivación. No es un plan gratuito: es un trial.</li>
+          <li><strong>Un plan permanente con funcionalidades recortadas.</strong> Sin cifrado en base de datos, sin plazos automáticos o sin libro-registro. Cumple técnicamente "tener canal" pero no "tener canal conforme a la ley".</li>
+          <li><strong>Una herramienta genérica repropuesta como canal de denuncias.</strong> Formularios de contacto, buzones de correo o plataformas de ticketing rebautizados. No garantizan anonimato real ni cumplen los requisitos técnicos de la AIPI.</li>
         </ol>
 
-        <p>EticAlert ofrece dos planes de pago diseñados para pymes:</p>
+        <p>El coste de usar una solución insuficiente no es cero: es una <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">sanción de hasta 600.000€</a> por canal que "no cumple los requisitos" y hasta 1.000.000€ por no tener canal obligatorio.</p>
+
+        <h2 id="starter-9-euros">La alternativa real: EticAlert Starter a 9€/mes</h2>
+
+        <p>EticAlert Starter es el canal de denuncias homologado más económico del mercado español: <strong>9€/mes</strong> (o <strong>81€/año</strong> pagando anualmente, que equivale a 3 meses gratis).</p>
+
+        <p>¿Qué incluye por ese precio?</p>
 
         <ul>
-          <li><strong>Plan Business — 19€/mes:</strong> para empresas de 21 a 49 empleados. Incluye todo lo del plan gratuito más múltiples usuarios RSII, exportación del libro-registro en PDF, URL personalizada y soporte por email.</li>
-          <li><strong>Plan Company — 39€/mes:</strong> para empresas de 50 a 150 empleados. Incluye todo lo anterior más soporte prioritario y funcionalidades avanzadas de gestión.</li>
+          <li><strong>Canal anónimo con código de seguimiento</strong> — el informante puede hacer seguimiento de su denuncia sin revelar su identidad.</li>
+          <li><strong>Acuse de recibo automático en 7 días</strong> — obligatorio por ley, gestionado sin intervención manual.</li>
+          <li><strong>Control de plazos legales de 3 meses</strong> — alertas proactivas cuando se acerca el vencimiento.</li>
+          <li><strong>Mensajería anónima cifrada</strong> — comunicación bidireccional sin exponer la identidad del denunciante.</li>
+          <li><strong>Cifrado AES-256 en tránsito y en reposo</strong> — los datos están cifrados en la base de datos, no solo en tránsito.</li>
+          <li><strong>Registro de auditoría append-only</strong> — inmutable, válido para inspección de la AIPI.</li>
+          <li><strong>Datos alojados en la UE</strong> — cumplimiento RGPD nativo.</li>
+          <li><strong>Soporte por email</strong> — respuesta garantizada ante cualquier incidencia.</li>
         </ul>
 
-        <p>No hay coste de implantación, no hay tarifa por usuario y no hay contratos anuales obligatorios. Se paga mes a mes y se puede cancelar en cualquier momento.</p>
+        <p>Está disponible para empresas de <strong>hasta 20 empleados</strong>. Más de 20 empleados: Business 19€/mes. Más de 50: Company 39€/mes.</p>
 
-        <h2 id="trampas-gratuito">Las trampas del "gratis": qué no incluyen algunos gratuitos del mercado</h2>
+        <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:1.75rem;margin:2rem 0;">
+          <p style="font-weight:700;margin-bottom:0.5rem;">Prueba gratuita 15 días</p>
+          <p style="color:var(--text-secondary);margin-bottom:1.25rem;">Antes de pagar, prueba EticAlert durante 15 días con todas las funcionalidades activas. Sin tarjeta de crédito. Sin compromiso.</p>
+          <a href="/registro" class="btn btn-primary">Empezar prueba gratuita →</a>
+        </div>
 
-        <p>No todos los planes gratuitos son iguales. Antes de activar cualquier solución que se anuncie como gratuita, conviene revisar con atención estos puntos:</p>
+        <h2 id="comparativa">EticAlert Starter vs el mercado: la comparativa honesta</h2>
+
+        <p>Para empresas de hasta 20 empleados, así queda EticAlert frente a las alternativas:</p>
+
+        <div style="overflow-x:auto;margin:1.5rem 0;">
+          <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+            <thead>
+              <tr style="background:var(--bg-secondary);">
+                <th style="padding:0.75rem;border:1px solid var(--border);text-align:left;">Solución</th>
+                <th style="padding:0.75rem;border:1px solid var(--border);">Precio hasta 20 emp.</th>
+                <th style="padding:0.75rem;border:1px solid var(--border);">Cifrado BD</th>
+                <th style="padding:0.75rem;border:1px solid var(--border);">Plazos automáticos</th>
+                <th style="padding:0.75rem;border:1px solid var(--border);">Adaptado España</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:rgba(74,222,128,0.05);">
+                <td style="padding:0.75rem;border:1px solid var(--border);font-weight:700;">EticAlert Starter</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;font-weight:700;">9€/mes</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
+              </tr>
+              <tr>
+                <td style="padding:0.75rem;border:1px solid var(--border);">EuroCanalDenuncias LAB</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">19€/mes + 99€ setup</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Parcial</td>
+              </tr>
+              <tr style="background:var(--bg-secondary);">
+                <td style="padding:0.75rem;border:1px solid var(--border);">TuCanalDeDenuncias PYME</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">150€/año (12,5€/mes)</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Parcial</td>
+              </tr>
+              <tr>
+                <td style="padding:0.75rem;border:1px solid var(--border);">Ithikios Básico</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">29€/mes</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Parcial</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
+              </tr>
+              <tr style="background:var(--bg-secondary);">
+                <td style="padding:0.75rem;border:1px solid var(--border);">Formulario/buzón interno</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">0€</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+                <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">—</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>La única opción verdaderamente gratuita es el buzón interno, pero no cumple los requisitos técnicos de la ley (anonimato real, plazos automáticos, cifrado, datos en UE). Una inspección de la AIPI lo detectaría como incumplimiento.</p>
+
+        <h2 id="trampas-gratuito">Las trampas del "gratis": qué deberías comprobar antes de activar cualquier canal</h2>
+
+        <p>Si estás evaluando una solución que se anuncia como gratuita o muy barata, revisa estos puntos antes de activarla:</p>
 
         <ul>
-          <li><strong>Periodo de prueba disfrazado de plan gratuito.</strong> Algunos proveedores denominan "gratis" a un periodo de 14 o 30 días. Pasado ese tiempo, el canal se desactiva automáticamente o pasa a cobrar. Confirma siempre que el plan no tiene fecha de expiración.</li>
-          <li><strong>Sin cifrado real.</strong> Algunos canales gratuitos almacenan las denuncias en texto plano o con cifrado básico. Esto es un problema doble: incumple las recomendaciones de la AIPI sobre seguridad de los datos y expone a la empresa ante una posible brecha.</li>
-          <li><strong>Sin plazos automáticos.</strong> La ley exige acuse de recibo en 7 días y resolución en 3 meses. Si el sistema no gestiona estos plazos automáticamente, la empresa puede incurrir en incumplimientos procedimentales aunque haya gestionado la denuncia de fondo.</li>
-          <li><strong>Libro-registro manual o inexistente.</strong> Sin libro-registro, la empresa no puede demostrar ante la AIPI que ha tramitado las denuncias correctamente. Algunos gratuitos no incluyen esta funcionalidad o la reservan para planes de pago.</li>
-          <li><strong>Datos fuera de la UE.</strong> El almacenamiento en servidores fuera de la Unión Europea puede generar conflictos con el RGPD y complicar la respuesta ante una inspección. Verifica siempre dónde se almacenan los datos.</li>
-          <li><strong>Sin actualizaciones normativas.</strong> La normativa en torno al canal de denuncias sigue evolucionando: nuevas instrucciones de la AIPI, jurisprudencia, criterios de interpretación. Una plataforma que no actualiza su funcionamiento puede quedarse obsoleta sin que el cliente lo sepa.</li>
+          <li><strong>¿Es un periodo de prueba o un plan permanente?</strong> Algunos proveedores denominan "gratis" a un periodo de 14 o 30 días. Pasado ese tiempo, el canal se desactiva automáticamente o pasa a cobrar. Confirma siempre que el plan no tiene fecha de expiración.</li>
+          <li><strong>¿Cifra en base de datos o solo en tránsito?</strong> El cifrado en tránsito (HTTPS) es el mínimo. La AIPI recomienda cifrado en reposo. Algunos canales gratuitos almacenan denuncias en texto plano o cifrado básico, exponiendo datos sensibles ante una brecha.</li>
+          <li><strong>¿Gestiona los plazos legales automáticamente?</strong> La ley exige acuse de recibo en 7 días y resolución en 3 meses. Si el sistema no gestiona estos plazos y no envía alertas, la empresa puede incurrir en infracciones procedimentales aunque haya tramitado la denuncia de fondo.</li>
+          <li><strong>¿Incluye libro-registro?</strong> Sin libro-registro, la empresa no puede demostrar ante la AIPI que ha tramitado las denuncias correctamente. Algunos planes gratuitos no incluyen esta funcionalidad o la reservan para planes de pago.</li>
+          <li><strong>¿Dónde están los datos?</strong> El almacenamiento fuera de la UE genera conflictos con el RGPD y puede complicar una inspección. Verifica siempre la ubicación de los servidores.</li>
+          <li><strong>¿Se actualiza ante cambios normativos?</strong> La normativa sigue evolucionando. Una plataforma sin mantenimiento activo puede quedarse obsoleta sin que el cliente lo sepa, generando un incumplimiento silencioso.</li>
         </ul>
 
-        <p>El plan gratuito de EticAlert no tiene ninguna de estas limitaciones: cifrado AES-256, plazos automáticos, libro-registro completo, datos en la UE y actualizaciones normativas incluidas.</p>
+        <p>EticAlert Starter no tiene ninguna de estas limitaciones: cifrado AES-256 en base de datos, plazos automáticos, libro-registro completo, datos en la UE y actualizaciones normativas incluidas — por 9€/mes.</p>
 
-        <h2 id="como-activar">Cómo activar tu canal de denuncias gratis</h2>
+        <h2 id="quien-esta-obligado">¿Quién está obligado aunque tenga menos de 50 empleados?</h2>
 
-        <p>El proceso de activación lleva menos de cinco minutos y no requiere conocimientos técnicos ni legales previos:</p>
+        <p>La Ley 2/2023 obliga directamente a empresas con 50 o más trabajadores. Pero también están obligadas —independientemente del número de empleados— las entidades sujetas a normativa sectorial específica:</p>
+
+        <ul>
+          <li><strong>Sujetos obligados por prevención de blanqueo de capitales (Ley 10/2010):</strong> asesorías fiscales, despachos con servicios societarios, auditores, contables externos, notarías, registros, inmobiliarias, promotores, casinos, entidades de pago, criptoactivos.</li>
+          <li><strong>Sector financiero:</strong> empresas de servicios de inversión, gestoras, fintech reguladas, corredurías de seguros, plataformas de financiación participativa.</li>
+          <li><strong>Transporte y logística:</strong> operadores sujetos a normativa específica de transporte aéreo, marítimo, ferroviario o por carretera.</li>
+          <li><strong>Medio ambiente:</strong> gestión de residuos, tratamiento de aguas, actividades industriales con autorización ambiental, sustancias peligrosas.</li>
+          <li><strong>Partidos, sindicatos y fundaciones</strong> que reciban o gestionen fondos públicos.</li>
+        </ul>
+
+        <p>Para todas estas entidades, el plan Starter a 9€/mes es la forma más económica de cumplir la obligación desde el primer día.</p>
+
+        <h2 id="como-activar">Cómo activar el canal en 5 minutos</h2>
 
         <ol>
-          <li><strong>Crea tu cuenta.</strong> Accede a <a href="/registro" style="color:var(--accent);">/registro</a> e introduce el nombre de tu empresa, tu email y una contraseña. No se solicita tarjeta de crédito.</li>
-          <li><strong>Configura el formulario.</strong> La plataforma te guía paso a paso: nombre del canal, categorías de denuncia, texto de bienvenida para los informantes y datos del RSII (la persona responsable de gestionar las denuncias en tu empresa).</li>
-          <li><strong>Publica el enlace.</strong> Una vez configurado, recibes la URL de tu canal. Publícala en la intranet de la empresa, en el contrato de trabajo, en el manual del empleado o donde sea más accesible para tu plantilla.</li>
-          <li><strong>Gestiona desde el panel.</strong> Cuando llegue una denuncia, recibirás una notificación por email. Desde el panel puedes ver el estado, responder al denunciante y actualizar el libro-registro.</li>
+          <li><strong>Crea tu cuenta.</strong> Accede a <a href="/registro" style="color:var(--accent);">/registro</a> e introduce el nombre de tu empresa y tu email. No se solicita tarjeta de crédito para la prueba de 15 días.</li>
+          <li><strong>Configura el formulario.</strong> La plataforma te guía paso a paso: nombre del canal, categorías de denuncia, texto de bienvenida y datos del RSII.</li>
+          <li><strong>Publica el enlace.</strong> Recibes la URL de tu canal. Publícala en la intranet, en el contrato de trabajo o en el manual del empleado.</li>
+          <li><strong>Gestiona desde el panel.</strong> Cuando llegue una denuncia recibirás una notificación. Desde el panel gestionas el estado, respondes al denunciante y mantienes el libro-registro al día.</li>
         </ol>
-
-        <p>No hay instalación, no hay configuración de servidores, no hay integración técnica obligatoria. La plataforma funciona desde el primer día como cualquier otro servicio web.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
-          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa tu canal de denuncias gratis hoy mismo</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Sin tarjeta de crédito, sin periodo de prueba, sin letra pequeña. Plan gratuito permanente para empresas de hasta 20 empleados. Desde 19€/mes para empresas más grandes. El canal más sencillo y más completo para pymes españolas.</p>
-          <a href="/registro" class="btn btn-primary">Crear mi canal de denuncias gratis →</a>
+          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Starter desde 9€/mes — 15 días de prueba gratuita</h3>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">El canal de denuncias homologado más barato del mercado. Sin tarjeta de crédito para empezar. Sin permanencia. Sin sorpresas en el precio.</p>
+          <a href="/registro" class="btn btn-primary">Activar mi canal →</a>
+          <a href="/precios" class="btn btn-secondary" style="margin-left:1rem;">Ver todos los planes →</a>
         </div>
 
         <p>Recursos relacionados:</p>
@@ -172,7 +232,7 @@ include '../includes/header.php';
           <li><a href="/precios" style="color:var(--accent);">Ver todos los planes y precios de EticAlert →</a></li>
           <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">Comparativa de precios: todas las opciones del mercado →</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa de la Ley 2/2023 de canal de denuncias →</a></li>
-          <li><a href="/blog/como-implantar-canal-denuncias" style="color:var(--accent);">Cómo implantar un canal de denuncias paso a paso →</a></li>
+          <li><a href="/blog/canal-denuncias-asesorias-despachos" style="color:var(--accent);">Canal de denuncias para asesorías y despachos profesionales →</a></li>
         </ul>
 
         <div class="related-articles">

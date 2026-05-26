@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Canal denuncias LapsoWork | EticAlert vs LapsoWork 2026';
-$page_description       = '¿LapsoWork cumple la Ley 2/2023 para canal de denuncias? Comparativa con EticAlert: 299,99€/año vs 228€/año. Cifrado, roles RSII y funcionalidades de compliance.';
+$page_description       = '¿LapsoWork cumple la Ley 2/2023 para canal de denuncias? Comparativa con EticAlert: 299,99€/año vs desde 81€/año. Cifrado, roles RSII y funcionalidades de compliance.';
 $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-lapsowork';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias LapsoWork vs EticAlert 2026';
@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":4,"name":"Canal de denuncias LapsoWork","item":"https://eticalert.com/blog/canal-denuncias-lapsowork"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿LapsoWork tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, LapsoWork incluye un módulo de canal de denuncias dentro de su suite de RRHH española. Su precio es 299,99€/año, que cubre la suite completa incluyendo el canal. Es un módulo integrado en una plataforma de gestión de personal."}},{"@type":"Question","name":"¿El canal de denuncias de LapsoWork cumple la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"LapsoWork cubre los requisitos básicos (formulario anónimo, comunicación interna). Sin embargo, al ser un módulo dentro de una suite de RRHH, puede no ofrecer el aislamiento granular, el cifrado en base de datos ni las alertas automáticas de plazos específicos de la Ley 2/2023 que una herramienta especializada como EticAlert sí incluye."}},{"@type":"Question","name":"¿LapsoWork o EticAlert para cumplir la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Para pymes que solo necesitan el canal de denuncias, EticAlert (228€/año hasta 49 empleados, o gratis hasta 20) es más económico que LapsoWork (299,99€/año) y más especializado en compliance. Si ya usas LapsoWork para RRHH y el canal es un módulo incluido, puede ser suficiente para requisitos básicos."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿LapsoWork tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, LapsoWork incluye un módulo de canal de denuncias dentro de su suite de RRHH española. Su precio es 299,99€/año, que cubre la suite completa incluyendo el canal. Es un módulo integrado en una plataforma de gestión de personal."}},{"@type":"Question","name":"¿El canal de denuncias de LapsoWork cumple la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"LapsoWork cubre los requisitos básicos (formulario anónimo, comunicación interna). Sin embargo, al ser un módulo dentro de una suite de RRHH, puede no ofrecer el aislamiento granular, el cifrado en base de datos ni las alertas automáticas de plazos específicos de la Ley 2/2023 que una herramienta especializada como EticAlert sí incluye."}},{"@type":"Question","name":"¿LapsoWork o EticAlert para cumplir la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Para pymes que solo necesitan el canal de denuncias, EticAlert (desde 81€/año con el plan Starter hasta 20 empleados, o 228€/año hasta 49 empleados) es más económico que LapsoWork (299,99€/año) y más especializado en compliance. Si ya usas LapsoWork para RRHH y el canal es un módulo incluido, puede ser suficiente para requisitos básicos."}}]}
 </script>
 
 <main id="main-content">
@@ -45,7 +45,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">LapsoWork</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Gratis</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">299,99€/año (suite RRHH)</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">299,99€/año (suite RRHH)</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 49 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>228€/año</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">299,99€/año</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 500 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€/año</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">A consultar</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Alcance del precio</td><td style="padding:0.75rem;border:1px solid var(--border);">Solo canal de denuncias</td><td style="padding:0.75rem;border:1px solid var(--border);">Suite RRHH completa</td></tr>
@@ -115,7 +115,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal especializado desde 19€/mes — más barato que LapsoWork para empresas pequeñas</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado AES-256-GCM, alertas automáticas y hash verificable. Gratis hasta 20 empleados · 228€/año hasta 49.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado AES-256-GCM, alertas automáticas y hash verificable. Starter 9€/mes hasta 20 empleados · 228€/año hasta 49.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -132,7 +132,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿LapsoWork o EticAlert para cumplir la Ley 2/2023?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Para pymes que solo necesitan el canal de denuncias, EticAlert (228€/año hasta 49 empleados, o gratis hasta 20) es más económico que LapsoWork (299,99€/año) y más especializado en compliance. Si ya usas LapsoWork para RRHH y el canal es un módulo incluido, puede ser suficiente para requisitos básicos.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Para pymes que solo necesitan el canal de denuncias, EticAlert (desde 81€/año con el plan Starter hasta 20 empleados, o 228€/año hasta 49 empleados) es más económico que LapsoWork (299,99€/año) y más especializado en compliance. Si ya usas LapsoWork para RRHH y el canal es un módulo incluido, puede ser suficiente para requisitos básicos.</p>
           </div>
         </div>
 

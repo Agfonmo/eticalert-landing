@@ -45,7 +45,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">TuCanalDeDenuncias</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Gratis</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">150€/año</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">150€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 50 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>228€/año</strong> (19€/mes)</td><td style="padding:0.75rem;border:1px solid var(--border);">150€/año</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">50-500 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€/año</strong> (39€/mes)</td><td style="padding:0.75rem;border:1px solid var(--border);">450€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Prueba gratuita</td><td style="padding:0.75rem;border:1px solid var(--border);">15 días sin tarjeta</td><td style="padding:0.75rem;border:1px solid var(--border);">No indicado</td></tr>
@@ -98,7 +98,7 @@ include '../includes/header.php';
               <li>Roles básicos — sin aislamiento granular por conflicto de interés</li>
               <li>Sin alertas automáticas de plazos (7 días y 3 meses)</li>
               <li>Sin grabación de voz desde el navegador documentada</li>
-              <li>150€/año incluso para micro-empresas — EticAlert es gratis hasta 20 empleados</li>
+              <li>150€/año incluso para micro-empresas — EticAlert Starter cuesta solo 81€/año (9€/mes)</li>
             </ul>
           </div>
         </div>
@@ -116,7 +116,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Por 18€ más al año — cumplimiento legal real</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, roles granulares, alertas de plazos y hash verificable. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, roles granulares, alertas de plazos y hash verificable. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

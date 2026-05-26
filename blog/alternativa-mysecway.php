@@ -118,7 +118,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Precio fijo por empresa — sin sorpresas al añadir gestores</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Desde 19€/mes independientemente de cuántos coordinadores o resolutores tenga tu canal. Gratis hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Desde 19€/mes independientemente de cuántos coordinadores o resolutores tenga tu canal. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

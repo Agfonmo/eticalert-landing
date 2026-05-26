@@ -52,7 +52,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">Atico34 / LegalSending</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Gratis</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">~120-180€/año</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">~120-180€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 49 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>228€/año</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">~120-180€/año</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Modelo de gestión</td><td style="padding:0.75rem;border:1px solid var(--border);">Self-serve (RSII interno)</td><td style="padding:0.75rem;border:1px solid var(--border);">Asesoría jurídica externa</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Tiempo de activación</td><td style="padding:0.75rem;border:1px solid var(--border);">5 minutos</td><td style="padding:0.75rem;border:1px solid var(--border);">Proceso de onboarding</td></tr>
@@ -85,7 +85,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal gestionado por ti — sin depender de asesores externos</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Tu RSII gestiona los expedientes en tiempo real. Alertas automáticas, cifrado en BD y hash verificable incluidos. Gratis hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Tu RSII gestiona los expedientes en tiempo real. Alertas automáticas, cifrado en BD y hash verificable incluidos. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

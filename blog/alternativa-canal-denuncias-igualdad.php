@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a CanalDenunciasIgualdad | EticAlert 2026';
-$page_description       = '¿CanalDenunciasIgualdad es la mejor opción para tu empresa? Comparativa con EticAlert: 280-620€/año con formación vs canal técnico desde 228€/año.';
+$page_description       = '¿CanalDenunciasIgualdad es la mejor opción para tu empresa? Comparativa con EticAlert: 280-620€/año con formación vs canal técnico desde 81€/año.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-canal-denuncias-igualdad';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a CanalDenunciasIgualdad — EticAlert 2026';
@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":4,"name":"Alternativa a CanalDenunciasIgualdad","item":"https://eticalert.com/blog/alternativa-canal-denuncias-igualdad"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es CanalDenunciasIgualdad?","acceptedAnswer":{"@type":"Answer","text":"CanalDenunciasIgualdad es un servicio de un despacho especializado en planes de igualdad que ofrece canal de denuncias con formación incluida. Sus precios van de 280€/año a 620€/año dependiendo del plan y los servicios de formación incluidos."}},{"@type":"Question","name":"¿CanalDenunciasIgualdad o EticAlert para cumplir la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Depende de si necesitas también el plan de igualdad y la formación asociada. Para el canal de denuncias técnico, EticAlert (228€/año hasta 49 empleados) es más económico y más especializado en garantías técnicas. Si ya trabajas con ese despacho para el plan de igualdad, el canal integrado puede ser conveniente."}},{"@type":"Question","name":"¿El canal de denuncias y el plan de igualdad son lo mismo?","acceptedAnswer":{"@type":"Answer","text":"No. El canal de denuncias (Ley 2/2023) es una obligación separada del plan de igualdad (Ley Orgánica 3/2007). Muchas empresas necesitan ambos, pero son marcos legales distintos. EticAlert cubre el canal de denuncias; para el plan de igualdad, un despacho especializado puede ser el complemento adecuado."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es CanalDenunciasIgualdad?","acceptedAnswer":{"@type":"Answer","text":"CanalDenunciasIgualdad es un servicio de un despacho especializado en planes de igualdad que ofrece canal de denuncias con formación incluida. Sus precios van de 280€/año a 620€/año dependiendo del plan y los servicios de formación incluidos."}},{"@type":"Question","name":"¿CanalDenunciasIgualdad o EticAlert para cumplir la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Depende de si necesitas también el plan de igualdad y la formación asociada. Para el canal de denuncias técnico, EticAlert (desde 81€/año) es más económico y más especializado en garantías técnicas. Si ya trabajas con ese despacho para el plan de igualdad, el canal integrado puede ser conveniente."}},{"@type":"Question","name":"¿El canal de denuncias y el plan de igualdad son lo mismo?","acceptedAnswer":{"@type":"Answer","text":"No. El canal de denuncias (Ley 2/2023) es una obligación separada del plan de igualdad (Ley Orgánica 3/2007). Muchas empresas necesitan ambos, pero son marcos legales distintos. EticAlert cubre el canal de denuncias; para el plan de igualdad, un despacho especializado puede ser el complemento adecuado."}}]}
 </script>
 
 <main id="main-content">
@@ -47,8 +47,8 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">CanalDenunciasIgualdad</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan gratuito</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>Hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
-            <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan entrada</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>228€/año</strong> (hasta 49 emp.)</td><td style="padding:0.75rem;border:1px solid var(--border);">280€/año</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan entrada</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>desde 81€/año</strong> (Starter hasta 20 emp.) · 190€/año hasta 49</td><td style="padding:0.75rem;border:1px solid var(--border);">280€/año</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan completo</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€/año</strong> (hasta 500 emp.)</td><td style="padding:0.75rem;border:1px solid var(--border);">620€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Formación en igualdad incluida</td><td style="padding:0.75rem;border:1px solid var(--border);">No</td><td style="padding:0.75rem;border:1px solid var(--border);">✓</td></tr>
           </tbody>
@@ -96,14 +96,14 @@ include '../includes/header.php';
               <li>Sin cifrado AES-256-GCM documentado en base de datos</li>
               <li>Sin alertas automáticas de plazos Ley 2/2023</li>
               <li>Sin hash SHA-256 verificable de expedientes</li>
-              <li>Precio superior: 280-620€/año vs 228€/año de EticAlert para el canal</li>
+              <li>Precio superior: 280-620€/año vs desde 81€/año de EticAlert para el canal</li>
             </ul>
           </div>
         </div>
 
         <h2 id="casos-uso-canal-denuncias-igualdad">Casos de uso reales</h2>
         <p><strong>CanalDenunciasIgualdad tiene sentido</strong> si tu empresa necesita simultáneamente el canal de denuncias y el soporte en el plan de igualdad (Ley Orgánica 3/2007). Para empresas con más de 50 empleados que deben tener plan de igualdad negociado con la representación legal de los trabajadores, contar con el despacho que gestiona ese plan también para el canal puede simplificar la relación.</p>
-        <p><strong>CanalDenunciasIgualdad no tiene sentido</strong> si solo necesitas el canal de denuncias. En ese caso, pagas por servicios de formación que quizá no necesitas ahora. EticAlert ofrece el canal técnico por 228€/año (vs 280€/año mínimo de CanalDenunciasIgualdad) con más garantías técnicas — y puedes contratar la formación en igualdad con tu asesoría laboral habitual.</p>
+        <p><strong>CanalDenunciasIgualdad no tiene sentido</strong> si solo necesitas el canal de denuncias. En ese caso, pagas por servicios de formación que quizá no necesitas ahora. EticAlert ofrece el canal técnico desde 81€/año (vs 280€/año mínimo de CanalDenunciasIgualdad) con más garantías técnicas — y puedes contratar la formación en igualdad con tu asesoría laboral habitual.</p>
         <p>Ejemplo: empresa industrial de 80 empleados con convenio colectivo sectorial. Necesita tanto el plan de igualdad como el canal de denuncias. Con un único proveedor especializado en igualdad que incluya el canal, simplifica la gestión. Con EticAlert (canal) + asesoría laboral (igualdad), consigue más especialización técnica en el canal a menor coste total.</p>
 
         <h2 id="veredicto-canal-denuncias-igualdad">Veredicto</h2>
@@ -113,8 +113,8 @@ include '../includes/header.php';
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
-          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal técnico especializado desde 228€/año</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, alertas automáticas y hash verificable. Gratis hasta 20 empleados. Combínalo con tu asesoría de igualdad habitual.</p>
+          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal técnico especializado desde 81€/año</h3>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, alertas automáticas y hash verificable. Starter desde 9€/mes, hasta 20 empleados. Combínalo con tu asesoría de igualdad habitual.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -127,7 +127,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿CanalDenunciasIgualdad o EticAlert para cumplir la Ley 2/2023?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Depende de si necesitas también el plan de igualdad y la formación asociada. Para el canal de denuncias técnico, EticAlert (228€/año hasta 49 empleados) es más económico y más especializado en garantías técnicas. Si ya trabajas con ese despacho para el plan de igualdad, el canal integrado puede ser conveniente.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Depende de si necesitas también el plan de igualdad y la formación asociada. Para el canal de denuncias técnico, EticAlert (desde 81€/año) es más económico y más especializado en garantías técnicas. Si ya trabajas con ese despacho para el plan de igualdad, el canal integrado puede ser conveniente.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿El canal de denuncias y el plan de igualdad son lo mismo?</h3>

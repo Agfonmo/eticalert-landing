@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Funcionalidades del canal de denuncias: qué incluye EticAlert 2026';
-$page_description = 'Las funcionalidades clave de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, plazos automáticos y plan gratuito permanente. Cumple la Ley 2/2023.';
+$page_description = 'Las funcionalidades clave de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, plazos automáticos. Plan Starter desde 9€/mes. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/funcionalidades';
 include 'includes/header.php';
 ?>
@@ -13,8 +13,8 @@ include 'includes/header.php';
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
-  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
-  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, Plan Free permanente",
+  "offers": {"@type": "Offer", "price": "9", "priceCurrency": "EUR"},
+  "featureList": "Canal anónimo, Cifrado AES-256 en base de datos, Hash verificable, Exclusión preventiva de gestoras, Plazos automatizados Ley 2/2023, Registro append-only, Documentos legales PDF, Plan Starter desde 9€/mes",
   "description": "Plataforma SaaS de canal de denuncias conforme a la Ley 2/2023."
 }
 </script>
@@ -65,10 +65,10 @@ include 'includes/header.php';
 
         <div class="func-card func-card-unico">
           <div class="func-card-header">
-            <span class="func-name">Plan Free permanente</span>
+            <span class="func-name">Plan Starter desde 9€/mes</span>
             <span class="badge-unico">Único</span>
           </div>
-          <p class="func-desc">Hasta 20 empleados, gratis indefinidamente, con todas las funcionalidades activas. Sin caducidad ni restricciones.</p>
+          <p class="func-desc">Hasta 20 empleados desde 9€/mes (81€/año), con todas las funcionalidades activas. El precio más bajo del mercado para sujetos obligados y pymes.</p>
         </div>
 
       </div>
@@ -118,7 +118,7 @@ include 'includes/header.php';
               <th>Exclusión gestoras</th>
               <th>Hash verificable</th>
               <th>Plazos auto</th>
-              <th>Plan Free</th>
+              <th>Plan Starter</th>
               <th>Precio/mes</th>
             </tr>
           </thead>
@@ -127,7 +127,7 @@ include 'includes/header.php';
               <td><strong>EticAlert</strong></td>
               <td class="check">✓</td><td class="check">✓</td><td class="check">✓</td>
               <td class="check">✓</td><td class="check">✓</td>
-              <td class="check"><strong>desde 19€</strong></td>
+              <td class="check"><strong>desde 9€</strong></td>
             </tr>
             <tr>
               <td><a href="/blog/alternativa-eqs-integrityline" style="color:var(--accent);">EQS IntegrityLine</a></td>
@@ -164,7 +164,7 @@ include 'includes/header.php';
         <h3 style="margin-bottom:0.5rem;">Canal operativo en 5 minutos</h3>
         <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Sin tarjeta de crédito. Sin permanencia. Sin llamadas comerciales.</p>
         <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-          <a href="/registro" class="btn btn-primary">Empezar gratis →</a>
+          <a href="/registro" class="btn btn-primary">Activar mi canal →</a>
           <a href="/precios" class="btn btn-secondary">Ver precios</a>
           <a href="/como-funciona" class="btn btn-secondary">Cómo funciona</a>
         </div>
@@ -182,7 +182,7 @@ include 'includes/header.php';
     {
       "@type": "Question",
       "name": "¿Qué hace único a EticAlert respecto a otros canales de denuncias del mercado español?",
-      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert tiene tres funcionalidades únicas en el mercado español: la exclusión preventiva de gestoras (el informante bloquea personas del equipo gestor al enviar su denuncia), el hash SHA-256 verificable públicamente que prueba la integridad de cada denuncia, y un plan Free permanente para hasta 20 empleados con todas las funcionalidades activas sin caducidad."}
+      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert tiene tres funcionalidades únicas en el mercado español: la exclusión preventiva de gestoras (el informante bloquea personas del equipo gestor al enviar su denuncia), el hash SHA-256 verificable públicamente que prueba la integridad de cada denuncia, y un plan Starter desde 9€/mes para hasta 20 empleados con todas las funcionalidades activas."}
     },
     {
       "@type": "Question",

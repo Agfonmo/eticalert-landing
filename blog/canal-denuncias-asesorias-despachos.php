@@ -44,7 +44,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Están obligadas las asesorías y despachos a tener canal de denuncias?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Si la asesoría o despacho supera los 50 empleados, está obligado a tener canal propio desde diciembre de 2023. La norma computa la media de trabajadores de los últimos 12 meses, incluyendo filiales y despachos asociados. Si tiene menos de 50 empleados no está obligado por ley, aunque implantarlo refuerza la credibilidad ante los clientes a quienes se lo recomienda."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Sí, en dos supuestos. Primero, si la asesoría supera los 50 empleados, está obligada directamente por la Ley 2/2023. Segundo, y más relevante para el sector: las asesorías fiscales, contables, auditores y despachos que presten servicios societarios o financieros son sujetos obligados por la Ley 10/2010 de prevención del blanqueo de capitales. La Directiva Whistleblowing y la Ley 2/2023 obligan también a entidades que operen en el ámbito normativo europeo de prevención del blanqueo, con independencia del número de empleados. Por tanto, una asesoría fiscal de 10 personas puede estar obligada si su actividad la convierte en sujeto obligado PBC."}
     },
     {
       "@type": "Question",
@@ -96,10 +96,13 @@ include '../includes/header.php';
         </ul>
         <p>Todo esto se puede ofrecer como servicio añadido a clientes existentes o como captación de nuevos clientes que aún no tienen asesor de compliance.</p>
 
-        <h2 id="obligacion-propia">Obligación propia de la asesoría (si tiene 50+ empleados)</h2>
-        <p>Si tu asesoría o despacho supera los 50 empleados, estás obligado a tener tu propio canal de denuncias desde diciembre de 2023. Esto es independiente de lo que hagas para tus clientes.</p>
+        <h2 id="obligacion-propia">Obligación propia de la asesoría: más amplia de lo que parece</h2>
+        <p>Si tu asesoría o despacho supera los 50 empleados, estás obligado directamente por la Ley 2/2023 desde diciembre de 2023. Pero el umbral de 50 empleados no es el único criterio relevante para el sector.</p>
+        <p>La Directiva Whistleblowing —y su transposición española— también obliga a entidades que operan en el ámbito normativo europeo de <strong>prevención del blanqueo de capitales (Ley 10/2010)</strong>. Las asesorías fiscales, los auditores de cuentas, los contables externos y los despachos que presten servicios societarios, de creación de empresas o de gestión de estructuras son <em>sujetos obligados PBC</em>. Esto significa que la obligación puede aplicarles <strong>aunque tengan menos de 50 empleados</strong>.</p>
         <p>Muchas asesorías medianas han llegado al umbral de 50 empleados sumando empleados propios con los de filiales o despachos asociados. La norma computa la media de trabajadores de los últimos 12 meses, por lo que hay que hacer el cálculo correctamente.</p>
-        <p>Si tu despacho tiene menos de 50 empleados, no estás obligado por ley, pero tener canal propio envía una señal muy positiva a los clientes a quienes se lo recomendas: no puedes vender lo que tú mismo no tienes.</p>
+        <div class="callout">
+          <p><strong>Si prestas servicios de gestión de sociedades, asesoría fiscal o contabilidad externa:</strong> consulta si tu actividad concreta te convierte en sujeto obligado por la Ley 10/2010. De ser así, la obligación de canal de denuncias aplica independientemente del número de empleados. <a href="/blog/obligados-menos-50-empleados" style="color:var(--accent);">Ver guía completa: ¿quién está obligado aunque tenga menos de 50 empleados? →</a></p>
+        </div>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
           <strong style="color:var(--accent);">Consejo:</strong> Si asesoras a clientes sobre el canal de denuncias, activar EticAlert en tu propio despacho te permite conocer la herramienta de primera mano, hablar con criterio y demostrar que practicas lo que predicas.
@@ -137,7 +140,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Programa de partners para asesorías</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Ofrece el canal de denuncias a tus clientes con EticAlert. Multi-empresa, precio de partner, sin complicaciones técnicas. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Ofrece el canal de denuncias a tus clientes con EticAlert. Multi-empresa, precio de partner, sin complicaciones técnicas. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Programa de partners para asesorías →</a>
         </div>
 

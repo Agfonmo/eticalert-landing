@@ -19,7 +19,7 @@ if (APP_ENV === 'staging') {
  *   $page_body_class         — clase extra en <body>
  */
 $page_title              = $page_title ?? 'Canal de denuncias para empresas | EticAlert — Cumple la Ley 2/2023';
-$page_description        = $page_description ?? 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a ley, desde 19€/mes. Sin llamadas, sin complicaciones.';
+$page_description        = $page_description ?? 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a la Ley 2/2023, desde 9€/mes. Sin llamadas, sin complicaciones.';
 $page_canonical          = $page_canonical ?? 'https://eticalert.com/';
 $page_og_title           = $page_og_title ?? $page_title;
 $page_og_type            = $page_og_type ?? 'website';

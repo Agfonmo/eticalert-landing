@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de Denuncias para Empresas | Ley 2/2023 | EticAlert';
-$page_description = 'Canal de denuncias homologado, confidencial y fácil de implantar. Cumple la Ley 2/2023 desde 19€/mes o gratis hasta 20 empleados. Actívalo hoy →';
+$page_title       = 'Canal de Denuncias Online | Desde 9€/mes | Homologado Ley 2/2023 | EticAlert';
+$page_description = 'Canal anónimo y cifrado, homologado Ley 2/2023. Actívalo en 5 minutos sin instalar nada. Desde 9€/mes. 15 días de prueba gratuita. Sin permanencia →';
 $page_canonical   = 'https://eticalert.com/canal-de-denuncias';
 include 'includes/header.php';
 ?>
@@ -178,7 +178,7 @@ include 'includes/header.php';
                   <td class="check">✓</td>
                   <td class="check">✓</td>
                   <td class="check">✓</td>
-                  <td class="check"><strong>desde 19€</strong></td>
+                  <td class="check"><strong>desde 9€</strong></td>
                 </tr>
                 <tr>
                   <td>EQS IntegrityLine</td>
@@ -280,7 +280,7 @@ include 'includes/header.php';
             <li>Control de plazos de 3 meses con alertas proactivas.</li>
             <li>Registro de auditoría append-only exportable en PDF.</li>
             <li>Roles diferenciados: admin, coordinador y resolutor.</li>
-            <li>Precio fijo por empresa: gratis hasta 20 empleados, 19€/mes hasta 49, 39€/mes hasta 150. Sin coste por usuario.</li>
+            <li>Precio fijo por empresa: desde 9€/mes (Starter hasta 20 empleados), 19€/mes hasta 49, 39€/mes hasta 150. Sin coste por usuario.</li>
           </ul>
 
           <div style="margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;">
@@ -302,7 +302,7 @@ include 'includes/header.php';
   "@type": "FAQPage",
   "mainEntity": [
     {"@type":"Question","name":"¿Quién está obligado a tener canal de denuncias en España?","acceptedAnswer":{"@type":"Answer","text":"Toda empresa privada con 50 o más trabajadores, entidades del sector público, partidos políticos, sindicatos y personas jurídicas con facturación superior a 10M€, según la Ley 2/2023."}},
-    {"@type":"Question","name":"¿Cuánto cuesta implementar un canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Con una solución SaaS como EticAlert, gratis hasta 20 empleados, desde 19€/mes para empresas de 21 a 49 empleados y 39€/mes para las obligadas por ley (50-150 empleados). El desarrollo interno o la consultoría puede costar desde 15.000€."}},
+    {"@type":"Question","name":"¿Cuánto cuesta implementar un canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Con una solución SaaS como EticAlert, desde 9€/mes para empresas de hasta 20 empleados (plan Starter), 19€/mes para empresas de 21 a 49 empleados y 39€/mes para las obligadas por ley (50-150 empleados). El desarrollo interno o la consultoría puede costar desde 15.000€."}},
     {"@type":"Question","name":"¿Qué es el RSII?","acceptedAnswer":{"@type":"Answer","text":"El Responsable del Sistema Interno de Información es la persona designada para gestionar el canal de denuncias con independencia funcional. Debe ser notificado a la AIPI."}},
     {"@type":"Question","name":"¿Cuáles son las sanciones por no tener canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Hasta 1.000.000€ para personas jurídicas y 300.000€ para personas físicas por infracciones muy graves según la Ley 2/2023."}}
   ]

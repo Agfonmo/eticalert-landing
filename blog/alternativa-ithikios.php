@@ -110,7 +110,7 @@ include '../includes/header.php';
             </tr>
             <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan de entrada</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);">Gratis hasta 20 empleados</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes hasta 20 empleados</td>
               <td style="padding:0.75rem;border:1px solid var(--border);">Desde <strong>29€/mes</strong> (suscripción SaaS)</td>
             </tr>
             <tr>
@@ -268,7 +268,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa tu canal hoy — sin llamadas ni demos obligatorias</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Gratis hasta 20 empleados · desde 19€/mes para pymes con 50+ empleados. Sin contrato anual. Sin tarjeta de crédito para empezar.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Starter desde 9€/mes · Business 19€/mes · Company 39€/mes para pymes con 50+ empleados. Sin contrato anual. Sin tarjeta de crédito para empezar.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

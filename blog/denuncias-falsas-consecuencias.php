@@ -140,7 +140,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Un canal bien gestionado filtra las denuncias de mala fe</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert te da las herramientas para gestionar cada expediente con rigor. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert te da las herramientas para gestionar cada expediente con rigor. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Un canal bien gestionado filtra las denuncias de mala fe →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

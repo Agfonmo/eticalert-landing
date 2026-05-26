@@ -76,7 +76,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">Whistlelink</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan de entrada</td><td style="padding:0.75rem;border:1px solid var(--border);">Gratis hasta 20 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);">Sin plan gratuito</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan de entrada</td><td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes hasta 20 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);">Sin plan gratuito</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Pyme 50-150 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);">Desde <strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">Desde <strong>49€/mes</strong></td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Coste anual (100 emp.)</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€</strong></td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>~588€+</strong></td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Prueba gratuita</td><td style="padding:0.75rem;border:1px solid var(--border);">15 días sin tarjeta</td><td style="padding:0.75rem;border:1px solid var(--border);">Disponible</td></tr>
@@ -145,7 +145,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Desde 19€/mes — menos que Whistlelink, más cumplimiento</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal activo en 5 minutos. Gratis hasta 20 empleados. Sin tarjeta para empezar.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal activo en 5 minutos. Starter desde 9€/mes, hasta 20 empleados. Sin tarjeta para empezar.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

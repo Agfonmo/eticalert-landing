@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Canal de Denuncias Obligatorio: ¿Está Tu Empresa Obligada? | EticAlert';
-$page_description = 'Comprueba en 30 segundos si tu empresa está obligada a tener canal de denuncias por la Ley 2/2023. Criterios claros, sin letra pequeña. Activa hoy desde 0 €.';
+$page_description = 'Comprueba en 30 segundos si tu empresa está obligada a tener canal de denuncias por la Ley 2/2023. Criterios claros, sin letra pequeña. Activa hoy desde 9€/mes.';
 $page_canonical   = 'https://eticalert.com/canal-de-denuncias-obligatorio';
 include 'includes/header.php';
 ?>
@@ -47,10 +47,10 @@ include 'includes/header.php';
     },
     {
       "@type": "Question",
-      "name": "¿Un canal de denuncias gratuito cumple la Ley 2/2023?",
+      "name": "¿Un canal de denuncias de bajo coste cumple la Ley 2/2023?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí, siempre que cumpla los requisitos técnicos: confidencialidad garantizada, opción de anonimato, acuse de recibo en 7 días, gestión por un RSII independiente y capacidad de respuesta al informante en 3 meses. EticAlert ofrece un plan gratuito hasta 20 empleados que cumple todos estos requisitos."
+        "text": "Sí, siempre que cumpla los requisitos técnicos: confidencialidad garantizada, opción de anonimato, acuse de recibo en 7 días, gestión por un RSII independiente y capacidad de respuesta al informante en 3 meses. EticAlert ofrece un plan Starter desde 9€/mes para empresas de hasta 20 empleados que cumple todos estos requisitos."
       }
     }
   ]
@@ -72,7 +72,7 @@ include 'includes/header.php';
       <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:2rem;">La Ley 2/2023 obliga a miles de empresas en España a tener un canal operativo. Comprueba en 30 segundos si la tuya es una de ellas — y qué pasa si no lo tienes.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
         <a href="#comprobador" class="btn btn-primary btn-lg">Comprobar ahora →</a>
-        <a href="/registro" class="btn btn-secondary btn-lg">Activar canal gratuito</a>
+        <a href="/registro" class="btn btn-secondary btn-lg">Ver planes desde 9€/mes</a>
       </div>
     </div>
   </section>
@@ -121,6 +121,21 @@ include 'includes/header.php';
           <span style="flex-shrink:0;background:#dc2626;color:#fff;font-size:0.75rem;font-weight:700;padding:0.25rem 0.625rem;border-radius:100px;white-space:nowrap;">OBLIGADO</span>
         </div>
 
+        <div style="display:flex;align-items:flex-start;gap:1rem;background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.25);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
+          <span style="font-size:1.25rem;flex-shrink:0;margin-top:1px;">🏦</span>
+          <div>
+            <p style="margin:0;font-weight:600;font-size:1rem;">Eres sujeto obligado por normativa sectorial</p>
+            <p style="margin:0.375rem 0 0;font-size:0.875rem;color:var(--text-secondary);">Aunque tengas menos de 50 empleados, la obligación aplica si tu actividad está regulada por normativa UE de servicios financieros, prevención del blanqueo, seguridad del transporte o protección del medioambiente. <strong>Independiente del tamaño.</strong></p>
+            <div style="margin-top:0.75rem;display:flex;flex-wrap:wrap;gap:0.375rem;">
+              <?php foreach(['Asesoría fiscal','Auditoría','Notaría','Inmobiliaria','Correduría de seguros','Fintech / entidad de pago','Gestor de residuos','Transporte aéreo/marítimo','Cambio de moneda / cripto','Casino / juego'] as $s): ?>
+              <span style="background:rgba(239,68,68,0.1);color:#b91c1c;font-size:0.75rem;font-weight:600;padding:0.2rem 0.625rem;border-radius:100px;"><?= $s ?></span>
+              <?php endforeach; ?>
+            </div>
+            <p style="margin:0.625rem 0 0;font-size:0.8125rem;"><a href="/blog/obligados-menos-50-empleados" style="color:var(--accent);">Ver la lista completa de sectores obligados →</a></p>
+          </div>
+          <span style="flex-shrink:0;background:#dc2626;color:#fff;font-size:0.75rem;font-weight:700;padding:0.25rem 0.625rem;border-radius:100px;white-space:nowrap;">OBLIGADO</span>
+        </div>
+
         <div style="display:flex;align-items:flex-start;gap:1rem;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
           <span style="font-size:1.25rem;flex-shrink:0;margin-top:1px;">📈</span>
           <div>
@@ -136,7 +151,7 @@ include 'includes/header.php';
       <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;">
         <div>
           <p style="margin:0;font-weight:600;font-size:1.0625rem;">¿Tu empresa está obligada?</p>
-          <p style="margin:0.375rem 0 0;font-size:0.875rem;color:var(--text-secondary);">Activa tu canal ahora. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="margin:0.375rem 0 0;font-size:0.875rem;color:var(--text-secondary);">Activa tu canal ahora. Desde 9€/mes · 15 días de prueba gratuita.</p>
         </div>
         <a href="/registro" class="btn btn-primary" style="white-space:nowrap;">Activar canal →</a>
       </div>
@@ -210,13 +225,13 @@ include 'includes/header.php';
   <!-- CTA PRINCIPAL -->
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
-      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Canal operativo en 5 minutos.<br>Desde <span style="color:var(--accent);">0 €</span>.</h2>
+      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Canal operativo en 5 minutos.<br>Desde <span style="color:var(--accent);">9€/mes</span>.</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">EticAlert te da un canal de denuncias homologado, con RSII, libro-registro y Política del SII incluidos. Cumple la Ley 2/2023 hoy.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
-        <a href="/registro" class="btn btn-primary btn-lg">Activar canal gratis →</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="/precios" class="btn btn-secondary btn-lg">Ver todos los planes</a>
       </div>
-      <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">Gratis hasta 20 empleados · Desde 19€/mes · Sin permanencia</p>
+      <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">Desde 9€/mes · 15 días de prueba gratuita · Sin permanencia</p>
     </div>
   </section>
 

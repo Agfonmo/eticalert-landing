@@ -143,7 +143,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">La herramienta la ponemos nosotros. La responsabilidad es tuya</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert externaliza la tecnología para que tu RSII se concentre en gestionar los casos, no en mantener sistemas. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert externaliza la tecnología para que tu RSII se concentre en gestionar los casos, no en mantener sistemas. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">La herramienta la ponemos nosotros. La responsabilidad es tuya →</a>
         </div>
 

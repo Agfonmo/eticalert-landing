@@ -1,6 +1,6 @@
 <?php
-$page_title             = 'Canal de Denuncias Ley 2/2023 — ¿Está Obligada Tu Empresa?';
-$page_description       = 'La Ley 2/2023 obliga a empresas con +50 trabajadores. Comprueba si debes tener canal de denuncias, qué requisitos cumplir y las multas de hasta 1M€.';
+$page_title             = 'Ley 2/2023: ¿Está Tu Empresa Obligada a Canal de Denuncias?';
+$page_description       = '¿Tienes +50 trabajadores? La Ley 2/2023 exige canal de denuncias — multas de hasta 1.000.000€. Comprueba si estás obligado, los requisitos y cómo cumplir hoy →';
 $page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';
@@ -83,6 +83,57 @@ include '../includes/header.php';
         </ul>
         <p>Las empresas de entre 50 y 249 empleados que pertenezcan a un grupo de empresas pueden compartir un único canal de denuncias. Sin embargo, cada empresa sigue siendo individualmente responsable del cumplimiento y del nombramiento de su RSII.</p>
 
+        <h3 id="obligados-sector">Obligados por normativa sectorial, independientemente del tamaño</h3>
+        <p>La Ley 2/2023 transpone la Directiva Whistleblowing, que obliga también a entidades privadas que operen en los ámbitos de la normativa de la Unión Europea sobre servicios, productos y mercados financieros, prevención del blanqueo de capitales, seguridad del transporte y protección del medioambiente. Esto significa que <strong>puede existir obligación aunque la empresa tenga menos de 50 empleados</strong>, si su actividad está regulada en alguno de estos sectores.</p>
+
+        <p><strong>Sujetos obligados por prevención del blanqueo de capitales (Ley 10/2010):</strong></p>
+        <ul>
+          <li>Asesorías fiscales, contables y de gestión societaria.</li>
+          <li>Auditores de cuentas.</li>
+          <li>Despachos de abogados en operaciones con incidencia financiera.</li>
+          <li>Notarías y registros de la propiedad y mercantiles.</li>
+          <li>Agencias y agentes inmobiliarios, promotores inmobiliarios.</li>
+          <li>Entidades de pago, entidades de dinero electrónico y cambio de moneda.</li>
+          <li>Plataformas y proveedores de servicios de criptoactivos.</li>
+          <li>Casinos y operadores de juego.</li>
+          <li>Compraventas de joyas, metales preciosos, antigüedades, arte y bienes de alto valor.</li>
+          <li>Fundaciones y asociaciones en supuestos específicos de la Ley 10/2010.</li>
+        </ul>
+
+        <p><strong>Sector financiero y asegurador (aunque tengan menos de 50 empleados):</strong></p>
+        <ul>
+          <li>Empresas de servicios de inversión (agencias y sociedades de valores).</li>
+          <li>Gestoras de instituciones de inversión colectiva y de fondos de pensiones.</li>
+          <li>Intermediarios financieros y plataformas de financiación participativa.</li>
+          <li>Corredurías de seguros cuando les aplique normativa sectorial.</li>
+          <li>Fintech reguladas bajo PSD2 u otras directivas europeas de servicios financieros.</li>
+        </ul>
+
+        <p><strong>Transporte y logística:</strong></p>
+        <ul>
+          <li>Operadores de transporte aéreo y marítimo regulados.</li>
+          <li>Transportistas ferroviarios sujetos a normativa de seguridad del transporte.</li>
+          <li>Empresas de transporte por carretera en ámbitos específicamente regulados a nivel europeo.</li>
+        </ul>
+
+        <p><strong>Medio ambiente y actividades industriales:</strong></p>
+        <ul>
+          <li>Gestores de residuos (recogida, transporte, valorización, eliminación).</li>
+          <li>Empresas de tratamiento de aguas residuales.</li>
+          <li>Actividades sujetas a autorización ambiental integrada.</li>
+          <li>Empresas con instalaciones sujetas a la Directiva de Emisiones Industriales (DEI).</li>
+          <li>Operadores de sustancias peligrosas regulados por la Directiva SEVESO.</li>
+        </ul>
+
+        <p><strong>Entidades que reciben o gestionan fondos públicos:</strong></p>
+        <ul>
+          <li>Cualquier entidad privada —asociaciones, fundaciones, sociedades— que reciba subvenciones, contratos o financiación pública de forma relevante puede estar en el ámbito de aplicación de la ley, aunque tenga menos de 50 empleados.</li>
+        </ul>
+
+        <div class="callout">
+          <p><strong>Importante:</strong> si tu empresa opera en alguno de estos sectores, la obligación no depende únicamente del número de empleados. Consulta con un asesor de compliance antes de concluir que no estás obligado. <a href="/blog/obligados-menos-50-empleados" style="color:var(--accent);">Ver guía completa: ¿Estás obligado aunque tengas menos de 50 empleados? →</a></p>
+        </div>
+
         <h2 id="requisitos-canal">¿Qué requisitos debe cumplir el canal?</h2>
         <p>La Ley 2/2023 no solo obliga a tener un canal: exige que ese canal tenga unas características mínimas. Estos son los requisitos técnicos y procedimentales:</p>
         <ul>
@@ -129,11 +180,11 @@ include '../includes/header.php';
           <li><strong>Consultoría especializada:</strong> contratar un despacho o consultora de compliance que implemente el canal. Opción válida pero habitualmente cara y lenta.</li>
           <li><strong>Plataforma SaaS especializada:</strong> la solución más rápida y económica para la pyme. Canal operativo en minutos, requisitos técnicos ya cubiertos por la plataforma, precio fijo mensual.</li>
         </ul>
-        <p><a href="/">EticAlert</a> es una plataforma SaaS diseñada específicamente para pymes españolas que necesitan activar su canal en el menor tiempo posible. <strong>Gratis hasta 20 empleados, 39€/mes para empresas de 50 a 150 empleados</strong> (obligadas por ley). Sin consultoría, con wizard de configuración guiada y todos los requisitos técnicos de la Ley 2/2023 cubiertos desde el primer día.</p>
+        <p><a href="/">EticAlert</a> es una plataforma SaaS diseñada específicamente para pymes españolas que necesitan activar su canal en el menor tiempo posible. <strong>Starter 9€/mes hasta 20 empleados, 39€/mes para empresas de 50 a 150 empleados</strong> (obligadas por ley). Sin consultoría, con wizard de configuración guiada y todos los requisitos técnicos de la Ley 2/2023 cubiertos desde el primer día.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa tu canal de denuncias con EticAlert</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal operativo en 5 minutos. Gratis hasta 20 empleados · desde 19€/mes. Sin técnicos ni consultores.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal operativo en 5 minutos. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes. Sin técnicos ni consultores.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Directiva Whistleblowing UE 2019/1937 | Qué exige y cómo aplica en España';
-$page_description = 'La Directiva europea 2019/1937 es el origen del canal de denuncias obligatorio. Te explicamos qué exige, cómo la transpuso España con la Ley 2/2023 y qué diferencias hay.';
+$page_title       = 'Directiva Whistleblowing 2019/1937: Qué Exige a Tu Empresa en España';
+$page_description = 'La Directiva UE 2019/1937 obliga a empresas con +50 trabajadores. España la transpuso con la Ley 2/2023. Descubre los requisitos exactos y si tu empresa está afectada →';
 $page_canonical   = 'https://eticalert.com/blog/directiva-europea-whistleblowing';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-08T00:00:00+01:00';
@@ -179,7 +179,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Cumple la directiva europea y la ley española con EticAlert</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert está diseñado para cumplir tanto la Directiva 2019/1937 como la Ley 2/2023 española desde el primer día. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert está diseñado para cumplir tanto la Directiva 2019/1937 como la Ley 2/2023 española desde el primer día. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Cumple la directiva europea y la ley española con EticAlert →</a>
         </div>
 

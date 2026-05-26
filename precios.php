@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Precios del canal de denuncias | EticAlert — Gratis hasta 20 empleados';
-$page_description = 'Precio transparente sin sorpresas. Canal de denuncias gratis hasta 20 empleados. Planes desde 19€/mes. Compara planes y activa el tuyo hoy.';
+$page_title       = 'Precios del canal de denuncias | EticAlert — desde 9€/mes';
+$page_description = 'Precio transparente sin sorpresas. Canal de denuncias desde 9€/mes. Plan Starter para pymes y sujetos obligados. Compara planes y activa el tuyo hoy.';
 $page_canonical   = 'https://eticalert.com/precios';
 include 'includes/header.php';
 ?>
@@ -26,7 +26,7 @@ include 'includes/header.php';
   "areaServed": {"@type": "Country", "name": "ES"},
   "availableLanguage": "Spanish",
   "offers": [
-    {"@type":"Offer","name":"Free","price":"0","priceCurrency":"EUR","description":"Hasta 20 empleados. Sin tarjeta de crédito."},
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. Facturación anual: 190€/año."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. Facturación anual: 390€/año."},
     {"@type":"Offer","name":"Enterprise","price":"0","priceCurrency":"EUR","description":"Más de 150 empleados. Precio personalizado."}
@@ -58,19 +58,19 @@ include 'includes/header.php';
       <!-- Pricing cards -->
       <div class="pricing-grid">
 
-        <!-- Free -->
+        <!-- Starter -->
         <div class="pricing-card fade-up">
           <div class="pricing-header">
-            <div class="plan-name">Free</div>
+            <div class="plan-name">Starter</div>
             <div class="plan-subtitle">Hasta 20 empleados</div>
           </div>
           <div class="pricing-price" data-price-monthly>
-            <span class="price-amount">0€</span>
+            <span class="price-amount">9€</span>
             <span class="price-period">/mes</span>
           </div>
           <div class="pricing-price" data-price-annual style="display:none;">
-            <span class="price-amount">0€</span>
-            <span class="price-period">/año</span>
+            <span class="price-amount">81€</span>
+            <span class="price-period">/año · 3 meses gratis</span>
           </div>
           <ul class="pricing-features">
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>1 empresa</span></li>
@@ -83,8 +83,9 @@ include 'includes/header.php';
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Soporte por email</span></li>
           </ul>
           <div class="pricing-footer">
-            <a href="/registro" class="btn btn-secondary">Empezar gratis →</a>
-            <p class="pricing-note">Sin tarjeta de crédito</p>
+            <a href="/registro" class="btn btn-secondary">Activar Starter →</a>
+            <p class="pricing-note" data-price-monthly>81€/año (ahorra 27€)</p>
+            <p class="pricing-note" data-price-annual style="display:none;">81€/año · Sin permanencia</p>
           </div>
         </div>
 
@@ -103,7 +104,7 @@ include 'includes/header.php';
             <span class="price-period">/año · 2 meses gratis</span>
           </div>
           <ul class="pricing-features">
-            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Todo lo incluido en Free</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Todo lo incluido en Starter</span></li>
             <li class="pricing-feature separator"><span>Mayor capacidad:</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Misma funcionalidad completa</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Hasta 49 empleados</span></li>
@@ -301,7 +302,7 @@ include 'includes/header.php';
           <thead>
             <tr>
               <th>Característica</th>
-              <th>Free</th>
+              <th>Starter</th>
               <th>Business</th>
               <th>Company</th>
               <th>Enterprise</th>
@@ -439,7 +440,7 @@ include 'includes/header.php';
     <div class="container">
       <div class="fade-up">
         <h2>Sin excusas. Canal operativo en 5 minutos.</h2>
-        <p>Empieza gratis hoy. Sin tarjeta de crédito. Sin permanencia. Sin llamadas.</p>
+        <p>Prueba 15 días gratis. Sin permanencia. Sin llamadas.</p>
         <a href="/registro" class="btn btn-primary btn-lg">Crear mi canal →</a>
       </div>
     </div>

@@ -50,7 +50,7 @@ include 'includes/header.php';
       "name": "¿Cuánto cuesta evitar la sanción?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Con EticAlert, el canal de denuncias que cumple la Ley 2/2023 es gratuito hasta 20 empleados y cuesta desde 19 euros al mes para empresas más grandes. Frente a una multa mínima de 100.000 euros, el coste de cumplir es prácticamente cero."
+        "text": "Con EticAlert, el canal de denuncias que cumple la Ley 2/2023 cuesta desde 9 euros al mes. Frente a una multa mínima de 100.000 euros, el coste de cumplir es prácticamente cero."
       }
     }
   ]
@@ -71,7 +71,7 @@ include 'includes/header.php';
       <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.2;margin-bottom:1rem;">Sanciones por no tener canal de denuncias: multas de hasta <span style="color:var(--accent);">1.000.000 €</span></h1>
       <p style="font-size:1.125rem;color:var(--text-secondary);max-width:680px;margin-bottom:2rem;">Si tu empresa tiene 50 o más empleados y no tiene canal de denuncias operativo, ya incumple la Ley 2/2023. La AIPI está sancionando. El riesgo es real y el coste de cumplir es mínimo.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-        <a href="/registro" class="btn btn-primary btn-lg">Activa tu canal hoy — desde 0 €</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Activa tu canal hoy — desde 9€/mes</a>
         <a href="#riesgo" class="btn btn-secondary btn-lg">¿Está mi empresa en riesgo?</a>
       </div>
     </div>
@@ -180,13 +180,13 @@ include 'includes/header.php';
   <!-- CTA CENTRAL -->
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
-      <h2 style="font-size:1.75rem;margin-bottom:1rem;">La multa mínima es 100.000 €.<br>EticAlert cuesta desde <span style="color:var(--accent);">0 €</span>.</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal de denuncias gratuito hasta 20 empleados. Desde 19 €/mes para empresas más grandes. Operativo en 5 minutos. Cumple la Ley 2/2023 desde hoy.</p>
+      <h2 style="font-size:1.75rem;margin-bottom:1rem;">La multa mínima es 100.000 €.<br>EticAlert cuesta desde <span style="color:var(--accent);">9€/mes</span>.</h2>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Starter desde 9€/mes hasta 20 empleados · Business 19€/mes hasta 49 · Company 39€/mes hasta 150. Operativo en 5 minutos. Cumple la Ley 2/2023 desde hoy.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal ahora →</a>
         <a href="/precios" class="btn btn-secondary btn-lg">Ver precios</a>
       </div>
-      <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">Sin tarjeta de crédito para el plan gratuito · Configuración en minutos · Soporte incluido</p>
+      <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">15 días de prueba gratuita · Configuración en minutos · Soporte incluido</p>
     </div>
   </section>
 

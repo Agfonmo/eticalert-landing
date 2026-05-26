@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":4,"name":"Alternativa a GlobalSuite","item":"https://eticalert.com/blog/alternativa-globalsuite"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es GlobalSuite?","acceptedAnswer":{"@type":"Answer","text":"GlobalSuite es una suite GRC (Governance, Risk and Compliance) española que incluye gestión de riesgos, continuidad de negocio, cumplimiento normativo y canal de denuncias. Tiene certificación ISO 27001 y está disponible en 7 idiomas. Su orientación es a grandes organizaciones y corporaciones."}},{"@type":"Question","name":"¿GlobalSuite es adecuado para pymes?","acceptedAnswer":{"@type":"Answer","text":"GlobalSuite está orientado a grandes organizaciones con necesidades completas de GRC. Para pymes que solo necesitan un canal de denuncias para cumplir la Ley 2/2023, resulta sobredimensionado. EticAlert es una solución especializada, más económica y activable en 5 minutos."}},{"@type":"Question","name":"¿Cuánto cuesta GlobalSuite?","acceptedAnswer":{"@type":"Answer","text":"GlobalSuite no publica precios en abierto — su modelo es a medida para cada organización. EticAlert tiene precios transparentes: gratis hasta 20 empleados, 19€/mes hasta 49, 39€/mes hasta 500 empleados."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es GlobalSuite?","acceptedAnswer":{"@type":"Answer","text":"GlobalSuite es una suite GRC (Governance, Risk and Compliance) española que incluye gestión de riesgos, continuidad de negocio, cumplimiento normativo y canal de denuncias. Tiene certificación ISO 27001 y está disponible en 7 idiomas. Su orientación es a grandes organizaciones y corporaciones."}},{"@type":"Question","name":"¿GlobalSuite es adecuado para pymes?","acceptedAnswer":{"@type":"Answer","text":"GlobalSuite está orientado a grandes organizaciones con necesidades completas de GRC. Para pymes que solo necesitan un canal de denuncias para cumplir la Ley 2/2023, resulta sobredimensionado. EticAlert es una solución especializada, más económica y activable en 5 minutos."}},{"@type":"Question","name":"¿Cuánto cuesta GlobalSuite?","acceptedAnswer":{"@type":"Answer","text":"GlobalSuite no publica precios en abierto — su modelo es a medida para cada organización. EticAlert tiene precios transparentes: Starter 9€/mes hasta 20 empleados, 19€/mes hasta 49, 39€/mes hasta 150 empleados."}}]}
 </script>
 
 <main id="main-content">
@@ -102,7 +102,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal especializado — activo en 5 minutos, precio público</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Sin proyecto de implantación, sin precio a consultar. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Sin proyecto de implantación, sin precio a consultar. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -119,7 +119,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta GlobalSuite?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">GlobalSuite no publica precios en abierto — su modelo es a medida para cada organización. EticAlert tiene precios transparentes: gratis hasta 20 empleados, 19€/mes hasta 49, 39€/mes hasta 500 empleados.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">GlobalSuite no publica precios en abierto — su modelo es a medida para cada organización. EticAlert tiene precios transparentes: Starter 9€/mes hasta 20 empleados, 19€/mes hasta 49, 39€/mes hasta 150 empleados.</p>
           </div>
         </div>
 

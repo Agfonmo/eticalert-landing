@@ -47,7 +47,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:center;border:1px solid var(--border);">Track People Premium (suite RRHH)</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>Gratis</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">50 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">225€/mes</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">100 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">450€/mes</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">200 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">900€/mes</td></tr>
@@ -114,7 +114,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Precio fijo — sin escalar por empleado</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">39€/mes para hasta 500 empleados. Cifrado en BD, alertas automáticas, hash verificable. Gratis hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">39€/mes para hasta 500 empleados. Cifrado en BD, alertas automáticas, hash verificable. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

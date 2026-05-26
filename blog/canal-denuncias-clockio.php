@@ -47,7 +47,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:center;border:1px solid var(--border);">Clockio Premium (suite completa)</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>Gratis</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">50 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~180€/mes</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">100 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~330€/mes</td></tr>
           </tbody>
@@ -118,7 +118,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal aislado desde 19€/mes — sin escalar por empleado</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu software de fichajes. Cifrado en BD, alertas automáticas y hash verificable incluidos. Gratis hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu software de fichajes. Cifrado en BD, alertas automáticas y hash verificable incluidos. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

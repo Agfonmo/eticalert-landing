@@ -108,12 +108,12 @@ include '../includes/header.php';
           <tbody>
             <tr>
               <td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan de entrada</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);">Gratis hasta 20 empleados</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes hasta 20 empleados</td>
               <td style="padding:0.75rem;border:1px solid var(--border);">Sin plan gratuito</td>
             </tr>
             <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Core (0-49 emp.)</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);">Gratis hasta 20 · <strong>19€/mes</strong> hasta 49</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">9€/mes hasta 20 · <strong>19€/mes</strong> hasta 49</td>
               <td style="padding:0.75rem;border:1px solid var(--border);"><strong>99€/mes</strong></td>
             </tr>
             <tr>
@@ -282,8 +282,8 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Prueba EticAlert 15 días sin compromiso</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal activo en 5 minutos. Gratis hasta 20 empleados · desde 19€/mes para pymes obligadas. Sin tarjeta de crédito, sin contrato anual.</p>
-          <a href="/registro" class="btn btn-primary">Crear mi canal gratis →</a>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal activo en 5 minutos. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes para pymes obligadas. Sin tarjeta de crédito, sin contrato anual.</p>
+          <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 
         <p>Recursos relacionados:</p>

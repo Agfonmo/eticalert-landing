@@ -216,15 +216,15 @@ if ($submitted) {
 }
 
 // Variables para la página
-$page_title       = 'Crear canal de denuncias gratis | EticAlert — Ley 2/2023';
-$page_description = 'Activa tu canal de denuncias en 5 minutos. Gratis hasta 20 empleados, sin tarjeta de crédito. Cumple la Ley 2/2023 desde 19 €/mes. Alta online, sin llamadas.';
+$page_title       = 'Crear canal de denuncias | EticAlert — desde 9€/mes · Ley 2/2023';
+$page_description = 'Activa tu canal de denuncias en 5 minutos. Desde 9€/mes. 15 días de prueba gratuita. Cumple la Ley 2/2023. Alta online, sin llamadas.';
 $page_canonical   = 'https://eticalert.com/registro';
 include 'includes/header.php';
 ?><script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Registro","item":"https://eticalert.com/registro"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Crear canal de denuncias gratis","description":"Alta online en EticAlert: canal de denuncias conforme a la Ley 2/2023 para empresas españolas. Gratis hasta 20 empleados, planes desde 19 €/mes.","url":"https://eticalert.com/registro","publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"}}
+{"@context":"https://schema.org","@type":"WebPage","name":"Crear canal de denuncias | EticAlert","description":"Alta online en EticAlert: canal de denuncias conforme a la Ley 2/2023 para empresas españolas. Desde 9€/mes. 15 días de prueba gratuita.","url":"https://eticalert.com/registro","publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"}}
 </script>
 <?php
 
@@ -362,9 +362,9 @@ function field_value($field, $default = '') {
 
               <div class="plan-grid">
                 <div class="plan-card <?= field_value('empleados') === '1-20'   ? 'selected' : '' ?>" data-value="1-20"
-                     data-monthly="0 EUR/mes" data-annual="0 EUR/mes" data-plan="FREE">
-                  <div class="plan-name">Free</div>
-                  <div class="plan-price"><span class="plan-price-val">0 EUR/mes</span></div>
+                     data-monthly="9 EUR/mes" data-annual="81 EUR/año" data-plan="STARTER">
+                  <div class="plan-name">Starter</div>
+                  <div class="plan-price"><span class="plan-price-val">9 EUR/mes</span></div>
                   <div class="plan-range">Hasta 20 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '21-49'  ? 'selected' : '' ?>" data-value="21-49"

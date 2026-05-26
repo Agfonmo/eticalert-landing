@@ -117,7 +117,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa el canal accesible desde la cabina del camión</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">100% móvil, sin app, sin correo corporativo. QR para flota y almacén incluido. Gratis hasta 20 empleados · desde 19 €/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">100% móvil, sin app, sin correo corporativo. QR para flota y almacén incluido. Starter 9€/mes hasta 20 empleados · desde 19 €/mes.</p>
           <a href="/registro" class="btn btn-primary">Activar el canal de denuncias →</a>
         </div>
 

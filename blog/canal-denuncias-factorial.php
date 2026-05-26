@@ -213,7 +213,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal de denuncias especializado — sin cambiar tu HRIS</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Compatible con Factorial, Sesame HR o cualquier sistema de RRHH. Gratis hasta 20 empleados · desde 19€/mes. Sin tarjeta para empezar.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Compatible con Factorial, Sesame HR o cualquier sistema de RRHH. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes. Sin tarjeta para empezar.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

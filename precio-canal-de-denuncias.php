@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Precio Canal de Denuncias 2026 | Desde 0 € | Comparativa Real | EticAlert';
-$page_description = '¿Cuánto cuesta un canal de denuncias? Desde 0 € con EticAlert frente a 1.500–5.000 € de consultoría. Compara opciones y elige la mejor para tu empresa.';
+$page_title       = 'Precio Canal de Denuncias 2026 | Desde 9€/mes | Comparativa Real | EticAlert';
+$page_description = '¿Cuánto cuesta un canal de denuncias? Desde 9€/mes con EticAlert frente a 1.500–5.000 € de consultoría. Compara opciones y elige la mejor para tu empresa.';
 $page_canonical   = 'https://eticalert.com/precio-canal-de-denuncias';
 include 'includes/header.php';
 ?>
@@ -27,7 +27,7 @@ include 'includes/header.php';
   "areaServed": {"@type": "Country", "name": "ES"},
   "availableLanguage": "Spanish",
   "offers": [
-    {"@type":"Offer","name":"Free","price":"0","priceCurrency":"EUR","description":"Hasta 20 empleados. Sin tarjeta de crédito."},
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. 190€/año."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. 390€/año."}
   ]
@@ -87,9 +87,9 @@ include 'includes/header.php';
       </nav>
       <span class="blog-badge badge-comparativas" style="margin-bottom:1rem;display:inline-block;">Comparativa de precios · 2026</span>
       <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.2;margin-bottom:1rem;">Precio de un canal de denuncias para pymes en 2026</h1>
-      <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:2rem;">Desde <strong>0 €</strong> con una plataforma SaaS hasta más de <strong>5.000 €</strong> con una consultoría. Te explicamos las diferencias reales para que elijas sin gastar de más.</p>
+      <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:2rem;">Desde <strong>9 €/mes</strong> con una plataforma SaaS hasta más de <strong>5.000 €</strong> con una consultoría. Te explicamos las diferencias reales para que elijas sin gastar de más.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-        <a href="/registro" class="btn btn-primary btn-lg">Empezar gratis →</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="#comparativa" class="btn btn-secondary btn-lg">Ver comparativa</a>
       </div>
     </div>
@@ -142,8 +142,8 @@ include 'includes/header.php';
               <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);font-weight:700;">
                 ⭐ SaaS especializado <span style="font-size:0.8125rem;color:var(--accent);font-weight:400;">(EticAlert)</span>
               </td>
-              <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);text-align:right;font-weight:700;color:#059669;">0 €</td>
-              <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);text-align:right;font-weight:700;color:#059669;">0 – 468 €</td>
+              <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);text-align:right;font-weight:700;color:#059669;">desde 9€/mes</td>
+              <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);text-align:right;font-weight:700;color:#059669;">108 – 468 €/año</td>
               <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);text-align:center;">⚡ Minutos</td>
               <td style="padding:0.875rem 1rem;border-bottom:1px solid var(--border);text-align:center;font-size:0.875rem;color:var(--text-secondary);">Pymes 50–250 emp.</td>
             </tr>
@@ -184,9 +184,9 @@ include 'includes/header.php';
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;margin-bottom:2rem;">
 
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.75rem;">
-          <p style="font-size:0.8125rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Free</p>
-          <p style="font-size:2rem;font-weight:800;margin:0;">0 €<span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/mes</span></p>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">Hasta 20 empleados · Sin tarjeta</p>
+          <p style="font-size:0.8125rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Starter</p>
+          <p style="font-size:2rem;font-weight:800;margin:0;">9 €<span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/mes</span></p>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">Hasta 20 empleados · 81€/año</p>
           <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.875rem;">
             <li>✅ Canal anónimo</li>
             <li>✅ Acuse de recibo 7 días</li>
@@ -194,7 +194,7 @@ include 'includes/header.php';
             <li>✅ Libro-registro</li>
             <li>✅ Cifrado AES-256</li>
           </ul>
-          <a href="/registro" class="btn btn-secondary" style="width:100%;text-align:center;display:block;">Empezar gratis</a>
+          <a href="/registro" class="btn btn-secondary" style="width:100%;text-align:center;display:block;">Activar Starter</a>
         </div>
 
         <div style="background:var(--bg-card);border:2px solid var(--accent);border-radius:var(--radius-lg);padding:1.75rem;position:relative;">
@@ -203,7 +203,7 @@ include 'includes/header.php';
           <p style="font-size:2rem;font-weight:800;margin:0;">19 €<span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/mes</span></p>
           <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">21–49 empleados · 190€/año</p>
           <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.875rem;">
-            <li>✅ Todo lo del plan Free</li>
+            <li>✅ Todo lo del plan Starter</li>
             <li>✅ Múltiples usuarios RSII</li>
             <li>✅ Exportación PDF auditoría</li>
             <li>✅ URL personalizada</li>
@@ -271,8 +271,8 @@ include 'includes/header.php';
       <div style="display:flex;flex-direction:column;gap:1.25rem;">
 
         <details style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
-          <summary style="font-weight:600;cursor:pointer;font-size:1rem;">¿El plan Free realmente cumple la Ley 2/2023?</summary>
-          <p style="margin-top:0.75rem;color:var(--text-secondary);margin-bottom:0;">Sí. El plan gratuito incluye todos los requisitos técnicos de la ley: anonimato real, acuse de recibo en 7 días, gestión del plazo de 3 meses, mensajería cifrada y libro-registro. La diferencia con los planes de pago es la capacidad (hasta 20 empleados) y funcionalidades avanzadas de gestión, no el nivel de cumplimiento legal.</p>
+          <summary style="font-weight:600;cursor:pointer;font-size:1rem;">¿El plan Starter realmente cumple la Ley 2/2023?</summary>
+          <p style="margin-top:0.75rem;color:var(--text-secondary);margin-bottom:0;">Sí. El plan Starter incluye todos los requisitos técnicos de la ley: anonimato real, acuse de recibo en 7 días, gestión del plazo de 3 meses, mensajería cifrada y libro-registro. La diferencia con los planes superiores es la capacidad (hasta 20 empleados), no el nivel de cumplimiento legal.</p>
         </details>
 
         <details style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
@@ -304,10 +304,10 @@ include 'includes/header.php';
   <!-- CTA FINAL -->
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
-      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Empieza gratis hoy.<br>Sin tarjeta. Sin compromiso.</h2>
+      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Prueba 15 días gratis.<br>Sin tarjeta. Sin compromiso.</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal operativo en 5 minutos. Si tu empresa crece, cambias de plan cuando quieras. Si tienes menos de 20 empleados, siempre gratis.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
-        <a href="/registro" class="btn btn-primary btn-lg">Activar canal gratis →</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="/precios" class="btn btn-secondary btn-lg">Ver todos los planes</a>
       </div>
     </div>

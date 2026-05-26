@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Software Canal de Denuncias para Pymes 2026 | Comparativa | EticAlert';
-$page_description = '¿Qué software de canal de denuncias elegir? Criterios clave, tabla comparativa y veredicto para pymes españolas. Cumple la Ley 2/2023 desde 0 €.';
+$page_description = '¿Qué software de canal de denuncias elegir? Criterios clave, tabla comparativa y veredicto para pymes españolas. Cumple la Ley 2/2023 desde 9€/mes.';
 $page_canonical   = 'https://eticalert.com/software-canal-de-denuncias';
 include 'includes/header.php';
 ?>
@@ -24,11 +24,11 @@ include 'includes/header.php';
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
   "url": "https://eticalert.com",
-  "description": "Canal de denuncias SaaS para pymes españolas. Cumple la Ley 2/2023 desde 0 €. Activación en minutos, sin consultor.",
+  "description": "Canal de denuncias SaaS para pymes españolas. Cumple la Ley 2/2023 desde 9€/mes. Activación en minutos, sin consultor.",
   "areaServed": {"@type": "Country", "name": "ES"},
   "availableLanguage": "Spanish",
   "offers": [
-    {"@type":"Offer","name":"Free","price":"0","priceCurrency":"EUR","description":"Hasta 20 empleados."},
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"21–49 empleados."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"50–150 empleados."}
   ]
@@ -61,7 +61,7 @@ include 'includes/header.php';
       "name": "¿Qué diferencia hay entre EticAlert e Ithikios o MySECway?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "EticAlert está diseñado específicamente para pymes españolas de 50-250 empleados que necesitan cumplir la Ley 2/2023 rápido y sin fricción. Precio público desde 19 euros al mes, activación self-serve y plan gratuito hasta 20 empleados. Ithikios y MySECway tienen procesos de venta más largos, precios a consultar y están más orientados a empresas medianas o con necesidades de compliance más amplias."
+        "text": "EticAlert está diseñado específicamente para pymes españolas y sujetos obligados que necesitan cumplir la Ley 2/2023 rápido y sin fricción. Precio público desde 9 euros al mes (plan Starter hasta 20 empleados), activación self-serve sin consultor. Ithikios y MySECway tienen procesos de venta más largos, precios a consultar y están más orientados a empresas medianas o con necesidades de compliance más amplias."
       }
     },
     {
@@ -91,7 +91,7 @@ include 'includes/header.php';
       <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:0.75rem;">Hay muchas opciones. La mayoría no están diseñadas para pymes españolas. Te explicamos qué mirar, qué evitar y cuál es la elección más inteligente para una empresa de 50–250 empleados.</p>
       <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:2rem;">Veredicto rápido: para la mayoría de pymes españolas, EticAlert es la opción más directa y económica.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-        <a href="/registro" class="btn btn-primary btn-lg">Probar EticAlert gratis →</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Probar EticAlert →</a>
         <a href="#comparativa" class="btn btn-secondary btn-lg">Ver comparativa</a>
       </div>
     </div>
@@ -253,7 +253,7 @@ include 'includes/header.php';
         <?php
         $razones = [
           ['⚡','Operativo en minutos','Sin instalación, sin IT, sin consultor. Registro y listo.'],
-          ['💶','Precio desde 0 €','Gratis hasta 20 empleados. Desde 19 €/mes sin permanencia.'],
+          ['💶','Precio desde 9€/mes','Plan Starter 9€/mes hasta 20 empleados. Desde 19€/mes para empresas más grandes. Sin permanencia.'],
           ['🇪🇸','Diseñado para España','Ley 2/2023, AIPI, RSII. No una traducción de producto anglosajón.'],
           ['🔒','Anonimato real','Identidad del informante fuera de todos los logs y bases de datos.'],
           ['📋','Plantillas incluidas','Política del SII y acta de designación del RSII listas para usar.'],
@@ -313,7 +313,7 @@ include 'includes/header.php';
       <h2 style="font-size:1.75rem;margin-bottom:1rem;">Prueba EticAlert gratis.<br>Sin tarjeta. Canal operativo hoy.</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Gratis hasta 20 empleados. Desde 19 €/mes para empresas obligadas. Cumple la Ley 2/2023 en minutos, sin consultor.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
-        <a href="/registro" class="btn btn-primary btn-lg">Activar canal gratis →</a>
+        <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="/precio-canal-de-denuncias" class="btn btn-secondary btn-lg">Ver precios</a>
       </div>
       <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">Sin permanencia · Datos en la UE · Soporte en español</p>

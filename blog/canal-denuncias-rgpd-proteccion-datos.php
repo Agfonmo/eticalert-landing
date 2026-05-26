@@ -176,7 +176,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Cumple la Ley 2/2023 y el RGPD con una sola herramienta</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert integra el cumplimiento de la Ley 2/2023 y el RGPD en una sola plataforma. Gratis hasta 20 empleados · desde 19€/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert integra el cumplimiento de la Ley 2/2023 y el RGPD en una sola plataforma. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
           <a href="/registro" class="btn btn-primary">Cumple la Ley 2/2023 y el RGPD con una sola herramienta →</a>
         </div>
 
