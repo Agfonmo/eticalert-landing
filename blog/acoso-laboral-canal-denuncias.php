@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Cultura ética","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Cultura ética","item":"https://eticalert.com/blog/?cat=cultura-etica"},
     {"@type":"ListItem","position":4,"name":"Acoso laboral y canal de denuncias","item":"https://eticalert.com/blog/acoso-laboral-canal-denuncias"}
   ]
 }
@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Cultura ética</a>
+        <a href="/blog/?cat=cultura-etica"></a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Acoso laboral y canal de denuncias</span>
       </nav>

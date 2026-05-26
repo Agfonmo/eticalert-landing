@@ -31,7 +31,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},
     {"@type":"ListItem","position":4,"name":"Alternativa a Whistlelink","item":"https://eticalert.com/blog/alternativa-whistlelink"}
   ]
 }
@@ -54,7 +54,7 @@ include '../includes/header.php';
       <nav class="breadcrumb" aria-label="Migas de pan">
         <a href="/">Inicio</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Comparativas</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/blog/?cat=comparativas"></a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Alternativa a Whistlelink</span>
       </nav>
 

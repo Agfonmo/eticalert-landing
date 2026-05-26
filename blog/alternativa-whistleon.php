@@ -12,7 +12,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Alternativa a WhistleOn en España: EticAlert vs WhistleOn (2026)","description":"Comparativa de precio y funcionalidades entre EticAlert y WhistleOn para canal de denuncias en España.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/alternativa-whistleon","datePublished":"2026-03-10","dateModified":"2026-03-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"alternativa whistleon, EticAlert vs whistleon, canal denuncias whatsapp, whistleon precio españa"}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":4,"name":"Alternativa a WhistleOn","item":"https://eticalert.com/blog/alternativa-whistleon"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Alternativa a WhistleOn","item":"https://eticalert.com/blog/alternativa-whistleon"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta WhistleOn en España?","acceptedAnswer":{"@type":"Answer","text":"WhistleOn publica tarifas desde 69€/mes + IVA para 1-49 empleados, 79€/mes para 50-149 y 89€/mes para 150-199 empleados. EticAlert parte desde 19€/mes para el mismo tramo de empresa."}},{"@type":"Question","name":"¿WhistleOn tiene canal de denuncias por WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Sí, WhistleOn incluye integración con WhatsApp e inteligencia artificial para transcribir audios. Es su principal diferenciador. EticAlert ofrece grabación de voz desde el navegador sin necesitar WhatsApp ni instalar nada."}},{"@type":"Question","name":"¿Es WhistleOn una empresa española?","acceptedAnswer":{"@type":"Answer","text":"WhistleOn pertenece al grupo Ouvidor Digital y está operativa en España y Portugal. Su orientación principal es el mercado portugués y latinoamericano. EticAlert es una empresa española diseñada específicamente para la normativa española (Ley 2/2023, AIPI, RSII)."}}}]}
@@ -24,7 +24,7 @@ include '../includes/header.php';
       <nav class="breadcrumb" aria-label="Migas de pan">
         <a href="/">Inicio</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Comparativas</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/blog/?cat=comparativas"></a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Alternativa a WhistleOn</span>
       </nav>
       <div class="article-content" style="margin:0 auto;">

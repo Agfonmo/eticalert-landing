@@ -12,7 +12,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Alternativa a TuCanalDeDenuncias.com: EticAlert vs TuCanalDeDenuncias (2026)","description":"TuCanalDeDenuncias ofrece una tarifa anual muy baja, pero con limitaciones en cifrado y control de roles. Comparativa completa con EticAlert.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/alternativa-tucanaldedenuncias","datePublished":"2026-03-24","dateModified":"2026-03-24","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"alternativa tucanaldedenuncias, EticAlert vs tucanaldedenunicas, canal denuncias barato españa"}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":4,"name":"Alternativa a TuCanalDeDenuncias","item":"https://eticalert.com/blog/alternativa-tucanaldedenuncias"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Alternativa a TuCanalDeDenuncias","item":"https://eticalert.com/blog/alternativa-tucanaldedenuncias"}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta TuCanalDeDenuncias?","acceptedAnswer":{"@type":"Answer","text":"TuCanalDeDenuncias tiene dos planes: PYME (hasta 50 empleados) por 150€/año, y Total Plus (más de 50 empleados) por 450€/año. EticAlert para empresas de hasta 49 empleados cuesta 228€/año, pero incluye cifrado avanzado, control granular de acceso y cumplimiento legal integrado que TuCanalDeDenuncias no incluye."}},{"@type":"Question","name":"¿TuCanalDeDenuncias cumple todos los requisitos de la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"TuCanalDeDenuncias cubre los requisitos básicos de la Ley 2/2023 (formulario anónimo, mensajería, seguimiento). Sin embargo, carece de cifrado avanzado en base de datos, control granular de roles tan detallado, y verificación criptográfica de expedientes. Para muchas pymes los básicos son suficientes, pero para casos sensibles o con riesgo de inspección de la AIPI, las garantías técnicas de EticAlert son más sólidas."}}]}
@@ -24,7 +24,7 @@ include '../includes/header.php';
       <nav class="breadcrumb" aria-label="Migas de pan">
         <a href="/">Inicio</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Comparativas</a><span class="breadcrumb-sep" aria-hidden="true">›</span>
+        <a href="/blog/?cat=comparativas"></a><span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Alternativa a TuCanalDeDenuncias</span>
       </nav>
       <div class="article-content" style="margin:0 auto;">

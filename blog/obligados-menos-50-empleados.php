@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Marco legal","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Marco legal","item":"https://eticalert.com/blog/?cat=marco-legal"},
     {"@type":"ListItem","position":4,"name":"Obligados con menos de 50 empleados","item":"https://eticalert.com/blog/obligados-menos-50-empleados"}
   ]
 }

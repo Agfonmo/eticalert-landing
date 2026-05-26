@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},
     {"@type":"ListItem","position":4,"name":"Mejor software canal de denuncias 2026","item":"https://eticalert.com/blog/mejor-software-canal-denuncias"}
   ]
 }
@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Comparativas</a>
+        <a href="/blog/?cat=comparativas"></a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Mejor software canal de denuncias 2026</span>
       </nav>

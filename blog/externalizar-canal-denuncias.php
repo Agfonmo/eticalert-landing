@@ -30,7 +30,7 @@ include '../includes/header.php';
   "itemListElement": [
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},
     {"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},
-    {"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/"},
+    {"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},
     {"@type":"ListItem","position":4,"name":"Externalizar el canal de denuncias","item":"https://eticalert.com/blog/externalizar-canal-denuncias"}
   ]
 }
@@ -69,7 +69,7 @@ include '../includes/header.php';
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <a href="/blog/">Blog</a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
-        <a href="/blog/">Comparativas</a>
+        <a href="/blog/?cat=comparativas"></a>
         <span class="breadcrumb-sep" aria-hidden="true">›</span>
         <span>Externalizar el canal de denuncias</span>
       </nav>
