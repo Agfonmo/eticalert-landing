@@ -74,6 +74,7 @@ include 'includes/header.php';
           </div>
           <ul class="pricing-features">
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>1 empresa</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Usuarios ilimitados</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Canal anónimo con código de seguimiento</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Acuse de recibo automático (7 días)</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Control de plazos legales (3 meses)</span></li>
@@ -311,6 +312,7 @@ include 'includes/header.php';
           <tbody>
             <tr><td colspan="5" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);padding-top:1.25rem;">Capacidad</td></tr>
             <tr><td>Máximo de empleados</td><td>20</td><td>49</td><td>150</td><td class="check">Sin límite</td></tr>
+            <tr><td>Usuarios gestores</td><td class="check">Ilimitados</td><td class="check">Ilimitados</td><td class="check">Ilimitados</td><td class="check">Ilimitados</td></tr>
             <tr><td>Empresas incluidas</td><td>1</td><td>1</td><td>1</td><td class="check">Multiempresa</td></tr>
 
             <tr><td colspan="5" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);padding-top:1.25rem;">Canal público</td></tr>
