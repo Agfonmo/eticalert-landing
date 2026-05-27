@@ -110,7 +110,7 @@ include '../includes/header.php';
             </tr>
             <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan de entrada</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes hasta 20 empleados</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes Admin + 2 usuarios</td>
               <td style="padding:0.75rem;border:1px solid var(--border);">Desde <strong>29€/mes</strong> (suscripción SaaS)</td>
             </tr>
             <tr>

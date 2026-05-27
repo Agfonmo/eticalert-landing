@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Alternativa a TuCanalDeDenuncias","item":"https://eticalert.com/blog/alternativa-tucanaldedenuncias"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta TuCanalDeDenuncias?","acceptedAnswer":{"@type":"Answer","text":"TuCanalDeDenuncias tiene dos planes: PYME (hasta 50 empleados) por 150€/año, y Total Plus (más de 50 empleados) por 450€/año. EticAlert para empresas de hasta 49 empleados cuesta 228€/año, pero incluye cifrado avanzado, control granular de acceso y cumplimiento legal integrado que TuCanalDeDenuncias no incluye."}},{"@type":"Question","name":"¿TuCanalDeDenuncias cumple todos los requisitos de la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"TuCanalDeDenuncias cubre los requisitos básicos de la Ley 2/2023 (formulario anónimo, mensajería, seguimiento). Sin embargo, carece de cifrado avanzado en base de datos, control granular de roles tan detallado, y verificación criptográfica de expedientes. Para muchas pymes los básicos son suficientes, pero para casos sensibles o con riesgo de inspección de la AIPI, las garantías técnicas de EticAlert son más sólidas."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta TuCanalDeDenuncias?","acceptedAnswer":{"@type":"Answer","text":"TuCanalDeDenuncias tiene dos planes: PYME (hasta 50 empleados) por 150€/año, y Total Plus (más de 50 empleados) por 450€/año. EticAlert para empresas de Admin + 3 usuarios cuesta 228€/año, pero incluye cifrado avanzado, control granular de acceso y cumplimiento legal integrado que TuCanalDeDenuncias no incluye."}},{"@type":"Question","name":"¿TuCanalDeDenuncias cumple todos los requisitos de la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"TuCanalDeDenuncias cubre los requisitos básicos de la Ley 2/2023 (formulario anónimo, mensajería, seguimiento). Sin embargo, carece de cifrado avanzado en base de datos, control granular de roles tan detallado, y verificación criptográfica de expedientes. Para muchas pymes los básicos son suficientes, pero para casos sensibles o con riesgo de inspección de la AIPI, las garantías técnicas de EticAlert son más sólidas."}}]}
 </script>
 
 <main id="main-content">
@@ -45,13 +45,13 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">TuCanalDeDenuncias</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">150€/año</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Admin + 2 usuarios</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">150€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Hasta 50 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>228€/año</strong> (19€/mes)</td><td style="padding:0.75rem;border:1px solid var(--border);">150€/año</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">50-500 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€/año</strong> (39€/mes)</td><td style="padding:0.75rem;border:1px solid var(--border);">450€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Prueba gratuita</td><td style="padding:0.75rem;border:1px solid var(--border);">15 días sin tarjeta</td><td style="padding:0.75rem;border:1px solid var(--border);">No indicado</td></tr>
           </tbody>
         </table>
-        <p>En precio puro, TuCanalDeDenuncias es más barato para empresas de 50-500 empleados (450€/año vs 468€/año de EticAlert). La diferencia es de 18€ anuales — prácticamente equivalente. Para empresas de hasta 20 empleados, EticAlert es gratuito.</p>
+        <p>En precio puro, TuCanalDeDenuncias es más barato para empresas de 50-500 empleados (450€/año vs 468€/año de EticAlert). La diferencia es de 18€ anuales — prácticamente equivalente. EticAlert Starter (Admin + 2 usuarios) cuesta 9€/mes.</p>
 
         <h2 id="diferencias-funcionalidades">Dónde está la diferencia real</h2>
         <table style="width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.875rem;">
@@ -105,12 +105,12 @@ include '../includes/header.php';
 
         <h2 id="casos-uso-tucanaldedenuncias">Casos de uso reales</h2>
         <p><strong>TuCanalDeDenuncias tiene sentido</strong> para una empresa de 30-50 empleados con perfil de riesgo bajo (sin denuncias históricas, sin sectores regulados) que necesita cumplir el requisito legal de forma básica y la diferencia de 18€/año con EticAlert es relevante. En ese segmento, el canal básico puede ser suficiente.</p>
-        <p><strong>TuCanalDeDenuncias no tiene sentido</strong> para empresas de menos de 20 empleados (EticAlert es gratuito), para empresas con riesgo de inspección de la AIPI (la falta de garantías técnicas documentadas es un punto débil ante un auditor), o para empresas en sectores donde las denuncias podrían llegar a procedimientos judiciales (sin hash verificable no hay trazabilidad probatoria).</p>
+        <p><strong>TuCanalDeDenuncias no tiene sentido</strong> para empresas pequeñas en el plan Starter de EticAlert (9€/mes), para empresas con riesgo de inspección de la AIPI (la falta de garantías técnicas documentadas es un punto débil ante un auditor), o para empresas en sectores donde las denuncias podrían llegar a procedimientos judiciales (sin hash verificable no hay trazabilidad probatoria).</p>
         <p>Ejemplo: empresa constructora de 45 empleados. TuCanalDeDenuncias: 150€/año. EticAlert: 228€/año (19€/mes). La diferencia es 78€/año — menos de 7€ al mes. Por esa diferencia, EticAlert incluye cifrado en BD, alertas automáticas de plazos y hash SHA-256 verificable. Para una empresa del sector de la construcción, donde los riesgos de compliance son mayores, la diferencia se justifica ampliamente.</p>
 
         <h2 id="veredicto-tucanaldedenuncias">Veredicto</h2>
         <p>TuCanalDeDenuncias es la opción más barata del mercado para empresas de 50+ empleados, con una diferencia de solo 18€/año frente a EticAlert en ese tramo. Es un canal funcional para cumplimiento básico.</p>
-        <p><strong>Elige TuCanalDeDenuncias</strong> si los 18€/año de diferencia son determinantes y el perfil de riesgo de tu empresa es muy bajo. <strong>Elige EticAlert</strong> si tienes hasta 20 empleados (es gratis) o si necesitas garantías técnicas reales ante una posible inspección o denuncia sensible.</p>
+        <p><strong>Elige TuCanalDeDenuncias</strong> si los 18€/año de diferencia son determinantes y el perfil de riesgo de tu empresa es muy bajo. <strong>Elige EticAlert</strong> si encajas en el plan Starter (Admin + 2 usuarios, 9€/mes) o si necesitas garantías técnicas reales ante una posible inspección o denuncia sensible.</p>
 
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
@@ -125,7 +125,7 @@ include '../includes/header.php';
           <h2 style="margin-bottom:1.5rem;">Preguntas frecuentes</h2>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta TuCanalDeDenuncias?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">TuCanalDeDenuncias tiene dos planes: PYME (hasta 50 empleados) por 150€/año, y Total Plus (más de 50 empleados) por 450€/año. EticAlert para empresas de hasta 49 empleados cuesta 228€/año, pero incluye cifrado avanzado, control granular de acceso y cumplimiento legal integrado que TuCanalDeDenuncias no incluye.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">TuCanalDeDenuncias tiene dos planes: PYME (hasta 50 empleados) por 150€/año, y Total Plus (más de 50 empleados) por 450€/año. EticAlert para empresas de Admin + 3 usuarios cuesta 228€/año, pero incluye cifrado avanzado, control granular de acceso y cumplimiento legal integrado que TuCanalDeDenuncias no incluye.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿TuCanalDeDenuncias cumple todos los requisitos de la Ley 2/2023?</h3>

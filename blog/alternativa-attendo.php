@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Alternativa a Attendo","item":"https://eticalert.com/blog/alternativa-attendo"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Attendo tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, Attendo incluye un módulo de canal de denuncias dentro de su plataforma de gestión de comunicaciones y ticketing de RRHH. Cuesta 49€/mes + IVA con facturación anual. Es un sistema generalista, no especializado en compliance."}},{"@type":"Question","name":"¿Attendo cumple la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Attendo cubre funcionalidades básicas como formulario anónimo y mensajería. Sin embargo, al ser un sistema de ticketing generalista, no tiene módulo RSII específico, ni alertas automáticas para los plazos de 7 días y 3 meses de la Ley 2/2023, ni cifrado avanzado documentado en base de datos."}},{"@type":"Question","name":"¿Cuánto cuesta Attendo vs EticAlert?","acceptedAnswer":{"@type":"Answer","text":"Attendo cuesta 49€/mes + IVA con facturación anual (no hay plan gratuito). EticAlert ofrece plan gratuito hasta 20 empleados, 19€/mes hasta 49 empleados y 39€/mes hasta 500. Para la misma funcionalidad de canal, EticAlert es más económico y más especializado."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Attendo tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, Attendo incluye un módulo de canal de denuncias dentro de su plataforma de gestión de comunicaciones y ticketing de RRHH. Cuesta 49€/mes + IVA con facturación anual. Es un sistema generalista, no especializado en compliance."}},{"@type":"Question","name":"¿Attendo cumple la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Attendo cubre funcionalidades básicas como formulario anónimo y mensajería. Sin embargo, al ser un sistema de ticketing generalista, no tiene módulo RSII específico, ni alertas automáticas para los plazos de 7 días y 3 meses de la Ley 2/2023, ni cifrado avanzado documentado en base de datos."}},{"@type":"Question","name":"¿Cuánto cuesta Attendo vs EticAlert?","acceptedAnswer":{"@type":"Answer","text":"Attendo cuesta 49€/mes + IVA con facturación anual (no hay plan gratuito). EticAlert ofrece Starter (Admin + 2 usuarios) desde 9€/mes, Business (Admin + 3 usuarios) 19€/mes y Company (Admin + 5 usuarios) 39€/mes. Para la misma funcionalidad de canal, EticAlert es más económico y más especializado."}}]}
 </script>
 
 <main id="main-content">
@@ -49,7 +49,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">Attendo</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes Admin + 2 usuarios</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Pyme hasta 49 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">49€/mes + IVA</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Pyme 50-500 emp.</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">49€/mes + IVA</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Facturación</td><td style="padding:0.75rem;border:1px solid var(--border);">Mensual o anual</td><td style="padding:0.75rem;border:1px solid var(--border);">Anual</td></tr>
@@ -116,7 +116,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Especializado en canal de denuncias — no un ticketing genérico</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Alertas automáticas de plazos, módulo RSII, cifrado AES-256-GCM. Desde 19€/mes. Starter desde 9€/mes, hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Alertas automáticas de plazos, módulo RSII, cifrado AES-256-GCM. Desde 19€/mes. Starter desde 9€/mes, Admin + 2 usuarios.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -133,7 +133,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta Attendo vs EticAlert?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Attendo cuesta 49€/mes + IVA con facturación anual (no hay plan gratuito). EticAlert ofrece plan gratuito hasta 20 empleados, 19€/mes hasta 49 empleados y 39€/mes hasta 500. Para la misma funcionalidad de canal, EticAlert es más económico y más especializado.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Attendo cuesta 49€/mes + IVA con facturación anual (no hay plan gratuito). EticAlert ofrece Starter (Admin + 2 usuarios) desde 9€/mes, Business (Admin + 3 usuarios) 19€/mes y Company (Admin + 5 usuarios) 39€/mes. Para la misma funcionalidad de canal, EticAlert es más económico y más especializado.</p>
           </div>
         </div>
 

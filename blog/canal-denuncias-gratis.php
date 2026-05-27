@@ -49,7 +49,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta el canal de denuncias más barato que cumple la ley?",
-      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert Starter cuesta 9€/mes (o 81€/año) para empresas de hasta 20 empleados. Incluye canal anónimo, cifrado AES-256, control de plazos legales, libro-registro y cumplimiento completo de la Ley 2/2023. Es el precio más bajo del mercado con todas las garantías técnicas."}
+      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert Starter cuesta 9€/mes (o 81€/año) para empresas de Admin + 2 usuarios. Incluye canal anónimo, cifrado AES-256, control de plazos legales, libro-registro y cumplimiento completo de la Ley 2/2023. Es el precio más bajo del mercado con todas las garantías técnicas."}
     },
     {
       "@type": "Question",
@@ -117,7 +117,7 @@ include '../includes/header.php';
           <li><strong>Soporte por email</strong> — respuesta garantizada ante cualquier incidencia.</li>
         </ul>
 
-        <p>Está disponible para empresas de <strong>hasta 20 empleados</strong>. Más de 20 empleados: Business 19€/mes. Más de 50: Company 39€/mes.</p>
+        <p>El plan Starter (<strong>Admin + 2 usuarios</strong>) cuesta 9€/mes. Business (Admin + 3 usuarios): 19€/mes. Company (Admin + 5 usuarios): 39€/mes.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:1.75rem;margin:2rem 0;">
           <p style="font-weight:700;margin-bottom:0.5rem;">Prueba gratuita 15 días</p>
@@ -127,7 +127,7 @@ include '../includes/header.php';
 
         <h2 id="comparativa">EticAlert Starter vs el mercado: la comparativa honesta</h2>
 
-        <p>Para empresas de hasta 20 empleados, así queda EticAlert frente a las alternativas:</p>
+        <p>Para empresas de Admin + 2 usuarios, así queda EticAlert frente a las alternativas:</p>
 
         <div style="overflow-x:auto;margin:1.5rem 0;">
           <table style="width:100%;border-collapse:collapse;font-size:0.9rem;">

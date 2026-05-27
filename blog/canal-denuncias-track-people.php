@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Canal de denuncias Track People","item":"https://eticalert.com/blog/canal-denuncias-track-people"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Track People tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, Track People incluye un canal de denuncias en su plan Premium, que cuesta 4,50€ por usuario al mes con un mínimo de 5 usuarios (22,50€/mes mínimo). Es una plataforma de RRHH que incluye el canal como módulo adicional."}},{"@type":"Question","name":"¿Cuánto cuesta Track People para 50 empleados?","acceptedAnswer":{"@type":"Answer","text":"Con Track People Premium, 50 empleados costarían 4,50€ × 50 = 225€/mes. EticAlert para el canal de denuncias de una empresa de hasta 150 empleados cuesta 39€/mes — sin costes por empleado."}},{"@type":"Question","name":"¿Track People colabora con asesores jurídicos?","acceptedAnswer":{"@type":"Answer","text":"Sí, Track People incluye asesoría de Ejaso ETL Global en sus planes, lo que puede ser útil para empresas que necesitan apoyo jurídico en la gestión de expedientes. EticAlert es un producto técnico self-serve; la asesoría jurídica se contrata por separado si se necesita."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Track People tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, Track People incluye un canal de denuncias en su plan Premium, que cuesta 4,50€ por usuario al mes con un mínimo de 5 usuarios (22,50€/mes mínimo). Es una plataforma de RRHH que incluye el canal como módulo adicional."}},{"@type":"Question","name":"¿Cuánto cuesta Track People para 50 empleados?","acceptedAnswer":{"@type":"Answer","text":"Con Track People Premium, 50 empleados costarían 4,50€ × 50 = 225€/mes. EticAlert para el canal de denuncias de una empresa de Admin + 5 usuarios cuesta 39€/mes — sin costes por empleado."}},{"@type":"Question","name":"¿Track People colabora con asesores jurídicos?","acceptedAnswer":{"@type":"Answer","text":"Sí, Track People incluye asesoría de Ejaso ETL Global en sus planes, lo que puede ser útil para empresas que necesitan apoyo jurídico en la gestión de expedientes. EticAlert es un producto técnico self-serve; la asesoría jurídica se contrata por separado si se necesita."}}]}
 </script>
 
 <main id="main-content">
@@ -47,7 +47,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:center;border:1px solid var(--border);">Track People Premium (suite RRHH)</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Admin + 2 usuarios</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">50 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">225€/mes</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">100 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">450€/mes</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">200 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">900€/mes</td></tr>
@@ -114,7 +114,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Precio fijo — sin escalar por empleado</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">39€/mes para hasta 500 empleados. Cifrado en BD, alertas automáticas, hash verificable. Starter desde 9€/mes, hasta 20 empleados.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">39€/mes para hasta 500 empleados. Cifrado en BD, alertas automáticas, hash verificable. Starter desde 9€/mes, Admin + 2 usuarios.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -127,7 +127,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta Track People para 50 empleados?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Con Track People Premium, 50 empleados costarían 4,50€ × 50 = 225€/mes. EticAlert para el canal de denuncias de una empresa de hasta 150 empleados cuesta 39€/mes — sin costes por empleado.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Con Track People Premium, 50 empleados costarían 4,50€ × 50 = 225€/mes. EticAlert para el canal de denuncias de una empresa de Admin + 5 usuarios cuesta 39€/mes — sin costes por empleado.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Track People colabora con asesores jurídicos?</h3>

@@ -144,7 +144,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Implanta tu canal ético hoy, sin complejidad</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert cubre el canal ético y el canal de denuncias legal con una sola plataforma. Anonimato garantizado, cifrado de extremo a extremo, gestión de plazos automática. Starter 9€/mes hasta 20 empleados · desde 19 €/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">EticAlert cubre el canal ético y el canal de denuncias legal con una sola plataforma. Anonimato garantizado, cifrado de extremo a extremo, gestión de plazos automática. Starter 9€/mes Admin + 2 usuarios · desde 19 €/mes.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal ético →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

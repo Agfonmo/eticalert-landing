@@ -44,7 +44,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Las farmacias con menos de 50 empleados necesitan canal de denuncias?",
-      "acceptedAnswer": {"@type": "Answer", "text": "La Ley 2/2023 obliga directamente a las empresas con 50 o más trabajadores. Una farmacia o clínica con menos de 50 empleados no está obligada legalmente, aunque puede implantar el canal de forma voluntaria. Si la farmacia pertenece a un grupo o red de farmacias que en conjunto supera los 50 trabajadores, el umbral se aplica al grupo. Por debajo del umbral, EticAlert ofrece un plan Starter desde 9€/mes para empresas de hasta 20 empleados y Business desde 19€/mes para empresas de 21 a 49 empleados."}
+      "acceptedAnswer": {"@type": "Answer", "text": "La Ley 2/2023 obliga directamente a las empresas con 50 o más trabajadores. Una farmacia o clínica con menos de 50 empleados no está obligada legalmente, aunque puede implantar el canal de forma voluntaria. Si la farmacia pertenece a un grupo o red de farmacias que en conjunto supera los 50 trabajadores, el umbral se aplica al grupo. Por debajo del umbral, EticAlert ofrece un plan Starter desde 9€/mes para empresas de Admin + 2 usuarios y Business desde 19€/mes para empresas de 21 a 49 empleados."}
     },
     {
       "@type": "Question",
@@ -154,14 +154,14 @@ include '../includes/header.php';
         </ol>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Dato clave:</strong> Con EticAlert, una clínica o grupo de farmacias puede tener el canal operativo y conforme a la Ley 2/2023 en 5 minutos, sin instalación de software ni integración técnica. El plan Company (39 €/mes) cubre hasta 150 empleados e incluye gestión de comunicaciones, plazos automáticos y soporte.
+          <strong style="color:var(--accent);">Dato clave:</strong> Con EticAlert, una clínica o grupo de farmacias puede tener el canal operativo y conforme a la Ley 2/2023 en 5 minutos, sin instalación de software ni integración técnica. El plan Company (39 €/mes) cubre Admin + 5 usuarios e incluye gestión de comunicaciones, plazos automáticos y soporte.
         </div>
 
         <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes y empresas sanitarias</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa el canal adaptado a tu empresa sanitaria</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal accesible desde móvil, con QR para instalaciones y categorías específicas del sector. Starter 9€/mes hasta 20 empleados · desde 19 €/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal accesible desde móvil, con QR para instalaciones y categorías específicas del sector. Starter 9€/mes Admin + 2 usuarios · desde 19 €/mes.</p>
           <a href="/registro" class="btn btn-primary">Activar el canal de denuncias →</a>
         </div>
 

@@ -26,10 +26,10 @@ include 'includes/header.php';
   "areaServed": {"@type": "Country", "name": "ES"},
   "availableLanguage": "Spanish",
   "offers": [
-    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
-    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. Facturación anual: 190€/año."},
-    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. Facturación anual: 390€/año."},
-    {"@type":"Offer","name":"Enterprise","price":"0","priceCurrency":"EUR","description":"Más de 150 empleados. Precio personalizado."}
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Admin + 2 usuarios. 9€/mes o 81€/año."},
+    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"Admin + 3 usuarios. Facturación anual: 190€/año."},
+    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"Admin + 5 usuarios. Facturación anual: 390€/año."},
+    {"@type":"Offer","name":"Enterprise","price":"0","priceCurrency":"EUR","description":"Usuarios ilimitados. Precio personalizado."}
   ]
 }
 </script>
@@ -62,7 +62,7 @@ include 'includes/header.php';
         <div class="pricing-card fade-up">
           <div class="pricing-header">
             <div class="plan-name">Starter</div>
-            <div class="plan-subtitle">Hasta 20 empleados</div>
+            <div class="plan-subtitle">Admin + 2 usuarios</div>
           </div>
           <div class="pricing-price" data-price-monthly>
             <span class="price-amount">9€</span>
@@ -93,7 +93,7 @@ include 'includes/header.php';
         <div class="pricing-card fade-up delay-1">
           <div class="pricing-header">
             <div class="plan-name">Business</div>
-            <div class="plan-subtitle">De 21 a 49 empleados</div>
+            <div class="plan-subtitle">Admin + 3 usuarios</div>
           </div>
           <div class="pricing-price" data-price-monthly>
             <span class="price-amount">19€</span>
@@ -107,7 +107,7 @@ include 'includes/header.php';
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Todo lo incluido en Starter</span></li>
             <li class="pricing-feature separator"><span>Mayor capacidad:</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Misma funcionalidad completa</span></li>
-            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Hasta 49 empleados</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Admin + 3 usuarios</span></li>
           </ul>
           <div class="pricing-footer">
             <a href="/registro" class="btn btn-secondary">Empezar con Business →</a>
@@ -121,7 +121,7 @@ include 'includes/header.php';
           <span class="pricing-badge">Más popular</span>
           <div class="pricing-header">
             <div class="plan-name">Company</div>
-            <div class="plan-subtitle">De 50 a 150 empleados</div>
+            <div class="plan-subtitle">Admin + 5 usuarios</div>
           </div>
           <div class="pricing-price" data-price-monthly>
             <span class="price-amount">39€</span>
@@ -135,7 +135,7 @@ include 'includes/header.php';
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Todo lo incluido en Business</span></li>
             <li class="pricing-feature separator"><span>Mayor capacidad:</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Misma funcionalidad completa</span></li>
-            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Hasta 150 empleados</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Admin + 5 usuarios</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Cumplimiento <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> ✓</span></li>
           </ul>
           <div class="pricing-footer">
@@ -149,7 +149,7 @@ include 'includes/header.php';
         <div class="pricing-card fade-up delay-3">
           <div class="pricing-header">
             <div class="plan-name">Enterprise</div>
-            <div class="plan-subtitle">Más de 150 empleados</div>
+            <div class="plan-subtitle">Usuarios ilimitados</div>
           </div>
           <div class="pricing-price">
             <span class="price-custom">Personalizado</span>

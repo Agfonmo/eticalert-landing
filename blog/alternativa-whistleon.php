@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a WhistleOn | EticAlert vs WhistleOn 2026';
-$page_description       = '¿Evalúas WhistleOn para tu canal de denuncias? Comparativa directa: desde 69€/mes vs 19€/mes. Análisis de precio, WhatsApp, IA y cumplimiento Ley 2/2023.';
+$page_description       = '¿Evalúas WhistleOn para tu canal de denuncias? Comparativa directa: desde 69€/mes vs 9€/mes. Análisis de precio, WhatsApp, IA y cumplimiento Ley 2/2023.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-whistleon';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a WhistleOn — EticAlert vs WhistleOn 2026';
@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Alternativa a WhistleOn","item":"https://eticalert.com/blog/alternativa-whistleon"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta WhistleOn en España?","acceptedAnswer":{"@type":"Answer","text":"WhistleOn publica tarifas desde 69€/mes + IVA para 1-49 empleados, 79€/mes para 50-149 y 89€/mes para 150-199 empleados. EticAlert parte desde 19€/mes para el mismo tramo de empresa."}},{"@type":"Question","name":"¿WhistleOn tiene canal de denuncias por WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Sí, WhistleOn incluye integración con WhatsApp e inteligencia artificial para transcribir audios. Es su principal diferenciador. EticAlert ofrece grabación de voz desde el navegador sin necesitar WhatsApp ni instalar nada."}},{"@type":"Question","name":"¿Es WhistleOn una empresa española?","acceptedAnswer":{"@type":"Answer","text":"WhistleOn pertenece al grupo Ouvidor Digital y está operativa en España y Portugal. Su orientación principal es el mercado portugués y latinoamericano. EticAlert es una empresa española diseñada específicamente para la normativa española (Ley 2/2023, AIPI, RSII)."}}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta WhistleOn en España?","acceptedAnswer":{"@type":"Answer","text":"WhistleOn publica tarifas desde 69€/mes + IVA para 1-49 empleados, 79€/mes para 50-149 y 89€/mes para 150-199 empleados. EticAlert parte desde 9€/mes para el mismo tramo de empresa."}},{"@type":"Question","name":"¿WhistleOn tiene canal de denuncias por WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Sí, WhistleOn incluye integración con WhatsApp e inteligencia artificial para transcribir audios. Es su principal diferenciador. EticAlert ofrece grabación de voz desde el navegador sin necesitar WhatsApp ni instalar nada."}},{"@type":"Question","name":"¿Es WhistleOn una empresa española?","acceptedAnswer":{"@type":"Answer","text":"WhistleOn pertenece al grupo Ouvidor Digital y está operativa en España y Portugal. Su orientación principal es el mercado portugués y latinoamericano. EticAlert es una empresa española diseñada específicamente para la normativa española (Ley 2/2023, AIPI, RSII)."}}}]}
 </script>
 
 <main id="main-content">
@@ -45,7 +45,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">WhistleOn</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">1-49 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);">9€/mes hasta 20 · <strong>19€/mes</strong> hasta 49</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>69€/mes</strong> + IVA</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">1-49 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes · Business 19€/mes</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>69€/mes</strong> + IVA</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">50-149 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>79€/mes</strong> + IVA</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">150-199 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>89€/mes</strong> + IVA</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">200-499 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>129€/mes</strong> + IVA</td></tr>
@@ -99,7 +99,7 @@ include '../includes/header.php';
           <div style="background:var(--bg-tertiary);border-radius:var(--radius);padding:1.25rem;">
             <p style="font-weight:700;margin-bottom:0.75rem;color:var(--text-primary);">✗ Puntos en contra</p>
             <ul style="margin:0;padding-left:1.25rem;line-height:1.9;font-size:0.9375rem;color:var(--text-secondary);">
-              <li>Precio 3-4x superior a EticAlert (69-129€/mes vs 19-39€/mes)</li>
+              <li>Precio 3-4x superior a EticAlert (69-129€/mes vs 9-39€/mes)</li>
               <li>Los metadatos de WhatsApp pasan por servidores de Meta antes de llegar al sistema</li>
               <li>Orientación principal al mercado portugués y latinoamericano, no España</li>
               <li>Sin RSII ni cumplimiento AIPI documentados de forma nativa</li>
@@ -120,8 +120,8 @@ include '../includes/header.php';
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
-          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal desde 19€/mes — hasta 4x más barato que WhistleOn</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Grabación de voz desde el navegador incluida. Sin WhatsApp, sin metadatos de terceros. Starter desde 9€/mes, hasta 20 empleados.</p>
+          <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal desde 9€/mes — hasta 7x más barato que WhistleOn</h3>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Grabación de voz desde el navegador incluida. Sin WhatsApp, sin metadatos de terceros. Starter desde 9€/mes, Admin + 2 usuarios.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

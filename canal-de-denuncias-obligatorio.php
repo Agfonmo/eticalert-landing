@@ -50,7 +50,7 @@ include 'includes/header.php';
       "name": "¿Un canal de denuncias de bajo coste cumple la Ley 2/2023?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí, siempre que cumpla los requisitos técnicos: confidencialidad garantizada, opción de anonimato, acuse de recibo en 7 días, gestión por un RSII independiente y capacidad de respuesta al informante en 3 meses. EticAlert ofrece un plan Starter desde 9€/mes para empresas de hasta 20 empleados que cumple todos estos requisitos."
+        "text": "Sí, siempre que cumpla los requisitos técnicos: confidencialidad garantizada, opción de anonimato, acuse de recibo en 7 días, gestión por un RSII independiente y capacidad de respuesta al informante en 3 meses. EticAlert ofrece un plan Starter desde 9€/mes para empresas de admin + 2 usuarios que cumple todos estos requisitos."
       }
     }
   ]
