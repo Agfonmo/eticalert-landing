@@ -15,7 +15,7 @@ include '../includes/header.php';
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Canal de denuncias Clockio","item":"https://eticalert.com/blog/canal-denuncias-clockio"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Clockio tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, Clockio incluye un módulo de canal de denuncias en su plan Premium, que cuesta 30€/mes base más 3€ por empleado adicional. Es una funcionalidad dentro de su software de gestión de RRHH y fichajes, no una plataforma especializada."}},{"@type":"Question","name":"¿El canal de denuncias de Clockio cumple la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Clockio ofrece las funcionalidades básicas exigidas (formulario anónimo, comunicación interna). Sin embargo, al estar integrado en la misma plataforma de RRHH donde se gestionan fichajes y nóminas, el aislamiento legal puede ser limitado. La Ley 2/2023 exige que solo el RSII acceda a los expedientes."}},{"@type":"Question","name":"¿Cuánto cuesta Clockio para 50 empleados?","acceptedAnswer":{"@type":"Answer","text":"Con Clockio Premium, 50 empleados costarían 30€/mes base + 50×3€ = 180€/mes solo para el módulo de RRHH. EticAlert para el canal de denuncias de una empresa de 6 usuarios cuesta 39€/mes, sin costes por empleado."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Clockio tiene canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí, Clockio incluye un módulo de canal de denuncias en su plan Premium, que cuesta 30€/mes base más 3€ por empleado adicional. Es una funcionalidad dentro de su software de gestión de RRHH y fichajes, no una plataforma especializada."}},{"@type":"Question","name":"¿El canal de denuncias de Clockio cumple la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"Clockio ofrece las funcionalidades básicas exigidas (formulario anónimo, comunicación interna). Sin embargo, al estar integrado en la misma plataforma de RRHH donde se gestionan fichajes y nóminas, el aislamiento legal puede ser limitado. La Ley 2/2023 exige que solo el RSII acceda a los expedientes."}},{"@type":"Question","name":"¿Cuánto cuesta Clockio para 50 empleados?","acceptedAnswer":{"@type":"Answer","text":"Con Clockio Premium, 50 empleados costarían 30€/mes base + 50×3€ = 180€/mes solo para el módulo de RRHH. EticAlert para el canal de denuncias de una empresa de hasta 150 empleados cuesta 39€/mes, sin costes por empleado."}}]}
 </script>
 
 <main id="main-content">
@@ -47,7 +47,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:center;border:1px solid var(--border);">Clockio Premium (suite completa)</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);">3 usuarios</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);">Hasta 20 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>9€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~90€/mes</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);">50 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>19€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~180€/mes</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);">100 empleados</td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">~330€/mes</td></tr>
           </tbody>
@@ -118,7 +118,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal aislado desde 19€/mes — sin escalar por empleado</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu software de fichajes. Cifrado en BD, alertas automáticas y hash verificable incluidos. Starter desde 9€/mes, 3 usuarios.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu software de fichajes. Cifrado en BD, alertas automáticas y hash verificable incluidos. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>
@@ -135,7 +135,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta Clockio para 50 empleados?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Con Clockio Premium, 50 empleados costarían 30€/mes base + 50×3€ = 180€/mes solo para el módulo de RRHH. EticAlert para el canal de denuncias de una empresa de 6 usuarios cuesta 39€/mes, sin costes por empleado.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Con Clockio Premium, 50 empleados costarían 30€/mes base + 50×3€ = 180€/mes solo para el módulo de RRHH. EticAlert para el canal de denuncias de una empresa de hasta 150 empleados cuesta 39€/mes, sin costes por empleado.</p>
           </div>
         </div>
 

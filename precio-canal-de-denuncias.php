@@ -27,9 +27,9 @@ include 'includes/header.php';
   "areaServed": {"@type": "Country", "name": "ES"},
   "availableLanguage": "Spanish",
   "offers": [
-    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"3 usuarios. 9€/mes o 81€/año."},
-    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"4 usuarios. 190€/año."},
-    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"6 usuarios. 390€/año."}
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
+    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. 190€/año."},
+    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. 390€/año."}
   ]
 }
 </script>
@@ -44,7 +44,7 @@ include 'includes/header.php';
       "name": "¿Cuánto cuesta un canal de denuncias para pymes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Una plataforma SaaS especializada como EticAlert cuesta desde 9 euros al mes (Starter, 3 usuarios) o desde 19 euros al mes (Business, 4 usuarios). Una consultoría especializada en compliance supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes de mantenimiento. Un módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."
+        "text": "Una plataforma SaaS especializada como EticAlert cuesta desde 0 euros (hasta 20 empleados) o desde 19 euros al mes para empresas de hasta 49 empleados. Una consultoría especializada en compliance supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes de mantenimiento. Un módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."
       }
     },
     {
@@ -52,7 +52,7 @@ include 'includes/header.php';
       "name": "¿Hay algún canal de denuncias gratuito que cumpla la Ley 2/2023?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No existe ningún canal de denuncias permanentemente gratuito con todas las garantías legales. Lo más económico del mercado es EticAlert Starter a 9€/mes (3 usuarios), con prueba gratuita de 15 días. Incluye anonimato real, acuse de recibo en 7 días, gestión de plazos de 3 meses, libro-registro y cifrado AES-256. No requiere tarjeta de crédito para el trial."
+        "text": "Sí. EticAlert ofrece un plan completamente gratuito para empresas de hasta 20 empleados que cumple todos los requisitos técnicos de la Ley 2/2023: anonimato real, acuse de recibo en 7 días, gestión de plazos de 3 meses, libro-registro y cifrado AES-256. No requiere tarjeta de crédito."
       }
     },
     {
@@ -186,7 +186,7 @@ include 'includes/header.php';
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.75rem;">
           <p style="font-size:0.8125rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Starter</p>
           <p style="font-size:2rem;font-weight:800;margin:0;">9 €<span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/mes</span></p>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">3 usuarios · 81€/año</p>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">Hasta 20 empleados · 81€/año</p>
           <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.875rem;">
             <li>✅ Canal anónimo</li>
             <li>✅ Acuse de recibo 7 días</li>
@@ -201,7 +201,7 @@ include 'includes/header.php';
           <span style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;font-size:0.75rem;font-weight:700;padding:0.25rem 0.875rem;border-radius:100px;white-space:nowrap;">Más popular</span>
           <p style="font-size:0.8125rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Business</p>
           <p style="font-size:2rem;font-weight:800;margin:0;">19 €<span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/mes</span></p>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">4 usuarios · 190€/año</p>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">21–49 empleados · 190€/año</p>
           <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.875rem;">
             <li>✅ Todo lo del plan Starter</li>
             <li>✅ Múltiples usuarios RSII</li>
@@ -215,7 +215,7 @@ include 'includes/header.php';
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.75rem;">
           <p style="font-size:0.8125rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem;">Company</p>
           <p style="font-size:2rem;font-weight:800;margin:0;">39 €<span style="font-size:1rem;font-weight:400;color:var(--text-muted);">/mes</span></p>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">6 usuarios · 390€/año</p>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 1.25rem;">50–150 empleados · 390€/año</p>
           <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:0.5rem;font-size:0.875rem;">
             <li>✅ Todo lo del plan Business</li>
             <li>✅ Multi-empresa (grupos)</li>
@@ -228,7 +228,7 @@ include 'includes/header.php';
 
       </div>
 
-      <p style="font-size:0.875rem;color:var(--text-muted);text-align:center;">Usuarios ilimitados o grupo empresarial: <a href="mailto:info@eticalert.com" style="color:var(--accent);">consulta plan Enterprise</a> · Todos los planes incluyen datos en la UE, actualizaciones normativas y configuración guiada.</p>
+      <p style="font-size:0.875rem;color:var(--text-muted);text-align:center;">Más de 150 empleados o grupo empresarial: <a href="mailto:info@eticalert.com" style="color:var(--accent);">consulta plan Enterprise</a> · Todos los planes incluyen datos en la UE, actualizaciones normativas y configuración guiada.</p>
     </div>
   </section>
 
@@ -272,7 +272,7 @@ include 'includes/header.php';
 
         <details style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">
           <summary style="font-weight:600;cursor:pointer;font-size:1rem;">¿El plan Starter realmente cumple la Ley 2/2023?</summary>
-          <p style="margin-top:0.75rem;color:var(--text-secondary);margin-bottom:0;">Sí. El plan Starter incluye todos los requisitos técnicos de la ley: anonimato real, acuse de recibo en 7 días, gestión del plazo de 3 meses, mensajería cifrada y libro-registro. La diferencia con los planes superiores es la capacidad (3 usuarios), no el nivel de cumplimiento legal.</p>
+          <p style="margin-top:0.75rem;color:var(--text-secondary);margin-bottom:0;">Sí. El plan Starter incluye todos los requisitos técnicos de la ley: anonimato real, acuse de recibo en 7 días, gestión del plazo de 3 meses, mensajería cifrada y libro-registro. La diferencia con los planes superiores es la capacidad (hasta 20 empleados), no el nivel de cumplimiento legal.</p>
         </details>
 
         <details style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem 1.5rem;">

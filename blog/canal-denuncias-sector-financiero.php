@@ -124,7 +124,7 @@ include '../includes/header.php';
         </ol>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Dato clave:</strong> Una aseguradora mediana o una gestora de fondos con 6 usuarios puede unificar el cumplimiento de la Ley 2/2023 y de la normativa sectorial en un único canal con EticAlert. El plan Company (39&nbsp;€/mes) incluye categorías personalizables por sector, gestión de comunicaciones con plazos automáticos, almacenamiento cifrado en la UE y acceso auditado para el responsable de cumplimiento normativo.
+          <strong style="color:var(--accent);">Dato clave:</strong> Una aseguradora mediana o una gestora de fondos con 50-150 empleados puede unificar el cumplimiento de la Ley 2/2023 y de la normativa sectorial en un único canal con EticAlert. El plan Company (39&nbsp;€/mes) incluye categorías personalizables por sector, gestión de comunicaciones con plazos automáticos, almacenamiento cifrado en la UE y acceso auditado para el responsable de cumplimiento normativo.
         </div>
 
         <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para entidades reguladas</a></p>

@@ -44,7 +44,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta implementar un canal de denuncias en España?",
-      "acceptedAnswer": {"@type": "Answer", "text": "El coste varía enormemente según la opción elegida. Una plataforma SaaS como EticAlert puede ser gratuita 3 usuarios o costar desde 19 euros al mes para pymes. Una consultoría especializada supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes. El desarrollo a medida puede partir de 10.000 euros. El módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."}
+      "acceptedAnswer": {"@type": "Answer", "text": "El coste varía enormemente según la opción elegida. Una plataforma SaaS como EticAlert puede ser gratuita hasta 20 empleados o costar desde 19 euros al mes para pymes. Una consultoría especializada supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes. El desarrollo a medida puede partir de 10.000 euros. El módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."}
     },
     {
       "@type": "Question",
@@ -93,7 +93,7 @@ include '../includes/header.php';
 
         <p><strong>Opción 2: Plataforma SaaS especializada</strong></p>
         <p>Software en la nube diseñado específicamente para el canal de denuncias. La empresa lo activa y configura de forma autónoma, sin necesidad de consultoría.</p>
-        <p>Precio habitual: desde <strong>19€/mes hasta 99€/mes</strong> para empresas de hasta 250 empleados, dependiendo del proveedor y las funcionalidades incluidas. EticAlert ofrece plan Starter (3 usuarios) desde 9€/mes.</p>
+        <p>Precio habitual: desde <strong>19€/mes hasta 99€/mes</strong> para empresas de hasta 250 empleados, dependiendo del proveedor y las funcionalidades incluidas. EticAlert ofrece plan gratuito hasta 20 empleados y planes de pago desde 19€/mes.</p>
         <p>Total primer año: entre 0€ y 1.188€ aproximadamente.</p>
         <p>Adecuado para: la mayoría de pymes obligadas que quieren cumplir la ley rápido, al menor coste y con la mayor autonomía posible.</p>
 
@@ -150,8 +150,8 @@ include '../includes/header.php';
         <h2 id="eticalert-precio">¿Qué incluye EticAlert en su precio?</h2>
         <p>EticAlert tiene tres planes principales:</p>
         <ul>
-          <li><strong>Plan Gratuito (3 usuarios):</strong> canal de denuncias completamente funcional, formulario configurable, anonimato real, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> automático, acuses de recibo automáticos.</li>
-          <li><strong>Plan Pyme (6 usuarios): desde 19€/mes.</strong> Todo lo del plan Starter más: múltiples usuarios RSII, exportación del libro-registro en PDF, soporte por email, URL personalizada.</li>
+          <li><strong>Plan Gratuito (hasta 20 empleados):</strong> canal de denuncias completamente funcional, formulario configurable, anonimato real, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> automático, acuses de recibo automáticos.</li>
+          <li><strong>Plan Pyme (50-150 empleados): desde 19€/mes.</strong> Todo lo del plan gratuito más: múltiples usuarios RSII, exportación del libro-registro en PDF, soporte por email, URL personalizada.</li>
           <li><strong>Plan Empresa (150-500 empleados):</strong> todo lo del plan Pyme más: multi-empresa, acceso API, soporte prioritario, onboarding asistido.</li>
         </ul>
         <p>En todos los planes están incluidos: configuración guiada, plantillas de política del SII, datos almacenados en la UE, cifrado AES-256 y actualizaciones automáticas ante cambios normativos.</p>

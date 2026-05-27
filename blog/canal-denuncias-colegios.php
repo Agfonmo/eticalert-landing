@@ -142,14 +142,14 @@ include '../includes/header.php';
         <p>El uso del canal interno no impide ni retrasa el acceso a la Inspección o a las autoridades judiciales. Si el informante considera que el canal interno no responde o no es independiente, puede acudir directamente a la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">Autoridad Independiente de Protección del Informante (AIPI)</a> o al canal externo de la comunidad autónoma.</p>
 
         <div style="border-left:3px solid var(--accent);background:var(--bg-tertiary);padding:1.25rem 1.5rem;border-radius:0 8px 8px 0;margin:2rem 0;">
-          <strong style="color:var(--accent);">Dato clave:</strong> Un colegio concertado o privado puede tener el canal operativo y conforme a la Ley 2/2023 en 5 minutos con EticAlert. El plan Company (39 €/mes) cubre 6 usuarios e incluye gestión de comunicaciones, plazos automáticos y responsable externo del canal.
+          <strong style="color:var(--accent);">Dato clave:</strong> Un colegio concertado o privado puede tener el canal operativo y conforme a la Ley 2/2023 en 5 minutos con EticAlert. El plan Company (39 €/mes) cubre hasta 150 empleados e incluye gestión de comunicaciones, plazos automáticos y responsable externo del canal.
         </div>
 
         <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para centros educativos</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa el canal adaptado a tu centro educativo</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal accesible desde móvil, con categorías específicas para el sector educativo y responsable externo incluido. Starter 9€/mes 3 usuarios · desde 19 €/mes.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Canal accesible desde móvil, con categorías específicas para el sector educativo y responsable externo incluido. Starter 9€/mes hasta 20 empleados · desde 19 €/mes.</p>
           <a href="/registro" class="btn btn-primary">Activar el canal de denuncias →</a>
         </div>
 

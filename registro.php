@@ -365,19 +365,19 @@ function field_value($field, $default = '') {
                      data-monthly="9 EUR/mes" data-annual="81 EUR/año" data-plan="STARTER">
                   <div class="plan-name">Starter</div>
                   <div class="plan-price"><span class="plan-price-val">9 EUR/mes</span></div>
-                  <div class="plan-range">3 usuarios</div>
+                  <div class="plan-range">Hasta 20 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '21-49'  ? 'selected' : '' ?>" data-value="21-49"
                      data-monthly="19 EUR/mes" data-annual="190 EUR/año" data-plan="BUSINESS">
                   <div class="plan-name">Business</div>
                   <div class="plan-price"><span class="plan-price-val">19 EUR/mes</span></div>
-                  <div class="plan-range">4 usuarios</div>
+                  <div class="plan-range">De 21 a 49 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '50-150' ? 'selected' : '' ?>" data-value="50-150"
                      data-monthly="39 EUR/mes" data-annual="390 EUR/año" data-plan="COMPANY">
                   <div class="plan-name">Company</div>
                   <div class="plan-price"><span class="plan-price-val">39 EUR/mes</span></div>
-                  <div class="plan-range">6 usuarios</div>
+                  <div class="plan-range">De 50 a 150 empleados</div>
                 </div>
                 <div class="plan-card <?= field_value('empleados') === '150+'   ? 'selected' : '' ?>" data-value="150+"
                      data-monthly="Consultar" data-annual="Consultar" data-plan="ENTERPRISE">

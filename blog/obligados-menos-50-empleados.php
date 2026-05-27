@@ -206,7 +206,7 @@ include '../includes/header.php';
           <li><strong>Identifica tu actividad regulada:</strong> ¿estás listado en el artículo 2 de la Ley 10/2010? ¿Tienes licencia sectorial financiera, ambiental o de transporte?</li>
           <li><strong>Consulta con tu asesor de compliance o jurídico:</strong> la determinación exacta de si eres sujeto obligado PBC o si tu actividad sectorial te incluye requiere análisis caso por caso.</li>
           <li><strong>Si estás obligado, actúa:</strong> la AIPI ya está activa y sanciona. El incumplimiento es infracción muy grave con multas de hasta 1.000.000€ para la empresa y 300.000€ para los administradores.</li>
-          <li><strong>Elige una solución proporcional:</strong> el plan Starter de EticAlert cuesta 9€/mes para empresas de 3 usuarios. El coste de cumplir es mínimo respecto al riesgo de no cumplir.</li>
+          <li><strong>Elige una solución proporcional:</strong> el plan Starter de EticAlert cuesta 9€/mes para empresas de hasta 20 empleados. El coste de cumplir es mínimo respecto al riesgo de no cumplir.</li>
         </ol>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">

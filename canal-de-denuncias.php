@@ -290,7 +290,7 @@ include 'includes/header.php';
             <li>Control de plazos de 3 meses con alertas proactivas.</li>
             <li>Registro de auditoría append-only exportable en PDF.</li>
             <li>Roles diferenciados: admin, coordinador y resolutor.</li>
-            <li>Precio fijo por empresa: 9€/mes (Starter, 3 usuarios), 19€/mes (Business, 4 usuarios), 39€/mes (Company, 6 usuarios). Sin coste por usuario.</li>
+            <li>Precio fijo por empresa: desde 9€/mes (Starter hasta 20 empleados), 19€/mes hasta 49, 39€/mes hasta 150. Sin coste por usuario.</li>
           </ul>
 
           <div style="margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;">
@@ -312,7 +312,7 @@ include 'includes/header.php';
   "@type": "FAQPage",
   "mainEntity": [
     {"@type":"Question","name":"¿Quién está obligado a tener canal de denuncias en España?","acceptedAnswer":{"@type":"Answer","text":"Toda empresa privada con 50 o más trabajadores, todas las entidades del sector público, partidos políticos y sindicatos que gestionen fondos públicos, y fundaciones vinculadas a ellos, según la Ley 2/2023. Además, muchas empresas con menos de 50 empleados están obligadas por su sector: sujetos obligados PBC (asesorías fiscales, notarías, inmobiliarias, casinos…), entidades reguladas por normativa financiera UE (fintech, gestoras, corredurías) y operadores bajo normativa de seguridad del transporte o medioambiental."}},
-    {"@type":"Question","name":"¿Cuánto cuesta implementar un canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Con una solución SaaS como EticAlert, desde 9€/mes para empresas de 3 usuarios (plan Starter), 19€/mes para empresas 4 usuarios y 39€/mes para las obligadas por ley (50-150 empleados). El desarrollo interno o la consultoría puede costar desde 15.000€."}},
+    {"@type":"Question","name":"¿Cuánto cuesta implementar un canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Con una solución SaaS como EticAlert, desde 9€/mes para empresas de hasta 20 empleados (plan Starter), 19€/mes para empresas de 21 a 49 empleados y 39€/mes para las obligadas por ley (50-150 empleados). El desarrollo interno o la consultoría puede costar desde 15.000€."}},
     {"@type":"Question","name":"¿Qué es el RSII?","acceptedAnswer":{"@type":"Answer","text":"El Responsable del Sistema Interno de Información es la persona designada para gestionar el canal de denuncias con independencia funcional. Debe ser notificado a la AIPI."}},
     {"@type":"Question","name":"¿Cuáles son las sanciones por no tener canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Hasta 1.000.000€ para personas jurídicas y 300.000€ para personas físicas por infracciones muy graves según la Ley 2/2023."}}
   ]

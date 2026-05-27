@@ -49,12 +49,12 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Qué software de canal de denuncias es mejor para una pyme española?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Para pymes de 6 usuarios que necesiten cumplir rápido y sin complicaciones, EticAlert es la opción más económica del mercado: activación self-serve, precio desde 19 euros al mes, datos en la UE, cifrado AES-256 y anonimato real. Para quien ya use Sesame HR, su módulo de canal puede ser suficiente. Para empresas con necesidades de compliance más amplias, MySECway o e-CAS son alternativas a evaluar."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Para pymes de 50-150 empleados que necesiten cumplir rápido y sin complicaciones, EticAlert es la opción más económica del mercado: activación self-serve, precio desde 19 euros al mes, datos en la UE, cifrado AES-256 y anonimato real. Para quien ya use Sesame HR, su módulo de canal puede ser suficiente. Para empresas con necesidades de compliance más amplias, MySECway o e-CAS son alternativas a evaluar."}
     },
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta Whistleblower Software comparado con EticAlert?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Whistleblower Software es una plataforma danesa con buena reputación en seguridad, pero con precio orientativo desde unos 199 euros al mes y soporte principalmente en inglés o danés. EticAlert está diseñado específicamente para pymes españolas, con precio desde 19 euros al mes, plan Starter (3 usuarios) desde 9€/mes, documentación en español y plena adaptación a la Ley 2/2023 y la AIPI."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Whistleblower Software es una plataforma danesa con buena reputación en seguridad, pero con precio orientativo desde unos 199 euros al mes y soporte principalmente en inglés o danés. EticAlert está diseñado específicamente para pymes españolas, con precio desde 19 euros al mes, plan gratuito hasta 20 empleados, documentación en español y plena adaptación a la Ley 2/2023 y la AIPI."}
     }
   ]
 }
@@ -97,7 +97,7 @@ include '../includes/header.php';
         <h2 id="opciones-mercado">Las opciones del mercado en 2026</h2>
 
         <p><strong>EticAlert</strong></p>
-        <p>Plataforma SaaS española diseñada específicamente para pymes obligadas por la Ley 2/2023. Activación 100% self-serve en minutos, precio público desde 19€/mes, datos en la UE. Lo que diferencia técnicamente a EticAlert del resto del mercado: cifrado AES-256-GCM aplicado en base de datos (no solo en tránsito), anonimato real con identidad del informante fuera de logs, y el informante puede excluir gestores concretos por conflicto de interés desde el propio formulario público. Los expedientes cerrados generan un hash SHA-256 verificable públicamente en <code>/verificar</code>, lo que permite acreditar integridad documental ante la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> o un juzgado. El canal no se puede publicar si faltan requisitos legales — bloqueo real, no solo advertencia. Historial auditado de nombramientos <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>, alertas proactivas de plazos (7 días / 3 meses) y ticketing de soporte integrado en la plataforma. Opción gratuita 3 usuarios.</p>
+        <p>Plataforma SaaS española diseñada específicamente para pymes obligadas por la Ley 2/2023. Activación 100% self-serve en minutos, precio público desde 19€/mes, datos en la UE. Lo que diferencia técnicamente a EticAlert del resto del mercado: cifrado AES-256-GCM aplicado en base de datos (no solo en tránsito), anonimato real con identidad del informante fuera de logs, y el informante puede excluir gestores concretos por conflicto de interés desde el propio formulario público. Los expedientes cerrados generan un hash SHA-256 verificable públicamente en <code>/verificar</code>, lo que permite acreditar integridad documental ante la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> o un juzgado. El canal no se puede publicar si faltan requisitos legales — bloqueo real, no solo advertencia. Historial auditado de nombramientos <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">RSII</a>, alertas proactivas de plazos (7 días / 3 meses) y ticketing de soporte integrado en la plataforma. Opción gratuita hasta 20 empleados.</p>
 
         <p><strong>Ithikios</strong></p>
         <p>Plataforma de origen español con varios años en el mercado. Orientada tanto a pymes como a medianas empresas. Precio no siempre disponible públicamente (modelo de contacto comercial). Buena cobertura normativa y documentación en español. Requiere proceso de onboarding con equipo comercial para la mayoría de planes.</p>
@@ -136,7 +136,7 @@ include '../includes/header.php';
             <tr>
               <td style="padding:0.65rem;border:1px solid var(--border);"><strong>EticAlert</strong></td>
               <td style="padding:0.65rem;border:1px solid var(--border);">SaaS especializado</td>
-              <td style="padding:0.65rem;border:1px solid var(--border);">Starter 9€/mes (3 usuarios) / Business desde 19€/mes</td>
+              <td style="padding:0.65rem;border:1px solid var(--border);">Starter 9€/mes hasta 20 emp. / desde 19€/mes</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
               <td style="padding:0.65rem;border:1px solid var(--border);text-align:center;">Sí</td>
@@ -205,7 +205,7 @@ include '../includes/header.php';
         </div>
 
         <h2 id="cual-elegir">¿Cuál elegir según tu situación?</h2>
-        <p><strong>Si eres una pyme de 6 usuarios que necesitas cumplir la ley rápido y sin complicaciones:</strong> EticAlert. Precio más bajo del mercado, activación inmediata, conforme a la Ley 2/2023 desde el primer día.</p>
+        <p><strong>Si eres una pyme de 50-150 empleados que necesitas cumplir la ley rápido y sin complicaciones:</strong> EticAlert. Precio más bajo del mercado, activación inmediata, conforme a la Ley 2/2023 desde el primer día.</p>
         <p><strong>Si ya tienes Sesame HR y buscas integración con RRHH:</strong> el módulo de canal de denuncias de Sesame puede ser suficiente si no necesitas funcionalidades avanzadas de compliance.</p>
         <p><strong>Si eres una empresa mediana o grande con necesidades de compliance más amplias (gestión de riesgos, formación, políticas):</strong> MySECway o e-CAS merecen evaluación.</p>
         <p><strong>Si quieres acompañamiento profesional de un abogado de compliance durante la implantación:</strong> Atico34 u otras consultoras especializadas ofrecen ese valor añadido a un precio superior.</p>

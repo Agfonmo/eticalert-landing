@@ -45,7 +45,7 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">EuroCanalDenuncias</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes 3 usuarios</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes hasta 20 empleados</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan entrada</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>19€/mes</strong> (sin setup)</td><td style="padding:0.75rem;border:1px solid var(--border);">19€/mes + 99€ setup</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan avanzado</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>39€/mes</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">39€/mes + 99€ setup</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Primer año (plan 39€)</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">567€ (468€ + 99€ alta)</td></tr>
@@ -73,7 +73,7 @@ include '../includes/header.php';
 
         <h2 id="cuando-cada-uno">¿Cuándo elegir uno u otro?</h2>
         <p><strong>EuroCanalDenuncias</strong> puede ser una opción si buscas un proveedor español de entrada económica y los requisitos técnicos avanzados no son una prioridad. Verifica directamente con ellos las garantías de cifrado y plazos antes de contratar.</p>
-        <p><strong>EticAlert</strong> ofrece el mismo rango de precios sin coste de setup, con plan Starter (9€/mes) para 3 usuarios y garantías técnicas documentadas: cifrado AES-256-GCM, hash SHA-256 verificable y alertas automáticas de plazos de la Ley 2/2023.</p>
+        <p><strong>EticAlert</strong> ofrece el mismo rango de precios sin coste de setup, con plan gratuito para empresas de hasta 20 empleados y garantías técnicas documentadas: cifrado AES-256-GCM, hash SHA-256 verificable y alertas automáticas de plazos de la Ley 2/2023.</p>
 
 
         <h2 id="pros-contras-eurocanaldenuncias">Pros y contras de EuroCanalDenuncias para canal de denuncias</h2>
@@ -102,18 +102,18 @@ include '../includes/header.php';
 
         <h2 id="casos-uso-eurocanaldenuncias">Casos de uso reales</h2>
         <p><strong>EuroCanalDenuncias encaja</strong> si buscas un proveedor español de canal de denuncias con precio de entrada bajo y tienes claro que los requisitos básicos (formulario + mensajería) son suficientes para tu perfil de riesgo. Si contratas el plan LAB (19€/mes), el primer año sale a 327€ contando el setup — más que EticAlert, que no cobra alta.</p>
-        <p><strong>EuroCanalDenuncias no encaja</strong> si tu empresa tiene 3 usuarios (EticAlert Starter, solo 9€/mes), si necesitas garantías técnicas avanzadas (cifrado en BD, hash verificable), o si la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> puede inspeccionar tu canal y necesitas evidencia criptográfica de integridad.</p>
-        <p>Ejemplo concreto: una gestoría de 15 empleados que busca el canal más barato. Con EuroCanalDenuncias pagaría 19€/mes + 99€ setup = 327€ el primer año. Con EticAlert pagaría 0€ — porque 3 usuarios el plan es gratuito indefinidamente.</p>
+        <p><strong>EuroCanalDenuncias no encaja</strong> si tu empresa tiene hasta 20 empleados (EticAlert es gratuito sin ningún coste), si necesitas garantías técnicas avanzadas (cifrado en BD, hash verificable), o si la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> puede inspeccionar tu canal y necesitas evidencia criptográfica de integridad.</p>
+        <p>Ejemplo concreto: una gestoría de 15 empleados que busca el canal más barato. Con EuroCanalDenuncias pagaría 19€/mes + 99€ setup = 327€ el primer año. Con EticAlert pagaría 0€ — porque hasta 20 empleados el plan es gratuito indefinidamente.</p>
 
         <h2 id="veredicto-eurocanaldenuncias">Veredicto</h2>
         <p>EuroCanalDenuncias es una opción funcional dentro del mercado español, pero no ofrece ventajas claras sobre EticAlert: el precio recurrente es idéntico, el coste de setup penaliza el primer año, y las garantías técnicas documentadas son inferiores.</p>
-        <p><strong>Elige EuroCanalDenuncias</strong> solo si tienes razones específicas para preferir ese proveedor. <strong>Elige EticAlert</strong> si lo que buscas es el mayor valor técnico al mismo precio, sin coste de alta y con plan Starter desde 9€/mes.</p>
+        <p><strong>Elige EuroCanalDenuncias</strong> solo si tienes razones específicas para preferir ese proveedor. <strong>Elige EticAlert</strong> si lo que buscas es el mayor valor técnico al mismo precio, sin coste de alta y con plan gratuito para empresas pequeñas.</p>
 
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Mismo precio, más garantías técnicas — sin coste de alta</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Desde 19€/mes sin setup. Cifrado en BD, hash verificable, alertas automáticas. Starter desde 9€/mes, 3 usuarios.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Desde 19€/mes sin setup. Cifrado en BD, hash verificable, alertas automáticas. Starter desde 9€/mes, hasta 20 empleados.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

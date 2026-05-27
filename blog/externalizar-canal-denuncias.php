@@ -130,7 +130,7 @@ include '../includes/header.php';
         <h2 id="grupos-empresas">Grupos de empresas: compartir canal si hay menos de 250 empleados</h2>
         <p>Un caso especial de "externalización" permitida por la ley: los grupos de empresas cuyas entidades tengan entre 50 y 249 empleados pueden compartir un único canal de denuncias para todo el grupo. Esto es especialmente relevante para:</p>
         <ul>
-          <li>Grupos familiares con varias sociedades, cada una con 6 usuarios.</li>
+          <li>Grupos familiares con varias sociedades, cada una con 50-150 empleados.</li>
           <li>Franquiciadores que quieran ofrecer un canal compartido a sus franquiciados.</li>
           <li>Holdings con filiales que individualmente no tendrían la escala para justificar una inversión en compliance.</li>
         </ul>
