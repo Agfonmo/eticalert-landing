@@ -94,7 +94,7 @@ include '../includes/header.php';
           <h3>Artículos relacionados</h3>
           <div class="related-grid">
             <a href="/blog/canal-denuncias-ongs" class="related-card"><span class="blog-badge badge-sectores">Por sector</span><h4>Canal de denuncias para ONGs y asociaciones</h4></a>
-            <a href="/blog/como-saber-si-estoy-obligado-canal-denuncias" class="related-card"><span class="blog-badge badge-marco-legal">Marco legal</span><h4>¿Está mi empresa obligada? Guía definitiva</h4></a>
+            <a href="/cumples" class="related-card"><span class="blog-badge badge-marco-legal">Marco legal</span><h4>¿Está mi empresa obligada? Guía definitiva</h4></a>
             <a href="/blog/canal-denuncias-ayuntamientos" class="related-card"><span class="blog-badge badge-sectores">Por sector</span><h4>Canal de denuncias para ayuntamientos</h4></a>
           </div>
         </div>

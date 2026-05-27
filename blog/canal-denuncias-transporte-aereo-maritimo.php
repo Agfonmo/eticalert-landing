@@ -92,7 +92,7 @@ include '../includes/header.php';
           <div class="related-grid">
             <a href="/blog/canal-denuncias-transporte-logistica" class="related-card"><span class="blog-badge badge-sectores">Por sector</span><h4>Canal de denuncias para transporte y logística por carretera</h4></a>
             <a href="/blog/obligados-menos-50-empleados" class="related-card"><span class="blog-badge badge-marco-legal">Marco legal</span><h4>¿Obligado aunque tengas menos de 50 empleados?</h4></a>
-            <a href="/blog/como-saber-si-estoy-obligado-canal-denuncias" class="related-card"><span class="blog-badge badge-marco-legal">Marco legal</span><h4>¿Está mi empresa obligada? Guía definitiva</h4></a>
+            <a href="/cumples" class="related-card"><span class="blog-badge badge-marco-legal">Marco legal</span><h4>¿Está mi empresa obligada? Guía definitiva</h4></a>
           </div>
         </div>
       </div>

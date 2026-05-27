@@ -68,20 +68,27 @@ include 'includes/header.php';
         <span>Canal de denuncias obligatorio</span>
       </nav>
       <span class="blog-badge badge-marco-legal" style="margin-bottom:1rem;display:inline-block;">Ley 2/2023</span>
-      <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.2;margin-bottom:1rem;">Canal de denuncias obligatorio: ¿está tu empresa obligada?</h1>
-      <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:2rem;">La Ley 2/2023 obliga a miles de empresas en España a tener un canal operativo. Comprueba en 30 segundos si la tuya es una de ellas — y qué pasa si no lo tienes.</p>
+      <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.2;margin-bottom:1rem;">Canal de denuncias obligatorio: los criterios legales explicados</h1>
+      <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:2rem;">La Ley 2/2023 define quién está obligado, qué requisitos debe cumplir el canal y qué sanciones se aplican. Aquí tienes la referencia completa. Si quieres saber si aplica a tu empresa en concreto, usa el comprobador interactivo.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-        <a href="/cumples" class="btn btn-primary btn-lg">Comprobador interactivo →</a>
-        <a href="#comprobador" class="btn btn-secondary btn-lg">Ver criterios</a>
+        <a href="/cumples" class="btn btn-primary btn-lg">¿Mi empresa está obligada? →</a>
+        <a href="#criterios" class="btn btn-secondary btn-lg">Ver criterios legales</a>
       </div>
     </div>
   </section>
 
-  <!-- COMPROBADOR DE OBLIGACIÓN -->
-  <section id="comprobador" style="padding:60px 0;">
+  <!-- CRITERIOS LEGALES -->
+  <section id="criterios" style="padding:60px 0;">
     <div class="container" style="max-width:860px;">
-      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Comprobador: ¿está tu empresa obligada?</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;">Si alguna de las siguientes condiciones aplica a tu empresa, estás obligado por la Ley 2/2023.</p>
+
+      <!-- Banner CTA al comprobador interactivo -->
+      <div style="background:var(--accent-subtle);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:1.125rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem;">
+        <p style="margin:0;font-size:0.9375rem;">¿No sabes cuál de estos criterios aplica a tu empresa? <strong>Compruébalo en 60 segundos.</strong></p>
+        <a href="/cumples" class="btn btn-primary" style="white-space:nowrap;flex-shrink:0;">Comprobador interactivo →</a>
+      </div>
+
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">¿Quién está obligado? Criterios según la Ley 2/2023</h2>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;">Estás obligado si tu empresa o entidad cumple <strong>al menos uno</strong> de los siguientes criterios.</p>
 
       <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:2.5rem;">
 

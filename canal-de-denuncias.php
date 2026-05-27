@@ -246,7 +246,7 @@ include 'includes/header.php';
           <h2 id="como-implementar">9. Cómo implementar un canal de denuncias paso a paso</h2>
           <p>Para implementar un canal de denuncias conforme a la Ley 2/2023, los pasos fundamentales son:</p>
           <ol>
-            <li><strong>Evalúa tu obligación</strong>: confirma que tu empresa está sujeta a la Ley 2/2023 (50+ empleados, sector público, o sujeto obligado por normativa sectorial). <a href="/blog/como-saber-si-estoy-obligado-canal-denuncias" style="color:var(--accent);">Usa el checklist →</a></li>
+            <li><strong>Evalúa tu obligación</strong>: confirma que tu empresa está sujeta a la Ley 2/2023 (50+ empleados, sector público, o sujeto obligado por normativa sectorial). <a href="/cumples" style="color:var(--accent);">Usa el checklist →</a></li>
             <li><strong>Elige el tipo de canal</strong>: SaaS especializado (recomendado para pymes), desarrollo interno o solución de consultoría.</li>
             <li><strong>Designa al RSII</strong>: identifica a la persona o el órgano que será responsable del sistema, garantizando su independencia funcional.</li>
             <li><strong>Configura el canal</strong>: personaliza con logo, categorías de denuncia y datos de contacto del RSII.</li>

@@ -53,7 +53,7 @@ include '../includes/header.php';
       {"@type":"ListItem","position":25,"url":"https://eticalert.com/blog/obligados-menos-50-empleados","name":"¿Obligado a canal de denuncias aunque tengas menos de 50 empleados?"},
       {"@type":"ListItem","position":26,"url":"https://eticalert.com/blog/canal-denuncias-sujetos-obligados-pbc","name":"Canal de denuncias para sujetos obligados PBC: asesorías, notarías, inmobiliarias"},
       {"@type":"ListItem","position":27,"url":"https://eticalert.com/blog/canal-denuncias-medio-ambiente","name":"Canal de denuncias para empresas de medioambiente y gestión de residuos"},
-      {"@type":"ListItem","position":28,"url":"https://eticalert.com/blog/como-saber-si-estoy-obligado-canal-denuncias","name":"¿Está mi empresa obligada a tener canal de denuncias? Guía definitiva"},
+      {"@type":"ListItem","position":28,"url":"https://eticalert.com/cumples","name":"¿Está mi empresa obligada a tener canal de denuncias? Guía definitiva"},
       {"@type":"ListItem","position":29,"url":"https://eticalert.com/blog/canal-denuncias-auditores","name":"Canal de denuncias para auditores y firmas de auditoría"},
       {"@type":"ListItem","position":30,"url":"https://eticalert.com/blog/canal-denuncias-notarias-registros","name":"Canal de denuncias para notarías y registros de la propiedad"},
       {"@type":"ListItem","position":31,"url":"https://eticalert.com/blog/canal-denuncias-fintech","name":"Canal de denuncias para fintech reguladas: PSD2, MiCA y plataformas de financiación"},
@@ -136,7 +136,7 @@ include '../includes/header.php';
           <span class="blog-card-meta">26 may 2026 · 7 min lectura</span>
         </a>
 
-        <a href="/blog/como-saber-si-estoy-obligado-canal-denuncias" class="blog-card fade-up" data-category="marco-legal">
+        <a href="/cumples" class="blog-card fade-up" data-category="marco-legal">
           <span class="blog-badge badge-marco-legal">Marco legal</span>
           <h3>¿Está mi empresa obligada a tener canal de denuncias? Guía definitiva</h3>
           <p>Checklist interactivo con los 7 criterios de la Ley 2/2023. Tabla comparativa de todas las entidades obligadas, base legal y umbral de empleados.</p>
