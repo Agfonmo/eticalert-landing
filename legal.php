@@ -84,10 +84,10 @@ include 'includes/header.php';
         <h2>12. Planes, precios y facturación</h2>
         <p>Los planes disponibles, con sus precios y características, se describen en <strong>eticalert.com/precios</strong> y en la página de contratación. En el momento de la suscripción, los planes vigentes son:</p>
         <ul>
-          <li><strong>Starter:</strong> 9 €/mes (facturación mensual) o 81 €/año (facturación anual). Para organizaciones de hasta 20 trabajadores.</li>
-          <li><strong>Business:</strong> 19 €/mes (facturación mensual) o 190 €/año (facturación anual). Para organizaciones de hasta 49 trabajadores.</li>
-          <li><strong>Company:</strong> 39 €/mes (facturación mensual) o 390 €/año (facturación anual). Para organizaciones de hasta 150 trabajadores.</li>
-          <li><strong>Enterprise:</strong> precio bajo presupuesto personalizado para organizaciones de más de 150 trabajadores o con requisitos específicos.</li>
+          <li><strong>Starter:</strong> 9 €/mes (facturación mensual) o 81 €/año (facturación anual). Incluye 3 usuarios.</li>
+          <li><strong>Business:</strong> 19 €/mes (facturación mensual) o 190 €/año (facturación anual). Incluye 4 usuarios.</li>
+          <li><strong>Company:</strong> 39 €/mes (facturación mensual) o 390 €/año (facturación anual). Incluye 6 usuarios.</li>
+          <li><strong>Enterprise:</strong> precio bajo presupuesto personalizado. Usuarios ilimitados.</li>
         </ul>
         <p>Todos los precios indicados se entienden en euros y, salvo indicación expresa en sentido contrario, excluyen el IVA o impuesto equivalente aplicable. EticAlert emitirá la correspondiente factura a efectos del IVA, que será remitida al Cliente en formato electrónico a la dirección de correo facilitada.</p>
         <p>El pago se realiza mediante los métodos habilitados en la pasarela de pago (tarjeta de crédito/débito u otros instrumentos disponibles). El cargo se efectúa al inicio de cada período de facturación (mensual o anual, según el plan elegido).</p>

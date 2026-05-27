@@ -235,7 +235,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
         <!-- Starter -->
         <div style="border:1px solid var(--border); border-radius:16px; padding:1.75rem; background:var(--bg-secondary);">
           <p style="font-weight:700; font-size:1.125rem; margin-bottom:0.25rem;">Starter</p>
-          <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">Admin + 2 usuarios</p>
+          <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">3 usuarios</p>
           <p style="font-size:2.5rem; font-weight:800; color:var(--text-primary); margin-bottom:1.5rem;">9€<span style="font-size:1rem; font-weight:400; color:var(--text-muted);">/mes</span></p>
           <a href="/registro" class="btn btn-secondary" style="width:100%; text-align:center; display:block;">Activar Starter →</a>
           <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-top:0.5rem;">81€/año · Sin permanencia</p>
@@ -244,7 +244,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
         <!-- Business -->
         <div style="border:1px solid var(--border); border-radius:16px; padding:1.75rem; background:var(--bg-secondary);">
           <p style="font-weight:700; font-size:1.125rem; margin-bottom:0.25rem;">Business</p>
-          <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">Admin + 3 usuarios</p>
+          <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">4 usuarios</p>
           <p style="font-size:2.5rem; font-weight:800; color:var(--text-primary); margin-bottom:1.5rem;">19€<span style="font-size:1rem; font-weight:400; color:var(--text-muted);">/mes</span></p>
           <a href="/registro" class="btn btn-secondary" style="width:100%; text-align:center; display:block;">Empezar →</a>
           <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-top:0.5rem;">190€/año · Sin permanencia</p>
@@ -254,7 +254,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
         <div style="border:2px solid var(--accent); border-radius:16px; padding:1.75rem; background:var(--bg-secondary); position:relative;">
           <span style="position:absolute; top:-13px; left:50%; transform:translateX(-50%); background:var(--accent); color:#0a0f0b; font-size:0.7rem; font-weight:700; padding:0.25rem 0.75rem; border-radius:99px; white-space:nowrap;">MÁS POPULAR</span>
           <p style="font-weight:700; font-size:1.125rem; margin-bottom:0.25rem;">Company</p>
-          <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">Admin + 5 usuarios</p>
+          <p style="font-size:0.875rem; color:var(--text-muted); margin-bottom:1.25rem;">6 usuarios</p>
           <p style="font-size:2.5rem; font-weight:800; color:var(--text-primary); margin-bottom:1.5rem;">39€<span style="font-size:1rem; font-weight:400; color:var(--text-muted);">/mes</span></p>
           <a href="/registro" class="btn btn-primary" style="width:100%; text-align:center; display:block;">Activar mi canal →</a>
           <p style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-top:0.5rem;">390€/año · Sin permanencia</p>

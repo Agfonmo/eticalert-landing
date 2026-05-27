@@ -47,8 +47,8 @@ include '../includes/header.php';
             <th style="padding:0.75rem;text-align:left;border:1px solid var(--border);">CanalDenunciasIgualdad</th>
           </tr></thead>
           <tbody>
-            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes Admin + 2 usuarios</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
-            <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan entrada</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>desde 81€/año</strong> (Starter hasta 20 emp.) · 190€/año hasta 49</td><td style="padding:0.75rem;border:1px solid var(--border);">280€/año</td></tr>
+            <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Starter</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>9€/mes 3 usuarios</strong></td><td style="padding:0.75rem;border:1px solid var(--border);">No</td></tr>
+            <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan entrada</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>desde 81€/año</strong> (Starter, 3 usuarios) · 190€/año (Business, 4 usuarios)</td><td style="padding:0.75rem;border:1px solid var(--border);">280€/año</td></tr>
             <tr><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan completo</td><td style="padding:0.75rem;border:1px solid var(--border);"><strong>468€/año</strong> (hasta 500 emp.)</td><td style="padding:0.75rem;border:1px solid var(--border);">620€/año</td></tr>
             <tr style="background:var(--bg-tertiary);"><td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Formación en igualdad incluida</td><td style="padding:0.75rem;border:1px solid var(--border);">No</td><td style="padding:0.75rem;border:1px solid var(--border);">✓</td></tr>
           </tbody>
@@ -114,7 +114,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal técnico especializado desde 81€/año</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, alertas automáticas y hash verificable. Starter desde 9€/mes, Admin + 2 usuarios. Combínalo con tu asesoría de igualdad habitual.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Cifrado en BD, alertas automáticas y hash verificable. Starter desde 9€/mes, 3 usuarios. Combínalo con tu asesoría de igualdad habitual.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

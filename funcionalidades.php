@@ -68,7 +68,7 @@ include 'includes/header.php';
             <span class="func-name">Plan Starter desde 9€/mes</span>
             <span class="badge-unico">Único</span>
           </div>
-          <p class="func-desc">Admin + 2 usuarios desde 9€/mes (81€/año), con todas las funcionalidades activas. El precio más bajo del mercado para sujetos obligados y pymes.</p>
+          <p class="func-desc">3 usuarios desde 9€/mes (81€/año), con todas las funcionalidades activas. El precio más bajo del mercado para sujetos obligados y pymes.</p>
         </div>
 
       </div>
@@ -182,7 +182,7 @@ include 'includes/header.php';
     {
       "@type": "Question",
       "name": "¿Qué hace único a EticAlert respecto a otros canales de denuncias del mercado español?",
-      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert tiene tres funcionalidades únicas en el mercado español: la exclusión preventiva de gestoras (el informante bloquea personas del equipo gestor al enviar su denuncia), el hash SHA-256 verificable públicamente que prueba la integridad de cada denuncia, y un plan Starter desde 9€/mes para admin + 2 usuarios con todas las funcionalidades activas."}
+      "acceptedAnswer": {"@type": "Answer", "text": "EticAlert tiene tres funcionalidades únicas en el mercado español: la exclusión preventiva de gestoras (el informante bloquea personas del equipo gestor al enviar su denuncia), el hash SHA-256 verificable públicamente que prueba la integridad de cada denuncia, y un plan Starter desde 9€/mes para 3 usuarios con todas las funcionalidades activas."}
     },
     {
       "@type": "Question",

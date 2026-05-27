@@ -28,9 +28,9 @@ include 'includes/header.php';
   "areaServed": {"@type": "Country", "name": "ES"},
   "availableLanguage": "Spanish",
   "offers": [
-    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Admin + 2 usuarios. 9€/mes o 81€/año."},
-    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"Admin + 3 usuarios."},
-    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"Admin + 5 usuarios."}
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"3 usuarios. 9€/mes o 81€/año."},
+    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"4 usuarios."},
+    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"6 usuarios."}
   ]
 }
 </script>
@@ -61,7 +61,7 @@ include 'includes/header.php';
       "name": "¿Qué diferencia hay entre EticAlert e Ithikios o MySECway?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "EticAlert está diseñado específicamente para pymes españolas y sujetos obligados que necesitan cumplir la Ley 2/2023 rápido y sin fricción. Precio público desde 9 euros al mes (plan Starter admin + 2 usuarios), activación self-serve sin consultor. Ithikios y MySECway tienen procesos de venta más largos, precios a consultar y están más orientados a empresas medianas o con necesidades de compliance más amplias."
+        "text": "EticAlert está diseñado específicamente para pymes españolas y sujetos obligados que necesitan cumplir la Ley 2/2023 rápido y sin fricción. Precio público desde 9 euros al mes (plan Starter 3 usuarios), activación self-serve sin consultor. Ithikios y MySECway tienen procesos de venta más largos, precios a consultar y están más orientados a empresas medianas o con necesidades de compliance más amplias."
       }
     },
     {
@@ -215,7 +215,7 @@ include 'includes/header.php';
       <div style="display:flex;flex-direction:column;gap:1.25rem;">
 
         <div style="background:rgba(16,185,129,0.05);border:1px solid rgba(16,185,129,0.25);border-radius:var(--radius-lg);padding:1.5rem;">
-          <p style="margin:0 0 0.5rem;font-weight:700;font-size:1rem;">🏢 Pyme de Admin + 5 usuarios que necesita cumplir ya</p>
+          <p style="margin:0 0 0.5rem;font-weight:700;font-size:1rem;">🏢 Pyme de 6 usuarios que necesita cumplir ya</p>
           <p style="margin:0;font-size:0.9375rem;color:var(--text-secondary);"><strong style="color:var(--text-primary);">EticAlert.</strong> Activación en minutos, precio desde 0 €, todo incluido para cumplir la Ley 2/2023. No necesitas consultor ni proceso de ventas.</p>
         </div>
 
@@ -253,7 +253,7 @@ include 'includes/header.php';
         <?php
         $razones = [
           ['⚡','Operativo en minutos','Sin instalación, sin IT, sin consultor. Registro y listo.'],
-          ['💶','Precio desde 9€/mes','Plan Starter 9€/mes admin + 2 usuarios. Desde 19€/mes para empresas más grandes. Sin permanencia.'],
+          ['💶','Precio desde 9€/mes','Plan Starter 9€/mes 3 usuarios. Desde 19€/mes para empresas más grandes. Sin permanencia.'],
           ['🇪🇸','Diseñado para España','Ley 2/2023, AIPI, RSII. No una traducción de producto anglosajón.'],
           ['🔒','Anonimato real','Identidad del informante fuera de todos los logs y bases de datos.'],
           ['📋','Plantillas incluidas','Política del SII y acta de designación del RSII listas para usar.'],
@@ -311,7 +311,7 @@ include 'includes/header.php';
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
       <h2 style="font-size:1.75rem;margin-bottom:1rem;">Prueba EticAlert gratis.<br>Sin tarjeta. Canal operativo hoy.</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Gratis admin + 2 usuarios. Desde 19 €/mes para empresas obligadas. Cumple la Ley 2/2023 en minutos, sin consultor.</p>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Gratis 3 usuarios. Desde 19 €/mes para empresas obligadas. Cumple la Ley 2/2023 en minutos, sin consultor.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="/precio-canal-de-denuncias" class="btn btn-secondary btn-lg">Ver precios</a>

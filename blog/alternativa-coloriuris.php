@@ -106,7 +106,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal técnico desde 19€/mes — sin necesidad de eIDAS</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Hash SHA-256 verificable públicamente, cifrado en BD, alertas de plazos. Todo lo que exige la Ley 2/2023 para empresas privadas. Starter desde 9€/mes, Admin + 2 usuarios.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Hash SHA-256 verificable públicamente, cifrado en BD, alertas de plazos. Todo lo que exige la Ley 2/2023 para empresas privadas. Starter desde 9€/mes, 3 usuarios.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
           <p style="margin-top:0.75rem;font-size:0.875rem;text-align:center;"><a href="/precios" style="color:var(--accent);">Ver planes y precios →</a></p>
         </div>

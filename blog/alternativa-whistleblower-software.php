@@ -49,7 +49,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta Whistleblower Software en España?",
-      "acceptedAnswer": {"@type":"Answer","text":"Whistleblower Software tiene precio público desde aproximadamente 199€/mes para organizaciones, lo que lo convierte en una opción cara para pymes españolas de Admin + 5 usuarios obligadas por la Ley 2/2023. EticAlert ofrece planes desde 19€/mes para el mismo perfil de empresa."}
+      "acceptedAnswer": {"@type":"Answer","text":"Whistleblower Software tiene precio público desde aproximadamente 199€/mes para organizaciones, lo que lo convierte en una opción cara para pymes españolas de 6 usuarios obligadas por la Ley 2/2023. EticAlert ofrece planes desde 19€/mes para el mismo perfil de empresa."}
     },
     {
       "@type": "Question",
@@ -108,12 +108,12 @@ include '../includes/header.php';
           <tbody>
             <tr>
               <td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan de entrada</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes Admin + 2 usuarios</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes 3 usuarios</td>
               <td style="padding:0.75rem;border:1px solid var(--border);">Sin plan gratuito</td>
             </tr>
             <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);font-weight:600;">Plan Core (0-49 emp.)</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);">9€/mes hasta 20 · <strong>19€/mes</strong> hasta 49</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);">Starter 9€/mes (3 usuarios) · Business <strong>19€/mes</strong> (4 usuarios)</td>
               <td style="padding:0.75rem;border:1px solid var(--border);"><strong>99€/mes</strong></td>
             </tr>
             <tr>
@@ -303,7 +303,7 @@ include '../includes/header.php';
           </div>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta Whistleblower Software en España?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Whistleblower Software tiene precio público desde aproximadamente 199€/mes para organizaciones, lo que lo convierte en una opción cara para pymes españolas de Admin + 5 usuarios obligadas por la Ley 2/2023. EticAlert ofrece planes desde 19€/mes para el mismo perfil de empresa.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Whistleblower Software tiene precio público desde aproximadamente 199€/mes para organizaciones, lo que lo convierte en una opción cara para pymes españolas de 6 usuarios obligadas por la Ley 2/2023. EticAlert ofrece planes desde 19€/mes para el mismo perfil de empresa.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Whistleblower Software cumple la Ley 2/2023 española?</h3>

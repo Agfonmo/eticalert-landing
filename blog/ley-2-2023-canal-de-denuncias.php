@@ -181,7 +181,7 @@ include '../includes/header.php';
           <li><strong>Consultoría especializada:</strong> contratar un despacho o consultora de compliance que implemente el canal. Opción válida pero habitualmente cara y lenta.</li>
           <li><strong>Plataforma SaaS especializada:</strong> la solución más rápida y económica para la pyme. Canal operativo en minutos, requisitos técnicos ya cubiertos por la plataforma, precio fijo mensual.</li>
         </ul>
-        <p><a href="/">EticAlert</a> es una plataforma SaaS diseñada específicamente para pymes españolas que necesitan activar su canal en el menor tiempo posible. <strong>Starter 9€/mes Admin + 2 usuarios, 39€/mes para empresas de 50 a 150 empleados</strong> (obligadas por ley). Sin consultoría, con wizard de configuración guiada y todos los requisitos técnicos de la Ley 2/2023 cubiertos desde el primer día.</p>
+        <p><a href="/">EticAlert</a> es una plataforma SaaS diseñada específicamente para pymes españolas que necesitan activar su canal en el menor tiempo posible. <strong>Starter 9€/mes 3 usuarios, 39€/mes para empresas de 50 a 150 empleados</strong> (obligadas por ley). Sin consultoría, con wizard de configuración guiada y todos los requisitos técnicos de la Ley 2/2023 cubiertos desde el primer día.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa tu canal de denuncias con EticAlert</h3>

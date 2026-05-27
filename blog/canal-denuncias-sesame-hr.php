@@ -217,7 +217,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal de denuncias especializado desde 19€/mes</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu HRIS, con cifrado real y cumplimiento legal integrado. Starter desde 9€/mes, Admin + 2 usuarios. Sin tarjeta de crédito para empezar.</p>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Independiente de tu HRIS, con cifrado real y cumplimiento legal integrado. Starter desde 9€/mes, 3 usuarios. Sin tarjeta de crédito para empezar.</p>
           <a href="/registro" class="btn btn-primary">Crear mi canal →</a>
         </div>
 

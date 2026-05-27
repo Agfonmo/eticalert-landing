@@ -86,7 +86,7 @@ include '../includes/header.php';
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal de denuncias para el sector asegurador desde 9€/mes</h3>
-          <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Starter desde 9€/mes para corredurías de Admin + 2 usuarios. Cifrado, anonimato, plazos automáticos y documentación AIPI incluida. Compatible con los requisitos de reporting interno de IDD y Solvencia II.</p>
+          <p style="color:var(--text-secondary);margin-bottom:1.5rem;">Starter desde 9€/mes para corredurías de 3 usuarios. Cifrado, anonimato, plazos automáticos y documentación AIPI incluida. Compatible con los requisitos de reporting interno de IDD y Solvencia II.</p>
           <div style="display:flex;gap:1rem;flex-wrap:wrap;">
             <a href="/registro" class="btn btn-primary">Activar mi canal →</a>
             <a href="/precios" class="btn btn-secondary">Ver planes</a>
