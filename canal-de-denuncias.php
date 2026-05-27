@@ -93,25 +93,13 @@ include 'includes/header.php';
           </ul>
 
           <div class="callout">
-            <p style="margin-bottom:0.875rem;"><strong>¿Y si tienes menos de 50 empleados?</strong> Muchas empresas están igualmente obligadas por su sector, sin umbral de plantilla:</p>
-            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:0.625rem;margin-bottom:0.875rem;">
-              <div style="display:flex;gap:0.625rem;align-items:flex-start;background:var(--bg-tertiary);border-radius:var(--radius-md);padding:0.75rem;">
-                <span style="font-size:1.125rem;flex-shrink:0;">🏦</span>
-                <div><p style="margin:0;font-size:0.8125rem;font-weight:600;">PBC · Ley 10/2010</p><p style="margin:0.2rem 0 0;font-size:0.75rem;color:var(--text-secondary);">Asesorías, notarías, inmobiliarias, casinos, cripto…</p></div>
-              </div>
-              <div style="display:flex;gap:0.625rem;align-items:flex-start;background:var(--bg-tertiary);border-radius:var(--radius-md);padding:0.75rem;">
-                <span style="font-size:1.125rem;flex-shrink:0;">💳</span>
-                <div><p style="margin:0;font-size:0.8125rem;font-weight:600;">Finanzas reguladas UE</p><p style="margin:0.2rem 0 0;font-size:0.75rem;color:var(--text-secondary);">Gestoras, fintech, corredurías, entidades de pago…</p></div>
-              </div>
-              <div style="display:flex;gap:0.625rem;align-items:flex-start;background:var(--bg-tertiary);border-radius:var(--radius-md);padding:0.75rem;">
-                <span style="font-size:1.125rem;flex-shrink:0;">✈️</span>
-                <div><p style="margin:0;font-size:0.8125rem;font-weight:600;">Transporte regulado</p><p style="margin:0.2rem 0 0;font-size:0.75rem;color:var(--text-secondary);">Aerolíneas AOC, navieras SOLAS, ferroviarias…</p></div>
-              </div>
-              <div style="display:flex;gap:0.625rem;align-items:flex-start;background:var(--bg-tertiary);border-radius:var(--radius-md);padding:0.75rem;">
-                <span style="font-size:1.125rem;flex-shrink:0;">🌿</span>
-                <div><p style="margin:0;font-size:0.8125rem;font-weight:600;">Medioambiente industrial</p><p style="margin:0.2rem 0 0;font-size:0.75rem;color:var(--text-secondary);">SEVESO, AAI, EU ETS, gestores de residuos…</p></div>
-              </div>
-            </div>
+            <p style="margin-bottom:0.75rem;"><strong>¿Y si tienes menos de 50 empleados?</strong> Muchas empresas están igualmente obligadas por su sector, sin umbral de plantilla:</p>
+            <ul style="margin:0 0 0.875rem 1.25rem;padding:0;display:flex;flex-direction:column;gap:0.375rem;">
+              <li>🏦 <strong>PBC · Ley 10/2010</strong> — Asesorías, notarías, inmobiliarias, casinos, cripto…</li>
+              <li>💳 <strong>Finanzas reguladas UE</strong> — Gestoras, fintech, corredurías, entidades de pago…</li>
+              <li>✈️ <strong>Transporte regulado</strong> — Aerolíneas AOC, navieras SOLAS, ferroviarias…</li>
+              <li>🌿 <strong>Medioambiente industrial</strong> — SEVESO, AAI, EU ETS, gestores de residuos…</li>
+            </ul>
             <p style="margin:0;font-size:0.875rem;"><a href="/blog/obligados-menos-50-empleados" style="color:var(--accent);">Ver guía completa de empresas obligadas sin umbral de empleados →</a></p>
           </div>
 
