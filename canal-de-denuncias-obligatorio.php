@@ -71,8 +71,8 @@ include 'includes/header.php';
       <h1 style="font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.2;margin-bottom:1rem;">Canal de denuncias obligatorio: ¿está tu empresa obligada?</h1>
       <p style="font-size:1.125rem;color:var(--text-secondary);max-width:700px;margin-bottom:2rem;">La Ley 2/2023 obliga a miles de empresas en España a tener un canal operativo. Comprueba en 30 segundos si la tuya es una de ellas — y qué pasa si no lo tienes.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-        <a href="#comprobador" class="btn btn-primary btn-lg">Comprobar ahora →</a>
-        <a href="/registro" class="btn btn-secondary btn-lg">Ver planes desde 9€/mes</a>
+        <a href="/cumples" class="btn btn-primary btn-lg">Comprobador interactivo →</a>
+        <a href="#comprobador" class="btn btn-secondary btn-lg">Ver criterios</a>
       </div>
     </div>
   </section>
