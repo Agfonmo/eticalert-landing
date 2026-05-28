@@ -311,7 +311,7 @@ include 'includes/header.php';
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
       <h2 style="font-size:1.75rem;margin-bottom:1rem;">Prueba EticAlert gratis.<br>Sin tarjeta. Canal operativo hoy.</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Gratis hasta 20 empleados. Desde 19 €/mes para empresas obligadas. Cumple la Ley 2/2023 en minutos, sin consultor.</p>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Starter desde 9€/mes hasta 20 empleados. Desde 19 €/mes para empresas obligadas. Cumple la Ley 2/2023 en minutos, sin consultor.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="/precio-canal-de-denuncias" class="btn btn-secondary btn-lg">Ver precios</a>

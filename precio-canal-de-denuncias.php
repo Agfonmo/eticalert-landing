@@ -52,7 +52,7 @@ include 'includes/header.php';
       "name": "¿Hay algún canal de denuncias gratuito que cumpla la Ley 2/2023?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí. EticAlert ofrece un plan completamente gratuito para empresas de hasta 20 empleados que cumple todos los requisitos técnicos de la Ley 2/2023: anonimato real, acuse de recibo en 7 días, gestión de plazos de 3 meses, libro-registro y cifrado AES-256. No requiere tarjeta de crédito."
+        "text": "No existe un plan permanentemente gratuito que cumpla todos los requisitos de la Ley 2/2023. EticAlert ofrece 15 días de prueba gratuita sin tarjeta de crédito, y el plan más económico del mercado es el Starter a 9€/mes para empresas de hasta 20 empleados, con cumplimiento técnico completo: anonimato real, acuse de recibo en 7 días, gestión de plazos de 3 meses, libro-registro y cifrado AES-256."
       }
     },
     {
@@ -305,7 +305,7 @@ include 'includes/header.php';
   <section style="background:var(--bg-secondary);padding:60px 0;border-top:1px solid var(--border);">
     <div class="container" style="max-width:680px;text-align:center;">
       <h2 style="font-size:1.75rem;margin-bottom:1rem;">Prueba 15 días gratis.<br>Sin tarjeta. Sin compromiso.</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal operativo en 5 minutos. Si tu empresa crece, cambias de plan cuando quieras. Si tienes menos de 20 empleados, siempre gratis.</p>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Canal operativo en 5 minutos. Si tu empresa crece, cambias de plan cuando quieras. Plan Starter desde 9€/mes para empresas de hasta 20 empleados.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
         <a href="/precios" class="btn btn-secondary btn-lg">Ver todos los planes</a>

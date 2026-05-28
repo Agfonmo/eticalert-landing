@@ -93,7 +93,7 @@ include '../includes/header.php';
 
         <p><strong>Opción 2: Plataforma SaaS especializada</strong></p>
         <p>Software en la nube diseñado específicamente para el canal de denuncias. La empresa lo activa y configura de forma autónoma, sin necesidad de consultoría.</p>
-        <p>Precio habitual: desde <strong>19€/mes hasta 99€/mes</strong> para empresas de hasta 250 empleados, dependiendo del proveedor y las funcionalidades incluidas. EticAlert ofrece plan gratuito hasta 20 empleados y planes de pago desde 19€/mes.</p>
+        <p>Precio habitual: desde <strong>19€/mes hasta 99€/mes</strong> para empresas de hasta 250 empleados, dependiendo del proveedor y las funcionalidades incluidas. EticAlert ofrece plan Starter a 9€/mes hasta 20 empleados y planes de pago desde 19€/mes.</p>
         <p>Total primer año: entre 0€ y 1.188€ aproximadamente.</p>
         <p>Adecuado para: la mayoría de pymes obligadas que quieren cumplir la ley rápido, al menor coste y con la mayor autonomía posible.</p>
 
@@ -151,7 +151,7 @@ include '../includes/header.php';
         <p>EticAlert tiene tres planes principales:</p>
         <ul>
           <li><strong>Plan Gratuito (hasta 20 empleados):</strong> canal de denuncias completamente funcional, formulario configurable, anonimato real, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> automático, acuses de recibo automáticos.</li>
-          <li><strong>Plan Pyme (50-150 empleados): desde 19€/mes.</strong> Todo lo del plan gratuito más: múltiples usuarios RSII, exportación del libro-registro en PDF, soporte por email, URL personalizada.</li>
+          <li><strong>Plan Pyme (50-150 empleados): desde 19€/mes.</strong> Todo lo del plan Starter más: múltiples usuarios RSII, exportación del libro-registro en PDF, soporte por email, URL personalizada.</li>
           <li><strong>Plan Empresa (150-500 empleados):</strong> todo lo del plan Pyme más: multi-empresa, acceso API, soporte prioritario, onboarding asistido.</li>
         </ul>
         <p>En todos los planes están incluidos: configuración guiada, plantillas de política del SII, datos almacenados en la UE, cifrado AES-256 y actualizaciones automáticas ante cambios normativos.</p>

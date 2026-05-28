@@ -54,7 +54,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta Whistleblower Software comparado con EticAlert?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Whistleblower Software es una plataforma danesa con buena reputación en seguridad, pero con precio orientativo desde unos 199 euros al mes y soporte principalmente en inglés o danés. EticAlert está diseñado específicamente para pymes españolas, con precio desde 19 euros al mes, plan gratuito hasta 20 empleados, documentación en español y plena adaptación a la Ley 2/2023 y la AIPI."}
+      "acceptedAnswer": {"@type": "Answer", "text": "Whistleblower Software es una plataforma danesa con buena reputación en seguridad, pero con precio orientativo desde unos 199 euros al mes y soporte principalmente en inglés o danés. EticAlert está diseñado específicamente para pymes españolas, con precio desde 19 euros al mes, plan Starter a 9€/mes hasta 20 empleados, documentación en español y plena adaptación a la Ley 2/2023 y la AIPI."}
     }
   ]
 }

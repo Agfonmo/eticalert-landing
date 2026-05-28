@@ -73,7 +73,7 @@ include '../includes/header.php';
 
         <h2 id="cuando-cada-uno">¿Cuándo elegir uno u otro?</h2>
         <p><strong>EuroCanalDenuncias</strong> puede ser una opción si buscas un proveedor español de entrada económica y los requisitos técnicos avanzados no son una prioridad. Verifica directamente con ellos las garantías de cifrado y plazos antes de contratar.</p>
-        <p><strong>EticAlert</strong> ofrece el mismo rango de precios sin coste de setup, con plan gratuito para empresas de hasta 20 empleados y garantías técnicas documentadas: cifrado AES-256-GCM, hash SHA-256 verificable y alertas automáticas de plazos de la Ley 2/2023.</p>
+        <p><strong>EticAlert</strong> ofrece el mismo rango de precios sin coste de setup, con plan Starter a 9€/mes para empresas de hasta 20 empleados y garantías técnicas documentadas: cifrado AES-256-GCM, hash SHA-256 verificable y alertas automáticas de plazos de la Ley 2/2023.</p>
 
 
         <h2 id="pros-contras-eurocanaldenuncias">Pros y contras de EuroCanalDenuncias para canal de denuncias</h2>
@@ -107,7 +107,7 @@ include '../includes/header.php';
 
         <h2 id="veredicto-eurocanaldenuncias">Veredicto</h2>
         <p>EuroCanalDenuncias es una opción funcional dentro del mercado español, pero no ofrece ventajas claras sobre EticAlert: el precio recurrente es idéntico, el coste de setup penaliza el primer año, y las garantías técnicas documentadas son inferiores.</p>
-        <p><strong>Elige EuroCanalDenuncias</strong> solo si tienes razones específicas para preferir ese proveedor. <strong>Elige EticAlert</strong> si lo que buscas es el mayor valor técnico al mismo precio, sin coste de alta y con plan gratuito para empresas pequeñas.</p>
+        <p><strong>Elige EuroCanalDenuncias</strong> solo si tienes razones específicas para preferir ese proveedor. <strong>Elige EticAlert</strong> si lo que buscas es el mayor valor técnico al mismo precio, sin coste de alta y con plan Starter a 9€/mes para empresas pequeñas.</p>
 
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
 

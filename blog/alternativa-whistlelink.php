@@ -41,7 +41,7 @@ include '../includes/header.php';
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"¿Cuánto cuesta Whistlelink en España?","acceptedAnswer":{"@type":"Answer","text":"Whistlelink publica un precio de entrada desde 49€/mes para pequeñas empresas. EticAlert parte desde 19€/mes para empresas de hasta 49 empleados, con plan gratuito hasta 20."}},
+    {"@type":"Question","name":"¿Cuánto cuesta Whistlelink en España?","acceptedAnswer":{"@type":"Answer","text":"Whistlelink publica un precio de entrada desde 49€/mes para pequeñas empresas. EticAlert parte desde 19€/mes para empresas de hasta 49 empleados, con plan Starter a 9€/mes hasta 20 empleados."}},
     {"@type":"Question","name":"¿Whistlelink cumple la Ley 2/2023 española?","acceptedAnswer":{"@type":"Answer","text":"Whistlelink cumple la Directiva europea 2019/1937 de whistleblowing. Sin embargo, no incluye módulo específico para la AIPI, el RSII ni los plazos concretos de la Ley 2/2023 española (7 días para acuse, 3 meses para resolución). EticAlert tiene estos mecanismos integrados de forma nativa."}},
     {"@type":"Question","name":"¿Existe una alternativa a Whistlelink más barata para España?","acceptedAnswer":{"@type":"Answer","text":"Sí. EticAlert ofrece el mismo nivel de funcionalidades core a un precio inferior: desde 19€/mes frente a los 49€/mes de Whistlelink. Además está diseñado específicamente para la normativa española."}}
   ]
@@ -160,7 +160,7 @@ include '../includes/header.php';
           <h2 style="margin-bottom:1.5rem;">Preguntas frecuentes</h2>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Cuánto cuesta Whistlelink en España?</h3>
-            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Whistlelink publica un precio de entrada desde 49€/mes para pequeñas empresas. EticAlert parte desde 19€/mes para empresas de hasta 49 empleados, con plan gratuito hasta 20.</p>
+            <p style="color:var(--text-secondary);font-size:0.9375rem;line-height:1.7;">Whistlelink publica un precio de entrada desde 49€/mes para pequeñas empresas. EticAlert parte desde 19€/mes para empresas de hasta 49 empleados, con plan Starter a 9€/mes hasta 20 empleados.</p>
           </div>
           <div class="faq-item" style="margin:1.5rem 0;border-bottom:1px solid var(--border);padding-bottom:1.5rem;">
             <h3 style="font-size:1rem;font-weight:600;margin-bottom:0.5rem;">¿Whistlelink cumple la Ley 2/2023 española?</h3>
