@@ -48,25 +48,34 @@ include 'includes/header.php';
 </main>
 
 <script>
-// Disparar registro_completado cuando GA4 esté inicializado
-// (el script de GA4 se carga diferido en window.load, por eso usamos el mismo evento)
+// Disparar eventos de conversión cuando GA4 esté inicializado
+// (el script de GA4 se carga diferido en window.load)
 (function() {
   function fireConversion() {
-    if (typeof gtag === 'function') {
-      gtag('event', 'registro_completado', {
-        event_category: 'registro',
-        event_label:    '<?= addslashes($empresa) ?>'
-      });
-    }
+    if (typeof gtag !== 'function') return;
+    var empresa = '<?= addslashes($empresa) ?>';
+
+    // 1. Evento personalizado (historial)
+    gtag('event', 'registro_completado', {
+      event_category: 'registro',
+      event_label:    empresa
+    });
+
+    // 2. Evento estándar GA4 → aparece en GA4 como "Key event" importable a Google Ads
+    gtag('event', 'sign_up', { method: 'web' });
+
+    // 3. Evento lead estándar GA4 (Google Ads lo importa automáticamente si GA4 está vinculado)
+    gtag('event', 'generate_lead', {
+      currency: 'EUR',
+      value:    9.0   // valor mínimo del plan (9€/mes) — ayuda a optimizar pujas
+    });
   }
-  // Si GA4 ya está cargado (caché), disparar inmediatamente
-  // Si no, esperar al evento load para que gtag('config',...) se haya ejecutado
+
   if (document.readyState === 'complete') {
-    // Pequeño delay para asegurar que gtag('config') ya procesó el dataLayer
-    setTimeout(fireConversion, 200);
+    setTimeout(fireConversion, 300);
   } else {
     window.addEventListener('load', function() {
-      setTimeout(fireConversion, 200);
+      setTimeout(fireConversion, 300);
     });
   }
 })();
