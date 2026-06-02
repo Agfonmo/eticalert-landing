@@ -1,11 +1,11 @@
 <?php
-$page_title             = 'Alternativa a GlobalSuite | EticAlert vs GlobalSuite 2026';
-$page_description       = '¿GlobalSuite es demasiado para tu empresa? Suite GRC española con ISO 27001 y 7 idiomas orientada a grandes organizaciones. Comparativa con EticAlert para pymes.';
+$page_title             = 'Alternativa a GlobalSuite para Pymes | EticAlert desde 9€/mes [2026]';
+$page_description       = '¿Buscas una alternativa a GlobalSuite más asequible para tu empresa? EticAlert ofrece canal de denuncias homologado desde 9€/mes, sin contratos ni implantación. Comparativa honesta →';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-globalsuite';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a GlobalSuite canal de denuncias — EticAlert 2026';
 $page_article_published = '2026-04-27T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-06-03T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">

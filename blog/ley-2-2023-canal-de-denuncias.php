@@ -1,11 +1,11 @@
 <?php
-$page_title             = 'Canal de Denuncias Ley 2/2023: ¿Está Obligada Tu Empresa? Compruébalo';
-$page_description       = 'La Ley 2/2023 obliga a empresas +50 empleados. Comprueba en 30 segundos si necesitas canal de denuncias, qué exige la AIPI y evita multas hasta 1.000.000€ →';
+$page_title             = 'Ley 2/2023 Canal de Denuncias: Guía Completa 2026 — Quién Está Obligado';
+$page_description       = 'Todo sobre la Ley 2/2023 y el canal de denuncias: quién está obligado (BOE), plazos de implantación, requisitos técnicos, sanciones AIPI hasta 1.000.000€ y cómo cumplirla en 5 minutos.';
 $page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';
 $page_article_published = '2026-03-17T00:00:00+01:00';
-$page_article_modified  = '2026-05-22T00:00:00+01:00';
+$page_article_modified  = '2026-06-03T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 

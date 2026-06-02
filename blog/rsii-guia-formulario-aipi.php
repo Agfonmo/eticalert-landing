@@ -1,10 +1,10 @@
 <?php
-$page_title       = 'RSII: Qué Es, Cómo Designarlo y Notificar a la AIPI [Guía 2026]';
-$page_description = 'El RSII (Responsable del Sistema Interno de Información) es obligatorio por la Ley 2/2023. Cómo designarlo, sus funciones exactas y el formulario de notificación a la AIPI →';
+$page_title       = 'Qué es el RSII: Funciones, Designación y Notificación a la AIPI [2026]';
+$page_description = 'El RSII (Responsable del Sistema Interno de Información) gestiona el canal de denuncias. Funciones obligatorias, cómo designarlo correctamente, requisitos y formulario oficial de notificación a la AIPI.';
 $page_canonical   = 'https://eticalert.com/blog/rsii-guia-formulario-aipi';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-10T00:00:00+01:00';
-$page_article_modified  = '2026-05-22T00:00:00+01:00';
+$page_article_modified  = '2026-06-03T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 
