@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Precios del canal de denuncias | EticAlert — desde 9€/mes';
-$page_description = 'Precio transparente sin sorpresas. Canal de denuncias desde 9€/mes. Plan Starter para pymes y sujetos obligados. Compara planes y activa el tuyo hoy.';
+$page_title       = 'Canal de Denuncias Precio: Desde 9€/mes — Sin Permanencia | EticAlert';
+$page_description = 'Canal de denuncias para empresas desde 9€/mes. Sin permanencia, activo en 5 minutos. Cumple la Ley 2/2023 desde hoy. Compara planes y activa el tuyo →';
 $page_canonical   = 'https://eticalert.com/precios';
 include 'includes/header.php';
 ?>

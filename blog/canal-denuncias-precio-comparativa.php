@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias precio | ¿Cuánto cuesta? Comparativa 2026';
-$page_description = '¿Cuánto cuesta implementar un canal de denuncias? Desde 19€/mes en SaaS hasta 5.000€ en consultoría. Precios reales y comparativa.';
+$page_title       = 'Canal de Denuncias: ¿Cuánto Cuesta? Precios Reales 2026 [Comparativa]';
+$page_description = '¿Cuánto cuesta un canal de denuncias? SaaS desde 9€/mes vs consultoría hasta 5.000€. Comparamos 8 opciones con precios reales para que elijas sin sorpresas →';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-precio-comparativa';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-30T00:00:00+01:00';

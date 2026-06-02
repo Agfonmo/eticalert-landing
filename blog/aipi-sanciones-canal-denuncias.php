@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'La AIPI ya sanciona: qué significa para tu empresa y cómo actuar | EticAlert';
-$page_description = 'Desde febrero de 2026, la Autoridad Independiente de Protección del Informante está operativa. El periodo de gracia terminó. Descubre qué puede hacer la AIPI y cómo prepararte.';
+$page_title       = 'AIPI Sanciona Desde Feb 2026: Multas Canal Denuncias y Cómo Actuar';
+$page_description = 'La AIPI ya multa por no tener canal de denuncias — hasta 1.000.000€. El periodo de gracia terminó en feb 2026. Qué puede hacer la AIPI a tu empresa y cómo ponerse al día →';
 $page_canonical   = 'https://eticalert.com/blog/aipi-sanciones-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-15T00:00:00+01:00';

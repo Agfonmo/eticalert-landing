@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'RSII: Cómo Designar al Responsable del Canal de Denuncias | EticAlert';
-$page_description = 'Todo sobre el RSII: qué es, cómo designarlo y notificarlo a la AIPI. Guía actualizada mayo 2026 — qué hacer si todavía no has cumplido el plazo.';
+$page_title       = 'RSII: Qué Es, Cómo Designarlo y Notificar a la AIPI [Guía 2026]';
+$page_description = 'El RSII (Responsable del Sistema Interno de Información) es obligatorio por la Ley 2/2023. Cómo designarlo, sus funciones exactas y el formulario de notificación a la AIPI →';
 $page_canonical   = 'https://eticalert.com/blog/rsii-guia-formulario-aipi';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-10T00:00:00+01:00';
