@@ -31,7 +31,7 @@ include 'includes/header.php';
     {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"21–49 empleados."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"50–150 empleados."}
-  ]
+  ]<?= schema_aggregate_rating() ?>
 }
 </script>
 

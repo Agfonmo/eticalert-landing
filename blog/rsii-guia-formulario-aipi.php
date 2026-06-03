@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "NewsArticle",
   "headline": "RSII: guía práctica para designar y notificar tu responsable del canal de denuncias",
   "description": "Cómo designar al RSII, cómo notificarlo a la AIPI, errores comunes y todo lo que necesitas saber antes del 10 de abril de 2026.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
@@ -20,6 +20,8 @@ include '../includes/header.php';
   "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
+  "inLanguage": "es-ES",
+  "articleSection": "Marco legal",
   "keywords": "RSII, formulario AIPI, responsable canal denuncias, Ley 2/2023"
 }
 </script>

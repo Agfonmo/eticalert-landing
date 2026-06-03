@@ -11,7 +11,7 @@ include '../includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "NewsArticle",
   "headline": "La AIPI ya sanciona: qué significa para tu empresa y cómo actuar",
   "description": "Desde febrero de 2026, la AIPI está plenamente operativa y puede sancionar. Guía sobre qué puede hacer y cómo prepararse.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
@@ -20,6 +20,8 @@ include '../includes/header.php';
   "dateModified": "2026-05-21",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
+  "inLanguage": "es-ES",
+  "articleSection": "Marco legal",
   "keywords": "AIPI, sanciones, canal denuncias, Ley 2/2023, RSII"
 }
 </script>

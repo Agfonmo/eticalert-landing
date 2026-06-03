@@ -30,7 +30,7 @@ include 'includes/header.php';
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados, 4 usuarios. Facturación anual: 190€/año."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados, 5 usuarios. Facturación anual: 390€/año."},
     {"@type":"Offer","name":"Enterprise","price":"0","priceCurrency":"EUR","description":"Más de 150 empleados, usuarios ilimitados. Precio personalizado."}
-  ]
+  ]<?= schema_aggregate_rating() ?>
 }
 </script>
 

@@ -66,7 +66,10 @@ include '../includes/header.php';
       {"@type":"ListItem","position":38,"url":"https://eticalert.com/blog/canal-denuncias-gestoras-fondos","name":"Canal de denuncias para gestoras de fondos de inversión y capital riesgo"},
       {"@type":"ListItem","position":39,"url":"https://eticalert.com/blog/canal-denuncias-promotores-inmobiliarios","name":"Canal de denuncias para promotores inmobiliarios"},
       {"@type":"ListItem","position":40,"url":"https://eticalert.com/blog/canal-denuncias-quimica-petroquimica","name":"Canal de denuncias para industria química, petroquímica e instalaciones SEVESO"},
-      {"@type":"ListItem","position":41,"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","name":"Canal de denuncias para transporte aéreo y marítimo"}
+      {"@type":"ListItem","position":41,"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","name":"Canal de denuncias para transporte aéreo y marítimo"},
+      {"@type":"ListItem","position":42,"url":"https://eticalert.com/blog/modelo-politica-rsii","name":"Modelo de política del sistema interno de información (RSII): plantilla gratuita 2026"},
+      {"@type":"ListItem","position":43,"url":"https://eticalert.com/blog/checklist-auditoria-aipi","name":"Checklist AIPI 2026: los 42 puntos que verifica en una inspección de canal de denuncias"},
+      {"@type":"ListItem","position":44,"url":"https://eticalert.com/blog/canal-denuncias-grupos-empresariales","name":"Canal de denuncias en grupos empresariales: ¿canal compartido o uno por filial?"}
     ]
   }
 }
@@ -143,6 +146,13 @@ include '../includes/header.php';
           <span class="blog-card-meta">26 may 2026 · 12 min lectura</span>
         </a>
 
+        <a href="/blog/checklist-auditoria-aipi" class="blog-card fade-up" data-category="marco-legal">
+          <span class="blog-badge badge-marco-legal">Marco legal</span>
+          <h3>Checklist AIPI 2026: los 42 puntos que verifica en una inspección de canal de denuncias</h3>
+          <p>¿Qué comprueba exactamente la AIPI cuando inspecciona? 42 puntos organizados por bloque: existencia del canal, política RSII, plazos, confidencialidad y libro-registro.</p>
+          <span class="blog-card-meta">3 jun 2026 · 10 min lectura</span>
+        </a>
+
         <!-- SILO 2: GUÍAS PRÁCTICAS -->
         <a href="/blog/como-implantar-canal-denuncias" class="blog-card fade-up" data-category="guias">
           <span class="blog-badge badge-guias">Guías prácticas</span>
@@ -177,6 +187,20 @@ include '../includes/header.php';
           <h3>¿Qué puede denunciar un empleado a través del canal de denuncias?</h3>
           <p>Lista completa de infracciones cubiertas, diferencia con quejas laborales ordinarias y quién puede denunciar (no solo empleados).</p>
           <span class="blog-card-meta">19 feb 2026 · 6 min lectura</span>
+        </a>
+
+        <a href="/blog/modelo-politica-rsii" class="blog-card fade-up" data-category="guias">
+          <span class="blog-badge badge-guias">Guías prácticas</span>
+          <h3>Modelo de política del sistema interno de información (RSII): plantilla gratuita 2026</h3>
+          <p>La plantilla completa que ninguna autoridad publica pero que la AIPI solicita en cada inspección. Con todas las cláusulas obligatorias listas para adaptar.</p>
+          <span class="blog-card-meta">3 jun 2026 · 12 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-grupos-empresariales" class="blog-card fade-up" data-category="guias">
+          <span class="blog-badge badge-guias">Guías prácticas</span>
+          <h3>Canal de denuncias en grupos empresariales: ¿canal compartido o uno por filial?</h3>
+          <p>Cuándo un grupo puede compartir canal, cuándo cada filial necesita el suyo y cómo designar el RSII en estructuras societarias complejas.</p>
+          <span class="blog-card-meta">3 jun 2026 · 11 min lectura</span>
         </a>
 
         <!-- SILO 3: POR SECTOR -->

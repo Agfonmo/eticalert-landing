@@ -9,6 +9,24 @@ include 'includes/header.php';
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "EticAlert",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "url": "https://eticalert.com",
+  "description": "Canal de denuncias SaaS para pymes españolas. Cumple la Ley 2/2023 desde 9€/mes. Activación en minutos, sin consultor.",
+  "areaServed": {"@type": "Country", "name": "ES"},
+  "availableLanguage": "Spanish",
+  "offers": [
+    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados. 9€/mes o 81€/año."},
+    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"21–49 empleados."},
+    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"50–150 empleados."}
+  ]<?= schema_aggregate_rating() ?>
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Canal de denuncias para empresas: guía completa 2026",
   "description": "Guía exhaustiva sobre el canal de denuncias obligatorio según la Ley 2/2023: requisitos, plazos, sanciones y cómo implementarlo.",

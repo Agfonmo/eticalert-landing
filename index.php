@@ -33,7 +33,7 @@ include 'includes/header.php';
     {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados. 19€/mes."},
     {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados. 39€/mes."}
   ],
-  "description": "Plataforma SaaS de canal de denuncias para pymes españolas. Cumple la Ley 2/2023. Plan Starter desde 9€/mes, planes hasta 39€/mes."
+  "description": "Plataforma SaaS de canal de denuncias para pymes españolas. Cumple la Ley 2/2023. Plan Starter desde 9€/mes, planes hasta 39€/mes."<?= schema_aggregate_rating() ?>
 }
 </script>
 
