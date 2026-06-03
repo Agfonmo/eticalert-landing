@@ -2,7 +2,33 @@
 /**
  * Plantilla programática para páginas de ciudad — Canal de denuncias
  * Uso: cada archivo /canal-denuncias-[ciudad].php define $city_slug y hace include de este fichero.
+ *
+ * Solo Madrid y Barcelona tienen página propia con contenido profundo.
+ * El resto redirige 301 al hub por comunidad autónoma.
  */
+
+// Mapa ciudad → anchor en /canal-denuncias-comunidades
+$city_ccaa_redirects = [
+  'valencia'   => 'comunitat-valenciana',
+  'sevilla'    => 'andalucia',
+  'bilbao'     => 'pais-vasco',
+  'malaga'     => 'andalucia',
+  'zaragoza'   => 'aragon',
+  'murcia'     => 'murcia',
+  'palma'      => 'baleares',
+  'las-palmas' => 'canarias',
+  'alicante'   => 'comunitat-valenciana',
+  'cordoba'    => 'andalucia',
+  'valladolid' => 'castilla-y-leon',
+  'vigo'       => 'galicia',
+  'gijon'      => 'asturias',
+];
+
+if (isset($city_ccaa_redirects[$city_slug])) {
+  header('HTTP/1.1 301 Moved Permanently');
+  header('Location: https://eticalert.com/canal-denuncias-comunidades#' . $city_ccaa_redirects[$city_slug]);
+  exit;
+}
 
 $cities = [
   'madrid' => [
