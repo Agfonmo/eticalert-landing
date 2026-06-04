@@ -1,6 +1,6 @@
 <?php
-$page_title             = 'Ley 2/2023 Canal de Denuncias: Guía Completa 2026 — Quién Está Obligado';
-$page_description       = 'Todo sobre la Ley 2/2023 y el canal de denuncias: quién está obligado (BOE), plazos de implantación, requisitos técnicos, sanciones AIPI hasta 1.000.000€ y cómo cumplirla en 5 minutos.';
+$page_title             = 'Ley 2/2023 Canal de Denuncias — La AIPI ya Sanciona: Guía Actualizada 2026';
+$page_description       = 'La AIPI ya multa hasta 1.000.000€. ¿Tienes canal de denuncias? Quién está obligado, qué necesitas exactamente y cómo cumplir la Ley 2/2023 desde 9€/mes.';
 $page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';
@@ -14,12 +14,12 @@ include '../includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Canal de Denuncias Ley 2/2023 — ¿Está Obligada Tu Empresa?",
-  "description": "La Ley 2/2023 obliga a empresas con +50 trabajadores. Comprueba si debes tener canal de denuncias, qué requisitos cumplir y las multas de hasta 1M€.",
+  "headline": "Ley 2/2023 Canal de Denuncias — La AIPI ya Sanciona: Guía Actualizada 2026",
+  "description": "La AIPI ya multa hasta 1.000.000€ por no tener canal de denuncias. Quién está obligado, qué necesitas exactamente y cómo cumplir la Ley 2/2023 desde 9€/mes.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/ley-2-2023-canal-de-denuncias",
   "datePublished": "2026-03-17",
-  "dateModified": "2026-05-22",
+  "dateModified": "2026-06-04",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "ley 2/2023, canal de denuncias, whistleblowing, AIPI, RSII, pymes"
