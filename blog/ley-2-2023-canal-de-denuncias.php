@@ -84,6 +84,10 @@ include '../includes/header.php';
         </ul>
         <p>Las empresas de entre 50 y 249 empleados que pertenezcan a un grupo de empresas pueden compartir un único canal de denuncias. Sin embargo, cada empresa sigue siendo individualmente responsable del cumplimiento y del nombramiento de su RSII.</p>
 
+        <h3 id="50-trabajadores">¿Es obligatorio el canal de denuncias con 50 trabajadores?</h3>
+        <p><strong>Sí.</strong> Desde el <strong>1 de diciembre de 2023</strong>, toda empresa española con una media de <strong>50 o más trabajadores</strong> en los últimos 12 meses está obligada a disponer de un canal interno de denuncias (Sistema Interno de Información). El umbral no se mide a una fecha concreta, sino como media anual: si has superado los 50 empleados de media, estás dentro de la obligación aunque hoy tengas 48 en plantilla.</p>
+        <p>El texto oficial es la <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513" rel="noopener" target="_blank">Ley 2/2023, de 20 de febrero, publicada en el BOE (referencia BOE-A-2023-4513)</a>; el artículo 10 enumera las entidades obligadas. No cumplir se considera infracción muy grave, con multas de hasta 1.000.000€. Y recuerda: por debajo de 50 trabajadores la obligación se mantiene si tu actividad está regulada (blanqueo de capitales, sector financiero, juego, seguridad del transporte o medio ambiente), como detallamos a continuación.</p>
+
         <h3 id="obligados-sector">Obligados por normativa sectorial, independientemente del tamaño</h3>
         <p>La Ley 2/2023 transpone la Directiva Whistleblowing, que obliga también a entidades privadas que operen en los ámbitos de la normativa de la Unión Europea sobre servicios, productos y mercados financieros, prevención del blanqueo de capitales, seguridad del transporte y protección del medioambiente. Esto significa que <strong>puede existir obligación aunque la empresa tenga menos de 50 empleados</strong>, si su actividad está regulada en alguno de estos sectores.</p>
 
@@ -268,7 +272,9 @@ include '../includes/header.php';
   "mainEntity": [
     {"@type":"Question","name":"¿Qué es la Ley 2/2023?","acceptedAnswer":{"@type":"Answer","text":"La Ley 2/2023 es la ley española que transpone la Directiva Whistleblowing europea. Obliga a empresas con 50+ empleados a disponer de un canal de denuncias operativo, confidencial y conforme a la normativa."}},
     {"@type":"Question","name":"¿Cuándo entró en vigor la obligación para pymes?","acceptedAnswer":{"@type":"Answer","text":"El 1 de diciembre de 2023 para empresas de entre 50 y 249 empleados. El 13 de junio de 2023 para empresas de 250+ empleados y sector público."}},
-    {"@type":"Question","name":"¿Qué sanción hay por no tener canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Hasta 1.000.000€ para personas jurídicas y 300.000€ para personas físicas por infracciones muy graves según la Ley 2/2023."}}
+    {"@type":"Question","name":"¿Qué sanción hay por no tener canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Hasta 1.000.000€ para personas jurídicas y 300.000€ para personas físicas por infracciones muy graves según la Ley 2/2023."}},
+    {"@type":"Question","name":"¿Es obligatorio el canal de denuncias para empresas de 50 trabajadores?","acceptedAnswer":{"@type":"Answer","text":"Sí. Desde el 1 de diciembre de 2023, las empresas con una media de 50 o más trabajadores en los últimos 12 meses deben disponer de un canal interno de denuncias conforme al artículo 10 de la Ley 2/2023. Por debajo de 50 empleados la obligación se mantiene si la actividad está regulada (blanqueo de capitales, sector financiero, juego, transporte o medio ambiente)."}},
+    {"@type":"Question","name":"¿Dónde está publicada la Ley 2/2023 en el BOE?","acceptedAnswer":{"@type":"Answer","text":"La Ley 2/2023, de 20 de febrero, está publicada en el BOE núm. 45, de 21 de febrero de 2023, con referencia BOE-A-2023-4513. El artículo 10 regula qué entidades están obligadas a tener un sistema interno de información."}}
   ]
 }
 </script>
