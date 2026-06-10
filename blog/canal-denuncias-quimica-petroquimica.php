@@ -4,17 +4,17 @@ $page_description = 'Las industrias químicas y petroquímicas con instalaciones
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-quimica-petroquimica';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para industria química, petroquímica e instalaciones SEVESO","description":"Las instalaciones químicas, petroquímicas y SEVESO están reguladas por normativa ambiental UE y deben tener canal de denuncias según la Ley 2/2023 con independencia de su plantilla.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-quimica-petroquimica","datePublished":"2026-05-26","dateModified":"2026-05-26","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias industria quimica, canal denuncias SEVESO, canal denuncias petroquimica, canal denuncias sustancias peligrosas, canal denuncias industria obligatorio"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para industria química, petroquímica e instalaciones SEVESO","description":"Las instalaciones químicas, petroquímicas y SEVESO están reguladas por normativa ambiental UE y deben tener canal de denuncias según la Ley 2/2023 con independencia de su plantilla.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-quimica-petroquimica","datePublished":"2026-05-26","dateModified":"2026-06-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias industria quimica, canal denuncias SEVESO, canal denuncias petroquimica, canal denuncias sustancias peligrosas, canal denuncias industria obligatorio"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Canal de denuncias para industria química","item":"https://eticalert.com/blog/canal-denuncias-quimica-petroquimica"}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las industrias SEVESO necesitan canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí. Las instalaciones clasificadas como SEVESO (establecimiento de umbral inferior o superior según la Directiva 2012/18/UE) están reguladas directamente por normativa europea de protección del medioambiente. La Directiva Whistleblowing incluye en su ámbito a las entidades que operan en el sector de la protección ambiental, lo que activa la obligación de canal de denuncias independientemente del número de empleados."}},{"@type":"Question","name":"¿Una empresa química de 30 empleados necesita canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Si tiene una instalación clasificada como SEVESO, una Autorización Ambiental Integrada (AAI) o si sus emisiones están incluidas en el régimen EU ETS, probablemente sí. La clave es si la instalación está regulada por normativa europea ambiental, no el número de empleados."}}]}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Las industrias SEVESO necesitan canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Sí. Las instalaciones clasificadas como SEVESO (establecimiento de umbral inferior o superior según la Directiva 2012/18/UE) están reguladas directamente por normativa europea de protección del medioambiente. La Directiva Whistleblowing incluye en su ámbito a las entidades que operan en el sector de la protección ambiental, lo que activa la obligación de canal de denuncias independientemente del número de empleados."}},{"@type":"Question","name":"¿Una empresa química de 30 empleados necesita canal de denuncias?","acceptedAnswer":{"@type":"Answer","text":"Si tiene una instalación clasificada como SEVESO, una Autorización Ambiental Integrada (AAI) o si sus emisiones están incluidas en el régimen EU ETS, probablemente sí. La clave es si la instalación está regulada por normativa europea ambiental, no el número de empleados."}},{"@type":"Question","name":"¿El canal de denuncias sustituye a los delegados de prevención o al comité de seguridad y salud?","acceptedAnswer":{"@type":"Answer","text":"No. Son cauces complementarios: el comité de seguridad y salud gestiona las condiciones de trabajo con participación de la empresa; el canal de la Ley 2/2023 permite comunicar infracciones normativas de forma confidencial o anónima y con protección formal frente a represalias, incluso cuando la irregularidad proviene de la propia dirección."}},{"@type":"Question","name":"¿Los trabajadores de contratas en una parada de planta pueden usar el canal?","acceptedAnswer":{"@type":"Answer","text":"Sí. La Ley 2/2023 protege a quienes conocen infracciones en un contexto laboral o profesional, incluidos los empleados de contratistas y subcontratistas. Lo práctico es incluir el enlace del canal en la documentación de coordinación de actividades empresariales (CAE) que se entrega a cada contrata."}}]}
 </script>
 <main id="main-content">
   <div class="legal-page" style="padding-top:100px;">
@@ -27,7 +27,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para industria química, petroquímica e instalaciones SEVESO</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 6 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a junio 2026 · 10 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>La industria química, petroquímica y en general todas las instalaciones que manejan sustancias peligrosas en cantidades significativas tienen una obligación de canal de denuncias que no proviene del número de empleados, sino de su <strong>presencia en el ámbito regulatorio de la normativa europea de protección del medioambiente</strong>. La Directiva SEVESO, la Directiva de Emisiones Industriales y el régimen EU ETS son los marcos que activan esta obligación.</p>
@@ -62,6 +62,30 @@ include '../includes/header.php';
           <li><strong>Falsificación de registros de emisiones:</strong> manipulación de los datos de los sistemas de medición continua de emisiones (SCME) para cumplir aparentemente los límites.</li>
           <li><strong>Almacenamiento irregular de sustancias peligrosas:</strong> almacenamiento por encima de los límites autorizados sin comunicación al organismo de control industrial.</li>
           <li><strong>Presión para no notificar accidentes graves al SEVESO:</strong> directivos que instruyen a no activar los planes de emergencia interior y exterior para evitar la paralización de la instalación.</li>
+        </ul>
+
+        <h2 id="prl">El canal y la prevención de riesgos laborales: complemento, no sustituto</h2>
+        <p>En una planta química ya existen cauces internos de seguridad: los delegados de prevención, el comité de seguridad y salud y el derecho del trabajador a paralizar la actividad ante riesgo grave e inminente (art. 21 LPRL). El canal de denuncias no los sustituye — cubre lo que esos cauces no alcanzan:</p>
+        <ul>
+          <li><strong>Cuando el problema es la propia cadena de mando.</strong> El comité de seguridad funciona si la dirección coopera. Si la instrucción de diferir el mantenimiento o no reportar una fuga viene de arriba, el trabajador necesita un cauce que no pase por su jefe directo — y con protección formal frente a represalias, que la LPRL no otorga con el alcance de la Ley 2/2023.</li>
+          <li><strong>Cuando hay ocultación frente a la administración.</strong> La manipulación de un SCME o la no comunicación de un incidente SEVESO no es una "condición insegura" más: es una infracción normativa denunciable, y su cauce natural es el canal.</li>
+          <li><strong>Cuando el informante es de una contrata.</strong> En paradas de planta conviven decenas de empresas externas. Los trabajadores de contratas son informantes protegidos respecto de las infracciones del titular de la instalación que conozcan por su trabajo — el canal debe estar accesible para ellos, cosa que el comité de seguridad de la empresa principal no cubre.</li>
+        </ul>
+        <p>En la práctica, ambos sistemas se retroalimentan: una comunicación del canal puede acabar en el plan de acción del comité de seguridad, y una no-conformidad recurrente de ISO 14001/45001 que la dirección ignora puede acabar en el canal.</p>
+
+        <h2 id="directiva-penal">La nueva directiva de delitos ambientales eleva el riesgo penal</h2>
+        <p>La <strong>Directiva (UE) 2024/1203 sobre protección del medio ambiente mediante el Derecho penal</strong> endurece el régimen para las empresas: amplía el catálogo de delitos ambientales, eleva las sanciones para personas jurídicas (multas vinculadas al volumen de negocio mundial) y refuerza expresamente la protección de quienes denuncian estos delitos. Para una química, esto tiene dos consecuencias directas:</p>
+        <ol>
+          <li><strong>El canal pasa a ser pieza del modelo de prevención penal.</strong> La responsabilidad penal de la persona jurídica (art. 31 bis del Código Penal) se atenúa o excluye si existe un modelo de organización y gestión eficaz — y un canal de denuncias operativo y documentado es uno de sus elementos nucleares. En un proceso por delito ambiental, poder demostrar que el canal existía, funcionaba y se tramitó diligentemente puede marcar la diferencia entre la condena y la exención.</li>
+          <li><strong>Ignorar una denuncia interna se vuelve mucho más caro.</strong> Si un operario comunicó la fuga por el canal y la empresa la archivó sin investigar, ese expediente será la prueba central de la acusación. La tramitación rigurosa (plazos, investigación documentada, medidas) deja de ser un formalismo.</li>
+        </ol>
+
+        <h2 id="implantacion-planta">Implantación en planta: lo que funciona</h2>
+        <ul>
+          <li><strong>QR en vestuarios y salas de control.</strong> Gran parte de la plantilla de producción no usa email corporativo a diario. Un cartel con QR al canal en vestuarios, comedor y salas de control multiplica el acceso real.</li>
+          <li><strong>Acceso para contratas.</strong> Incluye el enlace del canal en el paquete de coordinación de actividades empresariales (CAE) que ya entregas a cada contrata, junto a las normas de planta.</li>
+          <li><strong>RSII con conocimiento técnico.</strong> En químicas medianas, el responsable HSE o de cumplimiento suele ser el RSII. Para denuncias que le afecten (por ejemplo, sobre la propia gestión ambiental), el protocolo debe prever un sustituto fuera de su línea jerárquica.</li>
+          <li><strong>Idiomas.</strong> Si la planta emplea trabajadores desplazados o contratas internacionales, el formulario debe estar disponible al menos en los idiomas operativos de la instalación.</li>
         </ul>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">

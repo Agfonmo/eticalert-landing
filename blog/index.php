@@ -69,7 +69,8 @@ include '../includes/header.php';
       {"@type":"ListItem","position":41,"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","name":"Canal de denuncias para transporte aéreo y marítimo"},
       {"@type":"ListItem","position":42,"url":"https://eticalert.com/blog/modelo-politica-rsii","name":"Modelo de política del sistema interno de información (RSII): plantilla gratuita 2026"},
       {"@type":"ListItem","position":43,"url":"https://eticalert.com/blog/checklist-auditoria-aipi","name":"Checklist AIPI 2026: los 42 puntos que verifica en una inspección de canal de denuncias"},
-      {"@type":"ListItem","position":44,"url":"https://eticalert.com/blog/canal-denuncias-grupos-empresariales","name":"Canal de denuncias en grupos empresariales: ¿canal compartido o uno por filial?"}
+      {"@type":"ListItem","position":44,"url":"https://eticalert.com/blog/canal-denuncias-grupos-empresariales","name":"Canal de denuncias en grupos empresariales: ¿canal compartido o uno por filial?"},
+      {"@type":"ListItem","position":45,"url":"https://eticalert.com/blog/protocolo-canal-denuncias","name":"Protocolo del canal de denuncias (Ley 2/2023): qué debe contener y modelo por secciones"}
     ]
   }
 }
@@ -201,6 +202,13 @@ include '../includes/header.php';
           <h3>Canal de denuncias en grupos empresariales: ¿canal compartido o uno por filial?</h3>
           <p>Cuándo un grupo puede compartir canal, cuándo cada filial necesita el suyo y cómo designar el RSII en estructuras societarias complejas.</p>
           <span class="blog-card-meta">3 jun 2026 · 11 min lectura</span>
+        </a>
+
+        <a href="/blog/protocolo-canal-denuncias" class="blog-card fade-up" data-category="guias">
+          <span class="blog-badge badge-guias">Guías prácticas</span>
+          <h3>Protocolo del canal de denuncias: qué debe contener y modelo por secciones</h3>
+          <p>El procedimiento de tramitación que exige la Ley 2/2023: las 7 fases, los plazos de 7 días y 3 meses, y un modelo orientativo listo para adaptar.</p>
+          <span class="blog-card-meta">10 jun 2026 · 11 min lectura</span>
         </a>
 
         <!-- SILO 3: POR SECTOR -->

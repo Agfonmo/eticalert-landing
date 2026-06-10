@@ -189,6 +189,7 @@ include '../includes/header.php';
         <ul>
           <li><a href="/blog/como-implantar-canal-denuncias" style="color:var(--accent);">Guía completa para implantar el canal →</a></li>
           <li><a href="/blog/politica-sistema-interno-informacion" style="color:var(--accent);">Política del Sistema Interno de Información →</a></li>
+          <li><a href="/blog/protocolo-canal-denuncias" style="color:var(--accent);">Protocolo de gestión: fases y plazos de tramitación →</a></li>
           <li><a href="/como-funciona" style="color:var(--accent);">Cómo funciona EticAlert →</a></li>
         </ul>
 

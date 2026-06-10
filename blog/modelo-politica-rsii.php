@@ -308,6 +308,7 @@ include '../includes/header.php';
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa de la Ley 2/2023 →</a></li>
           <li><a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">Canal de denuncias y RGPD: protección de datos →</a></li>
           <li><a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">Cómo llevar el libro-registro del canal →</a></li>
+          <li><a href="/blog/protocolo-canal-denuncias" style="color:var(--accent);">Protocolo de gestión del canal: fases, plazos y modelo →</a></li>
         </ul>
 
         <div class="related-articles">

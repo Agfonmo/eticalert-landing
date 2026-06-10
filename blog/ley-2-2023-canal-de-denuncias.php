@@ -204,6 +204,7 @@ include '../includes/header.php';
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
           <li><a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">Desglose completo de sanciones por tipo de infracción →</a></li>
           <li><a href="/blog/canal-etico-empresas" style="color:var(--accent);">Canal ético en la empresa: qué es y en qué se diferencia →</a></li>
+          <li><a href="/blog/protocolo-canal-denuncias" style="color:var(--accent);">Protocolo del canal de denuncias: fases, plazos y modelo →</a></li>
         </ul>
 
         <div class="related-articles">
