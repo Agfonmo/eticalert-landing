@@ -5,7 +5,7 @@ $page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denunc
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';
 $page_article_published = '2026-03-17T00:00:00+01:00';
-$page_article_modified  = '2026-06-03T00:00:00+01:00';
+$page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 
@@ -19,7 +19,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/ley-2-2023-canal-de-denuncias",
   "datePublished": "2026-03-17",
-  "dateModified": "2026-06-04",
+  "dateModified": "2026-06-10",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "ley 2/2023, canal de denuncias, whistleblowing, AIPI, RSII, pymes"
@@ -60,7 +60,7 @@ include '../includes/header.php';
         <p>Si tu empresa tiene 50 o más empleados en España, tienes una obligación legal que no puedes ignorar: disponer de un canal de denuncias operativo conforme a la Ley 2/2023. En esta guía explicamos qué es esta ley, a quién obliga, qué exige exactamente y qué consecuencias tiene no cumplir.</p>
 
         <h2 id="que-es-ley">¿Qué es la Ley 2/2023?</h2>
-        <p>La <strong>Ley 2/2023, de 20 de febrero</strong>, es la ley española que transpone la Directiva (UE) 2019/1937 del Parlamento Europeo —conocida como "Directiva Whistleblowing"— al ordenamiento jurídico nacional.</p>
+        <p>La <strong>Ley 2/2023, de 20 de febrero</strong>, es la ley española que transpone la <a href="/blog/directiva-europea-whistleblowing" style="color:var(--accent);">Directiva (UE) 2019/1937</a> del Parlamento Europeo —conocida como "Directiva Whistleblowing"— al ordenamiento jurídico nacional. Para ver el panorama completo de su aplicación práctica, consulta nuestra guía sobre <a href="/blog/whistleblowing-espana" style="color:var(--accent);">whistleblowing en España</a>.</p>
         <p>Su nombre oficial es <em>Ley reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción</em>. Fue publicada en el BOE el 21 de febrero de 2023 y tiene dos objetivos principales:</p>
         <ul>
           <li>Proteger a las personas que comunican infracciones normativas o hechos corruptos de posibles represalias por parte de la organización afectada.</li>
@@ -199,6 +199,7 @@ include '../includes/header.php';
           <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI ya sanciona: cómo actuar →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía práctica del RSII y formulario AIPI →</a></li>
           <li><a href="/blog/sanciones-canal-denuncias-desglose" style="color:var(--accent);">Desglose completo de sanciones por tipo de infracción →</a></li>
+          <li><a href="/blog/canal-etico-empresas" style="color:var(--accent);">Canal ético en la empresa: qué es y en qué se diferencia →</a></li>
         </ul>
 
         <div class="related-articles">
@@ -215,6 +216,42 @@ include '../includes/header.php';
             <a href="/blog/canal-denuncias-inmobiliarias" class="related-card">
               <span class="blog-badge badge-sectores">Por sector</span>
               <h4>Canal de denuncias para inmobiliarias y promotoras</h4>
+            </a>
+            <a href="/blog/canal-denuncias-despachos-abogados" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para despachos de abogados</h4>
+            </a>
+            <a href="/blog/canal-denuncias-sector-financiero" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias en el sector financiero</h4>
+            </a>
+            <a href="/blog/canal-denuncias-hosteleria-retail" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para hostelería y retail</h4>
+            </a>
+            <a href="/blog/canal-denuncias-industria-manufactura" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias en industria y manufactura</h4>
+            </a>
+            <a href="/blog/canal-denuncias-ongs" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para ONGs y fundaciones</h4>
+            </a>
+            <a href="/blog/canal-denuncias-quimica-petroquimica" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias en química y petroquímica</h4>
+            </a>
+            <a href="/blog/canal-denuncias-transporte-aereo-maritimo" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias en transporte aéreo y marítimo</h4>
+            </a>
+            <a href="/blog/canal-denuncias-promotores-inmobiliarios" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para promotores inmobiliarios</h4>
+            </a>
+            <a href="/blog/canal-denuncias-joyas-arte-antiguedades" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias en joyería, arte y antigüedades</h4>
             </a>
           </div>
         </div>

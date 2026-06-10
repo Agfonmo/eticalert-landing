@@ -332,6 +332,16 @@ include 'includes/header.php';
         <a href="/canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Guía completa canal de denuncias →</a>
         <a href="/registro" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--accent);text-decoration:none;font-weight:600;">Activar canal →</a>
       </div>
+      <h3 style="font-size:1rem;margin:1.75rem 0 1.25rem;color:var(--text-secondary);">¿Tu suite de RRHH ya incluye canal de denuncias? Compáralo</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
+        <a href="/blog/canal-denuncias-sesame-hr" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Sesame HR →</a>
+        <a href="/blog/canal-denuncias-factorial" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Factorial →</a>
+        <a href="/blog/canal-denuncias-personio" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Personio →</a>
+        <a href="/blog/canal-denuncias-track-people" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Track People →</a>
+        <a href="/blog/canal-denuncias-clockio" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Clockio →</a>
+        <a href="/blog/canal-denuncias-lapsowork" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">LapsoWork →</a>
+        <a href="/blog/mejor-software-canal-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Ranking completo 2026 →</a>
+      </div>
     </div>
   </section>
 

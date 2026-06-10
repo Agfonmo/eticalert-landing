@@ -1,15 +1,15 @@
 <?php
-$page_title             = 'Canal denuncias LapsoWork | EticAlert vs LapsoWork 2026';
-$page_description       = '¿LapsoWork cumple la Ley 2/2023 para canal de denuncias? Comparativa con EticAlert: 299,99€/año vs desde 81€/año. Cifrado, roles RSII y funcionalidades de compliance.';
+$page_title             = 'LapsoWork: Precio, Canal de Denuncias y Alternativas (2026)';
+$page_description       = 'LapsoWork cuesta 299,99€/año con canal de denuncias incluido en su suite RRHH. Qué cubre de la Ley 2/2023, sus límites y una alternativa desde 81€/año →';
 $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-lapsowork';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias LapsoWork vs EticAlert 2026';
 $page_article_published = '2026-04-21T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias en LapsoWork: EticAlert vs LapsoWork (2026)","description":"LapsoWork incluye canal de denuncias en su suite de RRHH por 299,99€/año. Comparativa con EticAlert: cifrado, roles RSII y cumplimiento real de la Ley 2/2023.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-lapsowork","datePublished":"2026-04-21","dateModified":"2026-04-21","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"lapsowork canal denuncias, lapsowork ley 2/2023, alternativa lapsowork canal denuncias, lapsowork vs eticalert"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias en LapsoWork: EticAlert vs LapsoWork (2026)","description":"LapsoWork incluye canal de denuncias en su suite de RRHH por 299,99€/año. Comparativa con EticAlert: cifrado, roles RSII y cumplimiento real de la Ley 2/2023.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-lapsowork","datePublished":"2026-04-21","dateModified":"2026-06-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"lapsowork canal denuncias, lapsowork ley 2/2023, alternativa lapsowork canal denuncias, lapsowork vs eticalert"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Canal de denuncias LapsoWork","item":"https://eticalert.com/blog/canal-denuncias-lapsowork"}]}

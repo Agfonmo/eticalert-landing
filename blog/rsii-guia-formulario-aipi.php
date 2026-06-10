@@ -4,7 +4,7 @@ $page_description = 'El RSII (Responsable del Sistema Interno de Información) g
 $page_canonical   = 'https://eticalert.com/blog/rsii-guia-formulario-aipi';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-10T00:00:00+01:00';
-$page_article_modified  = '2026-06-03T00:00:00+01:00';
+$page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 
@@ -165,6 +165,9 @@ include '../includes/header.php';
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa Ley 2/2023 →</a></li>
           <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI ya sanciona: cómo actuar →</a></li>
           <li><a href="/canal-de-denuncias" style="color:var(--accent);">Canal de denuncias: guía 2026 →</a></li>
+          <li><a href="/blog/modelo-politica-rsii" style="color:var(--accent);">Modelo de política del RSII listo para adaptar →</a></li>
+          <li><a href="/blog/checklist-auditoria-aipi" style="color:var(--accent);">Checklist para superar una auditoría de la AIPI →</a></li>
+          <li><a href="/blog/whistleblowing-espana" style="color:var(--accent);">Whistleblowing en España: estado de aplicación →</a></li>
         </ul>
 
       </div>
