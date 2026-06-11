@@ -50,10 +50,10 @@ include '../includes/header.php';
         <p>El artículo 2.1 de la Ley 10/2010 identifica como sujetos obligados en materia de prevención del blanqueo de capitales a:</p>
         <ul>
           <li><strong>Promotores inmobiliarios</strong> y agentes de la propiedad inmobiliaria (APIs).</li>
-          <li><strong>Personas físicas o jurídicas</strong> que ejerzan actividades de agencia, comisión o intermediación en la compraventa o alquiler de inmuebles con precio igual o superior a 10.000 euros anuales.</li>
+          <li><strong>Personas físicas o jurídicas</strong> que ejerzan actividades de agencia, comisión o intermediación en la compraventa o alquiler de inmuebles (sin umbral mínimo de precio o facturación).</li>
           <li><strong>Gestores de activos inmobiliarios</strong> en nombre de terceros o gestoras de fondos de inversión inmobiliaria.</li>
         </ul>
-        <p>Para estos sujetos, la obligación de contar con un canal de denuncias tiene un doble anclaje legal: la Ley 2/2023 si superan los 50 empleados, y la Ley 10/2010 que exige mecanismos de comunicación interna de operaciones sospechosas. El SEPBLAC ha confirmado que la coexistencia de ambos canales es válida y que pueden implementarse como un único sistema integrado.</p>
+        <p>Para estos sujetos, la obligación de canal de denuncias procede de la Ley 2/2023, que incluye expresamente en su ámbito a las entidades que operan bajo normativa europea de prevención del blanqueo de capitales <strong>independientemente de su número de empleados</strong>. No es necesario superar el umbral de 50 trabajadores: basta con ser sujeto obligado PBC. Adicionalmente, las empresas del sector con 50 o más empleados están obligadas también por el umbral general de la Ley 2/2023, aunque no sean sujetos PBC. El SEPBLAC ha confirmado que un único canal integrado puede dar cumplimiento simultáneo a ambas normativas.</p>
         <p>Las infracciones en materia de PBC son especialmente graves: la Ley 10/2010 establece sanciones de hasta el 10% del volumen de negocios anual para infracciones muy graves, y la responsabilidad penal de los administradores puede derivarse del artículo 301 del Código Penal (delito de blanqueo).</p>
 
         <h2 id="blanqueo">La intersección con la prevención del blanqueo de capitales</h2>
