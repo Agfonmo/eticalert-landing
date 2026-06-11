@@ -3,6 +3,12 @@
 // EticAlert — registro.php
 // ============================================================
 require_once __DIR__ . '/config.php';
+session_set_cookie_params([
+    'lifetime' => 0,
+    'secure'   => true,
+    'httponly' => true,
+    'samesite' => 'Strict',
+]);
 session_start();
 
 $errors  = [];
@@ -14,9 +20,10 @@ if (empty($_SESSION['csrf_token'])) {
 }
 $csrf_token = $_SESSION['csrf_token'];
 
-// Rate limiting básico: máx 5 intentos por sesión en 10 min
-if (!isset($_SESSION['reg_attempts'])) $_SESSION['reg_attempts'] = [];
-$_SESSION['reg_attempts'] = array_filter($_SESSION['reg_attempts'], fn($t) => $t > time() - 600);
+// Rate limiting por IP: máx 5 intentos en 10 min
+$ip_key = 'reg_attempts_' . hash('sha256', $_SERVER['REMOTE_ADDR'] ?? '');
+if (!isset($_SESSION[$ip_key])) $_SESSION[$ip_key] = [];
+$_SESSION[$ip_key] = array_filter($_SESSION[$ip_key], fn($t) => $t > time() - 600);
 
 $plan_map = ['1-20' => 'FREE', '21-49' => 'BUSINESS', '50-150' => 'COMPANY', '150+' => 'ENTERPRISE'];
 
@@ -41,7 +48,7 @@ if ($submitted) {
   }
 
   // Rate limiting
-  if (count($_SESSION['reg_attempts']) >= 5) {
+  if (count($_SESSION[$ip_key]) >= 5) {
     $errors['rate'] = 'Demasiados intentos. Espera unos minutos e inténtalo de nuevo.';
   }
 
@@ -89,7 +96,7 @@ if ($submitted) {
   if (!$accept_contract) $errors['acceptCompanyAdminContract'] = 'Debes aceptar el contrato de administrador para continuar.';
 
   if (empty($errors)) {
-    $_SESSION['reg_attempts'][] = time();
+    $_SESSION[$ip_key][] = time();
 
     $plan = $plan_map[$empleados];
 
@@ -126,7 +133,9 @@ if ($submitted) {
 
       // Log para diagnóstico
       $log_line = date('Y-m-d H:i:s') . " | status={$api_status} | curl_err={$curl_error} | response=" . substr($api_response, 0, 500) . "\n";
-      @file_put_contents(__DIR__ . '/data/api_log.txt', $log_line, FILE_APPEND | LOCK_EX);
+      if (is_dir(__DIR__ . '/data')) {
+        file_put_contents(__DIR__ . '/data/api_log.txt', $log_line, FILE_APPEND | LOCK_EX);
+      }
 
       if ($api_status >= 200 && $api_status < 300) {
         $api_ok = true;
@@ -138,7 +147,7 @@ if ($submitted) {
         $body      = $body ?? [];
         $api_code  = $body['code'] ?? $body['error'] ?? '';
         $login_url = APP_LOGIN_URL;
-        $mail_link = '<a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a>';
+        $mail_link = '<a href="mailto:' . ADMIN_EMAIL . '" style="color:var(--accent);">' . ADMIN_EMAIL . '</a>';
 
         if ($api_status === 409) {
           switch ($api_code) {
@@ -190,13 +199,16 @@ if ($submitted) {
 
     // ---- Fallback CSV (siempre, para auditoría) ----
     $csv_file = __DIR__ . '/data/registros.csv';
-    if (!is_dir(__DIR__ . '/data')) @mkdir(__DIR__ . '/data', 0700, true);
+    $data_dir = __DIR__ . '/data';
+    if (!is_dir($data_dir) && !mkdir($data_dir, 0700, true)) {
+      error_log('EticAlert: No se pudo crear directorio de datos: ' . $data_dir);
+    }
     $csv_line = implode(';', [
       date('Y-m-d H:i:s'), $nombre, $email, $empresa, $cif,
       $sector, $empleados, $billing, $api_ok ? 'api_ok' : 'api_fail',
       $_SERVER['REMOTE_ADDR'] ?? ''
     ]) . "\n";
-    @file_put_contents($csv_file, $csv_line, FILE_APPEND | LOCK_EX);
+    file_put_contents($csv_file, $csv_line, FILE_APPEND | LOCK_EX);
 
     // ---- Email admin (solo si API falla, para que no pierda el lead) ----
     if (!$api_ok && empty($errors['api']) === false) {
@@ -204,7 +216,7 @@ if ($submitted) {
         . "Nombre: {$nombre}\nEmail: {$email}\nEmpresa: {$empresa}\nCIF: {$cif}\n"
         . "Sector: {$sector}\nPlan: {$plan}\nBilling: {$billing}\n"
         . "Error API: {$api_error_msg}\nFecha: " . date('Y-m-d H:i:s') . "\n";
-      @mail('info@eticalert.com', "⚠️ Lead sin procesar: {$empresa}", $admin_body,
+      mail(ADMIN_EMAIL, "Lead sin procesar: {$empresa}", $admin_body,
         "From: no-reply@eticalert.com\r\nContent-Type: text/plain; charset=UTF-8\r\n");
     }
 
