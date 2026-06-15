@@ -215,9 +215,36 @@ include 'includes/header.php';
   </section>
 
   <!-- NOTA LEGAL -->
-  <section style="padding:0 0 64px;">
+  <section style="padding:0 0 16px;">
     <div class="container" style="max-width:700px;">
       <p style="font-size:0.8125rem;color:var(--text-muted);border-top:1px solid var(--border-subtle);padding-top:1.25rem;">Este comprobador es orientativo y no constituye asesoramiento jurídico. La determinación exacta de las obligaciones depende de la actividad concreta de cada organización. En caso de duda, consulta con un asesor legal especializado.</p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO ESTÁTICO INDEXABLE -->
+  <section style="padding:48px 0 80px;background:var(--bg-secondary);border-top:1px solid var(--border-subtle);">
+    <div class="container" style="max-width:760px;">
+      <h2 style="font-size:1.5rem;margin-bottom:1.5rem;">Cómo funciona la obligación del canal de denuncias en España</h2>
+
+      <p>La <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023, de 20 de febrero</a>, transpone la Directiva Europea 2019/1937 (Directiva Whistleblowing) al ordenamiento jurídico español. Establece tres criterios independientes de obligación: el tamaño de la plantilla, el sector de actividad y la naturaleza pública o el uso de fondos públicos. Cumplir cualquiera de los tres genera la obligación de disponer de un canal de denuncias operativo.</p>
+
+      <h3 style="font-size:1.125rem;margin:2rem 0 0.75rem;">Criterio 1: Tamaño — 50 o más trabajadores</h3>
+      <p>El umbral general es de <strong>50 trabajadores</strong> o más, calculado como media del año natural incluyendo trabajadores a tiempo parcial de forma proporcional, trabajadores fijos-discontinuos durante los períodos de actividad y empleados cedidos por ETT computados en la empresa usuaria. La obligación nace en el momento en que se supera el umbral, no al cierre del ejercicio fiscal. No hay período de gracia desde que se cruza el límite.</p>
+      <p>Las empresas de entre 50 y 249 trabajadores podían compartir canal con otras entidades del mismo grupo hasta el 1 de diciembre de 2023. A partir de esa fecha, cada empresa debe disponer de su propio canal individual o contratar uno gestionado por un proveedor externo.</p>
+
+      <h3 style="font-size:1.125rem;margin:2rem 0 0.75rem;">Criterio 2: Sector regulado — obligación sin umbral de empleados</h3>
+      <p>La Directiva Whistleblowing incluye en su ámbito a todas las entidades que operan en sectores cubiertos por el derecho de la Unión Europea sobre mercados financieros, servicios financieros, productos y mercados financieros, prevención del blanqueo de capitales y la financiación del terrorismo, seguridad del transporte, protección del medio ambiente, seguridad nuclear y protección radiológica, inocuidad de los alimentos y piensos, bienestar animal, salud pública, protección de los consumidores y protección de la intimidad y los datos personales.</p>
+      <p>En la práctica, esto afecta —entre otros— a todos los <strong>sujetos obligados por la Ley 10/2010</strong> de prevención del blanqueo (asesorías, notarías, gestorías, inmobiliarias, joyerías, auditores, entidades de crédito, aseguradoras, casinos) y a cualquier empresa bajo supervisión de la CNMV, el Banco de España o la DGSFP, sin importar el número de empleados. Un exchange de criptomonedas con 8 personas puede estar plenamente obligado si está registrado como PSAV en el Banco de España.</p>
+
+      <h3 style="font-size:1.125rem;margin:2rem 0 0.75rem;">Criterio 3: Sector público y entidades con financiación pública</h3>
+      <p>Todas las <strong>administraciones públicas</strong> —estatales, autonómicas y locales— están obligadas a disponer de canal de denuncias con independencia de su tamaño. Los municipios de más de 10.000 habitantes tienen obligación expresa desde la entrada en vigor de la ley. Los partidos políticos, sindicatos, organizaciones empresariales y fundaciones que reciban o gestionen fondos públicos también están obligados.</p>
+      <p>Los beneficiarios de fondos europeos (NGEU, FEDER, FSE+, Fondo de Cohesión) están sujetos a las condiciones antifraude de la Comisión Europea, que en la mayoría de los programas incluyen la existencia de canales de denuncia como medida preventiva exigible.</p>
+
+      <h3 style="font-size:1.125rem;margin:2rem 0 0.75rem;">Qué puede ocurrir si no se cumple</h3>
+      <p>La <strong>Autoridad Independiente de Protección del Informante (AIPI)</strong> es el organismo supervisor y sancionador estatal, plenamente operativa desde febrero de 2026. La no disposición de canal de denuncias cuando existe obligación legal está tipificada como infracción <em>muy grave</em>, con multa de hasta <strong>1.000.000 de euros</strong> para personas jurídicas y hasta 300.000 euros para personas físicas. Las infracciones graves —canal existente pero que incumple los requisitos de la ley— pueden sancionarse con hasta 600.000 euros. Además, la infracción muy grave conlleva la prohibición de contratar con el sector público durante un período de hasta tres años.</p>
+      <p>Si quieres calcular tu exposición exacta según el tipo de infracción y el tamaño de tu empresa, usa nuestra <a href="/calculadora-multas-aipi" style="color:var(--accent);">calculadora de multas AIPI →</a></p>
+
+      <p style="margin-top:2rem;font-size:0.875rem;color:var(--text-muted);">Más información: <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa de la Ley 2/2023</a> · <a href="/blog/obligados-menos-50-empleados" style="color:var(--accent);">¿Obligado con menos de 50 empleados?</a> · <a href="/calculadora-multas-aipi" style="color:var(--accent);">Calculadora de multas AIPI</a></p>
     </div>
   </section>
 
