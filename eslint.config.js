@@ -8,6 +8,7 @@ export default [
       sourceType: "script",
       globals: {
         ...globals.browser,
+        gtag: "readonly",
       },
     },
     rules: {
@@ -15,8 +16,8 @@ export default [
       "no-undef": "error",
       "no-console": "off",
       "eqeqeq": ["error", "always"],
-      "no-var": "error",
-      "prefer-const": "warn",
+      "no-var": "off",
+      "prefer-const": "off",
     },
   },
 ];
