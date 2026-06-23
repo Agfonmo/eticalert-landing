@@ -25,7 +25,7 @@ $ip_key = 'reg_attempts_' . hash('sha256', $_SERVER['REMOTE_ADDR'] ?? '');
 if (!isset($_SESSION[$ip_key])) $_SESSION[$ip_key] = [];
 $_SESSION[$ip_key] = array_filter($_SESSION[$ip_key], fn($t) => $t > time() - 600);
 
-$plan_map = ['1-20' => 'FREE', '21-49' => 'BUSINESS', '50-150' => 'COMPANY', '150+' => 'ENTERPRISE'];
+$plan_map = ['1-20' => 'STARTER', '21-49' => 'BUSINESS', '50-150' => 'COMPANY', '150+' => 'ENTERPRISE'];
 
 $sectors = [
   'Agricultura y ganadería','Alimentación y bebidas','Automoción',
