@@ -262,8 +262,7 @@ function field_value($field, $default = '') {
 
           <?php if ($submitted && isset($errors['api'])): ?>
           <div class="callout callout-error" role="alert" style="margin-bottom:1.5rem;">
-            <p><strong>Error al crear la cuenta:</strong> <?= htmlspecialchars($errors['api']) ?></p>
-            <p style="margin-top:0.5rem;font-size:0.875rem;">Si el problema persiste, escríbenos a <a href="mailto:info@eticalert.com" style="color:var(--accent);">info@eticalert.com</a></p>
+            <p><strong>Error al crear la cuenta:</strong> <?= $errors['api'] ?></p>
           </div>
           <?php elseif ($submitted && !empty($errors)): ?>
           <div class="callout" role="alert" style="margin-bottom:1.5rem;">
