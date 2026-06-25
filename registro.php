@@ -410,7 +410,7 @@ function field_value($field, $default = '') {
               <label class="form-checkbox <?= isset($errors['acceptCompanyAdminContract']) ? 'error-label' : '' ?>" style="margin-top:0.75rem;">
                 <input type="checkbox" id="cb-contract" name="acceptCompanyAdminContract" value="1"
                        <?= (isset($_POST['acceptCompanyAdminContract'])) ? 'checked' : '' ?>>
-                <span>Acepto el <a href="/legal#contrato-administrador" target="_blank" class="doc-link" data-unlocks="cb-contract" data-key="contrato">contrato de administrador</a> como responsable del canal de denuncias de mi empresa.</span>
+                <span>Acepto las <a href="/condiciones" target="_blank" class="doc-link" data-unlocks="cb-contract" data-key="contrato">Condiciones del Servicio</a> y el <a href="/dpa" target="_blank" class="doc-link" data-key="dpa">Acuerdo de Encargo de Tratamiento</a> como responsable del canal de denuncias de mi empresa.</span>
               </label>
               <?php field_error('acceptCompanyAdminContract', $errors); ?>
 

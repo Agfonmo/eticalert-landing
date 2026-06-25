@@ -47,7 +47,9 @@
         <h3>Legal y contacto</h3>
         <ul>
           <li><a href="/legal">Aviso legal</a></li>
+          <li><a href="/condiciones">Condiciones del Servicio</a></li>
           <li><a href="/privacidad">Política de privacidad</a></li>
+          <li><a href="/dpa">Encargo de Tratamiento (DPA)</a></li>
           <li><a href="/cookies">Política de cookies</a></li>
           <li><a href="mailto:info@eticalert.com">info@eticalert.com</a></li>
         </ul>
