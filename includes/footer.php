@@ -27,7 +27,6 @@
           <li><a href="/como-funciona">Cómo funciona</a></li>
           <li><a href="/precios">Precios</a></li>
           <li><a href="/software-canal-de-denuncias">Software canal de denuncias</a></li>
-          <li><a href="/sectores">Por sector</a></li>
         </ul>
       </div>
 
@@ -49,7 +48,6 @@
         <ul>
           <li><a href="/partners">Programa Partner</a></li>
           <li><a href="/opiniones">Opiniones</a></li>
-          <li><a href="/canal-denuncias-comunidades">Por Comunidad Autónoma</a></li>
         </ul>
       </div>
 
