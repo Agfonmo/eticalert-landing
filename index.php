@@ -317,7 +317,7 @@ include 'includes/header.php';
     <div class="container">
       <div class="section-header fade-up">
         <h2 id="features-heading">Todo lo que necesitas para cumplir</h2>
-        <p style="margin-top:0.5rem;"><a href="/funcionalidades" style="color:var(--accent);font-weight:600;text-decoration:none;">Ver las 48 funcionalidades completas →</a></p>
+        <p style="margin-top:0.5rem;"><a href="/funcionalidades" style="color:var(--accent);font-weight:600;text-decoration:none;">Ver todas las funcionalidades →</a></p>
       </div>
       <div class="features-grid">
 
