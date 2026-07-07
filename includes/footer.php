@@ -27,8 +27,6 @@
           <li><a href="/precios">Precios</a></li>
           <li><a href="/software-canal-de-denuncias">Software canal de denuncias</a></li>
           <li><a href="/sectores">Por sector</a></li>
-          <li><a href="/registro">Registro</a></li>
-          <li><a href="https://app.eticalert.com" target="_blank" rel="noopener">Acceder</a></li>
         </ul>
       </div>
 
