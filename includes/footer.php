@@ -17,6 +17,7 @@
           <span class="nav-logo-text">Etic<span>Alert</span></span>
         </a>
         <p>Canal de denuncias conforme a la Ley 2/2023 para pymes españolas.</p>
+        <p><a href="mailto:info@eticalert.com">info@eticalert.com</a></p>
       </div>
 
       <!-- Producto -->
@@ -61,7 +62,6 @@
           <li><a href="/privacidad">Política de privacidad</a></li>
           <li><a href="/dpa">Encargo de Tratamiento (DPA)</a></li>
           <li><a href="/cookies">Política de cookies</a></li>
-          <li><a href="mailto:info@eticalert.com">info@eticalert.com</a></li>
         </ul>
       </div>
 
