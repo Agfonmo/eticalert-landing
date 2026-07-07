@@ -166,22 +166,53 @@ if (!isset($page_content_group)) {
     })();
   </script>
 
-  <!-- Schema: Organization (global) -->
+  <!-- Schema global: Organization + WebSite + SoftwareApplication (con precios, para que cualquier IA que aterrice en cualquier página pueda citarlos) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "EticAlert",
-    "url": "https://eticalert.com",
-    "logo": "https://eticalert.com/favicon.svg",
-    "areaServed": {"@type": "Country", "name": "ES"},
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "info@eticalert.com",
-      "contactType": "customer service",
-      "availableLanguage": "Spanish"
-    },
-    "sameAs": []
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://eticalert.com/#organization",
+        "name": "EticAlert",
+        "url": "https://eticalert.com",
+        "logo": {"@type": "ImageObject", "url": "https://eticalert.com/favicon.svg"},
+        "description": "Software de canal de denuncias (Sistema Interno de Información) conforme a la Ley 2/2023.",
+        "areaServed": {"@type": "Country", "name": "ES"},
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "info@eticalert.com",
+          "contactType": "customer service",
+          "availableLanguage": "Spanish"
+        },
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://eticalert.com/#website",
+        "url": "https://eticalert.com",
+        "name": "EticAlert",
+        "publisher": {"@id": "https://eticalert.com/#organization"},
+        "inLanguage": "es-ES"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://eticalert.com/#software",
+        "name": "EticAlert",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://eticalert.com",
+        "areaServed": {"@type": "Country", "name": "ES"},
+        "availableLanguage": "Spanish",
+        "description": "Canal de denuncias conforme a la Ley 2/2023: anonimato real, cifrado de extremo a extremo, RSII independiente, acuse en 7 días, resolución en 3 meses, libro-registro append-only y trazabilidad verificable con hash SHA-256.",
+        "offers": [
+          {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados, 3 usuarios. 9€/mes o 81€/año."},
+          {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados, 4 usuarios. Facturación anual: 190€/año."},
+          {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados, 5 usuarios. Facturación anual: 390€/año."},
+          {"@type":"Offer","name":"Enterprise","price":"0","priceCurrency":"EUR","description":"Más de 150 empleados, usuarios ilimitados. Precio personalizado."}
+        ]<?= schema_aggregate_rating() ?>
+      }
+    ]
   }
   </script>
 </head>

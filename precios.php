@@ -15,24 +15,7 @@ include 'includes/header.php';
   ]
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "EticAlert",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web",
-  "url": "https://eticalert.com",
-  "areaServed": {"@type": "Country", "name": "ES"},
-  "availableLanguage": "Spanish",
-  "offers": [
-    {"@type":"Offer","name":"Starter","price":"9","priceCurrency":"EUR","description":"Hasta 20 empleados, 3 usuarios. 9€/mes o 81€/año."},
-    {"@type":"Offer","name":"Business","price":"19","priceCurrency":"EUR","description":"De 21 a 49 empleados, 4 usuarios. Facturación anual: 190€/año."},
-    {"@type":"Offer","name":"Company","price":"39","priceCurrency":"EUR","description":"De 50 a 150 empleados, 5 usuarios. Facturación anual: 390€/año."},
-    {"@type":"Offer","name":"Enterprise","price":"0","priceCurrency":"EUR","description":"Más de 150 empleados, usuarios ilimitados. Precio personalizado."}
-  ]<?= schema_aggregate_rating() ?>
-}
-</script>
+<!-- El schema SoftwareApplication con precios ya se emite globalmente desde includes/header.php -->
 
 <main id="main-content">
 

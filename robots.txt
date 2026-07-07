@@ -1,7 +1,21 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+Disallow: /includes/
 
-# No indexar datos privados ni backups
+# --- Crawlers de IA (respuestas y búsqueda) ---
+# Grupo propio para que cada bot use estas reglas explícitas en vez de
+# heredar del wildcard (un user-agent nombrado no hereda del "*").
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
 Disallow: /data/
 Disallow: /includes/
 
