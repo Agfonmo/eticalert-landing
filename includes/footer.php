@@ -27,6 +27,7 @@
           <li><a href="/como-funciona">Cómo funciona</a></li>
           <li><a href="/precios">Precios</a></li>
           <li><a href="/software-canal-de-denuncias">Software canal de denuncias</a></li>
+          <li><a href="/partners">Programa Partner</a></li>
         </ul>
       </div>
 
@@ -36,30 +37,22 @@
         <ul>
           <li><a href="/blog/">Blog</a></li>
           <li><a href="/faq">FAQ</a></li>
+          <li><a href="/opiniones">Opiniones</a></li>
           <li><a href="/canal-de-denuncias">Guía Canal de denuncias</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias">Guía Ley 2/2023</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi">Guía RSII</a></li>
         </ul>
       </div>
 
-      <!-- Partners y empresa -->
+      <!-- Legal -->
       <div class="footer-col">
-        <h3>Empresa</h3>
-        <ul>
-          <li><a href="/partners">Programa Partner</a></li>
-          <li><a href="/opiniones">Opiniones</a></li>
-        </ul>
-      </div>
-
-      <!-- Legal & Contacto -->
-      <div class="footer-col">
-        <h3>Legal y contacto</h3>
+        <h3>Legal</h3>
         <ul>
           <li><a href="/legal">Aviso legal</a></li>
           <li><a href="/condiciones">Condiciones del Servicio</a></li>
           <li><a href="/privacidad">Política de privacidad</a></li>
-          <li><a href="/dpa">Encargo de Tratamiento (DPA)</a></li>
           <li><a href="/cookies">Política de cookies</a></li>
+          <li><a href="/dpa">Encargo de Tratamiento (DPA)</a></li>
         </ul>
       </div>
 
