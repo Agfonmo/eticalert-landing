@@ -1,0 +1,71 @@
+name: Ping IndexNow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  indexnow:
+    name: Notify IndexNow of changed pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine changed pages and ping IndexNow
+        run: |
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.event.after }}"
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+            BEFORE=$(git rev-parse "$AFTER~1" 2>/dev/null || echo "$AFTER")
+          fi
+
+          git diff --name-only --diff-filter=ACMR "$BEFORE" "$AFTER" -- '*.php' \
+            | grep -v -E '^(config\.php|404\.php|registro-confirmacion\.php|img/og-image\.php)$' \
+            | grep -v '^includes/' \
+            > /tmp/changed_files.txt || true
+
+          if [ ! -s /tmp/changed_files.txt ]; then
+            echo "No relevant .php pages changed — skipping IndexNow ping."
+            exit 0
+          fi
+
+          echo "Changed pages:"
+          cat /tmp/changed_files.txt
+
+          python3 - <<'PYEOF'
+          import json
+
+          KEY = "2c4dfebc6f7e413485b724acd50fe357"
+
+          urls = []
+          with open("/tmp/changed_files.txt") as f:
+              for line in f:
+                  slug = line.strip()
+                  if not slug or not slug.endswith(".php"):
+                      continue
+                  slug = slug[:-4]
+                  if slug.endswith("/index"):
+                      slug = slug[:-5]
+                  if slug == "index":
+                      slug = ""
+                  urls.append(f"https://eticalert.com/{slug}")
+
+          payload = {
+              "host": "eticalert.com",
+              "key": KEY,
+              "keyLocation": f"https://eticalert.com/{KEY}.txt",
+              "urlList": urls,
+          }
+
+          with open("/tmp/indexnow_payload.json", "w") as f:
+              json.dump(payload, f)
+
+          print(f"Submitting {len(urls)} URL(s) to IndexNow")
+          PYEOF
+
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d @/tmp/indexnow_payload.json \
+            -w "\nIndexNow HTTP status: %{http_code}\n"
