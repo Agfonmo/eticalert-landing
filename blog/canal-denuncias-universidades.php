@@ -187,7 +187,7 @@ include '../includes/header.php';
 
         <ol>
           <li><strong>Designa al RSII o a la Comisión de Ética.</strong> Documenta la designación formalmente: cargo, nombre y función dentro del sistema de canal de denuncias.</li>
-          <li><strong>Activa EticAlert.</strong> Regístrate en <a href="/registro" style="color:var(--accent);">/registro</a> con el email institucional. La configuración del canal tarda menos de 30 minutos: nombre de la institución, categorías de denuncia, texto de bienvenida y datos del RSII.</li>
+          <li><strong>Activa EticAlert.</strong> <a href="/registro" style="color:var(--accent);">Regístrate</a> con el email institucional. La configuración del canal tarda menos de 30 minutos: nombre de la institución, categorías de denuncia, texto de bienvenida y datos del RSII.</li>
           <li><strong>Publica la URL en la web institucional.</strong> La Ley 2/2023 exige que el canal sea fácilmente accesible. Inclúyelo en la sección de transparencia, en el portal de empleados y en el manual de bienvenida.</li>
           <li><strong>Comunícalo a todo el personal.</strong> Envía una comunicación a todo el personal docente, investigador y de administración explicando la existencia del canal, cómo usarlo y las protecciones que garantiza la ley al informante.</li>
           <li><strong>Aprueba la Política de Sistema Interno de Información.</strong> Documenta el <a href="/blog/politica-sistema-interno-informacion" style="color:var(--accent);">procedimiento interno</a> de tramitación de denuncias y apruébalo por el órgano de gobierno competente (Consejo de Gobierno o equivalente).</li>

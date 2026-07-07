@@ -132,7 +132,7 @@ include 'includes/header.php';
         </details>
         <details style="border:1px solid var(--border);border-radius:8px;padding:1rem;margin:0.75rem 0;">
           <summary style="font-weight:600;cursor:pointer;">¿Cómo sé en qué categoría encaja mi empresa?</summary>
-          <p style="margin:0.75rem 0 0;color:var(--text-secondary);">Si tu empresa combina varias actividades, puede estar obligada por más de una vía a la vez. Usa el comprobador de 60 segundos en <a href="/cumples" style="color:var(--accent);">/cumples</a> para confirmar tu caso concreto.</p>
+          <p style="margin:0.75rem 0 0;color:var(--text-secondary);">Si tu empresa combina varias actividades, puede estar obligada por más de una vía a la vez. Usa <a href="/cumples" style="color:var(--accent);">el comprobador de 60 segundos</a> para confirmar tu caso concreto.</p>
         </details>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:16px;padding:2rem;margin:3rem 0 0;text-align:center;">

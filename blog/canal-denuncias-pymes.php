@@ -243,7 +243,7 @@ include '../includes/header.php';
         <h2 id="como-activar">Cómo activar el canal para tu pyme en 5 minutos</h2>
 
         <ol>
-          <li><strong>Regístrate.</strong> Accede a <a href="/registro" style="color:var(--accent);">/registro</a> con el email de empresa y el nombre de tu organización. Prueba gratuita de 15 días sin tarjeta de crédito.</li>
+          <li><strong>Regístrate.</strong> Accede al <a href="/registro" style="color:var(--accent);">formulario de registro</a> con el email de empresa y el nombre de tu organización. Prueba gratuita de 15 días sin tarjeta de crédito.</li>
           <li><strong>Configura el canal.</strong> La plataforma te guía paso a paso: nombre del canal, categorías de denuncia, texto de bienvenida y datos del RSII. No se requieren conocimientos técnicos.</li>
           <li><strong>Publica la URL.</strong> Recibes el enlace público del canal. Publícalo en la intranet, en el contrato de trabajo o en el manual del empleado.</li>
           <li><strong>Gestiona las denuncias.</strong> Cuando llegue una denuncia, recibirás una notificación. Desde el panel gestionas el estado, los plazos y el libro-registro automáticamente.</li>

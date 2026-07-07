@@ -214,7 +214,7 @@ include '../includes/header.php';
         <h2 id="como-activar">Cómo activar el canal en 5 minutos</h2>
 
         <ol>
-          <li><strong>Crea tu cuenta.</strong> Accede a <a href="/registro" style="color:var(--accent);">/registro</a> e introduce el nombre de tu empresa y tu email. No se solicita tarjeta de crédito para la prueba de 15 días.</li>
+          <li><strong>Crea tu cuenta.</strong> Accede al <a href="/registro" style="color:var(--accent);">formulario de registro</a> e introduce el nombre de tu empresa y tu email. No se solicita tarjeta de crédito para la prueba de 15 días.</li>
           <li><strong>Configura el formulario.</strong> La plataforma te guía paso a paso: nombre del canal, categorías de denuncia, texto de bienvenida y datos del RSII.</li>
           <li><strong>Publica el enlace.</strong> Recibes la URL de tu canal. Publícala en la intranet, en el contrato de trabajo o en el manual del empleado.</li>
           <li><strong>Gestiona desde el panel.</strong> Cuando llegue una denuncia recibirás una notificación. Desde el panel gestionas el estado, respondes al denunciante y mantienes el libro-registro al día.</li>
