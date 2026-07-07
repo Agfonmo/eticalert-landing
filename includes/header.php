@@ -185,7 +185,9 @@ if (!isset($page_content_group)) {
           "contactType": "customer service",
           "availableLanguage": "Spanish"
         },
-        "sameAs": []
+        "sameAs": [
+          "https://www.linkedin.com/company/eticalert"
+        ]
       },
       {
         "@type": "WebSite",
