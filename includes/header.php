@@ -57,6 +57,7 @@ if (!isset($page_content_group)) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= htmlspecialchars($page_title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
+  <meta name="msvalidate.01" content="A1E6610871F9EA1F407ABFD506E502D5" />
   <!-- Consent Mode v2 — debe ir ANTES del script de GA4 -->
   <script>
     window.dataLayer = window.dataLayer || [];
