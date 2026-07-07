@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Radar AIPI 2026 — Seguimiento de la Autoridad Independiente de Protección del Informante';
-$page_description = 'Todas las novedades de la AIPI: publicaciones oficiales, circulares, expedientes sancionadores, hitos regulatorios y fechas clave. El tracker más completo en español. Actualizado regularmente.';
+$page_title       = 'Radar AIPI 2026 | Seguimiento de sanciones · EticAlert';
+$page_description = 'Seguimiento actualizado de la actividad sancionadora de la Autoridad Independiente de Protección del Informante (AIPI) desde 2026.';
 $page_canonical   = 'https://eticalert.com/radar-aipi';
 include 'includes/header.php';
 ?>

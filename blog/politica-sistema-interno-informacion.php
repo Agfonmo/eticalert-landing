@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Política Sistema Interno de Información | Guía + contenido mínimo obligatorio';
-$page_description = 'La política del Sistema Interno de Información es obligatoria. Te explicamos qué debe incluir, quién la aprueba y cómo redactarla correctamente.';
+$page_title       = 'Política del Sistema Interno de Información | EticAlert';
+$page_description = 'Qué debe incluir la Política del SII, quién la aprueba y cómo difundirla en la empresa. El documento previo obligatorio al canal.';
 $page_canonical   = 'https://eticalert.com/blog/politica-sistema-interno-informacion';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-25T00:00:00+01:00';

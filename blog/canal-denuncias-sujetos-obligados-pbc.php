@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para sujetos obligados PBC: asesorías, notarías, inmobiliarias | EticAlert';
-$page_description = 'Sujetos obligados por la Ley 10/2010 (PBC): asesorías, auditores, notarías, inmobiliarias y más están obligados a canal de denuncias aunque tengan menos de 50 empleados.';
+$page_title       = 'Canal de denuncias para sujetos obligados PBC | EticAlert';
+$page_description = 'Asesorías, notarías e inmobiliarias son sujetos obligados por la Ley 10/2010 PBC y deben tener canal de denuncias sin importar su plantilla.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-sujetos-obligados-pbc';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

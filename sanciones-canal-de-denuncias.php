@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Sanciones por no tener canal de denuncias | Hasta 1.000.000 € | EticAlert';
-$page_description = '¿Tienes 50+ empleados y no tienes canal de denuncias? Multas de hasta 1.000.000 € y exclusión de licitaciones. Comprueba tu riesgo y actúa hoy.';
+$page_title       = 'Sanciones por no tener canal de denuncias | EticAlert';
+$page_description = 'Multas de hasta 1.000.000€ por no cumplir la Ley 2/2023. Desglose completo de infracciones leves, graves y muy graves.';
 $page_canonical   = 'https://eticalert.com/sanciones-canal-de-denuncias';
 include 'includes/header.php';
 ?>
@@ -235,7 +235,7 @@ include 'includes/header.php';
       <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
         <a href="/canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Canal de denuncias: guía completa →</a>
         <a href="/canal-de-denuncias-obligatorio" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">¿Está tu empresa obligada? →</a>
-        <a href="/precio-canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Precio canal de denuncias →</a>
+        <a href="/blog/canal-denuncias-precio-comparativa" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Precio canal de denuncias →</a>
         <a href="/precios" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Planes y precios EticAlert →</a>
         <a href="/blog/aipi-sanciones-canal-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">La AIPI ya sanciona →</a>
         <a href="/registro" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--accent);text-decoration:none;font-weight:600;">Activar canal →</a>

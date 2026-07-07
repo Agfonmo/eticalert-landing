@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Modelo de Política del Sistema Interno de Información (RSII) — Plantilla 2026';
-$page_description = 'Plantilla gratuita de la política del sistema interno de información exigida por la Ley 2/2023. Modelo completo con todas las cláusulas obligatorias para designar al RSII y activar el canal.';
+$page_title       = 'Modelo de Política del Sistema Interno de Información | EticAlert';
+$page_description = 'Plantilla gratuita 2026 de la Política del SII con todas las cláusulas que exige la AIPI en cada inspección, lista para adaptar.';
 $page_canonical   = 'https://eticalert.com/blog/modelo-politica-rsii';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-03T00:00:00+01:00';

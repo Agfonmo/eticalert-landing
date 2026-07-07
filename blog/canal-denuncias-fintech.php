@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para fintech: obligación por normativa UE | EticAlert';
-$page_description = 'Las fintech con licencia PSD2, MiCA, PSAV o plataforma de financiación están obligadas a canal de denuncias aunque tengan 10 empleados. Guía para startups reguladas.';
+$page_title       = 'Canal de denuncias para fintech | EticAlert';
+$page_description = 'Fintech con licencia PSD2 y startups bajo MiCA tienen obligación de canal de denuncias sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-fintech';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

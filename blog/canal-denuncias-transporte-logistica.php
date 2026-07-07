@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas de transporte y logística en España | EticAlert';
-$page_description = 'Transportistas y operadores logísticos en España con 50+ empleados están obligados por la Ley 2/2023. Tacógrafos, ADR, subcontratación: guía sectorial 2026.';
+$page_title       = 'Canal de denuncias para transporte y logística | EticAlert';
+$page_description = 'Tacógrafos, mercancías peligrosas y subcontratación irregular. Cómo implantar el canal en un sector de alta movilidad.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-transporte-logistica';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para joyerías, galerías de arte y comercio de bienes de alto valor | EticAlert';
-$page_description = 'Joyerías, galerías de arte, anticuarios y comerciantes de bienes de alto valor son sujetos obligados PBC y deben tener canal de denuncias aunque tengan menos de 50 empleados.';
+$page_title       = 'Canal de denuncias para joyerías y anticuarios | EticAlert';
+$page_description = 'Joyerías, anticuarios y galerías de arte son sujetos obligados PBC desde el primer euro. Cómo cumplir la Ley 2/2023 sin importar tu plantilla.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-joyas-arte-antiguedades';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para entidades subvencionadas y con fondos públicos | EticAlert';
-$page_description = 'Partidos, sindicatos, fundaciones y entidades que gestionan subvenciones o fondos públicos están obligadas a canal de denuncias por la Ley 2/2023. Guía completa.';
+$page_title       = 'Canal de denuncias para entidades subvencionadas | EticAlert';
+$page_description = 'Partidos, sindicatos y fundaciones que reciben financiación pública están obligados por la Ley 2/2023 sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-subvenciones';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

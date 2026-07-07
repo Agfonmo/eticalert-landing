@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Checklist AIPI 2026: 42 Puntos que Verifica en una Inspección de Canal de Denuncias';
-$page_description = '¿Qué comprueba exactamente la AIPI en una inspección? Lista de los 42 puntos de verificación del canal de denuncias según la Ley 2/2023. Prepara tu empresa antes de una inspección.';
+$page_title       = 'Checklist AIPI 2026: 42 Puntos de Inspección | EticAlert';
+$page_description = 'Los 42 puntos que verifica la AIPI en una inspección de canal de denuncias: existencia, política RSII, plazos y libro-registro.';
 $page_canonical   = 'https://eticalert.com/blog/checklist-auditoria-aipi';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-03T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Programa de Partners EticAlert — Ofrece Canal de Denuncias a tus Clientes';
-$page_description = 'Programa de partners para asesorías, despachos y consultoras. Comisión recurrente del 20%, materiales de venta listos y opción white-label. Tus clientes te lo van a pedir — ofrécelo tú antes.';
+$page_title       = 'Programa de Partners | EticAlert';
+$page_description = 'Ofrece canal de denuncias a tus clientes como asesoría o despacho. Comisión recurrente del 20% y materiales de venta listos.';
 $page_canonical   = 'https://eticalert.com/revendedores';
 include 'includes/header.php';
 ?>

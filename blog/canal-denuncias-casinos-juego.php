@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para casinos y operadores de juego: obligación PBC | EticAlert';
-$page_description = 'Casinos, salones de juego y operadores de juego online son sujetos obligados PBC y deben tener canal de denuncias por la Ley 2/2023 independientemente de su tamaño.';
+$page_title       = 'Canal de denuncias para casinos y operadores de juego | EticAlert';
+$page_description = 'Casinos y operadores con licencia DGOJ son sujetos obligados PBC (Ley 10/2010). Canal exigido sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-casinos-juego';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

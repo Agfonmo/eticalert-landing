@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Blog EticAlert | Canal de denuncias, Ley 2/2023 y compliance para pymes';
+$page_title       = 'Blog EticAlert | Canal de denuncias y Ley 2/2023';
 $page_description = 'Guías prácticas sobre canal de denuncias, Ley 2/2023, AIPI, RSII y compliance para empresas españolas. Actualizado en 2026.';
 $page_canonical   = 'https://eticalert.com/blog/';
 include '../includes/header.php';
@@ -70,7 +70,10 @@ include '../includes/header.php';
       {"@type":"ListItem","position":42,"url":"https://eticalert.com/blog/modelo-politica-rsii","name":"Modelo de política del sistema interno de información (RSII): plantilla gratuita 2026"},
       {"@type":"ListItem","position":43,"url":"https://eticalert.com/blog/checklist-auditoria-aipi","name":"Checklist AIPI 2026: los 42 puntos que verifica en una inspección de canal de denuncias"},
       {"@type":"ListItem","position":44,"url":"https://eticalert.com/blog/canal-denuncias-grupos-empresariales","name":"Canal de denuncias en grupos empresariales: ¿canal compartido o uno por filial?"},
-      {"@type":"ListItem","position":45,"url":"https://eticalert.com/blog/protocolo-canal-denuncias","name":"Protocolo del canal de denuncias (Ley 2/2023): qué debe contener y modelo por secciones"}
+      {"@type":"ListItem","position":45,"url":"https://eticalert.com/blog/protocolo-canal-denuncias","name":"Protocolo del canal de denuncias (Ley 2/2023): qué debe contener y modelo por secciones"},
+      {"@type":"ListItem","position":46,"url":"https://eticalert.com/blog/canal-denuncias-anonimo","name":"Canal de denuncias anónimo: ¿es realmente anónimo? Qué ve el gestor y qué no"},
+      {"@type":"ListItem","position":47,"url":"https://eticalert.com/blog/canal-denuncias-pymes","name":"Canal de denuncias para pymes: quién está obligado y cómo activarlo"},
+      {"@type":"ListItem","position":48,"url":"https://eticalert.com/blog/canal-denuncias-universidades","name":"Canal de denuncias para universidades y centros educativos"}
     ]
   }
 }
@@ -633,6 +636,28 @@ include '../includes/header.php';
           <h3>Compliance penal y canal ético: por qué tu empresa necesita ambos</h3>
           <p>El canal de denuncias es uno de los 6 pilares del modelo de prevención de delitos del art. 31 bis del Código Penal.</p>
           <span class="blog-card-meta">12 ene 2026 · 7 min lectura</span>
+        </a>
+
+        <!-- NUEVOS POSTS JUNIO 2026 -->
+        <a href="/blog/canal-denuncias-anonimo" class="blog-card fade-up" data-category="guias">
+          <span class="blog-badge badge-guias">Guías prácticas</span>
+          <h3>Canal de denuncias anónimo: ¿es realmente anónimo?</h3>
+          <p>Qué ve el gestor del canal, qué no ve nunca y qué garantías técnicas exige la Ley 2/2023 para que el anonimato sea real y no solo declarado.</p>
+          <span class="blog-card-meta">2 jun 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-pymes" class="blog-card fade-up" data-category="guias">
+          <span class="blog-badge badge-guias">Guías prácticas</span>
+          <h3>Canal de denuncias para pymes: quién está obligado y cómo activarlo</h3>
+          <p>Guía 2026 para pymes: quién está obligado, qué debe incluir un sistema válido y cómo activarlo en 5 minutos desde 9€/mes.</p>
+          <span class="blog-card-meta">2 jun 2026 · 7 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-universidades" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para universidades y centros educativos</h3>
+          <p>Las universidades con 50 o más empleados están obligadas por la Ley 2/2023. Requisitos, plazos y cómo activarlo desde 39€/mes.</p>
+          <span class="blog-card-meta">2 jun 2026 · 7 min lectura</span>
         </a>
 
       </div><!-- /blog-grid -->

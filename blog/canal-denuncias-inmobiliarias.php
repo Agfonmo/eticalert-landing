@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para inmobiliarias y promotoras en España | EticAlert';
-$page_description = 'Promotoras inmobiliarias y agencias en España con 50+ empleados: doble obligación Ley 2/2023 + Ley 10/2010 PBC. Blanqueo, fraude y corrupción urbanística. Guía 2026.';
+$page_title       = 'Canal de denuncias para inmobiliarias | EticAlert';
+$page_description = 'Blanqueo de capitales, PBC (Ley 10/2010) y comisiones no declaradas. El sector inmobiliario tiene doble obligación legal.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-inmobiliarias';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

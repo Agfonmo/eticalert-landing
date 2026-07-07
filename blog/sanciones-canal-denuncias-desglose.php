@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Sanciones canal de denuncias | Multas hasta 1.000.000€ | Desglose 2026';
-$page_description = 'Multas de hasta 1.000.000€ para empresas sin canal de denuncias. Desglose completo de infracciones leves, graves y muy graves según la Ley 2/2023.';
+$page_title       = 'Sanciones canal de denuncias: desglose 2026 | EticAlert';
+$page_description = 'Multas de hasta 1.000.000€ desglosadas por tipo de infracción según la Ley 2/2023 y responsabilidad de los directivos.';
 $page_canonical   = 'https://eticalert.com/blog/sanciones-canal-denuncias-desglose';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-05T00:00:00+01:00';

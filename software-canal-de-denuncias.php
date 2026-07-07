@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Software Canal de Denuncias para Pymes 2026 | Comparativa | EticAlert';
-$page_description = '¿Qué software de canal de denuncias elegir? Criterios clave, tabla comparativa y veredicto para pymes españolas. Cumple la Ley 2/2023 desde 9€/mes.';
+$page_title       = 'Software Canal de Denuncias para Pymes | EticAlert';
+$page_description = 'Comparativa 2026 de software de canal de denuncias para pymes. Precio fijo, cifrado AES-256 y cumplimiento nativo de la ley.';
 $page_canonical   = 'https://eticalert.com/software-canal-de-denuncias';
 include 'includes/header.php';
 ?>
@@ -314,7 +314,7 @@ include 'includes/header.php';
       <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Starter desde 9€/mes hasta 20 empleados. Desde 19 €/mes para empresas obligadas. Cumple la Ley 2/2023 en minutos, sin consultor.</p>
       <div style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;">
         <a href="/registro" class="btn btn-primary btn-lg">Activar mi canal →</a>
-        <a href="/precio-canal-de-denuncias" class="btn btn-secondary btn-lg">Ver precios</a>
+        <a href="/precios" class="btn btn-secondary btn-lg">Ver precios</a>
       </div>
       <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">Sin permanencia · Datos en la UE · Soporte en español</p>
     </div>
@@ -327,7 +327,7 @@ include 'includes/header.php';
       <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
         <a href="/canal-de-denuncias-obligatorio" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">¿Está obligada mi empresa? →</a>
         <a href="/sanciones-canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Sanciones por no cumplir →</a>
-        <a href="/precio-canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Precio canal de denuncias →</a>
+        <a href="/blog/canal-denuncias-precio-comparativa" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Precio canal de denuncias →</a>
         <a href="/precios" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Planes EticAlert →</a>
         <a href="/canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Guía completa canal de denuncias →</a>
         <a href="/registro" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--accent);text-decoration:none;font-weight:600;">Activar canal →</a>

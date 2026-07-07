@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para transporte aéreo y marítimo: obligación UE | EticAlert';
-$page_description = 'Aerolíneas, navieras y operadores de transporte aéreo y marítimo están obligados a canal de denuncias por normativa de seguridad del transporte UE independientemente de su tamaño.';
+$page_title       = 'Canal de denuncias para transporte aéreo y marítimo | EticAlert';
+$page_description = 'Aerolíneas, navieras y ferroviarias están obligadas por normativa UE de seguridad del transporte, sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

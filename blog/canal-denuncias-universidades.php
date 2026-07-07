@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para universidades y centros educativos | EticAlert';
-$page_description = 'Las universidades con 50 o más empleados están obligadas por la Ley 2/2023 a tener canal de denuncias. Guía sobre requisitos, plazos y cómo activarlo desde 39€/mes.';
+$page_title       = 'Canal de denuncias para universidades | EticAlert';
+$page_description = 'Las universidades con 50+ empleados están obligadas por la Ley 2/2023. Requisitos, plazos y cómo activarlo desde 39€/mes.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-universidades';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-02T00:00:00+01:00';

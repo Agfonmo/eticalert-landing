@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para startups y tech | Compliance para empresas en crecimiento';
-$page_description = '¿Tu startup ha superado los 50 empleados? Necesitas un canal de denuncias. También es señal de madurez para inversores.';
+$page_title       = 'Canal de denuncias para startups y tecnología | EticAlert';
+$page_description = '¿Tu startup ha superado los 50 empleados? El canal también es señal de madurez para inversores en due diligence.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-tecnologia-startups';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-11T00:00:00+01:00';

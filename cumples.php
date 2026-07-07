@@ -1,6 +1,6 @@
 <?php
-$page_title       = '¿Estás obligado a tener canal de denuncias? Compruébalo en 60 segundos | EticAlert';
-$page_description = 'Responde 3 preguntas y descubre si tu empresa está legalmente obligada a tener canal de denuncias por la Ley 2/2023, sector, o financiación pública. Gratis, sin registro.';
+$page_title       = '¿Estás obligado a tener canal de denuncias? | EticAlert';
+$page_description = 'Compruébalo en 60 segundos con nuestro checklist interactivo de los 3 criterios de la Ley 2/2023. Sin registro, resultado inmediato.';
 $page_canonical   = 'https://eticalert.com/cumples';
 include 'includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Whistleblowing en España: qué es, quién puede denunciar y qué protege la ley';
-$page_description = 'Guía completa sobre el whistleblowing en España: definición, quién es whistleblower según la Ley 2/2023, protecciones frente a represalias y cómo implantar el canal.';
+$page_title       = 'Whistleblowing en España: guía completa 2026 | EticAlert';
+$page_description = 'Qué es el whistleblowing, quién puede denunciar en España y qué protecciones garantiza la Ley 2/2023 frente a represalias.';
 $page_canonical   = 'https://eticalert.com/blog/whistleblowing-espana';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

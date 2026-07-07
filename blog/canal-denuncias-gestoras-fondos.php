@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para gestoras de fondos y capital riesgo | EticAlert';
-$page_description = 'Las gestoras de fondos de inversión, capital riesgo y pensiones están obligadas a canal de denuncias por normativa UE (UCITS, AIFMD, IORP II) aunque sean boutiques pequeñas.';
+$page_title       = 'Canal de denuncias para gestoras de fondos | EticAlert';
+$page_description = 'SGIIC y SGEIC bajo UCITS o AIFMD: la licencia CNMV activa la obligación de canal sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-gestoras-fondos';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

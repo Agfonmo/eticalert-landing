@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para ayuntamientos y administraciones públicas en España | EticAlert';
-$page_description = 'Los ayuntamientos y administraciones públicas con 10.000+ habitantes deben tener canal de denuncias desde 2023. Guía completa para el sector público.';
+$page_title       = 'Canal de denuncias para ayuntamientos | EticAlert';
+$page_description = 'Los ayuntamientos de más de 10.000 habitantes están obligados por la Ley 2/2023. Requisitos del sector público y cómo cumplirlos.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-ayuntamientos';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-22T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Directiva Whistleblowing 2019/1937: Requisitos Para Empresas en España';
-$page_description = '¿Qué obliga exactamente la Directiva EU Whistleblowing? España la transposó en Ley 2/2023. Requisitos, plazos y multas hasta 1.000.000€ para empresas +50 trabajadores →';
+$page_title       = 'Directiva Whistleblowing 2019/1937 | EticAlert';
+$page_description = 'Requisitos para empresas en España de la directiva europea que dio origen a la Ley 2/2023. Qué exige y cómo se transpuso.';
 $page_canonical   = 'https://eticalert.com/blog/directiva-europea-whistleblowing';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-08T00:00:00+01:00';

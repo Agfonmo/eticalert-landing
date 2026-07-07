@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de Denuncias en Barcelona — Obligación Ley 2/2023 para Empresas Barcelonesas · EticAlert';
-$page_description = '¿Tu empresa en Barcelona está obligada a tener canal de denuncias? Guía 2026: qué empresas de Barcelona deben cumplir la Ley 2/2023, sectores clave (farmacéutico, logístico, tecnológico) y cómo activarlo desde 9€/mes.';
+$page_title       = 'Canal de Denuncias en Barcelona | Ley 2/2023 · EticAlert';
+$page_description = '¿Tu empresa en Barcelona está obligada a tener canal de denuncias? Guía 2026: sectores clave, Oficina Antifrau y cómo activarlo desde 9€/mes.';
 $page_canonical   = 'https://eticalert.com/canal-denuncias-barcelona';
 include 'includes/header.php';
 ?>

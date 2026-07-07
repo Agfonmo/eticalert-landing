@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de Denuncias por Comunidad Autónoma — Guía 2026 para cada CCAA';
-$page_description = 'Guía completa del canal de denuncias obligatorio (Ley 2/2023) por comunidad autónoma: sectores obligados, particularidades locales, estimación de empresas afectadas y cómo activarlo en tu región.';
+$page_title       = 'Canal de Denuncias por Comunidad Autónoma | EticAlert';
+$page_description = 'Guía 2026 con la normativa, autoridades y particularidades del canal de denuncias en cada comunidad autónoma de España.';
 $page_canonical   = 'https://eticalert.com/canal-denuncias-comunidades';
 include 'includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para notarías y registros: obligación Ley 2/2023 | EticAlert';
-$page_description = 'Notarios y registradores de la propiedad son sujetos obligados PBC y deben tener canal de denuncias según la Ley 2/2023 independientemente de su tamaño.';
+$page_title       = 'Canal de denuncias para notarías y registros | EticAlert';
+$page_description = 'Notarios y registradores son sujetos obligados PBC (Ley 10/2010). Canal de denuncias obligatorio sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-notarias-registros';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

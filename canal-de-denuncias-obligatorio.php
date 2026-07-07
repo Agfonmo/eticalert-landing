@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de Denuncias Obligatorio: ¿Está Tu Empresa Obligada? | EticAlert';
-$page_description = 'Comprueba en 30 segundos si tu empresa está obligada a tener canal de denuncias por la Ley 2/2023. Criterios claros, sin letra pequeña. Activa hoy desde 9€/mes.';
+$page_title       = 'Canal de Denuncias Obligatorio: ¿Lo Necesitas? | EticAlert';
+$page_description = '¿Está tu empresa obligada a tener canal de denuncias? Comprueba los 3 criterios de la Ley 2/2023: tamaño, sector y sector público.';
 $page_canonical   = 'https://eticalert.com/canal-de-denuncias-obligatorio';
 include 'includes/header.php';
 ?>
@@ -277,7 +277,7 @@ include 'includes/header.php';
       <h3 style="font-size:1rem;margin-bottom:1.25rem;color:var(--text-secondary);">Continúa aquí</h3>
       <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
         <a href="/sanciones-canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Sanciones por no cumplir →</a>
-        <a href="/precio-canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">¿Cuánto cuesta? →</a>
+        <a href="/blog/canal-denuncias-precio-comparativa" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">¿Cuánto cuesta? →</a>
         <a href="/canal-de-denuncias" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Guía completa canal de denuncias →</a>
         <a href="/blog/rsii-guia-formulario-aipi" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Guía del RSII →</a>
         <a href="/precios" style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:0.625rem 1rem;font-size:0.9375rem;color:var(--text-primary);text-decoration:none;">Ver precios →</a>

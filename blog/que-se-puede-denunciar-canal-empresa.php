@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Qué se puede denunciar en el canal de denuncias | Infracciones cubiertas Ley 2/2023';
-$page_description = '¿Qué infracciones se pueden comunicar a través del canal de denuncias? Lista completa de lo que cubre la Ley 2/2023 y cómo distinguirlo de quejas laborales.';
+$page_title       = 'Qué se puede denunciar en el canal de denuncias | EticAlert';
+$page_description = 'Lista completa de infracciones cubiertas por la Ley 2/2023: qué puede denunciar un empleado y en qué se diferencia de una queja laboral.';
 $page_canonical   = 'https://eticalert.com/blog/que-se-puede-denunciar-canal-empresa';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-19T00:00:00+01:00';

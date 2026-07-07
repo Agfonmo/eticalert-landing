@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Libro-registro canal de denuncias | Obligatorio Ley 2/2023 | Qué incluir';
-$page_description = 'El libro-registro es obligatorio según el art. 26 de la Ley 2/2023. Te explicamos qué debe registrarse, durante cuánto tiempo y cómo automatizarlo.';
+$page_title       = 'Libro-registro del canal de denuncias | EticAlert';
+$page_description = 'Qué es, qué debe contener y cómo mantenerlo. El libro-registro es obligatorio según el art. 26 de la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/blog/libro-registro-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-22T00:00:00+01:00';

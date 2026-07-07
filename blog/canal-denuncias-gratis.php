@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias gratis: prueba 15 días | EticAlert desde 9€/mes';
-$page_description = '¿Buscas un canal de denuncias gratis? EticAlert ofrece 15 días de prueba gratuita y el plan más económico del mercado: Starter desde 9€/mes. Cumple la Ley 2/2023.';
+$page_title       = 'Canal de denuncias gratis: prueba 15 días | EticAlert';
+$page_description = '¿Existe un canal de denuncias gratis de verdad? Qué incluye, para quién es suficiente y las trampas del "gratis" en el mercado.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-gratis';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

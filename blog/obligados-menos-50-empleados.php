@@ -1,6 +1,6 @@
 <?php
-$page_title       = '¿Obligado a canal de denuncias aunque tengas menos de 50 empleados? | EticAlert';
-$page_description = 'La Ley 2/2023 obliga aunque tengas menos de 50 empleados: asesorías, inmobiliarias, fintech, transporte, gestores de residuos y más. Comprueba si te aplica.';
+$page_title       = '¿Obligado con menos de 50 empleados? | EticAlert';
+$page_description = 'Asesorías, inmobiliarias, fintech y transporte regulado pueden estar obligados sin importar el tamaño de su plantilla.';
 $page_canonical   = 'https://eticalert.com/blog/obligados-menos-50-empleados';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para clínicas y hospitales privados en España | EticAlert';
-$page_description = 'Clínicas privadas, hospitales y centros sanitarios en España con 50+ empleados están obligados por la Ley 2/2023. Seguridad del paciente, facturación y más.';
+$page_title       = 'Canal de denuncias para clínicas privadas | EticAlert';
+$page_description = 'Seguridad del paciente, facturación fraudulenta y acoso en quirófano: riesgos específicos del sector sanitario privado.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-clinicas-privadas';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Qué es el RSII: Funciones, Designación y Notificación a la AIPI [2026]';
-$page_description = 'El RSII (Responsable del Sistema Interno de Información) gestiona el canal de denuncias. Funciones obligatorias, cómo designarlo correctamente, requisitos y formulario oficial de notificación a la AIPI.';
+$page_title       = 'Qué es el RSII: Funciones y Notificación AIPI | EticAlert';
+$page_description = 'Cómo designar formalmente al Responsable del Sistema Interno de Información y notificarlo a la AIPI antes del plazo legal.';
 $page_canonical   = 'https://eticalert.com/blog/rsii-guia-formulario-aipi';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-10T00:00:00+01:00';

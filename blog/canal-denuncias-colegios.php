@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para colegios y centros educativos privados en España | EticAlert';
-$page_description = 'Colegios concertados, escuelas privadas y universidades privadas en España con 50+ empleados necesitan canal de denuncias por la Ley 2/2023. Guía 2026.';
+$page_title       = 'Canal de denuncias para colegios privados | EticAlert';
+$page_description = 'Centros concertados y privados con 50+ empleados están obligados por la Ley 2/2023. Acoso, irregularidades y protección de menores.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-colegios';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title             = 'Ley 2/2023 Canal de Denuncias — La AIPI ya Sanciona: Guía Actualizada 2026';
-$page_description       = 'La AIPI ya multa hasta 1.000.000€. ¿Tienes canal de denuncias? Quién está obligado, qué necesitas exactamente y cómo cumplir la Ley 2/2023 desde 9€/mes.';
+$page_title             = 'Ley 2/2023: Guía del Canal de Denuncias | EticAlert';
+$page_description       = 'Guía actualizada 2026: la AIPI ya sanciona. Todo lo que tu empresa necesita saber sobre la Ley 2/2023: requisitos, plazos y sanciones.';
 $page_canonical         = 'https://eticalert.com/blog/ley-2-2023-canal-de-denuncias';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Guía Ley 2/2023 canal de denuncias — EticAlert';

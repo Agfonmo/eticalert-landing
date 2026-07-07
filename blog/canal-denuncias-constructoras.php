@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias construcción | Obligaciones específicas del sector';
-$page_description = 'Las constructoras tienen riesgos específicos: subcontratación, seguridad laboral, medioambiente. Así debe ser su canal de denuncias.';
+$page_title       = 'Canal de denuncias en construcción | EticAlert';
+$page_description = 'Subcontratación, seguridad laboral y contratos públicos: los riesgos específicos del sector y cómo gestionarlos.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-constructoras';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-14T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de Denuncias Online | Desde 9€/mes | Homologado Ley 2/2023 | EticAlert';
-$page_description = 'Canal anónimo y cifrado, homologado Ley 2/2023. Actívalo en 5 minutos sin instalar nada. Desde 9€/mes. 15 días de prueba gratuita. Sin permanencia →';
+$page_title       = 'Canal de Denuncias Online | EticAlert';
+$page_description = 'Canal de denuncias homologado desde 9€/mes. Cumple la Ley 2/2023 en minutos: anonimato real, cifrado AES-256 y plazos automáticos.';
 $page_canonical   = 'https://eticalert.com/canal-de-denuncias';
 include 'includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para corredurías de seguros: obligación y cómo cumplir | EticAlert';
-$page_description = 'Las corredurías de seguros pueden estar obligadas a canal de denuncias por normativa sectorial UE aunque tengan menos de 50 empleados. Guía para el sector asegurador.';
+$page_title       = 'Canal de denuncias para corredurías de seguros | EticAlert';
+$page_description = 'Las corredurías de seguros están reguladas por la Directiva IDD y Solvencia II. Obligación de canal sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-correduria-seguros';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

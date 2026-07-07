@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias hostelería y retail | Adaptado a personal sin ordenador';
-$page_description = 'Hostelería y retail tienen desafíos únicos: alta rotación, personal sin ordenador, turnos. Así se adapta el canal de denuncias.';
+$page_title       = 'Canal de denuncias hostelería y retail | EticAlert';
+$page_description = 'Personal sin ordenador, turnos y alta rotación: cómo adaptar el canal de denuncias a sectores con desafíos de accesibilidad.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-hosteleria-retail';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-08T00:00:00+01:00';

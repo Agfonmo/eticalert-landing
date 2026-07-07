@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Mejor software canal de denuncias 2026 | Comparativa con precios reales';
-$page_description = 'Los mejores software de canal de denuncias en 2026 comparados: precios reales, funcionalidades y cuál cumple la Ley 2/2023 sin letra pequeña. Con guía para elegir →';
+$page_title       = 'Mejor software de canal de denuncias 2026 | EticAlert';
+$page_description = 'Análisis honesto de las principales soluciones del mercado español: precios reales, funcionalidades y para quién es cada una.';
 $page_canonical   = 'https://eticalert.com/blog/mejor-software-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-02T00:00:00+01:00';

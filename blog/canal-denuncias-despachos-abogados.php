@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para despachos de abogados y asesorías en España | EticAlert';
-$page_description = 'Despachos de abogados con 50+ empleados deben tener canal de denuncias según la Ley 2/2023. Además son sujetos obligados PBC. Guía completa.';
+$page_title       = 'Canal de denuncias para despachos de abogados | EticAlert';
+$page_description = 'Doble obligación para despachos: Ley 2/2023 y sujetos obligados PBC. Cómo gestionar el canal sin vulnerar el secreto profesional.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-despachos-abogados';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-22T00:00:00+01:00';

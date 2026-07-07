@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para promotores inmobiliarios: obligación y cómo cumplir | EticAlert';
-$page_description = 'Los promotores inmobiliarios son sujetos obligados por la Ley 10/2010 PBC y deben tener canal de denuncias independientemente de cuántos empleados tengan.';
+$page_title       = 'Canal de denuncias para promotores inmobiliarios | EticAlert';
+$page_description = 'Los promotores inmobiliarios son sujetos obligados PBC (Ley 10/2010) y deben tener canal de denuncias con independencia de su plantilla.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-promotores-inmobiliarios';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

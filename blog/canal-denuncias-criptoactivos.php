@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas de criptoactivos: PSAV, MiCA y Ley 2/2023 | EticAlert';
-$page_description = 'Los proveedores de servicios de criptoactivos (PSAV/CASP) son sujetos obligados PBC y deben tener canal de denuncias. Guía para exchanges, custodios y wallets.';
+$page_title       = 'Canal de denuncias para criptoactivos | EticAlert';
+$page_description = 'PSAV, CASP y MiCA: triple obligación para empresas de criptoactivos. Canal exigido desde el primer día con licencia CNMV.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-criptoactivos';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

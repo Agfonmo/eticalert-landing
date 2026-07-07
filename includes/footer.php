@@ -24,7 +24,11 @@
         <h3>Producto</h3>
         <ul>
           <li><a href="/como-funciona">Cómo funciona</a></li>
+          <li><a href="/funcionalidades">Funcionalidades</a></li>
           <li><a href="/precios">Precios</a></li>
+          <li><a href="/software-canal-de-denuncias">Software canal de denuncias</a></li>
+          <li><a href="/opiniones">Opiniones</a></li>
+          <li><a href="/revendedores">Programa de partners</a></li>
           <li><a href="/registro">Registro</a></li>
           <li><a href="https://app.eticalert.com" target="_blank" rel="noopener">Acceder</a></li>
         </ul>
@@ -39,6 +43,21 @@
           <li><a href="/canal-de-denuncias">Guía Canal de denuncias</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias">Guía Ley 2/2023</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi">Guía RSII</a></li>
+          <li><a href="/cumples">¿Estás obligado?</a></li>
+          <li><a href="/calculadora-multas-aipi">Calculadora de multas AIPI</a></li>
+          <li><a href="/radar-aipi">Radar AIPI</a></li>
+        </ul>
+      </div>
+
+      <!-- Sectores -->
+      <div class="footer-col">
+        <h3>Sectores</h3>
+        <ul>
+          <li><a href="/canal-denuncias-comunidades">Por Comunidad Autónoma</a></li>
+          <li><a href="/blog/canal-denuncias-pymes">Pymes</a></li>
+          <li><a href="/blog/canal-denuncias-asesorias-despachos">Asesorías y despachos</a></li>
+          <li><a href="/blog/canal-denuncias-sector-financiero">Sector financiero</a></li>
+          <li><a href="/blog/canal-denuncias-farmacias">Farmacias</a></li>
         </ul>
       </div>
 

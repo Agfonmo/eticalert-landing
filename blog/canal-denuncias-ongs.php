@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para ONGs, fundaciones y asociaciones en España | EticAlert';
-$page_description = 'Las ONGs y fundaciones con 50+ empleados deben implantar un canal de denuncias en España según la Ley 2/2023. Guía completa para el tercer sector.';
+$page_title       = 'Canal de denuncias para ONGs y fundaciones | EticAlert';
+$page_description = 'Las ONGs con 50+ empleados están obligadas por la Ley 2/2023. Malversación, fraude en proyectos y conflictos de interés.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-ongs';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-22T00:00:00+01:00';

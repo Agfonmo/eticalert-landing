@@ -1,6 +1,6 @@
 <?php
-$page_title             = 'Alternativa a GlobalSuite para Pymes | EticAlert desde 9€/mes [2026]';
-$page_description       = '¿Buscas una alternativa a GlobalSuite más asequible para tu empresa? EticAlert ofrece canal de denuncias homologado desde 9€/mes, sin contratos ni implantación. Comparativa honesta →';
+$page_title             = 'Alternativa a GlobalSuite para pymes | EticAlert';
+$page_description       = 'GlobalSuite es una suite GRC con ISO 27001. Para pymes que solo necesitan el canal, EticAlert es más ágil y con precio público.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-globalsuite';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a GlobalSuite canal de denuncias — EticAlert 2026';

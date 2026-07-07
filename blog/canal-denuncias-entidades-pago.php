@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para entidades de pago y dinero electrónico | EticAlert';
-$page_description = 'Las entidades de pago y de dinero electrónico reguladas por el Banco de España (PSD2) son sujetos obligados PBC y deben tener canal de denuncias aunque tengan pocos empleados.';
+$page_title       = 'Canal de denuncias para entidades de pago | EticAlert';
+$page_description = 'IPs, EMEs y wallets digitales: doble obligación vía Ley 10/2010 PBC y normativa PSD2/EMD2. Canal exigido sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-entidades-pago';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para industria y empresas manufactureras en España | EticAlert';
-$page_description = 'Fábricas y empresas industriales en España con 50+ empleados: canal de denuncias obligatorio por Ley 2/2023. Seguridad laboral, medioambiente, ISO 45001. Guía 2026.';
+$page_title       = 'Canal de denuncias para industria y manufactura | EticAlert';
+$page_description = 'Seguridad laboral, medioambiente y fraude en compras. Integración del canal con ISO 45001 e ISO 14001.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-industria-manufactura';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

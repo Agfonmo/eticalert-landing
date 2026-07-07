@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Opiniones sobre EticAlert — Canal de Denuncias para Pymes Españolas';
-$page_description = 'Lo que dicen las empresas que usan EticAlert para cumplir la Ley 2/2023. Opiniones verificadas, casos de uso reales y comparativas con otras opciones del mercado.';
+$page_title       = 'Opiniones sobre EticAlert | EticAlert';
+$page_description = 'Lo que dicen las pymes españolas que ya usan EticAlert para cumplir la Ley 2/2023. Casos reales y valoraciones verificadas.';
 $page_canonical   = 'https://eticalert.com/opiniones';
 include 'includes/header.php';
 ?>

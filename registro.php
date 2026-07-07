@@ -228,8 +228,8 @@ if ($submitted) {
 }
 
 // Variables para la página
-$page_title       = 'Crear canal de denuncias | EticAlert — desde 9€/mes · Ley 2/2023';
-$page_description = 'Activa tu canal de denuncias en 5 minutos. Desde 9€/mes. 15 días de prueba gratuita. Cumple la Ley 2/2023. Alta online, sin llamadas.';
+$page_title       = 'Crear canal de denuncias | EticAlert';
+$page_description = 'Activa tu canal de denuncias homologado en 5 minutos. Desde 9€/mes, sin permanencia. Cumple la Ley 2/2023 desde hoy mismo.';
 $page_canonical   = 'https://eticalert.com/registro';
 include 'includes/header.php';
 ?><script type="application/ld+json">

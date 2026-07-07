@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para industria química, petroquímica y SEVESO | EticAlert';
-$page_description = 'Las industrias químicas y petroquímicas con instalaciones SEVESO o AAI están obligadas a canal de denuncias por normativa ambiental UE aunque tengan menos de 50 empleados.';
+$page_title       = 'Canal de denuncias para industria química | EticAlert';
+$page_description = 'Instalaciones SEVESO III y plantas con AAI están obligadas sin umbral de empleados por normativa ambiental de la UE.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-quimica-petroquimica';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

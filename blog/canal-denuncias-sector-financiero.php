@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para entidades financieras y aseguradoras en España | EticAlert';
-$page_description = 'Bancos, aseguradoras y gestoras de fondos en España: doble obligación Ley 2/2023 + MiFID II/MAR/Solvencia II. Canal de denuncias para el sector financiero español.';
+$page_title       = 'Canal de denuncias para el sector financiero | EticAlert';
+$page_description = 'Entidades financieras y aseguradoras tienen doble obligación: Ley 2/2023 y normativa sectorial (MiFID II, Solvencia II, DORA).';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-sector-financiero';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

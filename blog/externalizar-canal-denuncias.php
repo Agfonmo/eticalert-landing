@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Externalizar canal de denuncias | Qué se puede y qué no según la ley';
-$page_description = '¿Puedes externalizar tu canal de denuncias? La Ley 2/2023 permite externalizar la herramienta y la instrucción, pero no la responsabilidad.';
+$page_title       = 'Externalizar el canal de denuncias | EticAlert';
+$page_description = 'Qué se puede externalizar (herramienta) y qué no (RSII, decisión final) según la ley. El modelo habitual para pymes.';
 $page_canonical   = 'https://eticalert.com/blog/externalizar-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-24T00:00:00+01:00';

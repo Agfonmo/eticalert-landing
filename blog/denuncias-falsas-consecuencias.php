@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Denuncias falsas canal de denuncias | Consecuencias legales y gestión';
-$page_description = '¿Qué pasa si alguien presenta una denuncia falsa en el canal? La ley solo protege denuncias de buena fe. Consecuencias y cómo gestionar estos casos.';
+$page_title       = 'Denuncias falsas: consecuencias legales | EticAlert';
+$page_description = 'La ley solo protege denuncias de buena fe. Consecuencias de una denuncia falsa y diferencia con una denuncia no probada.';
 $page_canonical   = 'https://eticalert.com/blog/denuncias-falsas-consecuencias';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-18T00:00:00+01:00';

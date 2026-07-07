@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de Denuncias en Grupos Empresariales: Canal Compartido o Individual por Filial';
-$page_description = '¿Puede un grupo empresarial compartir un único canal de denuncias para todas sus filiales? Obligaciones, requisitos legales y configuración correcta según la Ley 2/2023.';
+$page_title       = 'Canal de Denuncias en Grupos Empresariales | EticAlert';
+$page_description = '¿Canal compartido o uno por filial? Cuándo un grupo empresarial puede unificar el canal y cómo designar el RSII.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-grupos-empresariales';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-03T00:00:00+01:00';

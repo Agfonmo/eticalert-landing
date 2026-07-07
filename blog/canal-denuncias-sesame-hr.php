@@ -1,6 +1,6 @@
 <?php
-$page_title             = 'Canal Denuncias Sesame HR: Limitaciones Reales y Análisis Honesto 2026';
-$page_description       = 'Sesame HR tiene canal de denuncias pero con limitaciones clave para la Ley 2/2023. Coste real, qué cumple y qué no — y por qué muchas pymes prefieren una solución especializada →';
+$page_title             = 'Canal de denuncias en Sesame HR: análisis 2026 | EticAlert';
+$page_description       = 'Sesame incluye el canal en sus planes de RRHH. Analizamos limitaciones de precio, aislamiento y cumplimiento avanzado.';
 $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-sesame-hr';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias Sesame HR vs EticAlert — comparativa 2026';

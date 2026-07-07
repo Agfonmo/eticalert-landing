@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas de medioambiente y gestión de residuos | EticAlert';
-$page_description = 'Gestores de residuos, tratamiento de aguas e industrias con autorización ambiental están obligados a canal de denuncias por la Ley 2/2023 aunque tengan menos de 50 empleados.';
+$page_title       = 'Canal de denuncias para empresas de medioambiente | EticAlert';
+$page_description = 'Gestores de residuos y empresas SEVESO están obligados por la Directiva Whistleblowing sin umbral de empleados. Guía 2026.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-medio-ambiente';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

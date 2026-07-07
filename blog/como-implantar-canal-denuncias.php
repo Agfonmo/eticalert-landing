@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Cómo implantar canal de denuncias en empresa | Guía paso a paso 2026';
-$page_description = 'Guía práctica para implantar un canal de denuncias conforme a la Ley 2/2023. Desde la decisión hasta la publicación, 10 pasos detallados.';
+$page_title       = 'Cómo implantar un canal de denuncias | EticAlert';
+$page_description = 'Guía paso a paso 2026: 10 pasos desde la decisión hasta la publicación del canal y la notificación a la AIPI.';
 $page_canonical   = 'https://eticalert.com/blog/como-implantar-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-03-03T00:00:00+01:00';

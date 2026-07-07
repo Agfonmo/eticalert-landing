@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Calculadora de Multas AIPI 2026 — ¿Cuánto te puede sancionar por no tener canal de denuncias?';
-$page_description = 'Calcula en segundos el rango de multa que puede imponerte la AIPI por incumplir la Ley 2/2023. Selecciona los incumplimientos de tu empresa y obtén la estimación al instante.';
+$page_title       = 'Calculadora de Multas AIPI 2026 | EticAlert';
+$page_description = 'Calcula en segundos cuánto te puede sancionar la AIPI por no tener canal de denuncias. Multas de hasta 1.000.000€ según tipo de infracción.';
 $page_canonical   = 'https://eticalert.com/calculadora-multas-aipi';
 include 'includes/header.php';
 ?>

@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal ético de empresa: qué es, para qué sirve y cómo implantarlo';
+$page_title       = 'Canal ético de empresa: guía completa | EticAlert';
 $page_description = 'Qué es un canal ético de empresa, en qué se diferencia del canal de denuncias legal, si es obligatorio y los 5 pasos para implantarlo con garantías.';
 $page_canonical   = 'https://eticalert.com/blog/canal-etico-empresas';
 $page_og_type           = 'article';

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para auditores de cuentas: obligación y cómo cumplir | EticAlert';
-$page_description = 'Los auditores inscritos en el ROAC son sujetos obligados PBC y deben tener canal de denuncias aunque tengan menos de 50 empleados. Guía práctica para firmas de auditoría.';
+$page_title       = 'Canal de denuncias para auditores de cuentas | EticAlert';
+$page_description = 'Los auditores inscritos en el ROAC son sujetos obligados PBC (Ley 10/2010) y deben tener canal de denuncias sin importar su tamaño.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-auditores';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';

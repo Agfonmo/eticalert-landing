@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para asesorías | Cumple y ofrécelo a tus clientes';
-$page_description = 'Las asesorías tienen doble obligación: cumplir con su propio canal y ayudar a sus clientes. Descubre cómo hacerlo con EticAlert.';
+$page_title       = 'Canal de denuncias para asesorías | EticAlert';
+$page_description = 'Las asesorías tienen doble oportunidad: cumplir con su propio canal y ofrecerlo como servicio a sus clientes.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-asesorias-despachos';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-17T00:00:00+01:00';
