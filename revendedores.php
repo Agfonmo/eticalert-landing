@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Programa de Partners | EticAlert';
-$page_description = 'Ofrece canal de denuncias a tus clientes como asesoría o despacho. Comisión recurrente del 20% y materiales de venta listos.';
+$page_title       = 'Programa Partner | EticAlert';
+$page_description = 'Recomienda EticAlert a tus clientes y genera crédito por cada oportunidad activada. Para asesorías, proveedores B2B y partners sectoriales.';
 $page_canonical   = 'https://eticalert.com/revendedores';
 include 'includes/header.php';
 ?>
@@ -9,8 +9,8 @@ include 'includes/header.php';
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Programa de Partners EticAlert",
-  "description": "Programa de revendedores para asesorías, despachos y consultoras que quieran ofrecer canal de denuncias a sus clientes con comisión recurrente del 20% y opción white-label.",
+  "name": "Programa Partner EticAlert",
+  "description": "Programa de partners para asesorías, proveedores B2B y partners sectoriales que recomiendan EticAlert a sus clientes y generan crédito por cada oportunidad activada, aplicable como beneficio propio o para mejorar la propuesta al cliente final.",
   "provider": {"@type": "Organization", "name": "EticAlert", "url": "https://eticalert.com"},
   "areaServed": {"@type": "Country", "name": "ES"},
   "url": "https://eticalert.com/revendedores"
@@ -23,23 +23,23 @@ include 'includes/header.php';
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Cuánto cobra un partner de EticAlert por cada cliente?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Los partners reciben una comisión del 20% mensual recurrente durante toda la vida del cliente. Por ejemplo, un cliente en el plan Company (39€/mes) genera 7,80€/mes para el partner, todos los meses, sin límite de tiempo."}
+      "name": "¿Cómo se genera el crédito del programa partner?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Cuando un cliente que has recomendado contrata EticAlert, el programa reconoce esa recomendación con crédito para el partner. Las condiciones exactas (importe, plazos) se comparten de forma personalizada al solicitar información, según tu volumen de cartera y el tipo de partnership."}
     },
     {
       "@type": "Question",
-      "name": "¿Puedo ofrecer EticAlert con mi propia marca?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Sí. Los partners con opción white-label pueden presentar el canal de denuncias con su propio nombre y logo. El cliente ve la marca del partner, no la de EticAlert. Disponible en planes Partner Pro y superiores."}
+      "name": "¿Qué puedo hacer con el crédito generado?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Dos opciones. Puedes retirarlo como beneficio propio por cada cliente activado, o aplicarlo a favor del cliente final para hacer más atractiva la propuesta y acelerar su decisión de compra. La modalidad se confirma al activar el acuerdo de partnership."}
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué tipo de empresas pueden ser partner de EticAlert?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Tres perfiles principales: asesores (despachos, consultoras y profesionales que acompañan a empresas en cumplimiento o procesos internos), proveedores B2B con cartera de clientes que quieren ampliar su propuesta de valor, y partners sectoriales que detectan oportunidades y quieren derivarlas de forma trazable."}
     },
     {
       "@type": "Question",
       "name": "¿Necesito conocimientos técnicos para ser partner?",
-      "acceptedAnswer": {"@type": "Answer", "text": "No. EticAlert es una plataforma SaaS sin instalación. El partner solo necesita conocer los requisitos legales (que como asesoría ya conoce) y usar el panel de partners para gestionar sus clientes. Toda la parte técnica la gestiona EticAlert."}
-    },
-    {
-      "@type": "Question",
-      "name": "¿Qué materiales de venta proporciona EticAlert a sus partners?",
-      "acceptedAnswer": {"@type": "Answer", "text": "Los partners reciben un kit completo: presentación en PowerPoint personalizable, email templates para comunicar la obligación a sus clientes, guía de argumentario de ventas, acceso a cuenta demo ilimitada y sesión de onboarding con el equipo de EticAlert."}
+      "acceptedAnswer": {"@type": "Answer", "text": "No. EticAlert es una plataforma SaaS sin instalación. El partner identifica la oportunidad y acompaña al cliente; EticAlert facilita el proceso comercial y la activación técnica."}
     }
   ]
 }
@@ -52,227 +52,185 @@ include 'includes/header.php';
     <div class="container">
       <div style="max-width:700px;" class="fade-up">
         <div style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(74,222,128,0.1);border:1px solid var(--accent-border);border-radius:99px;padding:0.25rem 0.875rem;font-size:0.8125rem;font-weight:600;color:var(--accent);margin-bottom:1.25rem;">
-          Para asesorías, despachos y consultoras
+          Programa Partner
         </div>
         <h1 style="font-size:clamp(1.75rem,4vw,2.75rem);line-height:1.15;margin-bottom:1.25rem;">
-          Tus clientes ya te están preguntando por el canal de denuncias.<br>
-          <span style="color:var(--accent);">Ofrécelo tú antes de que lo contraten en otro sitio.</span>
+          Crece recomendando EticAlert.<br>
+          <span style="color:var(--accent);">Valor para tus clientes, retorno para tu empresa.</span>
         </h1>
         <p style="font-size:1.125rem;color:var(--text-secondary);margin-bottom:2rem;max-width:600px;">
-          El programa de partners de EticAlert te permite ofrecer canal de denuncias a tus clientes con tu propia marca, sin trabajo técnico y con una comisión recurrente del 20% mes a mes.
+          Un programa para partners que quieren aportar una solución útil a sus clientes y generar retorno por cada oportunidad activada. Recomienda EticAlert, acompaña a tus clientes con una solución especializada y solicita las condiciones del programa.
         </p>
         <div style="display:flex;flex-wrap:wrap;gap:1rem;">
-          <a href="mailto:partners@eticalert.com?subject=Quiero ser partner de EticAlert" class="btn btn-primary">Solicitar información de partnership →</a>
+          <a href="mailto:partners@eticalert.com?subject=Quiero solicitar las condiciones del programa partner" class="btn btn-primary">Solicitar condiciones del programa →</a>
           <a href="#como-funciona" class="btn btn-secondary">Ver cómo funciona</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- EL PROBLEMA -->
+  <!-- QUIÉN PUEDE BENEFICIARSE -->
   <section style="padding:60px 0;border-bottom:1px solid var(--border);">
     <div class="container" style="max-width:900px;">
-      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">La oportunidad que tienes delante</h2>
-      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:580px;margin-left:auto;margin-right:auto;">La Ley 2/2023 obliga a ~130.000 empresas en España. La mayoría todavía no cumple. La mayoría se lo va a pedir a su asesoría.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;">
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Para empresas que ya tienen la confianza del cliente</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:620px;margin-left:auto;margin-right:auto;">El programa está pensado para partners que quieren recomendar una solución útil, sencilla de explicar y alineada con necesidades reales de sus clientes.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;">
         <?php
-        $problems = [
-          [
-            'n'    => '01',
-            'title'=> 'Tus clientes ya tienen la obligación',
-            'desc' => 'Cualquier cliente tuyo con 50+ empleados lleva más de 3 años obligado. Muchos aún no han actuado. La AIPI está activa desde febrero de 2026.',
-          ],
-          [
-            'n'    => '02',
-            'title'=> 'Te lo van a pedir a ti',
-            'desc' => 'Tu asesoría es su primer punto de contacto para obligaciones legales. Si no lo ofreces tú, lo contratan en otro sitio — y pierdes esa conversación.',
-          ],
-          [
-            'n'    => '03',
-            'title'=> 'Es un ingreso recurrente',
-            'desc' => 'A diferencia de un servicio puntual, el canal de denuncias se paga todos los meses. Tu comisión es recurrente mientras el cliente siga activo.',
-          ],
+        $quien = [
+          ['Asesores', 'Despachos, consultoras y profesionales que acompañan a empresas en cumplimiento, gestión o procesos internos.'],
+          ['Proveedores B2B', 'Empresas con cartera de clientes que buscan ampliar valor sin desarrollar una solución propia.'],
+          ['Partners sectoriales', 'Organizaciones que detectan oportunidades y quieren derivarlas con una propuesta clara y trazable.'],
         ];
-        foreach ($problems as $p): ?>
+        foreach ($quien as $q): ?>
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
-          <div style="font-size:2rem;font-weight:900;color:var(--accent);opacity:0.4;line-height:1;margin-bottom:0.75rem;"><?= $p['n'] ?></div>
-          <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;"><?= $p['title'] ?></h3>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;"><?= $p['desc'] ?></p>
+          <h3 style="font-size:1.0625rem;font-weight:700;margin-bottom:0.5rem;color:var(--accent);"><?= $q[0] ?></h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;"><?= $q[1] ?></p>
         </div>
         <?php endforeach; ?>
       </div>
     </div>
   </section>
 
-  <!-- PLANES DE PARTNERSHIP -->
-  <section id="planes" style="padding:60px 0;border-bottom:1px solid var(--border);background:var(--bg-secondary);">
+  <!-- CALIDAD DEL PRODUCTO -->
+  <section style="padding:60px 0;border-bottom:1px solid var(--border);background:var(--bg-secondary);">
     <div class="container" style="max-width:900px;">
-      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Dos formas de ser partner</h2>
-      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;">Elige la modalidad que encaja mejor con tu modelo de negocio.</p>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-
-        <!-- Referral -->
-        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;">
-          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.75rem;">Partner Referral</div>
-          <h3 style="font-size:1.5rem;font-weight:800;margin-bottom:0.375rem;">Recomienda y cobra</h3>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1.5rem;">Recomendas EticAlert a tus clientes. Ellos contratan con EticAlert. Tú cobras comisión mes a mes.</p>
-          <div style="border-top:1px solid var(--border);padding-top:1.25rem;margin-bottom:1.5rem;">
-            <?php
-            $referral_features = [
-              '20% de comisión recurrente mensual',
-              'Sin límite de tiempo mientras el cliente esté activo',
-              'Panel de partners para ver tus clientes y comisiones',
-              'Kit de materiales de venta (PPT, emails, argumentario)',
-              'Cuenta demo ilimitada para tus presentaciones',
-              'Sesión de onboarding de 30 minutos',
-            ];
-            foreach ($referral_features as $f): ?>
-            <div style="display:flex;align-items:flex-start;gap:0.625rem;padding:0.4rem 0;font-size:0.875rem;border-bottom:1px solid var(--border);">
-              <span style="color:var(--accent);font-weight:700;min-width:16px;">✓</span>
-              <span style="color:var(--text-secondary);"><?= $f ?></span>
-            </div>
-            <?php endforeach; ?>
-          </div>
-          <a href="mailto:partners@eticalert.com?subject=Partner Referral — Información" class="btn btn-secondary" style="display:block;text-align:center;">Solicitar información</a>
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Un producto serio para recomendar</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:620px;margin-left:auto;margin-right:auto;">EticAlert no se presenta como una herramienta genérica: ayuda al cliente a activar un canal comprensible, profesional y alineado con una necesidad real de cumplimiento.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;">
+        <?php
+        $calidad = [
+          ['Especialización', 'Foco claro en canal de denuncias, cumplimiento y gestión de comunicaciones sensibles.'],
+          ['Confianza', 'Mensaje comercial fácil de explicar: seguridad, seriedad y tranquilidad para el cliente.'],
+          ['Trazabilidad', 'El cliente entiende qué se recibe, cómo se gestiona y por qué necesita orden interno.'],
+          ['Activación', 'Una propuesta pensada para reducir fricción y acelerar la decisión de implantación.'],
+        ];
+        foreach ($calidad as $c): ?>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;">
+          <h3 style="font-size:0.9375rem;font-weight:700;margin-bottom:0.5rem;"><?= $c[0] ?></h3>
+          <p style="font-size:0.8125rem;color:var(--text-secondary);margin:0;"><?= $c[1] ?></p>
         </div>
-
-        <!-- White-label -->
-        <div style="background:var(--bg-card);border:2px solid var(--accent);border-radius:16px;padding:2rem;position:relative;">
-          <div style="position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--accent);color:#000;font-size:0.75rem;font-weight:700;padding:0.2rem 0.875rem;border-radius:99px;white-space:nowrap;">Más popular entre asesorías</div>
-          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.75rem;">Partner White-label</div>
-          <h3 style="font-size:1.5rem;font-weight:800;margin-bottom:0.375rem;">Tu marca, nuestro motor</h3>
-          <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:1.5rem;">El canal de denuncias se presenta con el nombre y logo de tu asesoría. Tus clientes ven tu marca en todo momento.</p>
-          <div style="border-top:1px solid var(--border);padding-top:1.25rem;margin-bottom:1.5rem;">
-            <?php
-            $wl_features = [
-              'Todo lo del plan Referral, más:',
-              'Canal con tu nombre y logo (white-label)',
-              'URL personalizada (canal.tuasesorí­a.com)',
-              'Emails de notificación con tu marca',
-              'Margen libre: fija el precio que quieras a tus clientes',
-              'Soporte técnico prioritario',
-              'Formación anual para tu equipo',
-            ];
-            foreach ($wl_features as $i => $f): ?>
-            <div style="display:flex;align-items:flex-start;gap:0.625rem;padding:0.4rem 0;font-size:0.875rem;border-bottom:1px solid var(--border);">
-              <span style="color:var(--accent);font-weight:700;min-width:16px;"><?= $i === 0 ? '—' : '✓' ?></span>
-              <span style="color:<?= $i === 0 ? 'var(--text-muted)' : 'var(--text-secondary)' ?>;<?= $i === 0 ? 'font-style:italic;' : '' ?>"><?= $f ?></span>
-            </div>
-            <?php endforeach; ?>
-          </div>
-          <a href="mailto:partners@eticalert.com?subject=Partner White-label — Información" class="btn btn-primary" style="display:block;text-align:center;">Hablar con el equipo →</a>
-        </div>
-
+        <?php endforeach; ?>
       </div>
-      <p style="text-align:center;font-size:0.8125rem;color:var(--text-muted);margin-top:1.5rem;">Los precios y condiciones exactas se acuerdan individualmente según el volumen de clientes. Escríbenos a partners@eticalert.com.</p>
+      <p style="text-align:center;color:var(--text-secondary);margin-top:2rem;max-width:640px;margin-left:auto;margin-right:auto;font-size:0.9375rem;">El partner gana credibilidad cuando recomienda una solución concreta, útil y fácil de justificar ante dirección.</p>
     </div>
   </section>
 
-  <!-- CÓMO FUNCIONA -->
-  <section id="como-funciona" style="padding:60px 0;border-bottom:1px solid var(--border);">
-    <div class="container" style="max-width:860px;">
-      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Cómo funciona en la práctica</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2.5rem;">Desde que decides ser partner hasta que cobras tu primera comisión.</p>
-      <div style="display:grid;gap:1.25rem;">
+  <!-- VALOR PARA EL CLIENTE FINAL -->
+  <section style="padding:60px 0;border-bottom:1px solid var(--border);">
+    <div class="container" style="max-width:900px;">
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">El cliente recibe una solución útil, no solo una recomendación</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:620px;margin-left:auto;margin-right:auto;">EticAlert ayuda a transformar una necesidad sensible en un proceso más claro, más controlado y más fácil de activar.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;">
         <?php
-        $steps = [
-          ['paso'=>'1','titulo'=>'Solicitas unirte al programa','desc'=>'Nos escribes a partners@eticalert.com. En 24-48h te enviamos el contrato de partnership y acceso al panel de partners.'],
-          ['paso'=>'2','titulo'=>'Onboarding de 30 minutos','desc'=>'Sesión online con el equipo de EticAlert: te explicamos el producto, las obligaciones legales clave y cómo presentarlo a tus clientes. Te entregamos el kit de materiales.'],
-          ['paso'=>'3','titulo'=>'Identificas clientes obligados','desc'=>'Usas el argumentario y los materiales para detectar qué clientes tienen la obligación. En la mayoría de carteras de asesoría hay 5-20 clientes obligados inmediatamente.'],
-          ['paso'=>'4','titulo'=>'Activas el canal para cada cliente','desc'=>'Desde tu panel de partners, creas el canal para cada cliente en 5 minutos. Ellos lo tienen activo ese mismo día.'],
-          ['paso'=>'5','titulo'=>'Cobras comisión cada mes','desc'=>'EticAlert te abona el 20% de cada factura de tus clientes activos, automáticamente, todos los meses. Sin gestiones adicionales.'],
+        $valor_cliente = [
+          ['Claridad', 'Entiende qué problema resuelve, cómo se activa y por qué puede ser relevante para su organización.'],
+          ['Control', 'Incorpora una herramienta que ordena una necesidad crítica y facilita una gestión más trazable.'],
+          ['Tranquilidad', 'Cuenta con una solución especializada que reduce incertidumbre y refuerza la confianza interna.'],
         ];
-        foreach ($steps as $s): ?>
-        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.25rem;display:grid;grid-template-columns:48px 1fr;gap:1.25rem;align-items:start;">
-          <div style="width:48px;height:48px;border-radius:50%;background:rgba(74,222,128,0.1);border:2px solid var(--accent-border);display:flex;align-items:center;justify-content:center;font-size:1.125rem;font-weight:800;color:var(--accent);"><?= $s['paso'] ?></div>
-          <div>
-            <div style="font-weight:700;margin-bottom:0.25rem;"><?= $s['titulo'] ?></div>
-            <div style="font-size:0.875rem;color:var(--text-secondary);"><?= $s['desc'] ?></div>
-          </div>
+        foreach ($valor_cliente as $v): ?>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <h3 style="font-size:1.0625rem;font-weight:700;margin-bottom:0.5rem;color:var(--accent);"><?= $v[0] ?></h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;"><?= $v[1] ?></p>
+        </div>
+        <?php endforeach; ?>
+      </div>
+      <p style="text-align:center;color:var(--text-secondary);margin-top:2rem;max-width:640px;margin-left:auto;margin-right:auto;font-size:0.9375rem;">Cuando el cliente percibe valor real, la recomendación del partner se convierte en una oportunidad más fácil de defender.</p>
+    </div>
+  </section>
+
+  <!-- NECESIDAD REAL DE CUMPLIMIENTO -->
+  <section style="padding:60px 0;border-bottom:1px solid var(--border);background:var(--bg-secondary);">
+    <div class="container" style="max-width:900px;">
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Un canal de denuncias con respaldo normativo claro</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:640px;margin-left:auto;margin-right:auto;">EticAlert ayuda a las organizaciones a abordar una obligación sensible: recibir, ordenar y tratar comunicaciones internas con confidencialidad, rigor y protección del informante.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;">
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Ley 2/2023</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;">Marco español de protección de informantes y sistemas internos de información.</p>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Directiva (UE) 2019/1937</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;">Impulsa canales internos efectivos para comunicar infracciones de forma segura y confidencial.</p>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <h3 style="font-size:1rem;font-weight:700;margin-bottom:0.5rem;">Protección frente a represalias</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;">La conversación con el cliente se apoya en confidencialidad, investigación adecuada y confianza organizativa.</p>
+        </div>
+      </div>
+      <p style="text-align:center;color:var(--text-secondary);margin-top:2rem;max-width:640px;margin-left:auto;margin-right:auto;font-size:0.9375rem;">Para el partner, el canal de denuncias convierte una recomendación comercial en una propuesta de valor vinculada a cumplimiento y dirección.</p>
+    </div>
+  </section>
+
+  <!-- VALOR PARA EL PARTNER -->
+  <section style="padding:60px 0;border-bottom:1px solid var(--border);">
+    <div class="container" style="max-width:900px;">
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Una recomendación que refuerza tu relación comercial</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:620px;margin-left:auto;margin-right:auto;">EticAlert permite ofrecer una solución especializada sin fricción operativa, manteniendo al partner como prescriptor de confianza.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;">
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.5rem;">Diferenciación</div>
+          <h3 style="font-size:1.0625rem;font-weight:700;margin-bottom:0.5rem;">Amplía tu propuesta</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;">Incorpora una solución complementaria que ayuda al cliente a resolver una necesidad concreta.</p>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.5rem;">Fidelización</div>
+          <h3 style="font-size:1.0625rem;font-weight:700;margin-bottom:0.5rem;">Aporta utilidad real</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;">La recomendación genera conversación, continuidad y una razón adicional para permanecer cerca del cliente.</p>
+        </div>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.75rem;">
+          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.5rem;">Retorno</div>
+          <h3 style="font-size:1.0625rem;font-weight:700;margin-bottom:0.5rem;">Convierte interés en valor</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin:0;">Cada oportunidad activada puede generar crédito dentro del programa partner, sujeto a condiciones.</p>
+        </div>
+      </div>
+      <p style="text-align:center;color:var(--text-secondary);margin-top:2rem;max-width:640px;margin-left:auto;margin-right:auto;font-size:0.9375rem;">El objetivo es simple: que tus clientes accedan a EticAlert con acompañamiento y que tu empresa obtenga un beneficio por prescribirlo.</p>
+    </div>
+  </section>
+
+  <!-- PROGRAMA DE CRÉDITO -->
+  <section id="como-funciona" style="padding:60px 0;border-bottom:1px solid var(--border);background:var(--bg-secondary);">
+    <div class="container" style="max-width:900px;">
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Crédito partner por oportunidades activadas</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:1rem;max-width:620px;margin-left:auto;margin-right:auto;">Cuando un cliente recomendado contrata EticAlert, el partner puede generar crédito. Las condiciones aplicables se comparten de forma personalizada bajo solicitud.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.25rem;margin-top:2.5rem;">
+        <?php
+        $mecanica = [
+          ['1', 'Recomiendas', 'Identificas una empresa que puede beneficiarse de EticAlert.'],
+          ['2', 'Acompañas', 'EticAlert facilita el proceso comercial y la activación del cliente.'],
+          ['3', 'Se activa', 'El cliente incorpora la solución y queda vinculado al partner prescriptor.'],
+          ['4', 'Obtienes crédito', 'El programa reconoce la recomendación conforme a las condiciones vigentes.'],
+        ];
+        foreach ($mecanica as $m): ?>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;">
+          <div style="width:36px;height:36px;border-radius:50%;background:rgba(74,222,128,0.1);border:2px solid var(--accent-border);display:flex;align-items:center;justify-content:center;font-size:0.9375rem;font-weight:800;color:var(--accent);margin-bottom:0.875rem;"><?= $m[0] ?></div>
+          <h3 style="font-size:0.9375rem;font-weight:700;margin-bottom:0.375rem;"><?= $m[1] ?></h3>
+          <p style="font-size:0.8125rem;color:var(--text-secondary);margin:0;"><?= $m[2] ?></p>
         </div>
         <?php endforeach; ?>
       </div>
     </div>
   </section>
 
-  <!-- CALCULADORA DE INGRESOS -->
-  <section style="padding:60px 0;background:var(--bg-secondary);border-bottom:1px solid var(--border);">
-    <div class="container" style="max-width:860px;">
-      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">¿Cuánto puedes ganar?</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;">Estimación de ingresos recurrentes según el número de clientes que actives.</p>
-      <div style="overflow-x:auto;">
-        <table style="width:100%;border-collapse:collapse;font-size:0.9375rem;">
-          <thead>
-            <tr style="background:var(--bg-card);">
-              <th style="padding:0.875rem 1rem;border:1px solid var(--border);text-align:left;">Clientes activos</th>
-              <th style="padding:0.875rem 1rem;border:1px solid var(--border);text-align:center;">Plan medio asumido</th>
-              <th style="padding:0.875rem 1rem;border:1px solid var(--border);text-align:right;">Ingreso mensual partner</th>
-              <th style="padding:0.875rem 1rem;border:1px solid var(--border);text-align:right;">Ingreso anual partner</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php
-            $rows = [
-              [5,  'Business (19€)', 19, 5],
-              [10, 'Business (19€)', 19, 10],
-              [20, 'Business (19€)', 19, 20],
-              [20, 'Company (39€)',  39, 20],
-              [50, 'Company (39€)',  39, 50],
-            ];
-            foreach ($rows as $i => $r):
-              $monthly = round($r[2] * $r[3] * 0.20, 0);
-              $annual  = $monthly * 12;
-            ?>
-            <tr <?= $i % 2 ? 'style="background:var(--bg-card);"' : '' ?>>
-              <td style="padding:0.75rem 1rem;border:1px solid var(--border);font-weight:600;"><?= $r[3] ?> clientes</td>
-              <td style="padding:0.75rem 1rem;border:1px solid var(--border);text-align:center;color:var(--text-secondary);"><?= $r[1] ?></td>
-              <td style="padding:0.75rem 1rem;border:1px solid var(--border);text-align:right;font-weight:700;color:var(--accent);"><?= number_format($monthly, 0, ',', '.') ?> €/mes</td>
-              <td style="padding:0.75rem 1rem;border:1px solid var(--border);text-align:right;font-weight:700;"><?= number_format($annual, 0, ',', '.') ?> €/año</td>
-            </tr>
-            <?php endforeach; ?>
-          </tbody>
-        </table>
-      </div>
-      <p style="font-size:0.8125rem;color:var(--text-muted);margin-top:0.75rem;">Estimación orientativa. Las comisiones exactas se establecen en el contrato de partnership. Sin límite de clientes ni de ingresos.</p>
-    </div>
-  </section>
-
-  <!-- PARA QUIÉN ES -->
+  <!-- USO DEL CRÉDITO -->
   <section style="padding:60px 0;border-bottom:1px solid var(--border);">
-    <div class="container" style="max-width:860px;">
-      <h2 style="font-size:1.5rem;margin-bottom:2rem;">¿Es para mi despacho o asesoría?</h2>
+    <div class="container" style="max-width:900px;">
+      <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Elige cómo aprovechar el crédito generado</h2>
+      <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:620px;margin-left:auto;margin-right:auto;">El programa puede adaptarse a tu estrategia comercial: monetizar la recomendación o hacer más atractiva la propuesta para el cliente final.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-        <div>
-          <h3 style="font-size:1rem;font-weight:700;color:var(--accent);margin-bottom:1rem;">✓ Es para ti si…</h3>
-          <?php
-          $yes = [
-            'Tienes clientes con 50+ empleados',
-            'Ofreces servicios de gestoría, asesoría laboral, fiscal o jurídica',
-            'Quieres ampliar tu cartera de servicios sin aumentar costes fijos',
-            'Buscas ingresos recurrentes más allá de la cuota mensual de asesoría',
-            'Quieres posicionarte como referente en compliance para tus clientes',
-          ];
-          foreach ($yes as $y): ?>
-          <div style="display:flex;gap:0.5rem;padding:0.4rem 0;border-bottom:1px solid var(--border);font-size:0.875rem;color:var(--text-secondary);">
-            <span style="color:var(--accent);">✓</span><?= $y ?>
-          </div>
-          <?php endforeach; ?>
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;">
+          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.75rem;">Opción Partner</div>
+          <h3 style="font-size:1.25rem;font-weight:800;margin-bottom:0.75rem;">Retirarlo como beneficio</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:0.75rem;">El partner puede acumular crédito por clientes activados y solicitar su aplicación conforme a las condiciones del programa.</p>
+          <p style="font-size:0.8125rem;color:var(--text-muted);margin:0;">Pensado para generar retorno directo por prescripción.</p>
         </div>
-        <div>
-          <h3 style="font-size:1rem;font-weight:700;color:#dc2626;margin-bottom:1rem;">✗ No es para ti si…</h3>
-          <?php
-          $no = [
-            'Todos tus clientes tienen menos de 20 empleados y no son sujetos obligados PBC',
-            'No tienes interés en ofrecer servicios de compliance',
-            'Prefieres que tus clientes gestionen esto por su cuenta',
-          ];
-          foreach ($no as $n): ?>
-          <div style="display:flex;gap:0.5rem;padding:0.4rem 0;border-bottom:1px solid var(--border);font-size:0.875rem;color:var(--text-secondary);">
-            <span style="color:#dc2626;">✗</span><?= $n ?>
-          </div>
-          <?php endforeach; ?>
+        <div style="background:var(--bg-card);border:2px solid var(--accent);border-radius:16px;padding:2rem;">
+          <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.75rem;">Opción Cliente</div>
+          <h3 style="font-size:1.25rem;font-weight:800;margin-bottom:0.75rem;">Aplicarlo al cliente final</h3>
+          <p style="font-size:0.875rem;color:var(--text-secondary);margin-bottom:0.75rem;">El crédito también puede utilizarse para mejorar la propuesta comercial del cliente recomendado y facilitar la contratación.</p>
+          <p style="font-size:0.8125rem;color:var(--text-muted);margin:0;">Pensado para acelerar la decisión de compra.</p>
         </div>
       </div>
+      <p style="text-align:center;font-size:0.8125rem;color:var(--text-muted);margin-top:2rem;">Las modalidades concretas se confirman al solicitar condiciones del programa partner.</p>
     </div>
   </section>
 
@@ -282,12 +240,12 @@ include 'includes/header.php';
       <h2 style="font-size:1.5rem;margin-bottom:2rem;">Preguntas frecuentes</h2>
       <?php
       $faqs = [
-        ['¿Cuánto cobra un partner por cada cliente?', 'Los partners reciben una comisión del 20% mensual recurrente durante toda la vida del cliente. Por ejemplo, un cliente en el plan Company (39€/mes) genera 7,80€/mes para el partner, todos los meses, sin límite de tiempo.'],
-        ['¿Puedo ofrecer EticAlert con mi propia marca?', 'Sí. Los partners con opción white-label pueden presentar el canal de denuncias con su propio nombre y logo. El cliente ve la marca del partner, no la de EticAlert. Disponible en el plan Partner White-label.'],
-        ['¿Necesito conocimientos técnicos para ser partner?', 'No. EticAlert es una plataforma SaaS sin instalación. El partner solo necesita conocer los requisitos legales (que como asesoría ya conoce) y usar el panel de partners para gestionar sus clientes.'],
-        ['¿Qué materiales de venta proporciona EticAlert?', 'Los partners reciben un kit completo: presentación en PowerPoint personalizable, email templates para comunicar la obligación a sus clientes, guía de argumentario de ventas, acceso a cuenta demo ilimitada y sesión de onboarding.'],
-        ['¿Cuánto tiempo lleva activar el canal para un cliente?', 'Menos de 10 minutos desde el panel de partners. El cliente puede empezar a recibir denuncias ese mismo día.'],
-        ['¿Hay una cuota para ser partner?', 'No. El programa de partnership no tiene coste de entrada. Solo cobramos cuando el cliente paga, y te transferimos tu comisión automáticamente.'],
+        ['¿Cómo se genera el crédito del programa partner?', 'Cuando un cliente que has recomendado contrata EticAlert, el programa reconoce esa recomendación con crédito para el partner. Las condiciones exactas se comparten de forma personalizada al solicitar información, según tu volumen de cartera y el tipo de partnership.'],
+        ['¿Qué puedo hacer con el crédito generado?', 'Dos opciones: retirarlo como beneficio propio por cada cliente activado, o aplicarlo a favor del cliente final para hacer más atractiva la propuesta y acelerar su decisión de compra. La modalidad se confirma al activar el acuerdo.'],
+        ['¿Qué tipo de empresas pueden ser partner?', 'Tres perfiles principales: asesores (despachos, consultoras y profesionales de cumplimiento), proveedores B2B con cartera de clientes, y partners sectoriales que detectan oportunidades y quieren derivarlas de forma trazable.'],
+        ['¿Necesito conocimientos técnicos para ser partner?', 'No. EticAlert es una plataforma SaaS sin instalación. El partner identifica la oportunidad y acompaña al cliente; EticAlert facilita el proceso comercial y la activación técnica.'],
+        ['¿Hay una cuota para ser partner?', 'No. El programa no tiene coste de entrada. El crédito se genera solo cuando una recomendación se convierte en cliente activo.'],
+        ['¿Cómo solicito las condiciones completas?', 'Escribe a partners@eticalert.com o responde a la propuesta que hayas recibido. Revisamos juntos cómo encaja EticAlert con tu cartera de clientes y te compartimos las condiciones vigentes.'],
       ];
       foreach ($faqs as $faq): ?>
       <details style="border:1px solid var(--border);border-radius:8px;padding:1rem;margin:0.75rem 0;">
@@ -301,12 +259,12 @@ include 'includes/header.php';
   <!-- CTA FINAL -->
   <section style="padding:80px 0;">
     <div class="container" style="max-width:620px;text-align:center;">
-      <h2 style="font-size:1.75rem;margin-bottom:1rem;">¿Hablamos?</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Escríbenos explicando brevemente tu asesoría y cuántos clientes obligados crees que tienes. Te respondemos en menos de 24 horas con una propuesta personalizada.</p>
-      <a href="mailto:partners@eticalert.com?subject=Quiero ser partner de EticAlert" class="btn btn-primary" style="font-size:1.0625rem;padding:0.875rem 2.5rem;">
-        Escribir a partners@eticalert.com →
+      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Hablemos de tu programa partner</h2>
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Solicita las condiciones y revisamos juntos cómo encaja EticAlert con tu cartera de clientes.</p>
+      <a href="mailto:partners@eticalert.com?subject=Quiero solicitar las condiciones del programa partner" class="btn btn-primary" style="font-size:1.0625rem;padding:0.875rem 2.5rem;">
+        Solicitar condiciones →
       </a>
-      <p style="margin-top:1.25rem;font-size:0.875rem;color:var(--text-muted);">Sin compromiso · Respuesta en 24h · Contrato simple</p>
+      <p style="margin-top:1.25rem;font-size:0.875rem;color:var(--text-muted);">Sin coste de entrada · Respuesta personalizada</p>
     </div>
   </section>
 
