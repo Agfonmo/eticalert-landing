@@ -259,6 +259,7 @@ include '../includes/header.php';
               <h4>Canal de denuncias en joyería, arte y antigüedades</h4>
             </a>
           </div>
+          <p style="margin-top:1.25rem;"><a href="/sectores" style="color:var(--accent);font-weight:600;">Ver los más de 30 sectores analizados →</a></p>
         </div>
 
       </div>

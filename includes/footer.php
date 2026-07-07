@@ -53,6 +53,7 @@
       <div class="footer-col">
         <h3>Sectores</h3>
         <ul>
+          <li><a href="/sectores">Ver todos los sectores</a></li>
           <li><a href="/canal-denuncias-comunidades">Por Comunidad Autónoma</a></li>
           <li><a href="/blog/canal-denuncias-pymes">Pymes</a></li>
           <li><a href="/blog/canal-denuncias-asesorias-despachos">Asesorías y despachos</a></li>

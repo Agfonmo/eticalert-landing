@@ -4,7 +4,7 @@ $page_description = 'Notarios y registradores son sujetos obligados PBC (Ley 10/
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-notarias-registros';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
@@ -15,7 +15,7 @@ include '../includes/header.php';
   "description": "Notarios y registradores son sujetos obligados PBC (Ley 10/2010) y están obligados a tener canal de denuncias por la Ley 2/2023, con independencia del número de empleados.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-notarias-registros",
-  "datePublished": "2026-05-26","dateModified": "2026-05-26",
+  "datePublished": "2026-05-26","dateModified": "2026-07-07",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "canal denuncias notaría, canal denuncias notario, canal denuncias registro propiedad, notarios obligados canal denuncias"
@@ -53,7 +53,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para notarías y registros: obligación y cómo cumplir</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 6 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a julio 2026 · 9 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Las notarías y los registros de la propiedad y mercantiles tienen una obligación de canal de denuncias que deriva no del tamaño de la organización, sino de su posición como <strong>sujetos obligados por la Ley 10/2010 de prevención del blanqueo de capitales (PBC)</strong>. Una notaría con el notario titular y cuatro oficiales de notaría puede estar plenamente obligada.</p>
@@ -100,6 +100,28 @@ include '../includes/header.php';
           <li>Un RSII externo designado a través de una asesoría o consultoría de compliance.</li>
         </ul>
         <p>La designación debe comunicarse a la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> a través de su sede electrónica. EticAlert incluye la plantilla de la política del SII y el procedimiento de designación y notificación del RSII.</p>
+
+        <h2 id="canal-vs-sepblac">Canal de denuncias vs. comunicación al SEPBLAC: no son lo mismo</h2>
+        <p>Es habitual que notarios y registradores confundan dos obligaciones distintas que, aunque relacionadas, no son intercambiables:</p>
+        <ul>
+          <li><strong>La comunicación al SEPBLAC</strong> es la obligación del propio notario o registrador, como sujeto obligado PBC, de reportar directamente al Servicio Ejecutivo cuando detecta indicios de blanqueo en una operación que autoriza o inscribe.</li>
+          <li><strong>El canal de denuncias de la Ley 2/2023</strong> es un canal interno para que el personal de la notaría o registro comunique irregularidades — incluyendo la falta de comunicación al SEPBLAC por parte del propio notario o registrador titular.</li>
+        </ul>
+        <p>Es decir: el canal de denuncias es, entre otras cosas, la vía por la que un oficial de notaría puede alertar de que su notario titular <em>no está cumpliendo</em> con sus propias obligaciones de comunicación al SEPBLAC. Por eso el RSII no puede ser la misma persona que toma las decisiones sobre qué se comunica y qué no al Servicio Ejecutivo, salvo que se articulen las debidas garantías de independencia.</p>
+
+        <h2 id="sanciones-notaria">Sanciones aplicables a notarías y registros</h2>
+        <p>El régimen sancionador de la Ley 2/2023 se suma al régimen disciplinario propio de notarios y registradores, que depende de la Dirección General de Seguridad Jurídica y Fe Pública:</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0;">
+          <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:10px;padding:1.25rem;text-align:center;">
+            <div style="font-size:1.375rem;font-weight:800;color:#dc2626;">1.000.000 €</div>
+            <div style="font-size:0.8125rem;color:var(--text-secondary);margin-top:0.25rem;">Multa máx. AIPI por no tener canal (Ley 2/2023)</div>
+          </div>
+          <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:10px;padding:1.25rem;text-align:center;">
+            <div style="font-size:1.375rem;font-weight:800;color:#dc2626;">1.500.000 €</div>
+            <div style="font-size:0.8125rem;color:var(--text-secondary);margin-top:0.25rem;">Multa máx. SEPBLAC por incumplimientos PBC</div>
+          </div>
+        </div>
+        <p>A esto se suma el riesgo reputacional: una notaría o registro sancionado por incumplimientos de canal de denuncias o PBC puede ver afectada su relación con colegios profesionales, bancos y clientes institucionales que exigen due diligence reforzada antes de operar con ellos.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal operativo para notarías desde 9€/mes</h3>

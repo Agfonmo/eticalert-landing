@@ -73,7 +73,14 @@ include '../includes/header.php';
       {"@type":"ListItem","position":45,"url":"https://eticalert.com/blog/protocolo-canal-denuncias","name":"Protocolo del canal de denuncias (Ley 2/2023): qué debe contener y modelo por secciones"},
       {"@type":"ListItem","position":46,"url":"https://eticalert.com/blog/canal-denuncias-anonimo","name":"Canal de denuncias anónimo: ¿es realmente anónimo? Qué ve el gestor y qué no"},
       {"@type":"ListItem","position":47,"url":"https://eticalert.com/blog/canal-denuncias-pymes","name":"Canal de denuncias para pymes: quién está obligado y cómo activarlo"},
-      {"@type":"ListItem","position":48,"url":"https://eticalert.com/blog/canal-denuncias-universidades","name":"Canal de denuncias para universidades y centros educativos"}
+      {"@type":"ListItem","position":48,"url":"https://eticalert.com/blog/canal-denuncias-universidades","name":"Canal de denuncias para universidades y centros educativos"},
+      {"@type":"ListItem","position":49,"url":"https://eticalert.com/blog/canal-denuncias-administradores-fincas","name":"Canal de denuncias para administradores de fincas"},
+      {"@type":"ListItem","position":50,"url":"https://eticalert.com/blog/canal-denuncias-seguridad-privada","name":"Canal de denuncias para empresas de seguridad privada"},
+      {"@type":"ListItem","position":51,"url":"https://eticalert.com/blog/canal-denuncias-residencias-mayores","name":"Canal de denuncias para residencias de mayores"},
+      {"@type":"ListItem","position":52,"url":"https://eticalert.com/blog/canal-denuncias-empresas-trabajo-temporal","name":"Canal de denuncias para empresas de trabajo temporal (ETT)"},
+      {"@type":"ListItem","position":53,"url":"https://eticalert.com/blog/canal-denuncias-sector-energia","name":"Canal de denuncias para el sector energético"},
+      {"@type":"ListItem","position":54,"url":"https://eticalert.com/blog/canal-denuncias-agroalimentario","name":"Canal de denuncias para el sector agroalimentario"},
+      {"@type":"ListItem","position":55,"url":"https://eticalert.com/blog/canal-denuncias-franquicias","name":"Canal de denuncias en redes de franquicias"}
     ]
   }
 }
@@ -658,6 +665,56 @@ include '../includes/header.php';
           <h3>Canal de denuncias para universidades y centros educativos</h3>
           <p>Las universidades con 50 o más empleados están obligadas por la Ley 2/2023. Requisitos, plazos y cómo activarlo desde 39€/mes.</p>
           <span class="blog-card-meta">2 jun 2026 · 7 min lectura</span>
+        </a>
+
+        <!-- NUEVOS SECTORES JULIO 2026 -->
+        <a href="/blog/canal-denuncias-administradores-fincas" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para administradores de fincas</h3>
+          <p>La gestión de fondos ajenos —cuotas y derramas de comunidades— hace del canal de denuncias una herramienta especialmente relevante en este sector.</p>
+          <span class="blog-card-meta">7 jul 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-seguridad-privada" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para empresas de seguridad privada</h3>
+          <p>Riesgos específicos del sector y por qué la relación con la contratación pública hace crítico disponer de un canal conforme.</p>
+          <span class="blog-card-meta">7 jul 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-residencias-mayores" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para residencias de mayores</h3>
+          <p>Cuándo están obligadas y por qué el canal es clave para detectar internamente malos tratos o negligencias antes de que escalen.</p>
+          <span class="blog-card-meta">7 jul 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-empresas-trabajo-temporal" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para ETT</h3>
+          <p>Cómo funciona el canal cuando el trabajador está cedido a una empresa usuaria distinta de su empleador formal.</p>
+          <span class="blog-card-meta">7 jul 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-sector-energia" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para el sector energético</h3>
+          <p>Obligación general de plantilla y su relación con la normativa REMIT de integridad del mercado energético.</p>
+          <span class="blog-card-meta">7 jul 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-agroalimentario" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias para el sector agroalimentario</h3>
+          <p>Fraude alimentario, seguridad y trazabilidad, y condiciones laborales en campañas de temporada.</p>
+          <span class="blog-card-meta">7 jul 2026 · 8 min lectura</span>
+        </a>
+
+        <a href="/blog/canal-denuncias-franquicias" class="blog-card fade-up" data-category="sectores">
+          <span class="blog-badge badge-sectores">Por sector</span>
+          <h3>Canal de denuncias en redes de franquicias</h3>
+          <p>¿Franquiciador o cada franquiciado? Cómo se aplica la obligación cuando las empresas de la red son jurídicamente independientes.</p>
+          <span class="blog-card-meta">7 jul 2026 · 7 min lectura</span>
         </a>
 
       </div><!-- /blog-grid -->

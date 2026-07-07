@@ -4,11 +4,11 @@ $page_description = 'Aerolíneas, navieras y ferroviarias están obligadas por n
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para transporte aéreo y marítimo: obligación y cómo cumplir","description":"Los operadores de transporte aéreo certificados bajo normativa EASA y las empresas navieras bajo SOLAS/EMSA están en el ámbito de la Directiva Whistleblowing y deben tener canal de denuncias.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","datePublished":"2026-05-26","dateModified":"2026-05-26","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias transporte aereo, canal denuncias naviera, canal denuncias transporte maritimo, canal denuncias aerolinea, canal denuncias operador aereo"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para transporte aéreo y marítimo: obligación y cómo cumplir","description":"Los operadores de transporte aéreo certificados bajo normativa EASA y las empresas navieras bajo SOLAS/EMSA están en el ámbito de la Directiva Whistleblowing y deben tener canal de denuncias.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","datePublished":"2026-05-26","dateModified":"2026-07-07","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias transporte aereo, canal denuncias naviera, canal denuncias transporte maritimo, canal denuncias aerolinea, canal denuncias operador aereo"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Canal de denuncias para transporte aéreo y marítimo","item":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo"}]}
@@ -27,7 +27,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para transporte aéreo y marítimo: obligación y cómo cumplir</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 6 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a julio 2026 · 9 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>La Directiva (UE) 2019/1937 de protección del informante incluye expresamente la <em>seguridad del transporte</em> como uno de los ámbitos normativos que activan la obligación de canal de denuncias. Esto significa que las empresas de transporte aéreo y marítimo reguladas por normativa europea están obligadas aunque tengan menos de 50 empleados: la licencia o el certificado de operador, no la plantilla, es lo que determina la obligación.</p>
@@ -76,6 +76,20 @@ include '../includes/header.php';
 
         <h2 id="transporte-ferroviario">Transporte ferroviario</h2>
         <p>Las empresas ferroviarias con licencia bajo la Directiva de Seguridad Ferroviaria (Dir. 2016/798) y los administradores de infraestructuras ferroviarias también están en el ámbito de la normativa UE de seguridad del transporte. En España, las entidades con licencia de la Agencia Estatal de Seguridad Ferroviaria (AESF) están obligadas.</p>
+
+        <h2 id="quien-puede-usar">Quién puede usar el canal: tripulaciones, tierra y subcontratas</h2>
+        <p>El perfil de plantilla en el transporte aéreo y marítimo es distinto al de una empresa de oficina: buena parte del personal opera embarcado o en vuelo, con rotaciones, turnos irregulares y, con frecuencia, contratado a través de agencias de tripulación o empresas de trabajo temporal. La Ley 2/2023 exige que el canal sea accesible para todos ellos, no solo para el personal de tierra:</p>
+        <ul>
+          <li><strong>Tripulación de vuelo y de cabina</strong>, incluida la contratada a través de agencias de wet lease o ACMI.</li>
+          <li><strong>Personal de mantenimiento (MRO)</strong>, propio o subcontratado.</li>
+          <li><strong>Tripulación de buques</strong>, incluidos marinos contratados a través de agencias de enrolamiento internacionales.</li>
+          <li><strong>Personal de tierra en aeropuertos y puertos</strong>: handling, estiba, seguridad.</li>
+        </ul>
+        <p>Esto plantea un reto práctico: el canal debe funcionar bien desde dispositivos móviles y sin necesidad de conexión constante, dado que buena parte de este personal pasa largos periodos sin acceso estable a internet corporativo. Un canal web accesible desde el navegador del móvil personal, sin necesidad de instalar una app corporativa, resuelve ese problema mejor que soluciones que dependen de la red interna de la empresa.</p>
+
+        <h2 id="sanciones-transporte">Sanciones y el vínculo con las autoridades de seguridad</h2>
+        <p>El incumplimiento de la obligación de canal de denuncias se sanciona por la vía de la Ley 2/2023 (hasta 1.000.000€ en infracciones muy graves), pero en el sector del transporte existe una capa adicional de exposición: las autoridades de seguridad sectoriales (AESA, EMSA, AESF) pueden considerar la ausencia de un canal de reporte interno efectivo como un indicio de debilidad en el sistema de gestión de la seguridad (SMS) exigido por su propia normativa, lo que puede derivar en requerimientos o sanciones independientes por parte de esos organismos.</p>
+        <p>En la práctica, muchas aerolíneas y navieras ya integran el canal de denuncias de la Ley 2/2023 como un canal adicional dentro de su Sistema de Gestión de la Seguridad, de forma que un mismo incidente pueda reportarse tanto por motivos de seguridad operacional como de posible irregularidad o presión indebida.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal de denuncias para empresas de transporte desde 9€/mes</h3>

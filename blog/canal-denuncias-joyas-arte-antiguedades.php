@@ -4,11 +4,11 @@ $page_description = 'Joyerías, anticuarios y galerías de arte son sujetos obli
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-joyas-arte-antiguedades';
 $page_og_type     = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para joyerías, galerías de arte y comercio de bienes de alto valor","description":"Los comerciantes de bienes de alto valor (joyas, arte, antigüedades, metales preciosos) son sujetos obligados PBC en transacciones de 10.000€ o más y deben tener canal de denuncias.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-joyas-arte-antiguedades","datePublished":"2026-05-26","dateModified":"2026-05-26","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias joyería, canal denuncias galería arte, canal denuncias anticuario, canal denuncias bienes alto valor, joyero obligado canal denuncias"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para joyerías, galerías de arte y comercio de bienes de alto valor","description":"Los comerciantes de bienes de alto valor (joyas, arte, antigüedades, metales preciosos) son sujetos obligados PBC en transacciones de 10.000€ o más y deben tener canal de denuncias.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-joyas-arte-antiguedades","datePublished":"2026-05-26","dateModified":"2026-07-07","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias joyería, canal denuncias galería arte, canal denuncias anticuario, canal denuncias bienes alto valor, joyero obligado canal denuncias"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Canal de denuncias para joyerías y arte","item":"https://eticalert.com/blog/canal-denuncias-joyas-arte-antiguedades"}]}
@@ -27,7 +27,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para joyerías, galerías de arte y comercio de bienes de alto valor</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 5 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a julio 2026 · 8 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>El comercio de bienes de alto valor —joyas, obras de arte, antigüedades, metales y piedras preciosas, vehículos de lujo— es uno de los vehículos clásicos de blanqueo de capitales. Una operación de compraventa de un cuadro o de un collar de diamantes permite mover grandes sumas de dinero en efectivo con aparente normalidad. Por eso la Ley 10/2010 los incluye como <strong>sujetos obligados PBC</strong>, y la obligación de canal de denuncias les sigue de cerca.</p>
@@ -66,6 +66,22 @@ include '../includes/header.php';
           <li><strong>Documentación falsa de procedencia:</strong> obras de arte sin cadena de custodia documentada (provenance) o con documentación de autenticidad falsificada.</li>
           <li><strong>Presión para no registrar operaciones:</strong> directivos o propietarios que instruyen a los empleados para no registrar operaciones en efectivo por encima del umbral.</li>
         </ul>
+
+        <h2 id="negocio-familiar">Cómo activar el canal en un negocio familiar o de pocos empleados</h2>
+        <p>Buena parte de las joyerías y anticuarios en España son negocios familiares de 2 a 10 personas, donde el propietario ejerce de gerente, comprador y, a menudo, también de responsable de cumplimiento normativo. En este contexto, designar un RSII (Responsable del Sistema Interno de Información) plantea una duda habitual: <strong>¿puede ser el propio dueño?</strong></p>
+        <p>La ley exige que el RSII tenga autonomía e independencia en el ejercicio de sus funciones, pero en negocios muy pequeños es razonable que el propietario asuma el rol si no hay conflicto de interés evidente — por ejemplo, si la denuncia no puede ser sobre su propia conducta. Cuando esto no es posible, la alternativa habitual es designar un RSII externo a través de la gestoría o asesoría que ya lleva la contabilidad y fiscalidad del negocio.</p>
+        <ul>
+          <li><strong>Negocio de 1-5 empleados:</strong> el propietario puede ser RSII si no hay conflicto de interés directo, o delegarlo en la asesoría externa.</li>
+          <li><strong>Negocio de 6-20 empleados:</strong> conviene designar a un encargado o gerente con autonomía sobre el área comercial, distinto del propietario si este participa activamente en las operaciones de venta.</li>
+          <li><strong>Cadenas o franquicias del sector:</strong> puede designarse un RSII corporativo único para toda la red si el canal está centralizado y cada punto de venta puede acceder a él.</li>
+        </ul>
+
+        <h2 id="diligencia-debida">Diligencia debida reforzada y su relación con el canal</h2>
+        <p>La Ley 10/2010 exige a estos negocios aplicar <strong>medidas de diligencia debida</strong> antes de aceptar operaciones por encima del umbral: identificar al cliente, conocer el propósito de la operación y, en casos de mayor riesgo, verificar el origen de los fondos. El canal de denuncias no sustituye estas obligaciones, pero es la vía por la que un empleado puede alertar cuando detecta que esos procedimientos no se están siguiendo.</p>
+        <p>Un ejemplo típico: un dependiente detecta que su encargado acepta sistemáticamente pagos en efectivo de clientes recurrentes sin registrar la operación ni solicitar documentación, para no "molestar" a compradores habituales de alto valor. Sin un canal confidencial, ese empleado no tiene ninguna vía segura para comunicarlo — hablar directamente con el encargado implicado no es una opción realista. El canal de denuncias resuelve exactamente ese vacío.</p>
+        <div class="callout">
+          <p><strong>Dato práctico:</strong> los negocios de este sector que ya tienen procedimientos de diligencia debida documentados (ficha de cliente, registro de operaciones, política de aceptación de efectivo) suelen tardar menos de una hora en configurar el canal, porque ya tienen identificados los riesgos que quieren cubrir.</p>
+        </div>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal de denuncias para joyerías y galerías desde 9€/mes</h3>

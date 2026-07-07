@@ -4,7 +4,7 @@ $page_description = 'Las corredurías de seguros están reguladas por la Directi
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-correduria-seguros';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
@@ -15,7 +15,7 @@ include '../includes/header.php';
   "description": "Las corredurías de seguros reguladas bajo IDD (Directiva de Distribución de Seguros) y las que son sujetos obligados PBC pueden estar obligadas a canal de denuncias aunque tengan menos de 50 empleados.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-correduria-seguros",
-  "datePublished": "2026-05-26","dateModified": "2026-05-26",
+  "datePublished": "2026-05-26","dateModified": "2026-07-07",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "canal denuncias correduría seguros, canal denuncias broker seguros, canal denuncias aseguradora, intermediario seguros obligado canal denuncias"
@@ -53,7 +53,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para corredurías de seguros: obligación y cómo cumplir</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 6 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a julio 2026 · 9 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>El sector asegurador tiene un perfil regulatorio complejo. Las corredurías y mediadores de seguros se preguntan si la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a> les afecta, y la respuesta no es simple: <strong>depende de su actividad concreta y de en qué marcos normativos europeos opera</strong>. Muchas corredurías de tamaño mediano y pequeño pueden estar obligadas sin saberlo.</p>
@@ -83,6 +83,25 @@ include '../includes/header.php';
 
         <h2 id="solvencia-ii">Solvencia II y el canal: la doble capa para aseguradoras</h2>
         <p>Las aseguradoras sujetas a Solvencia II (la gran mayoría de las que operan en España) ya tienen obligaciones de reporte interno de incidentes de control interno y de gestión de riesgos. La Directiva Whistleblowing se superpone a estos marcos: el canal de denuncias de la Ley 2/2023 no reemplaza los mecanismos de reporte de Solvencia II, sino que los complementa con un canal específico para los empleados que quieran comunicar irregularidades de forma anónima y protegida.</p>
+
+        <h2 id="checklist-obligacion">Checklist práctico: ¿está tu correduría obligada?</h2>
+        <p>Antes de decidir si necesitas canal de denuncias, responde a estas preguntas:</p>
+        <ul>
+          <li><strong>¿Tienes 50 o más empleados?</strong> Si es sí, estás obligado directamente. Fin de la consulta.</li>
+          <li><strong>¿Estás inscrito como corredor de seguros en la DGSFP?</strong> Si es sí, operas bajo IDD y probablemente estás en el ámbito de la Directiva Whistleblowing.</li>
+          <li><strong>¿Comercializas seguros de vida con componente de ahorro o inversión?</strong> Si es sí, puede aplicarte además la normativa PBC.</li>
+          <li><strong>¿Eres agente exclusivo de una sola aseguradora?</strong> El régimen de obligación puede variar; conviene revisar con tu asesor si la correduría o la aseguradora principal asume la responsabilidad del canal.</li>
+        </ul>
+        <p>Si has respondido "sí" a la segunda o tercera pregunta, tu correduría está muy probablemente obligada aunque tenga una plantilla reducida. La confusión más habitual en el sector es asumir que solo las aseguradoras grandes tienen esta obligación — en realidad, el criterio regulatorio pesa más que el tamaño.</p>
+
+        <h2 id="rsii-correduria">El RSII en una correduría pequeña</h2>
+        <p>En corredurías de menos de 10 empleados, el Responsable del Sistema Interno de Información suele recaer en una de estas figuras:</p>
+        <ul>
+          <li>El corredor titular o socio-director, si no hay conflicto de interés evidente con las comunicaciones que pueda recibir.</li>
+          <li>El responsable de administración o back-office, si tiene autonomía suficiente respecto al área comercial.</li>
+          <li>Un RSII externo, habitual en corredurías que ya delegan su compliance normativo (IDD, protección de datos) en un consultor especializado del sector asegurador.</li>
+        </ul>
+        <p>Sea cual sea la opción, la designación debe comunicarse formalmente a la AIPI y quedar documentada en la Política del Sistema Interno de Información de la correduría.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal de denuncias para el sector asegurador desde 9€/mes</h3>

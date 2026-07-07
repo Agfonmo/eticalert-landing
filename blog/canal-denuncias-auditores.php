@@ -4,7 +4,7 @@ $page_description = 'Los auditores inscritos en el ROAC son sujetos obligados PB
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-auditores';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
@@ -15,7 +15,7 @@ include '../includes/header.php';
   "description": "Los auditores inscritos en el ROAC son sujetos obligados por la Ley 10/2010 PBC y por tanto deben tener canal de denuncias según la Ley 2/2023, independientemente de su tamaño.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-auditores",
-  "datePublished": "2026-05-26","dateModified": "2026-05-26",
+  "datePublished": "2026-05-26","dateModified": "2026-07-07",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "canal denuncias auditores, canal denuncias firma auditoría, canal denuncias ROAC, auditores obligados canal denuncias"
@@ -53,7 +53,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para auditores de cuentas: obligación y cómo cumplir</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 6 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a julio 2026 · 9 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Los auditores de cuentas tienen una obligación de canal de denuncias que muchas firmas aún no han identificado correctamente. La razón es que la obligación no viene solo del umbral de 50 empleados de la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a>, sino de su condición de <strong>sujetos obligados por la Ley 10/2010 de prevención del blanqueo de capitales (PBC)</strong>. Y esa condición aplica a cualquier auditor inscrito en el ROAC, independientemente del tamaño de su firma.</p>
@@ -95,6 +95,22 @@ include '../includes/header.php';
         <h2 id="riesgo-si-no-cumple">Riesgo de incumplimiento para la firma</h2>
         <p>El incumplimiento de la obligación de canal de denuncias es una <strong>infracción muy grave</strong> según la Ley 2/2023. Las sanciones van desde <strong>100.000€ hasta 1.000.000€</strong> para la persona jurídica, más hasta <strong>300.000€</strong> para los socios o administradores responsables.</p>
         <p>Además, para las firmas de auditoría que también tienen obligaciones como sujeto obligado PBC, el incumplimiento en materia de prevención del blanqueo puede acarrear sanciones adicionales del SEPBLAC, que tiene competencias sancionadoras independientes.</p>
+
+        <h2 id="conflicto-rsii">El auditor como RSII de sus clientes: un conflicto a evitar</h2>
+        <p>Una situación particular del sector: algunas firmas de auditoría, especialmente las que también prestan servicios de asesoría a pymes, reciben la petición de sus clientes de actuar como RSII externo del canal de denuncias <em>del cliente</em>. Esto plantea un riesgo de conflicto de interés que conviene analizar con cuidado.</p>
+        <p>El auditor que revisa las cuentas de una empresa no debería, en general, ser también el responsable de gestionar las comunicaciones internas de esa misma empresa sobre irregularidades — incluyendo irregularidades que podrían ser relevantes para la propia auditoría de cuentas. Hacerlo comprometería la independencia exigida al auditor por la normativa de auditoría (Ley 22/2015) y podría invalidar su papel en la auditoría si se descubre que gestionó información relevante a través del canal sin reflejarla en su trabajo de auditoría.</p>
+        <div class="callout">
+          <p><strong>Recomendación:</strong> las firmas de auditoría pueden ofrecer a sus clientes servicios de implementación del canal (configuración técnica, redacción de la Política del SII, formación), pero deberían evitar asumir el rol de RSII en empresas que también auditan. Sí pueden asumirlo, sin conflicto, en empresas donde no prestan servicio de auditoría.</p>
+        </div>
+
+        <h2 id="implementar-sin-distraer">Cómo implementar el canal sin distraer al equipo de auditoría</h2>
+        <p>Las firmas de auditoría, especialmente en temporada alta (cierre de ejercicio, primer trimestre del año), tienen equipos con muy poca disponibilidad para proyectos internos. La implementación del canal de denuncias no debería competir por tiempo con el trabajo de campo de auditoría. La forma más eficiente de resolverlo:</p>
+        <ul>
+          <li>Configurar el canal fuera de temporada alta (verano o cierre de año, según el perfil de clientes de la firma).</li>
+          <li>Delegar la configuración inicial en el responsable de administración o de RRHH de la firma, no en un socio auditor.</li>
+          <li>Usar las plantillas de Política del SII y de designación del RSII ya preparadas, en lugar de redactarlas desde cero.</li>
+          <li>Comunicar internamente el canal en una sesión breve durante una reunión ya programada (kick-off de temporada, reunión de socios), sin necesidad de formación extensa.</li>
+        </ul>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal de denuncias para firmas de auditoría desde 9€/mes</h3>

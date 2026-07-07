@@ -4,7 +4,7 @@ $page_description = 'Fintech con licencia PSD2 y startups bajo MiCA tienen oblig
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-fintech';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-26T00:00:00+01:00';
-$page_article_modified  = '2026-05-26T00:00:00+01:00';
+$page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
@@ -15,7 +15,7 @@ include '../includes/header.php';
   "description": "Las fintech reguladas bajo PSD2, MiCA, DORA o como plataformas de financiación están obligadas a canal de denuncias por la Directiva Whistleblowing con independencia de su plantilla.",
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/canal-denuncias-fintech",
-  "datePublished": "2026-05-26","dateModified": "2026-05-26",
+  "datePublished": "2026-05-26","dateModified": "2026-07-07",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "canal denuncias fintech, canal denuncias startup regulada, canal denuncias PSD2, canal denuncias MiCA, fintech obligada canal denuncias"
@@ -53,7 +53,7 @@ include '../includes/header.php';
       <div class="article-content" style="margin:0 auto;">
         <span class="blog-badge badge-sectores">Por sector</span>
         <h1>Canal de denuncias para fintech: la obligación que muchas startups financieras no conocen</h1>
-        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a mayo 2026 · 7 minutos de lectura</p>
+        <p style="font-size:1.125rem;color:var(--text-secondary);margin:1rem 0 0.5rem;">Actualizado a julio 2026 · 10 minutos de lectura</p>
         <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:2.5rem;">Publicado el <time datetime="2026-05-26">26 de mayo de 2026</time> por el equipo de EticAlert</p>
 
         <p>Las fintech viven rodeadas de regulación —PSD2, MiCA, DORA, AML6— pero una obligación específica que suele pasar desapercibida es la del <strong>canal de denuncias</strong>. No por el tamaño de la empresa (muchas tienen menos de 50 empleados), sino por su <strong>licencia regulatoria</strong>: en cuanto una fintech obtiene una autorización del Banco de España o de la CNMV, entra en el ámbito de la normativa UE de servicios financieros y está sujeta a la Directiva Whistleblowing.</p>
@@ -100,6 +100,18 @@ include '../includes/header.php';
         <h2 id="compliance-fintech">El canal como parte del stack de compliance fintech</h2>
         <p>Las fintech reguladas ya tienen un stack de compliance relativamente complejo: AML officer, MLRO (Money Laundering Reporting Officer), DPO (Data Protection Officer), responsable DORA. El canal de denuncias es una pieza más de ese stack que encaja de forma natural con el perfil de la empresa.</p>
         <p>A diferencia de las pymes industriales, una fintech regulada ya tiene cultura de compliance y no necesita convencer internamente de por qué se necesita el canal: su equipo jurídico y de riesgos lo entiende perfectamente. La cuestión es qué herramienta técnica elegir y que cumpla los requisitos específicos de la Ley 2/2023.</p>
+
+        <h2 id="fase-escalado">Fintech en fase de escalado: cuándo cambiar de plan</h2>
+        <p>Las fintech suelen crecer en plantilla de forma más rápida y menos lineal que una pyme tradicional: una ronda de financiación puede duplicar el equipo en pocos meses. Esto tiene una implicación directa sobre el canal de denuncias: conviene revisar el plan contratado cada vez que la empresa supera un umbral de empleados, no solo al principio.</p>
+        <ul>
+          <li><strong>Fase semilla (hasta 20 empleados):</strong> plan Starter suficiente para cumplir con el canal, aunque ya se tenga licencia regulatoria.</li>
+          <li><strong>Fase de crecimiento (21-49 empleados):</strong> conviene un plan con más usuarios RSII, especialmente si se separa la función de compliance de la función de RRHH tras la ronda de financiación.</li>
+          <li><strong>Fase de escala (50+ empleados):</strong> a la obligación por licencia regulatoria se suma la obligación general por plantilla; es el momento de auditar que el canal cumple ambos frentes y de considerar acceso API si se integra con otras herramientas de compliance.</li>
+        </ul>
+
+        <h2 id="sandbox-regulatorio">Sandbox regulatorio y canal de denuncias: ¿aplica desde el piloto?</h2>
+        <p>España cuenta con un sandbox regulatorio financiero (Ley 7/2020) que permite a las fintech testar modelos de negocio innovadores bajo supervisión antes de obtener la licencia definitiva. Una duda frecuente de las startups en esta fase es si ya deben tener canal de denuncias durante el periodo de pruebas.</p>
+        <p>La respuesta depende de si el proyecto en sandbox opera ya bajo un marco normativo del ámbito UE de servicios financieros con participantes reales (aunque sea de forma limitada) o si es una prueba puramente técnica sin actividad regulada efectiva. En caso de duda, la recomendación es activar el canal desde el inicio del piloto: el coste de un plan Starter es marginal comparado con el riesgo de un incumplimiento detectado en la fase de solicitud de la licencia definitiva, donde el supervisor revisa el histórico de cumplimiento del proyecto.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--border-accent);border-radius:var(--radius-lg);padding:1.75rem;margin:2.5rem 0;">
           <h3 style="margin-bottom:0.5rem;">Canal de denuncias para fintech desde 9€/mes</h3>
