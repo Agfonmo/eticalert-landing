@@ -59,6 +59,7 @@ include 'includes/header.php';
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>1 empresa</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>3 usuarios</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Canal anónimo con código de seguimiento</span></li>
+            <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Multiidioma, sin coste adicional</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Acuse de recibo automático (7 días)</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Control de plazos legales (3 meses)</span></li>
             <li class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span>Mensajería anónima cifrada</span></li>
@@ -69,7 +70,6 @@ include 'includes/header.php';
           <div class="pricing-footer">
             <a href="/registro" class="btn btn-secondary">Activar Starter →</a>
             <p class="pricing-note" data-price-monthly>81€/año (ahorra 27€)</p>
-            <p class="pricing-note" data-price-annual style="display:none;">81€/año · Sin permanencia</p>
           </div>
         </div>
 
@@ -97,7 +97,6 @@ include 'includes/header.php';
           <div class="pricing-footer">
             <a href="/registro" class="btn btn-secondary">Empezar con Business →</a>
             <p class="pricing-note" data-price-monthly>190€/año (ahorra 2 meses)</p>
-            <p class="pricing-note" data-price-annual style="display:none;">190€/año · Sin permanencia</p>
           </div>
         </div>
 
@@ -127,7 +126,6 @@ include 'includes/header.php';
           <div class="pricing-footer">
             <a href="/registro" class="btn btn-primary">Empezar con Company →</a>
             <p class="pricing-note" data-price-monthly>390€/año (ahorra 2 meses)</p>
-            <p class="pricing-note" data-price-annual style="display:none;">390€/año · Sin permanencia</p>
           </div>
         </div>
 
@@ -302,6 +300,7 @@ include 'includes/header.php';
 
             <tr><td colspan="5" style="font-size:0.8rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);padding-top:1.25rem;">Canal público</td></tr>
             <tr><td>Canal anónimo con código de seguimiento</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
+            <tr><td>Multiidioma, sin coste adicional</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
             <tr><td>URL personalizada por empresa</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
             <tr><td>Sin cookies en el canal público</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
             <tr><td>Adjuntar documentos en la denuncia</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td><td class="check">✓</td></tr>
