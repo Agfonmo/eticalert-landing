@@ -187,7 +187,7 @@ include 'includes/header.php';
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
         <div>
           <p style="color:var(--text-secondary);margin-bottom:1rem;">La <strong>Autoridad Independiente de Protección del Informante</strong> es un organismo de derecho público con plena autonomía funcional, creado por la <a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Ley 2/2023</a>. No depende de ningún ministerio ni del Gobierno.</p>
-          <p style="color:var(--text-secondary);">Tiene jurisdicción sobre el <strong>sector privado</strong> (empresas con 50+ empleados y sujetos obligados) y sobre la <strong>Administración General del Estado</strong>. Las CCAA y entidades locales tienen sus propios órganos de supervisión equivalentes.</p>
+          <p style="color:var(--text-secondary);">Tiene jurisdicción sobre el <strong>sector privado</strong> (empresas con 50+ empleados y sujetos obligados) y sobre la <strong>Administración General del Estado</strong>. Las <a href="/canal-denuncias-comunidades" style="color:var(--accent);">CCAA y entidades locales tienen sus propios órganos de supervisión equivalentes</a>.</p>
         </div>
         <div>
           <h3 style="font-size:0.9375rem;font-weight:700;margin-bottom:0.875rem;">Competencias de la AIPI</h3>
