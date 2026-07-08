@@ -10,6 +10,9 @@ include '../includes/header.php';
 ?>
 
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",

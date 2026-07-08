@@ -9,6 +9,9 @@ $page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Alternativa a EQS IntegrityLine: EticAlert vs EQS para pymes españolas (2026)","description":"EQS IntegrityLine es una plataforma de compliance corporativa con ISO 27001, on-premise y 80 idiomas. Comparativa con EticAlert para empresas que no necesitan todo ese nivel.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/alternativa-eqs-integrityline","datePublished":"2026-04-09","dateModified":"2026-04-09","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"alternativa EQS IntegrityLine, EticAlert vs EQS, canal denuncias grandes empresas, EQS integrityline precio españa"}
 </script>
 <script type="application/ld+json">

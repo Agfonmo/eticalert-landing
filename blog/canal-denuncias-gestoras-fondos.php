@@ -8,6 +8,9 @@ $page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para gestoras de fondos de inversión y capital riesgo","description":"Las gestoras de IIC, SGIIC, gestoras de capital riesgo (SGEIC) y gestoras de fondos de pensiones están obligadas a canal de denuncias por normativa europea independientemente de su tamaño.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-gestoras-fondos","datePublished":"2026-05-26","dateModified":"2026-06-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias gestora fondos, canal denuncias capital riesgo, canal denuncias SGIIC, canal denuncias SGEIC, canal denuncias fondos pensiones"}
 </script>
 <script type="application/ld+json">

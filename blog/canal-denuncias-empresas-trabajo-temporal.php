@@ -8,6 +8,9 @@ $page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para empresas de trabajo temporal (ETT)","description":"Las ETT con 50 o más empleados están obligadas por la Ley 2/2023. Cómo funciona el canal cuando el trabajador está cedido a una empresa usuaria distinta.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-empresas-trabajo-temporal","datePublished":"2026-07-07","dateModified":"2026-07-07","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias ett, canal denuncias empresa trabajo temporal, canal denuncias trabajador cedido"}
 </script>
 <script type="application/ld+json">

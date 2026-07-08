@@ -9,6 +9,9 @@ include '../includes/header.php';
 ?>
 
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para inmobiliarias y promotoras inmobiliarias","description":"Promotoras inmobiliarias, agencias y gestores patrimoniales con 50+ empleados. Canal de denuncias para el sector inmobiliario: blanqueo, fraude y cumplimiento 2026.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-inmobiliarias","datePublished":"2026-05-21","dateModified":"2026-05-21","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias inmobiliaria España, canal denuncias promotora inmobiliaria, canal denuncias sector inmobiliario España, canal denuncias agencia inmobiliaria, ley 2/2023 inmobiliarias España, blanqueo capitales inmobiliaria SEPBLAC"}
 </script>
 <script type="application/ld+json">

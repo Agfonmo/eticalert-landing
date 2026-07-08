@@ -8,6 +8,9 @@ $page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para industria química, petroquímica e instalaciones SEVESO","description":"Las instalaciones químicas, petroquímicas y SEVESO están reguladas por normativa ambiental UE y deben tener canal de denuncias según la Ley 2/2023 con independencia de su plantilla.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-quimica-petroquimica","datePublished":"2026-05-26","dateModified":"2026-06-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias industria quimica, canal denuncias SEVESO, canal denuncias petroquimica, canal denuncias sustancias peligrosas, canal denuncias industria obligatorio"}
 </script>
 <script type="application/ld+json">

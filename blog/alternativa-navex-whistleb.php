@@ -9,6 +9,9 @@ $page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Alternativa a Navex WhistleB para pymes españolas: EticAlert vs Navex (2026)","description":"Navex WhistleB es una plataforma GRC global con hotline de 60+ idiomas orientada a grandes corporaciones. Comparativa con EticAlert para pymes que solo necesitan cumplir la Ley 2/2023.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/alternativa-navex-whistleb","datePublished":"2026-04-23","dateModified":"2026-04-23","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"alternativa navex whistleb, EticAlert vs navex, navex whistleb precio, canal denuncias grandes empresas alternativa pyme"}
 </script>
 <script type="application/ld+json">

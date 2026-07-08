@@ -9,6 +9,9 @@ include '../includes/header.php';
 ?>
 
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para industria y empresas manufactureras","description":"Fábricas, plantas industriales y empresas manufactureras con 50+ empleados. Riesgos: seguridad laboral, medio ambiente, proveedores y fraude en compras. Guía 2026.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-industria-manufactura","datePublished":"2026-05-21","dateModified":"2026-05-21","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias industria España, canal denuncias manufactura España, canal denuncias fabrica, canal denuncias sector industrial España, canal denuncias planta industrial, ley 2/2023 industria, whistleblowing sector industrial"}
 </script>
 <script type="application/ld+json">

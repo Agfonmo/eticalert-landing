@@ -9,6 +9,9 @@ $page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias en Track People: EticAlert vs Track People (2026)","description":"Track People incluye canal de denuncias en su plan Premium (4,50€/usuario/mes, mínimo 5 usuarios). Comparativa con EticAlert: coste real para tu empresa y garantías legales.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-track-people","datePublished":"2026-04-24","dateModified":"2026-04-24","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"track people canal denuncias, track people ley 2/2023, alternativa track people, track people vs eticalert canal denuncias"}
 </script>
 <script type="application/ld+json">

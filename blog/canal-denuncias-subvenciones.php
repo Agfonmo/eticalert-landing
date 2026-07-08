@@ -8,6 +8,9 @@ $page_article_modified  = '2026-05-26T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para entidades subvencionadas y con fondos públicos","description":"Las entidades que reciben o gestionan fondos públicos —partidos, sindicatos, fundaciones vinculadas y entidades bajo control público— están obligadas a canal de denuncias por la Ley 2/2023 con independencia de su tamaño.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-subvenciones","datePublished":"2026-05-26","dateModified":"2026-05-26","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias empresa subvencionada, canal denuncias fondos publicos, canal denuncias partido politico, canal denuncias sindicato, canal denuncias fundacion publica"}
 </script>
 <script type="application/ld+json">

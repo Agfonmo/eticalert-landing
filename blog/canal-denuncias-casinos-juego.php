@@ -8,6 +8,12 @@ $page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Directiva (UE) 2019/1937 del Parlamento Europeo y del Consejo relativa a la protección de las personas que informen sobre infracciones del Derecho de la Unión","legislationIdentifier":"32019L1937","legislationType":"Directiva","legislationJurisdiction":{"@type":"Place","name":"Unión Europea"},"datePublished":"2019-10-23","url":"https://eur-lex.europa.eu/eli/dir/2019/1937/oj"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para casinos y operadores de juego","description":"Los casinos y operadores de juego son sujetos obligados PBC (Ley 10/2010) y están obligados a canal de denuncias por la Ley 2/2023 independientemente de su tamaño.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-casinos-juego","datePublished":"2026-05-26","dateModified":"2026-06-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias casino, canal denuncias juego online, canal denuncias operador juego, casinos obligados canal denuncias"}
 </script>
 <script type="application/ld+json">

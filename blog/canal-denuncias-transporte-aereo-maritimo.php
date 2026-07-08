@@ -8,6 +8,12 @@ $page_article_modified  = '2026-07-07T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Directiva (UE) 2019/1937 del Parlamento Europeo y del Consejo relativa a la protección de las personas que informen sobre infracciones del Derecho de la Unión","legislationIdentifier":"32019L1937","legislationType":"Directiva","legislationJurisdiction":{"@type":"Place","name":"Unión Europea"},"datePublished":"2019-10-23","url":"https://eur-lex.europa.eu/eli/dir/2019/1937/oj"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias para transporte aéreo y marítimo: obligación y cómo cumplir","description":"Los operadores de transporte aéreo certificados bajo normativa EASA y las empresas navieras bajo SOLAS/EMSA están en el ámbito de la Directiva Whistleblowing y deben tener canal de denuncias.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo","datePublished":"2026-05-26","dateModified":"2026-07-07","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"canal denuncias transporte aereo, canal denuncias naviera, canal denuncias transporte maritimo, canal denuncias aerolinea, canal denuncias operador aereo"}
 </script>
 <script type="application/ld+json">

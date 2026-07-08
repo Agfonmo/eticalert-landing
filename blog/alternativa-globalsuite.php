@@ -9,6 +9,9 @@ $page_article_modified  = '2026-06-03T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Alternativa a GlobalSuite para canal de denuncias: EticAlert vs GlobalSuite (2026)","description":"GlobalSuite es una suite GRC española con ISO 27001, 7 idiomas y gestión de riesgos integrada. Comparativa con EticAlert para pymes que solo necesitan cumplir la Ley 2/2023.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/alternativa-globalsuite","datePublished":"2026-04-27","dateModified":"2026-04-27","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"alternativa globalsuite, globalsuite canal denuncias, globalsuite vs eticalert, suite GRC española canal denuncias pyme"}
 </script>
 <script type="application/ld+json">

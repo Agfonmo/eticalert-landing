@@ -9,6 +9,9 @@ $page_article_modified  = '2026-05-21T00:00:00+01:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Alternativa a Atico34 (LegalSending) para canal de denuncias: EticAlert vs Atico34 (2026)","description":"Atico34 ofrece canal de denuncias con asesoría jurídica incluida desde ~120€/año. Comparativa con EticAlert: cuándo necesitas la consultoría y cuándo el software es suficiente.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/alternativa-atico34","datePublished":"2026-04-07","dateModified":"2026-04-07","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"alternativa atico34, legalsending canal denuncias, atico34 vs eticalert, canal denuncias asesoría jurídica españa"}
 </script>
 <script type="application/ld+json">

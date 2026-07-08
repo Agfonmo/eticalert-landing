@@ -9,6 +9,9 @@ $page_article_modified  = '2026-06-10T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
+</script>
+<script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias en LapsoWork: EticAlert vs LapsoWork (2026)","description":"LapsoWork incluye canal de denuncias en su suite de RRHH por 299,99€/año. Comparativa con EticAlert: cifrado, roles RSII y cumplimiento real de la Ley 2/2023.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-lapsowork","datePublished":"2026-04-21","dateModified":"2026-06-10","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"lapsowork canal denuncias, lapsowork ley 2/2023, alternativa lapsowork canal denuncias, lapsowork vs eticalert"}
 </script>
 <script type="application/ld+json">
