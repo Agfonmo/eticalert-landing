@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Canal de Denuncias para Empresas | EticAlert';
-$page_description = 'Activa tu canal de denuncias en minutos. EticAlert es la plataforma para pymes: segura, conforme a la Ley 2/2023, desde 9€/mes. Sin llamadas, sin complicaciones.';
+$page_description = 'Activa tu canal de denuncias en minutos. Plataforma para pymes: segura, conforme a la Ley 2/2023, desde 9€/mes. Sin llamadas ni complicaciones.';
 $page_canonical   = 'https://eticalert.com/';
 include 'includes/header.php';
 ?>

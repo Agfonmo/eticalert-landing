@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Acoso laboral y canal de denuncias | Obligaciones de la empresa';
+$page_title       = 'Acoso laboral y canal de denuncias | EticAlert';
 $page_description = 'El acoso laboral es una de las denuncias más frecuentes. Qué debe hacer la empresa al recibirla y cómo el canal protege al informante.';
 $page_canonical   = 'https://eticalert.com/blog/acoso-laboral-canal-denuncias';
 $page_og_type           = 'article';

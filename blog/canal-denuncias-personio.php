@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Canal denuncias Personio | EticAlert vs Personio 2026';
-$page_description       = '¿El canal de denuncias de Personio es suficiente para cumplir la Ley 2/2023? Comparativa con EticAlert: aislamiento real, cifrado y precio fijo vs precio por empleado.';
+$page_description       = '¿El canal de denuncias de Personio cumple la Ley 2/2023? Comparativa con EticAlert: aislamiento real, cifrado y precio fijo vs precio por empleado.';
 $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-personio';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias Personio vs EticAlert 2026';

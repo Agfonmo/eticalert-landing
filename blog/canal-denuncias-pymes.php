@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para pymes: guía 2026 | EticAlert desde 9€/mes';
-$page_description = 'Canal de denuncias para pymes: quién está obligado, qué incluye un sistema válido y cómo activarlo en 5 minutos desde 9€/mes. Cumple la Ley 2/2023 sin complicaciones.';
+$page_title       = 'Canal de denuncias para pymes | EticAlert desde 9€/mes';
+$page_description = 'Canal de denuncias para pymes: quién está obligado y cómo activarlo en 5 minutos desde 9€/mes. Cumple la Ley 2/2023 sin complicaciones.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-pymes';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-02T00:00:00+01:00';

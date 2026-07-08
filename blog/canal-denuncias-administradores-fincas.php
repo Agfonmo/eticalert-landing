@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para administradores de fincas | EticAlert';
+$page_title       = 'Canal de denuncias para fincas | EticAlert';
 $page_description = 'Administradores de fincas: cuándo están obligados a canal de denuncias y por qué la gestión de fondos ajenos hace el canal especialmente relevante.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-administradores-fincas';
 $page_og_type           = 'article';

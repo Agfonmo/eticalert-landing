@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a Whistleblower Software | EticAlert 2026';
-$page_description       = '¿Buscas una alternativa a Whistleblower Software más económica y adaptada a la Ley 2/2023? Comparativa directa: funcionalidades, precio y para quién es cada uno.';
+$page_description       = '¿Alternativa a Whistleblower Software más económica y adaptada a la Ley 2/2023? Comparativa directa: funcionalidades, precio y para quién es cada uno.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-whistleblower-software';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a Whistleblower Software en España — EticAlert';

@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a Atico34 | EticAlert vs Atico34 2026';
-$page_description       = '¿Atico34 (LegalSending) es la mejor opción para tu canal de denuncias? Comparativa con EticAlert: self-serve vs consultoría, precio y cumplimiento Ley 2/2023.';
+$page_description       = '¿Atico34 (LegalSending) es la mejor opción para tu canal? Comparativa con EticAlert: self-serve vs consultoría, precio y cumplimiento Ley 2/2023.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-atico34';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a Atico34 canal de denuncias — EticAlert 2026';

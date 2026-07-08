@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para transporte aéreo y marítimo | EticAlert';
+$page_title       = 'Canal de denuncias: transporte aéreo y marítimo | EticAlert';
 $page_description = 'Aerolíneas, navieras y ferroviarias están obligadas por normativa UE de seguridad del transporte, sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-transporte-aereo-maritimo';
 $page_og_type     = 'article';

@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas de trabajo temporal (ETT) | EticAlert';
+$page_title       = 'Canal de denuncias para ETT | EticAlert';
 $page_description = 'ETT: cuándo están obligadas a canal de denuncias y cómo funciona cuando el trabajador está cedido a una empresa usuaria distinta.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-empresas-trabajo-temporal';
 $page_og_type           = 'article';

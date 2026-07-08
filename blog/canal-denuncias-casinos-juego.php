@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para casinos y operadores de juego | EticAlert';
+$page_title       = 'Canal de denuncias para casinos y juego | EticAlert';
 $page_description = 'Casinos y operadores con licencia DGOJ son sujetos obligados PBC (Ley 10/2010). Canal exigido sin umbral de empleados.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-casinos-juego';
 $page_og_type     = 'article';

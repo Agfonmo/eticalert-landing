@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a mysecway | EticAlert vs mysecway 2026';
-$page_description       = '¿mysecway cobra por gestor? Comparativa con EticAlert: precio fijo por empresa vs 7,95€/gestor/mes. Funcionalidades, on-premise y cuál conviene a tu empresa.';
+$page_description       = '¿mysecway cobra por gestor? Comparativa con EticAlert: precio fijo por empresa vs 7,95€/gestor/mes. Funcionalidades y cuál conviene a tu empresa.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-mysecway';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a mysecway — EticAlert vs mysecway 2026';

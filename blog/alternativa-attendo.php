@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a Attendo | EticAlert vs Attendo 2026';
-$page_description       = '¿Attendo cumple la Ley 2/2023 para canal de denuncias? Comparativa con EticAlert: Attendo es ticketing generalista vs EticAlert especializado en compliance.';
+$page_description       = '¿Attendo cumple la Ley 2/2023 para canal de denuncias? Comparativa: Attendo es ticketing generalista vs EticAlert especializado en compliance.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-attendo';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a Attendo canal de denuncias — EticAlert 2026';

@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a Coloriuris | EticAlert vs Coloriuris 2026';
-$page_description       = '¿Coloriuris es la opción correcta para tu canal de denuncias? Comparativa con EticAlert: custodia eIDAS y certificación legal vs cumplimiento Ley 2/2023 integrado.';
+$page_description       = '¿Coloriuris es la opción correcta para tu canal de denuncias? Comparativa con EticAlert: custodia eIDAS vs cumplimiento Ley 2/2023 integrado.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-coloriuris';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a Coloriuris canal de denuncias — EticAlert 2026';

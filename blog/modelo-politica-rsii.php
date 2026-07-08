@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Modelo de Política del Sistema Interno de Información | EticAlert';
+$page_title       = 'Modelo de política del SII | EticAlert';
 $page_description = 'Plantilla gratuita 2026 de la Política del SII con todas las cláusulas que exige la AIPI en cada inspección, lista para adaptar.';
 $page_canonical   = 'https://eticalert.com/blog/modelo-politica-rsii';
 $page_og_type           = 'article';

@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas de seguridad privada | EticAlert';
+$page_title       = 'Canal de denuncias para seguridad privada | EticAlert';
 $page_description = 'Empresas de seguridad privada: obligación de canal de denuncias, riesgos específicos del sector y su vínculo con la contratación pública.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-seguridad-privada';
 $page_og_type           = 'article';

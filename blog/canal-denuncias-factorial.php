@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Canal denuncias Factorial | EticAlert vs Factorial 2026';
-$page_description       = '¿El canal de denuncias de Factorial cumple todos los requisitos de la Ley 2/2023? Analizamos qué incluye, qué le falta y cuándo conviene una solución especializada.';
+$page_description       = '¿El canal de denuncias de Factorial cumple la Ley 2/2023? Analizamos qué incluye, qué le falta y cuándo conviene una solución especializada.';
 $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-factorial';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias Factorial vs EticAlert — comparativa 2026';

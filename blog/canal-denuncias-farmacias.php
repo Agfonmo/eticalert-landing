@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias para farmacias y sector sanitario | EticAlert';
-$page_description = 'Farmacias, clínicas y hospitales privados con 50+ empleados están obligados por la Ley 2/2023. Descubre los riesgos específicos del sector y cómo implantar el canal.';
+$page_title       = 'Canal de denuncias para farmacias | EticAlert';
+$page_description = 'Farmacias, clínicas y hospitales privados con 50+ empleados están obligados por la Ley 2/2023. Riesgos del sector y cómo implantar el canal.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-farmacias';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';

@@ -1,6 +1,6 @@
 <?php
 $page_title             = 'Alternativa a EQS IntegrityLine | EticAlert vs EQS 2026';
-$page_description       = '¿EQS IntegrityLine es demasiado para tu empresa? Comparativa con EticAlert: desde 39€/mes vs ~129€/mes. Análisis de ISO 27001, on-premise y compliance corporativo.';
+$page_description       = '¿EQS IntegrityLine es demasiado para tu empresa? Comparativa con EticAlert: desde 39€/mes vs ~129€/mes. ISO 27001, on-premise y compliance.';
 $page_canonical         = 'https://eticalert.com/blog/alternativa-eqs-integrityline';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Alternativa a EQS IntegrityLine — EticAlert 2026';

@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Condiciones del Servicio | EticAlert';
-$page_description = 'Condiciones del Servicio de EticAlert (FONCAD GROUP, S.L.). Contrato de suscripción SaaS, planes, precios, cancelación, obligaciones de las partes y jurisdicción.';
+$page_description = 'Condiciones del Servicio de EticAlert (FONCAD GROUP, S.L.): contrato SaaS, planes, precios, cancelación, obligaciones y jurisdicción.';
 $page_canonical   = 'https://eticalert.com/condiciones';
 include 'includes/header.php';
 ?>

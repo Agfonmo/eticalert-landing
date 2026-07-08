@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Protección del informante | Garantías Ley 2/2023 | Sin represalias';
+$page_title       = 'Protección del informante | Ley 2/2023';
 $page_description = 'La Ley 2/2023 prohíbe las represalias contra quien denuncia. Inversión de la carga de la prueba, medidas de apoyo y sanciones por represaliar.';
 $page_canonical   = 'https://eticalert.com/blog/proteccion-informante-ley';
 $page_og_type           = 'article';

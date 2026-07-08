@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal Denuncias Interno vs Externo: Diferencias Clave y Cuál Elegir';
-$page_description = 'Canal interno o externo: la Ley 2/2023 permite ambos pero con costes y obligaciones distintas. Comparamos eficacia, precio y cumplimiento legal. ¿Cuál necesitas? →';
+$page_title       = 'Canal de denuncias: interno vs externo | EticAlert';
+$page_description = 'Canal interno o externo: la Ley 2/2023 permite ambos con costes y obligaciones distintas. Comparamos eficacia, precio y cumplimiento legal.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-interno-vs-externo';
 $page_og_type           = 'article';
 $page_article_published = '2026-01-27T00:00:00+01:00';

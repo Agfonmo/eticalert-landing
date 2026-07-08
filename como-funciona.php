@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Cómo Funciona EticAlert: Canal de Denuncias Activo en 5 Minutos';
-$page_description = 'Activa tu canal de denuncias en 5 minutos: wizard guiado, canal anónimo, gestión por roles, plazos legales automáticos. Sin tecnicismos. Cumple la Ley 2/2023 →';
+$page_title       = 'Cómo funciona EticAlert | Canal activo en 5 minutos';
+$page_description = 'Activa tu canal de denuncias en 5 minutos: wizard guiado, canal anónimo, gestión por roles, plazos legales automáticos. Cumple la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/como-funciona';
 include 'includes/header.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias y RGPD | Protección de datos en el canal interno';
-$page_description = 'Cómo cumplir con el RGPD al gestionar un canal de denuncias. Datos recogidos, base legal, plazos de conservación, derechos del denunciante y del denunciado.';
+$page_title       = 'Canal de denuncias y RGPD | EticAlert';
+$page_description = 'Cómo cumplir el RGPD al gestionar un canal de denuncias: datos recogidos, base legal, plazos de conservación y derechos de las partes.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-rgpd-proteccion-datos';
 $page_og_type           = 'article';
 $page_article_published = '2026-02-28T00:00:00+01:00';

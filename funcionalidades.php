@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Funcionalidades del canal de denuncias: qué incluye EticAlert 2026';
-$page_description = 'Las funcionalidades clave de EticAlert: cifrado en base de datos, hash verificable, exclusión de gestoras, plazos automáticos. Plan Starter desde 9€/mes. Cumple la Ley 2/2023.';
+$page_title       = 'Funcionalidades del canal de denuncias | EticAlert';
+$page_description = 'Funcionalidades clave de EticAlert: cifrado en BD, hash verificable, exclusión de gestoras, plazos automáticos. Plan Starter desde 9€/mes.';
 $page_canonical   = 'https://eticalert.com/funcionalidades';
 include 'includes/header.php';
 ?>

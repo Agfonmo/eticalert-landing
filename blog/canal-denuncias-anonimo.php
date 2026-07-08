@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Canal de denuncias anónimo: ¿es realmente anónimo? | EticAlert';
-$page_description = 'Cómo funciona el anonimato en un canal de denuncias homologado: qué ve el gestor, qué no ve y qué garantías técnicas exige la Ley 2/2023. Guía para empresas y empleados.';
+$page_title       = 'Canal de denuncias anónimo: ¿lo es de verdad? | EticAlert';
+$page_description = 'Cómo funciona el anonimato en un canal de denuncias: qué ve el gestor, qué no ve y qué garantías exige la Ley 2/2023.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-anonimo';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-02T00:00:00+01:00';

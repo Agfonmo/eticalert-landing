@@ -1,6 +1,6 @@
 <?php
-$page_title       = 'Protocolo Canal de Denuncias Ley 2/2023: Modelo y Contenido [2026]';
-$page_description = 'El protocolo del canal de denuncias define cómo se tramita cada comunicación: fases, plazos de 7 días y 3 meses, y quién interviene. Modelo por secciones listo para adaptar.';
+$page_title       = 'Protocolo del canal de denuncias | Ley 2/2023';
+$page_description = 'El protocolo del canal de denuncias define cómo se tramita cada comunicación: fases, plazos y quién interviene. Modelo listo para adaptar.';
 $page_canonical   = 'https://eticalert.com/blog/protocolo-canal-denuncias';
 $page_og_type           = 'article';
 $page_article_published = '2026-06-10T00:00:00+02:00';

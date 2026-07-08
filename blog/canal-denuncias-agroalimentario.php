@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para el sector agroalimentario | EticAlert';
+$page_title       = 'Canal de denuncias agroalimentario | EticAlert';
 $page_description = 'Industria agroalimentaria: obligación de canal de denuncias, fraude alimentario, seguridad alimentaria y riesgos laborales en campañas de temporada.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-agroalimentario';
 $page_og_type           = 'article';

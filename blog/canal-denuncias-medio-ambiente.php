@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'Canal de denuncias para empresas de medioambiente | EticAlert';
+$page_title       = 'Canal de denuncias para medioambiente | EticAlert';
 $page_description = 'Gestores de residuos y empresas SEVESO están obligados por la Directiva Whistleblowing sin umbral de empleados. Guía 2026.';
 $page_canonical   = 'https://eticalert.com/blog/canal-denuncias-medio-ambiente';
 $page_og_type           = 'article';
