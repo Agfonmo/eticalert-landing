@@ -192,7 +192,7 @@ include 'includes/header.php';
     <div class="container" style="max-width:900px;">
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Crédito partner por oportunidades activadas</h2>
       <p style="color:var(--text-secondary);text-align:center;margin-bottom:1rem;max-width:620px;margin-left:auto;margin-right:auto;">Cuando un cliente recomendado contrata EticAlert, el partner puede generar crédito. Las condiciones aplicables se comparten de forma personalizada bajo solicitud.</p>
-      <div class="grid-2up" style="margin-top:2.5rem;">
+      <div class="grid-2up" style="margin-top:2.5rem;gap:2.5rem;">
         <?php
         $mecanica = [
           ['1', 'Recomiendas', 'Identificas una empresa que puede beneficiarse de EticAlert.'],
@@ -201,10 +201,12 @@ include 'includes/header.php';
           ['4', 'Obtienes crédito', 'El programa reconoce la recomendación conforme a las condiciones vigentes.'],
         ];
         foreach ($mecanica as $m): ?>
-        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;">
-          <div style="width:36px;height:36px;border-radius:50%;background:rgba(74,222,128,0.1);border:2px solid var(--accent-border);display:flex;align-items:center;justify-content:center;font-size:0.9375rem;font-weight:800;color:var(--accent);margin-bottom:0.875rem;"><?= $m[0] ?></div>
-          <h3 style="font-size:0.9375rem;font-weight:700;margin-bottom:0.375rem;"><?= $m[1] ?></h3>
-          <p style="font-size:0.8125rem;color:var(--text-secondary);margin:0;"><?= $m[2] ?></p>
+        <div style="display:flex;align-items:flex-start;gap:1rem;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;">
+          <div style="flex-shrink:0;width:36px;height:36px;border-radius:50%;background:rgba(74,222,128,0.1);border:2px solid var(--accent-border);display:flex;align-items:center;justify-content:center;font-size:0.9375rem;font-weight:800;color:var(--accent);"><?= $m[0] ?></div>
+          <div>
+            <h3 style="font-size:0.9375rem;font-weight:700;margin-bottom:0.375rem;"><?= $m[1] ?></h3>
+            <p style="font-size:0.8125rem;color:var(--text-secondary);margin:0;"><?= $m[2] ?></p>
+          </div>
         </div>
         <?php endforeach; ?>
       </div>
