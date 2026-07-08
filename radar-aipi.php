@@ -113,6 +113,7 @@ include 'includes/header.php';
   border-radius: 12px;
   padding: 1.25rem;
   text-align: center;
+  flex: 0 1 200px;
 }
 .stat-value {
   font-size: 1.75rem;
@@ -154,7 +155,7 @@ include 'includes/header.php';
   <!-- KPI BAR -->
   <section style="padding:40px 0;border-bottom:1px solid var(--border);">
     <div class="container" style="max-width:900px;">
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
         <div class="stat-card">
           <div class="stat-value" style="color:#dc2626;">1.000.000 €</div>
           <div style="font-size:0.8125rem;color:var(--text-secondary);">Multa máxima por infracción muy grave</div>
@@ -373,7 +374,7 @@ include 'includes/header.php';
     <div class="container" style="max-width:900px;">
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Contexto: el cumplimiento en España</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;">Datos estimados sobre el universo de obligados y el estado actual del cumplimiento.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin-bottom:2rem;">
         <?php
         $stats = [
           ['valor'=>'~130.000','desc'=>'Empresas privadas obligadas (est.)','nota'=>'Con 50+ empleados'],

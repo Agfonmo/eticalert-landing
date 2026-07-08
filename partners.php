@@ -96,7 +96,7 @@ include 'includes/header.php';
     <div class="container" style="max-width:900px;">
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Un producto serio para recomendar</h2>
       <p style="color:var(--text-secondary);text-align:center;margin-bottom:3rem;max-width:620px;margin-left:auto;margin-right:auto;">EticAlert no se presenta como una herramienta genérica: ayuda al cliente a activar un canal comprensible, profesional y alineado con una necesidad real de cumplimiento.</p>
-      <div class="partner-grid-2">
+      <div class="grid-2up">
         <?php
         $calidad = [
           ['Especialización', 'Foco claro en canal de denuncias, cumplimiento y gestión de comunicaciones sensibles.'],
@@ -192,7 +192,7 @@ include 'includes/header.php';
     <div class="container" style="max-width:900px;">
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">Crédito partner por oportunidades activadas</h2>
       <p style="color:var(--text-secondary);text-align:center;margin-bottom:1rem;max-width:620px;margin-left:auto;margin-right:auto;">Cuando un cliente recomendado contrata EticAlert, el partner puede generar crédito. Las condiciones aplicables se comparten de forma personalizada bajo solicitud.</p>
-      <div class="partner-grid-2" style="margin-top:2.5rem;">
+      <div class="grid-2up" style="margin-top:2.5rem;">
         <?php
         $mecanica = [
           ['1', 'Recomiendas', 'Identificas una empresa que puede beneficiarse de EticAlert.'],

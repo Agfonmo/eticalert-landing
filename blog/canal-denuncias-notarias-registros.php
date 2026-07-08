@@ -70,7 +70,7 @@ include '../includes/header.php';
         <h2 id="que-riesgos">Los riesgos específicos del sector</h2>
         <p>Las notarías y los registros están expuestos a patrones de riesgo muy concretos que justifican la existencia de un canal confidencial:</p>
 
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin:1.5rem 0;">
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin:1.5rem 0;">
           <?php
           $riesgos = [
             ['🏠','Operaciones inmobiliarias con precio ficticio','Escrituras con precio de compraventa manifiestamente inferior al real para reducir la tributación. El personal de la notaría lo detecta pero no tiene canal seguro para comunicarlo.'],
@@ -80,7 +80,7 @@ include '../includes/header.php';
             ['⚡','Conflictos de interés del titular','El notario o registrador titular tiene relación personal o económica con alguna de las partes de una operación y no declara el conflicto ni redirige la operación.'],
           ];
           foreach ($riesgos as [$ico,$tit,$desc]):?>
-          <div style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem;">
+          <div style="background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem;flex:0 1 300px;">
             <p style="margin:0;font-size:1.25rem;"><?= $ico ?></p>
             <p style="margin:0.5rem 0 0;font-weight:600;font-size:0.9375rem;"><?= $tit ?></p>
             <p style="margin:0.375rem 0 0;font-size:0.8125rem;color:var(--text-secondary);"><?= $desc ?></p>

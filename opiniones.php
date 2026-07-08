@@ -171,7 +171,7 @@ include 'includes/header.php';
     <div class="container" style="max-width:860px;">
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;text-align:center;">EticAlert en plataformas de reseñas verificadas</h2>
       <p style="color:var(--text-secondary);text-align:center;margin-bottom:2.5rem;">Encuentra EticAlert en los directorios de software más consultados en España y deja tu opinión si eres cliente.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.25rem;">
+      <div class="grid-2up">
         <?php
         $platforms = [
           [

@@ -103,7 +103,7 @@ include 'includes/header.php';
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Primero: qué debe tener el software para cumplir la ley</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;">Antes de comparar precios, comprueba que cualquier opción que evalúes cubra estos requisitos. Si falla en alguno, no cumple la Ley 2/2023.</p>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-bottom:2rem;">
+      <div class="grid-4up" style="margin-bottom:2rem;">
         <?php
         $must_have = [
           ['🔒','Anonimato real','La identidad del informante no puede estar en logs ni bases de datos accesibles al gestor.'],
@@ -249,7 +249,7 @@ include 'includes/header.php';
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Por qué EticAlert es la elección natural para pymes españolas</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;">Construido desde el primer día para empresas de 50–250 empleados en España.</p>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;">
+      <div class="grid-4up">
         <?php
         $razones = [
           ['⚡','Operativo en minutos','Sin instalación, sin IT, sin consultor. Registro y listo.'],

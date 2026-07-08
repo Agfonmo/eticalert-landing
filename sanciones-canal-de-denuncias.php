@@ -124,7 +124,7 @@ include 'includes/header.php';
     <div class="container" style="max-width:860px;">
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">Más allá de la multa: consecuencias que pueden ser peores</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;">Las empresas que concurren a licitaciones o reciben subvenciones tienen aún más que perder.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;">
+      <div class="grid-2up">
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.5rem;">
           <div style="font-size:1.5rem;margin-bottom:0.75rem;">🏛️</div>
           <h3 style="font-size:1rem;margin-bottom:0.5rem;">Exclusión de contratación pública</h3>

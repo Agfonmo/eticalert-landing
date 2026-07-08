@@ -88,7 +88,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
        ============================================================ -->
   <section style="padding:48px 0; background:var(--bg-secondary); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
     <div class="container">
-      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.5rem;">
+      <div class="grid-2up">
 
         <div style="display:flex; gap:1rem; align-items:flex-start;">
           <div style="flex-shrink:0; width:40px; height:40px; border-radius:10px; background:rgba(74,222,128,0.12); display:flex; align-items:center; justify-content:center;">

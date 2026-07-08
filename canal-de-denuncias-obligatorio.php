@@ -162,7 +162,7 @@ include 'includes/header.php';
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">¿Qué debe tener el canal para cumplir la ley?</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;">No basta con "tener algo". La Ley 2/2023 establece requisitos técnicos concretos. Un email o un formulario web no cumplen.</p>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;">
+      <div class="grid-4up">
         <?php
         $requisitos = [
           ['✅','Confidencialidad garantizada','Sistema cifrado con acceso restringido solo al RSII.'],
@@ -197,7 +197,7 @@ include 'includes/header.php';
       <h2 style="font-size:1.5rem;margin-bottom:0.5rem;">¿Qué pasa si no lo tienes?</h2>
       <p style="color:var(--text-secondary);margin-bottom:2rem;">No disponer de canal siendo empresa obligada es una <strong>infracción muy grave</strong> según la Ley 2/2023.</p>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem;">
+      <div class="grid-2up" style="margin-bottom:2rem;">
         <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:var(--radius-lg);padding:1.5rem;text-align:center;">
           <p style="font-size:1.75rem;font-weight:800;color:#dc2626;margin:0;">1.000.000 €</p>
           <p style="font-size:0.875rem;color:var(--text-secondary);margin:0.5rem 0 0;">Multa máxima para la empresa</p>
