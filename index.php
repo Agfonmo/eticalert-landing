@@ -520,6 +520,8 @@ include 'includes/header.php';
         </div>
       </div>
 
+      <p style="text-align:center;margin-top:1.5rem;font-size:0.9375rem;color:var(--text-secondary);" class="fade-up">¿Quieres ver cómo se compara con otras opciones? Consulta la <a href="/blog/mejor-software-canal-denuncias" style="color:var(--accent);">comparativa completa de software de canal de denuncias en España →</a></p>
+
     </div>
   </section>
 

@@ -259,6 +259,7 @@ include 'includes/header.php';
           <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:0.5rem;">EticAlert incluye las funcionalidades de las plataformas corporativas al precio de las soluciones básicas. <a href="/funcionalidades">Compara todas las funcionalidades →</a></p>
           <p style="font-size:0.8125rem; color:var(--text-muted);">Datos públicos a marzo de 2026. La tabla es orientativa; verifica los precios actualizados en cada proveedor. Ver <a href="/precios">precios actualizados de EticAlert →</a></p>
           <p><a href="/blog/canal-denuncias-precio-comparativa">Guía completa de precios y comparativa del mercado →</a></p>
+          <p><a href="/blog/mejor-software-canal-denuncias">Ranking del mejor software de canal de denuncias en España →</a></p>
 
           <!-- ================================================== -->
           <h2 id="como-implementar">9. Cómo implementar un canal de denuncias paso a paso</h2>
