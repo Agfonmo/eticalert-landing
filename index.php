@@ -81,17 +81,14 @@ include 'includes/header.php';
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
               Desde 9€/mes
             </div>
-            <div class="hero-proof-sep" aria-hidden="true"></div>
             <div class="hero-proof-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
               Cifrado AES-256
             </div>
-            <div class="hero-proof-sep" aria-hidden="true"></div>
             <div class="hero-proof-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
               Alojado en la UE (RGPD)
             </div>
-            <div class="hero-proof-sep" aria-hidden="true"></div>
             <div class="hero-proof-item">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
               Sin coste por usuario
