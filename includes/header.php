@@ -149,8 +149,8 @@ if (!isset($page_content_group)) {
   <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
   <!-- Stylesheet — carga no bloqueante para mejorar FCP/LCP -->
-  <link rel="preload" href="/css/styles.css?v=20260708" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/styles.css?v=20260708"></noscript>
+  <link rel="preload" href="/css/styles.css?v=20260709" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/styles.css?v=20260709"></noscript>
 
   <!-- Anti-flash: aplica el tema ANTES de que se pinte la página -->
   <script>
@@ -162,6 +162,25 @@ if (!isset($page_content_group)) {
         document.documentElement.setAttribute('data-theme', 'light');
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <!-- Anti-CLS: decide y aplica el estado del banner SHA-256 ANTES de pintar, con CSS crítico inline
+       (antes: el estado se decidía con JS en el <body> y el position:fixed llegaba con la hoja de
+       estilos diferida — el salto entre el primer pintado y ambos aplicándose causaba layout shift) -->
+  <style>
+    .verify-banner{position:fixed;top:0;left:0;right:0;z-index:101;min-height:40px;}
+    .site-header{position:fixed;top:0;left:0;right:0;z-index:100;}
+    html.has-verify-banner .site-header{top:40px;}
+    html.vb-dismissed .verify-banner{display:none;}
+  </style>
+  <script>
+    (function(){
+      if (localStorage.getItem('vbDismissed')) {
+        document.documentElement.classList.add('vb-dismissed');
+      } else {
+        document.documentElement.classList.add('has-verify-banner');
       }
     })();
   </script>
@@ -232,17 +251,10 @@ if (!isset($page_content_group)) {
   </button>
 </div>
 <script>
-(function(){
-  if(localStorage.getItem('vbDismissed')){
-    document.getElementById('verify-banner').style.display='none';
-  } else {
-    document.body.classList.add('has-verify-banner');
-  }
-})();
 function dismissVerifyBanner(){
   localStorage.setItem('vbDismissed','1');
-  document.getElementById('verify-banner').style.display='none';
-  document.body.classList.remove('has-verify-banner');
+  document.documentElement.classList.remove('has-verify-banner');
+  document.documentElement.classList.add('vb-dismissed');
 }
 </script>
 
