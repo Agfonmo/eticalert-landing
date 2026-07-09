@@ -258,7 +258,7 @@ function field_value($field, $default = '') {
     <div class="container">
       <div class="form-wrapper">
 
-        <div class="form-card fade-up">
+        <div class="form-card">
 
           <?php if ($submitted && isset($errors['api'])): ?>
           <div class="callout callout-error" role="alert" style="margin-bottom:1.5rem;">
@@ -442,7 +442,7 @@ function field_value($field, $default = '') {
         </div>
 
         <!-- Información lateral -->
-        <div class="form-info fade-up delay-2">
+        <div class="form-info">
 
           <div class="form-info-card">
             <h3>¿Qué pasa después?</h3>
