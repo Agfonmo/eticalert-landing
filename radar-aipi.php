@@ -428,7 +428,8 @@ include 'includes/header.php';
       <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">
         Recursos: <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI ya sanciona</a> ·
         <a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía del RSII</a> ·
-        <a href="/blog/checklist-auditoria-aipi" style="color:var(--accent);">Checklist de inspección</a>
+        <a href="/blog/checklist-auditoria-aipi" style="color:var(--accent);">Checklist de inspección</a> ·
+        <a href="/requerimiento-aipi" style="color:var(--accent);">¿Ya te han contactado? Regulariza ahora</a>
       </p>
     </div>
   </section>

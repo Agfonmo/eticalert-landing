@@ -187,6 +187,7 @@ include 'includes/header.php';
         <a href="/precios" class="btn btn-secondary btn-lg">Ver precios</a>
       </div>
       <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);">15 días de prueba gratuita · Configuración en minutos · Soporte incluido</p>
+      <p style="margin-top:0.75rem;font-size:0.875rem;"><a href="/requerimiento-aipi" style="color:var(--accent);">¿Ya has recibido un requerimiento de la Inspección o la AIPI? Checklist de regularización urgente →</a></p>
     </div>
   </section>
 

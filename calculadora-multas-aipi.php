@@ -353,6 +353,7 @@ include 'includes/header.php';
 
               <a href="/registro" class="btn btn-primary" style="display:block;text-align:center;margin-top:1.25rem;">Activar mi canal de denuncias →</a>
               <a href="/precios" style="display:block;text-align:center;font-size:0.8125rem;color:var(--text-muted);margin-top:0.625rem;">Ver planes desde 9€/mes</a>
+              <a href="/requerimiento-aipi" style="display:block;text-align:center;font-size:0.8125rem;color:var(--text-muted);margin-top:0.375rem;">¿Ya has recibido un requerimiento? Checklist de regularización →</a>
             </div>
 
           </div>
