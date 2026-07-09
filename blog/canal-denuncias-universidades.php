@@ -206,7 +206,7 @@ include '../includes/header.php';
         <p>Recursos relacionados:</p>
         <ul>
           <li><a href="/blog/canal-denuncias-colegios" style="color:var(--accent);">Canal de denuncias para colegios y centros educativos →</a></li>
-          <li><a href="/blog/canal-de-denuncias-obligatorio" style="color:var(--accent);">Canal de denuncias obligatorio: quién debe tenerlo en 2026 →</a></li>
+          <li><a href="/canal-de-denuncias-obligatorio" style="color:var(--accent);">Canal de denuncias obligatorio: quién debe tenerlo en 2026 →</a></li>
           <li><a href="/blog/politica-sistema-interno-informacion" style="color:var(--accent);">Política de sistema interno de información: qué debe incluir →</a></li>
           <li><a href="/blog/canal-denuncias-rgpd-proteccion-datos" style="color:var(--accent);">Canal de denuncias y RGPD: protección de datos del informante →</a></li>
           <li><a href="/blog/canal-denuncias-ayuntamientos" style="color:var(--accent);">Canal de denuncias para ayuntamientos y administraciones públicas →</a></li>
@@ -223,7 +223,7 @@ include '../includes/header.php';
               <span class="blog-badge badge-sector">Por sector</span>
               <h4>Canal de denuncias para ayuntamientos y administraciones públicas</h4>
             </a>
-            <a href="/blog/canal-de-denuncias-obligatorio" class="related-card">
+            <a href="/canal-de-denuncias-obligatorio" class="related-card">
               <span class="blog-badge badge-legal">Marco legal</span>
               <h4>Canal de denuncias obligatorio: quién debe tenerlo y desde cuándo</h4>
             </a>

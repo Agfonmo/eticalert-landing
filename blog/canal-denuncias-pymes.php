@@ -262,7 +262,7 @@ include '../includes/header.php';
         <p>Recursos relacionados:</p>
         <ul>
           <li><a href="/cumples" style="color:var(--accent);">Comprueba si tu empresa está obligada →</a></li>
-          <li><a href="/blog/canal-de-denuncias-obligatorio" style="color:var(--accent);">Canal de denuncias obligatorio: quién debe tenerlo en 2026 →</a></li>
+          <li><a href="/canal-de-denuncias-obligatorio" style="color:var(--accent);">Canal de denuncias obligatorio: quién debe tenerlo en 2026 →</a></li>
           <li><a href="/blog/canal-denuncias-asesorias-despachos" style="color:var(--accent);">Canal de denuncias para asesorías: guía para despachos profesionales →</a></li>
           <li><a href="/blog/como-implantar-canal-denuncias" style="color:var(--accent);">Cómo implantar un canal de denuncias paso a paso →</a></li>
           <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">Comparativa de precios: todas las opciones del mercado →</a></li>
@@ -271,7 +271,7 @@ include '../includes/header.php';
         <div class="related-articles">
           <h3>Artículos relacionados</h3>
           <div class="related-grid">
-            <a href="/blog/canal-de-denuncias-obligatorio" class="related-card">
+            <a href="/canal-de-denuncias-obligatorio" class="related-card">
               <span class="blog-badge badge-legal">Marco legal</span>
               <h4>Canal de denuncias obligatorio: quién debe tenerlo y desde cuándo</h4>
             </a>
