@@ -197,26 +197,21 @@ include '../includes/header.php';
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
             </tr>
             <tr>
-
-              <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
-              <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
-            </tr>
-            <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);">Denuncia interna manual (casos por email o teléfono)</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
             </tr>
-            <tr>
+            <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);">MFA para coordinadores y administradores</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
             </tr>
-            <tr style="background:var(--bg-tertiary);">
+            <tr>
               <td style="padding:0.75rem;border:1px solid var(--border);">Grabación de voz desde el navegador</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓ Sin app</td>
-              <td style="padding:0.75rum;border:1px solid var(--border);text-align:center;">Verificar</td>
+              <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
             </tr>
-            <tr>
+            <tr style="background:var(--bg-tertiary);">
               <td style="padding:0.75rem;border:1px solid var(--border);">Ticketing de soporte integrado en la plataforma</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">✓</td>
               <td style="padding:0.75rem;border:1px solid var(--border);text-align:center;">Verificar</td>
