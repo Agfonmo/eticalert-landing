@@ -666,29 +666,7 @@ include 'includes/header.php';
   </script>
 
   <!-- ==========================================================
-       9. PRUEBA SOCIAL (cifras)
-       ========================================================== -->
-  <section class="social-stats" aria-label="Cifras de uso de EticAlert">
-    <div class="container">
-      <div class="social-stats-grid">
-        <div class="social-stat fade-up">
-          <div class="social-stat-value" data-count-to="1327">0</div>
-          <div class="social-stat-label">Canales activos</div>
-        </div>
-        <div class="social-stat fade-up delay-1">
-          <div class="social-stat-value" data-count-to="917">0</div>
-          <div class="social-stat-label">Empresas que confían en nosotros</div>
-        </div>
-        <div class="social-stat fade-up delay-2">
-          <div class="social-stat-value" data-count-to="3827">0</div>
-          <div class="social-stat-label">Usuarios registrados</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================
-       10. TESTIMONIOS
+       9. TESTIMONIOS
        ========================================================== -->
   <section class="section testimonials-section" aria-labelledby="testimonials-heading">
     <div class="container">
@@ -735,7 +713,7 @@ include 'includes/header.php';
   </section>
 
   <!-- ==========================================================
-       11. CTA FINAL
+       10. CTA FINAL
        ========================================================== -->
   <section class="cta-final" aria-labelledby="cta-heading">
     <div class="container">
