@@ -55,7 +55,7 @@ include 'includes/header.php';
       <div class="hero-grid">
 
         <!-- ── Columna izquierda ── -->
-        <div class="hero-content fade-up">
+        <div class="hero-content">
 
           <h1 id="hero-heading">
             El canal de denuncias<br>
@@ -95,7 +95,7 @@ include 'includes/header.php';
         </div>
 
         <!-- ── Columna derecha: mockup del panel ── -->
-        <div class="hero-mockup fade-up delay-2" aria-hidden="true">
+        <div class="hero-mockup" aria-hidden="true">
 
           <!-- Cromo del navegador -->
           <div class="mockup-chrome">
