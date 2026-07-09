@@ -126,6 +126,48 @@
   }
 
   /* ----------------------------------------------------------
+     3b. COUNTER ANIMATIONS (cifras de prueba social)
+  ---------------------------------------------------------- */
+  const counterEls = document.querySelectorAll('[data-count-to]');
+
+  function animateCounter(el) {
+    const target = parseInt(el.getAttribute('data-count-to'), 10);
+    const duration = 1500;
+    const startTime = performance.now();
+
+    function tick(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target).toLocaleString('es-ES');
+      if (progress < 1) {
+        requestAnimationFrame(tick);
+      } else {
+        el.textContent = target.toLocaleString('es-ES');
+      }
+    }
+    requestAnimationFrame(tick);
+  }
+
+  if (counterEls.length && 'IntersectionObserver' in window) {
+    const counterObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+    counterEls.forEach((el) => counterObserver.observe(el));
+  } else {
+    counterEls.forEach((el) => {
+      el.textContent = parseInt(el.getAttribute('data-count-to'), 10).toLocaleString('es-ES');
+    });
+  }
+
+  /* ----------------------------------------------------------
      4. FAQ ACCORDION
   ---------------------------------------------------------- */
   const faqItems = document.querySelectorAll('.faq-item');
