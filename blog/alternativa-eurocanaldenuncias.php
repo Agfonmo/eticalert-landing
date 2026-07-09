@@ -105,8 +105,8 @@ include '../includes/header.php';
 
         <h2 id="casos-uso-eurocanaldenuncias">Casos de uso reales</h2>
         <p><strong>EuroCanalDenuncias encaja</strong> si buscas un proveedor español de canal de denuncias con precio de entrada bajo y tienes claro que los requisitos básicos (formulario + mensajería) son suficientes para tu perfil de riesgo. Si contratas el plan LAB (19€/mes), el primer año sale a 327€ contando el setup — más que EticAlert, que no cobra alta.</p>
-        <p><strong>EuroCanalDenuncias no encaja</strong> si tu empresa tiene hasta 20 empleados (EticAlert es gratuito sin ningún coste), si necesitas garantías técnicas avanzadas (cifrado en BD, hash verificable), o si la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> puede inspeccionar tu canal y necesitas evidencia criptográfica de integridad.</p>
-        <p>Ejemplo concreto: una gestoría de 15 empleados que busca el canal más barato. Con EuroCanalDenuncias pagaría 19€/mes + 99€ setup = 327€ el primer año. Con EticAlert pagaría 0€ — porque hasta 20 empleados el plan es gratuito indefinidamente.</p>
+        <p><strong>EuroCanalDenuncias no encaja</strong> si tu empresa tiene hasta 20 empleados (EticAlert cuesta solo 9€/mes, menos de la mitad), si necesitas garantías técnicas avanzadas (cifrado en BD, hash verificable), o si la <a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">AIPI</a> puede inspeccionar tu canal y necesitas evidencia criptográfica de integridad.</p>
+        <p>Ejemplo concreto: una gestoría de 15 empleados que busca el canal más barato. Con EuroCanalDenuncias pagaría 19€/mes + 99€ setup = 327€ el primer año. Con EticAlert pagaría 9€/mes = 108€ el primer año, sin coste de alta.</p>
 
         <h2 id="veredicto-eurocanaldenuncias">Veredicto</h2>
         <p>EuroCanalDenuncias es una opción funcional dentro del mercado español, pero no ofrece ventajas claras sobre EticAlert: el precio recurrente es idéntico, el coste de setup penaliza el primer año, y las garantías técnicas documentadas son inferiores.</p>

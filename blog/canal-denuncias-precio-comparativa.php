@@ -47,7 +47,7 @@ include '../includes/header.php';
     {
       "@type": "Question",
       "name": "¿Cuánto cuesta implementar un canal de denuncias en España?",
-      "acceptedAnswer": {"@type": "Answer", "text": "El coste varía enormemente según la opción elegida. Una plataforma SaaS como EticAlert puede ser gratuita hasta 20 empleados o costar desde 19 euros al mes para pymes. Una consultoría especializada supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes. El desarrollo a medida puede partir de 10.000 euros. El módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."}
+      "acceptedAnswer": {"@type": "Answer", "text": "El coste varía enormemente según la opción elegida. Una plataforma SaaS como EticAlert cuesta desde 9 euros al mes hasta 20 empleados, o desde 19 euros al mes para pymes de más tamaño. Una consultoría especializada supone entre 1.500 y 5.000 euros de implantación más 100-300 euros al mes. El desarrollo a medida puede partir de 10.000 euros. El módulo dentro de una suite de RRHH ronda los 4-6 euros por usuario al mes."}
     },
     {
       "@type": "Question",
@@ -151,11 +151,12 @@ include '../includes/header.php';
         </table>
 
         <h2 id="eticalert-precio">¿Qué incluye EticAlert en su precio?</h2>
-        <p>EticAlert tiene tres planes principales:</p>
+        <p>EticAlert tiene cuatro planes principales:</p>
         <ul>
-          <li><strong>Plan Gratuito (hasta 20 empleados):</strong> canal de denuncias completamente funcional, formulario configurable, anonimato real, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> automático, acuses de recibo automáticos.</li>
-          <li><strong>Plan Pyme (50-150 empleados): desde 19€/mes.</strong> Todo lo del plan Starter más: múltiples usuarios RSII, exportación del libro-registro en PDF, soporte por email, URL personalizada.</li>
-          <li><strong>Plan Empresa (150-500 empleados):</strong> todo lo del plan Pyme más: multi-empresa, acceso API, soporte prioritario, onboarding asistido.</li>
+          <li><strong>Plan Starter (hasta 20 empleados): 9€/mes.</strong> Canal de denuncias completamente funcional, formulario configurable, anonimato real, <a href="/blog/libro-registro-canal-denuncias" style="color:var(--accent);">libro-registro</a> automático, acuses de recibo automáticos.</li>
+          <li><strong>Plan Business (21-49 empleados): 19€/mes.</strong> Todo lo del plan Starter, con capacidad para más usuarios gestores.</li>
+          <li><strong>Plan Company (50-150 empleados): 39€/mes.</strong> Todo lo del plan Business, con soporte por email y URL personalizada.</li>
+          <li><strong>Plan Enterprise (más de 150 empleados): precio personalizado.</strong> Todo lo del plan Company más: multiempresa, acceso API, SSO/SAML, onboarding asistido.</li>
         </ul>
         <p>En todos los planes están incluidos: configuración guiada, plantillas de política del SII, datos almacenados en la UE, cifrado AES-256 y actualizaciones automáticas ante cambios normativos.</p>
 
