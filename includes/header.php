@@ -177,7 +177,9 @@ if (!isset($page_content_group)) {
   </style>
   <script>
     (function(){
-      if (localStorage.getItem('vbDismissed')) {
+      var SNOOZE_MS = 30 * 24 * 60 * 60 * 1000;
+      var dismissedAt = parseInt(localStorage.getItem('vbDismissed'), 10);
+      if (dismissedAt && (Date.now() - dismissedAt) < SNOOZE_MS) {
         document.documentElement.classList.add('vb-dismissed');
       } else {
         document.documentElement.classList.add('has-verify-banner');
@@ -252,7 +254,7 @@ if (!isset($page_content_group)) {
 </div>
 <script>
 function dismissVerifyBanner(){
-  localStorage.setItem('vbDismissed','1');
+  localStorage.setItem('vbDismissed', Date.now());
   document.documentElement.classList.remove('has-verify-banner');
   document.documentElement.classList.add('vb-dismissed');
 }
