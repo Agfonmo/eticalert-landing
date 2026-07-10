@@ -177,13 +177,8 @@ if (!isset($page_content_group)) {
   </style>
   <script>
     (function(){
-      var SNOOZE_MS = 30 * 24 * 60 * 60 * 1000;
-      var dismissedAt = parseInt(localStorage.getItem('vbDismissed'), 10);
-      if (dismissedAt && (Date.now() - dismissedAt) < SNOOZE_MS) {
-        document.documentElement.classList.add('vb-dismissed');
-      } else {
-        document.documentElement.classList.add('has-verify-banner');
-      }
+      // De momento el banner es fijo (buque insignia): no se comprueba vbDismissed.
+      document.documentElement.classList.add('has-verify-banner');
     })();
   </script>
 
@@ -248,9 +243,6 @@ if (!isset($page_content_group)) {
   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
   <span>Verifica la integridad de cualquier denuncia con su hash SHA-256 →</span>
   <a href="https://app.eticalert.com/verificar" target="_blank" rel="noopener">Ir al verificador</a>
-  <button class="verify-banner-close" onclick="dismissVerifyBanner()" aria-label="Cerrar aviso">
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-  </button>
 </div>
 <script>
 function dismissVerifyBanner(){
