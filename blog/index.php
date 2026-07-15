@@ -265,6 +265,13 @@ include '../includes/header.php';
         </a>
 
         <!-- SILO 4: COMPARATIVAS -->
+        <a href="/blog/canal-denuncias-mas-barato" class="blog-card fade-up" data-category="comparativas">
+          <span class="blog-badge badge-comparativas">Comparativas</span>
+          <h3>El canal de denuncias más barato de España: comparativa de precios reales</h3>
+          <p>Ranking 2026 por precio de entrada y coste real del primer año: cuotas de alta, precio por usuario y otros costes ocultos al descubierto.</p>
+          <span class="blog-card-meta">15 jul 2026 · 7 min lectura</span>
+        </a>
+
         <a href="/blog/canal-denuncias-factorial" class="blog-card fade-up" data-category="comparativas">
           <span class="blog-badge badge-comparativas">Comparativas</span>
           <h3>Canal de denuncias en Factorial: ¿suficiente para cumplir la Ley 2/2023?</h3>
