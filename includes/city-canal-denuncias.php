@@ -243,8 +243,8 @@ if (!isset($cities[$city_slug])) {
 
 $city = $cities[$city_slug];
 
-$page_title       = "Canal de Denuncias en {$city['nombre']} — Obligación, Costes y Cómo Activarlo · EticAlert";
-$page_description = "¿Tu empresa en {$city['nombre']} está obligada a tener canal de denuncias? Guía actualizada 2026 sobre la Ley 2/2023 en la provincia de {$city['provincia']}: quién debe cumplir, plazos y cómo activarlo desde 9€/mes.";
+$page_title       = "Canal de denuncias en {$city['nombre']} | EticAlert";
+$page_description = "¿Tu empresa en {$city['nombre']} debe tener canal de denuncias? Cumple la Ley 2/2023: quién debe implantarlo, plazos y cómo activarlo desde 9€/mes.";
 $page_canonical   = "https://eticalert.com/canal-denuncias-" . str_replace('-', '-', $city_slug);
 
 include __DIR__ . '/header.php';

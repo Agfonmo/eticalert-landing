@@ -1,6 +1,6 @@
 <?php
-$page_title       = '¿Requerimiento de Inspección o AIPI? Regulariza hoy | EticAlert';
-$page_description = 'Si has recibido un requerimiento de la Inspección de Trabajo o de la AIPI por tu canal de denuncias, aquí tienes el checklist para regularizar y activar tu canal hoy mismo.';
+$page_title       = '¿Requerimiento AIPI? Regulariza hoy | EticAlert';
+$page_description = 'Si has recibido un requerimiento de Inspección o AIPI por tu canal de denuncias, aquí tienes el checklist para regularizar y activarlo hoy mismo.';
 $page_canonical   = 'https://eticalert.com/requerimiento-aipi';
 include 'includes/header.php';
 ?>
