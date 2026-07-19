@@ -151,21 +151,22 @@ include 'includes/header.php';
       </p>
       <p class="fade-up" style="font-size:0.875rem;color:var(--text-muted);">
         ¿Buscas información específica de tu ciudad? Guía propia para
-        <a href="/canal-denuncias-madrid" style="color:var(--accent);">Madrid</a>,
-        <a href="/canal-denuncias-barcelona" style="color:var(--accent);">Barcelona</a>,
-        <a href="/canal-denuncias-valencia" style="color:var(--accent);">Valencia</a>,
-        <a href="/canal-denuncias-sevilla" style="color:var(--accent);">Sevilla</a>,
-        <a href="/canal-denuncias-bilbao" style="color:var(--accent);">Bilbao</a>,
-        <a href="/canal-denuncias-malaga" style="color:var(--accent);">Málaga</a>,
-        <a href="/canal-denuncias-zaragoza" style="color:var(--accent);">Zaragoza</a>,
-        <a href="/canal-denuncias-murcia" style="color:var(--accent);">Murcia</a>,
-        <a href="/canal-denuncias-palma" style="color:var(--accent);">Palma de Mallorca</a>,
-        <a href="/canal-denuncias-las-palmas" style="color:var(--accent);">Las Palmas de Gran Canaria</a>,
-        <a href="/canal-denuncias-alicante" style="color:var(--accent);">Alicante</a>,
-        <a href="/canal-denuncias-cordoba" style="color:var(--accent);">Córdoba</a>,
-        <a href="/canal-denuncias-valladolid" style="color:var(--accent);">Valladolid</a>,
-        <a href="/canal-denuncias-vigo" style="color:var(--accent);">Vigo</a> y
-        <a href="/canal-denuncias-gijon" style="color:var(--accent);">Gijón</a>.
+        <a href="/canal-denuncias-madrid" style="color:var(--accent);">Madrid</a> y
+        <a href="/canal-denuncias-barcelona" style="color:var(--accent);">Barcelona</a>.
+        Resto de ciudades por comunidad autónoma:
+        <a href="#comunitat-valenciana" style="color:var(--accent);">Valencia</a>,
+        <a href="#andalucia" style="color:var(--accent);">Sevilla</a>,
+        <a href="#pais-vasco" style="color:var(--accent);">Bilbao</a>,
+        <a href="#andalucia" style="color:var(--accent);">Málaga</a>,
+        <a href="#aragon" style="color:var(--accent);">Zaragoza</a>,
+        <a href="#murcia" style="color:var(--accent);">Murcia</a>,
+        <a href="#baleares" style="color:var(--accent);">Palma de Mallorca</a>,
+        <a href="#canarias" style="color:var(--accent);">Las Palmas de Gran Canaria</a>,
+        <a href="#comunitat-valenciana" style="color:var(--accent);">Alicante</a>,
+        <a href="#andalucia" style="color:var(--accent);">Córdoba</a>,
+        <a href="#castilla-y-leon" style="color:var(--accent);">Valladolid</a>,
+        <a href="#galicia" style="color:var(--accent);">Vigo</a> y
+        <a href="#asturias" style="color:var(--accent);">Gijón</a>.
       </p>
 
       <!-- Jump links -->
@@ -450,19 +451,19 @@ include 'includes/header.php';
       <p style="margin-top:1.25rem;font-size:0.8125rem;color:var(--text-muted);">
         <a href="/canal-denuncias-madrid" style="color:var(--accent);">Madrid</a> ·
         <a href="/canal-denuncias-barcelona" style="color:var(--accent);">Barcelona</a> ·
-        <a href="/canal-denuncias-valencia" style="color:var(--accent);">Valencia</a> ·
-        <a href="/canal-denuncias-sevilla" style="color:var(--accent);">Sevilla</a> ·
-        <a href="/canal-denuncias-bilbao" style="color:var(--accent);">Bilbao</a> ·
-        <a href="/canal-denuncias-malaga" style="color:var(--accent);">Málaga</a> ·
-        <a href="/canal-denuncias-zaragoza" style="color:var(--accent);">Zaragoza</a> ·
-        <a href="/canal-denuncias-murcia" style="color:var(--accent);">Murcia</a> ·
-        <a href="/canal-denuncias-palma" style="color:var(--accent);">Palma</a> ·
-        <a href="/canal-denuncias-las-palmas" style="color:var(--accent);">Las Palmas</a> ·
-        <a href="/canal-denuncias-alicante" style="color:var(--accent);">Alicante</a> ·
-        <a href="/canal-denuncias-cordoba" style="color:var(--accent);">Córdoba</a> ·
-        <a href="/canal-denuncias-valladolid" style="color:var(--accent);">Valladolid</a> ·
-        <a href="/canal-denuncias-vigo" style="color:var(--accent);">Vigo</a> ·
-        <a href="/canal-denuncias-gijon" style="color:var(--accent);">Gijón</a> ·
+        <a href="#comunitat-valenciana" style="color:var(--accent);">Valencia</a> ·
+        <a href="#andalucia" style="color:var(--accent);">Sevilla</a> ·
+        <a href="#pais-vasco" style="color:var(--accent);">Bilbao</a> ·
+        <a href="#andalucia" style="color:var(--accent);">Málaga</a> ·
+        <a href="#aragon" style="color:var(--accent);">Zaragoza</a> ·
+        <a href="#murcia" style="color:var(--accent);">Murcia</a> ·
+        <a href="#baleares" style="color:var(--accent);">Palma</a> ·
+        <a href="#canarias" style="color:var(--accent);">Las Palmas</a> ·
+        <a href="#comunitat-valenciana" style="color:var(--accent);">Alicante</a> ·
+        <a href="#andalucia" style="color:var(--accent);">Córdoba</a> ·
+        <a href="#castilla-y-leon" style="color:var(--accent);">Valladolid</a> ·
+        <a href="#galicia" style="color:var(--accent);">Vigo</a> ·
+        <a href="#asturias" style="color:var(--accent);">Gijón</a> ·
         <a href="/calculadora-multas-aipi" style="color:var(--accent);">Calculadora de multas</a> ·
         <a href="/radar-aipi" style="color:var(--accent);">Radar AIPI</a>
       </p>
