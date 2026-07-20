@@ -145,8 +145,10 @@ if (!isset($page_content_group)) {
   <!-- Preload critical font files for LCP (hero heading) — subset Latin, stable URLs by font version -->
   <link rel="preload" as="font" type="font/woff2" crossorigin fetchpriority="high" href="https://fonts.gstatic.com/s/instrumentsans/v4/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_jfykywN2u7ZWwU.woff2">
   <link rel="preload" as="font" type="font/woff2" crossorigin fetchpriority="high" href="https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiJ-Ek-_EeA.woff2">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
+  <!-- display=optional (no swap): con las fuentes precargadas arriba, el navegador ya las tiene listas
+       casi siempre; si no, se queda con el fallback en vez de reflowar la página al llegar tarde (CLS) -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=optional" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=optional" rel="stylesheet"></noscript>
 
   <!-- Stylesheet — carga no bloqueante para mejorar FCP/LCP -->
   <link rel="preload" href="/css/styles.css?v=20260709b" as="style" onload="this.onload=null;this.rel='stylesheet'">
