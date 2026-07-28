@@ -177,6 +177,14 @@ include '../includes/header.php';
               <span class="blog-badge badge-sectores">Por sector</span>
               <h4>Canal de denuncias para inmobiliarias y promotoras</h4>
             </a>
+            <a href="/blog/canal-denuncias-grupos-empresariales" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para grupos empresariales y holdings</h4>
+            </a>
+            <a href="/blog/canal-denuncias-empresas-trabajo-temporal" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para ETTs y agencias de colocación</h4>
+            </a>
           </div>
         </div>
 

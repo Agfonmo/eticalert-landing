@@ -264,6 +264,14 @@ include '../includes/header.php';
               <span class="blog-badge badge-sectores">Por sector</span>
               <h4>Canal de denuncias en joyería, arte y antigüedades</h4>
             </a>
+            <a href="/blog/canal-denuncias-grupos-empresariales" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para grupos empresariales y holdings</h4>
+            </a>
+            <a href="/blog/canal-denuncias-empresas-trabajo-temporal" class="related-card">
+              <span class="blog-badge badge-sectores">Por sector</span>
+              <h4>Canal de denuncias para ETTs y agencias de colocación</h4>
+            </a>
           </div>
           <p style="margin-top:1.25rem;"><a href="/sectores" style="color:var(--accent);font-weight:600;">Ver los más de 30 sectores analizados →</a></p>
         </div>

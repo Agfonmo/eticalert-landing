@@ -295,7 +295,11 @@ include 'includes/header.php';
             <li><a href="/blog/canal-denuncias-sector-financiero" style="color:var(--accent);">Canal de denuncias para entidades financieras y aseguradoras</a> — MiFID II, MAR, abuso de mercado, mis-selling.</li>
             <li><a href="/blog/canal-denuncias-ongs" style="color:var(--accent);">Canal de denuncias para ONGs y fundaciones</a> — malversación, fraude en proyectos europeos, supervisión de financiadores.</li>
             <li><a href="/blog/canal-denuncias-despachos-abogados" style="color:var(--accent);">Canal de denuncias para despachos de abogados</a> — doble obligación PBC y Ley 2/2023, secreto profesional.</li>
-            <li><a href="/blog/canal-denuncias-ayuntamientos" style="color:var(--accent);">Canal de denuncias para ayuntamientos y sector público</a> — municipios +10.000 hab., contratación pública, AIPI.</li>
+            <li><a href="/blog/canal-denuncias-grupos-empresariales" style="color:var(--accent);">Canal de denuncias para grupos empresariales y holdings</a> — RSII único de grupo, artículo 11 Ley 2/2023, gestión centralizada.</li>
+            <li><a href="/blog/canal-denuncias-empresas-trabajo-temporal" style="color:var(--accent);">Canal de denuncias para ETTs y agencias de colocación</a> — trabajadores cedidos, responsabilidad compartida, doble cadena.</li>
+            <li><a href="/blog/canal-denuncias-promotores-inmobiliarios" style="color:var(--accent);">Canal de denuncias para promotores inmobiliarios</a> — PBC, corrupción urbanística, subcontratación.</li>
+            <li><a href="/blog/canal-denuncias-transporte-aereo-maritimo" style="color:var(--accent);">Canal de denuncias en transporte aéreo y marítimo</a> — normativa sectorial, tripulaciones, cadena de suministro.</li>
+            <li><a href="/blog/canal-denuncias-joyas-arte-antiguedades" style="color:var(--accent);">Canal de denuncias en joyería, arte y antigüedades</a> — PBC, operaciones en efectivo, diligencia debida.</li>
           </ul>
 
           <!-- ================================================== -->
