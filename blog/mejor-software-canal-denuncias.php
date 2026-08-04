@@ -275,6 +275,8 @@ include '../includes/header.php';
           <li><a href="/blog/alternativa-whistlelink" style="color:var(--accent);">EticAlert vs Whistlelink: comparativa directa →</a></li>
           <li><a href="/blog/alternativa-whistleon" style="color:var(--accent);">EticAlert vs WhistleOn: comparativa directa →</a></li>
           <li><a href="/blog/alternativa-eurocanaldenuncias" style="color:var(--accent);">EticAlert vs EuroCanalDenuncias: comparativa directa →</a></li>
+          <li><a href="/blog/alternativa-globalsuite" style="color:var(--accent);">EticAlert vs GlobalSuite: comparativa directa →</a></li>
+          <li><a href="/blog/alternativa-lapsowork" style="color:var(--accent);">EticAlert vs LapsoWork: comparativa directa →</a></li>
           <li><a href="/software-canal-de-denuncias" style="color:var(--accent);">Guía rápida: qué software elegir según tu empresa →</a></li>
           <li><a href="/blog/canal-denuncias-precio-comparativa" style="color:var(--accent);">¿Cuánto cuesta un canal de denuncias? →</a></li>
           <li><a href="/blog/canal-denuncias-mas-barato" style="color:var(--accent);">El canal de denuncias más barato de España: ranking por precio →</a></li>

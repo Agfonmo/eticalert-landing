@@ -5,14 +5,14 @@ $page_canonical         = 'https://eticalert.com/blog/canal-denuncias-clockio';
 $page_og_type           = 'article';
 $page_og_image_alt      = 'Canal de denuncias Clockio vs EticAlert 2026';
 $page_article_published = '2026-04-14T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-08-04T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Legislation","name":"Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción","legislationIdentifier":"BOE-A-2023-4513","legislationType":"Ley","legislationJurisdiction":{"@type":"Country","name":"España"},"datePublished":"2023-02-20","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513"}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias en Clockio: ¿suficiente para la Ley 2/2023? EticAlert vs Clockio (2026)","description":"Clockio incluye canal de denuncias en su plan Premium (30€/mes + 3€/emp). Analizamos si el módulo integrado en un software de fichajes ofrece el aislamiento legal exigido.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-clockio","datePublished":"2026-04-14","dateModified":"2026-04-14","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"clockio canal denuncias, clockio ley 2/2023, alternativa clockio canal denuncias, clockio vs eticalert"}
+{"@context":"https://schema.org","@type":"BlogPosting","headline":"Canal de denuncias en Clockio: ¿suficiente para la Ley 2/2023? EticAlert vs Clockio (2026)","description":"Clockio incluye canal de denuncias en su plan Premium (30€/mes + 3€/emp). Analizamos si el módulo integrado en un software de fichajes ofrece el aislamiento legal exigido.","image":{"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},"url":"https://eticalert.com/blog/canal-denuncias-clockio","datePublished":"2026-04-14","dateModified":"2026-08-04","author":{"@type":"Organization","name":"EticAlert"},"publisher":{"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},"keywords":"clockio canal denuncias, clockio ley 2/2023, alternativa clockio canal denuncias, clockio vs eticalert"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://eticalert.com/blog/"},{"@type":"ListItem","position":3,"name":"Comparativas","item":"https://eticalert.com/blog/?cat=comparativas"},{"@type":"ListItem","position":4,"name":"Canal de denuncias Clockio","item":"https://eticalert.com/blog/canal-denuncias-clockio"}]}
@@ -118,6 +118,19 @@ include '../includes/header.php';
         <p><strong>Elige Clockio</strong> solo para fichajes, no como plataforma de canal de denuncias. <strong>Combínalo con EticAlert</strong> (39€/mes fijo, completamente aislado del sistema de RRHH) para cumplir la Ley 2/2023 con garantías reales.</p>
 
                 <p style="margin-bottom:1.5rem;font-size:0.9375rem;"><a href="/canal-de-denuncias" style="color:var(--accent);font-weight:600;">→ Cómo funciona el canal de denuncias de EticAlert para pymes</a></p>
+
+        <h2 id="rsii-administrador-clockio">¿Puede el administrador de Clockio ser el RSII?</h2>
+        <p>Esta es la pregunta clave que muchas empresas no se hacen antes de activar el módulo de canal en Clockio. La respuesta legal depende de tres condiciones acumulativas que deben darse simultáneamente:</p>
+        <ol>
+          <li><strong>Separación de accesos.</strong> El administrador de Clockio que gestiona fichajes, nóminas y ausencias NO puede tener acceso al módulo de canal de denuncias salvo que sea él mismo el RSII designado. Si la plataforma no permite configurar permisos de forma que el módulo de canal sea completamente invisible para los administradores de RRHH, el aislamiento se rompe técnicamente.</li>
+          <li><strong>Ausencia de conflicto de interés.</strong> El RSII no puede tener relación jerárquica o funcional con las personas que potencialmente serían investigadas. En la mayoría de pymes, el administrador de Clockio es el director de RRHH o el responsable de administración — que depende directamente del CEO. Si una denuncia afecta al CEO o a algún directivo, el RSII-administrador-de-RRHH tiene un conflicto de interés estructural que invalida el sistema.</li>
+          <li><strong>Designación formal ante la AIPI.</strong> El RSII debe ser comunicado a la AIPI a través de su sede electrónica. Esta notificación identifica a una persona concreta. Si la persona notificada como RSII también administra el sistema de RRHH, la AIPI puede cuestionar la independencia funcional del cargo en una inspección.</li>
+        </ol>
+        <p>En la práctica, la AIPI ha señalado en sus documentos orientativos que el criterio de "independencia funcional" del RSII se evalúa no solo en el papel sino en la arquitectura real del sistema: si el mismo usuario que ve las nóminas también puede acceder a los expedientes de denuncia, la separación no existe aunque los documentos digan que sí. Esta es la razón por la que un canal de denuncias integrado en un software de RRHH enfrenta un reto estructural que un canal especializado evita por diseño.</p>
+
+        <div class="callout">
+          <p><strong>Escenario de riesgo concreto:</strong> empresa de logística con 80 empleados. La responsable de RRHH es administradora de Clockio y ha sido designada RSII. Un empleado presenta una denuncia anónima sobre acoso por parte del jefe de operaciones. La responsable de RRHH tiene en el mismo panel de Clockio acceso a los datos laborales del denunciante (contrato, evaluaciones, fichajes) y al expediente de denuncia. El jefe de operaciones, al conocer que se ha abierto un expediente, presiona a la responsable de RRHH para identificar al informante. Este escenario es exactamente el que la Ley 2/2023 pretende prevenir, y se produce por diseño en una arquitectura de canal integrado en RRHH.</p>
+        </div>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:var(--radius-lg);padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Canal aislado desde 19€/mes — sin escalar por empleado</h3>

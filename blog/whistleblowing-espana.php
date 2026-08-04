@@ -4,7 +4,7 @@ $page_description = 'Qué es el whistleblowing, quién puede denunciar en Españ
 $page_canonical   = 'https://eticalert.com/blog/whistleblowing-espana';
 $page_og_type           = 'article';
 $page_article_published = '2026-05-21T00:00:00+01:00';
-$page_article_modified  = '2026-05-21T00:00:00+01:00';
+$page_article_modified  = '2026-08-04T00:00:00+02:00';
 include '../includes/header.php';
 ?>
 
@@ -23,7 +23,7 @@ include '../includes/header.php';
   "image": {"@type":"ImageObject","url":"https://eticalert.com/img/og-image.php","width":1200,"height":630},
   "url": "https://eticalert.com/blog/whistleblowing-espana",
   "datePublished": "2026-05-21",
-  "dateModified": "2026-05-21",
+  "dateModified": "2026-08-04",
   "author": {"@type":"Organization","name":"EticAlert"},
   "publisher": {"@type":"Organization","name":"EticAlert","url":"https://eticalert.com"},
   "keywords": "whistleblowing España, whistleblower España, canal de denuncias, Ley 2/2023, protección informante, directiva whistleblowing"
@@ -164,6 +164,28 @@ include '../includes/header.php';
           <li><strong>Mantener y auditar el sistema.</strong> El canal debe estar operativo de forma permanente. La empresa debe registrar todas las comunicaciones recibidas, las actuaciones realizadas y las decisiones adoptadas, y debe revisar periódicamente que el sistema funciona correctamente y sigue cumpliendo los requisitos legales.</li>
         </ol>
         <p>Para las pymes españolas con obligación legal, la ruta más sencilla es activar una plataforma SaaS especializada que cubra los requisitos técnicos de la ley desde el primer día y que incluya el proceso guiado de designación y comunicación del RSII.</p>
+
+        <h2 id="estado-espana-2026">El estado del whistleblowing en España en 2026</h2>
+        <p>Con la AIPI operativa desde comienzos de 2026, el panorama del whistleblowing en España ha cambiado cualitativamente. Ya no es una obligación teórica: el organismo ha iniciado expedientes sancionadores, ha publicado resoluciones y ha emitido recomendaciones prácticas que definen cómo debe funcionar un canal para superar una inspección. Los datos que permiten calibrar dónde estamos:</p>
+        <ul>
+          <li><strong>Tasa de incumplimiento estimada en pymes:</strong> según los datos de solicitud de designación de RSII en la sede de la AIPI, una proporción significativa de empresas obligadas (50-249 empleados) aún no había comunicado su RSII a finales del primer semestre de 2026, lo que las sitúa en doble incumplimiento: sin canal operativo y sin designación formal del responsable.</li>
+          <li><strong>Perfil de las infracciones detectadas:</strong> las actuaciones de inspección de la AIPI se han centrado principalmente en tres tipologías: ausencia total de canal, canal con formulario accesible pero sin RSII designado y notificado, y canales que no garantizan el anonimato del informante (formularios con IP registrada o con identificación corporativa obligatoria).</li>
+          <li><strong>Sectores con mayor presión inspectora:</strong> el sector financiero, las entidades que gestionan fondos públicos y las constructoras han recibido mayor atención por parte de la AIPI en su primera fase de actividad, en línea con el énfasis de la Directiva 2019/1937 en los sectores con mayor riesgo de corrupción.</li>
+          <li><strong>Uso real del canal externo:</strong> la AIPI también gestiona su propio canal externo de denuncias para empleados de organizaciones que no disponen de canal interno o donde el canal interno no funciona. El número de comunicaciones recibidas en el canal externo sirve como indicador indirecto de la confianza (o desconfianza) en los canales internos del mercado.</li>
+        </ul>
+
+        <div class="callout">
+          <p><strong>Qué aprenden las empresas de las inspecciones:</strong> los expedientes publicados por la AIPI revelan que los incumplimientos más frecuentes no son técnicos sino procedimentales — empresas que tienen el canal activado pero no han documentado la política del sistema, no han comunicado el canal a proveedores y contratistas, o tienen designado un RSII que no ha sido notificado formalmente a la AIPI. Tener el canal activo no es suficiente: el cumplimiento documental es igualmente obligatorio.</p>
+        </div>
+
+        <h2 id="whistleblowing-internacional">Whistleblowing en perspectiva internacional</h2>
+        <p>España no está sola en este proceso. La Directiva 2019/1937 ha obligado a todos los estados miembros de la UE a crear marcos similares. La experiencia de los países que transpusieron antes la directiva ofrece algunas lecciones útiles sobre cómo evoluciona el whistleblowing una vez que la ley lleva varios años en vigor:</p>
+        <ul>
+          <li><strong>Francia</strong> (Loi Sapin II, 2016): en los primeros años de aplicación, las denuncias internas aumentaron pero la mayoría seguían siendo anónimas. Con el tiempo, y a medida que los informantes confirmaron que las protecciones funcionaban, el porcentaje de denuncias con identificación voluntaria creció. La confianza en el sistema es el factor determinante.</li>
+          <li><strong>Reino Unido</strong> (Public Interest Disclosure Act, 1998): uno de los marcos más maduros de Europa. La experiencia británica muestra que los canales con mayor uso son los que garantizan respuesta real al informante — no solo acuse de recibo, sino actualización periódica del estado de la investigación. La obligación de informar al denunciante en 3 meses de la Ley 2/2023 sigue precisamente este modelo.</li>
+          <li><strong>EEUU</strong> (Dodd-Frank, SEC Whistleblower Program): el modelo más desarrollado globalmente incluye compensaciones económicas para informantes cuya denuncia derivó en sanción superior a 1 millón de dólares. La Ley 2/2023 española no prevé compensaciones económicas, pero sí la nulidad del despido represalia y la inversión de la carga de la prueba, mecanismos de protección de primera magnitud.</li>
+        </ul>
+        <p>La tendencia global apunta a que el whistleblowing efectivo requiere tres condiciones simultáneas: un canal técnicamente seguro (que el informante crea que no puede ser identificado), un proceso de gestión creíble (que el informante crea que la denuncia tendrá consecuencias reales) y una cultura organizativa que no penalice implícitamente el uso del canal. La tecnología cubre la primera condición; el RSII y el procedimiento cubren la segunda; la comunicación y el liderazgo cubren la tercera.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Activa tu sistema de whistleblowing con EticAlert</h3>
