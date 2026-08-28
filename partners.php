@@ -1,4 +1,120 @@
 <?php
+// ============================================================
+// EticAlert — partners.php
+// Alta de solicitudes del programa partner.
+// Mismo patrón que registro.php: CSRF + honeypot + rate limit,
+// persistencia en CSV y aviso por email. Sin API: el flujo partner
+// es comercial, no self-serve.
+// ============================================================
+require_once __DIR__ . '/config.php';
+session_set_cookie_params([
+    'lifetime' => 0,
+    'secure'   => true,
+    'httponly' => true,
+    'samesite' => 'Lax',
+]);
+session_start();
+
+$p_errors = [];
+$p_sent   = isset($_GET['enviado']);
+$p_values = ['nombre'=>'','email'=>'','empresa'=>'','tipo'=>'','cartera'=>'','telefono'=>'','mensaje'=>''];
+
+if (empty($_SESSION['csrf_token'])) {
+  $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+$p_csrf = $_SESSION['csrf_token'];
+
+$p_tipos = [
+  'asesoria'  => 'Asesoría, gestoría o despacho',
+  'proveedor' => 'Proveedor B2B con cartera de clientes',
+  'sectorial' => 'Partner sectorial / asociación',
+  'otro'      => 'Otro',
+];
+$p_carteras = ['1-10','11-50','51-200','200+'];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['partner_form'])) {
+
+  // Honeypot
+  if (!empty($_POST['website'])) { http_response_code(400); exit; }
+
+  // Rate limiting por IP: máx 5 envíos en 10 min
+  $p_ip_key = 'partner_attempts_' . hash('sha256', $_SERVER['REMOTE_ADDR'] ?? '');
+  if (!isset($_SESSION[$p_ip_key])) $_SESSION[$p_ip_key] = [];
+  $_SESSION[$p_ip_key] = array_filter($_SESSION[$p_ip_key], fn($t) => $t > time() - 600);
+
+  if (!hash_equals($p_csrf, $_POST['csrf_token'] ?? '')) {
+    $p_errors['csrf'] = 'Token de seguridad inválido. Recarga la página e inténtalo de nuevo.';
+  }
+  if (count($_SESSION[$p_ip_key]) >= 5) {
+    $p_errors['rate'] = 'Demasiados envíos. Espera unos minutos e inténtalo de nuevo.';
+  }
+
+  // Se guarda en crudo (limpiando saltos y caracteres de control) y se escapa
+  // en el punto de salida. Escapar aquí haría doble encoding al repintar el
+  // formulario tras un error, y ensuciaría el CSV y el email con entidades HTML.
+  $clean = fn($v, $max = 200) => mb_substr(
+    trim(preg_replace('/[\x00-\x1F\x7F]/u', ' ', (string)$v)), 0, $max
+  );
+
+  $nombre   = $clean($_POST['nombre']   ?? '');
+  $email    = $clean(filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL));
+  $empresa  = $clean($_POST['empresa']  ?? '');
+  $tipo     = $clean($_POST['tipo']     ?? '', 20);
+  $cartera  = $clean($_POST['cartera']  ?? '', 20);
+  $telefono = $clean($_POST['telefono'] ?? '', 30);
+  $mensaje  = $clean($_POST['mensaje']  ?? '', 2000);
+  $origen   = $clean($_POST['origen']   ?? '', 500);
+
+  $p_values = compact('nombre','email','empresa','tipo','cartera','telefono','mensaje');
+
+  if ($nombre === '')  $p_errors['nombre']  = 'El nombre es obligatorio.';
+  if ($empresa === '') $p_errors['empresa'] = 'El nombre de tu empresa es obligatorio.';
+  if ($email === '') {
+    $p_errors['email'] = 'El email es obligatorio.';
+  } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $p_errors['email'] = 'Introduce un email válido.';
+  }
+  if (!isset($p_tipos[$tipo]))                  $p_errors['tipo']    = 'Selecciona el tipo de partner.';
+  if ($cartera !== '' && !in_array($cartera, $p_carteras, true)) $p_errors['cartera'] = 'Selecciona un rango válido.';
+  if (empty($_POST['acepta_privacidad']))       $p_errors['privacidad'] = 'Debes aceptar la política de privacidad.';
+
+  if (empty($p_errors)) {
+    $_SESSION[$p_ip_key][] = time();
+
+    $data_dir = __DIR__ . '/data';
+    if (!is_dir($data_dir) && !mkdir($data_dir, 0700, true)) {
+      error_log('EticAlert: No se pudo crear directorio de datos: ' . $data_dir);
+    }
+    // Defensa en profundidad: si el vhost ignorase el .htaccess raíz
+    if (!file_exists($data_dir . '/.htaccess')) {
+      @file_put_contents($data_dir . '/.htaccess', "Require all denied\n");
+    }
+    $csv_line = implode(';', array_map(
+      fn($v) => str_replace(';', ',', (string)$v),
+      [date('Y-m-d H:i:s'), $nombre, $email, $empresa, $p_tipos[$tipo], $cartera,
+       $telefono, $mensaje, $origen, $_SERVER['REMOTE_ADDR'] ?? '']
+    )) . "\n";
+    file_put_contents($data_dir . '/partners.csv', $csv_line, FILE_APPEND | LOCK_EX);
+
+    $body = "Nueva solicitud del programa partner\n\n"
+      . "Nombre: {$nombre}\nEmail: {$email}\nEmpresa: {$empresa}\n"
+      . "Tipo: {$p_tipos[$tipo]}\nCartera de clientes: " . ($cartera ?: 'no indicada') . "\n"
+      . "Teléfono: " . ($telefono ?: '—') . "\n\nMensaje:\n" . ($mensaje ?: '—') . "\n\n"
+      . "Origen: " . ($origen ?: 'directo') . "\nFecha: " . date('Y-m-d H:i:s') . "\n";
+    @mail(PARTNERS_EMAIL, "Partner: {$empresa} ({$p_tipos[$tipo]})", $body,
+      "From: no-reply@eticalert.com\r\nReply-To: {$email}\r\nContent-Type: text/plain; charset=UTF-8\r\n");
+
+    header('Location: /partners?enviado=1#solicitar');
+    exit;
+  }
+}
+
+function p_err(array $e, string $k): string {
+  return isset($e[$k])
+    ? '<p class="field-error" style="margin:0.375rem 0 0;">' . htmlspecialchars($e[$k]) . '</p>'
+    : '';
+}
+
 $page_title       = 'Programa Partner | EticAlert';
 $page_description = 'Recomienda EticAlert a tus clientes y genera crédito por cada oportunidad activada. Para asesorías, proveedores B2B y partners sectoriales.';
 $page_canonical   = 'https://eticalert.com/partners';
@@ -62,7 +178,7 @@ include 'includes/header.php';
           Un programa para partners que quieren aportar una solución útil a sus clientes y generar retorno por cada oportunidad activada. Recomienda EticAlert, acompaña a tus clientes con una solución especializada y solicita las condiciones del programa.
         </p>
         <div style="display:flex;flex-wrap:wrap;gap:1rem;">
-          <a href="mailto:partners@eticalert.com?subject=Quiero solicitar las condiciones del programa partner" class="btn btn-primary">Solicitar condiciones del programa →</a>
+          <a href="#solicitar" class="btn btn-primary">Solicitar condiciones del programa →</a>
           <a href="#como-funciona" class="btn btn-secondary">Ver cómo funciona</a>
         </div>
       </div>
@@ -247,7 +363,7 @@ include 'includes/header.php';
         ['¿Qué tipo de empresas pueden ser partner?', 'Tres perfiles principales: asesores (despachos, consultoras y profesionales de cumplimiento), proveedores B2B con cartera de clientes, y partners sectoriales que detectan oportunidades y quieren derivarlas de forma trazable.'],
         ['¿Necesito conocimientos técnicos para ser partner?', 'No. EticAlert es una plataforma SaaS sin instalación. El partner identifica la oportunidad y acompaña al cliente; EticAlert facilita el proceso comercial y la activación técnica.'],
         ['¿Hay una cuota para ser partner?', 'No. El programa no tiene coste de entrada. El crédito se genera solo cuando una recomendación se convierte en cliente activo.'],
-        ['¿Cómo solicito las condiciones completas?', 'Escribe a partners@eticalert.com o responde a la propuesta que hayas recibido. Revisamos juntos cómo encaja EticAlert con tu cartera de clientes y te compartimos las condiciones vigentes.'],
+        ['¿Cómo solicito las condiciones completas?', 'Rellena el <a href="#solicitar" style="color:var(--accent);">formulario de solicitud</a> al final de esta página, escribe a partners@eticalert.com o responde a la propuesta que hayas recibido. Revisamos juntos cómo encaja EticAlert con tu cartera de clientes y te compartimos las condiciones vigentes.'],
       ];
       foreach ($faqs as $faq): ?>
       <details style="border:1px solid var(--border);border-radius:8px;padding:1rem;margin:0.75rem 0;">
@@ -258,15 +374,171 @@ include 'includes/header.php';
     </div>
   </section>
 
-  <!-- CTA FINAL -->
-  <section style="padding:80px 0;">
-    <div class="container" style="max-width:620px;text-align:center;">
-      <h2 style="font-size:1.75rem;margin-bottom:1rem;">Hablemos de tu programa partner</h2>
-      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.0625rem;">Solicita las condiciones y revisamos juntos cómo encaja EticAlert con tu cartera de clientes.</p>
-      <a href="mailto:partners@eticalert.com?subject=Quiero solicitar las condiciones del programa partner" class="btn btn-primary" style="font-size:1.0625rem;padding:0.875rem 2.5rem;">
-        Solicitar condiciones →
-      </a>
-      <p style="margin-top:1.25rem;font-size:0.875rem;color:var(--text-muted);">Sin coste de entrada · Respuesta personalizada</p>
+  <!-- SOLICITUD -->
+  <section id="solicitar" style="padding:80px 0;">
+    <div class="container" style="max-width:620px;">
+
+<?php if ($p_sent): ?>
+      <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2.5rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:0.75rem;" aria-hidden="true">✓</div>
+        <h2 style="font-size:1.5rem;margin-bottom:0.75rem;">Solicitud recibida</h2>
+        <p style="color:var(--text-secondary);margin-bottom:0;">Gracias. Revisamos cómo encaja EticAlert con tu cartera y te escribimos con las condiciones del programa en menos de 24&nbsp;horas laborables.</p>
+      </div>
+      <script>
+        (function(){
+          try { if (typeof window.gtag === 'function') window.gtag('event', 'partner_solicitud_enviada', { form: 'partners' }); } catch(e){}
+          if (window.history.replaceState) window.history.replaceState({}, '', '/partners#solicitar');
+        })();
+      </script>
+<?php else: ?>
+      <div style="text-align:center;margin-bottom:2.5rem;">
+        <h2 style="font-size:1.75rem;margin-bottom:1rem;">Hablemos de tu programa partner</h2>
+        <p style="color:var(--text-secondary);font-size:1.0625rem;margin-bottom:0;">Solicita las condiciones y revisamos juntos cómo encaja EticAlert con tu cartera de clientes.</p>
+      </div>
+
+      <?php if (!empty($p_errors['csrf']) || !empty($p_errors['rate'])): ?>
+      <p class="field-error" style="margin-bottom:1.25rem;"><?= htmlspecialchars($p_errors['csrf'] ?? $p_errors['rate']) ?></p>
+      <?php endif; ?>
+
+      <form method="POST" action="/partners#solicitar" novalidate id="partner-form"
+            style="background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:16px;padding:2rem;">
+        <input type="hidden" name="partner_form" value="1">
+        <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($p_csrf) ?>">
+        <input type="hidden" name="origen" id="partner-origen" value="">
+        <!-- Honeypot: invisible para humanos, tentador para bots -->
+        <div style="position:absolute;left:-9999px;" aria-hidden="true">
+          <label>No rellenar<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        <div class="form-group">
+          <label for="p-nombre">Nombre y apellidos *</label>
+          <input type="text" id="p-nombre" name="nombre" autocomplete="name"
+                 class="<?= isset($p_errors['nombre']) ? 'error' : '' ?>"
+                 value="<?= htmlspecialchars($p_values['nombre']) ?>">
+          <?= p_err($p_errors, 'nombre') ?>
+        </div>
+
+        <div class="form-group">
+          <label for="p-email">Email *</label>
+          <input type="email" id="p-email" name="email" autocomplete="email"
+                 class="<?= isset($p_errors['email']) ? 'error' : '' ?>"
+                 value="<?= htmlspecialchars($p_values['email']) ?>">
+          <?= p_err($p_errors, 'email') ?>
+        </div>
+
+        <div class="form-group">
+          <label for="p-empresa">Empresa o despacho *</label>
+          <input type="text" id="p-empresa" name="empresa" autocomplete="organization"
+                 class="<?= isset($p_errors['empresa']) ? 'error' : '' ?>"
+                 value="<?= htmlspecialchars($p_values['empresa']) ?>">
+          <?= p_err($p_errors, 'empresa') ?>
+        </div>
+
+        <div class="form-group">
+          <label for="p-tipo">Tipo de partner *</label>
+          <select id="p-tipo" name="tipo" class="<?= isset($p_errors['tipo']) ? 'error' : '' ?>">
+            <option value="">Selecciona…</option>
+            <?php foreach ($p_tipos as $k => $label): ?>
+            <option value="<?= $k ?>" <?= $p_values['tipo'] === $k ? 'selected' : '' ?>><?= $label ?></option>
+            <?php endforeach; ?>
+          </select>
+          <?= p_err($p_errors, 'tipo') ?>
+        </div>
+
+        <div class="form-group">
+          <label for="p-cartera">Clientes en cartera</label>
+          <select id="p-cartera" name="cartera">
+            <option value="">Prefiero no indicarlo</option>
+            <?php foreach ($p_carteras as $c): ?>
+            <option value="<?= $c ?>" <?= $p_values['cartera'] === $c ? 'selected' : '' ?>><?= $c ?> clientes</option>
+            <?php endforeach; ?>
+          </select>
+          <?= p_err($p_errors, 'cartera') ?>
+        </div>
+
+        <div class="form-group">
+          <label for="p-telefono">Teléfono <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
+          <input type="tel" id="p-telefono" name="telefono" autocomplete="tel"
+                 value="<?= htmlspecialchars($p_values['telefono']) ?>">
+        </div>
+
+        <div class="form-group">
+          <label for="p-mensaje">¿Algo que debamos saber? <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
+          <textarea id="p-mensaje" name="mensaje" rows="4"
+                    placeholder="Tipo de clientes, volumen estimado, cómo encajaría en tu servicio…"><?= htmlspecialchars($p_values['mensaje']) ?></textarea>
+          <?= p_err($p_errors, 'mensaje') ?>
+        </div>
+
+        <label class="form-checkbox">
+          <input type="checkbox" name="acepta_privacidad" value="1">
+          <span>He leído y acepto la <a href="/privacidad" target="_blank" rel="noopener">política de privacidad</a>. Trataremos tus datos únicamente para responder a esta solicitud.</span>
+        </label>
+        <?= p_err($p_errors, 'privacidad') ?>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;font-size:1.0625rem;padding:0.875rem 2rem;margin-top:0.5rem;">
+          Solicitar condiciones →
+        </button>
+        <p style="margin-top:1.25rem;font-size:0.875rem;color:var(--text-muted);text-align:center;">
+          Sin coste de entrada · Respuesta personalizada en menos de 24&nbsp;h laborables
+        </p>
+      </form>
+
+      <p style="margin-top:1.5rem;font-size:0.875rem;color:var(--text-muted);text-align:center;">
+        ¿Prefieres escribirnos? <a href="mailto:partners@eticalert.com?subject=Quiero solicitar las condiciones del programa partner"
+           id="partner-mailto" style="color:var(--accent);">partners@eticalert.com</a>
+      </p>
+
+      <script>
+        (function () {
+          // Origen de la solicitud: UTMs de esta visita o la primera de la sesión
+          try {
+            var KEY = 'eticalert_origen';
+            var qs = new URLSearchParams(window.location.search);
+            var utms = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid']
+              .filter(function (k) { return qs.get(k); })
+              .map(function (k) { return k + '=' + qs.get(k); });
+            var origen = utms.length ? utms.join('&') : (sessionStorage.getItem(KEY) || '');
+            if (!origen && document.referrer && document.referrer.indexOf(location.host) === -1) {
+              origen = 'ref=' + document.referrer;
+            }
+            if (utms.length) sessionStorage.setItem(KEY, origen);
+            var campo = document.getElementById('partner-origen');
+            if (campo) campo.value = origen.slice(0, 500);
+          } catch (e) {}
+
+          function track(name, params) {
+            try { if (typeof window.gtag === 'function') window.gtag('event', name, params || {}); } catch (e) {}
+          }
+
+          var form = document.getElementById('partner-form');
+          if (form) {
+            var vistoTracked = false;
+            form.addEventListener('focusin', function () {
+              if (vistoTracked) return;
+              vistoTracked = true;
+              track('partner_form_iniciado', { form: 'partners' });
+            });
+            form.addEventListener('submit', function () {
+              var tipo = document.getElementById('p-tipo');
+              var cart = document.getElementById('p-cartera');
+              track('partner_form_enviado', {
+                form: 'partners',
+                tipo_partner: tipo ? tipo.value : '',
+                cartera: cart ? cart.value : ''
+              });
+            });
+          }
+
+          var mailto = document.getElementById('partner-mailto');
+          if (mailto) {
+            mailto.addEventListener('click', function () {
+              track('partner_mailto_click', { form: 'partners' });
+            });
+          }
+        })();
+      </script>
+<?php endif; ?>
+
     </div>
   </section>
 

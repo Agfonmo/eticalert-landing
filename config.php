@@ -19,6 +19,7 @@ if (strpos($host, 'staging') !== false) {
 define('API_REGISTER',  API_BASE . '/api/auth/register');
 define('APP_LOGIN_URL', API_BASE . '/login');
 define('ADMIN_EMAIL',   'info@eticalert.com');
+define('PARTNERS_EMAIL','partners@eticalert.com');
 
 // ============================================================
 // AggregateRating — estrellas en Google SERP

@@ -126,7 +126,7 @@ include '../includes/header.php';
         <ol>
           <li><strong>Plataforma SaaS</strong> (como EticAlert): proporciona la infraestructura técnica del canal. Coste mínimo, activación inmediata, mantenimiento automático.</li>
           <li><strong>RSII interno</strong>: el director de RRHH, el CFO o el director jurídico asume el rol. Gestiona el canal en el día a día, acusa recibo, tramita expedientes sencillos.</li>
-          <li><strong>Despacho partner (opcional)</strong>: para casos complejos que excedan la capacidad o conocimiento del RSII interno. Se contrata puntualmente, por caso.</li>
+          <li><strong>Despacho partner (opcional)</strong>: para casos complejos que excedan la capacidad o conocimiento del RSII interno. Se contrata puntualmente, por caso. Si eres el despacho que presta ese servicio, el <a href="/partners" style="color:var(--accent);">programa de partners de EticAlert</a> te permite ofrecer la plataforma a tu cartera de clientes.</li>
         </ol>
         <p>Este modelo es el más eficiente: mínimo coste, máximo cumplimiento, responsabilidad claramente asignada.</p>
 
@@ -153,6 +153,7 @@ include '../includes/header.php';
         <p>Recursos relacionados:</p>
         <ul>
           <li><a href="/blog/canal-denuncias-interno-vs-externo" style="color:var(--accent);">Canal interno vs externo: diferencias y cuál elegir →</a></li>
+          <li><a href="/partners" style="color:var(--accent);">Programa de partners para despachos y asesorías →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía del RSII y formulario AIPI →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
         </ul>

@@ -148,6 +148,7 @@ include '../includes/header.php';
         <ul>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/registro" style="color:var(--accent);">Crear mi canal de denuncias →</a></li>
+          <li><a href="/partners" style="color:var(--accent);">Ofrecer el canal a tus clientes: programa de partners →</a></li>
           <li><a href="/blog/ley-2-2023-canal-de-denuncias" style="color:var(--accent);">Guía completa de la Ley 2/2023 →</a></li>
           <li><a href="/blog/aipi-sanciones-canal-denuncias" style="color:var(--accent);">La AIPI y su potestad sancionadora →</a></li>
           <li><a href="/blog/compliance-penal-canal-etico" style="color:var(--accent);">Compliance penal y canal ético →</a></li>

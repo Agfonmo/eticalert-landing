@@ -138,17 +138,18 @@ include '../includes/header.php';
         </ul>
 
         <h2 id="programa-partners">Programa de partners</h2>
-        <p>EticAlert tiene un programa específico para asesorías, despachos y consultoras de compliance que quieran ofrecer el canal de denuncias a sus clientes. El programa incluye condiciones comerciales especiales, materiales de formación y soporte dedicado para partners.</p>
-        <p>Si gestionas o refieres cinco o más clientes con canal activo en EticAlert, puedes acceder a las condiciones del programa de partners con descuentos significativos respecto al precio de tarifa.</p>
+        <p>EticAlert tiene un <a href="/partners" style="color:var(--accent);">programa de partners</a> específico para asesorías, despachos y consultoras de compliance que quieran ofrecer el canal de denuncias a sus clientes.</p>
+        <p>El modelo es de crédito: recomiendas EticAlert, acompañas al cliente y, cuando ese cliente se activa, la recomendación se reconoce con crédito para tu despacho. Puedes retirarlo como beneficio propio o aplicarlo a favor del cliente final para hacer más atractiva la propuesta. Las condiciones concretas se comparten de forma personalizada según el volumen de tu cartera y el tipo de acuerdo.</p>
 
         <div style="background:var(--bg-card);border:1px solid var(--accent-border);border-radius:16px;padding:2rem;margin:3rem 0;">
           <h3 style="margin-bottom:0.75rem;font-size:1.125rem;">Programa de partners para asesorías</h3>
-          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Ofrece el canal de denuncias a tus clientes con EticAlert. Multi-empresa, precio de partner, sin complicaciones técnicas. Starter desde 9€/mes · Business 19€/mes · Company 39€/mes.</p>
-          <a href="/registro" class="btn btn-primary">Programa de partners para asesorías →</a>
+          <p style="font-size:0.9375rem;margin-bottom:1.25rem;">Ofrece el canal de denuncias a tus clientes con EticAlert. Gestión multi-empresa, sin complicaciones técnicas y con crédito por cada cliente activado.</p>
+          <a href="/partners" class="btn btn-primary">Solicitar condiciones del programa →</a>
         </div>
 
         <p>Recursos relacionados:</p>
         <ul>
+          <li><a href="/partners" style="color:var(--accent);">Programa de partners de EticAlert →</a></li>
           <li><a href="/precios" style="color:var(--accent);">Ver planes y precios de EticAlert →</a></li>
           <li><a href="/blog/como-implantar-canal-denuncias" style="color:var(--accent);">Guía de implantación paso a paso →</a></li>
           <li><a href="/blog/rsii-guia-formulario-aipi" style="color:var(--accent);">Guía del RSII y formulario AIPI →</a></li>

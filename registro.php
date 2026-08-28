@@ -203,6 +203,10 @@ if ($submitted) {
     if (!is_dir($data_dir) && !mkdir($data_dir, 0700, true)) {
       error_log('EticAlert: No se pudo crear directorio de datos: ' . $data_dir);
     }
+    // Defensa en profundidad: si el vhost ignorase el .htaccess raíz
+    if (!file_exists($data_dir . '/.htaccess')) {
+      @file_put_contents($data_dir . '/.htaccess', "Require all denied\n");
+    }
     $csv_line = implode(';', [
       date('Y-m-d H:i:s'), $nombre, $email, $empresa, $cif,
       $sector, $empleados, $billing, $api_ok ? 'api_ok' : 'api_fail',
@@ -231,6 +235,9 @@ if ($submitted) {
 $page_title       = 'Crear canal de denuncias | EticAlert';
 $page_description = 'Activa tu canal de denuncias homologado en 5 minutos. Desde 9€/mes, sin permanencia. Cumple la Ley 2/2023 desde hoy mismo.';
 $page_canonical   = 'https://eticalert.com/registro';
+// Página de embudo: no aporta valor en el índice y puede canibalizar. 'follow' para
+// no cortar el flujo de enlaces internos (108 páginas apuntan aquí).
+$page_robots      = 'noindex, follow';
 include 'includes/header.php';
 ?><script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://eticalert.com/"},{"@type":"ListItem","position":2,"name":"Registro","item":"https://eticalert.com/registro"}]}
@@ -479,5 +486,5 @@ function field_value($field, $default = '') {
   </div>
 </main>
 
-<script src="/js/registro.js?v=20260320a" defer></script>
+<script src="/js/registro.js?v=20260828a" defer></script>
 <?php include 'includes/footer.php'; ?>

@@ -22,6 +22,56 @@
   var planError  = document.getElementById('plan-error');
 
   /* ----------------------------------------------------------
+     Instrumentación de embudo (GA4)
+     gtag() se declara en header.php antes que este script y encola en
+     dataLayer, así que existe aunque GA4 aún no haya cargado o el consent
+     esté denegado. La analítica nunca debe romper el formulario.
+  ---------------------------------------------------------- */
+  function track(name, params) {
+    try {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    } catch (e) {}
+  }
+
+  // Campos del paso 1 que han quedado marcados en rojo, para saber qué bloquea
+  function failedFields() {
+    if (!step1) return '';
+    return Array.prototype.map.call(step1.querySelectorAll('.error'), function (el) {
+      return el.id || el.name || 'desconocido';
+    }).join(',');
+  }
+
+  // Plan + precio del plan seleccionado, según el toggle mensual/anual
+  function planPayload(card) {
+    if (!card) return {};
+    var annual  = !!(billingHidden && billingHidden.value === 'annual');
+    var raw     = annual ? card.dataset.annual : card.dataset.monthly;
+    var amount  = parseFloat(String(raw || '').replace(/[^0-9.,]/g, '').replace(',', '.'));
+    var payload = {
+      plan:      card.dataset.plan  || '',
+      empleados: card.dataset.value || '',
+      billing:   annual ? 'annual' : 'monthly'
+    };
+    // Enterprise es "Consultar" → sin importe, no mandamos value
+    if (!isNaN(amount)) { payload.value = amount; payload.currency = 'EUR'; }
+    return payload;
+  }
+
+  // Arranque real del formulario: primera interacción, no la mera visita
+  var startTracked = false;
+  function trackStart() {
+    if (startTracked) return;
+    startTracked = true;
+    track('registro_iniciado', { paso: 1 });
+  }
+  ['nombre', 'email', 'empresa', 'cif'].forEach(function (id) {
+    var f = document.getElementById(id);
+    if (f) f.addEventListener('focus', trackStart, { once: true });
+  });
+  var sectorInputEl = document.getElementById('sector-input');
+  if (sectorInputEl) sectorInputEl.addEventListener('focus', trackStart, { once: true });
+
+  /* ----------------------------------------------------------
      Helpers
   ---------------------------------------------------------- */
   function showError(field, message) {
@@ -284,7 +334,12 @@
   ---------------------------------------------------------- */
   if (btnNext) {
     btnNext.addEventListener('click', function () {
-      if (!validateStep1()) return;
+      trackStart();
+      if (!validateStep1()) {
+        track('registro_paso1_error', { campos: failedFields() });
+        return;
+      }
+      track('registro_paso1_completado', { paso: 1 });
       step1.style.display = 'none';
       step2.style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -293,6 +348,7 @@
 
   if (btnBack) {
     btnBack.addEventListener('click', function () {
+      track('registro_paso2_atras', { paso: 2 });
       step2.style.display = 'none';
       step1.style.display = 'block';
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -308,6 +364,7 @@
       if (lblMonthly) lblMonthly.classList.toggle('active', !isAnnual);
       if (lblAnnual)  lblAnnual.classList.toggle('active', isAnnual);
       if (billingHidden) billingHidden.value = isAnnual ? 'annual' : 'monthly';
+      track('registro_billing_cambiado', { billing: isAnnual ? 'annual' : 'monthly' });
       planCards.forEach(function (card) {
         var val = card.querySelector('.plan-price-val');
         if (val) val.textContent = isAnnual ? card.dataset.annual : card.dataset.monthly;
@@ -332,6 +389,7 @@
       card.classList.add('selected');
       if (empleadosHidden) empleadosHidden.value = card.dataset.value;
       if (planError) planError.style.display = 'none';
+      track('registro_plan_seleccionado', planPayload(card));
     });
   });
 
@@ -396,7 +454,17 @@
       clearCheckboxError(cbContract.closest('.form-checkbox'));
     }
 
-    if (!ok) { e.preventDefault(); return; }
+    if (!ok) {
+      track('registro_paso2_error', {
+        plan_sin_elegir: !(empleadosHidden && empleadosHidden.value),
+        privacidad_sin_aceptar: !!(cbPrivacy && !cbPrivacy.checked),
+        contrato_sin_aceptar: !!(cbContract && !cbContract.checked)
+      });
+      e.preventDefault();
+      return;
+    }
+
+    track('registro_enviado', planPayload(document.querySelector('.plan-card.selected')));
 
     var submitBtn = form.querySelector('[type="submit"]');
     if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Creando tu canal…'; }

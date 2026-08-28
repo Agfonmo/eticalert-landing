@@ -279,6 +279,7 @@ function dismissVerifyBanner(){
         <li><a href="/precios">Precios</a></li>
         <li><a href="/canal-de-denuncias">Canal de denuncias</a></li>
         <li><a href="/blog/">Blog</a></li>
+        <li><a href="/partners">Partners</a></li>
       </ul>
 
       <!-- Desktop actions -->
@@ -316,6 +317,7 @@ function dismissVerifyBanner(){
   <a href="/precios">Precios</a>
   <a href="/canal-de-denuncias">Canal de denuncias</a>
   <a href="/blog/">Blog</a>
+  <a href="/partners">Partners</a>
   <div class="nav-mobile-actions">
     <button class="theme-toggle" aria-label="Cambiar tema" style="width:100%; border-radius: var(--radius-sm);">
       <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
