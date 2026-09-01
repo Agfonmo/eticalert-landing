@@ -17,7 +17,7 @@ session_start();
 
 $p_errors = [];
 $p_sent   = isset($_GET['enviado']);
-$p_values = ['nombre'=>'','email'=>'','empresa'=>'','tipo'=>'','cartera'=>'','telefono'=>'','mensaje'=>''];
+$p_values = ['nombre'=>'','email'=>'','empresa'=>'','tipo'=>'','cartera'=>'','mensaje'=>''];
 
 if (empty($_SESSION['csrf_token'])) {
   $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
@@ -61,14 +61,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['partner_form'])) {
   $empresa  = $clean($_POST['empresa']  ?? '');
   $tipo     = $clean($_POST['tipo']     ?? '', 20);
   $cartera  = $clean($_POST['cartera']  ?? '', 20);
-  $telefono = $clean($_POST['telefono'] ?? '', 30);
   $mensaje  = $clean($_POST['mensaje']  ?? '', 2000);
   $origen   = $clean($_POST['origen']   ?? '', 500);
 
-  $p_values = compact('nombre','email','empresa','tipo','cartera','telefono','mensaje');
+  $p_values = compact('nombre','email','empresa','tipo','cartera','mensaje');
 
-  if ($nombre === '')  $p_errors['nombre']  = 'El nombre es obligatorio.';
-  if ($empresa === '') $p_errors['empresa'] = 'El nombre de tu empresa es obligatorio.';
+  if ($nombre === '') $p_errors['nombre'] = 'El nombre es obligatorio.';
   if ($email === '') {
     $p_errors['email'] = 'El email es obligatorio.';
   } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -85,11 +83,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['partner_form'])) {
     // correo. Si mail() fallase no hay red de seguridad, así que al menos queda
     // constancia del fallo en el log del servidor (sin volcar datos personales).
     $body = "Nueva solicitud del programa partner\n\n"
-      . "Nombre: {$nombre}\nEmail: {$email}\nEmpresa: {$empresa}\n"
+      . "Nombre: {$nombre}\nEmail: {$email}\nEmpresa: " . ($empresa ?: 'no indicada') . "\n"
       . "Tipo: {$p_tipos[$tipo]}\nCartera de clientes: " . ($cartera ?: 'no indicada') . "\n"
-      . "Teléfono: " . ($telefono ?: '—') . "\n\nMensaje:\n" . ($mensaje ?: '—') . "\n\n"
+      . "\nMensaje:\n" . ($mensaje ?: '—') . "\n\n"
       . "Origen: " . ($origen ?: 'directo') . "\nFecha: " . date('Y-m-d H:i:s') . "\n";
-    $enviado = @mail(PARTNERS_EMAIL, "Partner: {$empresa} ({$p_tipos[$tipo]})", $body,
+    $enviado = @mail(PARTNERS_EMAIL, "Partner: " . ($empresa ?: $nombre) . " ({$p_tipos[$tipo]})", $body,
       "From: no-reply@eticalert.com\r\nReply-To: {$email}\r\nContent-Type: text/plain; charset=UTF-8\r\n");
     if (!$enviado) {
       error_log('EticAlert: fallo al enviar solicitud partner de ' . $email);
@@ -418,7 +416,7 @@ include 'includes/header.php';
         </div>
 
         <div class="form-group">
-          <label for="p-empresa">Empresa o despacho *</label>
+          <label for="p-empresa">Empresa o despacho <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
           <input type="text" id="p-empresa" name="empresa" autocomplete="organization"
                  class="<?= isset($p_errors['empresa']) ? 'error' : '' ?>"
                  value="<?= htmlspecialchars($p_values['empresa']) ?>">
@@ -437,7 +435,7 @@ include 'includes/header.php';
         </div>
 
         <div class="form-group">
-          <label for="p-cartera">Clientes en cartera</label>
+          <label for="p-cartera">Clientes en cartera <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
           <select id="p-cartera" name="cartera">
             <option value="">Prefiero no indicarlo</option>
             <?php foreach ($p_carteras as $c): ?>
@@ -445,12 +443,6 @@ include 'includes/header.php';
             <?php endforeach; ?>
           </select>
           <?= p_err($p_errors, 'cartera') ?>
-        </div>
-
-        <div class="form-group">
-          <label for="p-telefono">Teléfono <span style="color:var(--text-muted);font-weight:400;">(opcional)</span></label>
-          <input type="tel" id="p-telefono" name="telefono" autocomplete="tel"
-                 value="<?= htmlspecialchars($p_values['telefono']) ?>">
         </div>
 
         <div class="form-group">
