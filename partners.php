@@ -81,28 +81,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['partner_form'])) {
   if (empty($p_errors)) {
     $_SESSION[$p_ip_key][] = time();
 
-    $data_dir = __DIR__ . '/data';
-    if (!is_dir($data_dir) && !mkdir($data_dir, 0700, true)) {
-      error_log('EticAlert: No se pudo crear directorio de datos: ' . $data_dir);
-    }
-    // Defensa en profundidad: si el vhost ignorase el .htaccess raíz
-    if (!file_exists($data_dir . '/.htaccess')) {
-      @file_put_contents($data_dir . '/.htaccess', "Require all denied\n");
-    }
-    $csv_line = implode(';', array_map(
-      fn($v) => str_replace(';', ',', (string)$v),
-      [date('Y-m-d H:i:s'), $nombre, $email, $empresa, $p_tipos[$tipo], $cartera,
-       $telefono, $mensaje, $origen, $_SERVER['REMOTE_ADDR'] ?? '']
-    )) . "\n";
-    file_put_contents($data_dir . '/partners.csv', $csv_line, FILE_APPEND | LOCK_EX);
-
+    // Sin persistencia local por decisión de producto: el lead vive solo en el
+    // correo. Si mail() fallase no hay red de seguridad, así que al menos queda
+    // constancia del fallo en el log del servidor (sin volcar datos personales).
     $body = "Nueva solicitud del programa partner\n\n"
       . "Nombre: {$nombre}\nEmail: {$email}\nEmpresa: {$empresa}\n"
       . "Tipo: {$p_tipos[$tipo]}\nCartera de clientes: " . ($cartera ?: 'no indicada') . "\n"
       . "Teléfono: " . ($telefono ?: '—') . "\n\nMensaje:\n" . ($mensaje ?: '—') . "\n\n"
       . "Origen: " . ($origen ?: 'directo') . "\nFecha: " . date('Y-m-d H:i:s') . "\n";
-    @mail(PARTNERS_EMAIL, "Partner: {$empresa} ({$p_tipos[$tipo]})", $body,
+    $enviado = @mail(PARTNERS_EMAIL, "Partner: {$empresa} ({$p_tipos[$tipo]})", $body,
       "From: no-reply@eticalert.com\r\nReply-To: {$email}\r\nContent-Type: text/plain; charset=UTF-8\r\n");
+    if (!$enviado) {
+      error_log('EticAlert: fallo al enviar solicitud partner de ' . $email);
+    }
 
     header('Location: /partners?enviado=1#solicitar');
     exit;
