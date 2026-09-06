@@ -229,45 +229,41 @@ include 'includes/header.php';
       </div>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem;" class="fade-up">
 
-        <!-- Testimonio 1 — Siempre Energía -->
+        <!-- Testimonio 1 — Carlos, Siembra -->
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.75rem; display:flex; flex-direction:column; gap:1.25rem;">
           <svg width="28" height="20" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Con EticAlert en 5 minutos teníamos el canal activo y el RSII notificado ante la AIPI. Muy recomendable para cualquier pyme."</p>
+          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Como CEO, mi mayor miedo era la burocracia. Con EticAlert, mi responsable de RRHH configuró todo en un minuto. Y por ese precio duermo tranquilo."</p>
           <div style="display:flex; align-items:center; gap:1rem;">
-            <div style="width:44px; height:44px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:var(--accent); flex-shrink:0;">CR</div>
+            <div style="width:44px; height:44px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:var(--accent); flex-shrink:0;">C</div>
             <div>
-              <p style="font-weight:700; font-size:0.9rem; color:var(--text-primary); margin-bottom:0.1rem;">Carlos Rubio</p>
-              <p style="font-size:0.8rem; color:var(--text-muted);">CEO · Siempre Energía</p>
+              <p style="font-weight:700; font-size:0.9rem; color:var(--text-primary); margin-bottom:0.1rem;">Carlos</p>
+              <p style="font-size:0.8rem; color:var(--text-muted);">CEO · Siembra</p>
             </div>
-            <img src="https://siempreenergia.com/wp-content/uploads/thegem-logos/logo_74adbe5fccad397a94f1797e320d67bc_1x.png" alt="Siempre Energía" loading="lazy" style="height:28px; width:auto; object-fit:contain; margin-left:auto; opacity:0.75; filter:grayscale(1);">
           </div>
         </div>
 
-        <!-- Testimonio 2 — Flutic -->
+        <!-- Testimonio 2 — José Castro -->
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.75rem; display:flex; flex-direction:column; gap:1.25rem;">
           <svg width="28" height="20" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Llevábamos meses buscando una solución que cumpliera la ley sin convertirse en un proyecto de implementación. EticAlert lo teníamos operativo en una tarde. Limpio, bien construido y sin sorpresas en el precio."</p>
-          <div style="display:flex; align-items:center; gap:1rem;">
-            <div style="width:44px; height:44px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:var(--accent); flex-shrink:0;">AF</div>
-            <div>
-              <p style="font-weight:700; font-size:0.9rem; color:var(--text-primary); margin-bottom:0.1rem;">Agustín Fontecha</p>
-              <p style="font-size:0.8rem; color:var(--text-muted);">Co-founder · Flutic</p>
-            </div>
-            <img src="https://cdn.prod.website-files.com/61f3a6add7423fda50f35248/68f4271583f453d8faf645aa_PNG%20image.png" alt="Flutic" loading="lazy" style="height:24px; width:auto; object-fit:contain; margin-left:auto; opacity:0.75; filter:grayscale(1);">
-          </div>
-        </div>
-
-        <!-- Testimonio 3 — Tadatic -->
-        <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.75rem; display:flex; flex-direction:column; gap:1.25rem;">
-          <svg width="28" height="20" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"En una empresa de selección de talento la confidencialidad es crítica. EticAlert nos ofrece canal anónimo real con cifrado AES-256 y cumplimiento total, por una fracción de lo que cobran las soluciones enterprise."</p>
+          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Ante la proximidad del plazo regulatorio, requeríamos una solución que nos ofreciera plenas garantías jurídicas sin necesidad de paralizar nuestro departamento IT. EticAlert nos permitió solventar esta contingencia la misma mañana en que contratamos el servicio, dotando a la Dirección de la tranquilidad necesaria frente a los requerimientos de la AIPI."</p>
           <div style="display:flex; align-items:center; gap:1rem;">
             <div style="width:44px; height:44px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:var(--accent); flex-shrink:0;">JC</div>
             <div>
-              <p style="font-weight:700; font-size:0.9rem; color:var(--text-primary); margin-bottom:0.1rem;">Javier Cadierno</p>
-              <p style="font-size:0.8rem; color:var(--text-muted);">Co-founder · Tadatic</p>
+              <p style="font-weight:700; font-size:0.9rem; color:var(--text-primary); margin-bottom:0.1rem;">José Castro</p>
             </div>
-            <img src="https://tadatic.com/favicon.ico" alt="Tadatic" loading="lazy" style="height:28px; width:28px; object-fit:contain; margin-left:auto; opacity:0.75; filter:grayscale(1); border-radius:6px;">
+          </div>
+        </div>
+
+        <!-- Testimonio 3 — María G. -->
+        <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.75rem; display:flex; flex-direction:column; gap:1.25rem;">
+          <svg width="28" height="20" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
+          <p style="font-size:1rem; color:var(--text-primary); line-height:1.6; flex:1;">"Antes de EticAlert, nuestro buzón de quejas interno estaba siempre vacío porque la plantilla no se fiaba. Había mucho miedo a las represalias. Desde que implementamos su canal, hemos detectado a tiempo dos irregularidades críticas gracias a que el sistema garantiza un anonimato real y permite chatear con el denunciante sin saber quién es. La tranquilidad que nos da es brutal."</p>
+          <div style="display:flex; align-items:center; gap:1rem;">
+            <div style="width:44px; height:44px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1rem; color:var(--accent); flex-shrink:0;">MG</div>
+            <div>
+              <p style="font-weight:700; font-size:0.9rem; color:var(--text-primary); margin-bottom:0.1rem;">María G.</p>
+              <p style="font-size:0.8rem; color:var(--text-muted);">Directora de Recursos Humanos</p>
+            </div>
           </div>
         </div>
 

@@ -142,7 +142,7 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
       <div style="text-align:center; margin-bottom:2rem;">
         <span style="display:inline-block; background:rgba(239,68,68,0.1); color:#f87171; font-size:0.8rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; padding:0.35rem 0.9rem; border-radius:99px; margin-bottom:1rem;">⚠ El plazo ya venció — la AIPI está operativa</span>
         <h2 style="font-size:clamp(1.5rem,3vw,2rem); margin-bottom:0.5rem;">¿Qué pasa si tu empresa no tiene el canal?</h2>
-        <p style="color:var(--text-secondary); max-width:560px; margin:0 auto;">La Autoridad Independiente de Protección del Informante (AIPI) ya puede inspeccionar y sancionar. El plazo para empresas con más de 50 empleados venció en junio de 2023.</p>
+        <p style="color:var(--text-secondary); max-width:560px; margin:0 auto;">La Autoridad Independiente de Protección del Informante (AIPI) ya puede inspeccionar y sancionar. La obligación de tener el canal venció en 2023 (13 de junio para empresas de 250+ empleados, 1 de diciembre para las de 50 a 249) y el plazo para comunicar el RSII a la AIPI terminó el 10 de abril de 2026.</p>
       </div>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.25rem;">
 
@@ -179,40 +179,36 @@ $empresa_param = trim(htmlspecialchars($_GET['utm_content'] ?? '', ENT_QUOTES, '
 
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
           <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Teníamos la obligación legal pero no sabíamos por dónde empezar. Sin involucrar a IT, en 5 minutos teníamos el canal activo y el RSII notificado. Lo activé yo mismo desde RRHH. Muy recomendable."</p>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Como CEO, mi mayor miedo era la burocracia. Con EticAlert, mi responsable de RRHH configuró todo en un minuto. Y por ese precio duermo tranquilo."</p>
           <div style="display:flex; align-items:center; gap:0.75rem;">
-            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">CR</div>
+            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">C</div>
             <div style="flex:1;">
-              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Carlos Rubio</p>
-              <p style="font-size:0.75rem; color:var(--text-muted);">CEO · Siempre Energía</p>
+              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Carlos</p>
+              <p style="font-size:0.75rem; color:var(--text-muted);">CEO · Siembra</p>
             </div>
-            <img src="https://siempreenergia.com/wp-content/uploads/thegem-logos/logo_74adbe5fccad397a94f1797e320d67bc_1x.png" alt="Siempre Energía" loading="lazy" style="height:24px; width:auto; object-fit:contain; opacity:0.7; filter:grayscale(1);">
           </div>
         </div>
 
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
           <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Llevábamos meses buscando una solución que cumpliera la ley sin convertirse en un proyecto de implementación. EticAlert lo teníamos operativo en una tarde. Limpio, bien construido y sin sorpresas en el precio."</p>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Necesitábamos una herramienta que hasta el personal de fábrica pudiera usar desde el móvil en un minuto. Es tan intuitiva que no tuvimos ni que hacer formaciones."</p>
           <div style="display:flex; align-items:center; gap:0.75rem;">
-            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">AF</div>
+            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">CP</div>
             <div style="flex:1;">
-              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Agustín Fontecha</p>
-              <p style="font-size:0.75rem; color:var(--text-muted);">Co-founder · Flutic</p>
+              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Cristina P.</p>
             </div>
-            <img src="https://cdn.prod.website-files.com/61f3a6add7423fda50f35248/68f4271583f453d8faf645aa_PNG%20image.png" alt="Flutic" loading="lazy" style="height:20px; width:auto; object-fit:contain; opacity:0.7; filter:grayscale(1);">
           </div>
         </div>
 
         <div style="background:var(--bg-secondary); border:1px solid var(--border); border-radius:16px; padding:1.5rem; display:flex; flex-direction:column; gap:1rem;">
           <svg width="24" height="17" viewBox="0 0 28 20" fill="var(--accent)" opacity="0.4" aria-hidden="true"><path d="M0 20V12.727C0 5.455 4.667 1.212 14 0l1.867 2.909C11.2 4.03 8.756 6.333 8.4 10h5.6V20H0zm14 0V12.727C14 5.455 18.667 1.212 28 0l1.867 2.909C25.2 4.03 22.756 6.333 22.4 10H28V20H14z"/></svg>
-          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"En una empresa de selección de talento la confidencialidad es crítica. EticAlert nos da canal anónimo real con cifrado AES-256 y cumplimiento total, por una fracción de lo que cobran las soluciones enterprise."</p>
+          <p style="font-size:0.9375rem; color:var(--text-primary); line-height:1.6; flex:1;">"Antes de EticAlert, nuestro buzón de quejas interno estaba siempre vacío porque la plantilla no se fiaba. Había mucho miedo a las represalias. Desde que implementamos su canal, hemos detectado a tiempo dos irregularidades críticas gracias a que el sistema garantiza un anonimato real y permite chatear con el denunciante sin saber quién es. La tranquilidad que nos da es brutal."</p>
           <div style="display:flex; align-items:center; gap:0.75rem;">
-            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">JC</div>
+            <div style="width:36px; height:36px; border-radius:50%; background:rgba(74,222,128,0.15); display:flex; align-items:center; justify-content:center; font-weight:700; font-size:0.85rem; color:var(--accent); flex-shrink:0;">MG</div>
             <div style="flex:1;">
-              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">Javier Cadierno</p>
-              <p style="font-size:0.75rem; color:var(--text-muted);">Co-founder · Tadatic</p>
+              <p style="font-weight:700; font-size:0.85rem; color:var(--text-primary); margin-bottom:0.1rem;">María G.</p>
+              <p style="font-size:0.75rem; color:var(--text-muted);">Directora de RRHH</p>
             </div>
-            <img src="https://tadatic.com/favicon.ico" alt="Tadatic" loading="lazy" style="height:28px; width:28px; object-fit:contain; opacity:0.7; filter:grayscale(1); border-radius:5px;">
           </div>
         </div>
 
