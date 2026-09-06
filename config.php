@@ -22,6 +22,18 @@ define('ADMIN_EMAIL',   'info@eticalert.com');
 define('PARTNERS_EMAIL','partners@eticalert.com');
 
 // ============================================================
+// Analítica y publicidad
+// ============================================================
+define('GA4_MEASUREMENT_ID', 'G-X2J4XCG9WY');
+
+// Google Ads: rellenar al crear la campaña.
+//   GOOGLE_ADS_ID              → identificador de la cuenta,  formato 'AW-1234567890'
+//   GOOGLE_ADS_LABEL_REGISTRO  → label de la acción de conversión "alta de prueba"
+// Mientras estén vacíos no se emite ninguna etiqueta de Ads (no rompe nada).
+define('GOOGLE_ADS_ID',             '');
+define('GOOGLE_ADS_LABEL_REGISTRO', '');
+
+// ============================================================
 // AggregateRating — estrellas en Google SERP
 // Actualizar con datos reales de Capterra/G2 al conseguir reviews.
 // Con REVIEW_COUNT = 0 no se emite ningún schema (evita datos falsos).

@@ -58,7 +58,7 @@ if (!isset($page_content_group)) {
   <title><?= htmlspecialchars($page_title) ?></title>
   <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
   <meta name="msvalidate.01" content="A1E6610871F9EA1F407ABFD506E502D5" />
-  <!-- Consent Mode v2 — debe ir ANTES del script de GA4 -->
+  <!-- Consent Mode v2 + init de gtag — debe ir ANTES de cargar gtag.js -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -72,31 +72,46 @@ if (!isset($page_content_group)) {
     });
     // Restaurar elección previa del usuario si ya la tomó
     (function(){
-      var choice = localStorage.getItem('eticalert_cookies_accepted');
-      if (choice === 'all') {
-        gtag('consent', 'update', {
-          'analytics_storage':  'granted',
-          'ad_storage':         'granted',
-          'ad_user_data':       'granted',
-          'ad_personalization': 'granted'
-        });
+      try {
+        if (localStorage.getItem('eticalert_cookies_accepted') === 'all') {
+          gtag('consent', 'update', {
+            'analytics_storage':  'granted',
+            'ad_storage':         'granted',
+            'ad_user_data':       'granted',
+            'ad_personalization': 'granted'
+          });
+        }
+      } catch (e) {}
+    })();
+    // Init SÍNCRONO en el dataLayer (patrón estándar de gtag). gtag.js se carga
+    // diferido más abajo y procesa estas llamadas al arrancar; así no se pierden
+    // pageviews aunque 'load' ya haya ocurrido (bfcache, restauración de pestaña).
+    gtag('js', new Date());
+    gtag('config', '<?= GA4_MEASUREMENT_ID ?>', {
+    <?php if (!empty($page_content_group)): ?>  'content_group': '<?= htmlspecialchars($page_content_group) ?>',
+    <?php endif; ?>  'debug_mode': <?= isset($_GET['ga_debug']) ? 'true' : 'false' ?>
+    });
+    <?php if (defined('GOOGLE_ADS_ID') && GOOGLE_ADS_ID !== ''): ?>
+    gtag('config', '<?= GOOGLE_ADS_ID ?>');
+    <?php endif; ?>
+  </script>
+  <!-- gtag.js — carga diferida para no competir con el LCP -->
+  <script>
+    (function(){
+      function loadGtag(){
+        if (window.__gtagLoaded) return;
+        window.__gtagLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=<?= GA4_MEASUREMENT_ID ?>';
+        document.head.appendChild(s);
+      }
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadGtag, { timeout: 3000 });
+      } else {
+        setTimeout(loadGtag, 1500);
       }
     })();
-  </script>
-  <!-- Google Analytics — carga diferida post-LCP para no bloquear el render -->
-  <script>
-    window.addEventListener('load', function() {
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-X2J4XCG9WY';
-      document.head.appendChild(s);
-      s.onload = function() {
-        gtag('js', new Date());
-        gtag('config', 'G-X2J4XCG9WY'<?php if (!empty($page_content_group)): ?>, {
-          'content_group': '<?= htmlspecialchars($page_content_group) ?>'
-        }<?php endif; ?>);
-      };
-    });
   </script>
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="es-ES"  href="<?= htmlspecialchars($page_canonical) ?>">

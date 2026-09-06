@@ -69,6 +69,16 @@ include 'includes/header.php';
       currency: 'EUR',
       value:    9.0   // valor mínimo del plan (9€/mes) — ayuda a optimizar pujas
     });
+
+<?php if (defined('GOOGLE_ADS_ID') && GOOGLE_ADS_ID !== '' && defined('GOOGLE_ADS_LABEL_REGISTRO') && GOOGLE_ADS_LABEL_REGISTRO !== ''): ?>
+    // 4. Conversión directa de Google Ads (no depende del import de GA4, que a este
+    //    volumen no alimenta nada). Capta la conversión por gclid de quien aceptó cookies.
+    gtag('event', 'conversion', {
+      send_to:  '<?= GOOGLE_ADS_ID ?>/<?= GOOGLE_ADS_LABEL_REGISTRO ?>',
+      value:    9.0,
+      currency: 'EUR'
+    });
+<?php endif; ?>
   }
 
   if (document.readyState === 'complete') {
