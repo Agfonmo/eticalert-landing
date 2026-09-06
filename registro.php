@@ -451,6 +451,11 @@ function field_value($field, $default = '') {
         <!-- Información lateral -->
         <div class="form-info">
 
+          <div class="form-info-card" style="border-color:var(--accent-border);">
+            <h3>Por qué activarlo ya</h3>
+            <p>El plazo para tener el canal venció en 2023 y la AIPI ya inspecciona y sanciona: hasta <strong style="color:var(--text-primary);">1.000.000&nbsp;€</strong> por infracción muy grave. Con EticAlert lo tienes operativo hoy, <strong style="color:var(--text-primary);">desde 9&nbsp;€/mes</strong> por empresa y sin permanencia.</p>
+          </div>
+
           <div class="form-info-card">
             <h3>¿Qué pasa después?</h3>
             <ol style="list-style:none;display:flex;flex-direction:column;gap:0.75rem;margin-top:0.75rem;">
