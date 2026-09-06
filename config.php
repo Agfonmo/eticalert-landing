@@ -26,6 +26,10 @@ define('PARTNERS_EMAIL','partners@eticalert.com');
 // ============================================================
 define('GA4_MEASUREMENT_ID', 'G-X2J4XCG9WY');
 
+// Ahrefs Web Analytics (sin cookies, sin banner de consentimiento).
+// Analítica de respaldo independiente de GA4 y verificación del sitio en Ahrefs.
+define('AHREFS_ANALYTICS_KEY', 'Aom3aidF5VN9lpuqvUSwsw');
+
 // Google Ads: rellenar al crear la campaña.
 //   GOOGLE_ADS_ID              → identificador de la cuenta,  formato 'AW-1234567890'
 //   GOOGLE_ADS_LABEL_REGISTRO  → label de la acción de conversión "alta de prueba"

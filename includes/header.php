@@ -113,6 +113,10 @@ if (!isset($page_content_group)) {
       }
     })();
   </script>
+  <?php if (defined('AHREFS_ANALYTICS_KEY') && AHREFS_ANALYTICS_KEY !== ''): ?>
+  <!-- Ahrefs Web Analytics — sin cookies, no requiere consentimiento -->
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="<?= AHREFS_ANALYTICS_KEY ?>" async></script>
+  <?php endif; ?>
   <link rel="canonical" href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="es-ES"  href="<?= htmlspecialchars($page_canonical) ?>">
   <link rel="alternate" hreflang="x-default" href="<?= htmlspecialchars($page_canonical) ?>">
