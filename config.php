@@ -30,12 +30,13 @@ define('GA4_MEASUREMENT_ID', 'G-X2J4XCG9WY');
 // Analítica de respaldo independiente de GA4 y verificación del sitio en Ahrefs.
 define('AHREFS_ANALYTICS_KEY', 'Aom3aidF5VN9lpuqvUSwsw');
 
-// Google Ads: rellenar al crear la campaña.
-//   GOOGLE_ADS_ID              → identificador de la cuenta,  formato 'AW-1234567890'
-//   GOOGLE_ADS_LABEL_REGISTRO  → label de la acción de conversión "alta de prueba"
-// Mientras estén vacíos no se emite ninguna etiqueta de Ads (no rompe nada).
-define('GOOGLE_ADS_ID',             '');
-define('GOOGLE_ADS_LABEL_REGISTRO', '');
+// Google Ads.
+//   GOOGLE_ADS_ID              → ID de la etiqueta de Google Ads (cuenta ocid 8103402684)
+//   GOOGLE_ADS_LABEL_REGISTRO  → label de la acción de conversión "Prueba 15 dias - registro web"
+// header.php carga gtag('config', GOOGLE_ADS_ID) y registro-confirmacion.php dispara
+// gtag('event','conversion', {send_to: GOOGLE_ADS_ID/GOOGLE_ADS_LABEL_REGISTRO}).
+define('GOOGLE_ADS_ID',             'AW-18030456838');
+define('GOOGLE_ADS_LABEL_REGISTRO', 'sRlNCMfusfAcEIbgy5VD');
 
 // ============================================================
 // AggregateRating — estrellas en Google SERP
