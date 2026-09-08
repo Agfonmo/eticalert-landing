@@ -133,7 +133,7 @@ if ($submitted) {
     $plan = $plan_map[$empleados];
 
     // ---- Llamada a la API de app ----
-    $api_payload = json_encode([
+    $api_fields = [
       'adminName'                 => $nombre,
       'companyName'               => $empresa,
       'cif'                       => $cif,
@@ -143,8 +143,14 @@ if ($submitted) {
       'billingPeriod'             => $billing,
       'acceptTermsAndPrivacy'     => true,
       'acceptCompanyAdminContract'=> true,
-      'partnerRef'                => $partner_ref ?: null,   // ← nuevo, opcional
-    ], JSON_UNESCAPED_UNICODE);
+    ];
+    // partnerRef solo se añade si hay invitación real: así los registros
+    // normales mandan un payload idéntico al de hoy y no dependen de que
+    // la API ya conozca el campo. La app trata ausente/null/"" igual.
+    if ($partner_ref) {
+      $api_fields['partnerRef'] = $partner_ref;
+    }
+    $api_payload = json_encode($api_fields, JSON_UNESCAPED_UNICODE);
 
     $api_ok = false;
     $api_error_msg = '';
