@@ -25,6 +25,38 @@ $ip_key = 'reg_attempts_' . hash('sha256', $_SERVER['REMOTE_ADDR'] ?? '');
 if (!isset($_SESSION[$ip_key])) $_SESSION[$ip_key] = [];
 $_SESSION[$ip_key] = array_filter($_SESSION[$ip_key], fn($t) => $t > time() - 600);
 
+// Invitación de partner (opcional) — se resuelve aquí, server-side,
+// antes de renderizar nada. Nunca bloquea el registro si falla o caduca.
+$partner_ref = $_GET['ref'] ?? $_POST['partner_ref'] ?? null;
+$partner_invite_status = null;
+$partner_name = null;
+$partner_benefit_mode = null;
+if ($partner_ref && function_exists('curl_init')) {
+  $ch = curl_init(API_BASE . '/api/public/partner-invites/' . urlencode($partner_ref));
+  curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_CONNECTTIMEOUT => 2,
+    CURLOPT_TIMEOUT        => 5, // corto: si tarda, seguimos sin el aviso, nunca bloqueamos
+    CURLOPT_SSL_VERIFYPEER => true,
+  ]);
+  $resp = curl_exec($ch);
+  $status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+  curl_close($ch);
+  // Solo se toma como válida una respuesta 200 real con body parseable. Si
+  // salta el rate limit, hay timeout, un 5xx o el body viene malformado,
+  // $partner_invite_status queda null y NO se muestra ningún aviso (ni el
+  // de caducado) — no hemos comprobado nada de verdad.
+  if ($status_code === 200 && is_array($data = json_decode($resp, true))) {
+    $partner_invite_status = $data['status'] ?? null;
+    $partner_name          = $data['partnerName'] ?? null;
+    $partner_benefit_mode  = $data['benefitMode'] ?? null;
+  } else {
+    // Log temporal para depurar la puesta en marcha en staging — quitar
+    // cuando esté verificado, igual que ya se hace con API_REGISTER.
+    error_log("EticAlert partner-invite check: status={$status_code} response=" . substr((string) $resp, 0, 300));
+  }
+}
+
 $plan_map = ['1-20' => 'STARTER', '21-49' => 'BUSINESS', '50-150' => 'COMPANY', '150+' => 'ENTERPRISE'];
 
 $sectors = [
@@ -101,7 +133,7 @@ if ($submitted) {
     $plan = $plan_map[$empleados];
 
     // ---- Llamada a la API de app ----
-    $api_payload = json_encode([
+    $api_fields = [
       'adminName'                 => $nombre,
       'companyName'               => $empresa,
       'cif'                       => $cif,
@@ -111,7 +143,14 @@ if ($submitted) {
       'billingPeriod'             => $billing,
       'acceptTermsAndPrivacy'     => true,
       'acceptCompanyAdminContract'=> true,
-    ], JSON_UNESCAPED_UNICODE);
+    ];
+    // partnerRef solo se añade si hay invitación real: así los registros
+    // normales mandan un payload idéntico al de hoy y no dependen de que
+    // la API ya conozca el campo. La app trata ausente/null/"" igual.
+    if ($partner_ref) {
+      $api_fields['partnerRef'] = $partner_ref;
+    }
+    $api_payload = json_encode($api_fields, JSON_UNESCAPED_UNICODE);
 
     $api_ok = false;
     $api_error_msg = '';
@@ -277,10 +316,29 @@ function field_value($field, $default = '') {
           </div>
           <?php endif; ?>
 
+          <?php if ($partner_invite_status === 'PENDING' && $partner_name): ?>
+          <div class="callout" style="margin-bottom:1.5rem;">
+            <?php if ($partner_benefit_mode === 'DISCOUNT_CLIENT'): ?>
+            <p>Te invita <strong><?= htmlspecialchars($partner_name, ENT_QUOTES, 'UTF-8') ?></strong> — tu alta puede incluir una condición especial en tu suscripción.</p>
+            <?php else: ?>
+            <p>Te invita <strong><?= htmlspecialchars($partner_name, ENT_QUOTES, 'UTF-8') ?></strong>.</p>
+            <?php endif; ?>
+          </div>
+          <?php elseif ($partner_invite_status === 'EXPIRED' || $partner_invite_status === 'NOT_FOUND'): ?>
+          <div class="callout" style="margin-bottom:1.5rem;">
+            <p>Este enlace de invitación ha caducado. Puedes registrarte igualmente, pero no se aplicará ninguna condición especial.</p>
+          </div>
+          <?php elseif ($partner_invite_status === 'ACCEPTED'): ?>
+          <div class="callout" style="margin-bottom:1.5rem;">
+            <p>Esta invitación ya se ha utilizado.</p>
+          </div>
+          <?php endif; ?>
+
           <form id="registro-form" method="POST" action="/registro" novalidate>
             <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($csrf_token) ?>">
             <input type="hidden" name="empleados"  id="empleados-hidden" value="<?= field_value('empleados') ?>">
             <input type="hidden" name="billing"    id="billing-hidden"   value="<?= field_value('billing', 'monthly') ?>">
+            <input type="hidden" name="partner_ref" value="<?= htmlspecialchars($partner_ref ?? '', ENT_QUOTES, 'UTF-8') ?>">
             <!-- Honeypot anti-bot (oculto con CSS) -->
             <div style="position:absolute;left:-9999px;opacity:0;pointer-events:none;" aria-hidden="true">
               <input type="text" name="website" tabindex="-1" autocomplete="off">
